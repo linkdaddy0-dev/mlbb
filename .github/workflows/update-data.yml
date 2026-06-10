@@ -31,6 +31,9 @@ jobs:
     - name: Run Crawler Scraper
       run: python scraper.py
 
+    - name: Scrape Missing GMS Heroes Data
+      run: python scripts/scrape_gms_data.py
+
     - name: Compile Optimized Static JSON
       run: python compile_data.py
 

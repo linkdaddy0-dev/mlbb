@@ -117,7 +117,7 @@ def main():
         "Content-Type": "application/json"
     })
     
-    url = "https://api.gms.moontontech.com/api/gms/source/2713644/2766683"
+    url = "https://mlbb-ota-proxy.linkdaddy0.workers.dev/gms/api/gms/source/2713644/2766683"
     
     # We will fetch GMS records localized for each language
     localized_data = {}
