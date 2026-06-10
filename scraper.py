@@ -8,7 +8,7 @@ from urllib3.util import Retry
 
 # 7 target languages for high-fidelity multi-language PWA support
 LANGUAGES = ['en', 'id', 'es', 'pt', 'ru', 'tr', 'tl']
-BASE_URL = "https://mapi.mobilelegends.com"
+BASE_URL = "https://mlbb-ota-proxy.linkdaddy0.workers.dev/moonton"
 HERO_LIST_URL = f"{BASE_URL}/hero/list"
 HERO_DETAIL_URL = f"{BASE_URL}/hero/detail"
 

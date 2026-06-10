@@ -4,7 +4,7 @@ import re
 from datetime import datetime
 
 # Build configurations
-PATCH_VERSION = "1.8.84"
+PATCH_VERSION = "2.1.18"
 LANGUAGES = ['en', 'id', 'es', 'pt', 'ru', 'tr', 'tl']
 RAW_DIR = os.path.join("data", "raw")
 PUBLIC_DATA_DIR = os.path.join("public", "data")
