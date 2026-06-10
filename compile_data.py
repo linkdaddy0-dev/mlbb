@@ -1,6 +1,7 @@
 import os
 import json
 import re
+import shutil
 from datetime import datetime
 
 # Build configurations
@@ -15,6 +16,8 @@ def setup_directories(lang):
     """Ensure localized target patches and heroes directories are ready."""
     os.makedirs(META_DIR, exist_ok=True)
     lang_dir = os.path.join(PATCHES_DIR, lang)
+    if os.path.exists(lang_dir):
+        shutil.rmtree(lang_dir)
     os.makedirs(lang_dir, exist_ok=True)
     os.makedirs(os.path.join(lang_dir, "heroes"), exist_ok=True)
 
@@ -173,9 +176,12 @@ def compile_data():
         except Exception as e:
             print(f"Error loading hero_meta_stats.json: {e}")
 
-    # Build name-to-meta lookup
+    # Build stable ID lookup first; localized names are not reliable join keys.
+    id_to_meta = {}
     name_to_meta = {}
     for m in meta_stats:
+        if m.get("id") is not None:
+            id_to_meta[int(m["id"])] = m
         if "name" in m:
             name_to_meta[m["name"].lower().strip()] = m
 
@@ -287,6 +293,7 @@ def compile_data():
             
             h_id_str = str(h_id)
             h_name_lower = name.lower().strip()
+            meta = id_to_meta.get(h_id) or name_to_meta.get(h_name_lower, {})
 
             # Resolve Avatar URL (Local clean WebP prioritised > Moonton API map > Raw key > meta stats)
             avatar_file = f"Hero{h_id:02d}1-icon.webp"
@@ -299,8 +306,8 @@ def compile_data():
                     avatar_url = sanitize_url(avatar_map[h_id_str])
                 if not avatar_url:
                     avatar_url = sanitize_url(raw.get("key", ""))
-                if (not avatar_url or "placehold" in avatar_url) and h_name_lower in name_to_meta:
-                    avatar_url = sanitize_url(name_to_meta[h_name_lower].get("avatar_url", ""))
+                if not avatar_url or "placehold" in avatar_url:
+                    avatar_url = sanitize_url(meta.get("avatar_url", ""))
                 avatar_url = resolve_local(avatar_url)
 
             # Resolve Cover URL (Local WebP banner > Raw cover > meta stats cover > avatar fallback)
@@ -310,8 +317,8 @@ def compile_data():
                 cover_url = f"/assets/banners/{banner_file}"
             else:
                 cover_url = sanitize_url(raw.get("cover_picture", ""))
-                if (not cover_url or "placehold" in cover_url) and h_name_lower in name_to_meta:
-                    cover_url = sanitize_url(name_to_meta[h_name_lower].get("cover_thumb", ""))
+                if not cover_url or "placehold" in cover_url:
+                    cover_url = sanitize_url(meta.get("cover_thumb", ""))
                 if not cover_url or "placehold" in cover_url:
                     cover_url = avatar_url
                 cover_url = resolve_local(cover_url)
@@ -328,24 +335,44 @@ def compile_data():
             win_rate = 50.0 + (h_id % 5) * 0.9
             pick_rate = 5.0 + (h_id % 8) * 1.5
             ban_rate = 1.0 + (h_id % 12) * 2.2
+            tier = 'A'
             
-            if h_name_lower in name_to_meta:
-                meta = name_to_meta[h_name_lower]
+            if meta:
                 win_rate = meta.get("win_rate", win_rate)
                 pick_rate = meta.get("pick_rate", pick_rate)
                 ban_rate = meta.get("ban_rate", ban_rate)
+                tier = meta.get("tier", 'A')
+
+            official_battle = meta.get("battle_status", {})
+            if official_battle:
+                durability = int(official_battle.get("durability", durability))
+                offense = int(official_battle.get("offense", offense))
+                magic = int(official_battle.get("control_effect", magic))
+                difficulty = int(official_battle.get("difficulty", difficulty))
                 
             # Append to Lightweight Roster Index
             roster_index.append({
                 "id": h_id,
                 "name": name,
                 "role": role,
+                "roles": meta.get("roles", [role]),
+                "lane": meta.get("lane", "Unknown"),
+                "specialties": meta.get("specialties", []),
                 "avatar_url": avatar_url,
                 "cover_thumb": cover_url,
                 "cover_transparent": cover_transparent_url,
                 "win_rate": win_rate,
                 "pick_rate": pick_rate,
-                "ban_rate": ban_rate
+                "ban_rate": ban_rate,
+                "tier": tier,
+                "battle_status": {
+                    "durability": durability,
+                    "offense": offense,
+                    "control_effect": magic,
+                    "difficulty": difficulty
+                },
+                "stats_rank": meta.get("stats_rank"),
+                "stats_updated_at": meta.get("stats_updated_at")
             })
             
             # Compile individual skills
@@ -423,7 +450,22 @@ def compile_data():
                 "durability": durability,
                 "offense": offense,
                 "magic": magic,
+                "control_effect": magic,
                 "difficulty": difficulty,
+                "battle_status": {
+                    "durability": durability,
+                    "offense": offense,
+                    "control_effect": magic,
+                    "difficulty": difficulty
+                },
+                "win_rate": win_rate,
+                "pick_rate": pick_rate,
+                "ban_rate": ban_rate,
+                "lane": meta.get("lane", "Unknown"),
+                "roles": meta.get("roles", [role]),
+                "specialties": meta.get("specialties", []),
+                "stats_rank": meta.get("stats_rank"),
+                "stats_updated_at": meta.get("stats_updated_at"),
                 "avatar_url": avatar_url,
                 "cover_url": cover_url,
                 "cover_thumb": cover_url,

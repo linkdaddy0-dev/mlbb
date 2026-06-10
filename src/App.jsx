@@ -450,24 +450,11 @@ const getHeroStats = (hero) => {
 
   if (!hero) return {};
 
-  return HERO_STATS_DATA[hero.name] || {
-
-    hp: "2600",
-
-    physAttack: "115",
-
-    physDef: "20",
-
-    magicDef: "12",
-
-    attackSpeed: "0.90",
-
-    mana: "440",
-
-    critChance: "5%",
-
-    speed: "250"
-
+  return hero.battle_status || HERO_STATS_DATA[hero.name] || {
+    durability: 0,
+    offense: 0,
+    control_effect: 0,
+    difficulty: 0
   };
 
 };
@@ -690,6 +677,8 @@ export default function App() {
   const [patchMeta, setPatchMeta] = useState({ current_patch: "1.8.84", total_heroes: 124 });
   const [loading, setLoading] = useState(false);
   const appMountTimeRef = useRef(Date.now());
+  const activeDataBaseUrlRef = useRef(window.location.origin);
+  const activeDataRevisionRef = useRef('');
   const [showSplash, setShowSplash] = useState(true);
   const [fadeOutSplash, setFadeOutSplash] = useState(false);
   const [videoFinished, setVideoFinished] = useState(false);
@@ -2125,7 +2114,10 @@ export default function App() {
         // Try checking remote Cloudflare Worker proxy first (OTA update)
         try {
           console.log(`[App] Checking remote OTA patch metadata from: ${REMOTE_UPDATE_BASE_URL}`);
-          const remotePatchRes = await fetch(`${REMOTE_UPDATE_BASE_URL}/data/meta/current_patch.json`);
+          const remotePatchRes = await fetch(
+            `${REMOTE_UPDATE_BASE_URL}/data/meta/current_patch.json?t=${Date.now()}`,
+            { cache: 'no-store' }
+          );
           if (remotePatchRes.ok) {
             const data = await remotePatchRes.json();
             if (data && data.current_patch) {
@@ -2151,6 +2143,9 @@ export default function App() {
         setPatchMeta(patchData);
         const version = patchData.current_patch;
         const lastUpdated = patchData.last_updated_time;
+        const revisionQuery = lastUpdated ? `?rev=${encodeURIComponent(lastUpdated)}` : '';
+        activeDataBaseUrlRef.current = activeBaseUrl;
+        activeDataRevisionRef.current = revisionQuery;
 
         const localKey = `mlbb_patch_last_updated_${version}_${lang}`;
         const prevLastUpdated = localStorage.getItem(localKey);
@@ -2163,8 +2158,8 @@ export default function App() {
 
         // Fetch index.json and draft_matrix.json concurrently from active base URL
         const [indexRes, matrixRes] = await Promise.all([
-          fetch(`${activeBaseUrl}/data/patches/${version}/${lang}/heroes/index.json`),
-          fetch(`${activeBaseUrl}/data/patches/${version}/${lang}/draft_matrix.json`)
+          fetch(`${activeBaseUrl}/data/patches/${version}/${lang}/heroes/index.json${revisionQuery}`),
+          fetch(`${activeBaseUrl}/data/patches/${version}/${lang}/draft_matrix.json${revisionQuery}`)
         ]);
 
         if (!indexRes.ok || !matrixRes.ok) {
@@ -2181,7 +2176,7 @@ export default function App() {
         TelemetryService.log('boot_load_success', { version, lang, isUsingRemote });
 
         // 3. Asynchronously seed database in the background non-blockingly
-        BackgroundSeeder.start(version, lang, indexData, activeBaseUrl);
+        BackgroundSeeder.start(version, lang, indexData, activeBaseUrl, lastUpdated);
 
       } catch (err) {
 
@@ -2411,6 +2406,8 @@ export default function App() {
 
   const getHeroTier = (heroName) => {
     if (!heroName) return 'A';
+    const dynamicHero = heroes.find(h => h.name.toLowerCase() === heroName.toLowerCase());
+    if (dynamicHero && dynamicHero.tier) return dynamicHero.tier;
     const meta = HERO_META_STATS.find(m => m.name.toLowerCase() === heroName.toLowerCase());
     return meta ? meta.tier : 'A';
   };
@@ -2707,7 +2704,9 @@ export default function App() {
 
           // Fallback read-through local assets path if background seeder has not finished yet
 
-          fetch(`${window.location.origin}/data/patches/${version}/${lang}/heroes/${hero.id}.json`)
+          fetch(
+            `${activeDataBaseUrlRef.current}/data/patches/${version}/${lang}/heroes/${hero.id}.json${activeDataRevisionRef.current}`
+          )
 
             .then(res => {
 
@@ -5874,30 +5873,17 @@ export default function App() {
 
 
 
-          // Merge heroes with meta stats
-
           const mergedHeroes = heroes.map(hero => {
-
             const meta = metaLookup[hero.name.toLowerCase()];
-
             return {
-
               ...hero,
-
-              win_rate: meta ? meta.win_rate : (hero.win_rate || 50),
-
-              pick_rate: meta ? meta.pick_rate : (hero.pick_rate || 0),
-
-              ban_rate: meta ? meta.ban_rate : (hero.ban_rate || 0),
-
-              tier: meta ? meta.tier : 'B',
-
-              lane: meta ? meta.lane : (hero.lane || ''),
-
-              roles: meta ? meta.roles : [hero.role]
-
+              win_rate: hero.win_rate != null ? hero.win_rate : (meta ? meta.win_rate : 50),
+              pick_rate: hero.pick_rate != null ? hero.pick_rate : (meta ? meta.pick_rate : 0),
+              ban_rate: hero.ban_rate != null ? hero.ban_rate : (meta ? meta.ban_rate : 0),
+              tier: hero.tier || (meta ? meta.tier : 'B'),
+              lane: hero.lane || (meta ? meta.lane : ''),
+              roles: hero.roles || (meta ? meta.roles : [hero.role])
             };
-
           });
 
 
@@ -8715,18 +8701,14 @@ export default function App() {
                             </div>
                             
                             <div className="guide-panel-card">
-                              <h5 className="panel-card-title">Esports Numerical Attributes</h5>
+                              <h5 className="panel-card-title">Official Hero Attributes</h5>
                               
                               <div className="attributes-grid">
                                 {[
-                                  { label: "Movement Speed", val: getHeroStats(selectedHero).speed },
-                                  { label: "Physical Attack", val: getHeroStats(selectedHero).physAttack },
-                                  { label: "Physical Defense", val: getHeroStats(selectedHero).physDef },
-                                  { label: "Magic Defense", val: getHeroStats(selectedHero).magicDef },
-                                  { label: "Maximum HP", val: getHeroStats(selectedHero).hp },
-                                  { label: "Maximum Mana", val: getHeroStats(selectedHero).mana },
-                                  { label: "Attack Speed", val: getHeroStats(selectedHero).attackSpeed },
-                                  { label: "Critical Chance", val: getHeroStats(selectedHero).critChance }
+                                  { label: "Durability", val: getHeroStats(selectedHero).durability },
+                                  { label: "Offense", val: getHeroStats(selectedHero).offense },
+                                  { label: "Control Effect", val: getHeroStats(selectedHero).control_effect },
+                                  { label: "Difficulty", val: getHeroStats(selectedHero).difficulty }
                                 ].map((attr, idx) => (
                                   <div key={idx} className="attribute-row">
                                     <span className="attribute-name">{attr.label}</span>
