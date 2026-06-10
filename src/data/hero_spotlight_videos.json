@@ -1,0 +1,794 @@
+{
+  "1": {
+    "name": "Miya",
+    "video_id": "mluQwhjQEIA",
+    "embed_url": "https://www.youtube.com/embed/mluQwhjQEIA",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Miya+Guide"
+  },
+  "10": {
+    "name": "Franco",
+    "video_id": "da5rHgtRZoI",
+    "embed_url": "https://www.youtube.com/embed/da5rHgtRZoI",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Franco+Guide"
+  },
+  "100": {
+    "name": "Brody",
+    "video_id": "vDy9VzBG-RA",
+    "embed_url": "https://www.youtube.com/embed/vDy9VzBG-RA",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Brody+Guide"
+  },
+  "101": {
+    "name": "Yve",
+    "video_id": "a8PVlikXy20",
+    "embed_url": "https://www.youtube.com/embed/a8PVlikXy20",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Yve+Guide"
+  },
+  "102": {
+    "name": "Mathilda",
+    "video_id": "HKbPUk4tWY8",
+    "embed_url": "https://www.youtube.com/embed/HKbPUk4tWY8",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Mathilda+Guide"
+  },
+  "103": {
+    "name": "Paquito",
+    "video_id": "gcp98FvjQYs",
+    "embed_url": "https://www.youtube.com/embed/gcp98FvjQYs",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Paquito+Guide"
+  },
+  "104": {
+    "name": "Gloo",
+    "video_id": "-S1F-2UJmrU",
+    "embed_url": "https://www.youtube.com/embed/-S1F-2UJmrU",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Gloo+Guide"
+  },
+  "105": {
+    "name": "Beatrix",
+    "video_id": "3tZc1L3uSAc",
+    "embed_url": "https://www.youtube.com/embed/3tZc1L3uSAc",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Beatrix+Guide"
+  },
+  "106": {
+    "name": "Phoveus",
+    "video_id": "BPZzJf2I8ek",
+    "embed_url": "https://www.youtube.com/embed/BPZzJf2I8ek",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Phoveus+Guide"
+  },
+  "107": {
+    "name": "Natan",
+    "video_id": "Y7s2R9HoKP0",
+    "embed_url": "https://www.youtube.com/embed/Y7s2R9HoKP0",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Natan+Guide"
+  },
+  "108": {
+    "name": "Aulus",
+    "video_id": "koALw7pY9l0",
+    "embed_url": "https://www.youtube.com/embed/koALw7pY9l0",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Aulus+Guide"
+  },
+  "109": {
+    "name": "Aamon",
+    "video_id": "75G9X3Ub-2A",
+    "embed_url": "https://www.youtube.com/embed/75G9X3Ub-2A",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Aamon+Guide"
+  },
+  "11": {
+    "name": "Bane",
+    "video_id": "-O4DkMe8w-g",
+    "embed_url": "https://www.youtube.com/embed/-O4DkMe8w-g",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Bane+Guide"
+  },
+  "110": {
+    "name": "Valentina",
+    "video_id": "WJGo10s2EiM",
+    "embed_url": "https://www.youtube.com/embed/WJGo10s2EiM",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Valentina+Guide"
+  },
+  "111": {
+    "name": "Edith",
+    "video_id": "3KH1SQ1mCts",
+    "embed_url": "https://www.youtube.com/embed/3KH1SQ1mCts",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Edith+Guide"
+  },
+  "112": {
+    "name": "Floryn",
+    "video_id": "FfKbL5-u204",
+    "embed_url": "https://www.youtube.com/embed/FfKbL5-u204",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Floryn+Guide"
+  },
+  "113": {
+    "name": "Yin",
+    "video_id": "E6EQM7SSzjA",
+    "embed_url": "https://www.youtube.com/embed/E6EQM7SSzjA",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Yin+Guide"
+  },
+  "114": {
+    "name": "Melissa",
+    "video_id": "L3DvXXAMnug",
+    "embed_url": "https://www.youtube.com/embed/L3DvXXAMnug",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Melissa+Guide"
+  },
+  "115": {
+    "name": "Xavier",
+    "video_id": "ozM0U2Enuy8",
+    "embed_url": "https://www.youtube.com/embed/ozM0U2Enuy8",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Xavier+Guide"
+  },
+  "116": {
+    "name": "Julian",
+    "video_id": "FAn0Id5_kd4",
+    "embed_url": "https://www.youtube.com/embed/FAn0Id5_kd4",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Julian+Guide"
+  },
+  "117": {
+    "name": "Fredrinn",
+    "video_id": "rwC8KGTmEm8",
+    "embed_url": "https://www.youtube.com/embed/rwC8KGTmEm8",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Fredrinn+Guide"
+  },
+  "118": {
+    "name": "Joy",
+    "video_id": "ZYQsPveQrDM",
+    "embed_url": "https://www.youtube.com/embed/ZYQsPveQrDM",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Joy+Guide"
+  },
+  "119": {
+    "name": "Novaria",
+    "video_id": "mnnEU2xURnQ",
+    "embed_url": "https://www.youtube.com/embed/mnnEU2xURnQ",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Novaria+Guide"
+  },
+  "12": {
+    "name": "Bruno",
+    "video_id": "g59YC1f6UY8",
+    "embed_url": "https://www.youtube.com/embed/g59YC1f6UY8",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Bruno+Guide"
+  },
+  "120": {
+    "name": "Arlott",
+    "video_id": "rbH-xoLRqxw",
+    "embed_url": "https://www.youtube.com/embed/rbH-xoLRqxw",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Arlott+Guide"
+  },
+  "121": {
+    "name": "Ixia",
+    "video_id": "ym9Eey2Gusc",
+    "embed_url": "https://www.youtube.com/embed/ym9Eey2Gusc",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Ixia+Guide"
+  },
+  "122": {
+    "name": "Nolan",
+    "video_id": "Dh4KSGV8t0E",
+    "embed_url": "https://www.youtube.com/embed/Dh4KSGV8t0E",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Nolan+Guide"
+  },
+  "123": {
+    "name": "Cici",
+    "video_id": "QqHFRpGzTXE",
+    "embed_url": "https://www.youtube.com/embed/QqHFRpGzTXE",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Cici+Guide"
+  },
+  "124": {
+    "name": "Chip",
+    "video_id": "u6Z4ZBGGj78",
+    "embed_url": "https://www.youtube.com/embed/u6Z4ZBGGj78",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Chip+Guide"
+  },
+  "125": {
+    "name": "Zhuxin",
+    "video_id": "8j_Fg21hYYI",
+    "embed_url": "https://www.youtube.com/embed/8j_Fg21hYYI",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Zhuxin+Guide"
+  },
+  "126": {
+    "name": "Suyou",
+    "video_id": "s7s6GAw_aXg",
+    "embed_url": "https://www.youtube.com/embed/s7s6GAw_aXg",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Suyou+Guide"
+  },
+  "127": {
+    "name": "Lukas",
+    "video_id": "Kne0SVBQ8F4",
+    "embed_url": "https://www.youtube.com/embed/Kne0SVBQ8F4",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Lukas+Guide"
+  },
+  "128": {
+    "name": "Kalea",
+    "video_id": "AeZhpFlNBPo",
+    "embed_url": "https://www.youtube.com/embed/AeZhpFlNBPo",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Kalea+Guide"
+  },
+  "129": {
+    "name": "Zetian",
+    "video_id": "B371So16qaY",
+    "embed_url": "https://www.youtube.com/embed/B371So16qaY",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Zetian+Guide"
+  },
+  "13": {
+    "name": "Clint",
+    "video_id": "gFK9Ti6vnok",
+    "embed_url": "https://www.youtube.com/embed/gFK9Ti6vnok",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Clint+Guide"
+  },
+  "130": {
+    "name": "Obsidia",
+    "video_id": "S5mG0dGpYqU",
+    "embed_url": "https://www.youtube.com/embed/S5mG0dGpYqU",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Obsidia+Guide"
+  },
+  "131": {
+    "name": "Sora",
+    "video_id": "fzY7qyp8ark",
+    "embed_url": "https://www.youtube.com/embed/fzY7qyp8ark",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Sora+Guide"
+  },
+  "132": {
+    "name": "Marcel",
+    "video_id": "f886VQnx_Tc",
+    "embed_url": "https://www.youtube.com/embed/f886VQnx_Tc",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Marcel+Guide"
+  },
+  "14": {
+    "name": "Rafaela",
+    "video_id": "GbHD6BjY9YM",
+    "embed_url": "https://www.youtube.com/embed/GbHD6BjY9YM",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Rafaela+Guide"
+  },
+  "15": {
+    "name": "Eudora",
+    "video_id": "wvKxQaSBFFs",
+    "embed_url": "https://www.youtube.com/embed/wvKxQaSBFFs",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Eudora+Guide"
+  },
+  "16": {
+    "name": "Zilong",
+    "video_id": "-DH4VPDl-3o",
+    "embed_url": "https://www.youtube.com/embed/-DH4VPDl-3o",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Zilong+Guide"
+  },
+  "17": {
+    "name": "Fanny",
+    "video_id": "apwMlNU17E4",
+    "embed_url": "https://www.youtube.com/embed/apwMlNU17E4",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Fanny+Guide"
+  },
+  "18": {
+    "name": "Layla",
+    "video_id": "BgjXlQ44wOc",
+    "embed_url": "https://www.youtube.com/embed/BgjXlQ44wOc",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Layla+Guide"
+  },
+  "19": {
+    "name": "Minotaur",
+    "video_id": "G4PyScMKzkg",
+    "embed_url": "https://www.youtube.com/embed/G4PyScMKzkg",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Minotaur+Guide"
+  },
+  "2": {
+    "name": "Balmond",
+    "video_id": "NPEgRNXOIVw",
+    "embed_url": "https://www.youtube.com/embed/NPEgRNXOIVw",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Balmond+Guide"
+  },
+  "20": {
+    "name": "Lolita",
+    "video_id": "56lTWQC22kA",
+    "embed_url": "https://www.youtube.com/embed/56lTWQC22kA",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Lolita+Guide"
+  },
+  "21": {
+    "name": "Hayabusa",
+    "video_id": "iInZmI0Rys0",
+    "embed_url": "https://www.youtube.com/embed/iInZmI0Rys0",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Hayabusa+Guide"
+  },
+  "22": {
+    "name": "Freya",
+    "video_id": "SYTQzbam0h0",
+    "embed_url": "https://www.youtube.com/embed/SYTQzbam0h0",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Freya+Guide"
+  },
+  "23": {
+    "name": "Gord",
+    "video_id": "f5uL8sNolHc",
+    "embed_url": "https://www.youtube.com/embed/f5uL8sNolHc",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Gord+Guide"
+  },
+  "24": {
+    "name": "Natalia",
+    "video_id": "Cm1w6LJ-LzA",
+    "embed_url": "https://www.youtube.com/embed/Cm1w6LJ-LzA",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Natalia+Guide"
+  },
+  "25": {
+    "name": "Kagura",
+    "video_id": "80ydJyXPv0U",
+    "embed_url": "https://www.youtube.com/embed/80ydJyXPv0U",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Kagura+Guide"
+  },
+  "26": {
+    "name": "Chou",
+    "video_id": "qnQoXox_9xM",
+    "embed_url": "https://www.youtube.com/embed/qnQoXox_9xM",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Chou+Guide"
+  },
+  "27": {
+    "name": "Sun",
+    "video_id": "kII1DtCXEpc",
+    "embed_url": "https://www.youtube.com/embed/kII1DtCXEpc",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Sun+Guide"
+  },
+  "28": {
+    "name": "Alpha",
+    "video_id": "hfuspxWEDAk",
+    "embed_url": "https://www.youtube.com/embed/hfuspxWEDAk",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Alpha+Guide"
+  },
+  "29": {
+    "name": "Ruby",
+    "video_id": "fzSl1yrFR1g",
+    "embed_url": "https://www.youtube.com/embed/fzSl1yrFR1g",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Ruby+Guide"
+  },
+  "3": {
+    "name": "Saber",
+    "video_id": "dCrVgYCqKSA",
+    "embed_url": "https://www.youtube.com/embed/dCrVgYCqKSA",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Saber+Guide"
+  },
+  "30": {
+    "name": "Yi Sun-shin",
+    "video_id": "Lsg5f8SdkZQ",
+    "embed_url": "https://www.youtube.com/embed/Lsg5f8SdkZQ",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Yi%20Sun-shin+Guide"
+  },
+  "31": {
+    "name": "Moskov",
+    "video_id": "ThRvSidWW3w",
+    "embed_url": "https://www.youtube.com/embed/ThRvSidWW3w",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Moskov+Guide"
+  },
+  "32": {
+    "name": "Johnson",
+    "video_id": "eg1SZfVS90I",
+    "embed_url": "https://www.youtube.com/embed/eg1SZfVS90I",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Johnson+Guide"
+  },
+  "33": {
+    "name": "Cyclops",
+    "video_id": "mwspDSPtxV4",
+    "embed_url": "https://www.youtube.com/embed/mwspDSPtxV4",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Cyclops+Guide"
+  },
+  "34": {
+    "name": "Estes",
+    "video_id": "oZyG2J_9RYk",
+    "embed_url": "https://www.youtube.com/embed/oZyG2J_9RYk",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Estes+Guide"
+  },
+  "35": {
+    "name": "Hilda",
+    "video_id": "i5LADFjYcqw",
+    "embed_url": "https://www.youtube.com/embed/i5LADFjYcqw",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Hilda+Guide"
+  },
+  "36": {
+    "name": "Aurora",
+    "video_id": "dDINoY_1sSk",
+    "embed_url": "https://www.youtube.com/embed/dDINoY_1sSk",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Aurora+Guide"
+  },
+  "37": {
+    "name": "Lapu-Lapu",
+    "video_id": "TqOyesxo67U",
+    "embed_url": "https://www.youtube.com/embed/TqOyesxo67U",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Lapu-Lapu+Guide"
+  },
+  "38": {
+    "name": "Vexana",
+    "video_id": "dfkye-IAmKY",
+    "embed_url": "https://www.youtube.com/embed/dfkye-IAmKY",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Vexana+Guide"
+  },
+  "39": {
+    "name": "Roger",
+    "video_id": "pXsG6flAFCE",
+    "embed_url": "https://www.youtube.com/embed/pXsG6flAFCE",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Roger+Guide"
+  },
+  "4": {
+    "name": "Alice",
+    "video_id": "vL31iCYKnjo",
+    "embed_url": "https://www.youtube.com/embed/vL31iCYKnjo",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Alice+Guide"
+  },
+  "40": {
+    "name": "Karrie",
+    "video_id": "jvp0OqSm3Yk",
+    "embed_url": "https://www.youtube.com/embed/jvp0OqSm3Yk",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Karrie+Guide"
+  },
+  "41": {
+    "name": "Gatotkaca",
+    "video_id": "Q1siR14acZQ",
+    "embed_url": "https://www.youtube.com/embed/Q1siR14acZQ",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Gatotkaca+Guide"
+  },
+  "42": {
+    "name": "Harley",
+    "video_id": "KAuBBbOSQv8",
+    "embed_url": "https://www.youtube.com/embed/KAuBBbOSQv8",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Harley+Guide"
+  },
+  "43": {
+    "name": "Irithel",
+    "video_id": "QfxkxtPVlu0",
+    "embed_url": "https://www.youtube.com/embed/QfxkxtPVlu0",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Irithel+Guide"
+  },
+  "44": {
+    "name": "Grock",
+    "video_id": "_YcX0MDtVRE",
+    "embed_url": "https://www.youtube.com/embed/_YcX0MDtVRE",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Grock+Guide"
+  },
+  "45": {
+    "name": "Argus",
+    "video_id": "2PV0ZRNE16Q",
+    "embed_url": "https://www.youtube.com/embed/2PV0ZRNE16Q",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Argus+Guide"
+  },
+  "46": {
+    "name": "Odette",
+    "video_id": "3zzLqHtnORY",
+    "embed_url": "https://www.youtube.com/embed/3zzLqHtnORY",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Odette+Guide"
+  },
+  "47": {
+    "name": "Lancelot",
+    "video_id": "eDcN2jKAMkU",
+    "embed_url": "https://www.youtube.com/embed/eDcN2jKAMkU",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Lancelot+Guide"
+  },
+  "48": {
+    "name": "Diggie",
+    "video_id": "fmuTyKZGAgA",
+    "embed_url": "https://www.youtube.com/embed/fmuTyKZGAgA",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Diggie+Guide"
+  },
+  "49": {
+    "name": "Hylos",
+    "video_id": "1_2Mh4V0aZY",
+    "embed_url": "https://www.youtube.com/embed/1_2Mh4V0aZY",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Hylos+Guide"
+  },
+  "5": {
+    "name": "Nana",
+    "video_id": "RnfQp5E_7pg",
+    "embed_url": "https://www.youtube.com/embed/RnfQp5E_7pg",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Nana+Guide"
+  },
+  "50": {
+    "name": "Zhask",
+    "video_id": "BC50kcjUfg4",
+    "embed_url": "https://www.youtube.com/embed/BC50kcjUfg4",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Zhask+Guide"
+  },
+  "51": {
+    "name": "Helcurt",
+    "video_id": "1Pgf_vPj4HA",
+    "embed_url": "https://www.youtube.com/embed/1Pgf_vPj4HA",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Helcurt+Guide"
+  },
+  "52": {
+    "name": "Pharsa",
+    "video_id": "BlhtlZLTxKk",
+    "embed_url": "https://www.youtube.com/embed/BlhtlZLTxKk",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Pharsa+Guide"
+  },
+  "53": {
+    "name": "Lesley",
+    "video_id": "464WIbS_xbg",
+    "embed_url": "https://www.youtube.com/embed/464WIbS_xbg",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Lesley+Guide"
+  },
+  "54": {
+    "name": "Jawhead",
+    "video_id": "s5km1X_yYGo",
+    "embed_url": "https://www.youtube.com/embed/s5km1X_yYGo",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Jawhead+Guide"
+  },
+  "55": {
+    "name": "Angela",
+    "video_id": "eM6SWvfJfEo",
+    "embed_url": "https://www.youtube.com/embed/eM6SWvfJfEo",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Angela+Guide"
+  },
+  "56": {
+    "name": "Gusion",
+    "video_id": "7-OKttjfkJM",
+    "embed_url": "https://www.youtube.com/embed/7-OKttjfkJM",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Gusion+Guide"
+  },
+  "57": {
+    "name": "Valir",
+    "video_id": "KV3GxG3vNcA",
+    "embed_url": "https://www.youtube.com/embed/KV3GxG3vNcA",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Valir+Guide"
+  },
+  "58": {
+    "name": "Martis",
+    "video_id": "vi9ldIcVo9k",
+    "embed_url": "https://www.youtube.com/embed/vi9ldIcVo9k",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Martis+Guide"
+  },
+  "59": {
+    "name": "Uranus",
+    "video_id": "RZqOi6ezIxY",
+    "embed_url": "https://www.youtube.com/embed/RZqOi6ezIxY",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Uranus+Guide"
+  },
+  "6": {
+    "name": "Tigreal",
+    "video_id": "RcHSPXhW5ug",
+    "embed_url": "https://www.youtube.com/embed/RcHSPXhW5ug",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Tigreal+Guide"
+  },
+  "60": {
+    "name": "Hanabi",
+    "video_id": "Mre-V67pwPU",
+    "embed_url": "https://www.youtube.com/embed/Mre-V67pwPU",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Hanabi+Guide"
+  },
+  "61": {
+    "name": "Chang'e",
+    "video_id": "wPv7J8M_GGw",
+    "embed_url": "https://www.youtube.com/embed/wPv7J8M_GGw",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Chang%27e+Guide"
+  },
+  "62": {
+    "name": "Kaja",
+    "video_id": "KKtEhdDpVAw",
+    "embed_url": "https://www.youtube.com/embed/KKtEhdDpVAw",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Kaja+Guide"
+  },
+  "63": {
+    "name": "Selena",
+    "video_id": "bNeO_Shci9s",
+    "embed_url": "https://www.youtube.com/embed/bNeO_Shci9s",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Selena+Guide"
+  },
+  "64": {
+    "name": "Aldous",
+    "video_id": "x3a4eud-oJ4",
+    "embed_url": "https://www.youtube.com/embed/x3a4eud-oJ4",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Aldous+Guide"
+  },
+  "65": {
+    "name": "Claude",
+    "video_id": "q1EcS1pgiMI",
+    "embed_url": "https://www.youtube.com/embed/q1EcS1pgiMI",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Claude+Guide"
+  },
+  "66": {
+    "name": "Vale",
+    "video_id": "V9Rx7KVlzU4",
+    "embed_url": "https://www.youtube.com/embed/V9Rx7KVlzU4",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Vale+Guide"
+  },
+  "67": {
+    "name": "Leomord",
+    "video_id": "hVAnePdFNm4",
+    "embed_url": "https://www.youtube.com/embed/hVAnePdFNm4",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Leomord+Guide"
+  },
+  "68": {
+    "name": "Lunox",
+    "video_id": "XNPECVmpAEM",
+    "embed_url": "https://www.youtube.com/embed/XNPECVmpAEM",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Lunox+Guide"
+  },
+  "69": {
+    "name": "Hanzo",
+    "video_id": "hYB1JxoqN0M",
+    "embed_url": "https://www.youtube.com/embed/hYB1JxoqN0M",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Hanzo+Guide"
+  },
+  "7": {
+    "name": "Alucard",
+    "video_id": "QFs1oricOQ4",
+    "embed_url": "https://www.youtube.com/embed/QFs1oricOQ4",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Alucard+Guide"
+  },
+  "70": {
+    "name": "Belerick",
+    "video_id": "hKsK1uVdfiY",
+    "embed_url": "https://www.youtube.com/embed/hKsK1uVdfiY",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Belerick+Guide"
+  },
+  "71": {
+    "name": "Kimmy",
+    "video_id": "mw31EZu9PaE",
+    "embed_url": "https://www.youtube.com/embed/mw31EZu9PaE",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Kimmy+Guide"
+  },
+  "72": {
+    "name": "Thamuz",
+    "video_id": "xZcms5uYWY0",
+    "embed_url": "https://www.youtube.com/embed/xZcms5uYWY0",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Thamuz+Guide"
+  },
+  "73": {
+    "name": "Harith",
+    "video_id": "XmCYPS-Ne3k",
+    "embed_url": "https://www.youtube.com/embed/XmCYPS-Ne3k",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Harith+Guide"
+  },
+  "74": {
+    "name": "Minsitthar",
+    "video_id": "7aShJDEyLZs",
+    "embed_url": "https://www.youtube.com/embed/7aShJDEyLZs",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Minsitthar+Guide"
+  },
+  "75": {
+    "name": "Kadita",
+    "video_id": "qaEweBEhtds",
+    "embed_url": "https://www.youtube.com/embed/qaEweBEhtds",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Kadita+Guide"
+  },
+  "76": {
+    "name": "Faramis",
+    "video_id": "K4EiZ5rvCjI",
+    "embed_url": "https://www.youtube.com/embed/K4EiZ5rvCjI",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Faramis+Guide"
+  },
+  "77": {
+    "name": "Badang",
+    "video_id": "woup3gDYNEI",
+    "embed_url": "https://www.youtube.com/embed/woup3gDYNEI",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Badang+Guide"
+  },
+  "78": {
+    "name": "Khufra",
+    "video_id": "VXLFMF6jn9U",
+    "embed_url": "https://www.youtube.com/embed/VXLFMF6jn9U",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Khufra+Guide"
+  },
+  "79": {
+    "name": "Granger",
+    "video_id": "uTj1rB3WibA",
+    "embed_url": "https://www.youtube.com/embed/uTj1rB3WibA",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Granger+Guide"
+  },
+  "8": {
+    "name": "Karina",
+    "video_id": "T-7hkRcjYiU",
+    "embed_url": "https://www.youtube.com/embed/T-7hkRcjYiU",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Karina+Guide"
+  },
+  "80": {
+    "name": "Guinevere",
+    "video_id": "DSH3Jh8n1Co",
+    "embed_url": "https://www.youtube.com/embed/DSH3Jh8n1Co",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Guinevere+Guide"
+  },
+  "81": {
+    "name": "Esmeralda",
+    "video_id": "EbQdb91c5Bk",
+    "embed_url": "https://www.youtube.com/embed/EbQdb91c5Bk",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Esmeralda+Guide"
+  },
+  "82": {
+    "name": "Terizla",
+    "video_id": "GwKFg6wihIE",
+    "embed_url": "https://www.youtube.com/embed/GwKFg6wihIE",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Terizla+Guide"
+  },
+  "83": {
+    "name": "X.Borg",
+    "video_id": "237oBMPCteY",
+    "embed_url": "https://www.youtube.com/embed/237oBMPCteY",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+X.Borg+Guide"
+  },
+  "84": {
+    "name": "Ling",
+    "video_id": "tROvSzZsqY4",
+    "embed_url": "https://www.youtube.com/embed/tROvSzZsqY4",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Ling+Guide"
+  },
+  "85": {
+    "name": "Dyrroth",
+    "video_id": "f5Mru_zUGq4",
+    "embed_url": "https://www.youtube.com/embed/f5Mru_zUGq4",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Dyrroth+Guide"
+  },
+  "86": {
+    "name": "Lylia",
+    "video_id": "LhmSG-Gs6as",
+    "embed_url": "https://www.youtube.com/embed/LhmSG-Gs6as",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Lylia+Guide"
+  },
+  "87": {
+    "name": "Baxia",
+    "video_id": "mzZI4hTjA74",
+    "embed_url": "https://www.youtube.com/embed/mzZI4hTjA74",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Baxia+Guide"
+  },
+  "88": {
+    "name": "Masha",
+    "video_id": "7B3qaJgCRNI",
+    "embed_url": "https://www.youtube.com/embed/7B3qaJgCRNI",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Masha+Guide"
+  },
+  "89": {
+    "name": "Wanwan",
+    "video_id": "vYvfqVfHRLU",
+    "embed_url": "https://www.youtube.com/embed/vYvfqVfHRLU",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Wanwan+Guide"
+  },
+  "9": {
+    "name": "Akai",
+    "video_id": "OG5s_7-mXI8",
+    "embed_url": "https://www.youtube.com/embed/OG5s_7-mXI8",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Akai+Guide"
+  },
+  "90": {
+    "name": "Silvanna",
+    "video_id": "NzJ8JofbMLw",
+    "embed_url": "https://www.youtube.com/embed/NzJ8JofbMLw",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Silvanna+Guide"
+  },
+  "91": {
+    "name": "Cecilion",
+    "video_id": "Za-2MkelHFI",
+    "embed_url": "https://www.youtube.com/embed/Za-2MkelHFI",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Cecilion+Guide"
+  },
+  "92": {
+    "name": "Carmilla",
+    "video_id": "xkk2e9YMvEM",
+    "embed_url": "https://www.youtube.com/embed/xkk2e9YMvEM",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Carmilla+Guide"
+  },
+  "93": {
+    "name": "Atlas",
+    "video_id": "kJn_mk1Gl7I",
+    "embed_url": "https://www.youtube.com/embed/kJn_mk1Gl7I",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Atlas+Guide"
+  },
+  "94": {
+    "name": "Popol and Kupa",
+    "video_id": "bmX1owvbT3Y",
+    "embed_url": "https://www.youtube.com/embed/bmX1owvbT3Y",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Popol%20and%20Kupa+Guide"
+  },
+  "95": {
+    "name": "Yu Zhong",
+    "video_id": "ighFEkvFqMk",
+    "embed_url": "https://www.youtube.com/embed/ighFEkvFqMk",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Yu%20Zhong+Guide"
+  },
+  "96": {
+    "name": "Luo Yi",
+    "video_id": "6-uXEHtWKHA",
+    "embed_url": "https://www.youtube.com/embed/6-uXEHtWKHA",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Luo%20Yi+Guide"
+  },
+  "97": {
+    "name": "Benedetta",
+    "video_id": "9Z-1-6e9Qiw",
+    "embed_url": "https://www.youtube.com/embed/9Z-1-6e9Qiw",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Benedetta+Guide"
+  },
+  "98": {
+    "name": "Khaleed",
+    "video_id": "_IaiHKg6Xu4",
+    "embed_url": "https://www.youtube.com/embed/_IaiHKg6Xu4",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Khaleed+Guide"
+  },
+  "99": {
+    "name": "Barats",
+    "video_id": "RavkFRYYzKw",
+    "embed_url": "https://www.youtube.com/embed/RavkFRYYzKw",
+    "search_url": "https://www.youtube.com/results?search_query=MLBB+Barats+Guide"
+  }
+}

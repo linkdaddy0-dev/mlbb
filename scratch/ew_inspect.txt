@@ -1,0 +1,6 @@
+Pattern 'const\s+ew\s*=' matches count: 1
+[0]: ... S=fo(Tl);var fv={exports:{}};(function(e,t){(function(n,r,o){e.exports=r(kf(),I_(),R_())})(zt,function(n){return n.HmacSHA1})})(fv);var QS=fv.exports;const ew=fo(QS);var dv={exports:{}};(function(e,t){(function(n,r,o){e.exports=r(kf(),O_())})(zt,function(n){return n.pad.Pkcs7})})(dv);var tw=dv.exports;const nw=fo(tw);class rw{constructor(t={}){Y(this,"key");Y(this,"iv");const{key:n,iv:r}=t;n&&(this.key=Tl. ...
+
+Pattern 'var\s+ew\s*=' matches count: 0
+Pattern 'function\s+ew\b' matches count: 0
+Pattern '[\s,;]ew\s*=\s*\(' matches count: 0

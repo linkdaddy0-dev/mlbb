@@ -1,0 +1,152 @@
+{
+  "marksman": {
+    "name": "Custom Marksman Emblem",
+    "icon": "/assets/emblems/Custom_Marksman_Emblem_New.webp",
+    "color": "var(--accent-gold)",
+    "talents": [
+      {
+        "tier": 1,
+        "name": "Swift",
+        "des": "+10.0% Attack Speed",
+        "icon": "/assets/misc/Talent_Swift.webp"
+      },
+      {
+        "tier": 2,
+        "name": "Bargain Hunter",
+        "des": "Equipment Discount (95% cost)",
+        "icon": "/assets/talents/Talent_Bargain_Hunter.webp"
+      },
+      {
+        "tier": 3,
+        "name": "Quantum Charge",
+        "des": "Basic Attacks restore HP and grant 30% Speed.",
+        "icon": "/assets/talents/Talent_Quantum_Charge.webp"
+      }
+    ]
+  },
+  "assassin": {
+    "name": "Custom Assassin Emblem",
+    "icon": "/assets/emblems/Custom_Assassin_Emblem_New.webp",
+    "color": "var(--accent-red)",
+    "talents": [
+      {
+        "tier": 1,
+        "name": "Rupture",
+        "des": "+5.0 Adaptive Penetration",
+        "icon": "/assets/talents/Talent_Rupture.webp"
+      },
+      {
+        "tier": 2,
+        "name": "Master Assassin",
+        "des": "Increases damage to solo enemies by 7%.",
+        "icon": "/assets/misc/Talent_Master_Assassin.webp"
+      },
+      {
+        "tier": 3,
+        "name": "Killing Spree",
+        "des": "Regen 15% HP and gain 20% Speed on kills.",
+        "icon": "/assets/talents/Talent_Killing_Spree.webp"
+      }
+    ]
+  },
+  "mage": {
+    "name": "Custom Mage Emblem",
+    "icon": "/assets/emblems/Custom_Mage_Emblem_New.webp",
+    "color": "var(--accent-blue)",
+    "talents": [
+      {
+        "tier": 1,
+        "name": "Inspire",
+        "des": "+10.0% Cooldown Reduction",
+        "icon": "/assets/spells/Talent_Inspire.webp"
+      },
+      {
+        "tier": 2,
+        "name": "Bargain Hunter",
+        "des": "Equipment Discount (95% cost)",
+        "icon": "/assets/talents/Talent_Bargain_Hunter.webp"
+      },
+      {
+        "tier": 3,
+        "name": "Impure Rage",
+        "des": "Skills deal extra damage & restore 2% Mana.",
+        "icon": "/assets/misc/Talent_Impure_Rage.webp"
+      }
+    ]
+  },
+  "tank": {
+    "name": "Custom Tank Emblem",
+    "icon": "/assets/emblems/Custom_Tank_Emblem_New.webp",
+    "color": "var(--accent-green)",
+    "talents": [
+      {
+        "tier": 1,
+        "name": "Firmness",
+        "des": "+6 Physical & Magic Defense",
+        "icon": "/assets/misc/Talent_Firmness.webp"
+      },
+      {
+        "tier": 2,
+        "name": "Tenacity",
+        "des": "Increases defense when HP is below 50%.",
+        "icon": "/assets/talents/Talent_Tenacity.webp"
+      },
+      {
+        "tier": 3,
+        "name": "Brave Smite",
+        "des": "Dealing skill damage restores 4% Max HP.",
+        "icon": "/assets/talents/Talent_Brave_Smite.webp"
+      }
+    ]
+  },
+  "fighter": {
+    "name": "Custom Fighter Emblem",
+    "icon": "/assets/emblems/Custom_Fighter_Emblem_New.webp",
+    "color": "#ff7c43",
+    "talents": [
+      {
+        "tier": 1,
+        "name": "Rupture",
+        "des": "+5.0 Adaptive Penetration",
+        "icon": "/assets/talents/Talent_Rupture.webp"
+      },
+      {
+        "tier": 2,
+        "name": "Festival of Blood",
+        "des": "+6% Spellvamp (+12% max on kills)",
+        "icon": "/assets/misc/Talent_Festival_of_Blood.webp"
+      },
+      {
+        "tier": 3,
+        "name": "Brave Smite",
+        "des": "Dealing skill damage restores 4% Max HP.",
+        "icon": "/assets/talents/Talent_Brave_Smite.webp"
+      }
+    ]
+  },
+  "support": {
+    "name": "Custom Support Emblem",
+    "icon": "/assets/emblems/Custom_Support_Emblem_New.webp",
+    "color": "#10b981",
+    "talents": [
+      {
+        "tier": 1,
+        "name": "Vitality",
+        "des": "+225 Max HP",
+        "icon": "/assets/misc/Talent_Vitality.webp"
+      },
+      {
+        "tier": 2,
+        "name": "Gift",
+        "des": "+15.0% Healing & Shield Effect",
+        "icon": "/assets/misc/Talent_Gift.webp"
+      },
+      {
+        "tier": 3,
+        "name": "Focusing Mark",
+        "des": "Damage increases ally damage to target by 6%.",
+        "icon": "/assets/misc/Talent_Focusing_Mark.webp"
+      }
+    ]
+  }
+}

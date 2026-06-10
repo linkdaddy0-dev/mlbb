@@ -1,0 +1,145 @@
+{
+  "1": {
+    "heroId": 1,
+    "name": "Miya",
+    "avatar": "/assets/heroes/Hero011-icon.webp",
+    "combos": [
+      {
+        "title": "Maximum DPS Burst Combo",
+        "skills": [
+          {
+            "name": "Moon Blessing (Passive)",
+            "icon": "/assets/skills/64px-Miya_Moon_Blessing.webp",
+            "type": "Passive"
+          },
+          {
+            "name": "Arrow of Eclipse (Skill 2)",
+            "icon": "/assets/skills/64px-Miya_Arrow_of_Eclipse.webp",
+            "type": "Skill 2"
+          },
+          {
+            "name": "Moon Arrow (Skill 1)",
+            "icon": "/assets/skills/64px-Miya_Moon_Arrow.webp",
+            "type": "Skill 1"
+          },
+          {
+            "name": "Inspire (Spell)",
+            "icon": "/assets/spells/Inspire.webp",
+            "type": "Spell"
+          }
+        ],
+        "description": "Pre-stack your Moon Blessing passive on minions. Cast Arrow of Eclipse to lock the enemy in place, instantly activate Moon Arrow to split basic attacks, and pop Inspire to melt them down in 2 seconds."
+      },
+      {
+        "title": "Stealth Ambush Escape Combo",
+        "skills": [
+          {
+            "name": "Hidden Moonlight (Ultimate)",
+            "icon": "/assets/skills/64px-Miya_Hidden_Moonlight.webp",
+            "type": "Ult"
+          },
+          {
+            "name": "Arrow of Eclipse (Skill 2)",
+            "icon": "/assets/skills/64px-Miya_Arrow_of_Eclipse.webp",
+            "type": "Skill 2"
+          },
+          {
+            "name": "Moon Arrow (Skill 1)",
+            "icon": "/assets/skills/64px-Miya_Moon_Arrow.webp",
+            "type": "Skill 1"
+          }
+        ],
+        "description": "When dived by assassins, activate Hidden Moonlight to dispel all CC and enter stealth. Reposition safely, drop Arrow of Eclipse under them to freeze, and counter-engage with Moon Arrow active."
+      }
+    ]
+  },
+  "2": {
+    "heroId": 2,
+    "name": "Tigreal",
+    "avatar": "/assets/heroes/Hero061-icon.webp",
+    "combos": [
+      {
+        "title": "Impenetrate Crowd Control Lock",
+        "skills": [
+          {
+            "name": "Flicker (Spell)",
+            "icon": "/assets/spells/Flicker.webp",
+            "type": "Spell"
+          },
+          {
+            "name": "Implosion (Ultimate)",
+            "icon": "/assets/misc/64px-Tigreal_Implosion.webp",
+            "type": "Ult"
+          },
+          {
+            "name": "Sacred Hammer (Skill 2)",
+            "icon": "/assets/misc/64px-Tigreal_Sacred_Hammer.webp",
+            "type": "Skill 2"
+          },
+          {
+            "name": "Attack Wave (Skill 1)",
+            "icon": "/assets/misc/64px-Tigreal_Attack_Wave.webp",
+            "type": "Skill 1"
+          }
+        ],
+        "description": "Flicker into the middle of the enemy squad, trigger Implosion ultimate to pull and stun them all, then slide behind them with Sacred Hammer to push them toward your team. Finish with Attack Wave for extra damage."
+      }
+    ]
+  },
+  "3": {
+    "heroId": 3,
+    "name": "Saber",
+    "avatar": "/assets/heroes/Hero031-icon.webp",
+    "combos": [
+      {
+        "title": "Instant One-Shot Burst Combo",
+        "skills": [
+          {
+            "name": "Orbiting Swords (Skill 1)",
+            "icon": "/assets/misc/64px-Saber_Orbiting_Swords.webp",
+            "type": "Skill 1"
+          },
+          {
+            "name": "Charge (Skill 2)",
+            "icon": "/assets/misc/64px-Saber_Charge.webp",
+            "type": "Skill 2"
+          },
+          {
+            "name": "Triple Sweep (Ultimate)",
+            "icon": "/assets/misc/64px-Saber_Triple_Sweep.webp",
+            "type": "Ult"
+          }
+        ],
+        "description": "Activate Orbiting Swords first to keep daggers circling. Charge directly into range, and immediately trigger Triple Sweep ultimate. The daggers will gather instantly, reducing armor and one-shotting the target."
+      }
+    ]
+  },
+  "26": {
+    "heroId": 26,
+    "name": "Chou",
+    "avatar": "/assets/heroes/Hero261-icon.webp",
+    "combos": [
+      {
+        "title": "Basic Harass Combo",
+        "skills": [
+          {
+            "name": "Jeet Kune Do (Skill 1)",
+            "icon": "/assets/misc/64px-Chou_Jeet_Kune_Do.webp",
+            "type": "Skill 1"
+          },
+          {
+            "name": "Shunpo (Skill 2)",
+            "icon": "/assets/misc/64px-Chou_Shunpo.webp",
+            "type": "Skill 2"
+          },
+          {
+            "name": "The Way of Dragon (Ultimate)",
+            "icon": "/assets/misc/64px-Chou_The_Way_of_Dragon.webp",
+            "type": "Ult"
+          }
+        ],
+        "description": "Trigger Jeet Kune Do (Skill 1) twice on minions to prep the knockup. Shunpo (Skill 2) dash to approach, use the 3rd JKD hit to knock up, then ultimate to kick back."
+      }
+    ]
+  }
+}

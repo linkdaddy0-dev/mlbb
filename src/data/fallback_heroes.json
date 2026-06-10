@@ -1,0 +1,155 @@
+[
+  {
+    "id": 1,
+    "name": "Miya",
+    "role": "Marksman",
+    "durability": 20,
+    "offense": 90,
+    "magic": 10,
+    "difficulty": 30,
+    "avatar_url": "/assets/misc/image_a844f9aa51baefa6878801edd85fec5e.webp",
+    "cover_url": "/assets/heroes/rB_-LVpAyOqAcoYgAAHhFjl5Ba05533979.webp",
+    "skills": [
+      {
+        "name": "Moon Blessing",
+        "icon": "/assets/items/2281b4a99686dbb2f3076a76517d4429.webp",
+        "description": "Basic Attacks grant Attack Speed stacks.",
+        "tips": "Keep passive stacked on minions before engaging."
+      },
+      {
+        "name": "Moon Arrow",
+        "icon": "/assets/items/ccb18467ff1de61a9e9e7f37e7598ea7.webp",
+        "description": "Splits basic attack into multi-target arrows.",
+        "tips": "Upgrading this provides massive late game AoE."
+      },
+      {
+        "name": "Arrow of Eclipse",
+        "icon": "/assets/items/cef8ef47912cced083381c9cf86f35cb.webp",
+        "description": "Aoe damage that immobilizes targets.",
+        "tips": "Main early game harass and farming tool."
+      },
+      {
+        "name": "Hidden Moonlight",
+        "icon": "/assets/items/3b4a7ec8531606b4a8cad697dae6f338.webp",
+        "description": "Dispel control effects and enter concealment.",
+        "tips": "Use to escape assassin burst setups."
+      }
+    ],
+    "builds": {
+      "spells": [
+        "/assets/heroes/rB_-LVo8_haATKt0AABH0pUQqEg1474122.webp",
+        "/assets/heroes/rB_-LVo8_dGAFBn4AABQ7mzW4KI9082406.webp"
+      ],
+      "items": [
+        {
+          "id": 2008,
+          "name": "Corrosion Scythe",
+          "icon": "/assets/items/83ecda0156293f06380866251ca52c32.webp",
+          "des": "Basic Attacks slow targets and grant Attack Speed."
+        },
+        {
+          "id": 2305,
+          "name": "Swift Boots",
+          "icon": "/assets/items/7687c04512d5640eb1f66000ba50e7bc.webp",
+          "des": "Increases Attack Speed and Movement Speed."
+        },
+        {
+          "id": 2006,
+          "name": "Demon Hunter Sword",
+          "icon": "/assets/items/4adc2b796ec60846e0af2405e1deea41.webp",
+          "des": "Basic Attacks deal current enemy HP as extra physical damage."
+        },
+        {
+          "id": 2009,
+          "name": "Golden Staff",
+          "icon": "/assets/items/675098b263e972d28ec23e8d04828f36.webp",
+          "des": "Converts critical chance stats into raw attack speed."
+        },
+        {
+          "id": 3002,
+          "name": "Haas' Claws",
+          "icon": "/assets/items/04ad01172bbceaf396c83f07187b7849.webp",
+          "des": "Grants Physical Lifesteal and attack speed on critical strikes."
+        },
+        {
+          "id": 3001,
+          "name": "Malefic Roar",
+          "icon": "/assets/items/1a757f3a370c309b9ef1441521237b5c.webp",
+          "des": "Boosts Physical Penetration to shred tanks."
+        }
+      ],
+      "tips": "Swift Boots are optional due to natural passives; Rapid Boots are ideal for repositioning in late fights."
+    },
+    "matchups": {
+      "synergy": {
+        "id": 2,
+        "name": "Tigreal",
+        "tips": "Pulls enemies together for multi-target sweeps."
+      },
+      "counters": {
+        "id": 49,
+        "name": "Hylos",
+        "tips": "Miya's physical penetration melts Hylos."
+      },
+      "countered_by": {
+        "id": 21,
+        "name": "Hayabusa",
+        "tips": "Vulnerable to instant burst single assassins."
+      }
+    }
+  },
+  {
+    "id": 2,
+    "name": "Tigreal",
+    "role": "Tank",
+    "durability": 90,
+    "offense": 30,
+    "magic": 40,
+    "difficulty": 40,
+    "avatar_url": "/assets/misc/image_23a7a603ff9d20074777d52e2eb202f3.webp",
+    "cover_url": "/assets/heroes/rB_-LVpAyOqAcoYgAAHhFjl5Ba05533979.webp",
+    "skills": [
+      {
+        "name": "Fearless",
+        "icon": "/assets/items/2281b4a99686dbb2f3076a76517d4429.webp",
+        "description": "Gains physical defense shields on spell hits.",
+        "tips": "Keep active during frontlining."
+      },
+      {
+        "name": "Attack Wave",
+        "icon": "/assets/items/ccb18467ff1de61a9e9e7f37e7598ea7.webp",
+        "description": "Send an earth-shaking shockwave slowing enemies.",
+        "tips": "Use for ranged harass."
+      }
+    ],
+    "builds": {
+      "items": [],
+      "tips": "Always build defense items like Athena's Shield or Antique Cuirass."
+    },
+    "matchups": {}
+  },
+  {
+    "id": 3,
+    "name": "Saber",
+    "role": "Assassin",
+    "durability": 30,
+    "offense": 80,
+    "magic": 20,
+    "difficulty": 30,
+    "avatar_url": "/assets/misc/35a5d68d1704e2c4c6323abd4859a622.webp",
+    "cover_url": "/assets/heroes/rB_-LVpAyOqAcoYgAAHhFjl5Ba05533979.webp",
+    "skills": [
+      {
+        "name": "Enemy's Bane",
+        "icon": "/assets/items/2281b4a99686dbb2f3076a76517d4429.webp",
+        "description": "Basic Attacks reduce enemy physical defense.",
+        "tips": "Good for shredding tanks."
+      }
+    ],
+    "builds": {
+      "items": [],
+      "tips": "Build Blade of Despair and Hunter Strike for high burst damage."
+    },
+    "matchups": {}
+  }
+]

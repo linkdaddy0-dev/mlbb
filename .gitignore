@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+
+# Production builds
+dist/
+build/
+bin/
+obj/
+
+# Databases & raw scraped files
+data/raw/
+logs/
+*.db
+*.sqlite
+*.log
+__pycache__/
+
+# IDEs & System
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

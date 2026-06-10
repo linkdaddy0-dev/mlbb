@@ -1,0 +1,6 @@
+Pattern 'const\s+ow\s*=' matches count: 0
+Pattern 'var\s+ow\s*=' matches count: 0
+Pattern 'function\s+ow\b' matches count: 1
+[0]: ... }encryptByAES(t){return Jd.encrypt(t,this.key,this.getOptions).toString()}decryptByAES(t){return Jd.decrypt(t,this.key,this.getOptions).toString(JS)}}function ow(e,t){const n=ew(e,t);return ZS.stringify(n)}const pv=({prefixKey:e="",storage:t=sessionStorage,key:n=Vp.key,iv:r=Vp.iv,timeout:o=null,hasEncrypt:i=!0}={})=>{if(i&&[n.length,r.length].some(c=>c!==16))throw new Error("When hasEncrypt is true, the key  ...
+
+Pattern '[\s,;]ow\s*=\s*\(' matches count: 0

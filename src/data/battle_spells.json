@@ -1,0 +1,62 @@
+{
+  "inspire": {
+    "name": "Inspire",
+    "des": "Enhances Basic Attack speed and physical penetration.",
+    "icon": "/assets/spells/Inspire.webp"
+  },
+  "flicker": {
+    "name": "Flicker",
+    "des": "Teleports a short distance. Gains hybrid defense briefly.",
+    "icon": "/assets/spells/Flicker.webp"
+  },
+  "retribution": {
+    "name": "Retribution",
+    "des": "Deals true damage to creeps. Essential for Jungling.",
+    "icon": "/assets/spells/Retribution.webp"
+  },
+  "purify": {
+    "name": "Purify",
+    "des": "Removes CC/debuffs instantly. Grants speed and CC immunity.",
+    "icon": "/assets/spells/Purify.webp"
+  },
+  "petrify": {
+    "name": "Petrify",
+    "des": "Stuns surrounding enemies for 0.8s and slows them.",
+    "icon": "/assets/spells/Petrify.webp"
+  },
+  "execute": {
+    "name": "Execute",
+    "des": "Deals true damage based on target's missing HP.",
+    "icon": "/assets/spells/Execute.webp"
+  },
+  "aegis": {
+    "name": "Aegis",
+    "des": "Generates a shield for the hero and lowest-HP nearby ally.",
+    "icon": "/assets/spells/Aegis.webp"
+  },
+  "revitalize": {
+    "name": "Revitalize",
+    "des": "Summons a healing spring that restores HP to allies.",
+    "icon": "/assets/spells/Revitalize.webp"
+  },
+  "flameshot": {
+    "name": "Flameshot",
+    "des": "Knocks back close enemies and snipes distant targets.",
+    "icon": "/assets/spells/Flameshot.webp"
+  },
+  "vengeance": {
+    "name": "Vengeance",
+    "des": "Gains damage reduction and reflects physical damage.",
+    "icon": "/assets/spells/Vengeance.webp"
+  },
+  "sprint": {
+    "name": "Sprint",
+    "des": "Massively increases movement speed and grants slow immunity.",
+    "icon": "/assets/spells/Sprint.webp"
+  },
+  "arrival": {
+    "name": "Arrival",
+    "des": "Teleports to a friendly turret or minion after a channel.",
+    "icon": "/assets/spells/Arrival.webp"
+  }
+}

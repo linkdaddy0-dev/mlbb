@@ -1,0 +1,234 @@
+[
+  {
+    "id": 2008,
+    "name": "Corrosion Scythe",
+    "category": "Attack",
+    "stats": "+30 Physical Attack, +5% Movement Speed, +35% Attack Speed",
+    "passive": "Corrosion: Basic Attacks slow targets by 8% (up to 40%) and grant 8% extra attack speed.",
+    "icon": "/assets/items/Corrosion_Scythe.webp"
+  },
+  {
+    "id": 2006,
+    "name": "Demon Hunter Sword",
+    "category": "Attack",
+    "stats": "+35 Physical Attack, +25% Attack Speed",
+    "passive": "Devour: Basic Attacks deal 8% of target's current HP as extra physical damage. Grants lifesteal.",
+    "icon": "/assets/items/Demon_Hunter_Sword.webp"
+  },
+  {
+    "id": 2009,
+    "name": "Golden Staff",
+    "category": "Attack",
+    "stats": "+65 Physical Attack, +15% Attack Speed",
+    "passive": "Swift: Converts each 1% critical chance into 1% extra attack speed. Endless strike boosts passives.",
+    "icon": "/assets/items/Golden_Staff.webp"
+  },
+  {
+    "id": 3002,
+    "name": "Haas' Claws",
+    "category": "Attack",
+    "stats": "+30 Physical Attack, +20% Attack Speed, +20% Critical Chance",
+    "passive": "Insanity: Grants 25% Physical Lifesteal. Critical strikes grant 20% extra attack speed for 2s.",
+    "icon": "/assets/items/Haas__Claws.webp"
+  },
+  {
+    "id": 3001,
+    "name": "Malefic Roar",
+    "category": "Attack",
+    "stats": "+60 Physical Attack, +20% Physical Penetration",
+    "passive": "Armor Buster: Deals up to 40% physical penetration based on target armor during damage calculations.",
+    "icon": "/assets/items/Malefic_Roar.webp"
+  },
+  {
+    "id": 2305,
+    "name": "Swift Boots",
+    "category": "Movement",
+    "stats": "+40 Movement Speed, +15% Attack Speed",
+    "passive": "Swift: standard boots stats increases.",
+    "icon": "/assets/items/Swift_Boots.webp"
+  },
+  {
+    "id": 4001,
+    "name": "Athena's Shield",
+    "category": "Defense",
+    "stats": "+900 HP, +62 Magic Defense, +4 HP Regen",
+    "passive": "Shield: Reduces magic damage taken by 25% for 3s upon taking magic damage.",
+    "icon": "/assets/items/Athena_s_Shield.webp"
+  },
+  {
+    "id": 4002,
+    "name": "Antique Cuirass",
+    "category": "Defense",
+    "stats": "+920 HP, +54 Physical Defense, +4 HP Regen",
+    "passive": "Deter: Reduces opponent's Physical Attack by 8% (up to 24%) when hit by skills.",
+    "icon": "/assets/items/Antique_Cuirass.webp"
+  },
+  {
+    "id": 5001,
+    "name": "Holy Crystal",
+    "category": "Magic",
+    "stats": "+100 Magic Power",
+    "passive": "Mystery: Increases Magic Power scaling dynamically by 21%-35% based on level progress.",
+    "icon": "/assets/items/Holy_Crystal.webp"
+  },
+  {
+    "id": 2306,
+    "name": "Magic Shoes",
+    "category": "Movement",
+    "stats": "+40 Movement Speed, +10% Cooldown Reduction",
+    "passive": "Magic: standard boots stats increases.",
+    "icon": "/assets/items/Magic_Shoes.webp"
+  },
+  {
+    "id": 2007,
+    "name": "Hunter Strike",
+    "category": "Attack",
+    "stats": "+80 Physical Attack, +10% Cooldown Reduction, +15 Physical Penetration",
+    "passive": "Retribution: Dealing damage to same target 5 times increases Movement Speed by 50% for 3s.",
+    "icon": "/assets/items/Hunter_Strike.webp"
+  },
+  {
+    "id": 2005,
+    "name": "Blade of Heptaseas",
+    "category": "Attack",
+    "stats": "+70 Physical Attack, +250 HP, +15 Physical Penetration",
+    "passive": "Ambush: Next Basic Attack deals extra physical damage if no damage taken for 5s.",
+    "icon": "/assets/items/Blade_of_Heptaseas.webp"
+  },
+  {
+    "id": 3003,
+    "name": "Blade of Despair",
+    "category": "Attack",
+    "stats": "+160 Physical Attack, +5% Movement Speed",
+    "passive": "Despair: Increases Physical Attack by 25% when attacking enemies below 50% HP.",
+    "icon": "/assets/items/Blade_of_Despair.webp"
+  },
+  {
+    "id": 2004,
+    "name": "Endless Battle",
+    "category": "Attack",
+    "stats": "+65 Physical Attack, +5 Mana Regen, +250 HP, +10% CDR, +8% Lifesteal, +5% Movement Speed",
+    "passive": "Divine Justice: After skill, next basic attack deals 60% physical attack as True Damage.",
+    "icon": "/assets/items/Endless_Battle.webp"
+  },
+  {
+    "id": 2304,
+    "name": "Tough Boots",
+    "category": "Movement",
+    "stats": "+40 Movement Speed, +22 Magic Defense",
+    "passive": "Fortitude: Reduces Crowd Control duration by 30%.",
+    "icon": "/assets/items/Tough_Boots.webp"
+  },
+  {
+    "id": 4003,
+    "name": "Dominance Ice",
+    "category": "Defense",
+    "stats": "+500 Mana, +70 Physical Defense, +5% Movement Speed",
+    "passive": "Arctic Cold: Reduces nearby enemy attack speed by 30% and shield/HP regen by 50%.",
+    "icon": "/assets/items/Dominance_Ice.webp"
+  },
+  {
+    "id": 4004,
+    "name": "Guardian Helmet",
+    "category": "Defense",
+    "stats": "+1550 HP, +20 HP Regen",
+    "passive": "Recovery: Regenerates 2.5% max HP per second out of battle.",
+    "icon": "/assets/items/Guardian_Helmet.webp"
+  },
+  {
+    "id": 4005,
+    "name": "Immortality",
+    "category": "Defense",
+    "stats": "+800 HP, +20 Physical Defense",
+    "passive": "Immortal: Resurrects 2.5s after death, gaining 16% HP and a 220-1200 shield.",
+    "icon": "/assets/items/Immortality.webp"
+  },
+  {
+    "id": 2302,
+    "name": "Demon Shoes",
+    "category": "Movement",
+    "stats": "+40 Movement Speed, +6 Mana Regen",
+    "passive": "Mysticism: Eliminating enemy heroes restores 10% mana, minions 4%.",
+    "icon": "/assets/items/Demon_Shoes.webp"
+  },
+  {
+    "id": 4006,
+    "name": "Flask of the Oasis",
+    "category": "Defense",
+    "stats": "+60 Magic Power, +300 HP, +10% CDR",
+    "passive": "Blessing: Healing or shielding an ally below 35% HP grants them a shield.",
+    "icon": "/assets/items/Flask_of_the_Oasis.webp"
+  },
+  {
+    "id": 4007,
+    "name": "Oracle",
+    "category": "Defense",
+    "stats": "+850 HP, +42 Magic Defense, +10% CDR",
+    "passive": "Bless: Enhances shield absorption and HP regen by 30%.",
+    "icon": "/assets/items/Oracle.webp"
+  },
+  {
+    "id": 2303,
+    "name": "Arcane Boots",
+    "category": "Movement",
+    "stats": "+40 Movement Speed, +10 Magic Penetration",
+    "passive": "Arcane: standard boots stats increases.",
+    "icon": "/assets/items/Arcane_Boots.webp"
+  },
+  {
+    "id": 5002,
+    "name": "Clock of Destiny",
+    "category": "Magic",
+    "stats": "+60 Magic Power, +615 HP, +600 Mana",
+    "passive": "Time: Gains 25 HP and 4 Magic Power every 20s (up to 15 stacks).",
+    "icon": "/assets/items/Clock_of_Destiny.webp"
+  },
+  {
+    "id": 5003,
+    "name": "Lightning Truncheon",
+    "category": "Magic",
+    "stats": "+75 Magic Power, +400 Mana, +10% CDR",
+    "passive": "Resonate: Every 6s, next skill echoes dealing magic damage to up to 3 enemies.",
+    "icon": "/assets/items/Lightning_Truncheon.webp"
+  },
+  {
+    "id": 5004,
+    "name": "Divine Glaive",
+    "category": "Magic",
+    "stats": "+65 Magic Power, +35% Magic Penetration",
+    "passive": "Spellbreaker: Increases magic penetration by up to 20% based on target magic defense.",
+    "icon": "/assets/items/Divine_Glaive.webp"
+  },
+  {
+    "id": 5005,
+    "name": "Blood Wings",
+    "category": "Magic",
+    "stats": "+90 Magic Power, +150 HP",
+    "passive": "Guard: Gains a shield equal to 200% magic power. Increases movement speed when shield breaks.",
+    "icon": "/assets/items/Blood_Wings.webp"
+  },
+  {
+    "id": 2301,
+    "name": "Warrior Boots",
+    "category": "Movement",
+    "stats": "+40 Movement Speed, +22 Physical Defense",
+    "passive": "Valor: Gains 5 physical defense on basic attack hits (up to 25).",
+    "icon": "/assets/items/Warrior_Boots.webp"
+  },
+  {
+    "id": 2002,
+    "name": "Bloodlust Axe",
+    "category": "Attack",
+    "stats": "+70 Physical Attack, +10% Cooldown Reduction",
+    "passive": "Bloodlust: Grants +20% Spellvamp (sustain on skill damage).",
+    "icon": "/assets/items/Bloodlust_Axe.webp"
+  },
+  {
+    "id": 2003,
+    "name": "Queen's Wings",
+    "category": "Defense",
+    "stats": "+1000 HP, +10% Cooldown Reduction, +5% Spellvamp",
+    "passive": "Demonize: Reduces damage taken by 20% when HP is below 40% and grants lifesteal.",
+    "icon": "/assets/items/Queen_s_Wings.webp"
+  }
+]

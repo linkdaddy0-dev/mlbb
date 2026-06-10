@@ -1,0 +1,66 @@
+Created At: 2026-06-07T16:02:51Z
+Completed At: 2026-06-07T16:02:52Z
+File Path: `file:///c:/Users/rosha/Documents/MLBB/scratch/step_129_diff.txt`
+Total Lines: 72
+Total Bytes: 4192
+Showing lines 1 to 72
+The following code has been modified to include a line number before every line, in the format: <line_number>: <original_line>. Please note that any changes targeting the original code should remove the line number, colon, and leading space.
+1: Created At: 2026-06-07T15:23:52Z
+2: Completed At: 2026-06-07T15:24:09Z
+3: The following changes were made by the replace_file_content tool to: c:\Users\rosha\Documents\MLBB\src\App.jsx. If relevant, proactively run terminal commands to execute this code for the USER. Don't ask for permission.
+4: [diff_block_start]
+5: @@ -7080,245 +7080,61 @@
+6:  
+7:        </main>
+8:  
+9: -
+10: -
+11: -      {/* ======================================================== */}
+12: -
+13: +      {/* ======================================================== */}
+14:        {/* 2. TABBED ASYNCHRONOUS HERO DETAILS MODAL OVERLAYS       */}
+15: -
+16: -      {/* ======================================================== */}
+17: -
+18: +      {/* ======================================================== */}
+19:        {selectedHero && (
+20: -
+21:          <div className="modal-backdrop" onClick={closeHeroDetails}>
+22: -
+23: -          <div className="modal-content" onClick={(e) => e.stopPropagation()} onScroll={(e) => setModalScrollTop(e.target.scrollTop)}>
+24: -
+25: -            
+26: -
+27: -            {/* 1. Header Splash Banner with Dark Bottom Fade */}
+28: -
+29: -            <div className="modal-hero-banner">
+30: -
+31: -              {/* Blurred Background Layer (scaled 1.1x) */}
+32: -              <div 
+33: -                className="modal-hero-banner-bg" 
+34: -                style={{
+35: -                  backgroundImage: `url(${selectedHero.cover_thumb || selectedHero.avatar_url})`,
+36: -                  transform: `translateY(${Math.min
+<truncated 901 bytes>
+);
+53: -                                })()}
+54: -                              </ul>
+55: -                            </div>
+56: -
+57: -                            {/* 6. Draft Intelligence Card */}
+58: -                            <div className="guide-panel-card" style={{ background: 'var(--bg-main)', border: '1px solid var(--border-light)', borderRadius: '12px', padding: '1rem' }}>
+59: -                              <h5 className="panel-card-title" style={{ margin: 0, paddingBottom: '0.4rem', borderBottom: '1px solid var(--border-light)', fontSize: '0.72rem' }}>Draft Intelligence</h5>
+60: -                              
+61: -                              <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem', marginTop: '0.65rem' }}>
+62: -                                <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '0.75rem' }}>
+63: -                                  <div>
+64: -                                    <span style={{ fontSize: '0.52rem', fontWeight: 900, color: 'var(--text-muted)', textTransform: 'uppercase' }}>Best Pick Timing</span>
+65: -                                    <div style={{ marginTop: '0.2rem', fontSize: '0.72rem', fontWeight: 800, color: 'var(--text-primary)' }}>{oData.bestPick}</div>
+66: -                                  </div>
+67: -                                  <div>
+68: -                                    <span style={{ fontSize: '0.52rem', fontWeight: 900, color: 'var(--text-muted)', textTransform: 'uppercase' }}>Ban Priority</span>
+69: -                                    <div style={{ marginTop: '0.2rem', fontSize: '0.72rem', fontWeight: 800, color: oData.banPriority === 'High' ? 'var(--accent-red)' : 'var(--text-primary)' }}>{oData.banPriority}</
+70: <truncated 29650 bytes>
+71: 
+72: NOTE: The output was truncated because it was too long. Use a more targeted query or a smaller range to get the information you need.
+The above content shows the entire, complete file contents of the requested file.

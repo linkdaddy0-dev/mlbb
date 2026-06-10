@@ -1,0 +1,8 @@
+{
+  "appId": "com.mythiciq.app",
+  "appName": "MythicIQ",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "https"
+  }
+}

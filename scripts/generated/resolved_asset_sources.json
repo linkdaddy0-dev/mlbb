@@ -1,0 +1,248 @@
+{
+  "Retribution": {
+    "source": "playwright_fandom",
+    "resolvedUrl": "https://static.wikia.nocookie.net/f92890d4-8291-4b19-bb63-89f46d25a5f8",
+    "localPath": "/assets/spells/Retribution.webp",
+    "lastCrawled": "2026-05-26T21:30:37.608Z"
+  },
+  "Flicker": {
+    "source": "playwright_fandom",
+    "resolvedUrl": "https://static.wikia.nocookie.net/mobile-legends/images/4/43/Recall.png",
+    "localPath": "/assets/spells/Flicker.webp",
+    "lastCrawled": "2026-05-26T21:31:42.763Z"
+  },
+  "Inspire": {
+    "source": "playwright_fandom",
+    "resolvedUrl": "https://static.wikia.nocookie.net/mobile-legends/images/7/7f/Basic_Common_Emblem.png",
+    "localPath": "/assets/spells/Inspire.webp",
+    "lastCrawled": "2026-05-26T21:31:50.075Z"
+  },
+  "Purify": {
+    "source": "playwright_fandom",
+    "resolvedUrl": "https://static.wikia.nocookie.net/mobile-legends/images/4/43/Recall.png",
+    "localPath": "/assets/spells/Purify.webp",
+    "lastCrawled": "2026-05-26T21:31:50.434Z"
+  },
+  "Petrify": {
+    "source": "playwright_fandom",
+    "resolvedUrl": "https://static.wikia.nocookie.net/mobile-legends/images/4/43/Recall.png",
+    "localPath": "/assets/spells/Petrify.webp",
+    "lastCrawled": "2026-05-26T21:31:50.611Z"
+  },
+  "Execute": {
+    "source": "playwright_fandom",
+    "resolvedUrl": "https://static.wikia.nocookie.net/6a181c72-e8bf-419b-b4db-18fd56a0eb60",
+    "localPath": "/assets/spells/Execute.webp",
+    "lastCrawled": "2026-05-26T21:31:59.351Z"
+  },
+  "Aegis": {
+    "source": "playwright_fandom",
+    "resolvedUrl": "https://static.wikia.nocookie.net/mobile-legends/images/1/13/Pillager_Axe.png",
+    "localPath": "/assets/spells/Aegis.webp",
+    "lastCrawled": "2026-05-26T21:32:00.152Z"
+  },
+  "Revitalize": {
+    "source": "playwright_fandom",
+    "resolvedUrl": "https://static.wikia.nocookie.net/mobile-legends/images/4/43/Recall.png",
+    "localPath": "/assets/spells/Revitalize.webp",
+    "lastCrawled": "2026-05-26T21:32:00.187Z"
+  },
+  "Flameshot": {
+    "source": "playwright_fandom",
+    "resolvedUrl": "https://static.wikia.nocookie.net/mobile-legends/images/4/43/Recall.png",
+    "localPath": "/assets/spells/Flameshot.webp",
+    "lastCrawled": "2026-05-26T21:32:07.608Z"
+  },
+  "Sprint": {
+    "source": "playwright_fandom",
+    "resolvedUrl": "https://static.wikia.nocookie.net/mobile-legends/images/e/ef/What%21%3F.png",
+    "localPath": "/assets/spells/Sprint.webp",
+    "lastCrawled": "2026-05-26T21:32:07.982Z"
+  },
+  "Vengeance": {
+    "source": "playwright_fandom",
+    "resolvedUrl": "https://static.wikia.nocookie.net/mobile-legends/images/4/43/Recall.png",
+    "localPath": "/assets/spells/Vengeance.webp",
+    "lastCrawled": "2026-05-26T21:32:09.080Z"
+  },
+  "Custom Marksman Emblem": {
+    "source": "playwright_fandom",
+    "resolvedUrl": "https://static.wikia.nocookie.net/mobile-legends/images/7/7f/Basic_Common_Emblem.png",
+    "localPath": "/assets/emblems/Custom_Marksman_Emblem.webp",
+    "lastCrawled": "2026-05-26T21:32:17.236Z"
+  },
+  "Arrival": {
+    "source": "playwright_fandom",
+    "resolvedUrl": "https://static.wikia.nocookie.net/mobile-legends/images/3/3b/New_Arrival_Token.png",
+    "localPath": "/assets/spells/Arrival.webp",
+    "lastCrawled": "2026-05-26T21:32:17.310Z"
+  },
+  "Custom Assassin Emblem": {
+    "source": "playwright_fandom",
+    "resolvedUrl": "https://static.wikia.nocookie.net/mobile-legends/images/7/7f/Basic_Common_Emblem.png",
+    "localPath": "/assets/emblems/Custom_Assassin_Emblem.webp",
+    "lastCrawled": "2026-05-26T21:32:18.590Z"
+  },
+  "Custom Tank Emblem": {
+    "source": "playwright_fandom",
+    "resolvedUrl": "https://static.wikia.nocookie.net/mobile-legends/images/7/7f/Basic_Common_Emblem.png",
+    "localPath": "/assets/emblems/Custom_Tank_Emblem.webp",
+    "lastCrawled": "2026-05-26T21:32:26.074Z"
+  },
+  "Custom Mage Emblem": {
+    "source": "playwright_fandom",
+    "resolvedUrl": "https://static.wikia.nocookie.net/mobile-legends/images/7/7f/Basic_Common_Emblem.png",
+    "localPath": "/assets/emblems/Custom_Mage_Emblem.webp",
+    "lastCrawled": "2026-05-26T21:32:26.102Z"
+  },
+  "Custom Fighter Emblem": {
+    "source": "playwright_fandom",
+    "resolvedUrl": "https://static.wikia.nocookie.net/mobile-legends/images/7/7f/Basic_Common_Emblem.png",
+    "localPath": "/assets/emblems/Custom_Fighter_Emblem.webp",
+    "lastCrawled": "2026-05-26T21:32:27.687Z"
+  },
+  "Fatal": {
+    "source": "playwright_fandom",
+    "resolvedUrl": "https://static.wikia.nocookie.net/6a181c72-e8bf-419b-b4db-18fd56a0eb60",
+    "localPath": "/assets/talents/Fatal.webp",
+    "lastCrawled": "2026-05-26T21:32:34.407Z"
+  },
+  "Custom Support Emblem": {
+    "source": "playwright_fandom",
+    "resolvedUrl": "https://static.wikia.nocookie.net/mobile-legends/images/7/7f/Basic_Common_Emblem.png",
+    "localPath": "/assets/emblems/Custom_Support_Emblem.webp",
+    "lastCrawled": "2026-05-26T21:32:34.611Z"
+  },
+  "Bargain Hunter": {
+    "source": "playwright_fandom",
+    "resolvedUrl": "https://static.wikia.nocookie.net/6a181c72-e8bf-419b-b4db-18fd56a0eb60",
+    "localPath": "/assets/talents/Bargain_Hunter.webp",
+    "lastCrawled": "2026-05-26T21:32:35.264Z"
+  },
+  "Swift": {
+    "source": "playwright_fandom",
+    "resolvedUrl": "https://static.wikia.nocookie.net/mobile-legends/images/a/a1/Swift_Crossbow.png",
+    "localPath": "/assets/talents/Swift.webp",
+    "lastCrawled": "2026-05-26T21:32:42.998Z"
+  },
+  "Master Assassin": {
+    "source": "playwright_fandom",
+    "resolvedUrl": "https://static.wikia.nocookie.net/mobile-legends/images/7/7f/Basic_Common_Emblem.png",
+    "localPath": "/assets/talents/Master_Assassin.webp",
+    "lastCrawled": "2026-05-26T21:32:43.651Z"
+  },
+  "Weakness Finder": {
+    "source": "playwright_fandom",
+    "resolvedUrl": "https://static.wikia.nocookie.net/mobile-legends/images/f/f3/Corrosion_Scythe.png",
+    "localPath": "/assets/talents/Weakness_Finder.webp",
+    "lastCrawled": "2026-05-26T21:32:43.913Z"
+  },
+  "Rupture": {
+    "source": "playwright_fandom",
+    "resolvedUrl": "https://static.wikia.nocookie.net/mobile-legends/images/b/bb/Ice_Hunter%27s_Demon_Shoes.png",
+    "localPath": "/assets/talents/Rupture.webp",
+    "lastCrawled": "2026-05-26T21:32:52.239Z"
+  },
+  "Weapon Master": {
+    "source": "playwright_fandom",
+    "resolvedUrl": "https://static.wikia.nocookie.net/mobile-legends/images/e/ef/What%21%3F.png",
+    "localPath": "/assets/talents/Weapon_Master.webp",
+    "lastCrawled": "2026-05-26T21:32:53.360Z"
+  },
+  "Killing Spree": {
+    "source": "playwright_fandom",
+    "resolvedUrl": "https://static.wikia.nocookie.net/mobile-legends/images/5/5e/Evil_Hunter.png",
+    "localPath": "/assets/talents/Killing_Spree.webp",
+    "lastCrawled": "2026-05-26T21:32:53.431Z"
+  },
+  "Lethal Ignition": {
+    "source": "playwright_fandom",
+    "resolvedUrl": "https://static.wikia.nocookie.net/mobile-legends/images/b/b5/Impure_Rage.png",
+    "localPath": "/assets/talents/Lethal_Ignition.webp",
+    "lastCrawled": "2026-05-26T21:33:01.512Z"
+  },
+  "Festival of Blood": {
+    "source": "playwright_fandom",
+    "resolvedUrl": "https://static.wikia.nocookie.net/mobile-legends/images/5/5e/Evil_Hunter.png",
+    "localPath": "/assets/talents/Festival_of_Blood.webp",
+    "lastCrawled": "2026-05-26T21:33:01.908Z"
+  },
+  "Thrill": {
+    "source": "playwright_fandom",
+    "resolvedUrl": "https://static.wikia.nocookie.net/6a181c72-e8bf-419b-b4db-18fd56a0eb60",
+    "localPath": "/assets/talents/Thrill.webp",
+    "lastCrawled": "2026-05-26T21:33:02.389Z"
+  },
+  "Brave Smite": {
+    "source": "playwright_fandom",
+    "resolvedUrl": "https://static.wikia.nocookie.net/mobile-legends/images/7/7f/Basic_Common_Emblem.png",
+    "localPath": "/assets/talents/Brave_Smite.webp",
+    "lastCrawled": "2026-05-26T21:33:10.143Z"
+  },
+  "Impure Rage": {
+    "source": "playwright_fandom",
+    "resolvedUrl": "https://static.wikia.nocookie.net/mobile-legends/images/b/b5/Impure_Rage.png",
+    "localPath": "/assets/talents/Impure_Rage.webp",
+    "lastCrawled": "2026-05-26T21:33:11.338Z"
+  },
+  "Tenacity": {
+    "source": "playwright_fandom",
+    "resolvedUrl": "https://static.wikia.nocookie.net/mobile-legends/images/7/7f/Basic_Common_Emblem.png",
+    "localPath": "/assets/talents/Tenacity.webp",
+    "lastCrawled": "2026-05-26T21:33:11.426Z"
+  },
+  "Focus Mark": {
+    "source": "playwright_fandom",
+    "resolvedUrl": "https://static.wikia.nocookie.net/6a181c72-e8bf-419b-b4db-18fd56a0eb60",
+    "localPath": "/assets/talents/Focus_Mark.webp",
+    "lastCrawled": "2026-05-26T21:33:19.559Z"
+  },
+  "Concussive Blast": {
+    "source": "playwright_fandom",
+    "resolvedUrl": "https://static.wikia.nocookie.net/mobile-legends/images/b/b5/Impure_Rage.png",
+    "localPath": "/assets/talents/Concussive_Blast.webp",
+    "lastCrawled": "2026-05-26T21:33:20.078Z"
+  },
+  "Wilderness Blessing": {
+    "source": "playwright_fandom",
+    "resolvedUrl": "https://static.wikia.nocookie.net/mobile-legends/images/7/7f/Basic_Common_Emblem.png",
+    "localPath": "/assets/talents/Wilderness_Blessing.webp",
+    "lastCrawled": "2026-05-26T21:33:20.738Z"
+  },
+  "Pull Yourself Together": {
+    "source": "playwright_fandom",
+    "resolvedUrl": "https://static.wikia.nocookie.net/mobile-legends/images/e/e3/Wind_of_Nature.png",
+    "localPath": "/assets/talents/Pull_Yourself_Together.webp",
+    "lastCrawled": "2026-05-26T21:33:28.268Z"
+  },
+  "Temporal Reign": {
+    "source": "playwright_fandom",
+    "resolvedUrl": "https://static.wikia.nocookie.net/6a181c72-e8bf-419b-b4db-18fd56a0eb60",
+    "localPath": "/assets/talents/Temporal_Reign.webp",
+    "lastCrawled": "2026-05-26T21:33:28.697Z"
+  },
+  "Quantum Charge": {
+    "source": "playwright_fandom",
+    "resolvedUrl": "https://static.wikia.nocookie.net/mobile-legends/images/7/7f/Basic_Common_Emblem.png",
+    "localPath": "/assets/talents/Quantum_Charge.webp",
+    "lastCrawled": "2026-05-26T21:33:29.663Z"
+  },
+  "War Cry": {
+    "source": "playwright_fandom",
+    "resolvedUrl": "https://static.wikia.nocookie.net/mobile-legends/images/b/b5/Impure_Rage.png",
+    "localPath": "/assets/talents/War_Cry.webp",
+    "lastCrawled": "2026-05-26T21:33:36.709Z"
+  },
+  "Shielding Skill": {
+    "source": "playwright_fandom",
+    "resolvedUrl": "https://static.wikia.nocookie.net/6a181c72-e8bf-419b-b4db-18fd56a0eb60",
+    "localPath": "/assets/talents/Shielding_Skill.webp",
+    "lastCrawled": "2026-05-26T21:33:37.714Z"
+  },
+  "Focusing Mark": {
+    "source": "playwright_fandom",
+    "resolvedUrl": "https://static.wikia.nocookie.net/mobile-legends/images/b/b5/Impure_Rage.png",
+    "localPath": "/assets/talents/Focusing_Mark.webp",
+    "lastCrawled": "2026-05-26T21:33:39.331Z"
+  }
+}

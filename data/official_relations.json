@@ -1,0 +1,794 @@
+{
+  "108": {
+    "name": "Aulus",
+    "synergy_desc": "Aulus is a dive Fighter and he thrives with reliable ranged Support, such as Angela and Floryn.",
+    "strong_desc": "Aulus's strong engage and sustained combat capabilities, along with his Control Immunity, makes him a good counter to squishy, low-mobility heroes like Hanabi, Miya, and Gord.",
+    "weak_desc": "Since Aulus's damage relies on landing his enhanced Basic Attacks, heroes who can keep him at bay and avoid them are a tough matchup, such as Franco, Melissa, and Karina."
+  },
+  "132": {
+    "name": "Marcel",
+    "synergy_desc": "Because of Marcel's excellent AOE CC, he pairs well with allies with high AOE damage, like Hanabi and Ixia, to maximize their damage potential.",
+    "strong_desc": "Marcel is more effective against low-mobility heroes, such as Layla and Vexana, as they are easily caught by his Ultimate, allowing him and his allies to secure easy kills.",
+    "weak_desc": "Heroes who possess Invincibility or Untargetable effects that can bypass Marcel's CC, like Ling and X.Borg, will reduce his impact on the battlefield."
+  },
+  "15": {
+    "name": "Eudora",
+    "synergy_desc": "Eudora's skills can deal massive AOE damage, so pairing her with heroes who can group enemies, like Diggie and Tigreal, will make it easier to maximize her damage.",
+    "strong_desc": "Eudora possesses strong targeted CC and burst capabilities, allowing her to keep squishy heroes like Moskov and Obsidia in check.",
+    "weak_desc": "Eudora lacks self-preservation and struggles against dive heroes or Assassins who can negate targeted CC, such as Hayabusa and Kadita."
+  },
+  "131": {
+    "name": "Sora",
+    "synergy_desc": "Sora's transformed Ultimate deals considerable damage, and pairing him with Tigreal, Minotaur, Gatotkaca, and other strong CC heroes will maximize Sora's damage potential.",
+    "strong_desc": "Sora excels at diving in with explosive burst damage and AOE CC, so squishy heroes without escape abilities\u2014like Layla, Miya, and Hanabi\u2014will find themselves helpless against Sora's relentless assault.",
+    "weak_desc": "Sora relies on landing his 1st Skill to get Cloudstep stacks. Heroes with high mobility or Knockbacks, like Fanny, Arlott, and Valir, can prevent Sora from gaining this precious resource."
+  },
+  "130": {
+    "name": "Obsidia",
+    "synergy_desc": "Obsidia usually reaches her damage potential in the mid-to-late game, so she wants support heroes who can help her in the early game, like Angela and Estes.",
+    "strong_desc": "Obsidia's Ultimate will disable dash and blink skills, making her excellent at countering heroes who rely on them,  such as Hayabusa, Freya, and Lancelot.",
+    "weak_desc": "Obsidia struggles during the early laning phase, making her vulnerable to other Marksmen with strong early game, such as Bruno and Layla."
+  },
+  "129": {
+    "name": "Zetian",
+    "synergy_desc": "While Zetian already has decent survivability, when paired with supports who can protect allies like Floryn and Rafaela, Fighters with limited range will struggle even more to approach Zetian. And with the healing from these supports, Zetian can win any ranged battle of attrition.",
+    "strong_desc": "Zetian's Passive counters melee heroes with limited gap closers like Balmond and Zilong, allowing her to continue poking the enemy from a safe distance.",
+    "weak_desc": "Zetian's Ultimate can strike down anywhere on the map, but having such a powerful Ult means a hero like Valentina can also use it against Zetian's team."
+  },
+  "128": {
+    "name": "Kalea",
+    "synergy_desc": "Kalea's strong single-target CC makes her work well with heroes who have high single-target burst, like Eudora, Harley, and Clint.",
+    "strong_desc": "Kalea counters heroes who lack mobility like Layla and Chang'e.",
+    "weak_desc": "However, Kalea cannot grab enemies with Control Immunity, so heroes like Diggie and Minotaur can effectively counter her."
+  },
+  "127": {
+    "name": "Lukas",
+    "synergy_desc": "Lukas's Sacred Beast form has extended attack range and enhanced mobility, which synergizes well with heroes possessing AOE CC, such as Atlas, Tigreal, and Gatotkaca.",
+    "strong_desc": "Lukas excels in close-quarter combat and is a good counter to heroes with low mobility and CC, like Hanabi and Ixia.",
+    "weak_desc": "Lukas needs to stay close to enemies to deal damage, which makes him vulnerable to heroes with strong burst and CC, such as Fanny, Valir, and Julian."
+  },
+  "126": {
+    "name": "Suyou",
+    "synergy_desc": "Heroes that provide control (like Tigreal) make it easier for Suyou to deal massive damage; heroes that provide recovery and extra movement speed (like Rafaela) help Suyou kite better.",
+    "strong_desc": "Suyou's powerful long-range burst and pursuit abilities make it impossible for heroes without Blinks or Charges, such as Xavier and Ixia, to escape.",
+    "weak_desc": "Because Suyou requires hold-casting skills, heroes with control can easily interrupt his attacks, such as Badang and Melissa."
+  },
+  "125": {
+    "name": "Zhuxin",
+    "synergy_desc": "Zhuxin can provide great damage and CC, but she can't realize her potential until later in the game, so heroes with CC can help Zhuxin get through the early period. Zhuxin also works well with sustained damage heroes like Belerick, Kimmy, and Cici to dish out a surprising amount of damage.",
+    "strong_desc": "Zhuxin is a good counter to enemies with less range and low mobility, such as Popol and Kupa and Cyclops, where she has a big advantage.",
+    "weak_desc": "Like most Mages, Zhuxin is countered by heroes with high mobility and burst, such as Fanny and Saber, who can quickly take her down."
+  },
+  "124": {
+    "name": "Chip",
+    "synergy_desc": "Chip's Ultimate allows his team to group up from anywhere, so he works well with heroes who can't cross the map quickly but excel in teamfights, such as Alpha, Hanabi, and Kadita.",
+    "strong_desc": "Chip possesses strong initiation and CC abilities, making him a great counter against heroes with low mobility or those who are relatively squishy, such as Vexana, Layla, and Ixia.",
+    "weak_desc": "Since enemies can also use Chip's Connecting Portals, certain heroes with strong teamfighting abilities, like Barats and Tigreal, can use them to their advantage."
+  },
+  "123": {
+    "name": "Cici",
+    "synergy_desc": "Cici works well with heroes that have buffs and can boost survivability. Supports like Angela and Floryn can help Cici gain an early advantage by greatly amplifying her combat capabilities to end the game before it drags on too long.",
+    "strong_desc": "Because of Cici's great kiting ability and her 1st Skill dealing Max HP damage, Cici counters certain Tanks like Fredrinn and Minotaur.",
+    "weak_desc": "Cici is countered by heroes with targeted CC skills who can stop her dead in her tracks, such as Saber and Kaja."
+  },
+  "122": {
+    "name": "Nolan",
+    "synergy_desc": "Nolan works well with Tanks that can initiate and CC the enemy so Nolan to focus on dealing as much damage as possible, such as Tigreal and Gatotkaca.",
+    "strong_desc": "Nolan counters squishy heroes that lack mobility skills like Hanabi and Eudora because they have a hard time avoiding his rifts while Nolan's own mobility makes them easy targets.",
+    "weak_desc": "Nolan is countered by tanky heroes with high sustained damage, such as Thamuz and Fredrinn, who can survive Nolan's burst and kill him afterwards."
+  },
+  "121": {
+    "name": "Ixia",
+    "synergy_desc": "With her Ultimate, Ixia is capable of dealing impressive sustained damage. So she works best with heroes with area CC abilities, like Atlas and Vexana.",
+    "strong_desc": "Ixia's skills make her a nice kiter. She works well against heroes with short ranges or poor Slow abilities, such as Fredrinn and Bane.",
+    "weak_desc": "Ixia lacks survivability, that's why she can be countered by heroes with high burst damage or strong control abilities such as Saber and Aamon."
+  },
+  "120": {
+    "name": "Arlott",
+    "synergy_desc": "Arlott works well with Tanks who can initiate with CC, such as Gatotkaca and Atlas. Their CC will also mark enemies for Arlott, allowing him to use his 2nd Skill even more for tons of damage.",
+    "strong_desc": "Arlott counters Fighters with relatively lower HP, such as Sun and Zilong. Arlott can deal high burst damage and has excellent chasing and control abilities, allowing him to quickly eliminate more fragile Fighters.",
+    "weak_desc": "Arlott is countered by tanky Fighters that can withstand lots of damage, like Thamuz and Fredrinn, because he lacks the burst to take them out quickly and will lose in a prolonged battle."
+  },
+  "119": {
+    "name": "Novaria",
+    "synergy_desc": "Novaria works well with other long-range heroes like Beatrix and Layla because her Ultimate makes any target a sitting duck for her team to pick off.",
+    "strong_desc": "Novaria counters Mages with shorter range and low mobility, such as Eudora and Odette, because these heroes can't reach Novaria while Novaria can hit them with her 2nd Skill.",
+    "weak_desc": "Novaria is countered by Assassins with strong targeted burst damage, such as Saber and Hayabusa, because they can easily close in on Novaria and burst her down."
+  },
+  "118": {
+    "name": "Joy",
+    "synergy_desc": "Joy works best with heroes with that can provide powerful support or have strong initiation, like Angela and Hylos.",
+    "strong_desc": "Joy is strong against heroes that lack mobility or rely on CC, like Xavier and Vexana, because she has an easier time hitting them with her 2nd Skill while being immune to their CC's.",
+    "weak_desc": "Joy is countered by heroes that can restrict mobility skills, such as Minsitthar and Khufra, due to her kit's heavy reliance on her 2nd Skill."
+  },
+  "117": {
+    "name": "Fredrinn",
+    "synergy_desc": "Fredrinn works best with support heroes, who can further improve his survivability, like Angela and Floryn.",
+    "strong_desc": "Fredrinn is strong against Mage heroes who rely on skill bursts, as it is difficult for them to one-shot him with their bursts. Instead, once Fredrinn has enough Combo Points, he can use his 2nd Ultimate to easily finish them off. Such as Vale and Eudora.",
+    "weak_desc": "Fredrinn is countered by Marksman heroes who can deal True Damage, as they can take him down very easily. Heroes like Kerrie and Lesley are good examples here."
+  },
+  "116": {
+    "name": "Julian",
+    "synergy_desc": "Julian works best with powerful support heroes who can buff him, like Angela and Diggie.",
+    "strong_desc": "Julian is a hero who can constantly grow his own advantage, so he is strong against heroes who are weak in the early game, like Cecilion and Aldous.",
+    "weak_desc": "Julian needs to hit enemy heroes with his skills to bring out his potential, so he is countered by heroes with good Mobility. Such as Joy and Harith."
+  },
+  "115": {
+    "name": "Xavier",
+    "synergy_desc": "He works well alongside heroes that can buff or provide CC to give him more opportunities to deal damage, such as Carmilla and Atlas.",
+    "strong_desc": "Xavier possesses short cooldowns, a soft CC, good sustainability and performs well against heroes without Blink or burst damage, such as Hanabi and Faramis.",
+    "weak_desc": "Xavier is countered by heroes with high mobility that can quickly close a gap such as Benedetta, Hayabusa, and Natalia."
+  },
+  "114": {
+    "name": "Melissa",
+    "synergy_desc": "Tanks that can chain CC such as Tigreal and Minotaur,\nallowing her to keep enemies linked.",
+    "strong_desc": "Fighters like Sun and Zilong that can't get past her Ultimate.",
+    "weak_desc": "Long range Mages such as Xavier and Nana."
+  },
+  "113": {
+    "name": "Yin",
+    "synergy_desc": "Yin works best with Supports that can enhance his mobility, such as Mathilda and Rafaela to help him get to the enemy and eliminate key targets.",
+    "strong_desc": "Yin counters squishy heroes without Blink skills like Layla and Cecilion because they will have a hard time dodging his Golden Rings. Once they are stunned or trapped in his Ultimate, Yin can easily finish them off.",
+    "weak_desc": "Yin is countered by Fighters that can interrupt skills, such as Fredrinn and Badang, because they can easily interrupt his Ultimate during the initial delay. These heroes can also hold their own in a duel, making them risky targets for Yin's Ultimate."
+  },
+  "112": {
+    "name": "Floryn",
+    "synergy_desc": "Floryn works well with tanky Fighters, such as Terizla and Thamuz, because they are easier to keep alive with heals and can peel enemies off of her.",
+    "strong_desc": "Floryn excels at sustained healing and counters Tanks with low damage output, such as Uranus and Lolita.",
+    "weak_desc": "Floryn is countered by high mobility and burst damage Assassins, like Karina and Saber."
+  },
+  "111": {
+    "name": "Edith",
+    "synergy_desc": "Edith works best with heroes like Minotaur and Atlas that can more reliably CC a target first, allowing her to follow up with her own CC.",
+    "strong_desc": "Edith is strong against heroes that are not very agile and on the fragile side, such as Zilong and Aulus, because her skills deal enough burst damage to eliminate them after connecting with her 2nd Skill.",
+    "weak_desc": "Edith is countered by Marksmen that can negate CC like Hanabi and Wanwan, since she will have a hard time locking them down."
+  },
+  "110": {
+    "name": "Valentina",
+    "synergy_desc": "Heroes that can buff or CC such as Carmilla and Atlas to give her more opportunities to deal damage.",
+    "strong_desc": "Heroes that lack mobility or burst such as Hanabi and Faramis are suspectible to Valentina's low cooldown skills that provide soft CC and sustained damage.",
+    "weak_desc": "Heroes with gap closers or high burst like Hayabusa, Natalia, and Hanzo."
+  },
+  "109": {
+    "name": "Aamon",
+    "synergy_desc": "Support heroes that can provide buffs such as Rafaela and Floryn.",
+    "strong_desc": "Squishy heroes with low mobility such as Layla and Hanabi.",
+    "weak_desc": "Tanky heroes or those that deal damage over time such as Balmond and Fredrinn."
+  },
+  "107": {
+    "name": "Natan",
+    "synergy_desc": "Natan's Ultimate allows him to blink a great distance, so he works best with initiator heroes such as Johnson and Alpha because he can dive with them and unleash a lot of damage.",
+    "strong_desc": "Natan is strong against Tanks with low mobility such as Tigreal and Gatotkaca because he can easily avoid their control abilities with his UIltimate and get more hits in with his Basic Attacks on slower targets.",
+    "weak_desc": "Natan is countered by heroes with targeted control and high burst like Saber and Eudora that can lock him down and finish him off."
+  },
+  "106": {
+    "name": "Phoveus",
+    "synergy_desc": "Tanks with good initiation like Gatotkaca, Minotaur, and Tigreal can create opportunities for Phoveus to maximize his damage while they take some of the incoming damage.",
+    "strong_desc": "Enemies with multiple mobility abilities can greatly reduce Phoveus's cooldowns, so he can use his enhanced Basic Attacks and skills more often when facing heroes like Wanwan, Arlott, and Chou.",
+    "weak_desc": "Phoveus will struggle against ranged heroes with strong CC, such as Aurora, Valir, and Vexana."
+  },
+  "105": {
+    "name": "Beatrix",
+    "synergy_desc": "Beatrix works best with tank heroes with good CC abilities, as they can help improve the accuracy of Beatrix's skills. Like Khufra and Atlas.",
+    "strong_desc": "Beatrix is strong against heroes without movement abilities, as they can be easily hit by her skills, such as Hylos and Belerick.",
+    "weak_desc": "Beatrix is countered by high burst damage heroes with strong single-target CC, as they can catch her with a CC and burst her down. Such as Eudora and Ling."
+  },
+  "104": {
+    "name": "Gloo",
+    "synergy_desc": "Gloo works best with high burst damage heroes, as they can quickly take down the enemy hero that he brings back with his Ultimate. Like Eudora and Saber.",
+    "strong_desc": "Gloo is strong against Mage heroes without good CC. Because he can easily attach himself to them, and take them where he wants them to go. Such as Cecilion and Chang'e.",
+    "weak_desc": "Gloo is countered by Marksman heroes with good mobility. It's difficult for Gloo to attach himself to them, and he can easily be killed if he tries. Such as Karrie and Lesley."
+  },
+  "103": {
+    "name": "Paquito",
+    "synergy_desc": "Paquito works best with support heroes who can buff him, like Angela and Rafaela.",
+    "strong_desc": "Paquito is a hero with dash and high burst damage, making him strong against squishy heroes without defensive abilities, such as Gord and Layla.",
+    "weak_desc": "Paquito is an agile hero, but he is also kind of squishy, which makes him weak against heroes with strong CC abilities. Such as Franco and Kaja."
+  },
+  "102": {
+    "name": "Mathilda",
+    "synergy_desc": "Mathilda works well with high burst damage heroes who can use Guiding Wind and follow up her Ultimate to secure kills, such as Saber and Eudora.",
+    "strong_desc": "Mathilda excels in harassment and single-target CC, making her a great counter to squishy heroes with no escape skills, like Gord and Vale.",
+    "weak_desc": "Mathilda is countered by Tanks with multiple CC skills, such as Franco and Minsitthar."
+  },
+  "101": {
+    "name": "Yve",
+    "synergy_desc": "Yve's works best with Tanks and Supports with strong CC to lockdown enemies for her Ultimate, like Minotaur, Gatotkaca, and Atlas.",
+    "strong_desc": "Yve counters Tanks and Fighters with low mobility like Fredrinn, Barats, and Aulus due to her long range skills.",
+    "weak_desc": "Yve's low survivability makes her a target for divers and burst damage heroes like Yin, Saber, and Karina."
+  },
+  "100": {
+    "name": "Brody",
+    "synergy_desc": "Brody works best with heroes who can perform lock-on attacks or heroes with area CC abilities, as they can give Brody more room to deal damage and farm better. Such as Hylos and Minsitthar.",
+    "strong_desc": "Brody is strong against heroes with poor survivability in the early game and heroes without dash, because he can easily lock on them and attack beyond their reach. Like Aamon and Yin.",
+    "weak_desc": "Brody is countered by heroes with CC immunity and multiple movement abilities, because they can quickly close in on Brody, giving him no chance to stack the Abyss Mark. Such as Martis and Wanwan."
+  },
+  "99": {
+    "name": "Barats",
+    "synergy_desc": "Barats works best with Supports who can give him Movement Speed to make up for his lack of mobility, such as Mathilda and Angela.",
+    "strong_desc": "Barats counters Tank heroes that rely on CC skills, such as Belerick and Lolita, since the extra Resilience provided by his Passive will greatly reduce the duration of their CC.",
+    "weak_desc": "Barats is countered by agile Marksmen who can deal high damage to Tanks, such as Karrie and Moskov, because Barats lacks mobility and his skills can be avoided, making these heroes very difficult to kill."
+  },
+  "98": {
+    "name": "Khaleed",
+    "synergy_desc": "Because Khaleed can deal a lot of AOE damage, he works well with heroes like Roger and Karina who excel at finishing off multiple low HP targets.",
+    "strong_desc": "Khaleed counters heroes who lack mobility like Cyclops and Xavier since they will have difficult time avoiding his combo.",
+    "weak_desc": "Khaleed is countered by heroes who have the ability to knock him back or airborne to interrupt his 2nd Skill, such as X.Borg and Chou."
+  },
+  "97": {
+    "name": "Benedetta",
+    "synergy_desc": "Benedetta works well with strong CC initiators, like Johnson and Gatotkaca, because they allow her to maximize the effects of her Ultimate.",
+    "strong_desc": "Benedetta's 2nd Skill can effectively block enemy CC, making her a great counter to heroes with predictable CC skills, such as Jawhead and Guinevere.",
+    "weak_desc": "Benedetta is countered by heroes with skills that shutdown mobility skills, such as Minsitthar and Phoveus, since all of Benedetta's skills are considered mobility."
+  },
+  "96": {
+    "name": "Luo Yi",
+    "synergy_desc": "Luo Yi works best with Junglers who are often looking for fights around the map, such as Aamon and Karina, because she can use her Ultimate to cut down their travel time.",
+    "strong_desc": "Luo Yi counters heroes with low mobility such as Eudora and Gord because they are easy targets for her Sigils and Yin-Yang Reactions.",
+    "weak_desc": "Luo Yi is countered by Fighters or Tanks with high HP recovery like Uranus and Fredrinn because she can't deal enough damage to finish them off quickly."
+  },
+  "95": {
+    "name": "Yu Zhong",
+    "synergy_desc": "Yu Zhong works well with Mages that can initiate with CC such as Vexana and Xavier. Their control effects allow Yu Zhong to land his skills more easily.",
+    "strong_desc": "Yu Zhong counters squishy Fighter heroes such as Aulus and Zilong, because they can't easily dodge Yu Zhong's skills and have a hard time with him in the early game.",
+    "weak_desc": "Yu Zhong is countered by nimble Marksman heroes such as Lesley and Karrie, since it's hard for Yu Zhong to land his skills, making him a vulnerable and easy target."
+  },
+  "94": {
+    "name": "Popol and Kupa",
+    "synergy_desc": "Popol and Kupa are best with Fighters that can charge into enemies' midst and ensure the survival of Popol and Kupa after controlling and killing enemies. For example, Alpha and Khaleed.",
+    "strong_desc": "Kupa is powerful in combat, especially against Marksmen with lower sustainability such as Lesley and Brody.",
+    "weak_desc": "But since Popol and Kupa don't have any Blink skills\nand Popol is quite squishy, they are at the mercy of more agile Assassins like Gusion and Karina."
+  },
+  "93": {
+    "name": "Atlas",
+    "synergy_desc": "Atlas works well with heroes with high AOE damage like Vale and Ixia because Atlas can pull enemies together and keep them CC'd.",
+    "strong_desc": "Atlas counters squishy heroes without mobility skills like Vexana and Eudora because they cannot reliably escape his CC.",
+    "weak_desc": "Atlas is countered by heroes who can knock him away, such as Valir and Moskov, since they can easily stop his 2nd Skill which Atlas relies on to land his other skills."
+  },
+  "92": {
+    "name": "Carmilla",
+    "synergy_desc": "Carmilla is best paired with sustained damage Mages with CC abilities like Cecilion and Aurora, as her Ultimate can greatly amplify their strengths.",
+    "strong_desc": "Carmilla counters melee Fighters with low durability, such as Dyrroth and Lapu-Lapu, because she can rapidly steal their Defenses with her 1st Skill and Passive while healing herself.",
+    "weak_desc": "Carmilla is countered by heroes that can ignore or remove her CC, such as Hanabi and Wanwan, since they can't be locked down by Carmilla's 2nd Skill or Ultimate."
+  },
+  "91": {
+    "name": "Cecilion",
+    "synergy_desc": "Cecilion works well with Tanks with sustained CC abilities, such as Carmilla and Minotaur, since their CC can help Cecilion land his skills.",
+    "strong_desc": "Cecilion counters less mobile Fighters like Balmond and Terizla because these heroes have a hard time getting close to Cecilion while Cecilion can more easily hit them with his skills.",
+    "weak_desc": "Cecilion is countered by Assassins who can quickly close the gap like Ling and Fanny because Cecilion lacks defensive tools and his normal skills cannot hit enemies in melee range."
+  },
+  "90": {
+    "name": "Silvanna",
+    "synergy_desc": "Pairing Silvanna with Tanks gives her sufficient space to dish out damage.\nFor example, Atlas and Tigreal.",
+    "strong_desc": "Silvanna has a long attack range and powerful crowd control abilities,which makes her stronger against back-row Mages and Marksmen,such as Layla and Valir.",
+    "weak_desc": "But she can be weak against Fighters with multiple CCs\nlike Martis because they can easily interrupt her 2nd Skill."
+  },
+  "89": {
+    "name": "Wanwan",
+    "synergy_desc": "She's best with Supporting Tanks with powerful crowd control, like Franco and Belerick. They can help Wanwan hit more Weaknesses and unlock her Ultimate.",
+    "strong_desc": "Wanwan is exceptional in dashing and powerful against heroes with short ranges or heavy weight, such as Fredrinn and Luo Yi.",
+    "weak_desc": "However, due to her lack of durability and short attack range, Mages with longer ranges like Gord can poke her easily. She also lacks survival abilities when taking Burst damage and can be weak against Burst Assassins like Lancelot."
+  },
+  "88": {
+    "name": "Masha",
+    "synergy_desc": "Masha can maximize her effectiveness and damage when paired with utility Supports that provide extra Movement Speed and CC, such as Angela and Rafaela.",
+    "strong_desc": "Masha works well against Marksmen with low mobility, such as Ixia and Layla, as she can easily chase them down using her Ultimate.",
+    "weak_desc": "Masha is countered by Fighters with strong Regen capabilities like Cici and Thamuz, because they can outlast Masha in a prolonged fight due to her comparatively lower Regen."
+  },
+  "87": {
+    "name": "Baxia",
+    "synergy_desc": "Baxia can utilize his AOE damage and slow effect to help sustained damage heroes like Thamuz and Alpha stay on their targets.",
+    "strong_desc": "Baxia counters heroes with multi-hit skills or those who rely on shields or HP Regen, such as Chang'e and Silvanna, thanks to his Passive.",
+    "weak_desc": "Baxia is countered by agile Marksmen who deal True Damage like Karrie and Lesley because they can easily stay out of Baxia's range while dealing massive damage to him."
+  },
+  "86": {
+    "name": "Lylia",
+    "synergy_desc": "Lylia excels in prolonged battles, and works well with heroes with strong CC, like Franco and Minotaur.",
+    "strong_desc": "Lylia counters Tank heroes without Blink skills, such as Carmilla and Hylos, who cannot easily escape Gloom's AOE range and are more susceptible to Lylia's high sustained damage.",
+    "weak_desc": "Since most of Lylia's damage comes from detonating her 2nd Skill, but setting up Gloom can be quite slow, nimble Assassins like Nolan and Ling counter Lylia as she'll have a tough time hitting them."
+  },
+  "85": {
+    "name": "Dyrroth",
+    "synergy_desc": "Dyrroth's high melee burst damage works best with heroes with single-target CC, such as Franco and Kaja.",
+    "strong_desc": "Dyrroth has good chasing abilities and good melee burst damage, he is strong against heroes with poor Mobility, such as Gord and Hanabi.",
+    "weak_desc": "Being a melee hero makes Dyrroth weak against heroes with Slow and kiting abilities, such as Vexana and Belerick."
+  },
+  "84": {
+    "name": "Ling",
+    "synergy_desc": "Ling works best with support heroes with CC abilities, that make Ling more flexible in different situations. Such as Angela and Khufra.",
+    "strong_desc": "Ling's excellent pursuit abilities and high burst damage make him strong against squishy heroes, like Layla and Hanabi.",
+    "weak_desc": "Ling is countered by heroes with strong single-target CC and high burst damage, as they can easily control Ling and burst him down. Such as Eudora and Jawhead."
+  },
+  "83": {
+    "name": "X.Borg",
+    "synergy_desc": "X.Borg pairs well with heroes who excel in burst damage, such as Karina and Martis. X.Borg's AOE damage will leave enemies low enough for his teammate to finishing off.",
+    "strong_desc": "X.Borg counters Fighters that lack mobility, such as Terizla and Aulus. His 1st Skill has a large range and can be cast while moving, making it easy for him to kite.",
+    "weak_desc": "X.Borg is countered by Fighters with burst damage like Martis and Dyrroth. They can quickly burst down X.Borg when he is Armorless."
+  },
+  "82": {
+    "name": "Terizla",
+    "synergy_desc": "Terizla works best with heroes who have strong initiation skills that allow him to deal more damage with his skills, heroes like Gatotkaca and Atlas are good examples here.",
+    "strong_desc": "Terizla is strong against light melee fighters cause they'll have a hard time surviving his heavy skill damage, such as Zilong and Sun.",
+    "weak_desc": "Terizla is countered by heroes with good Mobility or long attack range, because it will be diffcult to hit them with his skills. Such as Arlott and Lesley."
+  },
+  "81": {
+    "name": "Esmeralda",
+    "synergy_desc": "Esmeralda works best with heroes that can pull enemies together like Atlas and Tigreal to allow her to hit more targets with her Ultimate.",
+    "strong_desc": "Esmeralda works well against heroes with shields, like Akai and Lolita, because her skills not only ignore their shields, but she also converts them into her own.",
+    "weak_desc": "Esmeralda is countered by highly mobile Marksmen, such as Karrie and Lesley, because she lacks the burst damage to finish them off quickly and can't keep up with their mobility."
+  },
+  "80": {
+    "name": "Guinevere",
+    "synergy_desc": "Guinevere works best with heroes with good single-target CC that will give her a better environment to farm and deal damage, such as Franco and Hylos.",
+    "strong_desc": "Guinevere is strong against heroes with poor sustainability or who are simply weak in the early game. This is because Guinevere can easily deliver her poking combo and escape. Heroes like Zilong and Silvanna are good examples here.",
+    "weak_desc": "But Guinevere is countered by heroes with CC immunities or strong CC skills. Since she needs to chain her CC to unleash her full damage potential, such as Badang and Chou."
+  },
+  "79": {
+    "name": "Granger",
+    "synergy_desc": "Granger pairs well with heroes that have strong CC abilities, such as Franco and Kaja, who can hold enemies in place for Granger's entire 1st Skill.",
+    "strong_desc": "Granger counters squishy heroes who lack mobility, such as Chang'e and Cecilion, who have a hard time dodging his 1st Skill and are vulnerable to the high damage of his Ultimate.",
+    "weak_desc": "Granger is countered by heroes with strong single target killing power. Despite having good mobility, Granger lacks other defensive measures. Heroes like Saber and Hayabusa can quickly get the jump on Granger and finish him off."
+  },
+  "78": {
+    "name": "Khufra",
+    "synergy_desc": "Khufra works best with heroes with strong CC abilities that make it easier for his 1st Skill to hit, such as Eudora and Pharsa.",
+    "strong_desc": "Khufra's 2nd Skill can be used to interrupt movement abilities, making him strong against heroes who fight with movement abilities, such as Joy and Lancelot.",
+    "weak_desc": "Khufra is countered by resilient tank heroes, as his CC abilities pose no threat to these heroes. Heroes like Fredrinn and Gloo are good examples here."
+  },
+  "77": {
+    "name": "Badang",
+    "synergy_desc": "Badang works best with heroes that can pull enemies together to make it easier for him to land his 2nd Skill and Ultimate combo, such as Tigreal and Luo Yi.",
+    "strong_desc": "Badang counters squishy heroes with low mobility like Layla and Odette who have a hard time escaping from his 2nd Skill into Ultimate combo.",
+    "weak_desc": "Badang is countered by agile heroes such as Wanwan and Ling who can dodge or escape his 2nd Skill, greatly diminishing his damage and CC."
+  },
+  "76": {
+    "name": "Faramis",
+    "synergy_desc": "Faramis works well with heroes that are designed to dive into the enemy, such as Leomord and Martis, as he'll be able to maximize the life-saving effect of his Ultimate.",
+    "strong_desc": "Faramis' ability to temporarily prevent teammates from being killed makes him a good pick against heroes that go all-in to burst down a target, like Saber and Eudora.",
+    "weak_desc": "Faramis is countered by high mobility heroes that are difficult for him to catch with his 1st Skill, such as Novaria and Pharsa."
+  },
+  "75": {
+    "name": "Kadita",
+    "synergy_desc": "Kadita works well with heroes who possess strong CC abilities, such as Atlas and Tigreal, as their CC will make it easier for Kadita to hit more enemies with her Ultimate.",
+    "strong_desc": "Kadita excels at countering heroes that lack mobility, such as Aurora and Eudora, because it's difficult for them to escape Kadita's 2nd Skill, and knocking them airborne sets them up for her Ultimate.",
+    "weak_desc": "Kadita is countered by heroes with long range and high mobility, such as Clint and Beatrix, since it's difficult for Kadita to close in on them or hit them with her 2nd Skill."
+  },
+  "74": {
+    "name": "Minsitthar",
+    "synergy_desc": "Minsitthar works best with high damage Marksmen, such as Melissa and Hanabi, because he can create more opportunities for them to deal damage.",
+    "strong_desc": "Minsitthar is strong against heroes that rely on mobility skills since his Ultimate disables them. Minsitthar can instantly negate the advantages of heroes like Lancelot, Benedetta and Arlott.",
+    "weak_desc": "Minsitthar is countered by heroes with high Movement Speed, such as Zilong and Aulus, who can easily dodge his 1st Skill and run out of his Ultimate."
+  },
+  "73": {
+    "name": "Harith",
+    "synergy_desc": "Harith pairs well with heroes who have AOE CC and can make it harder for enemies to escape his Ultimate's range, such as Minsitthar and Minotaur.",
+    "strong_desc": "Harith is a very agile hero and his Ultimate reduces the duration of control effects, so he is excellent at countering heroes who rely on CC and have relatively long casting animations, like Belerick and Johnson.",
+    "weak_desc": "Harith is countered by heroes who can quickly escape from his Ultimate, such as Novaria and Pharsa."
+  },
+  "72": {
+    "name": "Thamuz",
+    "synergy_desc": "Thamuz can play to his strength when working with Supports who provide Movement Speed or CC, such as Angela and Rafaela, because they enable him to stay on his targets.",
+    "strong_desc": "Thamuz is good against other sustained damage Fighters like Zilong and Sun because he has the top notch laning power.",
+    "weak_desc": "Thamuz is countered by agile Marksmen, such as Karrie and Irithel, since he lacks CC and relies on Basic Attacks, making him an easy target to kite."
+  },
+  "71": {
+    "name": "Kimmy",
+    "synergy_desc": "Kimmy excels at controlling and grouping enemies while dealing substantial damage, so she works well with heroes who have AOE CC like Badang and Ruby.",
+    "strong_desc": "Kimmy's ability to Basic Attack while moving makes her effective against heroes who rely on skillshots like Granger and Cecilion.",
+    "weak_desc": "As a Marksman who cannot lock onto targets with Basic Attacks, Kimmy can be countered by heroes with high burst damage and mobility, such as Saber and Lancelot."
+  },
+  "70": {
+    "name": "Belerick",
+    "synergy_desc": "Belerick works well with heroes who can dish out a lot of damage against enemies CC'd by his taunt, such as Miya and Natan.",
+    "strong_desc": "Belerick excels at controlling enemies at close range, making him a great counter against squishy Assassins who need to get close to deal damage, like Lancelot and Ling.",
+    "weak_desc": "Belerick is countered by heroes with long-range attacks like Valir and Xavier."
+  },
+  "69": {
+    "name": "Hanzo",
+    "synergy_desc": "Hanzo has high burst potential but needs time to stack his Passive, so he works best with heroes who can keep the enemy CC'd, like Aurora, Belerick, and Tigreal.",
+    "strong_desc": "Hanzo's Ultimate enables him to poke or dive with relative safety, making him a serious threat to squishy heroes without mobility, like Layla, Ixia, and Zhuxin, while also disrupting the enemy in teamfights.",
+    "weak_desc": "Hanzo fares less favorably against heroes with lots of mobility, such as Fanny, Lancelot, and Arlott, since it's difficult to build stacks on them, thus limiting Hanzo's damage."
+  },
+  "68": {
+    "name": "Lunox",
+    "synergy_desc": "Lunox is best paired with heroes with strong CC abilities like Franco and Minotaur. While Lunox lacks hard CC, if she can spam her skills on a stationary target, she can deal a ton of damage.",
+    "strong_desc": "Lunox counters heroes that lack burst damage and healing, such as Yve and Lylia, because Lunox can use her self-healing to get the upper hand in a trade.",
+    "weak_desc": "Lunox is countered by heroes with high mobility since her 2nd Skill has limited range and she lacks CC. Nimble heroes like Nolan and Ling can get in and out of her range all too easily."
+  },
+  "67": {
+    "name": "Leomord",
+    "synergy_desc": "Heroes with AOE or CC like Pharsa and Vexana that can follow up after Leomord breaks the enemy formation.",
+    "strong_desc": "Mages without mobility such as Odette, Pharsa, Yve and Cecilion will fall to Leomord's high movement speed and burst damage.",
+    "weak_desc": "Heroes with CC like Phoveus, Franco, Akai and Nana."
+  },
+  "66": {
+    "name": "Vale",
+    "synergy_desc": "Vale works well with frontline Tanks like Lolita and Belerick who can protect him while he continuously pokes the enemy.",
+    "strong_desc": "Vale counters slow Fighters like Terizla and Hilda because he can chip away their HP with his skills from afar while using his high Movement Speed to dodge their skills.",
+    "weak_desc": "Vale is countered by agile Assassins that can become untargetable like Hayabusa and Ling, as it will be difficult to catch them with his CC while they can eliminate Vale easily with their high damage."
+  },
+  "65": {
+    "name": "Claude",
+    "synergy_desc": "Claude works best with heroes who can buff him, like Angela and Faramis.",
+    "strong_desc": "Claude is strong against heroes with weak CC abilities and poor Mobility, so he can easily dodge their attacks with his 2nd Skill, such as Vexana and Luo Yi.",
+    "weak_desc": "Claude is countered by heroes with powerful CC abilities. Their CC abilities will cause Claude to lose his Mobility advantage. Like Eudora and Franco."
+  },
+  "64": {
+    "name": "Aldous",
+    "synergy_desc": "Aldous works well with heroes that are strong in the early game so that he can farm efficiently, such as Balmond and Bruno.",
+    "strong_desc": "Aldous is strong against heroes who cannot pressure him in the early game, so that he can easily build up the damage buff for his 1st Skill. Such as Zilong and Leomord.",
+    "weak_desc": "Aldous is countered by heroes who are strong in the early game. They would make it very difficult for Aldous to build up the damage buff he needs. Heroes like Martis and Dyrroth are good examples here."
+  },
+  "63": {
+    "name": "Selena",
+    "synergy_desc": "Selena works well with ranged heroes that can deal high burst damage, such as Xavier and Beatrix.",
+    "strong_desc": "Selena is strong against squishy heroes with poor Mobility, simply because it's hard for them to dodge her 2nd Skill. Such as Gord and Layla.",
+    "weak_desc": "But Selena is weak against heroes that can resist or remove her CC abilities, such as Hanabi and Wanwan."
+  },
+  "62": {
+    "name": "Kaja",
+    "synergy_desc": "Kaja works best with high burst damage heroes like Eudora and Aamon that can quickly kill a target suppressed by his Ultimate.",
+    "strong_desc": "Kaja counters Assassins that rely on constant movement, such as Fanny and Lancelot, as his Ultimate will instantly shutdown their mobility.",
+    "weak_desc": "Kaja is countered by Marksmen or Mages with long range like Layla and Pharsa because the short range of his Ultimate will put him at the mercy of their attacks."
+  },
+  "61": {
+    "name": "Chang'e",
+    "synergy_desc": "Chang'e works well with Tanks who can pull enemies together, like Gatotkaca and Tigreal, because Chang'e can follow them into teamfights to deal massive damage.",
+    "strong_desc": "Chang'e is strong against squishy heroes who have low mobility and short damage range, such as Eudora and Odette. Chang'e can easily hit them with her long-range skills while dodging their attacks.",
+    "weak_desc": "Chang'e is countered by agile Assassins with high burst like Hanzo and Harley, as they can avoid Chang'e's skills and use their high burst damage to kill her since she lacks self-protection."
+  },
+  "60": {
+    "name": "Hanabi",
+    "synergy_desc": "Hanabi works well with heroes who can initiate with CC, such as Carmilla and Atlas, so she can focus on maximizing her bounce and Ultimate damage.",
+    "strong_desc": "Hanabi counters heroes that rely heavily on CC abilities, such as Tigreal and Belerick, since Hanabi can use her 1st Skill to ignore CC.",
+    "weak_desc": "Hanabi is weak against heroes with high burst damage, such as Lancelot and Zilong, because they can quickly take down her shield."
+  },
+  "59": {
+    "name": "Uranus",
+    "synergy_desc": "Uranus becomes much more powerful when working with high-damage heroes like Beatrix and Hanabi.",
+    "strong_desc": "Uranus has great sustainability, making him strong against heroes with low-damage abilities, such as Tigreal and Franco.",
+    "weak_desc": "Uranus lacks Mobility and CC abilities which makes him an easy target for ranged heroes, such as Layla and Lesley."
+  },
+  "58": {
+    "name": "Martis",
+    "synergy_desc": "Martis works best with Fighters that initiate teamfights like Alpha and Khaleed who he can follow up to secure a kill and chain more kills with his Ultimate.",
+    "strong_desc": "Martis counters squishy heroes with no mobility skills, such as Layla and Odette, who have a hard time avoiding his 1st Skill - 2nd Skill combo. Their relatively low HP also makes it easier for Martis to put them into execute range for his Ultimate.\n",
+    "weak_desc": "Martis is countered by Fighters with high combat sustainability, such as Thamuz and Fredrinn, because they can survive Martis' burst damage and defeat him in prolonged battles."
+  },
+  "57": {
+    "name": "Valir",
+    "synergy_desc": "Teaming up with Fighters with strong initiation like Khaleed and Yu Zhong can simultaneously enhance the entire team's combat potential.",
+    "strong_desc": "Valir excels in both sustained damage and Crowd Control. He counters heroes lacking mobility like Balmond and Fredrinn.",
+    "weak_desc": "Valir is countered by agile Assassins like Lancelot and Fanny because they can easily evade his 1st Skill."
+  },
+  "56": {
+    "name": "Gusion",
+    "synergy_desc": "Gusion works well with heroes with strong opening CC, which will allow him to hit the target more easily with his 1st Skill, such as Vexana and Pharsa.",
+    "strong_desc": "Gusion is strong against squishy heroes who lack movement abilities, so that Gusion can easily chase them down. Like Layla and Hanabi.",
+    "weak_desc": "Gusion is countered by tank heroes with good single-target CC. Once controlled by them, Gusion will have a hard time escaping. Such as Franco and Kaja."
+  },
+  "55": {
+    "name": "Angela",
+    "synergy_desc": "Angela works best with highly mobile Assassins such as Lancelot and Aamon since she can provide CC and heals while increasing their mobility even further.",
+    "strong_desc": "Angela counters heroes with low mobility, such as Uranus and Belerick, by slowing them even further and speeding up her allies.",
+    "weak_desc": "Angela is countered by nimble Assassins with burst damage, such as Ling and Harley."
+  },
+  "54": {
+    "name": "Jawhead",
+    "synergy_desc": "Jawhead works best with heroes that benefit from a quick engage like Odette and Belerick because he can throw them into the enemy for a surprise attack.",
+    "strong_desc": "Jawhead counters squishy heroes with no defensive skills that he can burst down after connecting with his Ultimate, such as Saber and Eudora.",
+    "weak_desc": "Jawhead is countered by heroes with high sustained damage or high survivability, like Edith and Thamuz, because they can survive Jawhead's burst damage and beat him in a prolonged battle."
+  },
+  "53": {
+    "name": "Lesley",
+    "synergy_desc": "Lesley works best with tank heroes who can provide better attacking conditions for her, like Minotaur and Baxia.",
+    "strong_desc": "Lesley is strong against tank heroes who rely heavily on equipment. Because her attacks can deal True Damage that will ignore the defense these heroes get from the equipment. Such as Gatotkaca and Fredrinn.",
+    "weak_desc": "Lesley is countered by Assassin heroes with multiple movement abilities, which will cause her to lose her range advantage. Such as Ling and Lancelot."
+  },
+  "52": {
+    "name": "Pharsa",
+    "synergy_desc": "Pharsa is best with heroes who can CC the enemy so that her skills can hit them. Atlas and Franco are good examples of this.",
+    "strong_desc": "Pharsa can deal high burst damage from a very long range. A great counter to enemy back-row heroes with poor Mobility, such as Layla, Hanabi and Xavier.",
+    "weak_desc": "Pharsa should beware of any displacement ability skill. Heroes like Franco, Zilong and Minsitthar can easily interrupt Pharsa's Ultimate."
+  },
+  "51": {
+    "name": "Helcurt",
+    "synergy_desc": "Helcurt's Ultimate is a great tool to obscure the enemy's vision and makes it easier for him and his team to engage. Additionally, heroes with CC like Tigreal, Esmeralda, and Terizla work great with Helcurt to secure kills.",
+    "strong_desc": "Helcurt can swiftly approach enemies with his mobility and quickly take down heroes like Layla, Chang'e, and Vale with his burst damage.",
+    "weak_desc": "Helcurt should avoid tank heroes that he can't burst down, such as Fredrinn, Belerick, and Gatotkaca. Once Helcurt is caught by their CC, they can make short work of him with their teammates."
+  },
+  "50": {
+    "name": "Zhask",
+    "synergy_desc": "Zhask works best with heroes that can lock down enemies so he can have more time to deal damage, like Belerick and Lolita.",
+    "strong_desc": "Zhask is strong against burst damage heroes like Aldous and Paquito because his high HP after fusing with his Nightmaric Spawn, makes him tough to burst down.",
+    "weak_desc": "Zhask is countered by agile or long range heroes, such as Pharsa and Cecilion, because they can quickly step out of range of his immobile Nightmaric Spawn."
+  },
+  "49": {
+    "name": "Hylos",
+    "synergy_desc": "Hylos works best with heroes that need faster Movement Speed to engage,\nsuch as Terizla and Minsitthar.",
+    "strong_desc": "Hylos is strong against heroes without mobility skills that can't easily escape his 2nd Skill, like Layla and Gord.\n",
+    "weak_desc": "Hylos is countered by high mobility heroes like Karrie and Lesley, as they are hard for him to lock down and can also take him out."
+  },
+  "48": {
+    "name": "Diggie",
+    "synergy_desc": "Diggie works best with Marksmen that lack mobility or survivability like Layla and Miya because his skills can protect them very well.",
+    "strong_desc": "Diggie counters close range, CC focused heroes like Atlas and Lolita since he can pull them away and remove their CCs with his Ultimate.",
+    "weak_desc": "Diggie is countered by agile and bursty Assassins like Ling and Aamon because his own lack of defense makes him an easy target."
+  },
+  "47": {
+    "name": "Lancelot",
+    "synergy_desc": "Lancelot works well with heroes who can pull enemies together, like Atlas and Tigreal, because they allow him to hit more enemies with his AOE skills.",
+    "strong_desc": "Lancelot counters long-range Mages, such as Cecilion and Pharsa, because there is a delay to their skills and Lancelot can use his 1st Skill to dodge them while going in for the kill.",
+    "weak_desc": "Lancelot is weak against heroes who can counter his mobility like Minsitthar and Phoveus, as his 1st Skill and Ultimate will be heavily restricted."
+  },
+  "46": {
+    "name": "Odette",
+    "synergy_desc": "Pair Odette with heroes who can relocate their teammates like Johnson and Jawhead to make it easier for her to find the perfect position for her Ultimate.",
+    "strong_desc": "Odette's Ultimate is capable of unleashing massive damage and is effective against heroes lacking interruption skills, such as Layla and Irithel.",
+    "weak_desc": "Odette is countered by heroes with Crowd Control skills, such as Minotaur and Edith, because they can easily interrupt her Ultimate."
+  },
+  "45": {
+    "name": "Argus",
+    "synergy_desc": "Argus works well with utility Supports like Angela and Rafaela who can provide extra Movement Speed and CC to allow Argus to stick to his targets and dish out maximum damage.",
+    "strong_desc": "Argus counters heroes with poor mobility who cannot escape his attacks once he closes in, such as Gord and Aurora.",
+    "weak_desc": "Argus is countered by Tanks with high Physical Defense, like Gatotkaca and Tigreal, because a lot of his damage comes from Basic Attacks."
+  },
+  "44": {
+    "name": "Grock",
+    "synergy_desc": "Grock's Ultimate is a powerful CC that covers a wide area,so he pairs well with Mages like Odette and Pharsa to maximize their AOE damage.",
+    "strong_desc": "Grock works well against heroes who cannot Blink over his wallto escape his CC,such as Gord and Layla.",
+    "weak_desc": "Grock is countered by Magic Damage heroes with Blink who can kite him with relative ease,such as Kimmy and Harley."
+  },
+  "43": {
+    "name": "Irithel",
+    "synergy_desc": "Irithel works best with heroes that can slow or provide hard CC such as Valir and Hylos because they allow her more opportunities to deal damage.",
+    "strong_desc": "Irithel counters heroes with a shorter Basic Attack range than her or ones that lack mobility and can be easily kited, such as Miya and Alpha.",
+    "weak_desc": "Irithel is countered by heroes with strong CC capabilities or can restrict movement, such as Badang and Silvanna. Because Irithel does not have any Blink skills, her advantage vanishes once her mobility is restricted."
+  },
+  "42": {
+    "name": "Harley",
+    "synergy_desc": "Harley is best with heroes who can disrupt the enemy formation like Akai and Khufra. He can follow them into the fight and burst down the squishy targets.",
+    "strong_desc": "Harley counters squishy heroes with poor mobility, such as Cecilion and Ixia, since he can deal burst damage while being on the move.",
+    "weak_desc": "Harley is countered by tanky heroes like Lolita and Uranus, because Harley can't deal enough meaningful damage to them and they can block and tank his Ultimate for their teammates."
+  },
+  "41": {
+    "name": "Gatotkaca",
+    "synergy_desc": "Gatotkaca works best with heroes with strong CC and damage, such as Kagura and Vale who can give his Ultimate even more value.",
+    "strong_desc": "Due to his great CC and high Physical Defense, Gatotkaca counters Marksmen with no mobility skills like Layla and Popol and Kupa..",
+    "weak_desc": "Gatotkaca is countered by heroes that can remove CC like Diggie and Wanwan who will greatly reduce his effectiveness."
+  },
+  "40": {
+    "name": "Karrie",
+    "synergy_desc": "Assassins like Saber and Aamon who can eliminate \nranged threats so Karrie can focus the frontline.",
+    "strong_desc": "Tanks such as Tigreal and Fredrinn that take more damage from her HP percent attacks.",
+    "weak_desc": "Long range heroes such as Xavier, Layla and Nana due to Karrie's medium range."
+  },
+  "39": {
+    "name": "Roger",
+    "synergy_desc": "Roger works best with heroes with high AOE damage that can nuke the enemy team to low HP for him to finish off, such as Pharsa and Vexana.",
+    "strong_desc": "Roger counters squishy heroes that lack mobility such as Hanabi and Odette because they cannot easily escape from him.",
+    "weak_desc": "Roger is countered by heroes that can restrict his mobility and prevent him from jumping in and out using his two forms, like Minsitthar and Khufra."
+  },
+  "38": {
+    "name": "Vexana",
+    "synergy_desc": "Heroes with powerful CC such as Atlas or\nhigh damage output like Beatrix to burst down enemies.",
+    "strong_desc": "Backline DPS heroes such as Layla, Irithel and Xavier.",
+    "weak_desc": "Mobile Assassins such as Saber, Aamon and Karina."
+  },
+  "37": {
+    "name": "Lapu-Lapu",
+    "synergy_desc": "Lapu-Lapu works well with heroes who can pull enemies together, like Tigreal and Atlas, to allow his AOE skills to hit more targets and get more Damage Reduction from his 2nd Skill in Great Sword stance by hitting more heroes.",
+    "strong_desc": "Lapu-Lapu is strong against squishy heroes who lack movement abilities, such as Layla and Eudora, because he has high burst damage and can use his mobility to get on top of them.",
+    "weak_desc": "Lapu-Lapu is countered by agile Marksmen who can knock him away, such as Lesley and Moskov. They can speed up or blink to avoid Lapu-Lapu's Ultimate, and use knockback effects to interrupt his 1st Skill in Great Sword stance or to keep him away."
+  },
+  "36": {
+    "name": "Aurora",
+    "synergy_desc": "With her very powerful CC abilities, Aurora works well with heroes who deal high sustained damage, like Ixia, Freya, and Karrie.",
+    "strong_desc": "Aurora counters heroes who like to charge in, such as Leomord, Thamuz, and Terizla, since her skills can stop them dead in their tracks.",
+    "weak_desc": "Because most of Aurora's skills have delayed effects, she is countered by high mobility heroes who can dodge them with ease, such as Ling, Kadita, and Guinevere."
+  },
+  "35": {
+    "name": "Hilda",
+    "synergy_desc": "Hilda works well with tanky heroes, which can create room for her to dish out more damage. Such as Atlas and Tigreal.",
+    "strong_desc": "Hilda excels in prolonged battles. She works well against heroes with lower burst damage. Such as Zilong and Layla.",
+    "weak_desc": "Hilda is countered by heroes with high sustain. Such as Thamuz and Uranus. This is because they can utilize their healing abilities to prevent being executed."
+  },
+  "34": {
+    "name": "Estes",
+    "synergy_desc": "Estes works best with typical Marksman heroes, his healing will allow them to deal more damage. Heroes like Lesley and Hanabi are good examples here.",
+    "strong_desc": "Estes counters heroes with no burst damage, he can easily heal through minor damages from heroes like Faramis and Alice.",
+    "weak_desc": "Estes is countered by heroes with high burst damage. Heroes like Saber and Eudora can easily burst down Estes or the hero he protects in a few seconds."
+  },
+  "33": {
+    "name": "Cyclops",
+    "synergy_desc": "Cyclops is best with tanky heroes with strong CC skills, like Belerick and Minsitthar.",
+    "strong_desc": "Cyclops' short skill cooldown makes him strong against mid-ranged heroes with poor Mobility, such as Terizla and Alpha.",
+    "weak_desc": "Cyclops lacks Dash or Blink skills, making him the preferred target for heroes with gap closers and CC skills. Such as Lancelot, Alucard and Kagura."
+  },
+  "32": {
+    "name": "Johnson",
+    "synergy_desc": "Johnson works well with heroes that need help initiating like Odette and Kadita since they can just jump into Johnson's Ultimate for a ride.",
+    "strong_desc": "Johnson counters melee heroes with high burst like Alucard and Zilong\nbecause of Johnson's high Physical Defense and CC ability.",
+    "weak_desc": "Johnson is countered by agile heroes who deal Magic Damage such as Harith and Kagura because they can easily dodge Johnson's skills while their damage is not affected by his Physical Defense."
+  },
+  "31": {
+    "name": "Moskov",
+    "synergy_desc": "Moskov works well with heroes like Atlas and Gatotkaca who can CC groups of enemies so he can focus on maximizing the damage of his piercing AOE.",
+    "strong_desc": "Moskov's 1st Skill provides a blink effect, making him a threat to fighters with poor mobility like Thamuz and Balmond.",
+    "weak_desc": "Moskov is countered by heroes with high mobility, such as Lancelot and Natalia, who can quickly close the gap and take him out."
+  },
+  "30": {
+    "name": "Yi Sun-shin",
+    "synergy_desc": "Yi Sun-shin works best with Fighters who can initiate, such as Alpha and Khaleed, so he can follow up and unleash his full damage after they have CC'd the enemy.",
+    "strong_desc": "Yi Sun-shin counters heroes that lack CC like Uranus and Terizla who are at the mercy of his ability to jump in and out of melee range using his 2 weapons.",
+    "weak_desc": "Yi Sun-shin is countered by heroes with CC skills, such as Franco and Kaja who can lock him down and stop him from freely swapping weapons."
+  },
+  "29": {
+    "name": "Ruby",
+    "synergy_desc": "Ruby works best with heroes who can deal high AOE burst damage. Their skills can deal more damage to enemies who are stunned and pulled by her 2nd and Ultimate skills. Such as Pharsa and Kadita.",
+    "strong_desc": "Ruby is strong against Fighter heroes with high burst damage. She can easily survive their burst with her excellent Regen and Lifesteal abilities. Such as Aldous and Guinevere.",
+    "weak_desc": "Ruby is countered by Marksman heroes with good Mobility. Because they can easily dodge her 2nd and Ultimate skills. Like Wanwan and Irithel."
+  },
+  "28": {
+    "name": "Alpha",
+    "synergy_desc": "Alpha works well with heroes that can initiate with CC like Vexana and Selena. With their help, he'll have a much easier time landing his skills.",
+    "strong_desc": "Alpha counters heroes that lack mobility, such as Layla and Ixia, because these heroes have a hard time avoiding his skills.",
+    "weak_desc": "Alpha is countered by heroes that are very mobile, such as Chou and Gusion, because they have a lot of ways to dodge Alpha's skills."
+  },
+  "27": {
+    "name": "Sun",
+    "synergy_desc": "Pair Sun with tanks who have strong CC abilities such as Belerick or Tigreal to create opportunities for Sun to deal damage.",
+    "strong_desc": "Sun can deal great sustained damage and has armor-busting capabilities, making him a good counter to tanks with low damage output, such as Franco and Gatotkaca.",
+    "weak_desc": "Fighter heroes with Lifesteal can counter Sun, however. For example, heroes like Ruby can steal a lot of HP by hitting Sun and his Dopplegangers."
+  },
+  "26": {
+    "name": "Chou",
+    "synergy_desc": "Chou works best with Healers that can boost his survivability and speed, such as Angela and Rafaela.",
+    "strong_desc": "Chou counters slower Fighters like Terizla and Alpha that have a hard time dealing with his quick hit and run tactics.",
+    "weak_desc": "Chou is countered by heroes with very long-range like Lesley and Pharsa that can take out a chunk of his HP before he can get close."
+  },
+  "25": {
+    "name": "Kagura",
+    "synergy_desc": "Kagura works well with tank heroes with strong CC skills that allow her to deal more damage with her Ultimate, such as Atlas and Tigreal.",
+    "strong_desc": "Kagura's Ultimate can deal high burst damage, making her strong against back-row heroes with no dash or blink, such as Layla and Eudora.",
+    "weak_desc": "Kagura is countered by heroes with more than one control immunity abilities that allow them to escape her various CC skills, heroes like Joy and Martis are good examples."
+  },
+  "24": {
+    "name": "Natalia",
+    "synergy_desc": "Natalia works best with heroes with high AOE damage such as Yi Sun-shin and Vexana. She can stay hidden while they poke the enemy, then pounce on targets that get low on HP.",
+    "strong_desc": "Natalia counters squishy heroes who lack CC and burst like as Novaria and Irithel since they can't stop Natalia's burst damage.",
+    "weak_desc": "Natalia is countered by heroes who can restrict her mobility like Minsitthar and Kaja since they can easily shutdown her main advantage."
+  },
+  "23": {
+    "name": "Gord",
+    "synergy_desc": "Gord works well with tanky heroes with reliable CCs, like Hylos and Belerick.",
+    "strong_desc": "Gord is strong against melee heroes with poor Mobility, such as Barats and Fredrinn.",
+    "weak_desc": "Gord is countered by heroes with gap closers, such as Fanny and Lancelot."
+  },
+  "22": {
+    "name": "Freya",
+    "synergy_desc": "In order for Freya to maximize her damage, she prefers heroes with CC like Belerick and Gatotkaca to lock down the enemy for her.",
+    "strong_desc": "Freya not only has exceptional mobility, she also excels in prolonged engagements, making her highly effective against fragile, low-HP Marksmen, such as Lesley and Ixia. Her excellent sustained damage and mobility also allows her to counter Tanks with low damage, like Uranus and Baxia.",
+    "weak_desc": "However, all of Freya's skills have movement components, making her vulnerable to Phoveus's unique counter. Using her skills near Phoveus will allow him to quickly gain energy for his enhanced Basic Attacks. Freya is vulnerable to CC and movement-disabling effects, so Minsitthar and Obsidia's Ultimates can lock her down completely."
+  },
+  "21": {
+    "name": "Hayabusa",
+    "synergy_desc": "Hayabusa works best with Fighters like Lapu-Lapu and Alpha who can initiate with him to quickly focus down key targets.",
+    "strong_desc": "Hayabusa counters squishy heroes that lack CC to shutdown the blinks from his 2nd Skill, and who are also easy targets for his Ultimate, such as Chang'e and Cecilion.",
+    "weak_desc": "Hayabusa is countered by heroes with targeted CC like Franco and Kaja who can lock him down before he can blink away."
+  },
+  "20": {
+    "name": "Lolita",
+    "synergy_desc": "Due to her powerful defensive and CC abilities, Lolita is great at protecting Marksmen like Hanabi and Layla.",
+    "strong_desc": "Lolita's shield makes her strong against heroes who rely on projectiles and ranged skills, such as Kimmy and Cyclops.",
+    "weak_desc": "Lolita is countered by melee heroes with high burst damage like Ling and Paquito."
+  },
+  "19": {
+    "name": "Minotaur",
+    "synergy_desc": "Minotaur works best with burst damage Marksmen, such as Granger and Melissa, since his CC's give them more opportunities to deal damage.",
+    "strong_desc": "Minotaur is strong against heroes that rely on chaining skills or attacks, like Paquito and Julian because he can interrupt their combos with his CC.",
+    "weak_desc": "Minotaur is countered by long-range Marksmen like Layla and Lesley since his lack of speed makes him an easy target."
+  },
+  "18": {
+    "name": "Layla",
+    "synergy_desc": "Layla works best with Tanks that can protect backline heroes, such as Minsitthar and Belerick, since their protection gives Layla more opportunities to deal damage.",
+    "strong_desc": "Layla's relatively longer attack range lets her counter slow Tanks like Tigreal and Belerick.",
+    "weak_desc": "Layla is countered by Assassins with high burst damage, such as Karina and Ling, as they can get the jump on Layla and melt her easily."
+  },
+  "17": {
+    "name": "Fanny",
+    "synergy_desc": "Fanny works best with heroes that can chain AOE CC to keep the enemy pinned, such as Minotaur and Gatotkaca, so she can deal damage without interruption.",
+    "strong_desc": "Fanny counters squishy heroes that lack targeted CC like Karrie and Irithel who cannot stop Fanny's extreme mobility while she bursts them down.",
+    "weak_desc": "Fanny is countered by heroes that can restrict mobility, such as Kaja and Khufra, since they can easily shutdown her main advantage."
+  },
+  "16": {
+    "name": "Zilong",
+    "synergy_desc": "Zilong works best with heroes with strong defensive abilities that can hold off enemy attacks while he solos the lane, such as Pharsa and Hanabi.",
+    "strong_desc": "The immunity to Slow effects that Zilong gets from his Ultimate makes him strong against squishy heroes without CC skills, such as Layla and Lylia.",
+    "weak_desc": "Zilong is still vulnerable to non-slow CC skills, making him weak against heroes with powerful single-target CC skills, such as Franco and Nana."
+  },
+  "14": {
+    "name": "Rafaela",
+    "synergy_desc": "When teamed up with Fighters like Freya and Lapu-Lapu, Rafaela can boost their offensive power and survivability.",
+    "strong_desc": "Rafaela has great healing and decent mobility, and performs well against heroes that lack burst damage or mobility, such as Masha and Barats.",
+    "weak_desc": "Rafaela struggles against bursty and agile Assassins, like Ling and Hayabusa."
+  },
+  "13": {
+    "name": "Clint",
+    "synergy_desc": "Clint works best with Supportsthat can enhance his kiting ability, such as Rafaela and Angela.",
+    "strong_desc": "Clint counters heroes with comparatively shorter range like Moskov and Miya thanks to the superior range of his skills and Basic Attacks.",
+    "weak_desc": "Clint is countered by Marksmen with burst damage like Melissa and Karrie since he lacks burst in the early and mid game to trade blows with them."
+  },
+  "12": {
+    "name": "Bruno",
+    "synergy_desc": "Bruno is best with Supports that can force enemies to engage and allow him to make use of his early game damage, such as Franco and Khufra.",
+    "strong_desc": "Bruno is strong against Marksmen that are weaker in the early game like Hanabi and Miya who Bruno can out-trade thanks to his high damage.",
+    "weak_desc": "Bruno is countered by Tanks with high Physical Defense like Gatotkaca and Fredrinn that take greatly reduced damage from his attacks."
+  },
+  "11": {
+    "name": "Bane",
+    "synergy_desc": "Bane works best with heroes like as Tigreal and Luo Yi who can pull enemies together so he can do even more damage with his AOE.",
+    "strong_desc": "Bane counters Tanks with high HP but low damage, such as Hylos and Belerick, because he can out-sustain them and deals HP percentage-based damage.\n",
+    "weak_desc": "Bane is countered by Mages that deal heavy damage from afar, such as Vale and Xavier who can deal significant damage to him before he can get in range."
+  },
+  "10": {
+    "name": "Franco",
+    "synergy_desc": "Heroes with high burst damage such as Vale, Karina and Brody to take advantage of his CC.",
+    "strong_desc": "Heroes with low mobility like Vale, Estes and Layla.",
+    "weak_desc": "Heroes with high mobility or Control Immunity such as Wanwan, Fanny and Badang."
+  },
+  "9": {
+    "name": "Akai",
+    "synergy_desc": "Akai works best with heroes who can deal high burst damage as they can help him take down enemies caught in his Ultimate, such as Saber and Eudora.",
+    "strong_desc": "Akai is strong against heroes with poor Mobility since he can easily catch and eliminate them with his Ultimate, such as Eudora and Odette.",
+    "weak_desc": "Akai is countered by heroes with CC removers or transformation abilities that allow them to escape or counter Akai's Ultimate, such as Nana and Diggie."
+  },
+  "8": {
+    "name": "Karina",
+    "synergy_desc": "Karina works well with heroes who can pull enemies together, such as Tigreal and Faramis, since her Ultimate and 2nd Skill also hits anyone near her main target, setting them up to be chain killed by her Ultimate.",
+    "strong_desc": "Karina counters Marksmen that lack mobility, such as Layla and Hanabi, since her 1st Skill can neutralize their Basic Attacks and they can't escape her high mobility and burst damage.\n",
+    "weak_desc": "Karina is countered by Tanky heroes with CC abilities, like Akai and Khufra because they can tank her damage, and protect their allies from her."
+  },
+  "7": {
+    "name": "Alucard",
+    "synergy_desc": "He's best with heroes with crowd control, such as Gatotkaca and Xavier, which makes up for his lack of powerful control abilities.",
+    "strong_desc": "Alucard has great chase abilities and damage resistance, making him powerful against squishy Assassins like Harley and Aamon.",
+    "weak_desc": "But he can be countered by heroes with powerful control abilities like Franco and Johnson. If controlled, Alucard won't be able to steal HP\nand can be easily eliminated."
+  },
+  "6": {
+    "name": "Tigreal",
+    "synergy_desc": "Tigreal works well with heroes with strong initiation skills, that gives him a better chance to hit the enemies with his CC skills, such as Vexana and Odette.",
+    "strong_desc": "Tigreal's Passive can negate enemy Basic Attacks, making him strong against heroes that deal damage with their Basic Attacks, such as Zilong and Freya.",
+    "weak_desc": "But as a melee hero, Tigreal is countered by Ranged Mage heroes like Chang'e and Zhask."
+  },
+  "5": {
+    "name": "Nana",
+    "synergy_desc": "Nana works best with heroes with CC skills, that will help her get the kills, such as Rafaela and Franco.",
+    "strong_desc": "Nana's Passive gives her great survivability, making her strong against heroes with deadly combos, like Eudora and Kadita.",
+    "weak_desc": "Nana can be countered by heroes with strong chasing abilities, like Zilong, Natalia, because they can chase Nana through her Passive duration."
+  },
+  "4": {
+    "name": "Alice",
+    "synergy_desc": "To compensate for Alice's weaknesses in the early game and form a balanced team, pair her with strong early game heroes, like Balmond or Dyrroth.",
+    "strong_desc": "With her great sustainability in combat plus her mobility and CC, Alice counters heroes that lack burst and can't escape from melee enemies, such as Cecilion and Chang'e.",
+    "weak_desc": "Alice is countered by heroes with Execute or Healing Reduction who can impede her from healing herself during the Ultimate. Heroes like Baxia or Martis can reduce her healing or kill her before she can heal."
+  },
+  "1": {
+    "name": "Miya",
+    "synergy_desc": "Miya works well with Tanks who have powerful CC abilities like Belerick and Tigreal since their CCs give her more opportunities to dish out damage.",
+    "strong_desc": "Miya counters heroes who rely on targeted CC effects, such as Saber and Eudora, because she can easily escape their CC and respond with a strong counterattack. The split arrows from her 1st Skill are also very effective against heroes that summon units, such as Sun.",
+    "weak_desc": "Miya is countered by heroes with a lot of AOE damage, such as Pharsa and Yve, because they can still hit her while she is concealed."
+  },
+  "2": {
+    "name": "Balmond",
+    "synergy_desc": "Balmond is best with Support heroes that can boost his Mobility and Survivability. Examples include Angela and Rafaela.",
+    "strong_desc": "Balmond is strong against squishy heroes who lack the ability to escape once he closes the gap on them, such as Layla and Eudora.",
+    "weak_desc": "Balmond is countered by ranged heroes who can deal damage to Balmond outside of his attack range, such as Lesley and Irithel."
+  },
+  "3": {
+    "name": "Saber",
+    "synergy_desc": "Saber works well with high-damage heroes who can help him burst down enemy heroes in teamfights, such as Kadita and Cyclops.",
+    "strong_desc": "Saber's deadly combo makes him strong against squishy heroes, such as Layla and Eudora.",
+    "weak_desc": "Saber is countered by Support heroes with Survivability buffs, like Estes and Faramis."
+  }
+}

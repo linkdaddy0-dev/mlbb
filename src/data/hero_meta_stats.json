@@ -1,0 +1,2942 @@
+[
+  {
+    "slug": "masha",
+    "name": "Masha",
+    "role": "Fighter",
+    "roles": [
+      "Fighter",
+      "Tank"
+    ],
+    "lane": "EXP Lane",
+    "tier": "A",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_087f15d931d74f75b577f5aff372ce25.png",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_087f15d931d74f75b577f5aff372ce25.png",
+    "win_rate": 56.18,
+    "pick_rate": 0.11,
+    "ban_rate": 0.45,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Masha guide videos",
+      "query": "Mobile Legends Masha guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Masha%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Masha%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "gord",
+    "name": "Gord",
+    "role": "Mage",
+    "roles": [
+      "Mage"
+    ],
+    "lane": "Mid Lane",
+    "tier": "S",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_818d00fbb946feca543a95ff7b035ec5.png",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_818d00fbb946feca543a95ff7b035ec5.png",
+    "win_rate": 55.53,
+    "pick_rate": 1.5,
+    "ban_rate": 2.9,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Gord guide videos",
+      "query": "Mobile Legends Gord guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Gord%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Gord%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "gloo",
+    "name": "Gloo",
+    "role": "Tank",
+    "roles": [
+      "Tank"
+    ],
+    "lane": "Roamer / EXP Lane",
+    "tier": "S",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_088134981d9d9753f9d77648c0361fa3.png",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_088134981d9d9753f9d77648c0361fa3.png",
+    "win_rate": 55.41,
+    "pick_rate": 0.57,
+    "ban_rate": 71.67,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Gloo guide videos",
+      "query": "Mobile Legends Gloo guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Gloo%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Gloo%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "marcel",
+    "name": "Marcel",
+    "role": "Support",
+    "roles": [
+      "Support"
+    ],
+    "lane": "Roamer",
+    "tier": "S",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/gms/image/3542718f699058d42801d88ec9b8fb8b.jpg",
+    "cover_thumb": "/assets/banners/hero_132.webp",
+    "win_rate": 55.02,
+    "pick_rate": 0.25,
+    "ban_rate": 128.86,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Marcel guide videos",
+      "query": "Mobile Legends Marcel guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Marcel%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Marcel%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "lolita",
+    "name": "Lolita",
+    "role": "Support",
+    "roles": [
+      "Support",
+      "Tank"
+    ],
+    "lane": "Roamer",
+    "tier": "A",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_c58952634f940136c125ba17aad8376e.png",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_c58952634f940136c125ba17aad8376e.png",
+    "win_rate": 54.78,
+    "pick_rate": 0.12,
+    "ban_rate": 1.65,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Lolita guide videos",
+      "query": "Mobile Legends Lolita guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Lolita%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Lolita%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "hanabi",
+    "name": "Hanabi",
+    "role": "Marksman",
+    "roles": [
+      "Marksman"
+    ],
+    "lane": "Gold Lane",
+    "tier": "S",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_aa86eb7d1c6db212d6cfd3921a8dfab2.png",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_aa86eb7d1c6db212d6cfd3921a8dfab2.png",
+    "win_rate": 54.51,
+    "pick_rate": 3.34,
+    "ban_rate": 11.98,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Hanabi guide videos",
+      "query": "Mobile Legends Hanabi guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Hanabi%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Hanabi%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "diggie",
+    "name": "Diggie",
+    "role": "Support",
+    "roles": [
+      "Support"
+    ],
+    "lane": "Roamer",
+    "tier": "S",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_45ea26bab973b16071fe6e3d52e18a66.png",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_45ea26bab973b16071fe6e3d52e18a66.png",
+    "win_rate": 54.12,
+    "pick_rate": 0.2,
+    "ban_rate": 17.57,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Diggie guide videos",
+      "query": "Mobile Legends Diggie guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Diggie%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Diggie%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "sun",
+    "name": "Sun",
+    "role": "Fighter",
+    "roles": [
+      "Fighter"
+    ],
+    "lane": "EXP Lane / Jungler",
+    "tier": "S",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_da4cfb603eab2b975aa8f7630881e3a9.png",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_da4cfb603eab2b975aa8f7630881e3a9.png",
+    "win_rate": 54.01,
+    "pick_rate": 1.66,
+    "ban_rate": 38.52,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Sun guide videos",
+      "query": "Mobile Legends Sun guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Sun%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Sun%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "kaja",
+    "name": "Kaja",
+    "role": "Support",
+    "roles": [
+      "Support",
+      "Fighter"
+    ],
+    "lane": "Roamer",
+    "tier": "S",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_92b841a4898314b3a4f1996492bb0b24.png",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_92b841a4898314b3a4f1996492bb0b24.png",
+    "win_rate": 53.73,
+    "pick_rate": 0.28,
+    "ban_rate": 9.65,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Kaja guide videos",
+      "query": "Mobile Legends Kaja guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Kaja%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Kaja%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "khufra",
+    "name": "Khufra",
+    "role": "Tank",
+    "roles": [
+      "Tank"
+    ],
+    "lane": "Roamer",
+    "tier": "A",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_6541be939404a7e45c28a30bd2f2aa16.png",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_6541be939404a7e45c28a30bd2f2aa16.png",
+    "win_rate": 53.58,
+    "pick_rate": 0.26,
+    "ban_rate": 2.88,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Khufra guide videos",
+      "query": "Mobile Legends Khufra guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Khufra%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Khufra%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "floryn",
+    "name": "Floryn",
+    "role": "Support",
+    "roles": [
+      "Support"
+    ],
+    "lane": "Roamer",
+    "tier": "S",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_fd49844ff3811155b149ea6bf67be24e.png",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_fd49844ff3811155b149ea6bf67be24e.png",
+    "win_rate": 53.35,
+    "pick_rate": 1.03,
+    "ban_rate": 23.5,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Floryn guide videos",
+      "query": "Mobile Legends Floryn guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Floryn%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Floryn%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "leomord",
+    "name": "Leomord",
+    "role": "Fighter",
+    "roles": [
+      "Fighter"
+    ],
+    "lane": "Jungler",
+    "tier": "S",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_a7527695da7a9a4ef62739861205b57b.png",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_a7527695da7a9a4ef62739861205b57b.png",
+    "win_rate": 53.21,
+    "pick_rate": 1.15,
+    "ban_rate": 12.76,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Leomord guide videos",
+      "query": "Mobile Legends Leomord guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Leomord%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Leomord%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "valir",
+    "name": "Valir",
+    "role": "Mage",
+    "roles": [
+      "Mage"
+    ],
+    "lane": "Mid Lane",
+    "tier": "A",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_88b057a88cdb623936e6d9d49e081aa7.png",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_88b057a88cdb623936e6d9d49e081aa7.png",
+    "win_rate": 52.99,
+    "pick_rate": 1.05,
+    "ban_rate": 2.69,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Valir guide videos",
+      "query": "Mobile Legends Valir guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Valir%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Valir%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "silvanna",
+    "name": "Silvanna",
+    "role": "Fighter",
+    "roles": [
+      "Fighter"
+    ],
+    "lane": "EXP Lane",
+    "tier": "S",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_1582f0613b6c03e1f4f147a3da23d70a.png",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_1582f0613b6c03e1f4f147a3da23d70a.png",
+    "win_rate": 52.97,
+    "pick_rate": 1.29,
+    "ban_rate": 3.16,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Silvanna guide videos",
+      "query": "Mobile Legends Silvanna guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Silvanna%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Silvanna%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "popol-and-kupa",
+    "name": "Popol and Kupa",
+    "role": "Marksman",
+    "roles": [
+      "Marksman"
+    ],
+    "lane": "Jungler / Gold Lane",
+    "tier": "B",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_08f8fb30b35d029e172e0ed9be3be09d.png",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_08f8fb30b35d029e172e0ed9be3be09d.png",
+    "win_rate": 52.94,
+    "pick_rate": 0.28,
+    "ban_rate": 0.35,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Popol and Kupa guide videos",
+      "query": "Mobile Legends Popol and Kupa guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Popol%20and%20Kupa%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Popol%20and%20Kupa%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "belerick",
+    "name": "Belerick",
+    "role": "Tank",
+    "roles": [
+      "Tank"
+    ],
+    "lane": "Roamer",
+    "tier": "S",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_29fa60e268304ff61fce131a158e0ad2.png",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_29fa60e268304ff61fce131a158e0ad2.png",
+    "win_rate": 52.91,
+    "pick_rate": 1.53,
+    "ban_rate": 9.78,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Belerick guide videos",
+      "query": "Mobile Legends Belerick guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Belerick%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Belerick%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "khaleed",
+    "name": "Khaleed",
+    "role": "Fighter",
+    "roles": [
+      "Fighter"
+    ],
+    "lane": "Roamer / EXP Lane",
+    "tier": "B",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_9f6754dc95d5afbacfae441ae43b6051.png",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_9f6754dc95d5afbacfae441ae43b6051.png",
+    "win_rate": 52.79,
+    "pick_rate": 0.37,
+    "ban_rate": 0.97,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Khaleed guide videos",
+      "query": "Mobile Legends Khaleed guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Khaleed%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Khaleed%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "minotaur",
+    "name": "Minotaur",
+    "role": "Tank",
+    "roles": [
+      "Tank",
+      "Support"
+    ],
+    "lane": "Roamer",
+    "tier": "A",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_1d1c6132b7cb0a2031972d45029967db.png",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_1d1c6132b7cb0a2031972d45029967db.png",
+    "win_rate": 52.66,
+    "pick_rate": 0.45,
+    "ban_rate": 5.96,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Minotaur guide videos",
+      "query": "Mobile Legends Minotaur guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Minotaur%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Minotaur%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "hilda",
+    "name": "Hilda",
+    "role": "Fighter",
+    "roles": [
+      "Fighter",
+      "Tank"
+    ],
+    "lane": "Roamer / EXP Lane",
+    "tier": "S",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_e71f7aa2d75cd340da108318b3d5a3f1.png",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_e71f7aa2d75cd340da108318b3d5a3f1.png",
+    "win_rate": 52.61,
+    "pick_rate": 1.01,
+    "ban_rate": 20.37,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Hilda guide videos",
+      "query": "Mobile Legends Hilda guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Hilda%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Hilda%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "terizla",
+    "name": "Terizla",
+    "role": "Fighter",
+    "roles": [
+      "Fighter",
+      "Tank"
+    ],
+    "lane": "EXP Lane",
+    "tier": "A",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_7fe813b1c6b84e6fb234d0428c0c7cd7.png",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_7fe813b1c6b84e6fb234d0428c0c7cd7.png",
+    "win_rate": 52.61,
+    "pick_rate": 0.63,
+    "ban_rate": 0.81,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Terizla guide videos",
+      "query": "Mobile Legends Terizla guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Terizla%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Terizla%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "argus",
+    "name": "Argus",
+    "role": "Fighter",
+    "roles": [
+      "Fighter"
+    ],
+    "lane": "EXP Lane",
+    "tier": "B",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_e6c706529acaf3f6c703405673af945b.png",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_e6c706529acaf3f6c703405673af945b.png",
+    "win_rate": 52.5,
+    "pick_rate": 0.42,
+    "ban_rate": 1.44,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Argus guide videos",
+      "query": "Mobile Legends Argus guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Argus%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Argus%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "estes",
+    "name": "Estes",
+    "role": "Support",
+    "roles": [
+      "Support"
+    ],
+    "lane": "Roamer",
+    "tier": "S",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_c10f7328de015adbc999254a72c912d8.png",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_c10f7328de015adbc999254a72c912d8.png",
+    "win_rate": 52.34,
+    "pick_rate": 0.64,
+    "ban_rate": 52.99,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Estes guide videos",
+      "query": "Mobile Legends Estes guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Estes%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Estes%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "benedetta",
+    "name": "Benedetta",
+    "role": "Assassin",
+    "roles": [
+      "Assassin",
+      "Fighter"
+    ],
+    "lane": "EXP Lane",
+    "tier": "B",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_11bf645722b931631c3a63d5be7da068.png",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_11bf645722b931631c3a63d5be7da068.png",
+    "win_rate": 52.02,
+    "pick_rate": 0.47,
+    "ban_rate": 0.86,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Benedetta guide videos",
+      "query": "Mobile Legends Benedetta guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Benedetta%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Benedetta%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "minsitthar",
+    "name": "Minsitthar",
+    "role": "Fighter",
+    "roles": [
+      "Fighter"
+    ],
+    "lane": "EXP Lane / Roamer",
+    "tier": "S",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_1c74ac9a30e2fc665c118dce09a721d5.png",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_1c74ac9a30e2fc665c118dce09a721d5.png",
+    "win_rate": 51.9,
+    "pick_rate": 0.87,
+    "ban_rate": 24.31,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Minsitthar guide videos",
+      "query": "Mobile Legends Minsitthar guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Minsitthar%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Minsitthar%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "miya",
+    "name": "Miya",
+    "role": "Marksman",
+    "roles": [
+      "Marksman"
+    ],
+    "lane": "Gold Lane",
+    "tier": "S",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_f6d3f7f102e1f0fb9dc92b971d1128ec.png",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_f6d3f7f102e1f0fb9dc92b971d1128ec.png",
+    "win_rate": 51.66,
+    "pick_rate": 2.72,
+    "ban_rate": 5.53,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Miya guide videos",
+      "query": "Mobile Legends Miya guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Miya%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Miya%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "uranus",
+    "name": "Uranus",
+    "role": "Tank",
+    "roles": [
+      "Tank"
+    ],
+    "lane": "EXP Lane",
+    "tier": "B",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_8d6008a84213058d99ce54a7d445f9d3.png",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_8d6008a84213058d99ce54a7d445f9d3.png",
+    "win_rate": 51.66,
+    "pick_rate": 0.5,
+    "ban_rate": 0.97,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Uranus guide videos",
+      "query": "Mobile Legends Uranus guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Uranus%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Uranus%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "zhask",
+    "name": "Zhask",
+    "role": "Mage",
+    "roles": [
+      "Mage"
+    ],
+    "lane": "Mid Lane",
+    "tier": "B",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_d023ab101f269f45930140b8317a23d0.png",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_d023ab101f269f45930140b8317a23d0.png",
+    "win_rate": 51.64,
+    "pick_rate": 0.34,
+    "ban_rate": 0.5,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Zhask guide videos",
+      "query": "Mobile Legends Zhask guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Zhask%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Zhask%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "freya",
+    "name": "Freya",
+    "role": "Fighter",
+    "roles": [
+      "Fighter"
+    ],
+    "lane": "EXP Lane / Jungler",
+    "tier": "S",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_703d1d626507f05ff72c799f53b123b9.png",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_703d1d626507f05ff72c799f53b123b9.png",
+    "win_rate": 51.59,
+    "pick_rate": 1.13,
+    "ban_rate": 19.69,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Freya guide videos",
+      "query": "Mobile Legends Freya guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Freya%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Freya%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "melissa",
+    "name": "Melissa",
+    "role": "Marksman",
+    "roles": [
+      "Marksman"
+    ],
+    "lane": "Gold Lane",
+    "tier": "B",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_a19559a08211b32279c27d584478a4b2.png",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_a19559a08211b32279c27d584478a4b2.png",
+    "win_rate": 51.59,
+    "pick_rate": 0.64,
+    "ban_rate": 1.14,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Melissa guide videos",
+      "query": "Mobile Legends Melissa guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Melissa%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Melissa%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "irithel",
+    "name": "Irithel",
+    "role": "Marksman",
+    "roles": [
+      "Marksman"
+    ],
+    "lane": "Gold Lane",
+    "tier": "B",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_a1faeef3e2187f0938c2eeff4a7bf962.png",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_a1faeef3e2187f0938c2eeff4a7bf962.png",
+    "win_rate": 51.58,
+    "pick_rate": 0.54,
+    "ban_rate": 0.33,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Irithel guide videos",
+      "query": "Mobile Legends Irithel guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Irithel%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Irithel%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "zetian",
+    "name": "Zetian",
+    "role": "Mage",
+    "roles": [
+      "Mage"
+    ],
+    "lane": "Mid Lane",
+    "tier": "S",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/gms/image/b617a6b4d9e2c22a5bc24d886e453399.jpg",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/gms/image/b617a6b4d9e2c22a5bc24d886e453399.jpg",
+    "win_rate": 51.58,
+    "pick_rate": 1.99,
+    "ban_rate": 25.52,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Zetian guide videos",
+      "query": "Mobile Legends Zetian guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Zetian%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Zetian%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "rafaela",
+    "name": "Rafaela",
+    "role": "Support",
+    "roles": [
+      "Support"
+    ],
+    "lane": "Roamer",
+    "tier": "B",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_c4d4ab4a6353c0dd1481a59d57d09cdf.png",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_c4d4ab4a6353c0dd1481a59d57d09cdf.png",
+    "win_rate": 51.57,
+    "pick_rate": 0.32,
+    "ban_rate": 2.74,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Rafaela guide videos",
+      "query": "Mobile Legends Rafaela guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Rafaela%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Rafaela%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "paquito",
+    "name": "Paquito",
+    "role": "Fighter",
+    "roles": [
+      "Fighter",
+      "Assassin"
+    ],
+    "lane": "EXP Lane",
+    "tier": "A",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_e57019805d928c886bd0ae01b8947c30.png",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_e57019805d928c886bd0ae01b8947c30.png",
+    "win_rate": 51.54,
+    "pick_rate": 1.22,
+    "ban_rate": 4.78,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Paquito guide videos",
+      "query": "Mobile Legends Paquito guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Paquito%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Paquito%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "yve",
+    "name": "Yve",
+    "role": "Mage",
+    "roles": [
+      "Mage"
+    ],
+    "lane": "Mid Lane",
+    "tier": "C",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_b98852e20d4e492a55c25565ed1a101e.png",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_b98852e20d4e492a55c25565ed1a101e.png",
+    "win_rate": 51.48,
+    "pick_rate": 0.1,
+    "ban_rate": 0.18,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Yve guide videos",
+      "query": "Mobile Legends Yve guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Yve%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Yve%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "bane",
+    "name": "Bane",
+    "role": "Fighter",
+    "roles": [
+      "Fighter",
+      "Mage"
+    ],
+    "lane": "Jungler / EXP Lane",
+    "tier": "C",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_384c3e16350f91e191de2351d73a9980.png",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_384c3e16350f91e191de2351d73a9980.png",
+    "win_rate": 51.47,
+    "pick_rate": 0.31,
+    "ban_rate": 0.23,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Bane guide videos",
+      "query": "Mobile Legends Bane guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Bane%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Bane%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "atlas",
+    "name": "Atlas",
+    "role": "Tank",
+    "roles": [
+      "Tank"
+    ],
+    "lane": "Roamer",
+    "tier": "B",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_f7b43ccce0423507f62bbe555e9f2395.png",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_f7b43ccce0423507f62bbe555e9f2395.png",
+    "win_rate": 51.42,
+    "pick_rate": 0.51,
+    "ban_rate": 5.39,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Atlas guide videos",
+      "query": "Mobile Legends Atlas guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Atlas%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Atlas%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "carmilla",
+    "name": "Carmilla",
+    "role": "Support",
+    "roles": [
+      "Support",
+      "Tank"
+    ],
+    "lane": "Roamer",
+    "tier": "B",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_429bbf3c9f1b16aa45bdfdeac80761e5.png",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_429bbf3c9f1b16aa45bdfdeac80761e5.png",
+    "win_rate": 51.35,
+    "pick_rate": 0.55,
+    "ban_rate": 1.59,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Carmilla guide videos",
+      "query": "Mobile Legends Carmilla guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Carmilla%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Carmilla%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "cyclops",
+    "name": "Cyclops",
+    "role": "Mage",
+    "roles": [
+      "Mage"
+    ],
+    "lane": "Mid Lane",
+    "tier": "B",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_70d3453531870386192d20dd91aa882c.png",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_70d3453531870386192d20dd91aa882c.png",
+    "win_rate": 51.33,
+    "pick_rate": 0.78,
+    "ban_rate": 0.43,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Cyclops guide videos",
+      "query": "Mobile Legends Cyclops guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Cyclops%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Cyclops%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "fredrinn",
+    "name": "Fredrinn",
+    "role": "Fighter",
+    "roles": [
+      "Fighter",
+      "Tank"
+    ],
+    "lane": "Jungler",
+    "tier": "A",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_3834313607fefe7bf2c895f042d60f10.png",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_3834313607fefe7bf2c895f042d60f10.png",
+    "win_rate": 51.33,
+    "pick_rate": 0.73,
+    "ban_rate": 6.64,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Fredrinn guide videos",
+      "query": "Mobile Legends Fredrinn guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Fredrinn%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Fredrinn%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "kadita",
+    "name": "Kadita",
+    "role": "Mage",
+    "roles": [
+      "Mage",
+      "Assassin"
+    ],
+    "lane": "Mid Lane",
+    "tier": "A",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_812f998f0d153ace42c9c55a10dd2533.png",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_812f998f0d153ace42c9c55a10dd2533.png",
+    "win_rate": 51.32,
+    "pick_rate": 0.98,
+    "ban_rate": 8.35,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Kadita guide videos",
+      "query": "Mobile Legends Kadita guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Kadita%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Kadita%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "suyou",
+    "name": "Suyou",
+    "role": "Assassin",
+    "roles": [
+      "Assassin",
+      "Fighter"
+    ],
+    "lane": "Jungler",
+    "tier": "S",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/gms/image/13912f0dbc96b6cf53a00e80ff731dab.jpg",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/gms/image/13912f0dbc96b6cf53a00e80ff731dab.jpg",
+    "win_rate": 51.3,
+    "pick_rate": 1.97,
+    "ban_rate": 34.11,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Suyou guide videos",
+      "query": "Mobile Legends Suyou guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Suyou%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Suyou%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "edith",
+    "name": "Edith",
+    "role": "Tank",
+    "roles": [
+      "Tank",
+      "Marksman"
+    ],
+    "lane": "EXP Lane / Roamer",
+    "tier": "C",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_098891b01e7093a49228688bbad0cde8.png",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_098891b01e7093a49228688bbad0cde8.png",
+    "win_rate": 51.21,
+    "pick_rate": 0.2,
+    "ban_rate": 0.1,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Edith guide videos",
+      "query": "Mobile Legends Edith guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Edith%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Edith%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "aamon",
+    "name": "Aamon",
+    "role": "Assassin",
+    "roles": [
+      "Assassin"
+    ],
+    "lane": "Jungler",
+    "tier": "A",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_e38297f23f285b88272894aa3c797c09.png",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_e38297f23f285b88272894aa3c797c09.png",
+    "win_rate": 51.18,
+    "pick_rate": 0.8,
+    "ban_rate": 8.04,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Aamon guide videos",
+      "query": "Mobile Legends Aamon guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Aamon%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Aamon%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "baxia",
+    "name": "Baxia",
+    "role": "Tank",
+    "roles": [
+      "Tank"
+    ],
+    "lane": "Mid Lane",
+    "tier": "C",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_c2ef0eba78b5b1c21c50cb9b696ac71b.png",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_c2ef0eba78b5b1c21c50cb9b696ac71b.png",
+    "win_rate": 51.07,
+    "pick_rate": 0.18,
+    "ban_rate": 0.52,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Baxia guide videos",
+      "query": "Mobile Legends Baxia guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Baxia%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Baxia%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "phoveus",
+    "name": "Phoveus",
+    "role": "Fighter",
+    "roles": [
+      "Fighter"
+    ],
+    "lane": "EXP Lane",
+    "tier": "B",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_9abf963fae03d641bac528f6fab2b8c2.png",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_9abf963fae03d641bac528f6fab2b8c2.png",
+    "win_rate": 50.98,
+    "pick_rate": 0.71,
+    "ban_rate": 2.94,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Phoveus guide videos",
+      "query": "Mobile Legends Phoveus guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Phoveus%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Phoveus%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "aulus",
+    "name": "Aulus",
+    "role": "Fighter",
+    "roles": [
+      "Fighter"
+    ],
+    "lane": "Jungler",
+    "tier": "C",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_b18a4e09124187587ef09826dee69ec3.png",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_b18a4e09124187587ef09826dee69ec3.png",
+    "win_rate": 50.9,
+    "pick_rate": 0.27,
+    "ban_rate": 2.3,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Aulus guide videos",
+      "query": "Mobile Legends Aulus guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Aulus%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Aulus%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "odette",
+    "name": "Odette",
+    "role": "Mage",
+    "roles": [
+      "Mage"
+    ],
+    "lane": "Mid Lane",
+    "tier": "B",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_8ecd04f6d20c82508e69b839ca49131b.png",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_8ecd04f6d20c82508e69b839ca49131b.png",
+    "win_rate": 50.88,
+    "pick_rate": 0.74,
+    "ban_rate": 0.62,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Odette guide videos",
+      "query": "Mobile Legends Odette guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Odette%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Odette%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "zhuxin",
+    "name": "Zhuxin",
+    "role": "Mage",
+    "roles": [
+      "Mage"
+    ],
+    "lane": "Mid Lane",
+    "tier": "S",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_92/100_8991b456c4482e7170422f3d77d16b00.png",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_92/100_8991b456c4482e7170422f3d77d16b00.png",
+    "win_rate": 50.87,
+    "pick_rate": 0.54,
+    "ban_rate": 24.9,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Zhuxin guide videos",
+      "query": "Mobile Legends Zhuxin guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Zhuxin%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Zhuxin%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "hanzo",
+    "name": "Hanzo",
+    "role": "Assassin",
+    "roles": [
+      "Assassin"
+    ],
+    "lane": "Jungler",
+    "tier": "C",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_eabfca6f5eec4128626dba78d6aecc81.png",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_eabfca6f5eec4128626dba78d6aecc81.png",
+    "win_rate": 50.85,
+    "pick_rate": 0.32,
+    "ban_rate": 2.85,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Hanzo guide videos",
+      "query": "Mobile Legends Hanzo guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Hanzo%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Hanzo%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "ruby",
+    "name": "Ruby",
+    "role": "Fighter",
+    "roles": [
+      "Fighter"
+    ],
+    "lane": "EXP Lane",
+    "tier": "C",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_87a6b382c3e5b864cdcd8f7752151a96.png",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_87a6b382c3e5b864cdcd8f7752151a96.png",
+    "win_rate": 50.83,
+    "pick_rate": 0.44,
+    "ban_rate": 0.51,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Ruby guide videos",
+      "query": "Mobile Legends Ruby guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Ruby%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Ruby%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "vexana",
+    "name": "Vexana",
+    "role": "Mage",
+    "roles": [
+      "Mage"
+    ],
+    "lane": "Mid Lane",
+    "tier": "A",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_8a6f5f1c20d001819222bd251bb594d1.png",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_8a6f5f1c20d001819222bd251bb594d1.png",
+    "win_rate": 50.77,
+    "pick_rate": 1.93,
+    "ban_rate": 1.77,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Vexana guide videos",
+      "query": "Mobile Legends Vexana guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Vexana%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Vexana%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "clint",
+    "name": "Clint",
+    "role": "Marksman",
+    "roles": [
+      "Marksman"
+    ],
+    "lane": "Gold Lane",
+    "tier": "B",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_3f5ffe36b6e07ded46dac0ce665d971b.png",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_3f5ffe36b6e07ded46dac0ce665d971b.png",
+    "win_rate": 50.73,
+    "pick_rate": 0.83,
+    "ban_rate": 0.93,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Clint guide videos",
+      "query": "Mobile Legends Clint guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Clint%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Clint%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "guinevere",
+    "name": "Guinevere",
+    "role": "Fighter",
+    "roles": [
+      "Fighter"
+    ],
+    "lane": "EXP Lane",
+    "tier": "S",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_c6ee596036c7b8e25760559ab67ff698.png",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_c6ee596036c7b8e25760559ab67ff698.png",
+    "win_rate": 50.72,
+    "pick_rate": 1.24,
+    "ban_rate": 33.73,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Guinevere guide videos",
+      "query": "Mobile Legends Guinevere guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Guinevere%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Guinevere%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "natan",
+    "name": "Natan",
+    "role": "Marksman",
+    "roles": [
+      "Marksman"
+    ],
+    "lane": "Gold Lane",
+    "tier": "C",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_4431d3412e6cff8fccc5cdf67454a08b.png",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_4431d3412e6cff8fccc5cdf67454a08b.png",
+    "win_rate": 50.72,
+    "pick_rate": 0.37,
+    "ban_rate": 0.28,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Natan guide videos",
+      "query": "Mobile Legends Natan guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Natan%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Natan%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "brody",
+    "name": "Brody",
+    "role": "Marksman",
+    "roles": [
+      "Marksman"
+    ],
+    "lane": "Gold Lane",
+    "tier": "C",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_0dd42d343fcd6298ca65eec2a65a6b77.png",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_0dd42d343fcd6298ca65eec2a65a6b77.png",
+    "win_rate": 50.69,
+    "pick_rate": 0.49,
+    "ban_rate": 0.57,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Brody guide videos",
+      "query": "Mobile Legends Brody guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Brody%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Brody%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "vale",
+    "name": "Vale",
+    "role": "Mage",
+    "roles": [
+      "Mage"
+    ],
+    "lane": "Mid Lane",
+    "tier": "B",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_6045061856a83522959d160c3a9e70b7.png",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_6045061856a83522959d160c3a9e70b7.png",
+    "win_rate": 50.69,
+    "pick_rate": 0.62,
+    "ban_rate": 0.38,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Vale guide videos",
+      "query": "Mobile Legends Vale guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Vale%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Vale%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "johnson",
+    "name": "Johnson",
+    "role": "Tank",
+    "roles": [
+      "Tank",
+      "Support"
+    ],
+    "lane": "Roamer",
+    "tier": "B",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_2ad944e166e69a31623ccdb1f4b38f91.png",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_2ad944e166e69a31623ccdb1f4b38f91.png",
+    "win_rate": 50.53,
+    "pick_rate": 0.85,
+    "ban_rate": 3.11,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Johnson guide videos",
+      "query": "Mobile Legends Johnson guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Johnson%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Johnson%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "badang",
+    "name": "Badang",
+    "role": "Fighter",
+    "roles": [
+      "Fighter"
+    ],
+    "lane": "Roamer / EXP Lane",
+    "tier": "B",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_ae19689ee111addb7f2c0e6f8f30a4ec.png",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_ae19689ee111addb7f2c0e6f8f30a4ec.png",
+    "win_rate": 50.51,
+    "pick_rate": 0.93,
+    "ban_rate": 1.18,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Badang guide videos",
+      "query": "Mobile Legends Badang guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Badang%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Badang%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "akai",
+    "name": "Akai",
+    "role": "Tank",
+    "roles": [
+      "Tank"
+    ],
+    "lane": "Roamer",
+    "tier": "B",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_7ed2c59361619204e6e2134e2452bd8e.png",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_7ed2c59361619204e6e2134e2452bd8e.png",
+    "win_rate": 50.42,
+    "pick_rate": 0.53,
+    "ban_rate": 2.63,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Akai guide videos",
+      "query": "Mobile Legends Akai guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Akai%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Akai%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "natalia",
+    "name": "Natalia",
+    "role": "Assassin",
+    "roles": [
+      "Assassin"
+    ],
+    "lane": "Jungler / Roamer",
+    "tier": "C",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_8ca11ea3470a120eb3b011225e40bf08.png",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_8ca11ea3470a120eb3b011225e40bf08.png",
+    "win_rate": 50.37,
+    "pick_rate": 0.29,
+    "ban_rate": 2.17,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Natalia guide videos",
+      "query": "Mobile Legends Natalia guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Natalia%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Natalia%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "beatrix",
+    "name": "Beatrix",
+    "role": "Marksman",
+    "roles": [
+      "Marksman"
+    ],
+    "lane": "Gold Lane",
+    "tier": "B",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_564a14b35d0f172bdd7b3d04b33a1d68.png",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_564a14b35d0f172bdd7b3d04b33a1d68.png",
+    "win_rate": 50.25,
+    "pick_rate": 0.76,
+    "ban_rate": 0.84,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Beatrix guide videos",
+      "query": "Mobile Legends Beatrix guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Beatrix%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Beatrix%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "lukas",
+    "name": "Lukas",
+    "role": "Fighter",
+    "roles": [
+      "Fighter"
+    ],
+    "lane": "EXP Lane / Jungler",
+    "tier": "C",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/gms/image/95b6f94a0e37fd02e069223493540e75.jpg",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/gms/image/95b6f94a0e37fd02e069223493540e75.jpg",
+    "win_rate": 50.19,
+    "pick_rate": 0.35,
+    "ban_rate": 0.78,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Lukas guide videos",
+      "query": "Mobile Legends Lukas guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Lukas%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Lukas%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "kagura",
+    "name": "Kagura",
+    "role": "Mage",
+    "roles": [
+      "Mage"
+    ],
+    "lane": "Mid Lane",
+    "tier": "C",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_81334e359e0b00a4797ce3c80a49ca73.png",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_81334e359e0b00a4797ce3c80a49ca73.png",
+    "win_rate": 50.17,
+    "pick_rate": 0.64,
+    "ban_rate": 1.2,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Kagura guide videos",
+      "query": "Mobile Legends Kagura guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Kagura%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Kagura%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "aldous",
+    "name": "Aldous",
+    "role": "Fighter",
+    "roles": [
+      "Fighter"
+    ],
+    "lane": "EXP Lane",
+    "tier": "C",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_4222a9efc85e75188d3048bd7d042d32.png",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_4222a9efc85e75188d3048bd7d042d32.png",
+    "win_rate": 50.09,
+    "pick_rate": 0.35,
+    "ban_rate": 0.49,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Aldous guide videos",
+      "query": "Mobile Legends Aldous guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Aldous%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Aldous%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "ixia",
+    "name": "Ixia",
+    "role": "Marksman",
+    "roles": [
+      "Marksman"
+    ],
+    "lane": "Gold Lane",
+    "tier": "B",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_ad36ae3824bc4853dcc2f48fef767be1.png",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_ad36ae3824bc4853dcc2f48fef767be1.png",
+    "win_rate": 50.09,
+    "pick_rate": 0.84,
+    "ban_rate": 1.79,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Ixia guide videos",
+      "query": "Mobile Legends Ixia guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Ixia%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Ixia%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "yi-sun-shin",
+    "name": "Yi Sun-shin",
+    "role": "Assassin",
+    "roles": [
+      "Assassin",
+      "Marksman"
+    ],
+    "lane": "Jungler",
+    "tier": "A",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_e7ec78a2d7f84ef57deac87ec2b40dbf.png",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_e7ec78a2d7f84ef57deac87ec2b40dbf.png",
+    "win_rate": 50.08,
+    "pick_rate": 1.48,
+    "ban_rate": 12.97,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Yi Sun-shin guide videos",
+      "query": "Mobile Legends Yi Sun-shin guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Yi%20Sun-shin%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Yi%20Sun-shin%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "harley",
+    "name": "Harley",
+    "role": "Assassin",
+    "roles": [
+      "Assassin",
+      "Mage"
+    ],
+    "lane": "Jungler / Mid Lane",
+    "tier": "S",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_3197492c35e6a2918d9196e4989cfda9.png",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_3197492c35e6a2918d9196e4989cfda9.png",
+    "win_rate": 50.07,
+    "pick_rate": 1.2,
+    "ban_rate": 71.87,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Harley guide videos",
+      "query": "Mobile Legends Harley guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Harley%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Harley%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "thamuz",
+    "name": "Thamuz",
+    "role": "Fighter",
+    "roles": [
+      "Fighter"
+    ],
+    "lane": "EXP Lane",
+    "tier": "B",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_2fc38a2e465b275a72c3308152cab77d.png",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_2fc38a2e465b275a72c3308152cab77d.png",
+    "win_rate": 50.04,
+    "pick_rate": 1.12,
+    "ban_rate": 4.47,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Thamuz guide videos",
+      "query": "Mobile Legends Thamuz guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Thamuz%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Thamuz%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "karrie",
+    "name": "Karrie",
+    "role": "Marksman",
+    "roles": [
+      "Marksman"
+    ],
+    "lane": "Gold Lane",
+    "tier": "B",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_141cd91af493fe420541835221d24c18.png",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_141cd91af493fe420541835221d24c18.png",
+    "win_rate": 50.01,
+    "pick_rate": 0.9,
+    "ban_rate": 3.72,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Karrie guide videos",
+      "query": "Mobile Legends Karrie guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Karrie%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Karrie%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "obsidia",
+    "name": "Obsidia",
+    "role": "Marksman",
+    "roles": [
+      "Marksman"
+    ],
+    "lane": "Gold Lane",
+    "tier": "B",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/gms/image/1dca7f088da27d5a12faf83f7c1f8269.jpg",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/gms/image/1dca7f088da27d5a12faf83f7c1f8269.jpg",
+    "win_rate": 49.99,
+    "pick_rate": 0.86,
+    "ban_rate": 2.39,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Obsidia guide videos",
+      "query": "Mobile Legends Obsidia guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Obsidia%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Obsidia%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "moskov",
+    "name": "Moskov",
+    "role": "Marksman",
+    "roles": [
+      "Marksman"
+    ],
+    "lane": "Gold Lane",
+    "tier": "B",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_67e50f5bc90601cd0596bd41d0572baa.png",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_67e50f5bc90601cd0596bd41d0572baa.png",
+    "win_rate": 49.98,
+    "pick_rate": 0.98,
+    "ban_rate": 0.38,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Moskov guide videos",
+      "query": "Mobile Legends Moskov guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Moskov%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Moskov%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "julian",
+    "name": "Julian",
+    "role": "Assassin",
+    "roles": [
+      "Assassin",
+      "Fighter"
+    ],
+    "lane": "Mid Lane",
+    "tier": "B",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_af290850533bcaeaf7630d573969a74c.png",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_af290850533bcaeaf7630d573969a74c.png",
+    "win_rate": 49.96,
+    "pick_rate": 1.2,
+    "ban_rate": 4.12,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Julian guide videos",
+      "query": "Mobile Legends Julian guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Julian%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Julian%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "alucard",
+    "name": "Alucard",
+    "role": "Fighter",
+    "roles": [
+      "Fighter",
+      "Assassin"
+    ],
+    "lane": "Jungler",
+    "tier": "C",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_3c0135f79624621b63ff686f540b2a78.png",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_3c0135f79624621b63ff686f540b2a78.png",
+    "win_rate": 49.93,
+    "pick_rate": 0.58,
+    "ban_rate": 0.71,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Alucard guide videos",
+      "query": "Mobile Legends Alucard guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Alucard%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Alucard%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "alice",
+    "name": "Alice",
+    "role": "Tank",
+    "roles": [
+      "Tank",
+      "Mage"
+    ],
+    "lane": "EXP Lane / Jungler",
+    "tier": "B",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_34013ffb449baa842122de6126e43259.png",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_34013ffb449baa842122de6126e43259.png",
+    "win_rate": 49.88,
+    "pick_rate": 0.76,
+    "ban_rate": 9.86,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Alice guide videos",
+      "query": "Mobile Legends Alice guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Alice%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Alice%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "helcurt",
+    "name": "Helcurt",
+    "role": "Assassin",
+    "roles": [
+      "Assassin"
+    ],
+    "lane": "Jungler / Roamer",
+    "tier": "S",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_4fcae9e3a7db0bd9f49aea013839d217.png",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_4fcae9e3a7db0bd9f49aea013839d217.png",
+    "win_rate": 49.82,
+    "pick_rate": 0.84,
+    "ban_rate": 29.92,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Helcurt guide videos",
+      "query": "Mobile Legends Helcurt guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Helcurt%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Helcurt%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "saber",
+    "name": "Saber",
+    "role": "Assassin",
+    "roles": [
+      "Assassin"
+    ],
+    "lane": "Jungler / Roamer",
+    "tier": "S",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_e3171fbce7f67586df05233bfa1635c5.png",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_e3171fbce7f67586df05233bfa1635c5.png",
+    "win_rate": 49.76,
+    "pick_rate": 0.99,
+    "ban_rate": 23.39,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Saber guide videos",
+      "query": "Mobile Legends Saber guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Saber%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Saber%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "barats",
+    "name": "Barats",
+    "role": "Tank",
+    "roles": [
+      "Tank",
+      "Fighter"
+    ],
+    "lane": "Jungler",
+    "tier": "D",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_dd47c9cac5a4848e8d4d0246a6739fec.png",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_dd47c9cac5a4848e8d4d0246a6739fec.png",
+    "win_rate": 49.7,
+    "pick_rate": 0.13,
+    "ban_rate": 0.11,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Barats guide videos",
+      "query": "Mobile Legends Barats guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Barats%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Barats%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "faramis",
+    "name": "Faramis",
+    "role": "Support",
+    "roles": [
+      "Support",
+      "Mage"
+    ],
+    "lane": "Mid Lane",
+    "tier": "D",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_e6b0467527533e7882bcb7967db96063.png",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_e6b0467527533e7882bcb7967db96063.png",
+    "win_rate": 49.63,
+    "pick_rate": 0.1,
+    "ban_rate": 0.72,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Faramis guide videos",
+      "query": "Mobile Legends Faramis guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Faramis%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Faramis%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "x-borg",
+    "name": "X.Borg",
+    "role": "Fighter",
+    "roles": [
+      "Fighter"
+    ],
+    "lane": "EXP Lane",
+    "tier": "B",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_3f372795b38be1e2b2037229928bfe57.png",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_3f372795b38be1e2b2037229928bfe57.png",
+    "win_rate": 49.6,
+    "pick_rate": 0.64,
+    "ban_rate": 4.39,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "X.Borg guide videos",
+      "query": "Mobile Legends X.Borg guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20X.Borg%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20X.Borg%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "claude",
+    "name": "Claude",
+    "role": "Marksman",
+    "roles": [
+      "Marksman"
+    ],
+    "lane": "Gold Lane",
+    "tier": "C",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_526c87ad0a41e34499fedefdc90357c6.png",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_526c87ad0a41e34499fedefdc90357c6.png",
+    "win_rate": 49.4,
+    "pick_rate": 1.06,
+    "ban_rate": 0.62,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Claude guide videos",
+      "query": "Mobile Legends Claude guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Claude%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Claude%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "harith",
+    "name": "Harith",
+    "role": "Mage",
+    "roles": [
+      "Mage"
+    ],
+    "lane": "Gold Lane / Jungler",
+    "tier": "C",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_1b798782cb64820af74f9365dbbf4689.png",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_1b798782cb64820af74f9365dbbf4689.png",
+    "win_rate": 49.28,
+    "pick_rate": 0.55,
+    "ban_rate": 3.11,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Harith guide videos",
+      "query": "Mobile Legends Harith guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Harith%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Harith%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "gusion",
+    "name": "Gusion",
+    "role": "Assassin",
+    "roles": [
+      "Assassin"
+    ],
+    "lane": "Mid Lane",
+    "tier": "A",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_b0de2d71aeb40a289c44288b1861b641.png",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_b0de2d71aeb40a289c44288b1861b641.png",
+    "win_rate": 49.25,
+    "pick_rate": 1.63,
+    "ban_rate": 12.29,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Gusion guide videos",
+      "query": "Mobile Legends Gusion guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Gusion%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Gusion%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "cecilion",
+    "name": "Cecilion",
+    "role": "Mage",
+    "roles": [
+      "Mage"
+    ],
+    "lane": "Mid Lane",
+    "tier": "C",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_c0bb649180f1f1bfd0ba81b78ee35844.png",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_c0bb649180f1f1bfd0ba81b78ee35844.png",
+    "win_rate": 49.19,
+    "pick_rate": 0.63,
+    "ban_rate": 0.23,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Cecilion guide videos",
+      "query": "Mobile Legends Cecilion guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Cecilion%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Cecilion%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "roger",
+    "name": "Roger",
+    "role": "Fighter",
+    "roles": [
+      "Fighter",
+      "Marksman"
+    ],
+    "lane": "Jungler",
+    "tier": "C",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_32304eb469dc241a15e3d539584f62a9.png",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_32304eb469dc241a15e3d539584f62a9.png",
+    "win_rate": 49.18,
+    "pick_rate": 0.31,
+    "ban_rate": 0.12,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Roger guide videos",
+      "query": "Mobile Legends Roger guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Roger%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Roger%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "angela",
+    "name": "Angela",
+    "role": "Support",
+    "roles": [
+      "Support"
+    ],
+    "lane": "Roamer",
+    "tier": "B",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_07643d046530288eb0ff56f13b5e31dd.png",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_07643d046530288eb0ff56f13b5e31dd.png",
+    "win_rate": 49.04,
+    "pick_rate": 1.61,
+    "ban_rate": 7.68,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Angela guide videos",
+      "query": "Mobile Legends Angela guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Angela%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Angela%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "eudora",
+    "name": "Eudora",
+    "role": "Mage",
+    "roles": [
+      "Mage"
+    ],
+    "lane": "Mid Lane",
+    "tier": "C",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_86c82f8ea9c76bfb38f5fa83320928e6.png",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_86c82f8ea9c76bfb38f5fa83320928e6.png",
+    "win_rate": 48.87,
+    "pick_rate": 0.81,
+    "ban_rate": 2.56,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Eudora guide videos",
+      "query": "Mobile Legends Eudora guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Eudora%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Eudora%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "change",
+    "name": "Chang'e",
+    "role": "Mage",
+    "roles": [
+      "Mage"
+    ],
+    "lane": "Mid Lane",
+    "tier": "C",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_91e96418810894dfb8b74a3c1a58cc8d.png",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_91e96418810894dfb8b74a3c1a58cc8d.png",
+    "win_rate": 48.83,
+    "pick_rate": 0.83,
+    "ban_rate": 0.63,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Chang'e guide videos",
+      "query": "Mobile Legends Chang'e guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Chang'e%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Chang'e%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "chip",
+    "name": "Chip",
+    "role": "Support",
+    "roles": [
+      "Support",
+      "Tank"
+    ],
+    "lane": "Roamer",
+    "tier": "D",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_264d149bf047331fc3eb6d7d886b38d1.png",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_264d149bf047331fc3eb6d7d886b38d1.png",
+    "win_rate": 48.81,
+    "pick_rate": 0.06,
+    "ban_rate": 2.97,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Chip guide videos",
+      "query": "Mobile Legends Chip guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Chip%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Chip%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "lylia",
+    "name": "Lylia",
+    "role": "Mage",
+    "roles": [
+      "Mage"
+    ],
+    "lane": "Mid Lane",
+    "tier": "C",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_84a089c2608b908b87c01ce7af5c3162.png",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_84a089c2608b908b87c01ce7af5c3162.png",
+    "win_rate": 48.67,
+    "pick_rate": 0.66,
+    "ban_rate": 0.97,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Lylia guide videos",
+      "query": "Mobile Legends Lylia guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Lylia%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Lylia%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "sora",
+    "name": "Sora",
+    "role": "Fighter",
+    "roles": [
+      "Fighter",
+      "Assassin"
+    ],
+    "lane": "EXP Lane",
+    "tier": "S",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/gms/image/d6348e65d8d0d4ca8b0738d691cef440.jpg",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/gms/image/d6348e65d8d0d4ca8b0738d691cef440.jpg",
+    "win_rate": 48.52,
+    "pick_rate": 0.81,
+    "ban_rate": 43.6,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Sora guide videos",
+      "query": "Mobile Legends Sora guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Sora%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Sora%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "lapu-lapu",
+    "name": "Lapu-Lapu",
+    "role": "Fighter",
+    "roles": [
+      "Fighter"
+    ],
+    "lane": "EXP Lane",
+    "tier": "C",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_585b7071cf12473e2b27a0121f6192c0.png",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_585b7071cf12473e2b27a0121f6192c0.png",
+    "win_rate": 48.42,
+    "pick_rate": 0.51,
+    "ban_rate": 1,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Lapu-Lapu guide videos",
+      "query": "Mobile Legends Lapu-Lapu guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Lapu-Lapu%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Lapu-Lapu%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "wanwan",
+    "name": "Wanwan",
+    "role": "Marksman",
+    "roles": [
+      "Marksman"
+    ],
+    "lane": "Gold Lane",
+    "tier": "D",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_d52dd5ccf7d25cb590dc57e48c1df8d2.png",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_d52dd5ccf7d25cb590dc57e48c1df8d2.png",
+    "win_rate": 48.42,
+    "pick_rate": 0.16,
+    "ban_rate": 0.27,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Wanwan guide videos",
+      "query": "Mobile Legends Wanwan guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Wanwan%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Wanwan%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "hylos",
+    "name": "Hylos",
+    "role": "Tank",
+    "roles": [
+      "Tank"
+    ],
+    "lane": "Roamer",
+    "tier": "D",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_d6af7bfc2f67e7bc30dec2c3bd115f91.png",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_d6af7bfc2f67e7bc30dec2c3bd115f91.png",
+    "win_rate": 48.35,
+    "pick_rate": 0.36,
+    "ban_rate": 0.99,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Hylos guide videos",
+      "query": "Mobile Legends Hylos guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Hylos%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Hylos%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "layla",
+    "name": "Layla",
+    "role": "Marksman",
+    "roles": [
+      "Marksman"
+    ],
+    "lane": "Gold Lane",
+    "tier": "C",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_5a532838b7358fed58458c612da3d59b.png",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_5a532838b7358fed58458c612da3d59b.png",
+    "win_rate": 48.27,
+    "pick_rate": 1.09,
+    "ban_rate": 1.13,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Layla guide videos",
+      "query": "Mobile Legends Layla guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Layla%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Layla%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "hayabusa",
+    "name": "Hayabusa",
+    "role": "Assassin",
+    "roles": [
+      "Assassin"
+    ],
+    "lane": "Jungler",
+    "tier": "C",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_261209d8154dbe2bf6d4292076b0437f.png",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_261209d8154dbe2bf6d4292076b0437f.png",
+    "win_rate": 48.22,
+    "pick_rate": 0.87,
+    "ban_rate": 5.14,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Hayabusa guide videos",
+      "query": "Mobile Legends Hayabusa guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Hayabusa%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Hayabusa%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "nana",
+    "name": "Nana",
+    "role": "Mage",
+    "roles": [
+      "Mage"
+    ],
+    "lane": "Mid Lane",
+    "tier": "B",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_ff9412a3d36170f98801085bb32f7bad.png",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_ff9412a3d36170f98801085bb32f7bad.png",
+    "win_rate": 48.2,
+    "pick_rate": 1.59,
+    "ban_rate": 4.9,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Nana guide videos",
+      "query": "Mobile Legends Nana guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Nana%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Nana%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "yin",
+    "name": "Yin",
+    "role": "Fighter",
+    "roles": [
+      "Fighter",
+      "Assassin"
+    ],
+    "lane": "Jungler / EXP Lane",
+    "tier": "C",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_c0452c120fee6e5b762d7a2dd1c24cb8.png",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_c0452c120fee6e5b762d7a2dd1c24cb8.png",
+    "win_rate": 48.2,
+    "pick_rate": 0.56,
+    "ban_rate": 3.19,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Yin guide videos",
+      "query": "Mobile Legends Yin guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Yin%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Yin%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "joy",
+    "name": "Joy",
+    "role": "Assassin",
+    "roles": [
+      "Assassin"
+    ],
+    "lane": "Jungler",
+    "tier": "D",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_1ecb59cb5508be26cd90ac70d2177b76.png",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_1ecb59cb5508be26cd90ac70d2177b76.png",
+    "win_rate": 48.16,
+    "pick_rate": 0.23,
+    "ban_rate": 0.58,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Joy guide videos",
+      "query": "Mobile Legends Joy guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Joy%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Joy%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "lunox",
+    "name": "Lunox",
+    "role": "Mage",
+    "roles": [
+      "Mage"
+    ],
+    "lane": "Mid Lane",
+    "tier": "D",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_86a0c8cc7b2fc883b59a6dd63c766aef.png",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_86a0c8cc7b2fc883b59a6dd63c766aef.png",
+    "win_rate": 48.12,
+    "pick_rate": 0.31,
+    "ban_rate": 0.38,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Lunox guide videos",
+      "query": "Mobile Legends Lunox guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Lunox%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Lunox%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "dyrroth",
+    "name": "Dyrroth",
+    "role": "Fighter",
+    "roles": [
+      "Fighter"
+    ],
+    "lane": "EXP Lane / Jungler",
+    "tier": "C",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_ce1031d6d4e49f33719bd3d833a9b45b.png",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_ce1031d6d4e49f33719bd3d833a9b45b.png",
+    "win_rate": 48.1,
+    "pick_rate": 1.26,
+    "ban_rate": 1.08,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Dyrroth guide videos",
+      "query": "Mobile Legends Dyrroth guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Dyrroth%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Dyrroth%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "cici",
+    "name": "Cici",
+    "role": "Fighter",
+    "roles": [
+      "Fighter"
+    ],
+    "lane": "EXP Lane",
+    "tier": "D",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_83e246a50d2a27fe0d18f991dcb1bccb.png",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_83e246a50d2a27fe0d18f991dcb1bccb.png",
+    "win_rate": 47.96,
+    "pick_rate": 0.35,
+    "ban_rate": 1.6,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Cici guide videos",
+      "query": "Mobile Legends Cici guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Cici%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Cici%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "jawhead",
+    "name": "Jawhead",
+    "role": "Fighter",
+    "roles": [
+      "Fighter"
+    ],
+    "lane": "Mid Lane",
+    "tier": "D",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_6761b204394f78d20d60c8bd707a28b2.png",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_6761b204394f78d20d60c8bd707a28b2.png",
+    "win_rate": 47.91,
+    "pick_rate": 0.42,
+    "ban_rate": 0.4,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Jawhead guide videos",
+      "query": "Mobile Legends Jawhead guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Jawhead%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Jawhead%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "grock",
+    "name": "Grock",
+    "role": "Tank",
+    "roles": [
+      "Tank",
+      "Fighter"
+    ],
+    "lane": "Roamer",
+    "tier": "C",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_b6bfa6adbe8c282a0b83f3f3a5bd85c7.png",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_b6bfa6adbe8c282a0b83f3f3a5bd85c7.png",
+    "win_rate": 47.84,
+    "pick_rate": 0.63,
+    "ban_rate": 4.58,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Grock guide videos",
+      "query": "Mobile Legends Grock guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Grock%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Grock%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "yu-zhong",
+    "name": "Yu Zhong",
+    "role": "Fighter",
+    "roles": [
+      "Fighter"
+    ],
+    "lane": "EXP Lane",
+    "tier": "C",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_dfed2cf32adddc8c9a87fd679321a977.png",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_dfed2cf32adddc8c9a87fd679321a977.png",
+    "win_rate": 47.83,
+    "pick_rate": 1.26,
+    "ban_rate": 2.98,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Yu Zhong guide videos",
+      "query": "Mobile Legends Yu Zhong guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Yu%20Zhong%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Yu%20Zhong%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "selena",
+    "name": "Selena",
+    "role": "Assassin",
+    "roles": [
+      "Assassin",
+      "Mage"
+    ],
+    "lane": "Mid Lane",
+    "tier": "C",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_0e2fbc7a5f2e4ba45f7a740daf1910f6.png",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_0e2fbc7a5f2e4ba45f7a740daf1910f6.png",
+    "win_rate": 47.81,
+    "pick_rate": 1.18,
+    "ban_rate": 3.79,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Selena guide videos",
+      "query": "Mobile Legends Selena guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Selena%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Selena%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "bruno",
+    "name": "Bruno",
+    "role": "Marksman",
+    "roles": [
+      "Marksman"
+    ],
+    "lane": "Gold Lane",
+    "tier": "D",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_890739c136c183bc1a128867baf2a357.png",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_890739c136c183bc1a128867baf2a357.png",
+    "win_rate": 47.8,
+    "pick_rate": 0.18,
+    "ban_rate": 0.14,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Bruno guide videos",
+      "query": "Mobile Legends Bruno guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Bruno%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Bruno%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "aurora",
+    "name": "Aurora",
+    "role": "Mage",
+    "roles": [
+      "Mage"
+    ],
+    "lane": "Mid Lane",
+    "tier": "D",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_0c97d1f7482d3c18074fc27a61c0e802.png",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_0c97d1f7482d3c18074fc27a61c0e802.png",
+    "win_rate": 47.76,
+    "pick_rate": 0.4,
+    "ban_rate": 0.28,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Aurora guide videos",
+      "query": "Mobile Legends Aurora guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Aurora%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Aurora%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "xavier",
+    "name": "Xavier",
+    "role": "Mage",
+    "roles": [
+      "Mage"
+    ],
+    "lane": "Mid Lane",
+    "tier": "D",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_24165af02711d3154a80b97d22042bef.png",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_24165af02711d3154a80b97d22042bef.png",
+    "win_rate": 47.75,
+    "pick_rate": 0.51,
+    "ban_rate": 0.21,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Xavier guide videos",
+      "query": "Mobile Legends Xavier guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Xavier%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Xavier%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "arlott",
+    "name": "Arlott",
+    "role": "Fighter",
+    "roles": [
+      "Fighter",
+      "Assassin"
+    ],
+    "lane": "EXP Lane",
+    "tier": "D",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_177c32c19a2ad87c028fd9a6fcf08cb1.png",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_177c32c19a2ad87c028fd9a6fcf08cb1.png",
+    "win_rate": 47.69,
+    "pick_rate": 0.45,
+    "ban_rate": 0.64,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Arlott guide videos",
+      "query": "Mobile Legends Arlott guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Arlott%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Arlott%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "tigreal",
+    "name": "Tigreal",
+    "role": "Tank",
+    "roles": [
+      "Tank"
+    ],
+    "lane": "Roamer",
+    "tier": "B",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_2f346943d85318a466b5eba513682d7c.png",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_2f346943d85318a466b5eba513682d7c.png",
+    "win_rate": 47.65,
+    "pick_rate": 2.01,
+    "ban_rate": 7.34,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Tigreal guide videos",
+      "query": "Mobile Legends Tigreal guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Tigreal%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Tigreal%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "nolan",
+    "name": "Nolan",
+    "role": "Assassin",
+    "roles": [
+      "Assassin"
+    ],
+    "lane": "Jungler",
+    "tier": "D",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_cf1a85704a0636d70f49113b2dd119bd.png",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_cf1a85704a0636d70f49113b2dd119bd.png",
+    "win_rate": 47.49,
+    "pick_rate": 0.26,
+    "ban_rate": 0.45,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Nolan guide videos",
+      "query": "Mobile Legends Nolan guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Nolan%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Nolan%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "kimmy",
+    "name": "Kimmy",
+    "role": "Marksman",
+    "roles": [
+      "Marksman",
+      "Mage"
+    ],
+    "lane": "Mid Lane",
+    "tier": "D",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_53a544034aaaf52b773be2d2450d16d4.png",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_53a544034aaaf52b773be2d2450d16d4.png",
+    "win_rate": 47.47,
+    "pick_rate": 0.68,
+    "ban_rate": 0.65,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Kimmy guide videos",
+      "query": "Mobile Legends Kimmy guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Kimmy%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Kimmy%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "novaria",
+    "name": "Novaria",
+    "role": "Mage",
+    "roles": [
+      "Mage"
+    ],
+    "lane": "Mid Lane",
+    "tier": "D",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_9e662ec509bca27d4eeaac6c05d670d1.png",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_9e662ec509bca27d4eeaac6c05d670d1.png",
+    "win_rate": 47.37,
+    "pick_rate": 0.76,
+    "ban_rate": 1.64,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Novaria guide videos",
+      "query": "Mobile Legends Novaria guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Novaria%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Novaria%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "pharsa",
+    "name": "Pharsa",
+    "role": "Mage",
+    "roles": [
+      "Mage"
+    ],
+    "lane": "Mid Lane",
+    "tier": "D",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_d3de1398e008eadbcc2d711ba43c8c42.png",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_d3de1398e008eadbcc2d711ba43c8c42.png",
+    "win_rate": 47.35,
+    "pick_rate": 0.67,
+    "ban_rate": 0.49,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Pharsa guide videos",
+      "query": "Mobile Legends Pharsa guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Pharsa%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Pharsa%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "zilong",
+    "name": "Zilong",
+    "role": "Fighter",
+    "roles": [
+      "Fighter",
+      "Assassin"
+    ],
+    "lane": "EXP Lane",
+    "tier": "D",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_d218e81f1b2383e3def3d6a14796d74e.png",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_d218e81f1b2383e3def3d6a14796d74e.png",
+    "win_rate": 47.23,
+    "pick_rate": 0.93,
+    "ban_rate": 0.74,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Zilong guide videos",
+      "query": "Mobile Legends Zilong guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Zilong%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Zilong%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "alpha",
+    "name": "Alpha",
+    "role": "Fighter",
+    "roles": [
+      "Fighter"
+    ],
+    "lane": "Jungler / EXP Lane",
+    "tier": "C",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_e7ace719171987280795da2c885daf03.png",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_e7ace719171987280795da2c885daf03.png",
+    "win_rate": 47.14,
+    "pick_rate": 1.13,
+    "ban_rate": 0.78,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Alpha guide videos",
+      "query": "Mobile Legends Alpha guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Alpha%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Alpha%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "gatotkaca",
+    "name": "Gatotkaca",
+    "role": "Tank",
+    "roles": [
+      "Tank",
+      "Fighter"
+    ],
+    "lane": "Roamer / EXP Lane",
+    "tier": "D",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_b7a1b7f856deca1644516417db30acb6.png",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_b7a1b7f856deca1644516417db30acb6.png",
+    "win_rate": 47.05,
+    "pick_rate": 0.71,
+    "ban_rate": 0.56,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Gatotkaca guide videos",
+      "query": "Mobile Legends Gatotkaca guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Gatotkaca%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Gatotkaca%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "luo-yi",
+    "name": "Luo Yi",
+    "role": "Mage",
+    "roles": [
+      "Mage"
+    ],
+    "lane": "Mid Lane",
+    "tier": "D",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_e8f1e6dd0d7864b66bda10ef65242dd6.png",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_e8f1e6dd0d7864b66bda10ef65242dd6.png",
+    "win_rate": 46.79,
+    "pick_rate": 0.18,
+    "ban_rate": 0.17,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Luo Yi guide videos",
+      "query": "Mobile Legends Luo Yi guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Luo%20Yi%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Luo%20Yi%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "martis",
+    "name": "Martis",
+    "role": "Fighter",
+    "roles": [
+      "Fighter"
+    ],
+    "lane": "Jungler / EXP Lane",
+    "tier": "D",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_2fe6e9c466dbcf83d81b6f37e311bfcd.png",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_2fe6e9c466dbcf83d81b6f37e311bfcd.png",
+    "win_rate": 46.75,
+    "pick_rate": 0.6,
+    "ban_rate": 0.7,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Martis guide videos",
+      "query": "Mobile Legends Martis guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Martis%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Martis%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "chou",
+    "name": "Chou",
+    "role": "Fighter",
+    "roles": [
+      "Fighter"
+    ],
+    "lane": "EXP Lane / Roamer",
+    "tier": "C",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_57d7c6285b0aeb615f8b4e8865e6dc7b.png",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_57d7c6285b0aeb615f8b4e8865e6dc7b.png",
+    "win_rate": 46.55,
+    "pick_rate": 1.11,
+    "ban_rate": 3.36,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Chou guide videos",
+      "query": "Mobile Legends Chou guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Chou%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Chou%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "lesley",
+    "name": "Lesley",
+    "role": "Marksman",
+    "roles": [
+      "Marksman",
+      "Assassin"
+    ],
+    "lane": "Gold Lane",
+    "tier": "C",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_fe343ddb9097b53f2d1e27d1c342add7.png",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_fe343ddb9097b53f2d1e27d1c342add7.png",
+    "win_rate": 46.53,
+    "pick_rate": 1.81,
+    "ban_rate": 8.7,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Lesley guide videos",
+      "query": "Mobile Legends Lesley guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Lesley%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Lesley%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "karina",
+    "name": "Karina",
+    "role": "Assassin",
+    "roles": [
+      "Assassin"
+    ],
+    "lane": "Jungler",
+    "tier": "D",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_44a9d295baa79bf949fe562ba1b15f2e.png",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_44a9d295baa79bf949fe562ba1b15f2e.png",
+    "win_rate": 46.28,
+    "pick_rate": 0.54,
+    "ban_rate": 2.12,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Karina guide videos",
+      "query": "Mobile Legends Karina guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Karina%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Karina%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "kalea",
+    "name": "Kalea",
+    "role": "Support",
+    "roles": [
+      "Support",
+      "Fighter"
+    ],
+    "lane": "Roamer",
+    "tier": "D",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/gms/image/6bde4242228d5ea98b700c9cfc1e837d.jpg",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/gms/image/6bde4242228d5ea98b700c9cfc1e837d.jpg",
+    "win_rate": 46.22,
+    "pick_rate": 0.35,
+    "ban_rate": 1.52,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Kalea guide videos",
+      "query": "Mobile Legends Kalea guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Kalea%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Kalea%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "ling",
+    "name": "Ling",
+    "role": "Assassin",
+    "roles": [
+      "Assassin"
+    ],
+    "lane": "Jungler",
+    "tier": "D",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_563f09baf8ad4675dace2f94af6436de.png",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_563f09baf8ad4675dace2f94af6436de.png",
+    "win_rate": 45.32,
+    "pick_rate": 0.22,
+    "ban_rate": 0.21,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Ling guide videos",
+      "query": "Mobile Legends Ling guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Ling%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Ling%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "franco",
+    "name": "Franco",
+    "role": "Tank",
+    "roles": [
+      "Tank"
+    ],
+    "lane": "Roamer",
+    "tier": "D",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_e6e87e9b82ab7863cbcb678e544200e4.png",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_e6e87e9b82ab7863cbcb678e544200e4.png",
+    "win_rate": 44.43,
+    "pick_rate": 1.24,
+    "ban_rate": 6.95,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Franco guide videos",
+      "query": "Mobile Legends Franco guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Franco%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Franco%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "esmeralda",
+    "name": "Esmeralda",
+    "role": "Tank",
+    "roles": [
+      "Tank",
+      "Mage"
+    ],
+    "lane": "EXP Lane",
+    "tier": "D",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_08a84eb0f690c4c4f3865d924c704b25.png",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_08a84eb0f690c4c4f3865d924c704b25.png",
+    "win_rate": 43.41,
+    "pick_rate": 0.38,
+    "ban_rate": 0.67,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Esmeralda guide videos",
+      "query": "Mobile Legends Esmeralda guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Esmeralda%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Esmeralda%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "mathilda",
+    "name": "Mathilda",
+    "role": "Support",
+    "roles": [
+      "Support",
+      "Assassin"
+    ],
+    "lane": "Roamer",
+    "tier": "D",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_d7c6f7896c10c7938994ba4c5a28c9c1.png",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_d7c6f7896c10c7938994ba4c5a28c9c1.png",
+    "win_rate": 43.39,
+    "pick_rate": 0.1,
+    "ban_rate": 0.59,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Mathilda guide videos",
+      "query": "Mobile Legends Mathilda guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Mathilda%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Mathilda%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "lancelot",
+    "name": "Lancelot",
+    "role": "Assassin",
+    "roles": [
+      "Assassin"
+    ],
+    "lane": "Jungler",
+    "tier": "D",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_9d7d32fc7cd9da8b47003178a279c046.png",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_9d7d32fc7cd9da8b47003178a279c046.png",
+    "win_rate": 43.33,
+    "pick_rate": 0.67,
+    "ban_rate": 1.09,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Lancelot guide videos",
+      "query": "Mobile Legends Lancelot guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Lancelot%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Lancelot%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "balmond",
+    "name": "Balmond",
+    "role": "Fighter",
+    "roles": [
+      "Fighter"
+    ],
+    "lane": "Mid Lane",
+    "tier": "D",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_80be8a6ffd65666746a218bdae1648a0.png",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_80be8a6ffd65666746a218bdae1648a0.png",
+    "win_rate": 43.29,
+    "pick_rate": 0.29,
+    "ban_rate": 0.27,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Balmond guide videos",
+      "query": "Mobile Legends Balmond guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Balmond%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Balmond%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "valentina",
+    "name": "Valentina",
+    "role": "Mage",
+    "roles": [
+      "Mage"
+    ],
+    "lane": "Mid Lane",
+    "tier": "D",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_646f22a778efda450ce3470683bd01c2.png",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_646f22a778efda450ce3470683bd01c2.png",
+    "win_rate": 43.23,
+    "pick_rate": 0.19,
+    "ban_rate": 0.42,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Valentina guide videos",
+      "query": "Mobile Legends Valentina guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Valentina%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Valentina%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "fanny",
+    "name": "Fanny",
+    "role": "Assassin",
+    "roles": [
+      "Assassin"
+    ],
+    "lane": "Jungler",
+    "tier": "D",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_eec0194a974ed18ceb71bf5d86457d4e.png",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_eec0194a974ed18ceb71bf5d86457d4e.png",
+    "win_rate": 42.8,
+    "pick_rate": 0.61,
+    "ban_rate": 3.39,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Fanny guide videos",
+      "query": "Mobile Legends Fanny guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Fanny%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Fanny%20guide%20gameplay%20build%20counter"
+    }
+  },
+  {
+    "slug": "granger",
+    "name": "Granger",
+    "role": "Marksman",
+    "roles": [
+      "Marksman"
+    ],
+    "lane": "Gold Lane",
+    "tier": "D",
+    "avatar_url": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_f44e2457fb0f3539937c6a181e5dcbc4.png",
+    "cover_thumb": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_f44e2457fb0f3539937c6a181e5dcbc4.png",
+    "win_rate": 42.51,
+    "pick_rate": 1.44,
+    "ban_rate": 3.33,
+    "stats_source": "MLBBHub May 2026 ranked snapshot referencing mobilelegends.com aggregated ranked data",
+    "guide_video": {
+      "title": "Granger guide videos",
+      "query": "Mobile Legends Granger guide gameplay build counter",
+      "embed_url": "https://www.youtube-nocookie.com/embed?listType=search&list=Mobile%20Legends%20Granger%20guide%20gameplay%20build%20counter",
+      "search_url": "https://www.youtube.com/results?search_query=Mobile%20Legends%20Granger%20guide%20gameplay%20build%20counter"
+    }
+  }
+]

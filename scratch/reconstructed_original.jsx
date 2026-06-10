@@ -1,0 +1,60 @@
+
+      </main>
+
+
+
+      {/* ======================================================== */}
+
+      {/* 2. TABBED ASYNCHRONOUS HERO DETAILS MODAL OVERLAYS       */}
+
+      {/* ======================================================== */}
+
+      {selectedHero && (
+
+        <div className="modal-backdrop" onClick={closeHeroDetails}>
+
+          <div className="modal-content" onClick={(e) => e.stopPropagation()} onScroll={(e) => setModalScrollTop(e.target.scrollTop)}>
+
+            
+
+            {/* 1. Header Splash Banner with Dark Bottom Fade */}
+
+            <div className="modal-hero-banner">
+
+              {/* Blurred Background Layer (scaled 1.1x) */}
+              <div 
+                className="modal-hero-banner-bg" 
+                style={{
+                  backgroundImage: `url(${selectedHero.cover_thumb || selectedHero.avatar_url})`,
+                  transform: `translateY(${Math.min(modalScrollTop * 0.15, 30)}px) scale(1.1)`
+                }}
+              />
+
+              <SmartImage 
+                src={TRANSPARENT_HERO_IDS.includes(Number(selectedHero.id)) ? `/assets/banners/hero_${selectedHero.id}_transparent.webp` : (selectedHero.cover_transparent || selectedHero.cover_thumb || selectedHero.avatar_url)} 
+                alt={selectedHero.name}
+                fallbackType="hero"
+                className="modal-hero-banner-image"
+                style={{
+                  position: 'absolute',
+                  inset: 0,
+                  width: '100%'
+                                    <li key={idx} style={{ lineHeight: 1.3 }}>{reason}</li>
+                                  ));
+                                })()}
+                              </ul>
+                            </div>
+
+                            {/* 6. Draft Intelligence Card */}
+                            <div className="guide-panel-card" style={{ background: 'var(--bg-main)', border: '1px solid var(--border-light)', borderRadius: '12px', padding: '1rem' }}>
+                              <h5 className="panel-card-title" style={{ margin: 0, paddingBottom: '0.4rem', borderBottom: '1px solid var(--border-light)', fontSize: '0.72rem' }}>Draft Intelligence</h5>
+                              
+                              <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem', marginTop: '0.65rem' }}>
+                                <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '0.75rem' }}>
+                                  <div>
+                                    <span style={{ fontSize: '0.52rem', fontWeight: 900, color: 'var(--text-muted)', textTransform: 'uppercase' }}>Best Pick Timing</span>
+                                    <div style={{ marginTop: '0.2rem', fontSize: '0.72rem', fontWeight: 800, color: 'var(--text-primary)' }}>{oData.bestPick}</div>
+                                  </div>
+                                  <div>
+                                    <span style={{ fontSize: '0.52rem', fontWeight: 900, color: 'var(--text-muted)', textTransform: 'uppercase' }}>Ban Priority</span>
+                                    <div style={{ marginTop: '0.2rem', fontSize: '0.72rem', fontWeight: 800, color: oData.banPriority === 'High' ? 'var(--accent-red)' : 'var(--text-primary)' }}>{oData.banPriority}</

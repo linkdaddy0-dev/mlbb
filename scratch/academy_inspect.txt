@@ -1,0 +1,36 @@
+Checking for script data...
+Block 2 (len=537):
+window.trackOptions = window.trackOptions || []
+            function setTrackOptions() {
+                trackOptions.push(arguments)
+            }
+            
+            setTrackOptions('projectId', +'')
+            setTrackOptions('weakProjectId', +'2728785')
+            setTrackOptions('debug', 'false' === 'true')
+
+            // å°åº¦å°åºåç¹éç½®
+            if('false' !== 'true' && window.location.origin.includes('moba5v5.com')) {
+                setTrackOptions('serviceUrl', 'https://api.moba5v5.com/r')
+            }
+--------------------------------------------------
+Block 5 (len=131):
+import.meta.url;import("_").catch(()=>1);async function* g(){};if(location.protocol!="file:"){window.__vite_is_modern_browser=true}
+--------------------------------------------------
+Block 6 (len=400):
+!function(){if(window.__vite_is_modern_browser)return;console.warn("vite: loading legacy chunks, syntax error above and the same error below should be ignored");var e=document.getElementById("vite-legacy-polyfill"),n=document.createElement("script");n.src=e.src,n.onload=function(){System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))},document.body.appendChild(n)}();
+--------------------------------------------------
+Block 7 (len=314):
+!function(){var e=document,t=e.createElement("script");if(!("noModule"in t)&&"onbeforeload"in t){var n=!1;e.addEventListener("beforeload",(function(e){if(e.target===t)n=!0;else if(!e.target.hasAttribute("nomodule")||!n)return;e.preventDefault()}),!0),t.type="module",t.src=".",e.head.appendChild(t),t.remove()}}();
+--------------------------------------------------
+Block 9 (len=84):
+System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))
+--------------------------------------------------
+
+Keyword matches in HTML:
+ - 'Angela': 0 matches
+ - 'Baxia': 0 matches
+ - 'Lancelot': 0 matches
+ - 'Obsidia': 2 matches
+ - 'build': 2 matches
+ - 'skill': 0 matches

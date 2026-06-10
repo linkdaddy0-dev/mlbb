@@ -1,0 +1,834 @@
+[
+  {
+    "_id": "69e622cb3551b4a0f710bdc0",
+    "caption": "108\u7ffb\u65b0\u5965\u5229",
+    "configId": 144237,
+    "createdAt": 1776689867877,
+    "createdUser": "v_zhu",
+    "data": {
+      "_object": 2667538,
+      "head": "https://akmweb.youngjoygame.com/web/gms/image/b48762283aac961dd0ef0792e021e1d4.jpg",
+      "head_big": "https://akmweb.youngjoygame.com/web/gms/image/df1df2053afbdda1167d647bbb8b3a81.jpg",
+      "hero": {
+        "_createdAt": 1727426097897,
+        "_id": "66f66e31fce30b35433da5b2",
+        "_updatedAt": 1776934502897,
+        "data": {
+          "abilityshow": [
+            "60",
+            "60",
+            "10",
+            "40"
+          ],
+          "difficulty": "40",
+          "head": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_2_1_60_2/100_1366d775809e52ee6526b5b58d93cdff.png",
+          "heroid": 108,
+          "heroskilllist": [
+            {
+              "skilllist": [
+                {
+                  "skillcd&cost": "",
+                  "skilldesc": "After dealing damage, Aulus adds a stack of <font color=\"a6aafb\">Fighting Spirit</font> to his axe per second for 4s (up to 6 stacks). Each stack grants 7.5 (+0.5*Hero Level)% Attack Speed. At max <font color=\"a6aafb\">Fighting Spirit</font> stacks, Aulus's Basic Attack is enhanced and gains Attack Range.\n\nEnhanced Basic Attack: Aulus slams his axe into the ground, dealing <font color=\"fba51f\"> (+75% Total Physical Attack)</font> (+ 4 (+0.4*Hero Level)% target's Max HP) <font color=\"fb1f1f\">Physical Damage</font> to enemies in a line.",
+                  "skillicon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_2_1_60_2/100_212853d016e25b580810f20925cca284.png",
+                  "skillid": 10840,
+                  "skillname": "Fighting Spirit",
+                  "skilltag": [
+                    {
+                      "tagid": 62,
+                      "tagname": "Buff",
+                      "tagrgb": "79,156,184"
+                    }
+                  ],
+                  "skillvideo": ""
+                },
+                {
+                  "skillcd&cost": "CD: 14",
+                  "skilldesc": "Aulus starts accumulating <font color=\"a6aafb\">Fighting Spirit</font>, removes all slow effects, and gains 30% extra Movement Speed for 5s.\n\nIf Aulus does not take high-level control effects within 2s, he will enter the <font color=\"a6aafb\">Enraged</font> state and gain Control Immunity.",
+                  "skillicon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_2_1_60_2/100_e59b01cde830c737ad24c462840c73dd.png",
+                  "skillid": 10810,
+                  "skillname": "Aulus, Charge!",
+                  "skilltag": [
+                    {
+                      "tagid": 61,
+                      "tagname": "Speed Up",
+                      "tagrgb": "79,156,184"
+                    },
+                    {
+                      "tagid": 62,
+                      "tagname": "Buff",
+                      "tagrgb": "79,156,184"
+                    }
+                  ],
+                  "skillvideo": ""
+                },
+                {
+                  "skillcd&cost": "CD: 5",
+                  "skilldesc": "Aulus swings his axe, dealing 240<font color=\"fba51f\"> (+100% Total Physical Attack)</font> <font color=\"fb1f1f\">Physical Damage</font> to enemies in a fan-shaped area and slowing them by 30% for 2s.\n\nUpon hitting an enemy, Aulus can cast this skill again to dash forward and smash the ground, dealing 240<font color=\"fba51f\"> (+100% Total Physical Attack)</font> <font color=\"fb1f1f\">Physical Damage</font> to nearby enemies.",
+                  "skillicon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_2_1_60_2/100_72b33b15b9ec5c345c6413b5ead37f95.png",
+                  "skillid": 10820,
+                  "skillname": "The Power of Axe",
+                  "skilltag": [
+                    {
+                      "tagid": 81,
+                      "tagname": "Mobility",
+                      "tagrgb": "162,105,198"
+                    },
+                    {
+                      "tagid": 32,
+                      "tagname": "AOE",
+                      "tagrgb": "199,121,85"
+                    }
+                  ],
+                  "skillvideo": ""
+                },
+                {
+                  "skillcd&cost": "CD: 50",
+                  "skilldesc": "Aulus repeatedly swings his axe at nearby enemies, dealing 150<font color=\"fba51f\"> (+60% Total Physical Attack)</font> <font color=\"fb1f1f\">Physical Damage</font> each time. After 4 strikes, Aulus briefly charges before unleashing a wider slash, dealing 450<font color=\"fba51f\"> (+180% Total Physical Attack)</font> <font color=\"fb1f1f\">Physical Damage</font> to enemies in a large area.\n\nDuring this skill, Aulus gains 20% Damage Reduction and a short burst of Movement Speed with each slash.",
+                  "skillicon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_2_1_60_2/100_3df0c4668657ef5cdaec0ebbd529772f.png",
+                  "skillid": 10830,
+                  "skillname": "Cleaving Axe",
+                  "skilltag": [
+                    {
+                      "tagid": 31,
+                      "tagname": "Burst",
+                      "tagrgb": "199,121,85"
+                    }
+                  ],
+                  "skillvideo": ""
+                }
+              ],
+              "skilllistid": "1081"
+            }
+          ],
+          "heroskin": null,
+          "name": "Aulus",
+          "painting": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_b18a4e09124187587ef09826dee69ec3.png",
+          "recommendlevel": [
+            "3",
+            "2",
+            "1"
+          ],
+          "recommendlevellabel": "3-2-1",
+          "recommendmasterplan": [
+            {
+              "battleskill": {
+                "__data": {
+                  "numdescribe": "520 <2|lv 80>;60%;40%;2;5;15;10;100",
+                  "skilldesc": "Deal 520 (+80*Hero Level) <font color=\"ffe63c\">True Damage</font> to the target Creep or Minion.\n<font color=\"62f8fe\">Passive</font>: Increases Creep rewards by 60% and reduces damage taken from basic Creeps by 40%. Cannot share Minion rewards with allied heroes in the first 2 min.\n<font color=\"62f8fe\">Blessing:</font> Accumulate 5 Creep kills, hero kills, or assists to upgrade the spell according to the Jungling Boots' Blessing, and 15 kills or assists to gain 10 Physical Attack and Magic Power and 100 Max HP.",
+                  "skilldesc_text": "Deal <Num1> [C5True Damage] to the target Creep or Minion.####[C2Passive]: Increases Creep rewards by <%Num2> and reduces damage taken from basic Creeps by <%Num3>. Cannot share Minion rewards with allied heroes in the first <Num4> min.####[C2Blessing:] Accumulate <Num5> Creep kills, hero kills, or assists to upgrade the spell according to the Jungling Boots' Blessing, and <Num6> kills or assists to gain <Num7> Physical Attack and Magic Power and <Num8> Max HP.",
+                  "skilldescemblem": "Deal 520 (+80*Hero Level) <font color=\"ffe63c\">True Damage</font> to the target Creep or Minion.\n<font color=\"62f8fe\">Passive</font>: Increases Creep rewards by 60% and reduces damage taken from basic Creeps by 40%. Cannot share Minion rewards with allied heroes in the first 2 min.\n<font color=\"62f8fe\">Blessing:</font> Accumulate 5 Creep kills, hero kills, or assists to upgrade the spell according to the Jungling Boots' Blessing, and 15 kills or assists to gain 10 Physical Attack and Magic Power and 100 Max HP.",
+                  "skillicon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_2cd084a2661c121c347facb060a80377.png",
+                  "skillid": 20020,
+                  "skillid_lv": "20020/1",
+                  "skillname": "Retribution"
+                },
+                "battleskillid": 20020,
+                "skillicon": "@__data.skillicon",
+                "skillname": "@__data.skillname1",
+                "skillshortdesc": ".+`,'ShowMessage_mMessage_$1'.+`,'BattleShowMessage_mMessage_$1'",
+                "skillvideo": ""
+              },
+              "description": "Jungle: Balanced Cooldown Reduction and sustainability. Can tank and dish out damage.",
+              "emblemplan": {
+                "emblemplan": {
+                  "attriicon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_2153bf01770633e3251dea1f2ac6c956.png",
+                  "attriicon2": "",
+                  "emblemattr": {
+                    "emblemattr": "+10% Hybrid Lifesteal\n+16 Adaptive Attack\n+8 Extra Physical Defense\n+8 Extra Magic Defense\n",
+                    "emblemattrid": "2000760",
+                    "emblemname": "Fighter"
+                  },
+                  "emblembg": 0,
+                  "emblemid": 20007,
+                  "emblemname": "Fighter"
+                },
+                "giftid1": {
+                  "emblemskill": {
+                    "numdescribe": "5",
+                    "skilldesc": "Gain 5 <font color=\"ffdfa2\">Adaptive Penetration</font>.\n\n<font color=\"8098ab\">Gain Physical Penetration if extra Physical Attack is higher than extra Magic Power; otherwise, gain Magic Penetration.</font>",
+                    "skilldesc_text": "Gain <Num1> [ffdfa2]Adaptive Penetration[-].########[8098ab]Gain Physical Penetration if extra Physical Attack is higher than extra Magic Power; otherwise, gain Magic Penetration.[-]",
+                    "skilldescemblem": "Gain 5 <font color=\"ffdfa2\">Adaptive Penetration</font>.\n\n<font color=\"8098ab\">Gain Physical Penetration if extra Physical Attack is higher than extra Magic Power; otherwise, gain Magic Penetration.</font>",
+                    "skillicon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_8e7a237c8961044ad43af1a79d5b3756.png",
+                    "skillid": 63120,
+                    "skillid_lv": "63120/1",
+                    "skillname": "Rupture"
+                  },
+                  "giftid": 511,
+                  "gifttiers": 1
+                },
+                "giftid2": {
+                  "emblemskill": {
+                    "numdescribe": "15%",
+                    "skilldesc": "Damage against Lord and Turtle is increased by 15%. This bonus is halved against regular Creeps and doesn't affect the damage of Retribution.",
+                    "skilldesc_text": "Damage against Lord and Turtle is increased by <%Num1>. This bonus is halved against regular Creeps and doesn't affect the damage of Retribution.",
+                    "skilldescemblem": "Damage against Lord and Turtle is increased by 15%. This bonus is halved against regular Creeps and doesn't affect the damage of Retribution.",
+                    "skillicon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_fe6ad272b01110393d55b4326164a3fa.png",
+                    "skillid": 61120,
+                    "skillid_lv": "61120/1",
+                    "skillname": "Seasoned Hunter"
+                  },
+                  "giftid": 122,
+                  "gifttiers": 2
+                },
+                "giftid3": {
+                  "emblemskill": {
+                    "numdescribe": "15%;20%;3;30;30%",
+                    "skilldesc": "When damaging heroes below 30% HP, instantly recover 15% of Lost HP and gain 20% Movement Speed.\n\n<font color=\"8098ab\">Additional Effect: Reset cooldown upon killing an enemy hero.\n[8098ab]Duration: 3s\n[8098ab]Cooldown: 30s</font>",
+                    "skilldesc_text": "When damaging heroes below <%Num5> HP, instantly recover <%Num1> of Lost HP and gain <%Num2> Movement Speed.########[8098ab]Additional Effect: Reset cooldown upon killing an enemy hero.####[8098ab]Duration: <Num3>s####[8098ab]Cooldown: <Num4>s[-]",
+                    "skilldescemblem": "When damaging heroes below 30% HP, instantly recover 15% of Lost HP and gain 20% Movement Speed.\n\n<font color=\"8098ab\">Additional Effect: Reset cooldown upon killing an enemy hero.\n[8098ab]Duration: 3s\n[8098ab]Cooldown: 30s</font>",
+                    "skillicon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_264b83700e778b3eaa4a62d8e7a22a6c.png",
+                    "skillid": 62090,
+                    "skillid_lv": "62090/1",
+                    "skillname": "Killing Spree"
+                  },
+                  "giftid": 531,
+                  "gifttiers": 3
+                },
+                "planid": 128
+              },
+              "equiplist": [
+                {
+                  "equipicon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_a8d1d86a8d37e872f66334a4c373621c.png",
+                  "equipid": 3421,
+                  "equipname": "Ice Hunter's Tough Boots",
+                  "equipskill1": "\nFortitude: CC and Slow Duration reduced by 25%",
+                  "equipskill2": "\nHunter: After dealing damage to a Creep, deal 40(+3*Hero Level) + (+0.01 Total HP) True Damage to the target over 3s (damage is increased by 100% for non-Marksmen heroes).",
+                  "equipskill3": "\n: ",
+                  "equipskill4": "\n: ",
+                  "equipskill5": "\n: ",
+                  "equipskill6": "\n: ",
+                  "equipskill7": "\n: ",
+                  "equipskilldesc": "\nFortitude: CC and Slow Duration reduced by 25%\nHunter: After dealing damage to a Creep, deal 40(+3*Hero Level) + (+0.01 Total HP) True Damage to the target over 3s (damage is increased by 100% for non-Marksmen heroes).",
+                  "equiptips": "+40 Movement Speed<br>+18 Extra Magic Defense<br>",
+                  "equiptype": "4",
+                  "equiptypename": "Jungle",
+                  "targetequipid": ""
+                },
+                {
+                  "equipicon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_2_1_60_2/100_fa1f5745cf88227722a9ff22c95c0bc4.png",
+                  "equipid": 2013,
+                  "equipname": "War Axe",
+                  "equipskill1": "\nFighting Spirit: Attacks grant 12 extra Physical Attack per second for 4s, up to 6 stacks. Deals extra 10% True Damage based on the damage dealt (no damage reduction counted) at full stacks.\n<font color=\"A4AAC7\">Marksmen, Mages, and Supports only receive 50% of these stacked effects</font>.",
+                  "equipskill2": "\n: ",
+                  "equipskill3": "\n: ",
+                  "equipskill4": "\n: ",
+                  "equipskill5": "\n: ",
+                  "equipskill6": "\n: ",
+                  "equipskill7": "\n: ",
+                  "equipskilldesc": "\nFighting Spirit: Attacks grant 12 extra Physical Attack per second for 4s, up to 6 stacks. Deals extra 10% True Damage based on the damage dealt (no damage reduction counted) at full stacks.\n<font color=\"A4AAC7\">Marksmen, Mages, and Supports only receive 50% of these stacked effects</font>.",
+                  "equiptips": "+35 Extra Physical Attack<br>+400 Extra Max HP<br>+10% Cooldown Reduction<br>+8% Hybrid Lifesteal<br>",
+                  "equiptype": "0",
+                  "equiptypename": "Attack",
+                  "targetequipid": ""
+                },
+                {
+                  "equipicon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_b830fbf0e825c3c46010bf5fbf814767.png",
+                  "equipid": 3208,
+                  "equipname": "Brute Force Breastplate",
+                  "equipskill1": "\nBrute Force: Each second after dealing damage, gain 8 extra Adaptive Attack and 2% extra Movement Speed for 4s, up to 6 stacks. Gain 25% extra Control Duration Reduction at full stacks.",
+                  "equipskill2": "\n: ",
+                  "equipskill3": "\n: ",
+                  "equipskill4": "\n: ",
+                  "equipskill5": "\n: ",
+                  "equipskill6": "\n: ",
+                  "equipskill7": "\n: ",
+                  "equipskilldesc": "\nBrute Force: Each second after dealing damage, gain 8 extra Adaptive Attack and 2% extra Movement Speed for 4s, up to 6 stacks. Gain 25% extra Control Duration Reduction at full stacks.",
+                  "equiptips": "+800 Extra Max HP<br>+20 Extra Physical Defense<br>+10% Cooldown Reduction<br>",
+                  "equiptype": "2",
+                  "equiptypename": "Defense",
+                  "targetequipid": ""
+                },
+                {
+                  "equipicon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_da94005b9d67024c8f189889ba6368cb.png",
+                  "equipid": 3012,
+                  "equipname": "Rose Gold Meteor",
+                  "equipskill1": "\nDragon Scale: Every 4 extra Physical Attack increases Hybrid Defense by 1, up to 50 (effect is halved if Main Role is not Fighter).",
+                  "equipskill2": "\nLifeline: When taking damage that reduces HP below 30%, gain a (+120*Hero Level) shield and 50% Movement Speed that rapidly decays over 3s. This effect has a 60s cooldown.",
+                  "equipskill3": "\n: ",
+                  "equipskill4": "\n: ",
+                  "equipskill5": "\n: ",
+                  "equipskill6": "\n: ",
+                  "equipskill7": "\n: ",
+                  "equipskilldesc": "\nDragon Scale: Every 4 extra Physical Attack increases Hybrid Defense by 1, up to 50 (effect is halved if Main Role is not Fighter).\nLifeline: When taking damage that reduces HP below 30%, gain a (+120*Hero Level) shield and 50% Movement Speed that rapidly decays over 3s. This effect has a 60s cooldown.",
+                  "equiptips": "+30 Extra Physical Attack<br>+20% Extra Attack Speed<br>+10% Lifesteal<br>",
+                  "equiptype": "0",
+                  "equiptypename": "Attack",
+                  "targetequipid": ""
+                },
+                {
+                  "equipicon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_f6bab0819a3203e65eb28da7ef1c4478.png",
+                  "equipid": 2208,
+                  "equipname": "Queen's Wings",
+                  "equipskill1": "\nDemonize: When HP drops below 40%, gains 30% Damage Reduction for 3s and reduces skill cooldowns by 2s. The effect has a 60s cooldown.",
+                  "equipskill2": "\nDefiance: For every 1% HP lost, damage is increased by 0.25%, up to 15%.",
+                  "equipskill3": "\n: ",
+                  "equipskill4": "\n: ",
+                  "equipskill5": "\n: ",
+                  "equipskill6": "\n: ",
+                  "equipskill7": "\n: ",
+                  "equipskilldesc": "\nDemonize: When HP drops below 40%, gains 30% Damage Reduction for 3s and reduces skill cooldowns by 2s. The effect has a 60s cooldown.\nDefiance: For every 1% HP lost, damage is increased by 0.25%, up to 15%.",
+                  "equiptips": "+750 Extra Max HP<br>+30 Adaptive Attack<br>+10% Cooldown Reduction<br>+10% Spell Vamp<br>",
+                  "equiptype": "2",
+                  "equiptypename": "Defense",
+                  "targetequipid": ""
+                },
+                {
+                  "equipicon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_282edd3dffb41e1b95b08592707ba88f.png",
+                  "equipid": 3001,
+                  "equipname": "Malefic Roar",
+                  "equipskill1": "\nArmor Buster: Increase Physical Penetration by 30%.",
+                  "equipskill2": "\nBreaker: When attacking an enemy, gains 0.1% extra Physical Penetration for each point of the enemy's Physical Defense, capped at 30%.",
+                  "equipskill3": "\n: ",
+                  "equipskill4": "\n: ",
+                  "equipskill5": "\n: ",
+                  "equipskill6": "\n: ",
+                  "equipskill7": "\n: ",
+                  "equipskilldesc": "\nArmor Buster: Increase Physical Penetration by 30%.\nBreaker: When attacking an enemy, gains 0.1% extra Physical Penetration for each point of the enemy's Physical Defense, capped at 30%.",
+                  "equiptips": "+60 Extra Physical Attack<br>",
+                  "equiptype": "0",
+                  "equiptypename": "Attack",
+                  "targetequipid": ""
+                }
+              ],
+              "face": "https://akmstatic.ml.youngjoygame.com/ACT/Yifan.png",
+              "name": "\u7591\u72af_Yifan",
+              "recommendequipmasterid": 10801,
+              "tag": [],
+              "title": "Influencer"
+            }
+          ],
+          "roadsort": [
+            {
+              "_id": "668541caaa8e7f6ec4703d8a",
+              "caption": "\u6253\u91ce",
+              "configId": 144237,
+              "createdAt": 1720009162509,
+              "createdUser": "nickjin",
+              "data": {
+                "_object": 2732073,
+                "road_sort_icon": "https://akmweb.youngjoygame.com/web/gms/image/de611167c7310681135f0b4198137bfa.svg",
+                "road_sort_id": "4",
+                "road_sort_title": "Jungle"
+              },
+              "dynamic": null,
+              "id": 2732080,
+              "linkId": [
+                2732073
+              ],
+              "sort": 0,
+              "updatedAt": 1723022951463,
+              "updatedUser": "nickjin"
+            },
+            ""
+          ],
+          "roadsorticon1": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_741d46ff696f02305139a2d817e67e75.png",
+          "roadsorticon2": "",
+          "roadsortlabel": [
+            "Jungle",
+            ""
+          ],
+          "smallmap": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_2_1_60_2/100_4a632ceb1dfcb3aad58a6d02a46a1c9e.png",
+          "sorticon1": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_1660a04f7dc87095c97aaf32f44d685c.png",
+          "sorticon2": "",
+          "sortid": [
+            {
+              "_id": "6698bfe8613093b976b4a96c",
+              "caption": "2\u6218\u58eb",
+              "configId": 144237,
+              "createdAt": 1721286632237,
+              "createdUser": "nickjin",
+              "data": {
+                "_object": 2740651,
+                "sort_icon": "https://akmweb.youngjoygame.com/web/gms/image/629e282165d4b63deceaf350426ea440.png",
+                "sort_id": "2",
+                "sort_title": "fighter"
+              },
+              "dynamic": null,
+              "id": 2740659,
+              "linkId": [
+                2740651
+              ],
+              "sort": 0,
+              "updatedAt": 1723023133206,
+              "updatedUser": "nickjin"
+            },
+            ""
+          ],
+          "sortlabel": [
+            "Fighter",
+            ""
+          ],
+          "speciality": [
+            "Damage",
+            "Charge"
+          ],
+          "squarehead": "https://akmweb.youngjoygame.com/web/svnres/file/mlbb/homepage/100_4beb05b58c46e8c88d06e88a50cf67e2.jpg",
+          "squareheadbig": "https://akmweb.youngjoygame.com/web/svnres/file/mlbb/homepage/100_882d9e4fe4067e09acc97ab6be99f06b.jpg",
+          "story": "A Leonin warrior who inherited his predecessor's resolve, cleaving his own path with burning ferocity.",
+          "tale": ""
+        },
+        "id": 101863,
+        "sourceId": 2713693
+      },
+      "hero_id": 108,
+      "relation": {
+        "assist": {
+          "desc": "Aulus is a dive Fighter and he thrives with reliable ranged Support, such as Angela and Floryn.",
+          "target_hero_id": [
+            55,
+            112,
+            0
+          ]
+        },
+        "strong": {
+          "desc": "Aulus's strong engage and sustained combat capabilities, along with his Control Immunity, makes him a good counter to squishy, low-mobility heroes like Hanabi, Miya, and Gord.",
+          "target_hero_id": [
+            60,
+            1,
+            23
+          ]
+        },
+        "weak": {
+          "desc": "Since Aulus's damage relies on landing his enhanced Basic Attacks, heroes who can keep him at bay and avoid them are a tough matchup, such as Franco, Melissa, and Karina.",
+          "target_hero_id": [
+            10,
+            114,
+            8
+          ]
+        }
+      },
+      "url": "https://play.mobilelegends.com/lore/hero/Aulus"
+    },
+    "dynamic": null,
+    "id": 3290566,
+    "linkId": [
+      2667538
+    ],
+    "sort": 0,
+    "updatedAt": 1776690013119,
+    "updatedUser": "v_zhu"
+  },
+  {
+    "_id": "69af92422bf6a54000b8e74e",
+    "caption": "132\u83ab\u4fee",
+    "configId": 144237,
+    "createdAt": 1773113922757,
+    "createdUser": "v_zhu",
+    "data": {
+      "_object": 2667538,
+      "head": "https://akmweb.youngjoygame.com/web/gms/image/e7aa2ab69d15fc168b2d60b0e5ed0a1e.jpg",
+      "head_big": "https://akmweb.youngjoygame.com/web/gms/image/3542718f699058d42801d88ec9b8fb8b.jpg",
+      "hero": {
+        "_createdAt": 1745403302217,
+        "_id": "6808bda687eca0fe6023e3ff",
+        "_updatedAt": 1776934502897,
+        "data": {
+          "abilityshow": [
+            "70",
+            "30",
+            "100",
+            "30"
+          ],
+          "difficulty": "30",
+          "head": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_2_1_42/100_df7603c292198bf4aa7b551d401ea5c1.png",
+          "heroid": 132,
+          "heroskilllist": [
+            {
+              "skilllist": [
+                {
+                  "skillcd&cost": "",
+                  "skilldesc": "Marcel's split soul, <font color=\"a6aafb\">Clemar</font>, enters the camera to freeze the moment. Marcel's Basic Attacks deal 50<font color=\"fba51f\"> (+40% Total Physical Attack)</font><font color=\"62f8fe\">(+40% Total Magic Defense)</font><font color=\"fba51f\"><1065 0.4></font> <font color=\"fb1f1f\">Physical Damage</font> (cannot Crit). He cannot benefit from extra Attack Speed. Extra HP is converted into 1.5% Hybrid Defense.\n\n<font color=\"a6aafb\">Clemar</font> automatically snaps photos of enemy heroes near Marcel, causing a brief <font color=\"a6aafb\">Frozen Moment</font> and dealing 20 (+ 5% their Max HP) <font color=\"ffe63c\">True Damage</font> (triggers Attack Effects). It also grants a shield of the same value to Marcel and a nearby allied hero. Cooldown: 12s per target (each Basic Attack from Marcel reduces this cooldown by 1s).",
+                  "skillicon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_2_1_60/100_7548012a0f8fcbf32ac9b635406cc6e4.png",
+                  "skillid": 13240,
+                  "skillname": "Platinum Snap",
+                  "skilltag": [
+                    {
+                      "tagid": 1,
+                      "tagname": "CC",
+                      "tagrgb": "193,176,64"
+                    }
+                  ],
+                  "skillvideo": ""
+                },
+                {
+                  "skillcd&cost": "CD: 12.5   Mana Cost: 40",
+                  "skilldesc": "<font color=\"a6aafb\">Clemar</font> focuses on an area around Marcel, slowing enemy heroes within by 20%. After 2.5s, he completes the shot, dealing 370<font color=\"fba51f\"> (+50% Total Physical Attack)</font><font color=\"62f8fe\">(+100% Total Magic Defense)</font><font color=\"fba51f\"><1065 1></font> <font color=\"fb1f1f\">Physical Damage</font> to enemies within and immobilizing them for 1s.",
+                  "skillicon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_2_1_60/100_8cc948ee89d2fd1a4c581fb14c5dec23.png",
+                  "skillid": 13210,
+                  "skillname": "Framed Moment",
+                  "skilltag": [
+                    {
+                      "tagid": 2,
+                      "tagname": "AOE",
+                      "tagrgb": "188,55,55"
+                    }
+                  ],
+                  "skillvideo": ""
+                },
+                {
+                  "skillcd&cost": "CD: 12.5   Mana Cost: 70",
+                  "skilldesc": "Artist inspiration time! Marcel enters the <font color=\"a6aafb\">Tracking Haste</font> state for 3s, gaining 15% Movement Speed (increases to 75% when moving toward enemy heroes).\n\n<font color=\"a6aafb\">Use Again</font>: Marcel dashes in the target direction, leaving a framing phantom behind. If <font color=\"a6aafb\">Framed Moment</font> is active, <font color=\"a6aafb\">Clemar</font> remains at the original location to continue shooting.",
+                  "skillicon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_2_1_60/100_f5fc45ee46ef9230c3bdf1229076b28f.png",
+                  "skillid": 13220,
+                  "skillname": "Tracking Shot",
+                  "skilltag": [
+                    {
+                      "tagid": 11,
+                      "tagname": "Speed Up",
+                      "tagrgb": "91,208,207"
+                    }
+                  ],
+                  "skillvideo": ""
+                },
+                {
+                  "skillcd&cost": "CD: 74   Mana Cost: 150",
+                  "skilldesc": "Marcel and <font color=\"a6aafb\">Clemar</font> perform a joint shoot. After a short delay, <font color=\"a6aafb\">Clemar</font> takes a wide-angle shot of the target area for 3s. During this time, Marcel enters the <font color=\"a6aafb\">Tracking Haste</font> state while inside the area. All other units in the area are put into a <font color=\"a6aafb\">Frozen Moment</font> and are immune to all effects except from Marcel. All ranged Basic Attacks and projectiles are also frozen and will continue after a delay.\n\n<font color=\"a6aafb\">Golden Hour</font> resets the cooldown of <font color=\"a6aafb\">Platinum Snap</font> for each enemy hero.\nAllied heroes with the <font color=\"a6aafb\">Platinum Snap</font> shield can move freely within the area.",
+                  "skillicon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_2_1_60/100_21b96ee6970aa33e77fca022e56ad216.png",
+                  "skillid": 13230,
+                  "skillname": "Golden Hour",
+                  "skilltag": [
+                    {
+                      "tagid": 1,
+                      "tagname": "CC",
+                      "tagrgb": "193,176,64"
+                    }
+                  ],
+                  "skillvideo": ""
+                }
+              ],
+              "skilllistid": "1321"
+            }
+          ],
+          "heroskin": null,
+          "name": "Marcel",
+          "painting": "",
+          "recommendlevel": [
+            "3",
+            "1",
+            "2"
+          ],
+          "recommendlevellabel": "3-1-2",
+          "recommendmasterplan": [],
+          "roadsort": [
+            {
+              "_id": "66854202aa8e7f6ec4703d8f",
+              "caption": "\u8f85\u52a9",
+              "configId": 144237,
+              "createdAt": 1720009218480,
+              "createdUser": "nickjin",
+              "data": {
+                "_object": 2732073,
+                "road_sort_icon": "https://akmweb.youngjoygame.com/web/gms/image/a3dbb075b4d8186c29f02f7d47da236a.svg",
+                "road_sort_id": "3",
+                "road_sort_title": "Roam"
+              },
+              "dynamic": null,
+              "id": 2732083,
+              "linkId": [
+                2732073
+              ],
+              "sort": 0,
+              "updatedAt": 1723022949109,
+              "updatedUser": "nickjin"
+            },
+            ""
+          ],
+          "roadsorticon1": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_abb6e4a5579bbffa22c9184584e5f155.png",
+          "roadsorticon2": "",
+          "roadsortlabel": [
+            "Roam",
+            ""
+          ],
+          "smallmap": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_2_1_60_2/100_dd980a8816698f1503cdb76201d17dd0.png",
+          "sorticon1": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_d478b40eec7ae1c15a03c2ef5db20f05.png",
+          "sorticon2": "",
+          "sortid": [
+            {
+              "_id": "6698c06a613093b976b4a97c",
+              "caption": "6\u8f85\u52a9",
+              "configId": 144237,
+              "createdAt": 1721286762785,
+              "createdUser": "nickjin",
+              "data": {
+                "_object": 2740651,
+                "sort_icon": "https://akmweb.youngjoygame.com/web/gms/image/1e4609b25a4cd63ee5a13015d4058159.png",
+                "sort_id": "6",
+                "sort_title": "support"
+              },
+              "dynamic": null,
+              "id": 2740666,
+              "linkId": [
+                2740651
+              ],
+              "sort": 0,
+              "updatedAt": 1723023113317,
+              "updatedUser": "nickjin"
+            },
+            ""
+          ],
+          "sortlabel": [
+            "Support",
+            ""
+          ],
+          "speciality": [
+            "Crowd Control",
+            "Support"
+          ],
+          "squarehead": "",
+          "squareheadbig": "",
+          "story": "Hailing from House Paxley, he is an elegant, mysterious, and bizarre artist whose split soul has fused with his camera.",
+          "tale": ""
+        },
+        "id": 102286,
+        "sourceId": 2713693
+      },
+      "hero_id": 132,
+      "painting": "https://akmweb.youngjoygame.com/web/gms/image/24c43180662d27aa5b62106b596fa4f7.webp",
+      "relation": {
+        "assist": {
+          "desc": "Because of Marcel's excellent AOE CC, he pairs well with allies with high AOE damage, like Hanabi and Ixia, to maximize their damage potential.",
+          "target_hero_id": [
+            60,
+            121
+          ]
+        },
+        "strong": {
+          "desc": "Marcel is more effective against low-mobility heroes, such as Layla and Vexana, as they are easily caught by his Ultimate, allowing him and his allies to secure easy kills.",
+          "target_hero_id": [
+            18,
+            38
+          ]
+        },
+        "weak": {
+          "desc": "Heroes who possess Invincibility or Untargetable effects that can bypass Marcel's CC, like Ling and X.Borg, will reduce his impact on the battlefield.",
+          "target_hero_id": [
+            84,
+            83
+          ]
+        }
+      }
+    },
+    "dynamic": null,
+    "id": 3280483,
+    "linkId": [
+      2667538
+    ],
+    "sort": 0,
+    "updatedAt": 1773211989186,
+    "updatedUser": "rubickguo"
+  },
+  {
+    "_id": "6973276466a7f82a51d4d3e7",
+    "caption": "015\u5c24\u6735\u62c9\uff08\u7ffb\u65b0\uff09",
+    "configId": 144237,
+    "createdAt": 1769154404715,
+    "createdUser": "v_zhu",
+    "data": {
+      "_object": 2667538,
+      "head": "https://akmweb.youngjoygame.com/web/gms/image/79b29476fd42bb3d3e048dc6bcfc7687.jpg",
+      "head_big": "https://akmweb.youngjoygame.com/web/gms/image/8db55c33fd2a5c84822a2a6c51e1fb18.jpg",
+      "hero": {
+        "_createdAt": 1727426097897,
+        "_id": "66f66e31fce30b35433da54d",
+        "_updatedAt": 1776934502897,
+        "data": {
+          "abilityshow": [
+            "10",
+            "80",
+            "80",
+            "10"
+          ],
+          "difficulty": "10",
+          "head": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_2_1_42/100_87b2a655b254c136dce8976e21935a80.png",
+          "heroid": 15,
+          "heroskilllist": [
+            {
+              "skilllist": [
+                {
+                  "skillcd&cost": "",
+                  "skilldesc": "Eudora's skills inflict <font color=\"a6aafb\">Superconductor</font> for 3s on non-minion units hit and can trigger additional effects against enemies affected by <font color=\"a6aafb\">Superconductor</font>.",
+                  "skillicon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_2_1_42/100_4ac316bbaf343836fdc741c84ca5da45.png",
+                  "skillid": 1540,
+                  "skillname": "Superconductor",
+                  "skilltag": [
+                    {
+                      "tagid": 62,
+                      "tagname": "Buff",
+                      "tagrgb": "79,156,184"
+                    }
+                  ],
+                  "skillvideo": ""
+                },
+                {
+                  "skillcd&cost": "CD: 5   Mana Cost: 60",
+                  "skilldesc": "Eudora casts Forked Lightning in a fan-shaped area, dealing 275<font color=\"62f8fe\"> (+100% Total Magic Power)</font> <font color=\"7f62fe\">Magic Damage</font> (increased to 200% against minions) to enemies within.\n\nWhen hitting targets affected by <font color=\"a6aafb\">Superconductor</font>, Eudora forms a lightning chain with the target, gaining 40% Movement Speed during the chain for up to 1s.\nThe lightning chain deals 10<font color=\"62f8fe\"> (+4% Total Magic Power)</font> <font color=\"7f62fe\">Magic Damage</font> over time and an additional 275<font color=\"62f8fe\"> (+100% Total Magic Power)</font> <font color=\"7f62fe\">Magic Damage</font> when it ends. If this hit lands, it reduces this skill's cooldown by 1.5s.",
+                  "skillicon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_2_1_42/100_17018b4270f7fd04eb235499eb629861.png",
+                  "skillid": 1510,
+                  "skillname": "Forked Lightning",
+                  "skilltag": [
+                    {
+                      "tagid": 32,
+                      "tagname": "AOE",
+                      "tagrgb": "199,121,85"
+                    }
+                  ],
+                  "skillvideo": ""
+                },
+                {
+                  "skillcd&cost": "CD: 11   Mana Cost: 80",
+                  "skilldesc": "Eudora hurls an orb of lightning at the target enemy, reducing their Magic Defense by 10 for 1.8s, dealing 300<font color=\"62f8fe\"> (+50% Total Magic Power)</font> <font color=\"7f62fe\">Magic Damage</font>, and stunning them for 1s.\n\nIf the target is affected by <font color=\"a6aafb\">Superconductor</font>, the lightning orb reduces the Magic Defense of nearby enemies, deals AOE damage centered on the target, and stuns all nearby enemies.",
+                  "skillicon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_2_1_42/100_ee8360b2b38255f04226a627561564fe.png",
+                  "skillid": 1520,
+                  "skillname": "Ball Lightning",
+                  "skilltag": [
+                    {
+                      "tagid": 21,
+                      "tagname": "CC",
+                      "tagrgb": "205,93,109"
+                    },
+                    {
+                      "tagid": 33,
+                      "tagname": "Damage",
+                      "tagrgb": "199,121,85"
+                    }
+                  ],
+                  "skillvideo": ""
+                },
+                {
+                  "skillcd&cost": "CD: 32   Mana Cost: 130",
+                  "skilldesc": "Eudora calls down a blast of lightning on the target area, dealing 600<font color=\"62f8fe\"> (+160% Total Magic Power)</font> <font color=\"7f62fe\">Magic Damage</font> to targets at the center. Then it strikes targets outside the center, dealing 300<font color=\"62f8fe\"> (+100% Total Magic Power)</font> <font color=\"7f62fe\">Magic Damage</font>.\n\nEvery time Thunder's Wrath hits a target affected by <font color=\"a6aafb\">Superconductor</font>, it triggers a <font color=\"a6aafb\">Thunderburst</font> centered on the <font color=\"a6aafb\">Superconductor</font> target after a short delay, dealing 330<font color=\"62f8fe\"> (+110% Total Magic Power)</font> <font color=\"7f62fe\">Magic Damage</font>.",
+                  "skillicon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_2_1_42/100_d44b0dd173dce52af46ec6432c4ab287.png",
+                  "skillid": 1530,
+                  "skillname": "Thunder\u2019s Wrath",
+                  "skilltag": [
+                    {
+                      "tagid": 31,
+                      "tagname": "Burst",
+                      "tagrgb": "199,121,85"
+                    }
+                  ],
+                  "skillvideo": ""
+                }
+              ],
+              "skilllistid": "151"
+            }
+          ],
+          "heroskin": null,
+          "name": "Eudora",
+          "painting": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_86c82f8ea9c76bfb38f5fa83320928e6.png",
+          "recommendlevel": [
+            "3",
+            "1",
+            "2"
+          ],
+          "recommendlevellabel": "3-1-2",
+          "recommendmasterplan": [],
+          "roadsort": [
+            {
+              "_id": "66854225aa8e7f6ec4703d93",
+              "caption": "\u4e2d\u8def",
+              "configId": 144237,
+              "createdAt": 1720009253985,
+              "createdUser": "nickjin",
+              "data": {
+                "_object": 2732073,
+                "road_sort_icon": "https://akmweb.youngjoygame.com/web/gms/image/facab1eacb218d767b5acb80304bfafd.svg",
+                "road_sort_id": "2",
+                "road_sort_title": "Mid Lane"
+              },
+              "dynamic": null,
+              "id": 2732084,
+              "linkId": [
+                2732073
+              ],
+              "sort": 0,
+              "updatedAt": 1723022943932,
+              "updatedUser": "nickjin"
+            },
+            ""
+          ],
+          "roadsorticon1": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_1b414d1631fc57199315b998064c6722.png",
+          "roadsorticon2": "",
+          "roadsortlabel": [
+            "Mid Lane",
+            ""
+          ],
+          "smallmap": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_2_1_42/100_1384ce93e5bdb142ea4e5e6b9f941ff1.png",
+          "sorticon1": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_50fbe091cc66ff01cef0fa6b82872510.png",
+          "sorticon2": "",
+          "sortid": [
+            {
+              "_id": "6698c015613093b976b4a974",
+              "caption": "4\u6cd5\u5e08",
+              "configId": 144237,
+              "createdAt": 1721286677393,
+              "createdUser": "nickjin",
+              "data": {
+                "_object": 2740651,
+                "sort_icon": "https://akmweb.youngjoygame.com/web/gms/image/1c6985dd0caec2028ccb6d1b8ca95e0f.png",
+                "sort_id": "4",
+                "sort_title": "mage"
+              },
+              "dynamic": null,
+              "id": 2740663,
+              "linkId": [
+                2740651
+              ],
+              "sort": 0,
+              "updatedAt": 1723023128824,
+              "updatedUser": "nickjin"
+            },
+            ""
+          ],
+          "sortlabel": [
+            "Mage",
+            ""
+          ],
+          "speciality": [
+            "Control",
+            "Burst"
+          ],
+          "squarehead": "https://akmweb.youngjoygame.com/web/svnres/file/mlbb/homepage/100_00844bbb210fe0884826629fb2ad5f27.jpg",
+          "squareheadbig": "https://akmweb.youngjoygame.com/web/svnres/file/mlbb/homepage/100_495f8e41a10d75d893f13e24ae97846a.jpg",
+          "story": "The elven mage who commands lightning at her fingertips to pierce prejudice and illuminate the path forward.",
+          "tale": ""
+        },
+        "id": 101762,
+        "sourceId": 2713693
+      },
+      "hero_id": 15,
+      "relation": {
+        "assist": {
+          "desc": "Eudora's skills can deal massive AOE damage, so pairing her with heroes who can group enemies, like Diggie and Tigreal, will make it easier to maximize her damage.",
+          "target_hero_id": [
+            48,
+            6
+          ]
+        },
+        "strong": {
+          "desc": "Eudora possesses strong targeted CC and burst capabilities, allowing her to keep squishy heroes like Moskov and Obsidia in check.",
+          "target_hero_id": [
+            131,
+            31
+          ]
+        },
+        "weak": {
+          "desc": "Eudora lacks self-preservation and struggles against dive heroes or Assassins who can negate targeted CC, such as Hayabusa and Kadita.",
+          "target_hero_id": [
+            21,
+            75
+          ]
+        }
+      },
+      "url": "https://play.mobilelegends.com/lore/hero/Eudora"
+    },
+    "dynamic": null,
+    "id": 3266137,
+    "linkId": [
+      2667538
+    ],
+    "sort": 0,
+    "updatedAt": 1769154404715,
+    "updatedUser": "v_zhu"
+  }
+]

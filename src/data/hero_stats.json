@@ -1,0 +1,32 @@
+{
+  "Miya": {
+    "hp": "2524",
+    "physAttack": "115",
+    "physDef": "15",
+    "magicDef": "10",
+    "attackSpeed": "1.02",
+    "mana": "440",
+    "critChance": "10%",
+    "speed": "240"
+  },
+  "Tigreal": {
+    "hp": "2890",
+    "physAttack": "112",
+    "physDef": "27",
+    "magicDef": "15",
+    "attackSpeed": "0.85",
+    "mana": "450",
+    "critChance": "0%",
+    "speed": "260"
+  },
+  "Saber": {
+    "hp": "2599",
+    "physAttack": "118",
+    "physDef": "20",
+    "magicDef": "10",
+    "attackSpeed": "0.92",
+    "mana": "430",
+    "critChance": "0%",
+    "speed": "265"
+  }
+}

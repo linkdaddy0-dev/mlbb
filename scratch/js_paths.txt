@@ -1,0 +1,6 @@
+/base/exchangeToken
+/base/getBaseInfo
+/base/getCaptcha
+/base/getUserCode
+/base/login
+/base/sendSms
