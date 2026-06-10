@@ -7,6 +7,28 @@ RAW_DIR = os.path.join("data", "raw")
 
 # Metadata definitions for the missing heroes based on official_relations
 MISSING_HEROES = {
+    125: {
+        "name": "Zhuxin",
+        "role": "Mage",
+        "durability": 5,
+        "offense": 4,
+        "magic": 8,
+        "difficulty": 6,
+        "best": "Tigreal",
+        "counters": "Layla",
+        "countered": "Saber"
+    },
+    126: {
+        "name": "Suyou",
+        "role": "Assassin",
+        "durability": 6,
+        "offense": 8,
+        "magic": 3,
+        "difficulty": 7,
+        "best": "Angela",
+        "counters": "Miya",
+        "countered": "Khufra"
+    },
     127: {
         "name": "Lukas",
         "role": "Fighter",
@@ -243,7 +265,7 @@ def map_to_moonton(h_id, meta):
     return moonton_format
 
 def generate():
-    print(f"Generating missing heroes 127-132 in {RAW_DIR} for all languages...")
+    print(f"Generating missing heroes 125-132 in {RAW_DIR} for all languages...")
     for h_id, meta in MISSING_HEROES.items():
         moonton_data = map_to_moonton(h_id, meta)
         for lang in LANGUAGES:

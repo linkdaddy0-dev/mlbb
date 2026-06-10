@@ -31,8 +31,14 @@ jobs:
     - name: Run Crawler Scraper
       run: python scraper.py
 
-    - name: Generate Missing Heroes Data (IDs 127-132)
+    - name: Generate Missing Heroes Data (IDs 125-132)
       run: python scripts/generate_missing_heroes.py
+
+    - name: Run Official GMS Matchups Scraper
+      run: python scripts/scrape_official_matchups.py
+
+    - name: Run Official GMS Relations Scraper
+      run: python scripts/scrape_official_relations.py
 
     - name: Compile Optimized Static JSON
       run: python compile_data.py
@@ -44,5 +50,5 @@ jobs:
       run: |
         git config --global user.name "GitHub Action Bot"
         git config --global user.email "actions@github.com"
-        git add public/data/patches/ public/data/meta/ src/data/
+        git add public/data/patches/ public/data/meta/ src/data/ data/official_matchups.json data/official_relations.json
         git diff-index --quiet HEAD || (git commit -m "chore: auto-sync localized hero datasets [skip ci]" && git push)

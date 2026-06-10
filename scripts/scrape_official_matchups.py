@@ -51,7 +51,13 @@ def main():
         if main_id not in gms_data:
             gms_data[main_id] = {}
         if br not in gms_data[main_id]:
-            gms_data[main_id][br] = {}
+            gms_data[main_id][br] = {
+                "stats": {
+                    "win_rate": d.get("main_hero_win_rate"),
+                    "pick_rate": d.get("main_hero_pick_rate"),
+                    "ban_rate": d.get("main_hero_ban_rate")
+                }
+            }
             
         # Clean sub_heroes list
         cleaned_sub = []
@@ -143,6 +149,61 @@ def main():
     with open("data/official_matchups.json", "w", encoding="utf-8") as f:
         json.dump(final_matchups, f, indent=2)
     print("Saved final compiled matchups to data/official_matchups.json")
+
+    # Update hero_meta_stats.json with the live statistics
+    meta_stats_path = "src/data/hero_meta_stats.json"
+    if os.path.exists(meta_stats_path):
+        try:
+            with open(meta_stats_path, "r", encoding="utf-8") as f:
+                meta_stats = json.load(f)
+            
+            name_map = {}
+            if os.path.exists("scratch/gms_hero_map.json"):
+                with open("scratch/gms_hero_map.json", "r", encoding="utf-8") as f:
+                    name_map = json.load(f)
+            
+            meta_by_name = {h.get("name", "").lower().strip(): h for h in meta_stats}
+            updated_count = 0
+            
+            for main_id, ranks in gms_data.items():
+                s_id = str(main_id)
+                h_name = name_map.get(s_id)
+                if not h_name:
+                    continue
+                
+                # Determine best available rank category for stats
+                selected_rank = None
+                for r_id in rank_priority:
+                    if r_id in ranks and "stats" in ranks[r_id]:
+                        selected_rank = r_id
+                        break
+                if not selected_rank and ranks:
+                    selected_rank = list(ranks.keys())[0]
+                    
+                if not selected_rank:
+                    continue
+                    
+                r_stats = ranks[selected_rank].get("stats", {})
+                name_lower = h_name.lower().strip()
+                if name_lower in meta_by_name:
+                    hero_entry = meta_by_name[name_lower]
+                    wr = r_stats.get("win_rate")
+                    pr = r_stats.get("pick_rate")
+                    br = r_stats.get("ban_rate")
+                    
+                    if wr is not None:
+                        hero_entry["win_rate"] = round(float(wr) * 100, 2)
+                    if pr is not None:
+                        hero_entry["pick_rate"] = round(float(pr) * 100, 2)
+                    if br is not None:
+                        hero_entry["ban_rate"] = round(float(br) * 100, 2)
+                    updated_count += 1
+                    
+            with open(meta_stats_path, "w", encoding="utf-8") as f:
+                json.dump(meta_stats, f, indent=2)
+            print(f"Updated {updated_count} heroes stats inside src/data/hero_meta_stats.json from live GMS rankings.")
+        except Exception as e:
+            print(f"Error updating hero_meta_stats.json: {e}")
 
 if __name__ == "__main__":
     main()
