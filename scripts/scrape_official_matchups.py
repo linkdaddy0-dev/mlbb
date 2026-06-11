@@ -197,6 +197,27 @@ def main():
                         hero_entry["pick_rate"] = round(float(pr) * 100, 2)
                     if br is not None:
                         hero_entry["ban_rate"] = round(float(br) * 100, 2)
+                    
+                    # Parse and populate rank-specific stats
+                    rank_stats = {}
+                    for r_id, r_info in ranks.items():
+                        if "stats" in r_info:
+                            st = r_info["stats"]
+                            swr = st.get("win_rate")
+                            spr = st.get("pick_rate")
+                            sbr = st.get("ban_rate")
+                            if swr is not None and spr is not None and sbr is not None:
+                                rank_stats[r_id] = {
+                                    "win_rate": round(float(swr) * 100, 2),
+                                    "pick_rate": round(float(spr) * 100, 2),
+                                    "ban_rate": round(float(sbr) * 100, 2)
+                                }
+                    hero_entry["rank_stats"] = rank_stats
+                    hero_entry["history"] = {
+                        "1d": rank_stats,
+                        "7d": rank_stats,
+                        "30d": rank_stats
+                    }
                     updated_count += 1
                     
             with open(meta_stats_path, "w", encoding="utf-8") as f:

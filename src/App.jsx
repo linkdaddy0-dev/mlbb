@@ -2193,7 +2193,10 @@ export default function App() {
 
         // Fallback to local files if remote fetch was skipped or failed
         if (!isUsingRemote) {
-          const localPatchRes = await fetch(`${window.location.origin}/data/meta/current_patch.json`);
+          const localPatchRes = await fetch(
+            `${window.location.origin}/data/meta/current_patch.json?t=${Date.now()}`,
+            { cache: 'no-store' }
+          );
           if (localPatchRes.ok) {
             patchData = await localPatchRes.json();
           }

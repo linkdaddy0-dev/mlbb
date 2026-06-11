@@ -364,6 +364,8 @@ def compile_data():
                 "win_rate": win_rate,
                 "pick_rate": pick_rate,
                 "ban_rate": ban_rate,
+                "rank_stats": meta.get("rank_stats", {}),
+                "history": meta.get("history", {}),
                 "tier": tier,
                 "battle_status": {
                     "durability": durability,
@@ -461,6 +463,8 @@ def compile_data():
                 "win_rate": win_rate,
                 "pick_rate": pick_rate,
                 "ban_rate": ban_rate,
+                "rank_stats": meta.get("rank_stats", {}),
+                "history": meta.get("history", {}),
                 "lane": meta.get("lane", "Unknown"),
                 "roles": meta.get("roles", [role]),
                 "specialties": meta.get("specialties", []),
