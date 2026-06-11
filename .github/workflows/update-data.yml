@@ -2,8 +2,8 @@ name: MLDraft Static Data Weekly Sync
 
 on:
   schedule:
-    # Trigger daily at midnight UTC
-    - cron: '0 0 * * *'
+    # Trigger daily at 19:00 UTC (after Moonton's data updates)
+    - cron: '0 19 * * *'
   workflow_dispatch:
     # Allow manual execution via the GitHub actions dashboard
 

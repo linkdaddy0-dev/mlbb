@@ -55,7 +55,7 @@ def main():
                         # Extract stats
                         wr = float(d.get("main_hero_win_rate", 0)) * 100
                         pr = float(d.get("main_hero_appearance_rate", 0)) * 100
-                        br = float(d.get("main_hero_ban_rate", 0))
+                        br = float(d.get("main_hero_ban_rate", 0)) * 100
                         
                         if main_id not in hero_stats_map:
                             hero_stats_map[main_id] = {}

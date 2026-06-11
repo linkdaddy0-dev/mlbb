@@ -7,10 +7,13 @@ echo.
 echo [1/4] Verifying and installing Python dependencies...
 python -m pip install requests
 echo.
-echo [2/4] Harvesting raw multilingual data from Moonton's servers...
-echo       (Crawls en, id, es, pt, ru, tr, tl locales. Please wait...)
+echo [2/4] Harvesting raw multilingual data and GMS rankings...
+echo       (Crawls locales, generates missing heroes, scrapes matchups/relations. Please wait...)
 echo.
 python scraper.py
+python scripts/generate_missing_heroes.py
+python scripts/scrape_official_matchups.py
+python scripts/scrape_official_relations.py
 echo.
 echo [3/4] Compiling, cleaning and compressing raw outputs...
 echo       (Building optimized JSON files inside public/data/compiled/)
