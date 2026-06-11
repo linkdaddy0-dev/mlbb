@@ -1,137 +1,131 @@
-import requests
-import json
 import os
+import json
+import requests
 
 def main():
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
         "Accept": "application/json, text/plain, */*",
-        "Content-Type": "application/json"
+        "Content-Type": "application/json",
+        "Origin": "https://www.mobilelegends.com",
+        "Referer": "https://www.mobilelegends.com/"
     }
 
-    url = "https://api.gms.moontontech.com/api/gms/source/2713644/2777391"
-    all_records = []
+    base_url = "https://api.gms.moontontech.com/api/gms/source/2669606/"
+    periods = {
+        "1d": "2756567",
+        "7d": "2756569",
+        "30d": "2756570"
+    }
+    ranks_list = ["101", "9", "8", "7", "6", "5"]
+
+    # We will build a nested map of stats:
+    # main_heroid -> period -> rank -> {win_rate, pick_rate, ban_rate}
+    hero_stats_map = {}
     
-    print("Fetching all paginated GMS records...")
-    for page in range(1, 5):
-        print(f"Fetching page {page}...")
-        try:
-            r = requests.post(url, headers=headers, json={"pageIndex": page, "pageSize": 500}, timeout=20)
-            if r.status_code == 200:
-                recs = r.json().get("data", {}).get("records", [])
-                all_records.extend(recs)
-                print(f"Page {page} Success! Got {len(recs)} records.")
-            else:
-                print(f"Page {page} failed with status: {r.status_code}")
-                return
-        except Exception as e:
-            print(f"Page {page} error: {e}")
-            return
-            
-    print(f"Total GMS records fetched: {len(all_records)}")
-    
-    # We will build a mapping: main_heroid -> rank -> camp_type -> sub_heroes list
-    # We want to support '101' primarily, but if it doesn't exist, we can fallback to other ranks like '9' (Mythic) or '8' (Legend).
-    gms_data = {}
-    
-    for rec in all_records:
-        d = rec.get("data", {})
-        main_id = d.get("main_heroid")
-        br = d.get("big_rank")
-        ct = d.get("camp_type")
-        sub_heroes = d.get("sub_hero", [])
-        
-        if main_id is None or br is None or ct is None:
-            continue
-            
-        main_id = int(main_id)
-        br = str(br)
-        ct = int(ct)
-        
-        if main_id not in gms_data:
-            gms_data[main_id] = {}
-        if br not in gms_data[main_id]:
-            gms_data[main_id][br] = {
-                "stats": {
-                    "win_rate": d.get("main_hero_win_rate"),
-                    "pick_rate": d.get("main_hero_pick_rate"),
-                    "ban_rate": d.get("main_hero_ban_rate")
-                }
+    # We will also collect matchups (using 7d period by default)
+    # main_heroid -> rank -> camp_type -> sub_heroes list
+    matchups_gms_data = {}
+
+    for period, source_id in periods.items():
+        url = f"{base_url}{source_id}"
+        print(f"\n=== Fetching rankings for period: {period} (Source: {source_id}) ===")
+        for rank in ranks_list:
+            print(f"  Fetching rank: {rank}...")
+            payload = {
+                "pageIndex": 1,
+                "pageSize": 500,
+                "filters": [
+                    {"field": "bigrank", "operator": "eq", "value": rank},
+                    {"field": "match_type", "operator": "eq", "value": 0}
+                ]
             }
-            
-        # Clean sub_heroes list
-        cleaned_sub = []
-        for sh in sub_heroes:
-            sh_id = sh.get("heroid")
-            inc = sh.get("increase_win_rate")
-            h_wr = sh.get("hero_win_rate")
-            if sh_id is not None and inc is not None:
-                cleaned_sub.append({
-                    "heroid": int(sh_id),
-                    "increase_win_rate": float(inc),
-                    "hero_win_rate": float(h_wr) if h_wr is not None else 0.0
-                })
-                
-        # Sort sub_heroes by increase_win_rate descending
-        cleaned_sub.sort(key=lambda x: x["increase_win_rate"], reverse=True)
-        gms_data[main_id][br][ct] = cleaned_sub
-        
-    print(f"Processed matchups for {len(gms_data)} distinct main heroes.")
-    
-    # Save the raw processed dictionary
+            try:
+                r = requests.post(url, headers=headers, json=payload, timeout=25)
+                if r.status_code == 200:
+                    records = r.json().get("data", {}).get("records", [])
+                    print(f"    Success! Got {len(records)} records.")
+                    for rec in records:
+                        d = rec.get("data", {})
+                        main_id = d.get("main_heroid")
+                        if main_id is None:
+                            continue
+                        main_id = int(main_id)
+                        
+                        # Extract stats
+                        wr = float(d.get("main_hero_win_rate", 0)) * 100
+                        pr = float(d.get("main_hero_appearance_rate", 0)) * 100
+                        br = float(d.get("main_hero_ban_rate", 0))
+                        
+                        if main_id not in hero_stats_map:
+                            hero_stats_map[main_id] = {}
+                        if period not in hero_stats_map[main_id]:
+                            hero_stats_map[main_id][period] = {}
+                            
+                        # Save stats
+                        hero_stats_map[main_id][period][rank] = {
+                            "win_rate": round(wr, 2),
+                            "pick_rate": round(pr, 2),
+                            "ban_rate": round(br, 2)
+                        }
+
+                        # Matchups (only collected for matchups file, we use 7d as the baseline)
+                        if period == "7d":
+                            ct = d.get("camp_type")
+                            if ct is not None:
+                                ct = int(ct)
+                                sub_heroes = d.get("sub_hero", [])
+                                
+                                if main_id not in matchups_gms_data:
+                                    matchups_gms_data[main_id] = {}
+                                if rank not in matchups_gms_data[main_id]:
+                                    matchups_gms_data[main_id][rank] = {}
+                                    
+                                cleaned_sub = []
+                                for sh in sub_heroes:
+                                    sh_id = sh.get("heroid")
+                                    inc = sh.get("increase_win_rate")
+                                    h_wr = sh.get("hero_win_rate")
+                                    if sh_id is not None and inc is not None:
+                                        cleaned_sub.append({
+                                            "heroid": int(sh_id),
+                                            "increase_win_rate": float(inc),
+                                            "hero_win_rate": float(h_wr) if h_wr is not None else 0.0
+                                        })
+                                cleaned_sub.sort(key=lambda x: x["increase_win_rate"], reverse=True)
+                                matchups_gms_data[main_id][rank][ct] = cleaned_sub
+                else:
+                    print(f"    Failed with status: {r.status_code}")
+            except Exception as e:
+                print(f"    Error: {e}")
+
+    print(f"\nScraped stats for {len(hero_stats_map)} distinct heroes.")
+
+    # Save the raw processed dictionary of matchups
     os.makedirs("data", exist_ok=True)
     with open("data/official_matchups_raw.json", "w", encoding="utf-8") as f:
-        json.dump(gms_data, f, indent=2)
-    print("Saved raw data to data/official_matchups_raw.json")
-    
-    # Now let's build the final high-fidelity matchups map for compiling
-    # For each hero, we want to extract:
-    # - counters: top 10 from big_rank '101' (or '9' or '8') camp_type 0
-    # - teammates: top 10 from big_rank '101' (or '9' or '8') camp_type 1
+        json.dump(matchups_gms_data, f, indent=2)
+    print("Saved raw matchups data to data/official_matchups_raw.json")
+
+    # Compile matchups
     final_matchups = {}
-    
-    # Ranks to try in priority order
     rank_priority = ["101", "9", "8", "7", "6", "5"]
-    
-    for main_id, ranks in gms_data.items():
-        # Find the best available rank rank category
+    for main_id, ranks in matchups_gms_data.items():
         selected_rank = None
         for r_id in rank_priority:
             if r_id in ranks and 0 in ranks[r_id] and 1 in ranks[r_id]:
                 selected_rank = r_id
                 break
-                
         if selected_rank is None:
-            # Try to find any rank with at least one camp_type
             for r_id in ranks:
                 if 0 in ranks[r_id] or 1 in ranks[r_id]:
                     selected_rank = r_id
                     break
-                    
         if selected_rank is None:
             continue
             
         counters = ranks[selected_rank].get(0, [])
         teammates = ranks[selected_rank].get(1, [])
-        
-        # We can also find "strong_against" if we look at camp_type 0 but sorted in ascending order (negative increase_win_rate means the opponent lost more against the main hero, wait, or is it where main hero counters the opponent?)
-        # Let's think: if Miya counters an opponent, the opponent's win rate would decrease when matched against Miya. So increase_win_rate would be negative!
-        # So we can sort camp_type 0 ascendingly to find the heroes that the main hero counters (strong_against)!
-        # Let's verify: In Miya's Record 11 (big_rank 101, camp_type 1, wait, camp_type 0),
-        # the lowest increase_win_rate is Moskov (-7.63%), Melissa (-7.49%), Irithel (-7.32%).
-        # Wait! Moskov, Melissa, Irithel are all marksmen. Miya is good against them or they are good against Miya?
-        # Actually, let's see. If camp_type 0 has positive increase_win_rate for Masha (3.02%) and Saber (2.59%), these are Miya's COUNTERS (Miya is weak against Masha and Saber).
-        # So the positive increase_win_rate values in camp_type 0 represent the heroes that counter the main hero.
-        # Thus, the negative increase_win_rate values in camp_type 0 represent the heroes that the main hero counters (strong against)!
-        # Wait, let's verify this mathematically. If Masha's win rate increases by 3.02% when playing against Miya, then Masha counters Miya.
-        # If Moskov's win rate decreases by 7.63% when playing against Miya, then Miya counters Moskov!
-        # Yes! That is absolutely logical and correct!
-        # So:
-        # - counters (weak_against): camp_type 0, sorted by increase_win_rate descending (positive values)
-        # - strong_against: camp_type 0, sorted by increase_win_rate ascending (negative values)
-        # - teammates: camp_type 1, sorted by increase_win_rate descending (positive values)
-        
-        strong_against = sorted(counters, key=lambda x: x["increase_win_rate"])
         
         final_matchups[str(main_id)] = {
             "selected_rank": selected_rank,
@@ -144,13 +138,11 @@ def main():
                 for t in teammates
             ]
         }
-        
-    print(f"Assembled high-fidelity matchups for {len(final_matchups)} heroes.")
     with open("data/official_matchups.json", "w", encoding="utf-8") as f:
         json.dump(final_matchups, f, indent=2)
-    print("Saved final compiled matchups to data/official_matchups.json")
+    print("Saved compiled matchups to data/official_matchups.json")
 
-    # Update hero_meta_stats.json with the live statistics
+    # Update hero_meta_stats.json
     meta_stats_path = "src/data/hero_meta_stats.json"
     if os.path.exists(meta_stats_path):
         try:
@@ -165,64 +157,47 @@ def main():
             meta_by_name = {h.get("name", "").lower().strip(): h for h in meta_stats}
             updated_count = 0
             
-            for main_id, ranks in gms_data.items():
+            for main_id, periods_data in hero_stats_map.items():
                 s_id = str(main_id)
                 h_name = name_map.get(s_id)
                 if not h_name:
                     continue
                 
-                # Determine best available rank category for stats
-                selected_rank = None
-                for r_id in rank_priority:
-                    if r_id in ranks and "stats" in ranks[r_id]:
-                        selected_rank = r_id
-                        break
-                if not selected_rank and ranks:
-                    selected_rank = list(ranks.keys())[0]
-                    
-                if not selected_rank:
-                    continue
-                    
-                r_stats = ranks[selected_rank].get("stats", {})
                 name_lower = h_name.lower().strip()
                 if name_lower in meta_by_name:
                     hero_entry = meta_by_name[name_lower]
-                    wr = r_stats.get("win_rate")
-                    pr = r_stats.get("pick_rate")
-                    br = r_stats.get("ban_rate")
                     
-                    if wr is not None:
-                        hero_entry["win_rate"] = round(float(wr) * 100, 2)
-                    if pr is not None:
-                        hero_entry["pick_rate"] = round(float(pr) * 100, 2)
-                    if br is not None:
-                        hero_entry["ban_rate"] = round(float(br) * 100, 2)
+                    # Update root stats (we use '7d' period and rank '101' as baseline)
+                    baseline = periods_data.get("7d", {}).get("101")
+                    if not baseline:
+                        # Fallback to whatever is available
+                        for p_id in ["7d", "30d", "1d"]:
+                            if p_id in periods_data and "101" in periods_data[p_id]:
+                                baseline = periods_data[p_id]["101"]
+                                break
+                    if not baseline and periods_data:
+                        first_p = list(periods_data.values())[0]
+                        if first_p:
+                            baseline = list(first_p.values())[0]
+                            
+                    if baseline:
+                        hero_entry["win_rate"] = baseline["win_rate"]
+                        hero_entry["pick_rate"] = baseline["pick_rate"]
+                        hero_entry["ban_rate"] = baseline["ban_rate"]
                     
-                    # Parse and populate rank-specific stats
-                    rank_stats = {}
-                    for r_id, r_info in ranks.items():
-                        if "stats" in r_info:
-                            st = r_info["stats"]
-                            swr = st.get("win_rate")
-                            spr = st.get("pick_rate")
-                            sbr = st.get("ban_rate")
-                            if swr is not None and spr is not None and sbr is not None:
-                                rank_stats[r_id] = {
-                                    "win_rate": round(float(swr) * 100, 2),
-                                    "pick_rate": round(float(spr) * 100, 2),
-                                    "ban_rate": round(float(sbr) * 100, 2)
-                                }
-                    hero_entry["rank_stats"] = rank_stats
-                    hero_entry["history"] = {
-                        "1d": rank_stats,
-                        "7d": rank_stats,
-                        "30d": rank_stats
-                    }
+                    # Update rank_stats (using '7d' as default rank stats mapping)
+                    default_rank_stats = periods_data.get("7d", {})
+                    if not default_rank_stats and periods_data:
+                        default_rank_stats = list(periods_data.values())[0]
+                    hero_entry["rank_stats"] = default_rank_stats
+                    
+                    # Update full history (period -> rank -> stats)
+                    hero_entry["history"] = periods_data
                     updated_count += 1
                     
             with open(meta_stats_path, "w", encoding="utf-8") as f:
                 json.dump(meta_stats, f, indent=2)
-            print(f"Updated {updated_count} heroes stats inside src/data/hero_meta_stats.json from live GMS rankings.")
+            print(f"Updated {updated_count} heroes stats inside src/data/hero_meta_stats.json from new GMS rankings.")
         except Exception as e:
             print(f"Error updating hero_meta_stats.json: {e}")
 
