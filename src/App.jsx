@@ -952,12 +952,35 @@ export default function App() {
   const showcaseHeroes = useMemo(() => {
     if (!heroes || heroes.length === 0) return [];
     
+    // Resolve metrics using All Ranks (101) & 1d period stats from HERO_META_STATS
+    const resolvedHeroes = heroes.map(hero => {
+      const meta = HERO_META_STATS.find(m => m.name.toLowerCase() === hero.name.toLowerCase());
+      let winRate = hero.win_rate || 50.0;
+      let pickRate = hero.pick_rate || 0.0;
+      let banRate = hero.ban_rate || 0.0;
+
+      if (meta) {
+        const stats1d = meta.history?.["1d"]?.["101"] || meta.rank_stats?.["101"];
+        if (stats1d) {
+          winRate = stats1d.win_rate;
+          pickRate = stats1d.pick_rate;
+          banRate = stats1d.ban_rate;
+        }
+      }
+      return {
+        ...hero,
+        win_rate: winRate,
+        pick_rate: pickRate,
+        ban_rate: banRate
+      };
+    });
+
     const selected = new Set();
     const lanes = ['Gold Lane', 'EXP Lane', 'Mid Lane', 'Jungle', 'Roam'];
     const roles = ['Marksman', 'Assassin', 'Fighter', 'Mage', 'Tank', 'Support'];
     
     const getTopForFilter = (filterFn) => {
-      const filtered = heroes.filter(filterFn);
+      const filtered = resolvedHeroes.filter(filterFn);
       if (filtered.length === 0) return [];
       
       const topWin = [...filtered].sort((a, b) => (b.win_rate || 0) - (a.win_rate || 0))[0];
@@ -980,7 +1003,7 @@ export default function App() {
     });
 
     return Array.from(selected)
-      .map(id => heroes.find(h => h.id === id))
+      .map(id => resolvedHeroes.find(h => h.id === id))
       .filter(Boolean);
   }, [heroes]);
 
@@ -1064,7 +1087,31 @@ export default function App() {
 
   const metaSpotlightHeroes = useMemo(() => {
     if (!heroes || heroes.length === 0) return { banned: null, winRate: null, picked: null };
-    const sorted = [...heroes].filter(h => h.ban_rate != null && h.win_rate != null && h.pick_rate != null);
+    
+    // Resolve metrics using All Ranks (101) & 1d period stats from HERO_META_STATS
+    const resolvedHeroes = heroes.map(hero => {
+      const meta = HERO_META_STATS.find(m => m.name.toLowerCase() === hero.name.toLowerCase());
+      let winRate = hero.win_rate || 50.0;
+      let pickRate = hero.pick_rate || 0.0;
+      let banRate = hero.ban_rate || 0.0;
+
+      if (meta) {
+        const stats1d = meta.history?.["1d"]?.["101"] || meta.rank_stats?.["101"];
+        if (stats1d) {
+          winRate = stats1d.win_rate;
+          pickRate = stats1d.pick_rate;
+          banRate = stats1d.ban_rate;
+        }
+      }
+      return {
+        ...hero,
+        win_rate: winRate,
+        pick_rate: pickRate,
+        ban_rate: banRate
+      };
+    });
+
+    const sorted = resolvedHeroes.filter(h => h.ban_rate != null && h.win_rate != null && h.pick_rate != null);
     const banned = [...sorted].sort((a, b) => b.ban_rate - a.ban_rate)[0] || null;
     const winRate = [...sorted].sort((a, b) => b.win_rate - a.win_rate)[0] || null;
     const picked = [...sorted].sort((a, b) => b.pick_rate - a.pick_rate)[0] || null;
@@ -1559,6 +1606,10 @@ export default function App() {
   const [rankingsSearch, setRankingsSearch] = useState('');
 
   const [rankingsRoleFilter, setRankingsRoleFilter] = useState('All');
+
+  const [rankingsRankFilter, setRankingsRankFilter] = useState('101');
+
+  const [rankingsDaysFilter, setRankingsDaysFilter] = useState('7d');
 
 
 
@@ -2113,18 +2164,27 @@ export default function App() {
 
         // Try checking remote Cloudflare Worker proxy first (OTA update)
         try {
-          console.log(`[App] Checking remote OTA patch metadata from: ${REMOTE_UPDATE_BASE_URL}`);
-          const remotePatchRes = await fetch(
-            `${REMOTE_UPDATE_BASE_URL}/data/meta/current_patch.json?t=${Date.now()}`,
-            { cache: 'no-store' }
-          );
-          if (remotePatchRes.ok) {
-            const data = await remotePatchRes.json();
-            if (data && data.current_patch) {
-              patchData = data;
-              activeBaseUrl = REMOTE_UPDATE_BASE_URL;
-              isUsingRemote = true;
-              console.log(`[App] Remote OTA connection verified successfully. Version: ${patchData.current_patch}`);
+          const isLocal = window.location.hostname === 'localhost' || 
+                          window.location.hostname === '127.0.0.1' || 
+                          window.location.hostname.startsWith('192.168.') || 
+                          window.location.hostname.endsWith('.local');
+          
+          if (isLocal) {
+            console.log('[App] Local environment detected. Skipping remote OTA fetch to use local static assets.');
+          } else {
+            console.log(`[App] Checking remote OTA patch metadata from: ${REMOTE_UPDATE_BASE_URL}`);
+            const remotePatchRes = await fetch(
+              `${REMOTE_UPDATE_BASE_URL}/data/meta/current_patch.json?t=${Date.now()}`,
+              { cache: 'no-store' }
+            );
+            if (remotePatchRes.ok) {
+              const data = await remotePatchRes.json();
+              if (data && data.current_patch) {
+                patchData = data;
+                activeBaseUrl = REMOTE_UPDATE_BASE_URL;
+                isUsingRemote = true;
+                console.log(`[App] Remote OTA connection verified successfully. Version: ${patchData.current_patch}`);
+              }
             }
           }
         } catch (remoteErr) {
@@ -2433,19 +2493,66 @@ export default function App() {
     if (!heroes || heroes.length === 0) {
       return { highestWR: null, mostBanned: null, mostPicked: null, mostContested: null };
     }
-    const highestWR = [...heroes].sort((a, b) => b.win_rate - a.win_rate)[0] || null;
-    const mostBanned = [...heroes].sort((a, b) => b.ban_rate - a.ban_rate)[0] || null;
-    const mostPicked = [...heroes].sort((a, b) => b.pick_rate - a.pick_rate)[0] || null;
-    const mostContested = [...heroes].sort((a, b) => (b.pick_rate + b.ban_rate) - (a.pick_rate + a.ban_rate))[0] || null;
+    // Resolve metrics using All Ranks (101) & 1d period stats from HERO_META_STATS
+    const resolvedHeroes = heroes.map(hero => {
+      const meta = HERO_META_STATS.find(m => m.name.toLowerCase() === hero.name.toLowerCase());
+      let winRate = hero.win_rate || 50.0;
+      let pickRate = hero.pick_rate || 0.0;
+      let banRate = hero.ban_rate || 0.0;
+
+      if (meta) {
+        const stats1d = meta.history?.["1d"]?.["101"] || meta.rank_stats?.["101"];
+        if (stats1d) {
+          winRate = stats1d.win_rate;
+          pickRate = stats1d.pick_rate;
+          banRate = stats1d.ban_rate;
+        }
+      }
+      return {
+        ...hero,
+        win_rate: winRate,
+        pick_rate: pickRate,
+        ban_rate: banRate
+      };
+    });
+
+    const highestWR = [...resolvedHeroes].sort((a, b) => b.win_rate - a.win_rate)[0] || null;
+    const mostBanned = [...resolvedHeroes].sort((a, b) => b.ban_rate - a.ban_rate)[0] || null;
+    const mostPicked = [...resolvedHeroes].sort((a, b) => b.pick_rate - a.pick_rate)[0] || null;
+    const mostContested = [...resolvedHeroes].sort((a, b) => (b.pick_rate + b.ban_rate) - (a.pick_rate + a.ban_rate))[0] || null;
     return { highestWR, mostBanned, mostPicked, mostContested };
   }, [heroes]);
 
   const roleLeaders = useMemo(() => {
     if (!heroes || heroes.length === 0) return {};
+    
+    // Resolve metrics using All Ranks (101) & 1d period stats from HERO_META_STATS
+    const resolvedHeroes = heroes.map(hero => {
+      const meta = HERO_META_STATS.find(m => m.name.toLowerCase() === hero.name.toLowerCase());
+      let winRate = hero.win_rate || 50.0;
+      let pickRate = hero.pick_rate || 0.0;
+      let banRate = hero.ban_rate || 0.0;
+
+      if (meta) {
+        const stats1d = meta.history?.["1d"]?.["101"] || meta.rank_stats?.["101"];
+        if (stats1d) {
+          winRate = stats1d.win_rate;
+          pickRate = stats1d.pick_rate;
+          banRate = stats1d.ban_rate;
+        }
+      }
+      return {
+        ...hero,
+        win_rate: winRate,
+        pick_rate: pickRate,
+        ban_rate: banRate
+      };
+    });
+
     const roles = ['Marksman', 'Mage', 'Fighter', 'Assassin', 'Tank', 'Support'];
     const leaders = {};
     roles.forEach(role => {
-      const roleHeroes = heroes.filter(h => h.role === role);
+      const roleHeroes = resolvedHeroes.filter(h => h.role === role);
       if (roleHeroes.length > 0) {
         leaders[role] = [...roleHeroes].sort((a, b) => b.win_rate - a.win_rate)[0];
       } else {
@@ -3100,19 +3207,19 @@ export default function App() {
                 <label className="profile-edit-label" style={{ marginBottom: '0.5rem', fontSize: '0.72rem' }}>Choose In-Game Username</label>
 
                 <input 
-
                   type="text" 
-
                   placeholder="Enter username (e.g. Legend, Slayer)"
-
                   value={onboardProfile.username} 
-
                   onChange={(e) => setOnboardProfile({...onboardProfile, username: e.target.value})}
-
                   className="profile-edit-input"
-
-                  style={{ fontSize: '0.82rem', padding: '0.75rem', borderRadius: '10px' }}
-
+                  style={{ 
+                    fontSize: '0.82rem', 
+                    padding: '0.75rem', 
+                    borderRadius: '10px',
+                    color: '#ffffff',
+                    backgroundColor: '#0f172a',
+                    border: '1px solid rgba(255, 255, 255, 0.15)'
+                  }}
                 />
 
               </div>
@@ -5860,9 +5967,16 @@ export default function App() {
         {/* TAB 5: HERO RANKINGS PAGE */}
 
         {!loading && activeTab === 'rankings' && (() => {
+          const RANK_OPTIONS = [
+            { value: "101", label: "All Ranks" },
+            { value: "9", label: "Mythical Glory+" },
+            { value: "8", label: "Mythical Honor" },
+            { value: "7", label: "Mythic" },
+            { value: "6", label: "Legend" },
+            { value: "5", label: "Epic" }
+          ];
 
           // Build merged stats lookup from hero_meta_stats
-
           const metaLookup = {};
 
           HERO_META_STATS.forEach(h => {
@@ -5875,11 +5989,44 @@ export default function App() {
 
           const mergedHeroes = heroes.map(hero => {
             const meta = metaLookup[hero.name.toLowerCase()];
+            let winRate = 50.0;
+            let pickRate = 0.0;
+            let banRate = 0.0;
+
+            if (meta) {
+              const history = meta.history || {};
+              const periodStats = history[rankingsDaysFilter] || {};
+              const rankStats = periodStats[rankingsRankFilter];
+              if (rankStats) {
+                winRate = rankStats.win_rate;
+                pickRate = rankStats.pick_rate;
+                banRate = rankStats.ban_rate;
+              } else {
+                const stats = meta.rank_stats?.[rankingsRankFilter] ?? {
+                  win_rate: meta.win_rate != null ? meta.win_rate : 50,
+                  pick_rate: meta.pick_rate != null ? meta.pick_rate : 0,
+                  ban_rate: meta.ban_rate != null ? meta.ban_rate : 0
+                };
+                winRate = stats.win_rate;
+                pickRate = stats.pick_rate;
+                banRate = stats.ban_rate;
+              }
+            } else {
+              const stats = hero.rank_stats?.[rankingsRankFilter] ?? {
+                win_rate: hero.win_rate != null ? hero.win_rate : 50,
+                pick_rate: hero.pick_rate != null ? hero.pick_rate : 0,
+                ban_rate: hero.ban_rate != null ? hero.ban_rate : 0
+              };
+              winRate = stats.win_rate;
+              pickRate = stats.pick_rate;
+              banRate = stats.ban_rate;
+            }
+
             return {
               ...hero,
-              win_rate: hero.win_rate != null ? hero.win_rate : (meta ? meta.win_rate : 50),
-              pick_rate: hero.pick_rate != null ? hero.pick_rate : (meta ? meta.pick_rate : 0),
-              ban_rate: hero.ban_rate != null ? hero.ban_rate : (meta ? meta.ban_rate : 0),
+              win_rate: winRate,
+              pick_rate: pickRate,
+              ban_rate: banRate,
               tier: hero.tier || (meta ? meta.tier : 'B'),
               lane: hero.lane || (meta ? meta.lane : ''),
               roles: hero.roles || (meta ? meta.roles : [hero.role])
@@ -5896,6 +6043,28 @@ export default function App() {
 
             if (!exists) {
 
+              let winRate = 50.0;
+              let pickRate = 0.0;
+              let banRate = 0.0;
+
+              const history = metaHero.history || {};
+              const periodStats = history[rankingsDaysFilter] || {};
+              const rankStats = periodStats[rankingsRankFilter];
+              if (rankStats) {
+                winRate = rankStats.win_rate;
+                pickRate = rankStats.pick_rate;
+                banRate = rankStats.ban_rate;
+              } else {
+                const stats = metaHero.rank_stats?.[rankingsRankFilter] ?? {
+                  win_rate: metaHero.win_rate != null ? metaHero.win_rate : 50,
+                  pick_rate: metaHero.pick_rate != null ? metaHero.pick_rate : 0,
+                  ban_rate: metaHero.ban_rate != null ? metaHero.ban_rate : 0
+                };
+                winRate = stats.win_rate;
+                pickRate = stats.pick_rate;
+                banRate = stats.ban_rate;
+              }
+
               mergedHeroes.push({
 
                 id: metaHero.slug,
@@ -5908,11 +6077,11 @@ export default function App() {
 
                 cover_thumb: metaHero.cover_thumb,
 
-                win_rate: metaHero.win_rate,
+                win_rate: winRate,
 
-                pick_rate: metaHero.pick_rate,
+                pick_rate: pickRate,
 
-                ban_rate: metaHero.ban_rate,
+                ban_rate: banRate,
 
                 tier: metaHero.tier,
 
@@ -6227,6 +6396,58 @@ export default function App() {
 
               </div>
 
+              {/* Rank & Days Filters */}
+              <div className="rankings-filters-row" style={{ display: 'flex', gap: '0.75rem', marginBottom: '1rem', width: '100%', flexWrap: 'wrap' }}>
+                <div style={{ display: 'flex', flexDirection: 'column', gap: '0.3rem', flex: 1, minWidth: '140px' }}>
+                  <label style={{ fontSize: '0.65rem', fontWeight: 800, textTransform: 'uppercase', color: 'var(--text-secondary)', letterSpacing: '0.05em' }}>Rank Tier</label>
+                  <select 
+                    value={rankingsRankFilter} 
+                    onChange={(e) => setRankingsRankFilter(e.target.value)}
+                    style={{
+                      width: '100%',
+                      padding: '0.5rem 0.75rem',
+                      borderRadius: '8px',
+                      backgroundColor: 'rgba(255, 255, 255, 0.03)',
+                      border: '1px solid rgba(255, 255, 255, 0.08)',
+                      color: 'var(--text-primary)',
+                      fontSize: '0.75rem',
+                      fontWeight: 600,
+                      outline: 'none',
+                      cursor: 'pointer'
+                    }}
+                  >
+                    {RANK_OPTIONS.map(opt => (
+                      <option key={opt.value} value={opt.value} style={{ backgroundColor: '#111827' }}>
+                        {opt.label}
+                      </option>
+                    ))}
+                  </select>
+                </div>
+                <div style={{ display: 'flex', flexDirection: 'column', gap: '0.3rem', flex: 1, minWidth: '140px' }}>
+                  <label style={{ fontSize: '0.65rem', fontWeight: 800, textTransform: 'uppercase', color: 'var(--text-secondary)', letterSpacing: '0.05em' }}>Time Period</label>
+                  <select 
+                    value={rankingsDaysFilter} 
+                    onChange={(e) => setRankingsDaysFilter(e.target.value)}
+                    style={{
+                      width: '100%',
+                      padding: '0.5rem 0.75rem',
+                      borderRadius: '8px',
+                      backgroundColor: 'rgba(255, 255, 255, 0.03)',
+                      border: '1px solid rgba(255, 255, 255, 0.08)',
+                      color: 'var(--text-primary)',
+                      fontSize: '0.75rem',
+                      fontWeight: 600,
+                      outline: 'none',
+                      cursor: 'pointer'
+                    }}
+                  >
+                    <option value="1d" style={{ backgroundColor: '#111827' }}>Last 1 Day</option>
+                    <option value="7d" style={{ backgroundColor: '#111827' }}>Last 7 Days</option>
+                    <option value="30d" style={{ backgroundColor: '#111827' }}>Last 30 Days</option>
+                  </select>
+                </div>
+              </div>
+
 
 
               {/* Search Bar */}
@@ -6436,11 +6657,8 @@ export default function App() {
                 {sorted.length > 0 && (
 
                   <div className="rankings-table-footer">
-
                     <span className="rankings-footer-text">
-
-                      Ranked by {rateLabel} · Mythic+ Data
-
+                      Ranked by {rateLabel} · {RANK_OPTIONS.find(o => o.value === rankingsRankFilter)?.label || 'Unknown'} ({rankingsDaysFilter === '1d' ? 'Last 1 Day' : rankingsDaysFilter === '7d' ? 'Last 7 Days' : 'Last 30 Days'})
                     </span>
 
                     <span className="rankings-footer-count">
@@ -7935,15 +8153,14 @@ export default function App() {
                             {/* Bento Grid Redesign */}
                             <div className="gaming-bento-grid" style={{ padding: 0 }}>
                               <div className="gaming-bento-left">
-                                {/* Skill Sets circular list */}
                                 <div className="gaming-panel-card">
                                   <h4 className="gaming-panel-title">Skills Overview</h4>
                                   <div className="circular-bubbles-row">
                                     {detailHeroData.skills && detailHeroData.skills.map((skill, idx) => (
                                       <div key={idx} className="circular-bubble-item" onClick={() => { setHeroDetailTab('guide'); setActiveSkillIndex(idx); }}>
-                                        <div className="circular-bubble-icon-wrap">
+                                        <div className="circular-bubble-icon-wrap" style={{ width: '48px', height: '48px' }}>
                                           <div className="circular-bubble-num">{idx === 0 ? 'P' : idx}</div>
-                                          <SmartImage src={skill.icon} alt={skill.name} fallbackType="skill" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                                          <SmartImage src={skill.icon} alt={skill.name} fallbackType="skill" style={{ width: '100%', height: '100%' }} />
                                         </div>
                                         <span className="circular-bubble-label">{skill.name}</span>
                                       </div>
@@ -7959,8 +8176,8 @@ export default function App() {
                                       const itemDetail = getProItemDetail(item);
                                       return (
                                         <div key={idx} className="circular-bubble-item" onClick={() => { setHeroDetailTab('builds'); }}>
-                                          <div className="circular-bubble-icon-wrap">
-                                            <SmartImage src={itemDetail.icon} alt={itemDetail.name} fallbackType="item" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                                          <div className="circular-bubble-icon-wrap" style={{ width: '48px', height: '48px' }}>
+                                            <SmartImage src={itemDetail.icon} alt={itemDetail.name} fallbackType="item" style={{ width: '100%', height: '100%' }} />
                                           </div>
                                           <span className="circular-bubble-label">{itemDetail.name}</span>
                                         </div>
@@ -8347,6 +8564,7 @@ export default function App() {
                                           src={skill.icon} 
                                           alt={skill.name} 
                                           className="skills-badge-img"
+                                          style={{ width: '40px', height: '40px' }}
                                           fallbackType="skill"
                                         />
                                       </button>
