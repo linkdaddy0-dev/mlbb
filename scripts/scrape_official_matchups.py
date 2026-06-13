@@ -2,6 +2,29 @@ import os
 import json
 import requests
 
+def map_lane_to_road_id(lane_str):
+    if not lane_str:
+        return None
+    lane = lane_str.lower()
+    parts = [p.strip() for p in lane.split('/')]
+    primary = parts[0]
+    
+    if "exp" in primary: return 1
+    if "gold" in primary: return 2
+    if "mid" in primary: return 3
+    if "roam" in primary: return 4
+    if "jungle" in primary or "jungler" in primary: return 5
+    
+    if len(parts) > 1:
+        secondary = parts[1]
+        if "exp" in secondary: return 1
+        if "gold" in secondary: return 2
+        if "mid" in secondary: return 3
+        if "roam" in secondary: return 4
+        if "jungle" in secondary or "jungler" in secondary: return 5
+        
+    return None
+
 def main():
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
@@ -11,25 +34,23 @@ def main():
         "Referer": "https://www.mobilelegends.com/"
     }
 
-    base_url = "https://api.gms.moontontech.com/api/gms/source/2669606/"
+    # 1. Fetch Rankings Data (Project 2669606)
+    # Sources: 1d (2756567), 7d (2756569), 30d (2756570)
     periods = {
         "1d": "2756567",
         "7d": "2756569",
         "30d": "2756570"
     }
     ranks_list = ["101", "9", "8", "7", "6", "5"]
-
-    # We will build a nested map of stats:
-    # main_heroid -> period -> rank -> {win_rate, pick_rate, ban_rate}
-    hero_stats_map = {}
     
-    # We will also collect matchups (using 7d period by default)
-    # main_heroid -> rank -> camp_type -> sub_heroes list
-    matchups_gms_data = {}
+    # Structure: main_heroid -> period -> rank -> {win_rate, pick_rate, ban_rate}
+    rankings_history = {}
+    rankings_rank_stats = {}
 
+    print("=== Fetching Rankings Data (Project 2669606) ===")
     for period, source_id in periods.items():
-        url = f"{base_url}{source_id}"
-        print(f"\n=== Fetching rankings for period: {period} (Source: {source_id}) ===")
+        url = f"https://api.gms.moontontech.com/api/gms/source/2669606/{source_id}"
+        print(f"\nProcessing period: {period} (Source: {source_id})")
         for rank in ranks_list:
             print(f"  Fetching rank: {rank}...")
             payload = {
@@ -37,7 +58,7 @@ def main():
                 "pageSize": 500,
                 "filters": [
                     {"field": "bigrank", "operator": "eq", "value": rank},
-                    {"field": "match_type", "operator": "eq", "value": 0}
+                    {"field": "match_type", "operator": "eq", "value": "0"}
                 ]
             }
             try:
@@ -52,64 +73,199 @@ def main():
                             continue
                         main_id = int(main_id)
                         
-                        # Extract stats
                         wr = float(d.get("main_hero_win_rate", 0)) * 100
                         pr = float(d.get("main_hero_appearance_rate", 0)) * 100
                         br = float(d.get("main_hero_ban_rate", 0)) * 100
                         
-                        if main_id not in hero_stats_map:
-                            hero_stats_map[main_id] = {}
-                        if period not in hero_stats_map[main_id]:
-                            hero_stats_map[main_id][period] = {}
+                        if main_id not in rankings_history:
+                            rankings_history[main_id] = {}
+                        if period not in rankings_history[main_id]:
+                            rankings_history[main_id][period] = {}
                             
-                        # Save stats
-                        hero_stats_map[main_id][period][rank] = {
+                        rankings_history[main_id][period][rank] = {
                             "win_rate": round(wr, 2),
                             "pick_rate": round(pr, 2),
                             "ban_rate": round(br, 2)
                         }
 
-                        # Matchups (only collected for matchups file, we use 7d as the baseline)
                         if period == "7d":
-                            ct = d.get("camp_type")
-                            if ct is not None:
-                                ct = int(ct)
-                                sub_heroes = d.get("sub_hero", [])
-                                
-                                if main_id not in matchups_gms_data:
-                                    matchups_gms_data[main_id] = {}
-                                if rank not in matchups_gms_data[main_id]:
-                                    matchups_gms_data[main_id][rank] = {}
-                                    
-                                cleaned_sub = []
-                                for sh in sub_heroes:
-                                    sh_id = sh.get("heroid")
-                                    inc = sh.get("increase_win_rate")
-                                    h_wr = sh.get("hero_win_rate")
-                                    if sh_id is not None and inc is not None:
-                                        cleaned_sub.append({
-                                            "heroid": int(sh_id),
-                                            "increase_win_rate": float(inc),
-                                            "hero_win_rate": float(h_wr) if h_wr is not None else 0.0
-                                        })
-                                cleaned_sub.sort(key=lambda x: x["increase_win_rate"], reverse=True)
-                                matchups_gms_data[main_id][rank][ct] = cleaned_sub
+                            if main_id not in rankings_rank_stats:
+                                rankings_rank_stats[main_id] = {}
+                            rankings_rank_stats[main_id][rank] = {
+                                "win_rate": round(wr, 2),
+                                "pick_rate": round(pr, 2),
+                                "ban_rate": round(br, 2)
+                            }
                 else:
                     print(f"    Failed with status: {r.status_code}")
             except Exception as e:
                 print(f"    Error: {e}")
 
-    print(f"\nScraped stats for {len(hero_stats_map)} distinct heroes.")
+    # 2. Fetch Guide Overall Data (Project 2713644 Source 2755183 & 2777391)
+    # We will also collect matchups data here
+    # main_heroid -> rank -> camp_type -> sub_heroes list
+    matchups_gms_data = {}
+    guide_overall_stats = {}
+
+    print("\n=== Fetching Guide Overall & Matchups Data ===")
+    
+    # A. Synergy/Teammates (Source 2755183)
+    synergy_url = "https://api.gms.moontontech.com/api/gms/source/2713644/2755183"
+    print("Fetching Guide Synergy Teammates (Source: 2755183)...")
+    payload = {
+        "pageIndex": 1,
+        "pageSize": 500,
+        "filters": [
+            {"field": "bigrank", "operator": "eq", "value": "101"},
+            {"field": "match_type", "operator": "eq", "value": "1"}
+        ]
+    }
+    try:
+        r = requests.post(synergy_url, headers=headers, json=payload, timeout=25)
+        if r.status_code == 200:
+            records = r.json().get("data", {}).get("records", [])
+            print(f"  Success! Got {len(records)} guide overall records.")
+            for rec in records:
+                d = rec.get("data", {})
+                main_id = d.get("main_heroid")
+                if main_id is None:
+                    continue
+                main_id = int(main_id)
+                
+                wr = float(d.get("main_hero_win_rate", 0)) * 100
+                pr = float(d.get("main_hero_appearance_rate", 0)) * 100
+                br = float(d.get("main_hero_ban_rate", 0)) * 100
+                
+                guide_overall_stats[main_id] = {
+                    "win_rate": round(wr, 2),
+                    "pick_rate": round(pr, 2),
+                    "ban_rate": round(br, 2)
+                }
+
+                # Extract teammates list
+                sub_heroes = d.get("sub_hero", [])
+                cleaned_sub = []
+                for sh in sub_heroes:
+                    sh_id = sh.get("heroid")
+                    inc = sh.get("increase_win_rate")
+                    h_wr = sh.get("hero_win_rate")
+                    if sh_id is not None and inc is not None:
+                        cleaned_sub.append({
+                            "heroid": int(sh_id),
+                            "increase_win_rate": float(inc),
+                            "hero_win_rate": float(h_wr) if h_wr is not None else 0.0
+                        })
+                cleaned_sub.sort(key=lambda x: x["increase_win_rate"], reverse=True)
+                
+                if main_id not in matchups_gms_data:
+                    matchups_gms_data[main_id] = {}
+                if "101" not in matchups_gms_data[main_id]:
+                    matchups_gms_data[main_id]["101"] = {}
+                matchups_gms_data[main_id]["101"][1] = cleaned_sub
+        else:
+            print(f"  Failed with status: {r.status_code}")
+    except Exception as e:
+        print(f"  Error: {e}")
+
+    # B. Counters (Source 2777391)
+    counters_url = "https://api.gms.moontontech.com/api/gms/source/2713644/2777391"
+    print("Fetching Guide Counters (Source: 2777391)...")
+    counters_payload = {
+        "pageIndex": 1,
+        "pageSize": 500,
+        "filters": [
+            {"field": "big_rank", "operator": "eq", "value": "101"}
+        ]
+    }
+    try:
+        r = requests.post(counters_url, headers=headers, json=counters_payload, timeout=25)
+        if r.status_code == 200:
+            records = r.json().get("data", {}).get("records")
+            if records is None:
+                records = []
+            print(f"  Success! Got {len(records)} guide relations records.")
+            counter_records_processed = 0
+            for rec in records:
+                d = rec.get("data", {})
+                main_id = d.get("main_heroid")
+                if main_id is None:
+                    continue
+                main_id = int(main_id)
+                
+                # Only process records representing counters (camp_type = 0)
+                camp_type = d.get("camp_type")
+                if camp_type is None or int(camp_type) != 0:
+                    continue
+                
+                # Extract counters list
+                sub_heroes = d.get("sub_hero", [])
+                cleaned_sub = []
+                for sh in sub_heroes:
+                    sh_id = sh.get("heroid")
+                    inc = sh.get("increase_win_rate")
+                    h_wr = sh.get("hero_win_rate")
+                    if sh_id is not None and inc is not None:
+                        cleaned_sub.append({
+                            "heroid": int(sh_id),
+                            "increase_win_rate": float(inc),
+                            "hero_win_rate": float(h_wr) if h_wr is not None else 0.0
+                        })
+                cleaned_sub.sort(key=lambda x: x["increase_win_rate"], reverse=True)
+                
+                if main_id not in matchups_gms_data:
+                    matchups_gms_data[main_id] = {}
+                if "101" not in matchups_gms_data[main_id]:
+                    matchups_gms_data[main_id]["101"] = {}
+                matchups_gms_data[main_id]["101"][0] = cleaned_sub
+                counter_records_processed += 1
+            print(f"  Processed {counter_records_processed} counters records.")
+        else:
+            print(f"  Failed with status: {r.status_code}")
+    except Exception as e:
+        print(f"  Error: {e}")
+
+    # 3. Fetch Guide Road Stats (Project 2713644 Source 2777027)
+    # Dictionary mapping (heroid, real_road) -> total_win_rate
+    road_win_rates = {}
+    print("\n=== Fetching Guide Road Stats (Project 2713644 Source 2777027) ===")
+    
+    # We fetch page 1 and page 2 to ensure we get all lane records (since max pageSize is 500)
+    for page in [1, 2]:
+        print(f"Fetching page {page}...")
+        road_payload = {
+            "pageIndex": page,
+            "pageSize": 500,
+            "filters": [
+                {"field": "big_rank", "operator": "eq", "value": "101"}
+            ]
+        }
+        try:
+            road_url = "https://api.gms.moontontech.com/api/gms/source/2713644/2777027"
+            r = requests.post(road_url, headers=headers, json=road_payload, timeout=25)
+            if r.status_code == 200:
+                records = r.json().get("data", {}).get("records", [])
+                print(f"  Success! Got {len(records)} records from page {page}.")
+                for rec in records:
+                    d = rec.get("data", {})
+                    heroid = d.get("heroid")
+                    real_road = d.get("real_road")
+                    total_win_rate = d.get("total_win_rate")
+                    if heroid is not None and real_road is not None and total_win_rate is not None:
+                        road_win_rates[(int(heroid), int(real_road))] = round(float(total_win_rate) * 100, 2)
+            else:
+                print(f"  Failed with status: {r.status_code}")
+        except Exception as e:
+            print(f"  Error: {e}")
 
     # Save the raw processed dictionary of matchups
     os.makedirs("data", exist_ok=True)
     with open("data/official_matchups_raw.json", "w", encoding="utf-8") as f:
         json.dump(matchups_gms_data, f, indent=2)
-    print("Saved raw matchups data to data/official_matchups_raw.json")
+    print("\nSaved raw matchups data to data/official_matchups_raw.json")
 
     # Compile matchups
     final_matchups = {}
-    rank_priority = ["101", "9", "8", "7", "6", "5"]
+    rank_priority = ["5", "6", "7", "8", "9", "101"]
     for main_id, ranks in matchups_gms_data.items():
         selected_rank = None
         for r_id in rank_priority:
@@ -154,50 +310,46 @@ def main():
                 with open("scratch/gms_hero_map.json", "r", encoding="utf-8") as f:
                     name_map = json.load(f)
             
-            meta_by_name = {h.get("name", "").lower().strip(): h for h in meta_stats}
-            updated_count = 0
+            # Create a reverse map: name.lower().strip() -> int(gms_hero_id)
+            name_to_id = {val.lower().strip(): int(key) for key, val in name_map.items()}
             
-            for main_id, periods_data in hero_stats_map.items():
-                s_id = str(main_id)
-                h_name = name_map.get(s_id)
-                if not h_name:
+            updated_count = 0
+            for hero_entry in meta_stats:
+                h_name = hero_entry.get("name", "").lower().strip()
+                hero_id = name_to_id.get(h_name)
+                if hero_id is None:
                     continue
                 
-                name_lower = h_name.lower().strip()
-                if name_lower in meta_by_name:
-                    hero_entry = meta_by_name[name_lower]
+                # Assign ID inside the entry (useful for stable compilation mapping)
+                hero_entry["id"] = hero_id
+                
+                # A. Update rankings history (Project 2669606)
+                if hero_id in rankings_history:
+                    hero_entry["history"] = rankings_history[hero_id]
+                if hero_id in rankings_rank_stats:
+                    hero_entry["rank_stats"] = rankings_rank_stats[hero_id]
+                
+                # B. Update overall root stats using guide overall (Source 2755183) & road stats (Source 2777027)
+                overall = guide_overall_stats.get(hero_id)
+                if overall:
+                    hero_entry["pick_rate"] = overall["pick_rate"]
+                    hero_entry["ban_rate"] = overall["ban_rate"]
                     
-                    # Update root stats (we use '7d' period and rank '101' as baseline)
-                    baseline = periods_data.get("7d", {}).get("101")
-                    if not baseline:
-                        # Fallback to whatever is available
-                        for p_id in ["7d", "30d", "1d"]:
-                            if p_id in periods_data and "101" in periods_data[p_id]:
-                                baseline = periods_data[p_id]["101"]
-                                break
-                    if not baseline and periods_data:
-                        first_p = list(periods_data.values())[0]
-                        if first_p:
-                            baseline = list(first_p.values())[0]
-                            
-                    if baseline:
-                        hero_entry["win_rate"] = baseline["win_rate"]
-                        hero_entry["pick_rate"] = baseline["pick_rate"]
-                        hero_entry["ban_rate"] = baseline["ban_rate"]
+                    # Resolve lane specific road win rate
+                    lane_str = hero_entry.get("lane")
+                    road_id = map_lane_to_road_id(lane_str)
                     
-                    # Update rank_stats (using '7d' as default rank stats mapping)
-                    default_rank_stats = periods_data.get("7d", {})
-                    if not default_rank_stats and periods_data:
-                        default_rank_stats = list(periods_data.values())[0]
-                    hero_entry["rank_stats"] = default_rank_stats
-                    
-                    # Update full history (period -> rank -> stats)
-                    hero_entry["history"] = periods_data
-                    updated_count += 1
+                    road_wr = road_win_rates.get((hero_id, road_id)) if road_id else None
+                    if road_wr is not None:
+                        hero_entry["win_rate"] = road_wr
+                    else:
+                        hero_entry["win_rate"] = overall["win_rate"]
+                        
+                updated_count += 1
                     
             with open(meta_stats_path, "w", encoding="utf-8") as f:
                 json.dump(meta_stats, f, indent=2)
-            print(f"Updated {updated_count} heroes stats inside src/data/hero_meta_stats.json from new GMS rankings.")
+            print(f"Updated {updated_count} heroes stats inside src/data/hero_meta_stats.json.")
         except Exception as e:
             print(f"Error updating hero_meta_stats.json: {e}")
 

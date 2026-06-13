@@ -953,35 +953,12 @@ export default function App() {
   const showcaseHeroes = useMemo(() => {
     if (!heroes || heroes.length === 0) return [];
     
-    // Resolve metrics using All Ranks (101) & 1d period stats from HERO_META_STATS
-    const resolvedHeroes = heroes.map(hero => {
-      const meta = HERO_META_STATS.find(m => m.name.toLowerCase() === hero.name.toLowerCase());
-      let winRate = hero.win_rate || 50.0;
-      let pickRate = hero.pick_rate || 0.0;
-      let banRate = hero.ban_rate || 0.0;
-
-      if (meta) {
-        const stats1d = meta.history?.["1d"]?.["101"] || meta.rank_stats?.["101"];
-        if (stats1d) {
-          winRate = stats1d.win_rate;
-          pickRate = stats1d.pick_rate;
-          banRate = stats1d.ban_rate;
-        }
-      }
-      return {
-        ...hero,
-        win_rate: winRate,
-        pick_rate: pickRate,
-        ban_rate: banRate
-      };
-    });
-
     const selected = new Set();
     const lanes = ['Gold Lane', 'EXP Lane', 'Mid Lane', 'Jungle', 'Roam'];
     const roles = ['Marksman', 'Assassin', 'Fighter', 'Mage', 'Tank', 'Support'];
     
     const getTopForFilter = (filterFn) => {
-      const filtered = resolvedHeroes.filter(filterFn);
+      const filtered = heroes.filter(filterFn);
       if (filtered.length === 0) return [];
       
       const topWin = [...filtered].sort((a, b) => (b.win_rate || 0) - (a.win_rate || 0))[0];
@@ -1004,7 +981,7 @@ export default function App() {
     });
 
     return Array.from(selected)
-      .map(id => resolvedHeroes.find(h => h.id === id))
+      .map(id => heroes.find(h => h.id === id))
       .filter(Boolean);
   }, [heroes]);
 
@@ -1089,30 +1066,7 @@ export default function App() {
   const metaSpotlightHeroes = useMemo(() => {
     if (!heroes || heroes.length === 0) return { banned: null, winRate: null, picked: null };
     
-    // Resolve metrics using All Ranks (101) & 1d period stats from HERO_META_STATS
-    const resolvedHeroes = heroes.map(hero => {
-      const meta = HERO_META_STATS.find(m => m.name.toLowerCase() === hero.name.toLowerCase());
-      let winRate = hero.win_rate || 50.0;
-      let pickRate = hero.pick_rate || 0.0;
-      let banRate = hero.ban_rate || 0.0;
-
-      if (meta) {
-        const stats1d = meta.history?.["1d"]?.["101"] || meta.rank_stats?.["101"];
-        if (stats1d) {
-          winRate = stats1d.win_rate;
-          pickRate = stats1d.pick_rate;
-          banRate = stats1d.ban_rate;
-        }
-      }
-      return {
-        ...hero,
-        win_rate: winRate,
-        pick_rate: pickRate,
-        ban_rate: banRate
-      };
-    });
-
-    const sorted = resolvedHeroes.filter(h => h.ban_rate != null && h.win_rate != null && h.pick_rate != null);
+    const sorted = heroes.filter(h => h.ban_rate != null && h.win_rate != null && h.pick_rate != null);
     const banned = [...sorted].sort((a, b) => b.ban_rate - a.ban_rate)[0] || null;
     const winRate = [...sorted].sort((a, b) => b.win_rate - a.win_rate)[0] || null;
     const picked = [...sorted].sort((a, b) => b.pick_rate - a.pick_rate)[0] || null;
@@ -1610,7 +1564,7 @@ export default function App() {
 
   const [rankingsRankFilter, setRankingsRankFilter] = useState('101');
 
-  const [rankingsDaysFilter, setRankingsDaysFilter] = useState('7d');
+  const [rankingsDaysFilter, setRankingsDaysFilter] = useState('1d');
 
 
 
@@ -2159,11 +2113,25 @@ export default function App() {
 
       // 2. Fetch global patch metadata and index files (with remote OTA update check)
       try {
-        let patchData = { current_patch: "1.8.84", total_heroes: 124 };
+        // 1. Always fetch local patch configuration first
+        let localPatchData = { current_patch: "1.8.84", data_revision: "0", total_heroes: 124 };
+        try {
+          const localPatchRes = await fetch(
+            `${window.location.origin}/data/meta/current_patch.json?t=${Date.now()}`,
+            { cache: 'no-store' }
+          );
+          if (localPatchRes.ok) {
+            localPatchData = await localPatchRes.json();
+          }
+        } catch (localErr) {
+          console.warn('[App] Local patch metadata fetch failed:', localErr);
+        }
+
+        let patchData = { ...localPatchData };
         let activeBaseUrl = window.location.origin;
         let isUsingRemote = false;
 
-        // Try checking remote Cloudflare Worker proxy first (OTA update)
+        // 2. Try checking remote Cloudflare Worker proxy (OTA update) — only on deployed builds
         try {
           const isLocal = (window.location.hostname === 'localhost' || 
                           window.location.hostname === '127.0.0.1' || 
@@ -2180,45 +2148,44 @@ export default function App() {
               { cache: 'no-store' }
             );
             if (remotePatchRes.ok) {
-              const data = await remotePatchRes.json();
-              if (data && data.current_patch) {
-                patchData = data;
-                activeBaseUrl = REMOTE_UPDATE_BASE_URL;
-                isUsingRemote = true;
-                console.log(`[App] Remote OTA connection verified successfully. Version: ${patchData.current_patch}`);
+              const remoteData = await remotePatchRes.json();
+              if (remoteData && remoteData.current_patch) {
+                // Compare data_revision (timestamp-based build number, e.g. "20260613142019")
+                // Higher revision = fresher data. Fall back to last_updated_time if data_revision is missing.
+                const localRev = localPatchData.data_revision || localPatchData.last_updated_time || "0";
+                const remoteRev = remoteData.data_revision || remoteData.last_updated_time || "0";
+                
+                if (remoteRev > localRev) {
+                  patchData = remoteData;
+                  activeBaseUrl = REMOTE_UPDATE_BASE_URL;
+                  isUsingRemote = true;
+                  console.log(`[App] Remote OTA has fresher data (rev ${remoteRev} > local ${localRev}). Using remote.`);
+                } else {
+                  console.log(`[App] Local data is up-to-date (local rev ${localRev} >= remote ${remoteRev}). Using local.`);
+                }
               }
             }
           }
         } catch (remoteErr) {
           console.warn('[App] Remote OTA patch check unavailable or offline. Defaulting to local assets.', remoteErr);
         }
-
-        // Fallback to local files if remote fetch was skipped or failed
-        if (!isUsingRemote) {
-          const localPatchRes = await fetch(
-            `${window.location.origin}/data/meta/current_patch.json?t=${Date.now()}`,
-            { cache: 'no-store' }
-          );
-          if (localPatchRes.ok) {
-            patchData = await localPatchRes.json();
-          }
-        }
         
         if (!active) return;
         setPatchMeta(patchData);
         const version = patchData.current_patch;
-        const lastUpdated = patchData.last_updated_time;
-        const revisionQuery = lastUpdated ? `?rev=${encodeURIComponent(lastUpdated)}` : '';
+        const dataRevision = patchData.data_revision || patchData.last_updated_time || '';
+        const revisionQuery = dataRevision ? `?rev=${encodeURIComponent(dataRevision)}` : '';
         activeDataBaseUrlRef.current = activeBaseUrl;
         activeDataRevisionRef.current = revisionQuery;
 
-        const localKey = `mlbb_patch_last_updated_${version}_${lang}`;
-        const prevLastUpdated = localStorage.getItem(localKey);
+        // Track data_revision to detect when a new compilation has been published
+        const localKey = `mlbb_data_revision_${version}_${lang}`;
+        const prevRevision = localStorage.getItem(localKey);
         
-        if (lastUpdated && prevLastUpdated !== lastUpdated) {
-          console.log(`[App] Detected new patch compilation timestamp (${lastUpdated}). Resetting load state to force re-seed.`);
+        if (dataRevision && prevRevision !== dataRevision) {
+          console.log(`[App] Detected new data revision (${dataRevision} vs prev ${prevRevision}). Resetting load state to force re-seed.`);
           await PatchRepository.setPatchLoaded(version, lang, false);
-          localStorage.setItem(localKey, lastUpdated);
+          localStorage.setItem(localKey, dataRevision);
         }
 
         // Fetch index.json and draft_matrix.json concurrently from active base URL
@@ -2238,10 +2205,10 @@ export default function App() {
         setHeroes(indexData);
         setDraftMatrix(matrixData);
         setLoading(false);
-        TelemetryService.log('boot_load_success', { version, lang, isUsingRemote });
+        TelemetryService.log('boot_load_success', { version, lang, dataRevision, isUsingRemote });
 
         // 3. Asynchronously seed database in the background non-blockingly
-        BackgroundSeeder.start(version, lang, indexData, activeBaseUrl, lastUpdated);
+        BackgroundSeeder.start(version, lang, indexData, activeBaseUrl, dataRevision);
 
       } catch (err) {
 
@@ -2498,66 +2465,20 @@ export default function App() {
     if (!heroes || heroes.length === 0) {
       return { highestWR: null, mostBanned: null, mostPicked: null, mostContested: null };
     }
-    // Resolve metrics using All Ranks (101) & 1d period stats from HERO_META_STATS
-    const resolvedHeroes = heroes.map(hero => {
-      const meta = HERO_META_STATS.find(m => m.name.toLowerCase() === hero.name.toLowerCase());
-      let winRate = hero.win_rate || 50.0;
-      let pickRate = hero.pick_rate || 0.0;
-      let banRate = hero.ban_rate || 0.0;
-
-      if (meta) {
-        const stats1d = meta.history?.["1d"]?.["101"] || meta.rank_stats?.["101"];
-        if (stats1d) {
-          winRate = stats1d.win_rate;
-          pickRate = stats1d.pick_rate;
-          banRate = stats1d.ban_rate;
-        }
-      }
-      return {
-        ...hero,
-        win_rate: winRate,
-        pick_rate: pickRate,
-        ban_rate: banRate
-      };
-    });
-
-    const highestWR = [...resolvedHeroes].sort((a, b) => b.win_rate - a.win_rate)[0] || null;
-    const mostBanned = [...resolvedHeroes].sort((a, b) => b.ban_rate - a.ban_rate)[0] || null;
-    const mostPicked = [...resolvedHeroes].sort((a, b) => b.pick_rate - a.pick_rate)[0] || null;
-    const mostContested = [...resolvedHeroes].sort((a, b) => (b.pick_rate + b.ban_rate) - (a.pick_rate + a.ban_rate))[0] || null;
+    const highestWR = [...heroes].sort((a, b) => b.win_rate - a.win_rate)[0] || null;
+    const mostBanned = [...heroes].sort((a, b) => b.ban_rate - a.ban_rate)[0] || null;
+    const mostPicked = [...heroes].sort((a, b) => b.pick_rate - a.pick_rate)[0] || null;
+    const mostContested = [...heroes].sort((a, b) => (b.pick_rate + b.ban_rate) - (a.pick_rate + a.ban_rate))[0] || null;
     return { highestWR, mostBanned, mostPicked, mostContested };
   }, [heroes]);
 
   const roleLeaders = useMemo(() => {
     if (!heroes || heroes.length === 0) return {};
     
-    // Resolve metrics using All Ranks (101) & 1d period stats from HERO_META_STATS
-    const resolvedHeroes = heroes.map(hero => {
-      const meta = HERO_META_STATS.find(m => m.name.toLowerCase() === hero.name.toLowerCase());
-      let winRate = hero.win_rate || 50.0;
-      let pickRate = hero.pick_rate || 0.0;
-      let banRate = hero.ban_rate || 0.0;
-
-      if (meta) {
-        const stats1d = meta.history?.["1d"]?.["101"] || meta.rank_stats?.["101"];
-        if (stats1d) {
-          winRate = stats1d.win_rate;
-          pickRate = stats1d.pick_rate;
-          banRate = stats1d.ban_rate;
-        }
-      }
-      return {
-        ...hero,
-        win_rate: winRate,
-        pick_rate: pickRate,
-        ban_rate: banRate
-      };
-    });
-
     const roles = ['Marksman', 'Mage', 'Fighter', 'Assassin', 'Tank', 'Support'];
     const leaders = {};
     roles.forEach(role => {
-      const roleHeroes = resolvedHeroes.filter(h => h.role === role);
+      const roleHeroes = heroes.filter(h => h.role === role);
       if (roleHeroes.length > 0) {
         leaders[role] = [...roleHeroes].sort((a, b) => b.win_rate - a.win_rate)[0];
       } else {
@@ -7458,9 +7379,28 @@ export default function App() {
 
                         {(() => {
 
-                          const verticalList = (battleStatusSubTab === 'teammates' ? rawSynergy : rawCounters)
+                          const baseList = battleStatusSubTab === 'teammates' ? rawSynergy : rawCounters;
+                          const existingIds = new Set(baseList.map(item => Number(item.id)).filter(Boolean));
+                          const missingItems = heroes
+                            .filter(h => h.id !== activeHero.id && !existingIds.has(Number(h.id)))
+                            .map(h => {
+                              const meta = HERO_META_STATS.find(m => m.name.toLowerCase() === h.name.toLowerCase()) || {};
+                              return {
+                                id: h.id,
+                                name: h.name,
+                                avatar_url: h.avatar_url,
+                                role: h.role,
+                                lane: h.lane || meta.lane || 'Lane',
+                                tier: meta.tier || 'A',
+                                win_rate: h.win_rate || 50,
+                                reason: battleStatusSubTab === 'teammates' 
+                                  ? `Neutral synergy partner for ${activeHero.name}.`
+                                  : `Neutral matchup dynamic with ${activeHero.name}.`,
+                                score: 0.0
+                              };
+                            });
 
-                            .slice()
+                          const verticalList = [...baseList, ...missingItems]
 
                             .sort((a, b) => b.score - a.score);
 
