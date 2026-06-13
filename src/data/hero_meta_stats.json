@@ -56,34 +56,34 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 56.26,
+          "win_rate": 56.33,
           "pick_rate": 0.11,
-          "ban_rate": 0.61
+          "ban_rate": 0.32
         },
         "9": {
-          "win_rate": 57.16,
+          "win_rate": 57.25,
           "pick_rate": 0.14,
-          "ban_rate": 0.45
+          "ban_rate": 0.43
         },
         "8": {
-          "win_rate": 54.87,
-          "pick_rate": 0.07,
-          "ban_rate": 0.25
+          "win_rate": 53.95,
+          "pick_rate": 0.06,
+          "ban_rate": 0.24
         },
         "7": {
-          "win_rate": 52.34,
+          "win_rate": 53.78,
           "pick_rate": 0.05,
-          "ban_rate": 0.27
+          "ban_rate": 0.28
         },
         "6": {
-          "win_rate": 50.89,
+          "win_rate": 51.67,
           "pick_rate": 0.05,
-          "ban_rate": 0.39
+          "ban_rate": 0.4
         },
         "5": {
-          "win_rate": 50.84,
+          "win_rate": 50.73,
           "pick_rate": 0.05,
-          "ban_rate": 0.52
+          "ban_rate": 0.53
         }
       },
       "7d": {
@@ -208,34 +208,34 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 55.4,
+          "win_rate": 55.38,
           "pick_rate": 1.52,
-          "ban_rate": 3.36
+          "ban_rate": 3.48
         },
         "9": {
-          "win_rate": 55.86,
-          "pick_rate": 1.67,
-          "ban_rate": 3.9
+          "win_rate": 55.89,
+          "pick_rate": 1.68,
+          "ban_rate": 3.97
         },
         "8": {
-          "win_rate": 55.01,
+          "win_rate": 54.66,
           "pick_rate": 1.43,
-          "ban_rate": 3.74
+          "ban_rate": 3.85
         },
         "7": {
-          "win_rate": 54.72,
-          "pick_rate": 1.29,
-          "ban_rate": 4.02
+          "win_rate": 54.91,
+          "pick_rate": 1.28,
+          "ban_rate": 4.08
         },
         "6": {
-          "win_rate": 54.02,
-          "pick_rate": 1.17,
-          "ban_rate": 3.55
+          "win_rate": 54.12,
+          "pick_rate": 1.16,
+          "ban_rate": 3.52
         },
         "5": {
-          "win_rate": 53.34,
+          "win_rate": 53.44,
           "pick_rate": 1.07,
-          "ban_rate": 3.65
+          "ban_rate": 3.6
         }
       },
       "7d": {
@@ -360,34 +360,34 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 55.35,
+          "win_rate": 55.3,
           "pick_rate": 0.59,
-          "ban_rate": 67.42
+          "ban_rate": 68.72
         },
         "9": {
-          "win_rate": 54.4,
+          "win_rate": 54.29,
           "pick_rate": 0.66,
-          "ban_rate": 85.33
+          "ban_rate": 85.27
         },
         "8": {
-          "win_rate": 57.06,
+          "win_rate": 57.1,
           "pick_rate": 0.54,
-          "ban_rate": 85.16
+          "ban_rate": 85.07
         },
         "7": {
-          "win_rate": 57.54,
-          "pick_rate": 0.5,
-          "ban_rate": 75.86
+          "win_rate": 57.33,
+          "pick_rate": 0.51,
+          "ban_rate": 75.51
         },
         "6": {
-          "win_rate": 56.76,
+          "win_rate": 57.23,
           "pick_rate": 0.45,
-          "ban_rate": 53.75
+          "ban_rate": 53.52
         },
         "5": {
-          "win_rate": 54.78,
+          "win_rate": 56.16,
           "pick_rate": 0.27,
-          "ban_rate": 25.66
+          "ban_rate": 25.69
         }
       },
       "7d": {
@@ -512,34 +512,34 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 55.52,
+          "win_rate": 55.58,
           "pick_rate": 0.26,
-          "ban_rate": 123.71
+          "ban_rate": 127.65
         },
         "9": {
-          "win_rate": 56.28,
+          "win_rate": 56.33,
           "pick_rate": 0.34,
-          "ban_rate": 46.29
+          "ban_rate": 46.65
         },
         "8": {
-          "win_rate": 54.01,
-          "pick_rate": 0.18,
+          "win_rate": 53.69,
+          "pick_rate": 0.19,
           "ban_rate": 26.37
         },
         "7": {
-          "win_rate": 52.9,
+          "win_rate": 54.09,
           "pick_rate": 0.14,
-          "ban_rate": 19.76
+          "ban_rate": 19.66
         },
         "6": {
-          "win_rate": 52.24,
-          "pick_rate": 0.11,
-          "ban_rate": 14.11
+          "win_rate": 51.71,
+          "pick_rate": 0.12,
+          "ban_rate": 14.01
         },
         "5": {
-          "win_rate": 51.09,
+          "win_rate": 52.19,
           "pick_rate": 0.1,
-          "ban_rate": 7.99
+          "ban_rate": 7.98
         }
       },
       "7d": {
@@ -665,34 +665,34 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 54.95,
+          "win_rate": 55.15,
           "pick_rate": 0.11,
-          "ban_rate": 1.51
+          "ban_rate": 1.6
         },
         "9": {
-          "win_rate": 54.45,
+          "win_rate": 54.83,
           "pick_rate": 0.13,
-          "ban_rate": 0.31
+          "ban_rate": 0.32
         },
         "8": {
-          "win_rate": 55.47,
-          "pick_rate": 0.12,
-          "ban_rate": 0.43
+          "win_rate": 55.55,
+          "pick_rate": 0.11,
+          "ban_rate": 0.42
         },
         "7": {
-          "win_rate": 56.25,
-          "pick_rate": 0.09,
-          "ban_rate": 0.46
+          "win_rate": 57.0,
+          "pick_rate": 0.08,
+          "ban_rate": 0.44
         },
         "6": {
-          "win_rate": 56.67,
+          "win_rate": 55.41,
           "pick_rate": 0.07,
-          "ban_rate": 0.59
+          "ban_rate": 0.6
         },
         "5": {
-          "win_rate": 55.86,
+          "win_rate": 54.72,
           "pick_rate": 0.04,
-          "ban_rate": 0.96
+          "ban_rate": 0.97
         }
       },
       "7d": {
@@ -817,34 +817,34 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 54.73,
-          "pick_rate": 3.24,
-          "ban_rate": 10.88
+          "win_rate": 54.72,
+          "pick_rate": 3.2,
+          "ban_rate": 11.08
         },
         "9": {
-          "win_rate": 53.83,
-          "pick_rate": 2.58,
-          "ban_rate": 7.41
+          "win_rate": 53.84,
+          "pick_rate": 2.55,
+          "ban_rate": 7.4
         },
         "8": {
-          "win_rate": 55.48,
-          "pick_rate": 3.76,
-          "ban_rate": 13.05
+          "win_rate": 55.38,
+          "pick_rate": 3.75,
+          "ban_rate": 13.0
         },
         "7": {
-          "win_rate": 55.27,
-          "pick_rate": 4.13,
-          "ban_rate": 17.07
+          "win_rate": 55.23,
+          "pick_rate": 4.09,
+          "ban_rate": 17.09
         },
         "6": {
-          "win_rate": 55.39,
-          "pick_rate": 4.52,
-          "ban_rate": 18.52
+          "win_rate": 55.63,
+          "pick_rate": 4.51,
+          "ban_rate": 18.64
         },
         "5": {
-          "win_rate": 55.87,
+          "win_rate": 55.8,
           "pick_rate": 4.85,
-          "ban_rate": 15.4
+          "ban_rate": 15.61
         }
       },
       "7d": {
@@ -969,34 +969,34 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 54.28,
-          "pick_rate": 0.21,
-          "ban_rate": 20.37
+          "win_rate": 54.47,
+          "pick_rate": 0.2,
+          "ban_rate": 20.76
         },
         "9": {
-          "win_rate": 55.27,
+          "win_rate": 55.63,
           "pick_rate": 0.26,
-          "ban_rate": 6.77
+          "ban_rate": 6.8
         },
         "8": {
-          "win_rate": 51.88,
+          "win_rate": 51.54,
           "pick_rate": 0.16,
-          "ban_rate": 4.83
+          "ban_rate": 4.89
         },
         "7": {
-          "win_rate": 51.38,
+          "win_rate": 51.36,
           "pick_rate": 0.12,
-          "ban_rate": 4.09
+          "ban_rate": 4.04
         },
         "6": {
-          "win_rate": 51.78,
+          "win_rate": 50.34,
           "pick_rate": 0.09,
-          "ban_rate": 2.97
+          "ban_rate": 2.98
         },
         "5": {
-          "win_rate": 50.73,
-          "pick_rate": 0.06,
-          "ban_rate": 1.6
+          "win_rate": 50.9,
+          "pick_rate": 0.05,
+          "ban_rate": 1.62
         }
       },
       "7d": {
@@ -1121,34 +1121,34 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 53.93,
-          "pick_rate": 1.64,
-          "ban_rate": 42.33
+          "win_rate": 53.85,
+          "pick_rate": 1.63,
+          "ban_rate": 43.32
         },
         "9": {
-          "win_rate": 53.05,
+          "win_rate": 52.92,
           "pick_rate": 1.56,
-          "ban_rate": 54.0
+          "ban_rate": 53.79
         },
         "8": {
-          "win_rate": 55.25,
-          "pick_rate": 1.77,
-          "ban_rate": 49.63
+          "win_rate": 55.3,
+          "pick_rate": 1.76,
+          "ban_rate": 49.81
         },
         "7": {
-          "win_rate": 54.11,
+          "win_rate": 54.09,
           "pick_rate": 1.83,
-          "ban_rate": 45.54
+          "ban_rate": 45.7
         },
         "6": {
-          "win_rate": 54.93,
-          "pick_rate": 1.64,
-          "ban_rate": 38.08
+          "win_rate": 54.92,
+          "pick_rate": 1.65,
+          "ban_rate": 38.54
         },
         "5": {
-          "win_rate": 55.0,
-          "pick_rate": 1.44,
-          "ban_rate": 30.68
+          "win_rate": 55.24,
+          "pick_rate": 1.46,
+          "ban_rate": 31.05
         }
       },
       "7d": {
@@ -1274,34 +1274,34 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 53.8,
-          "pick_rate": 0.26,
-          "ban_rate": 8.54
+          "win_rate": 54.03,
+          "pick_rate": 0.25,
+          "ban_rate": 8.56
         },
         "9": {
-          "win_rate": 54.37,
-          "pick_rate": 0.38,
-          "ban_rate": 10.11
+          "win_rate": 54.51,
+          "pick_rate": 0.36,
+          "ban_rate": 9.76
         },
         "8": {
-          "win_rate": 50.54,
+          "win_rate": 51.24,
           "pick_rate": 0.13,
-          "ban_rate": 2.31
+          "ban_rate": 2.27
         },
         "7": {
-          "win_rate": 53.37,
+          "win_rate": 53.65,
           "pick_rate": 0.08,
-          "ban_rate": 1.46
+          "ban_rate": 1.47
         },
         "6": {
-          "win_rate": 50.49,
+          "win_rate": 51.36,
           "pick_rate": 0.06,
-          "ban_rate": 0.9
+          "ban_rate": 0.88
         },
         "5": {
-          "win_rate": 52.01,
+          "win_rate": 49.53,
           "pick_rate": 0.03,
-          "ban_rate": 0.48
+          "ban_rate": 0.49
         }
       },
       "7d": {
@@ -1426,32 +1426,32 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 53.13,
-          "pick_rate": 0.26,
-          "ban_rate": 3.06
+          "win_rate": 53.38,
+          "pick_rate": 0.25,
+          "ban_rate": 2.51
         },
         "9": {
-          "win_rate": 53.29,
-          "pick_rate": 0.37,
-          "ban_rate": 1.12
+          "win_rate": 53.61,
+          "pick_rate": 0.35,
+          "ban_rate": 1.1
         },
         "8": {
-          "win_rate": 52.12,
-          "pick_rate": 0.16,
-          "ban_rate": 0.63
+          "win_rate": 51.83,
+          "pick_rate": 0.15,
+          "ban_rate": 0.62
         },
         "7": {
-          "win_rate": 53.32,
+          "win_rate": 54.02,
           "pick_rate": 0.1,
           "ban_rate": 0.52
         },
         "6": {
-          "win_rate": 52.86,
+          "win_rate": 52.84,
           "pick_rate": 0.08,
-          "ban_rate": 0.46
+          "ban_rate": 0.47
         },
         "5": {
-          "win_rate": 54.79,
+          "win_rate": 55.85,
           "pick_rate": 0.05,
           "ban_rate": 0.43
         }
@@ -1578,34 +1578,34 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 53.43,
-          "pick_rate": 1.14,
-          "ban_rate": 24.27
+          "win_rate": 53.47,
+          "pick_rate": 1.33,
+          "ban_rate": 24.49
         },
         "9": {
-          "win_rate": 53.64,
-          "pick_rate": 1.43,
-          "ban_rate": 16.98
+          "win_rate": 53.55,
+          "pick_rate": 1.67,
+          "ban_rate": 16.82
         },
         "8": {
-          "win_rate": 52.74,
-          "pick_rate": 0.86,
-          "ban_rate": 15.38
+          "win_rate": 53.21,
+          "pick_rate": 1.02,
+          "ban_rate": 15.18
         },
         "7": {
-          "win_rate": 53.43,
-          "pick_rate": 0.72,
-          "ban_rate": 12.16
+          "win_rate": 53.59,
+          "pick_rate": 0.84,
+          "ban_rate": 11.93
         },
         "6": {
-          "win_rate": 53.13,
-          "pick_rate": 0.64,
-          "ban_rate": 7.79
+          "win_rate": 53.24,
+          "pick_rate": 0.73,
+          "ban_rate": 7.65
         },
         "5": {
-          "win_rate": 52.6,
-          "pick_rate": 0.5,
-          "ban_rate": 3.42
+          "win_rate": 53.06,
+          "pick_rate": 0.55,
+          "ban_rate": 3.36
         }
       },
       "7d": {
@@ -1730,34 +1730,34 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 53.42,
-          "pick_rate": 1.11,
-          "ban_rate": 12.8
+          "win_rate": 53.46,
+          "pick_rate": 1.14,
+          "ban_rate": 13.13
         },
         "9": {
-          "win_rate": 53.45,
-          "pick_rate": 1.49,
-          "ban_rate": 20.27
+          "win_rate": 53.46,
+          "pick_rate": 1.51,
+          "ban_rate": 20.12
         },
         "8": {
-          "win_rate": 52.94,
-          "pick_rate": 0.82,
-          "ban_rate": 13.16
+          "win_rate": 53.05,
+          "pick_rate": 0.83,
+          "ban_rate": 13.27
         },
         "7": {
-          "win_rate": 53.72,
-          "pick_rate": 0.58,
-          "ban_rate": 12.31
+          "win_rate": 54.04,
+          "pick_rate": 0.6,
+          "ban_rate": 12.47
         },
         "6": {
-          "win_rate": 54.44,
-          "pick_rate": 0.4,
-          "ban_rate": 7.73
+          "win_rate": 54.24,
+          "pick_rate": 0.41,
+          "ban_rate": 7.88
         },
         "5": {
-          "win_rate": 55.65,
+          "win_rate": 55.28,
           "pick_rate": 0.24,
-          "ban_rate": 3.55
+          "ban_rate": 3.58
         }
       },
       "7d": {
@@ -1882,34 +1882,34 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 52.73,
-          "pick_rate": 1.06,
-          "ban_rate": 2.65
+          "win_rate": 52.9,
+          "pick_rate": 1.05,
+          "ban_rate": 2.73
         },
         "9": {
-          "win_rate": 52.51,
+          "win_rate": 52.74,
           "pick_rate": 1.02,
-          "ban_rate": 2.18
+          "ban_rate": 2.24
         },
         "8": {
-          "win_rate": 52.97,
-          "pick_rate": 1.15,
-          "ban_rate": 3.36
+          "win_rate": 53.16,
+          "pick_rate": 1.14,
+          "ban_rate": 3.4
         },
         "7": {
-          "win_rate": 52.96,
-          "pick_rate": 1.18,
-          "ban_rate": 4.19
+          "win_rate": 53.0,
+          "pick_rate": 1.16,
+          "ban_rate": 4.23
         },
         "6": {
-          "win_rate": 52.88,
-          "pick_rate": 1.05,
-          "ban_rate": 3.54
+          "win_rate": 52.91,
+          "pick_rate": 1.04,
+          "ban_rate": 3.52
         },
         "5": {
-          "win_rate": 53.49,
-          "pick_rate": 0.75,
-          "ban_rate": 2.2
+          "win_rate": 53.79,
+          "pick_rate": 0.72,
+          "ban_rate": 2.13
         }
       },
       "7d": {
@@ -2034,34 +2034,34 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 52.87,
-          "pick_rate": 1.3,
-          "ban_rate": 3.15
+          "win_rate": 52.88,
+          "pick_rate": 1.27,
+          "ban_rate": 3.21
         },
         "9": {
-          "win_rate": 52.4,
-          "pick_rate": 1.06,
-          "ban_rate": 1.76
+          "win_rate": 52.39,
+          "pick_rate": 1.05,
+          "ban_rate": 1.77
         },
         "8": {
-          "win_rate": 53.7,
-          "pick_rate": 1.55,
-          "ban_rate": 4.18
+          "win_rate": 53.8,
+          "pick_rate": 1.53,
+          "ban_rate": 4.17
         },
         "7": {
-          "win_rate": 53.39,
-          "pick_rate": 1.74,
-          "ban_rate": 5.74
+          "win_rate": 53.28,
+          "pick_rate": 1.7,
+          "ban_rate": 5.72
         },
         "6": {
-          "win_rate": 52.52,
-          "pick_rate": 1.65,
-          "ban_rate": 5.07
+          "win_rate": 52.6,
+          "pick_rate": 1.61,
+          "ban_rate": 5.15
         },
         "5": {
-          "win_rate": 52.29,
-          "pick_rate": 1.44,
-          "ban_rate": 3.06
+          "win_rate": 52.13,
+          "pick_rate": 1.4,
+          "ban_rate": 3.17
         }
       },
       "7d": {
@@ -2186,34 +2186,34 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 52.91,
-          "pick_rate": 0.28,
-          "ban_rate": 0.34
+          "win_rate": 52.78,
+          "pick_rate": 0.27,
+          "ban_rate": 0.35
         },
         "9": {
-          "win_rate": 52.03,
-          "pick_rate": 0.24,
+          "win_rate": 52.23,
+          "pick_rate": 0.23,
           "ban_rate": 0.09
         },
         "8": {
-          "win_rate": 53.41,
-          "pick_rate": 0.34,
+          "win_rate": 52.75,
+          "pick_rate": 0.33,
           "ban_rate": 0.22
         },
         "7": {
-          "win_rate": 53.98,
+          "win_rate": 53.47,
           "pick_rate": 0.34,
-          "ban_rate": 0.46
+          "ban_rate": 0.47
         },
         "6": {
-          "win_rate": 54.0,
+          "win_rate": 54.2,
           "pick_rate": 0.33,
-          "ban_rate": 1.09
+          "ban_rate": 1.08
         },
         "5": {
-          "win_rate": 54.59,
-          "pick_rate": 0.23,
-          "ban_rate": 1.71
+          "win_rate": 54.44,
+          "pick_rate": 0.22,
+          "ban_rate": 1.68
         }
       },
       "7d": {
@@ -2338,34 +2338,34 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 53.09,
-          "pick_rate": 1.63,
-          "ban_rate": 12.99
+          "win_rate": 52.96,
+          "pick_rate": 1.62,
+          "ban_rate": 13.48
         },
         "9": {
-          "win_rate": 52.25,
-          "pick_rate": 1.69,
-          "ban_rate": 11.3
+          "win_rate": 52.18,
+          "pick_rate": 1.68,
+          "ban_rate": 11.72
         },
         "8": {
-          "win_rate": 53.95,
-          "pick_rate": 1.63,
-          "ban_rate": 16.87
+          "win_rate": 53.75,
+          "pick_rate": 1.6,
+          "ban_rate": 17.16
         },
         "7": {
-          "win_rate": 54.21,
-          "pick_rate": 1.53,
-          "ban_rate": 19.76
+          "win_rate": 54.16,
+          "pick_rate": 1.51,
+          "ban_rate": 19.9
         },
         "6": {
-          "win_rate": 54.69,
-          "pick_rate": 1.5,
-          "ban_rate": 16.08
+          "win_rate": 54.57,
+          "pick_rate": 1.47,
+          "ban_rate": 16.27
         },
         "5": {
-          "win_rate": 55.15,
-          "pick_rate": 1.43,
-          "ban_rate": 9.57
+          "win_rate": 55.0,
+          "pick_rate": 1.41,
+          "ban_rate": 9.71
         }
       },
       "7d": {
@@ -2490,34 +2490,34 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 52.52,
-          "pick_rate": 0.35,
-          "ban_rate": 1.22
+          "win_rate": 52.14,
+          "pick_rate": 0.38,
+          "ban_rate": 0.64
         },
         "9": {
-          "win_rate": 52.23,
-          "pick_rate": 0.46,
+          "win_rate": 51.83,
+          "pick_rate": 0.49,
           "ban_rate": 0.84
         },
         "8": {
-          "win_rate": 52.72,
-          "pick_rate": 0.27,
-          "ban_rate": 0.73
+          "win_rate": 52.42,
+          "pick_rate": 0.29,
+          "ban_rate": 0.75
         },
         "7": {
-          "win_rate": 55.06,
-          "pick_rate": 0.19,
-          "ban_rate": 0.62
+          "win_rate": 54.51,
+          "pick_rate": 0.21,
+          "ban_rate": 0.64
         },
         "6": {
-          "win_rate": 54.05,
+          "win_rate": 53.85,
           "pick_rate": 0.15,
-          "ban_rate": 0.47
+          "ban_rate": 0.49
         },
         "5": {
-          "win_rate": 52.22,
+          "win_rate": 53.96,
           "pick_rate": 0.09,
-          "ban_rate": 0.3
+          "ban_rate": 0.34
         }
       },
       "7d": {
@@ -2643,34 +2643,34 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 52.64,
-          "pick_rate": 0.42,
-          "ban_rate": 4.19
+          "win_rate": 52.59,
+          "pick_rate": 0.41,
+          "ban_rate": 4.68
         },
         "9": {
-          "win_rate": 52.66,
-          "pick_rate": 0.51,
-          "ban_rate": 1.92
+          "win_rate": 52.63,
+          "pick_rate": 0.49,
+          "ban_rate": 1.9
         },
         "8": {
-          "win_rate": 52.74,
-          "pick_rate": 0.36,
-          "ban_rate": 1.81
-        },
-        "7": {
-          "win_rate": 52.63,
-          "pick_rate": 0.28,
-          "ban_rate": 2.29
-        },
-        "6": {
-          "win_rate": 52.49,
-          "pick_rate": 0.26,
+          "win_rate": 52.55,
+          "pick_rate": 0.35,
           "ban_rate": 1.83
         },
+        "7": {
+          "win_rate": 52.85,
+          "pick_rate": 0.27,
+          "ban_rate": 2.28
+        },
+        "6": {
+          "win_rate": 52.52,
+          "pick_rate": 0.25,
+          "ban_rate": 1.79
+        },
         "5": {
-          "win_rate": 51.5,
-          "pick_rate": 0.22,
-          "ban_rate": 1.74
+          "win_rate": 51.2,
+          "pick_rate": 0.21,
+          "ban_rate": 1.71
         }
       },
       "7d": {
@@ -2796,34 +2796,34 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 52.68,
-          "pick_rate": 0.99,
-          "ban_rate": 18.06
+          "win_rate": 52.58,
+          "pick_rate": 0.97,
+          "ban_rate": 17.94
         },
         "9": {
-          "win_rate": 51.92,
-          "pick_rate": 0.94,
-          "ban_rate": 22.62
+          "win_rate": 51.7,
+          "pick_rate": 0.92,
+          "ban_rate": 21.77
         },
         "8": {
-          "win_rate": 53.2,
-          "pick_rate": 1.11,
-          "ban_rate": 23.39
+          "win_rate": 53.29,
+          "pick_rate": 1.09,
+          "ban_rate": 22.84
         },
         "7": {
-          "win_rate": 53.95,
-          "pick_rate": 1.1,
-          "ban_rate": 20.42
+          "win_rate": 54.24,
+          "pick_rate": 1.08,
+          "ban_rate": 20.08
         },
         "6": {
-          "win_rate": 53.84,
-          "pick_rate": 1.02,
-          "ban_rate": 14.01
+          "win_rate": 53.89,
+          "pick_rate": 0.99,
+          "ban_rate": 13.86
         },
         "5": {
-          "win_rate": 54.45,
-          "pick_rate": 0.62,
-          "ban_rate": 6.23
+          "win_rate": 54.3,
+          "pick_rate": 0.6,
+          "ban_rate": 6.19
         }
       },
       "7d": {
@@ -2949,34 +2949,34 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 52.53,
-          "pick_rate": 0.53,
-          "ban_rate": 0.55
+          "win_rate": 52.5,
+          "pick_rate": 0.54,
+          "ban_rate": 0.58
         },
         "9": {
-          "win_rate": 52.31,
-          "pick_rate": 0.57,
+          "win_rate": 52.26,
+          "pick_rate": 0.58,
           "ban_rate": 0.3
         },
         "8": {
-          "win_rate": 53.08,
-          "pick_rate": 0.51,
-          "ban_rate": 0.57
+          "win_rate": 53.18,
+          "pick_rate": 0.53,
+          "ban_rate": 0.59
         },
         "7": {
-          "win_rate": 52.88,
-          "pick_rate": 0.48,
-          "ban_rate": 0.93
+          "win_rate": 53.01,
+          "pick_rate": 0.5,
+          "ban_rate": 0.97
         },
         "6": {
-          "win_rate": 52.67,
-          "pick_rate": 0.44,
-          "ban_rate": 1.13
+          "win_rate": 52.52,
+          "pick_rate": 0.46,
+          "ban_rate": 1.22
         },
         "5": {
-          "win_rate": 51.75,
-          "pick_rate": 0.38,
-          "ban_rate": 1.16
+          "win_rate": 51.04,
+          "pick_rate": 0.39,
+          "ban_rate": 1.25
         }
       },
       "7d": {
@@ -3101,34 +3101,34 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 52.72,
+          "win_rate": 52.64,
           "pick_rate": 0.4,
-          "ban_rate": 1.32
+          "ban_rate": 1.41
         },
         "9": {
-          "win_rate": 51.73,
+          "win_rate": 51.58,
           "pick_rate": 0.28,
-          "ban_rate": 0.26
+          "ban_rate": 0.27
         },
         "8": {
-          "win_rate": 53.17,
-          "pick_rate": 0.44,
-          "ban_rate": 0.85
+          "win_rate": 53.39,
+          "pick_rate": 0.45,
+          "ban_rate": 0.87
         },
         "7": {
-          "win_rate": 53.64,
-          "pick_rate": 0.55,
-          "ban_rate": 1.94
+          "win_rate": 53.39,
+          "pick_rate": 0.58,
+          "ban_rate": 2.02
         },
         "6": {
-          "win_rate": 53.52,
-          "pick_rate": 0.71,
-          "ban_rate": 3.99
+          "win_rate": 53.13,
+          "pick_rate": 0.72,
+          "ban_rate": 4.16
         },
         "5": {
-          "win_rate": 53.19,
-          "pick_rate": 0.83,
-          "ban_rate": 7.17
+          "win_rate": 53.49,
+          "pick_rate": 0.85,
+          "ban_rate": 7.65
         }
       },
       "7d": {
@@ -3253,34 +3253,34 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 52.17,
-          "pick_rate": 0.63,
-          "ban_rate": 45.15
+          "win_rate": 52.28,
+          "pick_rate": 0.62,
+          "ban_rate": 25.67
         },
         "9": {
-          "win_rate": 51.93,
-          "pick_rate": 0.58,
-          "ban_rate": 15.76
+          "win_rate": 52.18,
+          "pick_rate": 0.57,
+          "ban_rate": 15.55
         },
         "8": {
-          "win_rate": 52.16,
-          "pick_rate": 0.68,
-          "ban_rate": 31.84
+          "win_rate": 52.14,
+          "pick_rate": 0.67,
+          "ban_rate": 31.39
         },
         "7": {
-          "win_rate": 52.28,
-          "pick_rate": 0.64,
-          "ban_rate": 42.26
+          "win_rate": 51.95,
+          "pick_rate": 0.63,
+          "ban_rate": 41.45
         },
         "6": {
-          "win_rate": 52.75,
-          "pick_rate": 0.72,
-          "ban_rate": 44.2
+          "win_rate": 53.09,
+          "pick_rate": 0.71,
+          "ban_rate": 43.23
         },
         "5": {
-          "win_rate": 53.69,
-          "pick_rate": 0.68,
-          "ban_rate": 36.92
+          "win_rate": 53.05,
+          "pick_rate": 0.67,
+          "ban_rate": 35.6
         }
       },
       "7d": {
@@ -3406,34 +3406,34 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 51.68,
+          "win_rate": 51.71,
           "pick_rate": 0.52,
           "ban_rate": 0.86
         },
         "9": {
-          "win_rate": 51.35,
+          "win_rate": 51.39,
           "pick_rate": 0.64,
-          "ban_rate": 0.9
+          "ban_rate": 0.86
         },
         "8": {
           "win_rate": 51.57,
-          "pick_rate": 0.46,
-          "ban_rate": 1.17
+          "pick_rate": 0.45,
+          "ban_rate": 1.19
         },
         "7": {
-          "win_rate": 53.73,
+          "win_rate": 53.65,
           "pick_rate": 0.33,
-          "ban_rate": 1.12
+          "ban_rate": 1.1
         },
         "6": {
-          "win_rate": 53.95,
-          "pick_rate": 0.24,
+          "win_rate": 54.78,
+          "pick_rate": 0.23,
           "ban_rate": 0.81
         },
         "5": {
-          "win_rate": 55.33,
-          "pick_rate": 0.15,
-          "ban_rate": 0.5
+          "win_rate": 54.29,
+          "pick_rate": 0.14,
+          "ban_rate": 0.49
         }
       },
       "7d": {
@@ -3558,34 +3558,34 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 52.09,
-          "pick_rate": 0.85,
-          "ban_rate": 21.93
+          "win_rate": 51.84,
+          "pick_rate": 0.84,
+          "ban_rate": 22.55
         },
         "9": {
-          "win_rate": 51.69,
-          "pick_rate": 0.87,
-          "ban_rate": 26.75
+          "win_rate": 51.51,
+          "pick_rate": 0.86,
+          "ban_rate": 26.98
         },
         "8": {
-          "win_rate": 52.53,
-          "pick_rate": 0.85,
-          "ban_rate": 29.58
+          "win_rate": 52.13,
+          "pick_rate": 0.83,
+          "ban_rate": 29.62
         },
         "7": {
-          "win_rate": 52.69,
-          "pick_rate": 0.86,
-          "ban_rate": 25.99
+          "win_rate": 52.37,
+          "pick_rate": 0.85,
+          "ban_rate": 26.18
         },
         "6": {
-          "win_rate": 52.6,
-          "pick_rate": 0.81,
-          "ban_rate": 15.18
+          "win_rate": 52.51,
+          "pick_rate": 0.8,
+          "ban_rate": 15.48
         },
         "5": {
-          "win_rate": 53.25,
-          "pick_rate": 0.62,
-          "ban_rate": 7.39
+          "win_rate": 53.07,
+          "pick_rate": 0.61,
+          "ban_rate": 7.69
         }
       },
       "7d": {
@@ -3710,34 +3710,34 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 51.82,
-          "pick_rate": 2.72,
-          "ban_rate": 5.94
+          "win_rate": 51.76,
+          "pick_rate": 2.68,
+          "ban_rate": 6.19
         },
         "9": {
-          "win_rate": 52.84,
-          "pick_rate": 1.95,
-          "ban_rate": 4.51
+          "win_rate": 52.7,
+          "pick_rate": 1.93,
+          "ban_rate": 4.57
         },
         "8": {
-          "win_rate": 52.48,
-          "pick_rate": 2.96,
-          "ban_rate": 5.6
+          "win_rate": 52.54,
+          "pick_rate": 2.95,
+          "ban_rate": 5.73
         },
         "7": {
-          "win_rate": 50.87,
-          "pick_rate": 3.71,
-          "ban_rate": 8.07
+          "win_rate": 50.76,
+          "pick_rate": 3.7,
+          "ban_rate": 8.32
         },
         "6": {
-          "win_rate": 49.95,
+          "win_rate": 49.83,
           "pick_rate": 4.76,
-          "ban_rate": 11.14
+          "ban_rate": 11.35
         },
         "5": {
-          "win_rate": 49.54,
-          "pick_rate": 5.52,
-          "ban_rate": 15.14
+          "win_rate": 49.77,
+          "pick_rate": 5.51,
+          "ban_rate": 15.52
         }
       },
       "7d": {
@@ -3862,34 +3862,34 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 50.82,
-          "pick_rate": 0.42,
-          "ban_rate": 0.79
+          "win_rate": 50.73,
+          "pick_rate": 0.43,
+          "ban_rate": 0.82
         },
         "9": {
-          "win_rate": 50.64,
-          "pick_rate": 0.44,
+          "win_rate": 50.45,
+          "pick_rate": 0.45,
           "ban_rate": 0.48
         },
         "8": {
-          "win_rate": 50.62,
+          "win_rate": 50.71,
           "pick_rate": 0.44,
-          "ban_rate": 0.84
+          "ban_rate": 0.86
         },
         "7": {
-          "win_rate": 51.24,
+          "win_rate": 51.37,
           "pick_rate": 0.4,
-          "ban_rate": 1.28
+          "ban_rate": 1.32
         },
         "6": {
-          "win_rate": 52.02,
-          "pick_rate": 0.35,
-          "ban_rate": 1.48
+          "win_rate": 52.1,
+          "pick_rate": 0.34,
+          "ban_rate": 1.53
         },
         "5": {
-          "win_rate": 52.25,
-          "pick_rate": 0.24,
-          "ban_rate": 1.77
+          "win_rate": 51.65,
+          "pick_rate": 0.23,
+          "ban_rate": 1.84
         }
       },
       "7d": {
@@ -4014,32 +4014,32 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 51.86,
+          "win_rate": 51.78,
           "pick_rate": 0.34,
           "ban_rate": 0.45
         },
         "9": {
-          "win_rate": 51.51,
-          "pick_rate": 0.31,
+          "win_rate": 51.45,
+          "pick_rate": 0.3,
           "ban_rate": 0.13
         },
         "8": {
-          "win_rate": 52.12,
+          "win_rate": 51.95,
           "pick_rate": 0.39,
           "ban_rate": 0.36
         },
         "7": {
-          "win_rate": 52.27,
-          "pick_rate": 0.41,
-          "ban_rate": 0.7
+          "win_rate": 52.52,
+          "pick_rate": 0.4,
+          "ban_rate": 0.71
         },
         "6": {
-          "win_rate": 52.21,
+          "win_rate": 52.07,
           "pick_rate": 0.4,
-          "ban_rate": 1.28
+          "ban_rate": 1.27
         },
         "5": {
-          "win_rate": 52.64,
+          "win_rate": 52.63,
           "pick_rate": 0.32,
           "ban_rate": 1.6
         }
@@ -4166,34 +4166,34 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 51.84,
+          "win_rate": 51.74,
           "pick_rate": 1.16,
-          "ban_rate": 15.01
+          "ban_rate": 15.09
         },
         "9": {
-          "win_rate": 53.16,
-          "pick_rate": 1.17,
-          "ban_rate": 18.53
+          "win_rate": 53.09,
+          "pick_rate": 1.15,
+          "ban_rate": 18.12
         },
         "8": {
-          "win_rate": 50.86,
-          "pick_rate": 1.02,
-          "ban_rate": 16.1
+          "win_rate": 50.42,
+          "pick_rate": 1.01,
+          "ban_rate": 15.87
         },
         "7": {
-          "win_rate": 50.28,
+          "win_rate": 50.17,
           "pick_rate": 1.1,
-          "ban_rate": 17.47
+          "ban_rate": 17.28
         },
         "6": {
-          "win_rate": 49.39,
-          "pick_rate": 1.27,
-          "ban_rate": 16.48
+          "win_rate": 49.42,
+          "pick_rate": 1.28,
+          "ban_rate": 16.29
         },
         "5": {
-          "win_rate": 48.8,
-          "pick_rate": 1.87,
-          "ban_rate": 11.57
+          "win_rate": 48.87,
+          "pick_rate": 1.88,
+          "ban_rate": 11.69
         }
       },
       "7d": {
@@ -4318,34 +4318,34 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 51.8,
+          "win_rate": 51.9,
           "pick_rate": 0.62,
-          "ban_rate": 1.09
+          "ban_rate": 1.12
         },
         "9": {
-          "win_rate": 52.61,
+          "win_rate": 52.71,
           "pick_rate": 0.52,
           "ban_rate": 0.43
         },
         "8": {
-          "win_rate": 52.08,
+          "win_rate": 52.27,
           "pick_rate": 0.69,
-          "ban_rate": 1.12
+          "ban_rate": 1.14
         },
         "7": {
-          "win_rate": 51.37,
+          "win_rate": 51.48,
           "pick_rate": 0.77,
-          "ban_rate": 1.93
+          "ban_rate": 1.94
         },
         "6": {
-          "win_rate": 49.95,
-          "pick_rate": 0.81,
+          "win_rate": 49.91,
+          "pick_rate": 0.82,
           "ban_rate": 2.52
         },
         "5": {
-          "win_rate": 48.57,
-          "pick_rate": 0.94,
-          "ban_rate": 2.58
+          "win_rate": 48.34,
+          "pick_rate": 0.95,
+          "ban_rate": 2.67
         }
       },
       "7d": {
@@ -4470,34 +4470,34 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 51.2,
+          "win_rate": 51.14,
           "pick_rate": 0.51,
-          "ban_rate": 0.33
+          "ban_rate": 0.34
         },
         "9": {
-          "win_rate": 51.71,
-          "pick_rate": 0.55,
-          "ban_rate": 0.13
+          "win_rate": 51.57,
+          "pick_rate": 0.54,
+          "ban_rate": 0.14
         },
         "8": {
-          "win_rate": 50.87,
+          "win_rate": 50.97,
           "pick_rate": 0.48,
           "ban_rate": 0.32
         },
         "7": {
-          "win_rate": 51.23,
+          "win_rate": 50.96,
           "pick_rate": 0.44,
-          "ban_rate": 0.57
+          "ban_rate": 0.59
         },
         "6": {
-          "win_rate": 49.38,
-          "pick_rate": 0.42,
-          "ban_rate": 0.76
+          "win_rate": 49.47,
+          "pick_rate": 0.43,
+          "ban_rate": 0.78
         },
         "5": {
-          "win_rate": 48.18,
-          "pick_rate": 0.48,
-          "ban_rate": 0.9
+          "win_rate": 48.75,
+          "pick_rate": 0.49,
+          "ban_rate": 0.95
         }
       },
       "7d": {
@@ -4622,34 +4622,34 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 51.45,
+          "win_rate": 51.5,
           "pick_rate": 1.99,
-          "ban_rate": 22.3
+          "ban_rate": 22.19
         },
         "9": {
-          "win_rate": 51.37,
-          "pick_rate": 2.4,
-          "ban_rate": 25.25
+          "win_rate": 51.36,
+          "pick_rate": 2.39,
+          "ban_rate": 24.8
         },
         "8": {
-          "win_rate": 52.22,
-          "pick_rate": 1.75,
-          "ban_rate": 30.3
+          "win_rate": 52.43,
+          "pick_rate": 1.74,
+          "ban_rate": 29.28
         },
         "7": {
-          "win_rate": 51.25,
+          "win_rate": 51.46,
           "pick_rate": 1.36,
-          "ban_rate": 26.62
+          "ban_rate": 25.97
         },
         "6": {
-          "win_rate": 50.52,
-          "pick_rate": 1.14,
-          "ban_rate": 19.28
+          "win_rate": 50.69,
+          "pick_rate": 1.12,
+          "ban_rate": 18.97
         },
         "5": {
-          "win_rate": 48.76,
-          "pick_rate": 0.89,
-          "ban_rate": 10.59
+          "win_rate": 48.92,
+          "pick_rate": 0.87,
+          "ban_rate": 10.29
         }
       },
       "7d": {
@@ -4774,34 +4774,34 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 51.84,
+          "win_rate": 51.82,
           "pick_rate": 0.31,
-          "ban_rate": 2.45
+          "ban_rate": 1.28
         },
         "9": {
-          "win_rate": 51.81,
-          "pick_rate": 0.28,
+          "win_rate": 51.58,
+          "pick_rate": 0.27,
           "ban_rate": 0.68
         },
         "8": {
-          "win_rate": 52.4,
-          "pick_rate": 0.35,
-          "ban_rate": 1.71
+          "win_rate": 52.57,
+          "pick_rate": 0.36,
+          "ban_rate": 1.7
         },
         "7": {
-          "win_rate": 51.91,
-          "pick_rate": 0.34,
-          "ban_rate": 2.04
+          "win_rate": 52.58,
+          "pick_rate": 0.33,
+          "ban_rate": 1.98
         },
         "6": {
-          "win_rate": 51.47,
-          "pick_rate": 0.38,
-          "ban_rate": 2.11
+          "win_rate": 51.39,
+          "pick_rate": 0.37,
+          "ban_rate": 2.1
         },
         "5": {
-          "win_rate": 49.78,
-          "pick_rate": 0.41,
-          "ban_rate": 2.2
+          "win_rate": 49.83,
+          "pick_rate": 0.4,
+          "ban_rate": 2.19
         }
       },
       "7d": {
@@ -4927,34 +4927,34 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 51.28,
-          "pick_rate": 1.52,
-          "ban_rate": 51.82
+          "win_rate": 51.44,
+          "pick_rate": 1.47,
+          "ban_rate": 54.45
         },
         "9": {
-          "win_rate": 51.63,
-          "pick_rate": 1.63,
-          "ban_rate": 77.39
+          "win_rate": 51.75,
+          "pick_rate": 1.57,
+          "ban_rate": 78.73
         },
         "8": {
-          "win_rate": 50.62,
-          "pick_rate": 1.55,
-          "ban_rate": 64.44
+          "win_rate": 50.78,
+          "pick_rate": 1.5,
+          "ban_rate": 66.28
         },
         "7": {
-          "win_rate": 50.54,
-          "pick_rate": 1.42,
-          "ban_rate": 45.71
+          "win_rate": 51.17,
+          "pick_rate": 1.38,
+          "ban_rate": 47.85
         },
         "6": {
-          "win_rate": 51.14,
-          "pick_rate": 1.12,
-          "ban_rate": 27.75
+          "win_rate": 51.06,
+          "pick_rate": 1.09,
+          "ban_rate": 29.21
         },
         "5": {
-          "win_rate": 51.87,
-          "pick_rate": 0.79,
-          "ban_rate": 12.47
+          "win_rate": 51.61,
+          "pick_rate": 0.76,
+          "ban_rate": 13.16
         }
       },
       "7d": {
@@ -5079,34 +5079,34 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 51.18,
-          "pick_rate": 0.11,
-          "ban_rate": 0.19
+          "win_rate": 50.78,
+          "pick_rate": 0.12,
+          "ban_rate": 0.21
         },
         "9": {
-          "win_rate": 51.22,
-          "pick_rate": 0.16,
-          "ban_rate": 0.06
+          "win_rate": 50.79,
+          "pick_rate": 0.17,
+          "ban_rate": 0.07
         },
         "8": {
-          "win_rate": 49.81,
+          "win_rate": 49.69,
           "pick_rate": 0.07,
           "ban_rate": 0.08
         },
         "7": {
-          "win_rate": 53.52,
+          "win_rate": 52.96,
           "pick_rate": 0.04,
-          "ban_rate": 0.09
+          "ban_rate": 0.1
         },
         "6": {
-          "win_rate": 53.58,
+          "win_rate": 53.11,
           "pick_rate": 0.03,
-          "ban_rate": 0.13
+          "ban_rate": 0.14
         },
         "5": {
-          "win_rate": 53.14,
+          "win_rate": 51.5,
           "pick_rate": 0.02,
-          "ban_rate": 0.18
+          "ban_rate": 0.19
         }
       },
       "7d": {
@@ -5232,34 +5232,34 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 51.32,
+          "win_rate": 51.56,
           "pick_rate": 0.3,
-          "ban_rate": 0.21
+          "ban_rate": 0.22
         },
         "9": {
-          "win_rate": 50.89,
-          "pick_rate": 0.29,
+          "win_rate": 51.4,
+          "pick_rate": 0.28,
           "ban_rate": 0.08
         },
         "8": {
-          "win_rate": 51.59,
+          "win_rate": 51.43,
           "pick_rate": 0.34,
-          "ban_rate": 0.14
+          "ban_rate": 0.15
         },
         "7": {
-          "win_rate": 51.84,
-          "pick_rate": 0.33,
+          "win_rate": 51.27,
+          "pick_rate": 0.32,
           "ban_rate": 0.27
         },
         "6": {
-          "win_rate": 52.12,
+          "win_rate": 52.46,
           "pick_rate": 0.3,
-          "ban_rate": 0.51
+          "ban_rate": 0.53
         },
         "5": {
-          "win_rate": 52.74,
-          "pick_rate": 0.22,
-          "ban_rate": 1.22
+          "win_rate": 54.09,
+          "pick_rate": 0.21,
+          "ban_rate": 1.23
         }
       },
       "7d": {
@@ -5384,34 +5384,34 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 51.65,
-          "pick_rate": 0.62,
-          "ban_rate": 6.14
+          "win_rate": 51.55,
+          "pick_rate": 0.65,
+          "ban_rate": 6.85
         },
         "9": {
-          "win_rate": 51.29,
-          "pick_rate": 0.73,
-          "ban_rate": 1.36
+          "win_rate": 51.1,
+          "pick_rate": 0.77,
+          "ban_rate": 1.61
         },
         "8": {
-          "win_rate": 51.9,
-          "pick_rate": 0.61,
-          "ban_rate": 2.72
+          "win_rate": 52.27,
+          "pick_rate": 0.62,
+          "ban_rate": 3.05
         },
         "7": {
-          "win_rate": 53.54,
+          "win_rate": 53.15,
           "pick_rate": 0.46,
-          "ban_rate": 4.05
+          "ban_rate": 4.25
         },
         "6": {
-          "win_rate": 52.8,
+          "win_rate": 52.94,
           "pick_rate": 0.32,
-          "ban_rate": 3.92
+          "ban_rate": 4.04
         },
         "5": {
-          "win_rate": 52.74,
+          "win_rate": 51.47,
           "pick_rate": 0.18,
-          "ban_rate": 2.88
+          "ban_rate": 2.93
         }
       },
       "7d": {
@@ -5537,34 +5537,34 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 51.13,
-          "pick_rate": 0.57,
-          "ban_rate": 1.76
+          "win_rate": 51.16,
+          "pick_rate": 0.56,
+          "ban_rate": 1.8
         },
         "9": {
-          "win_rate": 50.44,
-          "pick_rate": 0.69,
-          "ban_rate": 0.44
+          "win_rate": 50.5,
+          "pick_rate": 0.67,
+          "ban_rate": 0.45
         },
         "8": {
-          "win_rate": 52.22,
+          "win_rate": 52.26,
           "pick_rate": 0.51,
           "ban_rate": 0.64
         },
         "7": {
-          "win_rate": 53.42,
-          "pick_rate": 0.38,
-          "ban_rate": 0.84
+          "win_rate": 53.43,
+          "pick_rate": 0.37,
+          "ban_rate": 0.82
         },
         "6": {
-          "win_rate": 53.14,
+          "win_rate": 53.23,
           "pick_rate": 0.31,
           "ban_rate": 0.6
         },
         "5": {
-          "win_rate": 52.2,
+          "win_rate": 51.66,
           "pick_rate": 0.19,
-          "ban_rate": 0.39
+          "ban_rate": 0.41
         }
       },
       "7d": {
@@ -5689,34 +5689,34 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 51.47,
-          "pick_rate": 0.8,
-          "ban_rate": 0.41
+          "win_rate": 51.45,
+          "pick_rate": 0.79,
+          "ban_rate": 0.42
         },
         "9": {
-          "win_rate": 51.21,
+          "win_rate": 51.1,
           "pick_rate": 0.75,
           "ban_rate": 0.21
         },
         "8": {
-          "win_rate": 51.7,
+          "win_rate": 51.65,
           "pick_rate": 0.91,
           "ban_rate": 0.39
         },
         "7": {
-          "win_rate": 52.24,
-          "pick_rate": 0.87,
-          "ban_rate": 0.54
+          "win_rate": 52.18,
+          "pick_rate": 0.86,
+          "ban_rate": 0.55
         },
         "6": {
-          "win_rate": 51.58,
-          "pick_rate": 0.83,
-          "ban_rate": 0.89
+          "win_rate": 51.93,
+          "pick_rate": 0.82,
+          "ban_rate": 0.88
         },
         "5": {
-          "win_rate": 51.27,
-          "pick_rate": 0.62,
-          "ban_rate": 1.66
+          "win_rate": 52.52,
+          "pick_rate": 0.61,
+          "ban_rate": 1.67
         }
       },
       "7d": {
@@ -5842,34 +5842,34 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 51.43,
-          "pick_rate": 0.78,
-          "ban_rate": 6.05
+          "win_rate": 51.42,
+          "pick_rate": 0.84,
+          "ban_rate": 6.45
         },
         "9": {
-          "win_rate": 51.8,
-          "pick_rate": 1.0,
-          "ban_rate": 9.44
+          "win_rate": 51.81,
+          "pick_rate": 1.06,
+          "ban_rate": 9.72
         },
         "8": {
-          "win_rate": 50.55,
-          "pick_rate": 0.61,
-          "ban_rate": 5.69
+          "win_rate": 50.31,
+          "pick_rate": 0.65,
+          "ban_rate": 6.0
         },
         "7": {
-          "win_rate": 50.3,
-          "pick_rate": 0.49,
-          "ban_rate": 5.78
+          "win_rate": 50.27,
+          "pick_rate": 0.53,
+          "ban_rate": 6.07
         },
         "6": {
-          "win_rate": 50.21,
-          "pick_rate": 0.35,
-          "ban_rate": 4.66
+          "win_rate": 50.52,
+          "pick_rate": 0.37,
+          "ban_rate": 4.83
         },
         "5": {
-          "win_rate": 51.43,
-          "pick_rate": 0.22,
-          "ban_rate": 3.45
+          "win_rate": 51.92,
+          "pick_rate": 0.24,
+          "ban_rate": 3.61
         }
       },
       "7d": {
@@ -5995,34 +5995,34 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 51.22,
-          "pick_rate": 0.97,
-          "ban_rate": 7.67
+          "win_rate": 51.26,
+          "pick_rate": 0.96,
+          "ban_rate": 7.7
         },
         "9": {
-          "win_rate": 51.32,
-          "pick_rate": 1.16,
-          "ban_rate": 9.89
+          "win_rate": 51.44,
+          "pick_rate": 1.14,
+          "ban_rate": 9.57
         },
         "8": {
-          "win_rate": 50.71,
+          "win_rate": 50.55,
           "pick_rate": 0.87,
-          "ban_rate": 8.62
+          "ban_rate": 8.57
         },
         "7": {
-          "win_rate": 51.65,
-          "pick_rate": 0.69,
-          "ban_rate": 8.92
+          "win_rate": 51.77,
+          "pick_rate": 0.7,
+          "ban_rate": 8.84
         },
         "6": {
-          "win_rate": 51.47,
+          "win_rate": 51.13,
           "pick_rate": 0.51,
-          "ban_rate": 7.02
+          "ban_rate": 6.99
         },
         "5": {
-          "win_rate": 50.82,
+          "win_rate": 51.33,
           "pick_rate": 0.39,
-          "ban_rate": 4.12
+          "ban_rate": 4.09
         }
       },
       "7d": {
@@ -6148,34 +6148,34 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 51.42,
-          "pick_rate": 1.88,
-          "ban_rate": 37.09
+          "win_rate": 51.41,
+          "pick_rate": 1.89,
+          "ban_rate": 37.9
         },
         "9": {
-          "win_rate": 51.45,
-          "pick_rate": 2.26,
-          "ban_rate": 59.66
+          "win_rate": 51.39,
+          "pick_rate": 2.25,
+          "ban_rate": 59.49
         },
         "8": {
-          "win_rate": 50.98,
-          "pick_rate": 1.7,
-          "ban_rate": 42.9
+          "win_rate": 51.22,
+          "pick_rate": 1.68,
+          "ban_rate": 42.74
         },
         "7": {
-          "win_rate": 51.83,
-          "pick_rate": 1.38,
-          "ban_rate": 29.8
+          "win_rate": 51.7,
+          "pick_rate": 1.4,
+          "ban_rate": 29.74
         },
         "6": {
-          "win_rate": 52.04,
-          "pick_rate": 0.99,
-          "ban_rate": 18.01
+          "win_rate": 51.97,
+          "pick_rate": 1.01,
+          "ban_rate": 18.13
         },
         "5": {
-          "win_rate": 52.65,
-          "pick_rate": 0.67,
-          "ban_rate": 8.45
+          "win_rate": 52.01,
+          "pick_rate": 0.74,
+          "ban_rate": 8.37
         }
       },
       "7d": {
@@ -6301,32 +6301,32 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 50.98,
+          "win_rate": 51.28,
           "pick_rate": 0.2,
           "ban_rate": 0.1
         },
         "9": {
-          "win_rate": 50.58,
+          "win_rate": 51.0,
           "pick_rate": 0.18,
           "ban_rate": 0.06
         },
         "8": {
-          "win_rate": 51.29,
+          "win_rate": 51.3,
           "pick_rate": 0.22,
-          "ban_rate": 0.1
+          "ban_rate": 0.11
         },
         "7": {
-          "win_rate": 52.07,
+          "win_rate": 51.69,
           "pick_rate": 0.24,
-          "ban_rate": 0.16
+          "ban_rate": 0.17
         },
         "6": {
-          "win_rate": 50.84,
-          "pick_rate": 0.27,
+          "win_rate": 51.66,
+          "pick_rate": 0.26,
           "ban_rate": 0.21
         },
         "5": {
-          "win_rate": 51.69,
+          "win_rate": 52.5,
           "pick_rate": 0.22,
           "ban_rate": 0.21
         }
@@ -6453,34 +6453,34 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 51.26,
-          "pick_rate": 0.77,
-          "ban_rate": 6.9
+          "win_rate": 51.33,
+          "pick_rate": 0.75,
+          "ban_rate": 6.93
         },
         "9": {
-          "win_rate": 51.26,
-          "pick_rate": 0.67,
-          "ban_rate": 3.26
+          "win_rate": 51.39,
+          "pick_rate": 0.66,
+          "ban_rate": 3.25
         },
         "8": {
-          "win_rate": 51.44,
+          "win_rate": 51.49,
           "pick_rate": 0.88,
-          "ban_rate": 8.39
+          "ban_rate": 8.36
         },
         "7": {
-          "win_rate": 51.25,
-          "pick_rate": 0.92,
-          "ban_rate": 12.82
+          "win_rate": 51.1,
+          "pick_rate": 0.9,
+          "ban_rate": 12.6
         },
         "6": {
-          "win_rate": 50.94,
-          "pick_rate": 0.92,
-          "ban_rate": 13.15
+          "win_rate": 51.07,
+          "pick_rate": 0.91,
+          "ban_rate": 12.98
         },
         "5": {
-          "win_rate": 50.83,
-          "pick_rate": 0.74,
-          "ban_rate": 9.81
+          "win_rate": 50.7,
+          "pick_rate": 0.72,
+          "ban_rate": 9.52
         }
       },
       "7d": {
@@ -6605,34 +6605,34 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 51.52,
-          "pick_rate": 0.19,
-          "ban_rate": 0.53
+          "win_rate": 51.41,
+          "pick_rate": 0.21,
+          "ban_rate": 1.16
         },
         "9": {
-          "win_rate": 51.61,
-          "pick_rate": 0.25,
-          "ban_rate": 1.02
+          "win_rate": 51.37,
+          "pick_rate": 0.28,
+          "ban_rate": 1.11
         },
         "8": {
-          "win_rate": 50.63,
-          "pick_rate": 0.14,
-          "ban_rate": 0.34
+          "win_rate": 51.14,
+          "pick_rate": 0.16,
+          "ban_rate": 0.38
         },
         "7": {
-          "win_rate": 51.79,
-          "pick_rate": 0.11,
-          "ban_rate": 0.36
+          "win_rate": 51.99,
+          "pick_rate": 0.12,
+          "ban_rate": 0.39
         },
         "6": {
-          "win_rate": 52.48,
+          "win_rate": 52.17,
           "pick_rate": 0.09,
-          "ban_rate": 0.34
+          "ban_rate": 0.36
         },
         "5": {
-          "win_rate": 54.34,
+          "win_rate": 52.91,
           "pick_rate": 0.06,
-          "ban_rate": 0.34
+          "ban_rate": 0.37
         }
       },
       "7d": {
@@ -6757,34 +6757,34 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 51.38,
+          "win_rate": 51.36,
           "pick_rate": 0.76,
-          "ban_rate": 3.69
+          "ban_rate": 3.84
         },
         "9": {
-          "win_rate": 51.61,
+          "win_rate": 51.64,
           "pick_rate": 0.96,
-          "ban_rate": 5.68
+          "ban_rate": 5.77
         },
         "8": {
-          "win_rate": 50.85,
+          "win_rate": 50.64,
           "pick_rate": 0.62,
-          "ban_rate": 3.79
+          "ban_rate": 3.86
         },
         "7": {
-          "win_rate": 50.36,
+          "win_rate": 50.47,
           "pick_rate": 0.48,
-          "ban_rate": 3.41
+          "ban_rate": 3.44
         },
         "6": {
-          "win_rate": 51.21,
+          "win_rate": 50.74,
           "pick_rate": 0.37,
-          "ban_rate": 2.65
+          "ban_rate": 2.71
         },
         "5": {
-          "win_rate": 50.94,
-          "pick_rate": 0.2,
-          "ban_rate": 1.64
+          "win_rate": 51.36,
+          "pick_rate": 0.21,
+          "ban_rate": 1.67
         }
       },
       "7d": {
@@ -6909,34 +6909,34 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 50.68,
+          "win_rate": 51.03,
           "pick_rate": 0.2,
           "ban_rate": 1.11
         },
         "9": {
-          "win_rate": 50.57,
+          "win_rate": 51.12,
           "pick_rate": 0.18,
-          "ban_rate": 0.48
+          "ban_rate": 0.47
         },
         "8": {
-          "win_rate": 50.62,
-          "pick_rate": 0.21,
-          "ban_rate": 1.22
+          "win_rate": 50.98,
+          "pick_rate": 0.22,
+          "ban_rate": 1.17
         },
         "7": {
-          "win_rate": 51.4,
-          "pick_rate": 0.24,
-          "ban_rate": 1.82
+          "win_rate": 50.99,
+          "pick_rate": 0.23,
+          "ban_rate": 1.81
         },
         "6": {
-          "win_rate": 50.99,
-          "pick_rate": 0.27,
-          "ban_rate": 2.59
+          "win_rate": 50.7,
+          "pick_rate": 0.26,
+          "ban_rate": 2.58
         },
         "5": {
-          "win_rate": 49.65,
+          "win_rate": 51.3,
           "pick_rate": 0.24,
-          "ban_rate": 2.26
+          "ban_rate": 2.33
         }
       },
       "7d": {
@@ -7061,34 +7061,34 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 51.05,
+          "win_rate": 51.06,
           "pick_rate": 0.72,
-          "ban_rate": 0.57
+          "ban_rate": 0.58
         },
         "9": {
-          "win_rate": 51.92,
+          "win_rate": 51.84,
           "pick_rate": 0.67,
-          "ban_rate": 0.43
+          "ban_rate": 0.41
         },
         "8": {
-          "win_rate": 50.86,
-          "pick_rate": 0.7,
-          "ban_rate": 0.37
+          "win_rate": 51.02,
+          "pick_rate": 0.71,
+          "ban_rate": 0.38
         },
         "7": {
-          "win_rate": 50.26,
-          "pick_rate": 0.75,
-          "ban_rate": 0.67
+          "win_rate": 49.93,
+          "pick_rate": 0.76,
+          "ban_rate": 0.69
         },
         "6": {
-          "win_rate": 48.95,
-          "pick_rate": 0.86,
-          "ban_rate": 1.27
+          "win_rate": 49.15,
+          "pick_rate": 0.87,
+          "ban_rate": 1.3
         },
         "5": {
-          "win_rate": 48.87,
-          "pick_rate": 1.07,
-          "ban_rate": 2.19
+          "win_rate": 49.34,
+          "pick_rate": 1.1,
+          "ban_rate": 2.2
         }
       },
       "7d": {
@@ -7213,34 +7213,34 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 51.8,
-          "pick_rate": 0.61,
-          "ban_rate": 27.22
+          "win_rate": 51.74,
+          "pick_rate": 0.67,
+          "ban_rate": 29.14
         },
         "9": {
-          "win_rate": 52.25,
-          "pick_rate": 0.87,
-          "ban_rate": 28.34
+          "win_rate": 52.19,
+          "pick_rate": 0.94,
+          "ban_rate": 29.28
         },
         "8": {
-          "win_rate": 49.87,
-          "pick_rate": 0.36,
-          "ban_rate": 10.41
+          "win_rate": 49.61,
+          "pick_rate": 0.4,
+          "ban_rate": 11.03
         },
         "7": {
-          "win_rate": 51.44,
-          "pick_rate": 0.22,
-          "ban_rate": 7.33
+          "win_rate": 51.19,
+          "pick_rate": 0.25,
+          "ban_rate": 7.68
         },
         "6": {
-          "win_rate": 49.45,
-          "pick_rate": 0.17,
-          "ban_rate": 4.28
+          "win_rate": 50.21,
+          "pick_rate": 0.19,
+          "ban_rate": 4.5
         },
         "5": {
-          "win_rate": 48.59,
-          "pick_rate": 0.14,
-          "ban_rate": 2.15
+          "win_rate": 48.06,
+          "pick_rate": 0.15,
+          "ban_rate": 2.22
         }
       },
       "7d": {
@@ -7365,34 +7365,34 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 50.41,
+          "win_rate": 50.21,
           "pick_rate": 0.31,
           "ban_rate": 2.47
         },
         "9": {
-          "win_rate": 49.51,
+          "win_rate": 49.28,
           "pick_rate": 0.31,
-          "ban_rate": 1.65
+          "ban_rate": 1.63
         },
         "8": {
-          "win_rate": 51.33,
+          "win_rate": 51.32,
           "pick_rate": 0.33,
-          "ban_rate": 3.42
+          "ban_rate": 3.39
         },
         "7": {
-          "win_rate": 51.58,
-          "pick_rate": 0.3,
-          "ban_rate": 3.98
+          "win_rate": 51.61,
+          "pick_rate": 0.29,
+          "ban_rate": 3.9
         },
         "6": {
-          "win_rate": 52.49,
-          "pick_rate": 0.28,
-          "ban_rate": 3.61
+          "win_rate": 52.05,
+          "pick_rate": 0.27,
+          "ban_rate": 3.57
         },
         "5": {
-          "win_rate": 51.56,
-          "pick_rate": 0.19,
-          "ban_rate": 2.33
+          "win_rate": 51.52,
+          "pick_rate": 0.18,
+          "ban_rate": 2.28
         }
       },
       "7d": {
@@ -7522,29 +7522,29 @@
           "ban_rate": 0.47
         },
         "9": {
-          "win_rate": 50.7,
+          "win_rate": 50.75,
           "pick_rate": 0.51,
           "ban_rate": 0.21
         },
         "8": {
-          "win_rate": 50.64,
-          "pick_rate": 0.42,
-          "ban_rate": 0.53
+          "win_rate": 50.52,
+          "pick_rate": 0.41,
+          "ban_rate": 0.54
         },
         "7": {
-          "win_rate": 51.68,
-          "pick_rate": 0.35,
-          "ban_rate": 0.95
+          "win_rate": 51.67,
+          "pick_rate": 0.34,
+          "ban_rate": 0.94
         },
         "6": {
-          "win_rate": 52.04,
-          "pick_rate": 0.28,
-          "ban_rate": 0.83
+          "win_rate": 52.26,
+          "pick_rate": 0.27,
+          "ban_rate": 0.81
         },
         "5": {
-          "win_rate": 52.3,
+          "win_rate": 51.53,
           "pick_rate": 0.22,
-          "ban_rate": 0.83
+          "ban_rate": 0.82
         }
       },
       "7d": {
@@ -7669,34 +7669,34 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 50.86,
-          "pick_rate": 1.92,
-          "ban_rate": 1.75
+          "win_rate": 50.83,
+          "pick_rate": 1.9,
+          "ban_rate": 1.77
         },
         "9": {
-          "win_rate": 50.41,
-          "pick_rate": 1.52,
-          "ban_rate": 0.62
+          "win_rate": 50.38,
+          "pick_rate": 1.51,
+          "ban_rate": 0.61
         },
         "8": {
-          "win_rate": 51.56,
+          "win_rate": 51.51,
           "pick_rate": 2.07,
-          "ban_rate": 1.55
+          "ban_rate": 1.57
         },
         "7": {
-          "win_rate": 50.63,
-          "pick_rate": 2.53,
-          "ban_rate": 3.0
+          "win_rate": 50.71,
+          "pick_rate": 2.52,
+          "ban_rate": 2.98
         },
         "6": {
-          "win_rate": 50.94,
-          "pick_rate": 2.95,
-          "ban_rate": 4.52
+          "win_rate": 51.06,
+          "pick_rate": 2.92,
+          "ban_rate": 4.48
         },
         "5": {
-          "win_rate": 51.5,
-          "pick_rate": 3.23,
-          "ban_rate": 5.14
+          "win_rate": 51.27,
+          "pick_rate": 3.22,
+          "ban_rate": 5.06
         }
       },
       "7d": {
@@ -7821,34 +7821,34 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 50.69,
+          "win_rate": 50.65,
           "pick_rate": 0.76,
-          "ban_rate": 0.87
+          "ban_rate": 0.88
         },
         "9": {
-          "win_rate": 51.06,
-          "pick_rate": 0.87,
-          "ban_rate": 0.58
+          "win_rate": 51.08,
+          "pick_rate": 0.86,
+          "ban_rate": 0.56
         },
         "8": {
-          "win_rate": 49.91,
-          "pick_rate": 0.73,
+          "win_rate": 50.12,
+          "pick_rate": 0.72,
           "ban_rate": 0.97
         },
         "7": {
-          "win_rate": 51.04,
+          "win_rate": 50.43,
           "pick_rate": 0.6,
-          "ban_rate": 1.28
+          "ban_rate": 1.29
         },
         "6": {
-          "win_rate": 49.78,
-          "pick_rate": 0.48,
+          "win_rate": 49.12,
+          "pick_rate": 0.47,
           "ban_rate": 1.47
         },
         "5": {
-          "win_rate": 49.05,
-          "pick_rate": 0.43,
-          "ban_rate": 2.15
+          "win_rate": 47.28,
+          "pick_rate": 0.45,
+          "ban_rate": 2.2
         }
       },
       "7d": {
@@ -7973,34 +7973,34 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 50.92,
-          "pick_rate": 1.28,
-          "ban_rate": 30.44
+          "win_rate": 51.05,
+          "pick_rate": 1.27,
+          "ban_rate": 31.29
         },
         "9": {
-          "win_rate": 50.98,
-          "pick_rate": 1.53,
-          "ban_rate": 44.57
+          "win_rate": 51.05,
+          "pick_rate": 1.52,
+          "ban_rate": 45.12
         },
         "8": {
-          "win_rate": 50.16,
-          "pick_rate": 1.17,
-          "ban_rate": 37.12
+          "win_rate": 50.5,
+          "pick_rate": 1.14,
+          "ban_rate": 37.0
         },
         "7": {
-          "win_rate": 51.6,
-          "pick_rate": 0.91,
-          "ban_rate": 29.12
+          "win_rate": 51.35,
+          "pick_rate": 0.9,
+          "ban_rate": 29.09
         },
         "6": {
-          "win_rate": 52.02,
-          "pick_rate": 0.68,
-          "ban_rate": 17.49
+          "win_rate": 52.42,
+          "pick_rate": 0.67,
+          "ban_rate": 17.46
         },
         "5": {
-          "win_rate": 53.31,
+          "win_rate": 52.98,
           "pick_rate": 0.42,
-          "ban_rate": 7.45
+          "ban_rate": 7.27
         }
       },
       "7d": {
@@ -8125,34 +8125,34 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 50.63,
-          "pick_rate": 0.37,
-          "ban_rate": 0.24
+          "win_rate": 50.93,
+          "pick_rate": 0.38,
+          "ban_rate": 0.26
         },
         "9": {
-          "win_rate": 50.83,
-          "pick_rate": 0.42,
-          "ban_rate": 0.17
+          "win_rate": 51.14,
+          "pick_rate": 0.43,
+          "ban_rate": 0.18
         },
         "8": {
-          "win_rate": 50.3,
+          "win_rate": 50.68,
           "pick_rate": 0.34,
           "ban_rate": 0.24
         },
         "7": {
-          "win_rate": 51.26,
-          "pick_rate": 0.29,
-          "ban_rate": 0.35
+          "win_rate": 51.11,
+          "pick_rate": 0.31,
+          "ban_rate": 0.36
         },
         "6": {
-          "win_rate": 49.94,
-          "pick_rate": 0.26,
-          "ban_rate": 0.49
+          "win_rate": 50.18,
+          "pick_rate": 0.27,
+          "ban_rate": 0.51
         },
         "5": {
-          "win_rate": 48.32,
-          "pick_rate": 0.26,
-          "ban_rate": 0.56
+          "win_rate": 48.82,
+          "pick_rate": 0.27,
+          "ban_rate": 0.59
         }
       },
       "7d": {
@@ -8277,34 +8277,34 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 50.8,
-          "pick_rate": 0.52,
-          "ban_rate": 0.59
+          "win_rate": 50.75,
+          "pick_rate": 0.54,
+          "ban_rate": 0.62
         },
         "9": {
-          "win_rate": 50.97,
-          "pick_rate": 0.65,
-          "ban_rate": 0.39
+          "win_rate": 50.8,
+          "pick_rate": 0.67,
+          "ban_rate": 0.4
         },
         "8": {
-          "win_rate": 50.03,
+          "win_rate": 50.35,
           "pick_rate": 0.48,
-          "ban_rate": 0.76
+          "ban_rate": 0.79
         },
         "7": {
-          "win_rate": 51.29,
+          "win_rate": 51.62,
           "pick_rate": 0.31,
-          "ban_rate": 1.04
+          "ban_rate": 1.08
         },
         "6": {
-          "win_rate": 50.97,
+          "win_rate": 50.61,
           "pick_rate": 0.2,
-          "ban_rate": 0.9
+          "ban_rate": 0.91
         },
         "5": {
-          "win_rate": 51.64,
+          "win_rate": 51.66,
           "pick_rate": 0.12,
-          "ban_rate": 0.63
+          "ban_rate": 0.65
         }
       },
       "7d": {
@@ -8429,34 +8429,34 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 50.72,
-          "pick_rate": 0.6,
+          "win_rate": 50.64,
+          "pick_rate": 0.58,
           "ban_rate": 0.37
         },
         "9": {
-          "win_rate": 50.03,
-          "pick_rate": 0.41,
+          "win_rate": 49.85,
+          "pick_rate": 0.4,
           "ban_rate": 0.07
         },
         "8": {
-          "win_rate": 51.21,
-          "pick_rate": 0.71,
-          "ban_rate": 0.25
+          "win_rate": 51.15,
+          "pick_rate": 0.7,
+          "ban_rate": 0.24
         },
         "7": {
-          "win_rate": 51.12,
-          "pick_rate": 0.9,
-          "ban_rate": 0.6
+          "win_rate": 51.02,
+          "pick_rate": 0.88,
+          "ban_rate": 0.61
         },
         "6": {
-          "win_rate": 51.01,
-          "pick_rate": 1.01,
-          "ban_rate": 1.14
+          "win_rate": 51.03,
+          "pick_rate": 0.99,
+          "ban_rate": 1.11
         },
         "5": {
-          "win_rate": 51.34,
-          "pick_rate": 1.02,
-          "ban_rate": 1.67
+          "win_rate": 51.81,
+          "pick_rate": 1.0,
+          "ban_rate": 1.62
         }
       },
       "7d": {
@@ -8582,34 +8582,34 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 50.41,
-          "pick_rate": 0.83,
-          "ban_rate": 5.24
+          "win_rate": 50.11,
+          "pick_rate": 0.82,
+          "ban_rate": 2.84
         },
         "9": {
-          "win_rate": 49.01,
-          "pick_rate": 0.65,
+          "win_rate": 48.66,
+          "pick_rate": 0.64,
           "ban_rate": 1.08
         },
         "8": {
-          "win_rate": 51.02,
+          "win_rate": 50.82,
           "pick_rate": 1.01,
-          "ban_rate": 2.71
+          "ban_rate": 2.74
         },
         "7": {
-          "win_rate": 51.65,
-          "pick_rate": 1.12,
-          "ban_rate": 4.76
+          "win_rate": 51.02,
+          "pick_rate": 1.13,
+          "ban_rate": 4.75
         },
         "6": {
-          "win_rate": 52.03,
-          "pick_rate": 1.17,
-          "ban_rate": 6.5
+          "win_rate": 51.9,
+          "pick_rate": 1.18,
+          "ban_rate": 6.59
         },
         "5": {
-          "win_rate": 52.64,
-          "pick_rate": 0.96,
-          "ban_rate": 7.79
+          "win_rate": 52.89,
+          "pick_rate": 0.98,
+          "ban_rate": 7.75
         }
       },
       "7d": {
@@ -8734,34 +8734,34 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 50.53,
+          "win_rate": 50.47,
           "pick_rate": 0.9,
-          "ban_rate": 1.03
+          "ban_rate": 1.07
         },
         "9": {
-          "win_rate": 50.65,
-          "pick_rate": 0.98,
-          "ban_rate": 1.45
+          "win_rate": 50.52,
+          "pick_rate": 0.97,
+          "ban_rate": 1.46
         },
         "8": {
-          "win_rate": 50.52,
-          "pick_rate": 0.81,
+          "win_rate": 50.4,
+          "pick_rate": 0.79,
           "ban_rate": 1.07
         },
         "7": {
-          "win_rate": 50.17,
-          "pick_rate": 0.8,
-          "ban_rate": 1.01
+          "win_rate": 50.43,
+          "pick_rate": 0.83,
+          "ban_rate": 1.04
         },
         "6": {
-          "win_rate": 50.01,
-          "pick_rate": 0.75,
-          "ban_rate": 0.89
+          "win_rate": 50.55,
+          "pick_rate": 0.77,
+          "ban_rate": 0.94
         },
         "5": {
-          "win_rate": 50.45,
-          "pick_rate": 0.88,
-          "ban_rate": 0.91
+          "win_rate": 49.77,
+          "pick_rate": 0.9,
+          "ban_rate": 1.01
         }
       },
       "7d": {
@@ -8886,34 +8886,34 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 50.31,
-          "pick_rate": 0.52,
-          "ban_rate": 2.52
+          "win_rate": 50.26,
+          "pick_rate": 0.51,
+          "ban_rate": 2.56
         },
         "9": {
-          "win_rate": 50.14,
-          "pick_rate": 0.58,
+          "win_rate": 50.12,
+          "pick_rate": 0.57,
           "ban_rate": 1.62
         },
         "8": {
-          "win_rate": 50.58,
-          "pick_rate": 0.52,
-          "ban_rate": 3.29
+          "win_rate": 50.6,
+          "pick_rate": 0.51,
+          "ban_rate": 3.27
         },
         "7": {
-          "win_rate": 50.85,
-          "pick_rate": 0.46,
-          "ban_rate": 4.62
+          "win_rate": 50.4,
+          "pick_rate": 0.45,
+          "ban_rate": 4.63
         },
         "6": {
-          "win_rate": 50.53,
+          "win_rate": 50.29,
           "pick_rate": 0.35,
-          "ban_rate": 3.51
+          "ban_rate": 3.56
         },
         "5": {
-          "win_rate": 50.13,
-          "pick_rate": 0.23,
-          "ban_rate": 2.57
+          "win_rate": 50.54,
+          "pick_rate": 0.22,
+          "ban_rate": 2.53
         }
       },
       "7d": {
@@ -9038,32 +9038,32 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 49.71,
-          "pick_rate": 0.28,
-          "ban_rate": 2.0
+          "win_rate": 49.61,
+          "pick_rate": 0.27,
+          "ban_rate": 2.02
         },
         "9": {
-          "win_rate": 49.06,
+          "win_rate": 48.85,
           "pick_rate": 0.24,
-          "ban_rate": 1.31
+          "ban_rate": 1.28
         },
         "8": {
-          "win_rate": 49.65,
-          "pick_rate": 0.35,
-          "ban_rate": 2.86
+          "win_rate": 49.99,
+          "pick_rate": 0.34,
+          "ban_rate": 2.89
         },
         "7": {
-          "win_rate": 51.33,
-          "pick_rate": 0.34,
-          "ban_rate": 3.27
+          "win_rate": 51.11,
+          "pick_rate": 0.33,
+          "ban_rate": 3.24
         },
         "6": {
-          "win_rate": 50.99,
-          "pick_rate": 0.3,
-          "ban_rate": 2.79
+          "win_rate": 50.68,
+          "pick_rate": 0.29,
+          "ban_rate": 2.8
         },
         "5": {
-          "win_rate": 51.43,
+          "win_rate": 50.65,
           "pick_rate": 0.19,
           "ban_rate": 1.76
         }
@@ -9190,34 +9190,34 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 50.36,
-          "pick_rate": 0.81,
-          "ban_rate": 1.04
+          "win_rate": 50.64,
+          "pick_rate": 0.82,
+          "ban_rate": 1.11
         },
         "9": {
-          "win_rate": 50.77,
-          "pick_rate": 1.03,
-          "ban_rate": 1.63
+          "win_rate": 51.03,
+          "pick_rate": 1.04,
+          "ban_rate": 1.71
         },
         "8": {
-          "win_rate": 49.03,
+          "win_rate": 49.2,
           "pick_rate": 0.66,
-          "ban_rate": 0.7
+          "ban_rate": 0.72
         },
         "7": {
-          "win_rate": 49.29,
+          "win_rate": 49.82,
           "pick_rate": 0.49,
-          "ban_rate": 0.95
+          "ban_rate": 0.98
         },
         "6": {
-          "win_rate": 50.32,
+          "win_rate": 50.59,
           "pick_rate": 0.35,
-          "ban_rate": 1.19
+          "ban_rate": 1.22
         },
         "5": {
-          "win_rate": 51.37,
+          "win_rate": 51.41,
           "pick_rate": 0.29,
-          "ban_rate": 1.17
+          "ban_rate": 1.2
         }
       },
       "7d": {
@@ -9342,34 +9342,34 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 50.8,
+          "win_rate": 50.89,
           "pick_rate": 0.42,
-          "ban_rate": 0.82
+          "ban_rate": 0.86
         },
         "9": {
-          "win_rate": 51.69,
+          "win_rate": 51.73,
           "pick_rate": 0.52,
-          "ban_rate": 0.91
+          "ban_rate": 0.96
         },
         "8": {
-          "win_rate": 49.08,
-          "pick_rate": 0.31,
-          "ban_rate": 0.78
+          "win_rate": 49.27,
+          "pick_rate": 0.3,
+          "ban_rate": 0.8
         },
         "7": {
-          "win_rate": 48.79,
+          "win_rate": 48.6,
           "pick_rate": 0.27,
           "ban_rate": 0.92
         },
         "6": {
-          "win_rate": 48.28,
-          "pick_rate": 0.27,
-          "ban_rate": 1.19
+          "win_rate": 48.01,
+          "pick_rate": 0.26,
+          "ban_rate": 1.18
         },
         "5": {
-          "win_rate": 48.26,
-          "pick_rate": 0.33,
-          "ban_rate": 1.42
+          "win_rate": 48.46,
+          "pick_rate": 0.28,
+          "ban_rate": 1.41
         }
       },
       "7d": {
@@ -9494,33 +9494,33 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 50.09,
-          "pick_rate": 0.63,
-          "ban_rate": 1.58
+          "win_rate": 50.12,
+          "pick_rate": 0.65,
+          "ban_rate": 0.82
         },
         "9": {
-          "win_rate": 49.95,
-          "pick_rate": 0.8,
-          "ban_rate": 0.66
+          "win_rate": 50.0,
+          "pick_rate": 0.81,
+          "ban_rate": 0.65
         },
         "8": {
-          "win_rate": 49.84,
-          "pick_rate": 0.5,
-          "ban_rate": 0.98
+          "win_rate": 50.06,
+          "pick_rate": 0.51,
+          "ban_rate": 0.96
         },
         "7": {
-          "win_rate": 51.94,
-          "pick_rate": 0.37,
-          "ban_rate": 1.14
+          "win_rate": 51.13,
+          "pick_rate": 0.38,
+          "ban_rate": 1.12
         },
         "6": {
-          "win_rate": 51.09,
-          "pick_rate": 0.32,
-          "ban_rate": 1.22
+          "win_rate": 51.08,
+          "pick_rate": 0.33,
+          "ban_rate": 1.2
         },
         "5": {
-          "win_rate": 50.35,
-          "pick_rate": 0.29,
+          "win_rate": 50.29,
+          "pick_rate": 0.3,
           "ban_rate": 1.34
         }
       },
@@ -9646,34 +9646,34 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 49.58,
+          "win_rate": 49.49,
           "pick_rate": 0.35,
-          "ban_rate": 0.46
+          "ban_rate": 0.49
         },
         "9": {
-          "win_rate": 49.36,
-          "pick_rate": 0.28,
-          "ban_rate": 0.18
+          "win_rate": 49.32,
+          "pick_rate": 0.27,
+          "ban_rate": 0.19
         },
         "8": {
-          "win_rate": 50.27,
-          "pick_rate": 0.44,
-          "ban_rate": 0.41
+          "win_rate": 49.78,
+          "pick_rate": 0.43,
+          "ban_rate": 0.43
         },
         "7": {
-          "win_rate": 49.23,
-          "pick_rate": 0.52,
-          "ban_rate": 0.78
+          "win_rate": 49.47,
+          "pick_rate": 0.53,
+          "ban_rate": 0.79
         },
         "6": {
-          "win_rate": 48.93,
+          "win_rate": 49.33,
           "pick_rate": 0.45,
-          "ban_rate": 1.06
+          "ban_rate": 1.12
         },
         "5": {
-          "win_rate": 50.15,
-          "pick_rate": 0.37,
-          "ban_rate": 1.59
+          "win_rate": 49.89,
+          "pick_rate": 0.38,
+          "ban_rate": 1.67
         }
       },
       "7d": {
@@ -9798,34 +9798,34 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 50.16,
-          "pick_rate": 0.85,
+          "win_rate": 50.28,
+          "pick_rate": 0.84,
           "ban_rate": 1.72
         },
         "9": {
-          "win_rate": 50.57,
-          "pick_rate": 0.78,
-          "ban_rate": 1.03
+          "win_rate": 50.71,
+          "pick_rate": 0.77,
+          "ban_rate": 1.02
         },
         "8": {
-          "win_rate": 50.47,
-          "pick_rate": 0.92,
-          "ban_rate": 2.19
+          "win_rate": 50.42,
+          "pick_rate": 0.91,
+          "ban_rate": 2.18
         },
         "7": {
-          "win_rate": 49.24,
-          "pick_rate": 0.95,
-          "ban_rate": 2.96
+          "win_rate": 49.48,
+          "pick_rate": 0.93,
+          "ban_rate": 2.89
         },
         "6": {
-          "win_rate": 49.04,
-          "pick_rate": 0.99,
-          "ban_rate": 2.91
+          "win_rate": 49.25,
+          "pick_rate": 0.98,
+          "ban_rate": 2.85
         },
         "5": {
-          "win_rate": 48.25,
-          "pick_rate": 0.96,
-          "ban_rate": 1.86
+          "win_rate": 48.39,
+          "pick_rate": 0.93,
+          "ban_rate": 1.79
         }
       },
       "7d": {
@@ -9951,34 +9951,34 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 50.45,
+          "win_rate": 50.49,
           "pick_rate": 1.5,
-          "ban_rate": 10.75
+          "ban_rate": 10.95
         },
         "9": {
-          "win_rate": 50.24,
-          "pick_rate": 1.88,
-          "ban_rate": 12.42
+          "win_rate": 50.28,
+          "pick_rate": 1.86,
+          "ban_rate": 12.27
         },
         "8": {
-          "win_rate": 50.12,
-          "pick_rate": 1.26,
-          "ban_rate": 13.77
+          "win_rate": 50.27,
+          "pick_rate": 1.25,
+          "ban_rate": 13.83
         },
         "7": {
-          "win_rate": 51.38,
-          "pick_rate": 0.99,
-          "ban_rate": 12.87
+          "win_rate": 51.36,
+          "pick_rate": 1.0,
+          "ban_rate": 12.9
         },
         "6": {
-          "win_rate": 53.0,
+          "win_rate": 52.83,
           "pick_rate": 0.68,
-          "ban_rate": 9.95
+          "ban_rate": 10.11
         },
         "5": {
-          "win_rate": 55.08,
+          "win_rate": 55.14,
           "pick_rate": 0.45,
-          "ban_rate": 5.95
+          "ban_rate": 6.03
         }
       },
       "7d": {
@@ -10106,32 +10106,32 @@
         "101": {
           "win_rate": 49.99,
           "pick_rate": 1.31,
-          "ban_rate": 64.86
+          "ban_rate": 65.8
         },
         "9": {
-          "win_rate": 50.13,
-          "pick_rate": 1.35,
-          "ban_rate": 79.05
+          "win_rate": 50.1,
+          "pick_rate": 1.34,
+          "ban_rate": 78.66
         },
         "8": {
-          "win_rate": 49.97,
-          "pick_rate": 1.33,
-          "ban_rate": 78.97
+          "win_rate": 49.99,
+          "pick_rate": 1.32,
+          "ban_rate": 78.38
         },
         "7": {
-          "win_rate": 49.26,
+          "win_rate": 49.61,
           "pick_rate": 1.29,
-          "ban_rate": 73.19
+          "ban_rate": 72.74
         },
         "6": {
-          "win_rate": 49.77,
-          "pick_rate": 1.24,
-          "ban_rate": 60.69
+          "win_rate": 49.7,
+          "pick_rate": 1.23,
+          "ban_rate": 60.24
         },
         "5": {
-          "win_rate": 49.99,
+          "win_rate": 49.8,
           "pick_rate": 0.97,
-          "ban_rate": 41.3
+          "ban_rate": 40.5
         }
       },
       "7d": {
@@ -10256,34 +10256,34 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 50.13,
+          "win_rate": 50.07,
           "pick_rate": 1.08,
-          "ban_rate": 4.01
+          "ban_rate": 4.11
         },
         "9": {
-          "win_rate": 50.28,
+          "win_rate": 50.09,
           "pick_rate": 0.77,
-          "ban_rate": 1.14
+          "ban_rate": 1.15
         },
         "8": {
-          "win_rate": 50.86,
-          "pick_rate": 1.1,
-          "ban_rate": 3.26
+          "win_rate": 50.67,
+          "pick_rate": 1.12,
+          "ban_rate": 3.29
         },
         "7": {
-          "win_rate": 50.09,
+          "win_rate": 50.3,
           "pick_rate": 1.44,
-          "ban_rate": 6.39
+          "ban_rate": 6.37
         },
         "6": {
-          "win_rate": 49.32,
-          "pick_rate": 1.93,
-          "ban_rate": 11.26
+          "win_rate": 49.35,
+          "pick_rate": 1.95,
+          "ban_rate": 11.41
         },
         "5": {
-          "win_rate": 49.11,
-          "pick_rate": 2.78,
-          "ban_rate": 15.04
+          "win_rate": 49.53,
+          "pick_rate": 2.79,
+          "ban_rate": 15.21
         }
       },
       "7d": {
@@ -10408,34 +10408,34 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 50.12,
+          "win_rate": 50.14,
           "pick_rate": 0.92,
-          "ban_rate": 3.23
+          "ban_rate": 3.37
         },
         "9": {
-          "win_rate": 50.64,
-          "pick_rate": 1.11,
-          "ban_rate": 5.02
+          "win_rate": 50.6,
+          "pick_rate": 1.1,
+          "ban_rate": 5.06
         },
         "8": {
-          "win_rate": 49.25,
+          "win_rate": 49.3,
           "pick_rate": 0.77,
-          "ban_rate": 3.18
+          "ban_rate": 3.25
         },
         "7": {
-          "win_rate": 49.23,
-          "pick_rate": 0.67,
-          "ban_rate": 2.87
+          "win_rate": 49.38,
+          "pick_rate": 0.66,
+          "ban_rate": 2.97
         },
         "6": {
-          "win_rate": 48.43,
+          "win_rate": 48.56,
           "pick_rate": 0.56,
-          "ban_rate": 2.44
+          "ban_rate": 2.54
         },
         "5": {
-          "win_rate": 48.45,
+          "win_rate": 48.65,
           "pick_rate": 0.45,
-          "ban_rate": 1.96
+          "ban_rate": 1.98
         }
       },
       "7d": {
@@ -10560,34 +10560,34 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 49.73,
+          "win_rate": 49.74,
           "pick_rate": 0.7,
-          "ban_rate": 1.8
+          "ban_rate": 1.81
         },
         "9": {
-          "win_rate": 50.08,
-          "pick_rate": 0.81,
-          "ban_rate": 1.36
+          "win_rate": 50.13,
+          "pick_rate": 0.79,
+          "ban_rate": 1.35
         },
         "8": {
-          "win_rate": 49.47,
-          "pick_rate": 0.65,
-          "ban_rate": 2.22
+          "win_rate": 49.39,
+          "pick_rate": 0.64,
+          "ban_rate": 2.18
         },
         "7": {
-          "win_rate": 49.21,
-          "pick_rate": 0.52,
-          "ban_rate": 2.72
+          "win_rate": 49.11,
+          "pick_rate": 0.51,
+          "ban_rate": 2.68
         },
         "6": {
-          "win_rate": 48.41,
-          "pick_rate": 0.49,
-          "ban_rate": 2.74
+          "win_rate": 48.22,
+          "pick_rate": 0.48,
+          "ban_rate": 2.76
         },
         "5": {
-          "win_rate": 47.39,
-          "pick_rate": 0.45,
-          "ban_rate": 2.29
+          "win_rate": 47.73,
+          "pick_rate": 0.43,
+          "ban_rate": 2.27
         }
       },
       "7d": {
@@ -10712,34 +10712,34 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 49.8,
-          "pick_rate": 0.99,
-          "ban_rate": 0.38
+          "win_rate": 49.86,
+          "pick_rate": 1.0,
+          "ban_rate": 0.39
         },
         "9": {
-          "win_rate": 50.89,
+          "win_rate": 51.02,
           "pick_rate": 1.15,
           "ban_rate": 0.23
         },
         "8": {
-          "win_rate": 48.82,
-          "pick_rate": 0.83,
-          "ban_rate": 0.29
+          "win_rate": 48.52,
+          "pick_rate": 0.84,
+          "ban_rate": 0.3
         },
         "7": {
-          "win_rate": 47.46,
-          "pick_rate": 0.79,
+          "win_rate": 47.66,
+          "pick_rate": 0.81,
           "ban_rate": 0.49
         },
         "6": {
-          "win_rate": 46.11,
-          "pick_rate": 0.7,
-          "ban_rate": 0.83
+          "win_rate": 45.99,
+          "pick_rate": 0.72,
+          "ban_rate": 0.84
         },
         "5": {
-          "win_rate": 45.66,
-          "pick_rate": 0.83,
-          "ban_rate": 1.58
+          "win_rate": 46.13,
+          "pick_rate": 0.85,
+          "ban_rate": 1.67
         }
       },
       "7d": {
@@ -10865,34 +10865,34 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 49.93,
-          "pick_rate": 1.07,
-          "ban_rate": 3.28
+          "win_rate": 49.81,
+          "pick_rate": 1.08,
+          "ban_rate": 3.3
         },
         "9": {
-          "win_rate": 49.6,
-          "pick_rate": 0.93,
-          "ban_rate": 1.3
+          "win_rate": 49.4,
+          "pick_rate": 0.92,
+          "ban_rate": 1.26
         },
         "8": {
-          "win_rate": 50.21,
+          "win_rate": 50.14,
           "pick_rate": 1.17,
-          "ban_rate": 3.63
+          "ban_rate": 3.61
         },
         "7": {
-          "win_rate": 50.12,
-          "pick_rate": 1.34,
-          "ban_rate": 6.08
+          "win_rate": 50.52,
+          "pick_rate": 1.38,
+          "ban_rate": 5.98
         },
         "6": {
-          "win_rate": 50.27,
-          "pick_rate": 1.37,
-          "ban_rate": 6.95
+          "win_rate": 50.17,
+          "pick_rate": 1.41,
+          "ban_rate": 6.94
         },
         "5": {
-          "win_rate": 50.57,
-          "pick_rate": 1.35,
-          "ban_rate": 6.74
+          "win_rate": 49.98,
+          "pick_rate": 1.43,
+          "ban_rate": 7.06
         }
       },
       "7d": {
@@ -11018,34 +11018,34 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 49.87,
+          "win_rate": 49.83,
           "pick_rate": 0.6,
-          "ban_rate": 0.67
+          "ban_rate": 0.7
         },
         "9": {
-          "win_rate": 49.9,
+          "win_rate": 50.0,
           "pick_rate": 0.51,
           "ban_rate": 0.25
         },
         "8": {
-          "win_rate": 50.04,
-          "pick_rate": 0.66,
+          "win_rate": 49.84,
+          "pick_rate": 0.67,
           "ban_rate": 0.62
         },
         "7": {
-          "win_rate": 49.8,
-          "pick_rate": 0.78,
-          "ban_rate": 1.17
+          "win_rate": 49.94,
+          "pick_rate": 0.79,
+          "ban_rate": 1.21
         },
         "6": {
-          "win_rate": 49.5,
-          "pick_rate": 0.75,
-          "ban_rate": 1.51
+          "win_rate": 49.33,
+          "pick_rate": 0.76,
+          "ban_rate": 1.56
         },
         "5": {
-          "win_rate": 49.6,
-          "pick_rate": 0.77,
-          "ban_rate": 2.31
+          "win_rate": 49.08,
+          "pick_rate": 0.79,
+          "ban_rate": 2.37
         }
       },
       "7d": {
@@ -11171,34 +11171,34 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 49.96,
+          "win_rate": 49.85,
           "pick_rate": 0.75,
-          "ban_rate": 6.89
+          "ban_rate": 6.98
         },
         "9": {
-          "win_rate": 49.77,
+          "win_rate": 49.69,
           "pick_rate": 0.9,
-          "ban_rate": 6.69
+          "ban_rate": 6.63
         },
         "8": {
-          "win_rate": 50.05,
+          "win_rate": 49.92,
           "pick_rate": 0.68,
-          "ban_rate": 9.91
+          "ban_rate": 9.89
         },
         "7": {
-          "win_rate": 50.83,
+          "win_rate": 50.65,
           "pick_rate": 0.53,
-          "ban_rate": 9.47
+          "ban_rate": 9.42
         },
         "6": {
-          "win_rate": 51.0,
+          "win_rate": 51.01,
           "pick_rate": 0.38,
-          "ban_rate": 6.38
+          "ban_rate": 6.35
         },
         "5": {
-          "win_rate": 50.95,
+          "win_rate": 49.84,
           "pick_rate": 0.23,
-          "ban_rate": 3.62
+          "ban_rate": 3.61
         }
       },
       "7d": {
@@ -11323,34 +11323,34 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 49.85,
-          "pick_rate": 0.88,
-          "ban_rate": 26.5
+          "win_rate": 49.78,
+          "pick_rate": 0.86,
+          "ban_rate": 27.06
         },
         "9": {
-          "win_rate": 49.71,
-          "pick_rate": 0.82,
-          "ban_rate": 29.11
+          "win_rate": 49.65,
+          "pick_rate": 0.8,
+          "ban_rate": 28.98
         },
         "8": {
-          "win_rate": 50.14,
-          "pick_rate": 0.94,
-          "ban_rate": 35.0
+          "win_rate": 49.92,
+          "pick_rate": 0.93,
+          "ban_rate": 35.29
         },
         "7": {
-          "win_rate": 50.07,
+          "win_rate": 50.04,
           "pick_rate": 0.99,
-          "ban_rate": 32.77
+          "ban_rate": 32.79
         },
         "6": {
-          "win_rate": 49.69,
-          "pick_rate": 0.98,
-          "ban_rate": 25.24
+          "win_rate": 49.93,
+          "pick_rate": 0.99,
+          "ban_rate": 25.39
         },
         "5": {
-          "win_rate": 49.67,
+          "win_rate": 49.66,
           "pick_rate": 0.82,
-          "ban_rate": 15.21
+          "ban_rate": 15.25
         }
       },
       "7d": {
@@ -11475,34 +11475,34 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 49.59,
-          "pick_rate": 0.97,
-          "ban_rate": 22.01
+          "win_rate": 49.63,
+          "pick_rate": 0.95,
+          "ban_rate": 22.19
         },
         "9": {
-          "win_rate": 49.87,
-          "pick_rate": 0.73,
-          "ban_rate": 11.34
+          "win_rate": 49.94,
+          "pick_rate": 0.71,
+          "ban_rate": 11.29
         },
         "8": {
-          "win_rate": 50.49,
-          "pick_rate": 1.13,
-          "ban_rate": 29.53
+          "win_rate": 50.66,
+          "pick_rate": 1.11,
+          "ban_rate": 29.36
         },
         "7": {
-          "win_rate": 49.09,
-          "pick_rate": 1.26,
-          "ban_rate": 38.31
+          "win_rate": 48.77,
+          "pick_rate": 1.24,
+          "ban_rate": 38.06
         },
         "6": {
-          "win_rate": 48.6,
-          "pick_rate": 1.47,
-          "ban_rate": 36.87
+          "win_rate": 48.43,
+          "pick_rate": 1.45,
+          "ban_rate": 36.59
         },
         "5": {
-          "win_rate": 47.08,
-          "pick_rate": 1.72,
-          "ban_rate": 30.61
+          "win_rate": 47.43,
+          "pick_rate": 1.71,
+          "ban_rate": 30.25
         }
       },
       "7d": {
@@ -11628,33 +11628,33 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 49.88,
+          "win_rate": 49.69,
           "pick_rate": 0.14,
           "ban_rate": 0.11
         },
         "9": {
-          "win_rate": 49.69,
-          "pick_rate": 0.12,
+          "win_rate": 49.44,
+          "pick_rate": 0.13,
           "ban_rate": 0.06
         },
         "8": {
-          "win_rate": 50.78,
+          "win_rate": 50.08,
           "pick_rate": 0.14,
-          "ban_rate": 0.11
+          "ban_rate": 0.12
         },
         "7": {
-          "win_rate": 48.85,
-          "pick_rate": 0.14,
+          "win_rate": 50.74,
+          "pick_rate": 0.15,
           "ban_rate": 0.17
         },
         "6": {
-          "win_rate": 49.62,
+          "win_rate": 49.73,
           "pick_rate": 0.17,
           "ban_rate": 0.23
         },
         "5": {
-          "win_rate": 49.9,
-          "pick_rate": 0.24,
+          "win_rate": 48.93,
+          "pick_rate": 0.25,
           "ban_rate": 0.3
         }
       },
@@ -11781,34 +11781,34 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 49.73,
+          "win_rate": 49.99,
           "pick_rate": 0.09,
           "ban_rate": 0.73
         },
         "9": {
-          "win_rate": 49.78,
+          "win_rate": 50.24,
           "pick_rate": 0.12,
-          "ban_rate": 0.39
+          "ban_rate": 0.38
         },
         "8": {
-          "win_rate": 49.04,
+          "win_rate": 48.66,
           "pick_rate": 0.06,
           "ban_rate": 0.42
         },
         "7": {
-          "win_rate": 51.69,
+          "win_rate": 49.41,
           "pick_rate": 0.04,
-          "ban_rate": 0.46
+          "ban_rate": 0.45
         },
         "6": {
-          "win_rate": 49.98,
+          "win_rate": 49.42,
           "pick_rate": 0.03,
-          "ban_rate": 0.49
+          "ban_rate": 0.48
         },
         "5": {
-          "win_rate": 49.78,
+          "win_rate": 54.64,
           "pick_rate": 0.02,
-          "ban_rate": 0.44
+          "ban_rate": 0.46
         }
       },
       "7d": {
@@ -11933,34 +11933,34 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 49.7,
+          "win_rate": 49.64,
           "pick_rate": 0.61,
           "ban_rate": 3.92
         },
         "9": {
-          "win_rate": 49.09,
+          "win_rate": 49.22,
           "pick_rate": 0.59,
-          "ban_rate": 1.8
+          "ban_rate": 1.78
         },
         "8": {
           "win_rate": 50.28,
           "pick_rate": 0.69,
-          "ban_rate": 4.98
+          "ban_rate": 4.97
         },
         "7": {
-          "win_rate": 50.1,
-          "pick_rate": 0.67,
-          "ban_rate": 8.11
+          "win_rate": 49.67,
+          "pick_rate": 0.66,
+          "ban_rate": 7.97
         },
         "6": {
-          "win_rate": 51.02,
+          "win_rate": 50.28,
           "pick_rate": 0.58,
-          "ban_rate": 6.74
+          "ban_rate": 6.61
         },
         "5": {
-          "win_rate": 50.59,
+          "win_rate": 50.61,
           "pick_rate": 0.4,
-          "ban_rate": 3.56
+          "ban_rate": 3.53
         }
       },
       "7d": {
@@ -12085,34 +12085,34 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 49.1,
-          "pick_rate": 1.21,
-          "ban_rate": 0.72
+          "win_rate": 49.11,
+          "pick_rate": 1.27,
+          "ban_rate": 0.77
         },
         "9": {
-          "win_rate": 49.05,
-          "pick_rate": 1.51,
-          "ban_rate": 0.54
+          "win_rate": 49.08,
+          "pick_rate": 1.58,
+          "ban_rate": 0.58
         },
         "8": {
-          "win_rate": 48.55,
-          "pick_rate": 1.06,
-          "ban_rate": 0.87
+          "win_rate": 48.56,
+          "pick_rate": 1.1,
+          "ban_rate": 0.91
         },
         "7": {
-          "win_rate": 49.93,
-          "pick_rate": 0.8,
-          "ban_rate": 1.12
+          "win_rate": 49.8,
+          "pick_rate": 0.84,
+          "ban_rate": 1.2
         },
         "6": {
-          "win_rate": 50.94,
-          "pick_rate": 0.5,
-          "ban_rate": 1.09
+          "win_rate": 50.85,
+          "pick_rate": 0.51,
+          "ban_rate": 1.15
         },
         "5": {
-          "win_rate": 51.22,
-          "pick_rate": 0.36,
-          "ban_rate": 0.82
+          "win_rate": 52.18,
+          "pick_rate": 0.34,
+          "ban_rate": 0.86
         }
       },
       "7d": {
@@ -12237,34 +12237,34 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 48.6,
-          "pick_rate": 0.7,
-          "ban_rate": 3.05
+          "win_rate": 48.39,
+          "pick_rate": 0.75,
+          "ban_rate": 3.12
         },
         "9": {
-          "win_rate": 49.19,
-          "pick_rate": 0.97,
-          "ban_rate": 6.74
+          "win_rate": 48.99,
+          "pick_rate": 1.02,
+          "ban_rate": 6.61
         },
         "8": {
-          "win_rate": 45.88,
-          "pick_rate": 0.48,
-          "ban_rate": 1.95
+          "win_rate": 45.53,
+          "pick_rate": 0.51,
+          "ban_rate": 1.96
         },
         "7": {
-          "win_rate": 47.59,
-          "pick_rate": 0.32,
-          "ban_rate": 1.38
+          "win_rate": 47.08,
+          "pick_rate": 0.34,
+          "ban_rate": 1.44
         },
         "6": {
-          "win_rate": 48.53,
-          "pick_rate": 0.2,
-          "ban_rate": 0.88
+          "win_rate": 48.04,
+          "pick_rate": 0.21,
+          "ban_rate": 0.92
         },
         "5": {
-          "win_rate": 49.8,
-          "pick_rate": 0.13,
-          "ban_rate": 0.55
+          "win_rate": 50.58,
+          "pick_rate": 0.14,
+          "ban_rate": 0.53
         }
       },
       "7d": {
@@ -12389,34 +12389,34 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 49.19,
-          "pick_rate": 1.57,
-          "ban_rate": 10.2
+          "win_rate": 49.13,
+          "pick_rate": 1.54,
+          "ban_rate": 10.13
         },
         "9": {
-          "win_rate": 49.42,
-          "pick_rate": 1.62,
-          "ban_rate": 10.07
+          "win_rate": 49.37,
+          "pick_rate": 1.6,
+          "ban_rate": 9.83
         },
         "8": {
-          "win_rate": 48.95,
-          "pick_rate": 1.65,
-          "ban_rate": 12.89
+          "win_rate": 48.86,
+          "pick_rate": 1.62,
+          "ban_rate": 12.45
         },
         "7": {
-          "win_rate": 48.57,
-          "pick_rate": 1.56,
-          "ban_rate": 13.62
+          "win_rate": 48.41,
+          "pick_rate": 1.53,
+          "ban_rate": 13.26
         },
         "6": {
-          "win_rate": 48.79,
-          "pick_rate": 1.26,
-          "ban_rate": 11.83
+          "win_rate": 48.86,
+          "pick_rate": 1.25,
+          "ban_rate": 11.61
         },
         "5": {
-          "win_rate": 49.74,
-          "pick_rate": 1.03,
-          "ban_rate": 9.1
+          "win_rate": 49.0,
+          "pick_rate": 1.02,
+          "ban_rate": 9.02
         }
       },
       "7d": {
@@ -12541,34 +12541,34 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 49.28,
+          "win_rate": 49.37,
           "pick_rate": 0.62,
           "ban_rate": 0.23
         },
         "9": {
-          "win_rate": 49.03,
-          "pick_rate": 0.6,
+          "win_rate": 49.21,
+          "pick_rate": 0.59,
           "ban_rate": 0.08
         },
         "8": {
-          "win_rate": 49.4,
+          "win_rate": 49.58,
           "pick_rate": 0.63,
           "ban_rate": 0.18
         },
         "7": {
-          "win_rate": 49.73,
-          "pick_rate": 0.65,
-          "ban_rate": 0.34
+          "win_rate": 49.62,
+          "pick_rate": 0.64,
+          "ban_rate": 0.35
         },
         "6": {
-          "win_rate": 49.87,
-          "pick_rate": 0.71,
-          "ban_rate": 0.62
+          "win_rate": 49.44,
+          "pick_rate": 0.7,
+          "ban_rate": 0.61
         },
         "5": {
-          "win_rate": 49.47,
-          "pick_rate": 0.63,
-          "ban_rate": 0.84
+          "win_rate": 49.88,
+          "pick_rate": 0.62,
+          "ban_rate": 0.82
         }
       },
       "7d": {
@@ -12694,34 +12694,34 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 48.64,
-          "pick_rate": 0.32,
+          "win_rate": 48.67,
+          "pick_rate": 0.31,
           "ban_rate": 0.12
         },
         "9": {
-          "win_rate": 47.16,
-          "pick_rate": 0.31,
+          "win_rate": 47.39,
+          "pick_rate": 0.3,
           "ban_rate": 0.06
         },
         "8": {
-          "win_rate": 49.63,
-          "pick_rate": 0.35,
+          "win_rate": 49.74,
+          "pick_rate": 0.34,
           "ban_rate": 0.11
         },
         "7": {
-          "win_rate": 51.24,
-          "pick_rate": 0.33,
-          "ban_rate": 0.16
+          "win_rate": 50.73,
+          "pick_rate": 0.32,
+          "ban_rate": 0.17
         },
         "6": {
-          "win_rate": 51.58,
+          "win_rate": 51.08,
           "pick_rate": 0.29,
-          "ban_rate": 0.26
+          "ban_rate": 0.27
         },
         "5": {
-          "win_rate": 51.87,
+          "win_rate": 51.61,
           "pick_rate": 0.24,
-          "ban_rate": 0.41
+          "ban_rate": 0.42
         }
       },
       "7d": {
@@ -12846,34 +12846,34 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 49.04,
+          "win_rate": 49.05,
           "pick_rate": 1.66,
-          "ban_rate": 7.33
+          "ban_rate": 7.47
         },
         "9": {
-          "win_rate": 48.97,
-          "pick_rate": 1.77,
-          "ban_rate": 6.59
+          "win_rate": 48.98,
+          "pick_rate": 1.79,
+          "ban_rate": 6.63
         },
         "8": {
-          "win_rate": 49.39,
+          "win_rate": 49.36,
           "pick_rate": 1.59,
-          "ban_rate": 8.89
+          "ban_rate": 8.95
         },
         "7": {
-          "win_rate": 48.75,
-          "pick_rate": 1.44,
-          "ban_rate": 10.8
+          "win_rate": 48.84,
+          "pick_rate": 1.42,
+          "ban_rate": 10.69
         },
         "6": {
-          "win_rate": 48.88,
-          "pick_rate": 1.46,
-          "ban_rate": 10.04
+          "win_rate": 48.96,
+          "pick_rate": 1.45,
+          "ban_rate": 10.02
         },
         "5": {
-          "win_rate": 48.96,
-          "pick_rate": 1.24,
-          "ban_rate": 5.93
+          "win_rate": 49.09,
+          "pick_rate": 1.21,
+          "ban_rate": 5.84
         }
       },
       "7d": {
@@ -12998,34 +12998,34 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 48.8,
-          "pick_rate": 0.82,
-          "ban_rate": 2.46
+          "win_rate": 48.89,
+          "pick_rate": 0.81,
+          "ban_rate": 2.51
         },
         "9": {
-          "win_rate": 48.78,
-          "pick_rate": 0.64,
-          "ban_rate": 0.9
+          "win_rate": 48.76,
+          "pick_rate": 0.63,
+          "ban_rate": 0.91
         },
         "8": {
-          "win_rate": 49.18,
-          "pick_rate": 0.99,
-          "ban_rate": 2.7
+          "win_rate": 49.53,
+          "pick_rate": 0.97,
+          "ban_rate": 2.72
         },
         "7": {
-          "win_rate": 48.59,
-          "pick_rate": 1.12,
-          "ban_rate": 4.65
+          "win_rate": 48.82,
+          "pick_rate": 1.11,
+          "ban_rate": 4.62
         },
         "6": {
-          "win_rate": 48.43,
-          "pick_rate": 1.15,
-          "ban_rate": 5.37
+          "win_rate": 48.33,
+          "pick_rate": 1.13,
+          "ban_rate": 5.38
         },
         "5": {
-          "win_rate": 48.27,
-          "pick_rate": 1.07,
-          "ban_rate": 5.28
+          "win_rate": 48.26,
+          "pick_rate": 1.06,
+          "ban_rate": 5.22
         }
       },
       "7d": {
@@ -13150,34 +13150,34 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 48.69,
-          "pick_rate": 0.85,
-          "ban_rate": 0.63
+          "win_rate": 48.76,
+          "pick_rate": 0.84,
+          "ban_rate": 0.64
         },
         "9": {
-          "win_rate": 47.54,
-          "pick_rate": 0.71,
-          "ban_rate": 0.17
+          "win_rate": 47.61,
+          "pick_rate": 0.7,
+          "ban_rate": 0.18
         },
         "8": {
-          "win_rate": 49.11,
-          "pick_rate": 1.01,
-          "ban_rate": 0.56
+          "win_rate": 49.19,
+          "pick_rate": 1.0,
+          "ban_rate": 0.57
         },
         "7": {
-          "win_rate": 49.69,
-          "pick_rate": 1.1,
-          "ban_rate": 1.15
+          "win_rate": 49.51,
+          "pick_rate": 1.09,
+          "ban_rate": 1.13
         },
         "6": {
-          "win_rate": 50.48,
+          "win_rate": 50.69,
           "pick_rate": 1.08,
-          "ban_rate": 1.71
+          "ban_rate": 1.67
         },
         "5": {
-          "win_rate": 51.69,
-          "pick_rate": 0.9,
-          "ban_rate": 1.77
+          "win_rate": 52.19,
+          "pick_rate": 0.88,
+          "ban_rate": 1.79
         }
       },
       "7d": {
@@ -13303,34 +13303,34 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 48.49,
+          "win_rate": 48.35,
           "pick_rate": 0.07,
-          "ban_rate": 3.17
+          "ban_rate": 2.28
         },
         "9": {
-          "win_rate": 49.19,
+          "win_rate": 48.87,
           "pick_rate": 0.08,
           "ban_rate": 0.51
         },
         "8": {
-          "win_rate": 46.58,
+          "win_rate": 46.91,
           "pick_rate": 0.05,
           "ban_rate": 0.51
         },
         "7": {
-          "win_rate": 46.72,
+          "win_rate": 48.67,
           "pick_rate": 0.04,
-          "ban_rate": 0.73
+          "ban_rate": 0.72
         },
         "6": {
-          "win_rate": 47.33,
+          "win_rate": 45.79,
           "pick_rate": 0.04,
-          "ban_rate": 1.24
+          "ban_rate": 1.23
         },
         "5": {
-          "win_rate": 49.05,
+          "win_rate": 47.08,
           "pick_rate": 0.03,
-          "ban_rate": 1.72
+          "ban_rate": 1.71
         }
       },
       "7d": {
@@ -13455,34 +13455,34 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 48.58,
-          "pick_rate": 0.64,
-          "ban_rate": 1.57
+          "win_rate": 48.63,
+          "pick_rate": 0.66,
+          "ban_rate": 0.83
         },
         "9": {
-          "win_rate": 47.76,
-          "pick_rate": 0.66,
+          "win_rate": 47.8,
+          "pick_rate": 0.67,
           "ban_rate": 0.36
         },
         "8": {
-          "win_rate": 49.11,
-          "pick_rate": 0.64,
-          "ban_rate": 0.94
+          "win_rate": 49.36,
+          "pick_rate": 0.65,
+          "ban_rate": 0.93
         },
         "7": {
-          "win_rate": 50.27,
-          "pick_rate": 0.58,
-          "ban_rate": 1.42
+          "win_rate": 50.07,
+          "pick_rate": 0.6,
+          "ban_rate": 1.43
         },
         "6": {
-          "win_rate": 50.43,
-          "pick_rate": 0.62,
-          "ban_rate": 1.74
+          "win_rate": 50.54,
+          "pick_rate": 0.64,
+          "ban_rate": 1.75
         },
         "5": {
-          "win_rate": 50.72,
+          "win_rate": 50.48,
           "pick_rate": 0.56,
-          "ban_rate": 1.52
+          "ban_rate": 1.47
         }
       },
       "7d": {
@@ -13608,34 +13608,34 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 48.34,
-          "pick_rate": 0.84,
-          "ban_rate": 31.86
+          "win_rate": 48.5,
+          "pick_rate": 0.87,
+          "ban_rate": 32.27
         },
         "9": {
-          "win_rate": 48.36,
-          "pick_rate": 1.05,
-          "ban_rate": 40.47
+          "win_rate": 48.59,
+          "pick_rate": 1.08,
+          "ban_rate": 40.16
         },
         "8": {
-          "win_rate": 48.46,
-          "pick_rate": 0.66,
-          "ban_rate": 41.96
+          "win_rate": 48.29,
+          "pick_rate": 0.68,
+          "ban_rate": 41.67
         },
         "7": {
-          "win_rate": 48.88,
-          "pick_rate": 0.54,
-          "ban_rate": 35.37
+          "win_rate": 49.05,
+          "pick_rate": 0.56,
+          "ban_rate": 35.11
         },
         "6": {
-          "win_rate": 47.92,
-          "pick_rate": 0.46,
-          "ban_rate": 22.36
+          "win_rate": 47.99,
+          "pick_rate": 0.48,
+          "ban_rate": 22.1
         },
         "5": {
-          "win_rate": 46.1,
-          "pick_rate": 0.39,
-          "ban_rate": 11.1
+          "win_rate": 46.78,
+          "pick_rate": 0.43,
+          "ban_rate": 10.89
         }
       },
       "7d": {
@@ -13760,34 +13760,34 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 48.13,
-          "pick_rate": 0.55,
-          "ban_rate": 0.94
+          "win_rate": 48.06,
+          "pick_rate": 0.57,
+          "ban_rate": 0.96
         },
         "9": {
-          "win_rate": 47.84,
-          "pick_rate": 0.7,
-          "ban_rate": 0.36
+          "win_rate": 47.9,
+          "pick_rate": 0.73,
+          "ban_rate": 0.37
         },
         "8": {
-          "win_rate": 48.24,
-          "pick_rate": 0.44,
-          "ban_rate": 1.05
+          "win_rate": 47.92,
+          "pick_rate": 0.45,
+          "ban_rate": 1.03
         },
         "7": {
-          "win_rate": 49.84,
-          "pick_rate": 0.34,
-          "ban_rate": 2.0
+          "win_rate": 49.14,
+          "pick_rate": 0.35,
+          "ban_rate": 2.01
         },
         "6": {
-          "win_rate": 50.15,
+          "win_rate": 50.01,
           "pick_rate": 0.23,
-          "ban_rate": 1.87
+          "ban_rate": 1.9
         },
         "5": {
-          "win_rate": 50.32,
+          "win_rate": 49.16,
           "pick_rate": 0.15,
-          "ban_rate": 1.53
+          "ban_rate": 1.54
         }
       },
       "7d": {
@@ -13912,34 +13912,34 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 48.03,
+          "win_rate": 47.93,
           "pick_rate": 0.15,
-          "ban_rate": 0.23
+          "ban_rate": 0.24
         },
         "9": {
-          "win_rate": 47.98,
+          "win_rate": 47.9,
           "pick_rate": 0.16,
-          "ban_rate": 0.1
+          "ban_rate": 0.11
         },
         "8": {
-          "win_rate": 47.84,
-          "pick_rate": 0.15,
+          "win_rate": 47.66,
+          "pick_rate": 0.16,
           "ban_rate": 0.26
         },
         "7": {
-          "win_rate": 50.07,
+          "win_rate": 49.12,
           "pick_rate": 0.12,
           "ban_rate": 0.4
         },
         "6": {
-          "win_rate": 47.93,
+          "win_rate": 48.4,
           "pick_rate": 0.12,
-          "ban_rate": 0.49
+          "ban_rate": 0.52
         },
         "5": {
-          "win_rate": 45.42,
+          "win_rate": 46.55,
           "pick_rate": 0.11,
-          "ban_rate": 0.54
+          "ban_rate": 0.53
         }
       },
       "7d": {
@@ -14064,34 +14064,34 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 48.52,
+          "win_rate": 48.66,
           "pick_rate": 0.34,
-          "ban_rate": 0.61
+          "ban_rate": 1.18
         },
         "9": {
-          "win_rate": 47.96,
+          "win_rate": 48.15,
           "pick_rate": 0.35,
-          "ban_rate": 0.18
+          "ban_rate": 0.19
         },
         "8": {
-          "win_rate": 48.48,
+          "win_rate": 49.0,
           "pick_rate": 0.35,
-          "ban_rate": 0.55
+          "ban_rate": 0.56
         },
         "7": {
-          "win_rate": 50.12,
-          "pick_rate": 0.32,
+          "win_rate": 49.98,
+          "pick_rate": 0.31,
           "ban_rate": 1.17
         },
         "6": {
-          "win_rate": 50.39,
-          "pick_rate": 0.27,
-          "ban_rate": 1.57
+          "win_rate": 50.15,
+          "pick_rate": 0.28,
+          "ban_rate": 1.56
         },
         "5": {
-          "win_rate": 51.59,
-          "pick_rate": 0.22,
-          "ban_rate": 1.72
+          "win_rate": 49.12,
+          "pick_rate": 0.25,
+          "ban_rate": 1.67
         }
       },
       "7d": {
@@ -14216,34 +14216,34 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 48.38,
-          "pick_rate": 1.1,
-          "ban_rate": 1.15
+          "win_rate": 48.3,
+          "pick_rate": 1.08,
+          "ban_rate": 1.19
         },
         "9": {
-          "win_rate": 47.64,
+          "win_rate": 47.58,
           "pick_rate": 0.67,
-          "ban_rate": 0.48
+          "ban_rate": 0.49
         },
         "8": {
-          "win_rate": 48.74,
-          "pick_rate": 1.25,
-          "ban_rate": 0.88
+          "win_rate": 48.56,
+          "pick_rate": 1.24,
+          "ban_rate": 0.89
         },
         "7": {
-          "win_rate": 48.15,
+          "win_rate": 48.26,
           "pick_rate": 1.65,
-          "ban_rate": 1.58
+          "ban_rate": 1.59
         },
         "6": {
-          "win_rate": 48.69,
-          "pick_rate": 2.15,
-          "ban_rate": 2.98
+          "win_rate": 48.76,
+          "pick_rate": 2.14,
+          "ban_rate": 3.0
         },
         "5": {
-          "win_rate": 49.83,
+          "win_rate": 49.54,
           "pick_rate": 2.77,
-          "ban_rate": 5.08
+          "ban_rate": 5.12
         }
       },
       "7d": {
@@ -14368,34 +14368,34 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 47.9,
+          "win_rate": 47.73,
           "pick_rate": 0.85,
-          "ban_rate": 4.43
+          "ban_rate": 4.44
         },
         "9": {
-          "win_rate": 48.02,
-          "pick_rate": 0.92,
-          "ban_rate": 1.81
+          "win_rate": 47.93,
+          "pick_rate": 0.91,
+          "ban_rate": 1.78
         },
         "8": {
-          "win_rate": 47.62,
-          "pick_rate": 0.88,
-          "ban_rate": 4.47
+          "win_rate": 47.33,
+          "pick_rate": 0.87,
+          "ban_rate": 4.4
         },
         "7": {
-          "win_rate": 47.44,
+          "win_rate": 47.5,
           "pick_rate": 0.79,
-          "ban_rate": 7.14
+          "ban_rate": 7.05
         },
         "6": {
-          "win_rate": 48.0,
+          "win_rate": 47.37,
           "pick_rate": 0.59,
-          "ban_rate": 10.42
+          "ban_rate": 10.29
         },
         "5": {
-          "win_rate": 49.02,
+          "win_rate": 48.03,
           "pick_rate": 0.45,
-          "ban_rate": 12.27
+          "ban_rate": 12.28
         }
       },
       "7d": {
@@ -14520,34 +14520,34 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 48.26,
-          "pick_rate": 1.56,
-          "ban_rate": 4.76
+          "win_rate": 48.24,
+          "pick_rate": 1.55,
+          "ban_rate": 4.82
         },
         "9": {
-          "win_rate": 47.09,
+          "win_rate": 47.15,
           "pick_rate": 1.1,
-          "ban_rate": 1.0
+          "ban_rate": 1.01
         },
         "8": {
-          "win_rate": 48.9,
+          "win_rate": 48.7,
           "pick_rate": 1.78,
-          "ban_rate": 3.49
+          "ban_rate": 3.5
         },
         "7": {
-          "win_rate": 47.95,
-          "pick_rate": 2.19,
-          "ban_rate": 7.91
+          "win_rate": 48.26,
+          "pick_rate": 2.2,
+          "ban_rate": 7.88
         },
         "6": {
-          "win_rate": 49.34,
-          "pick_rate": 2.64,
-          "ban_rate": 14.01
+          "win_rate": 49.32,
+          "pick_rate": 2.66,
+          "ban_rate": 13.92
         },
         "5": {
-          "win_rate": 50.64,
-          "pick_rate": 2.97,
-          "ban_rate": 19.91
+          "win_rate": 50.42,
+          "pick_rate": 3.01,
+          "ban_rate": 19.65
         }
       },
       "7d": {
@@ -14673,34 +14673,34 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 48.33,
+          "win_rate": 48.26,
           "pick_rate": 0.53,
-          "ban_rate": 3.0
+          "ban_rate": 3.04
         },
         "9": {
-          "win_rate": 47.96,
+          "win_rate": 47.88,
           "pick_rate": 0.34,
-          "ban_rate": 0.56
+          "ban_rate": 0.57
         },
         "8": {
-          "win_rate": 48.89,
+          "win_rate": 48.75,
           "pick_rate": 0.64,
-          "ban_rate": 2.2
+          "ban_rate": 2.22
         },
         "7": {
-          "win_rate": 47.95,
+          "win_rate": 47.9,
           "pick_rate": 0.88,
-          "ban_rate": 5.15
+          "ban_rate": 5.12
         },
         "6": {
-          "win_rate": 48.3,
-          "pick_rate": 0.99,
-          "ban_rate": 9.36
+          "win_rate": 48.39,
+          "pick_rate": 1.01,
+          "ban_rate": 9.32
         },
         "5": {
-          "win_rate": 48.92,
-          "pick_rate": 0.96,
-          "ban_rate": 11.02
+          "win_rate": 48.8,
+          "pick_rate": 1.01,
+          "ban_rate": 11.04
         }
       },
       "7d": {
@@ -14825,34 +14825,34 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 48.38,
+          "win_rate": 48.59,
           "pick_rate": 0.22,
           "ban_rate": 0.49
         },
         "9": {
-          "win_rate": 48.84,
+          "win_rate": 49.1,
           "pick_rate": 0.29,
-          "ban_rate": 0.42
+          "ban_rate": 0.41
         },
         "8": {
-          "win_rate": 46.31,
+          "win_rate": 46.21,
           "pick_rate": 0.15,
-          "ban_rate": 0.54
+          "ban_rate": 0.53
         },
         "7": {
-          "win_rate": 47.31,
-          "pick_rate": 0.11,
-          "ban_rate": 0.62
+          "win_rate": 47.18,
+          "pick_rate": 0.1,
+          "ban_rate": 0.61
         },
         "6": {
-          "win_rate": 48.67,
+          "win_rate": 48.68,
           "pick_rate": 0.08,
           "ban_rate": 0.79
         },
         "5": {
-          "win_rate": 50.87,
+          "win_rate": 50.65,
           "pick_rate": 0.06,
-          "ban_rate": 0.88
+          "ban_rate": 0.84
         }
       },
       "7d": {
@@ -14977,34 +14977,34 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 48.22,
+          "win_rate": 47.94,
           "pick_rate": 0.3,
-          "ban_rate": 0.39
+          "ban_rate": 0.69
         },
         "9": {
-          "win_rate": 48.17,
+          "win_rate": 47.89,
           "pick_rate": 0.39,
           "ban_rate": 0.16
         },
         "8": {
-          "win_rate": 46.98,
+          "win_rate": 47.15,
           "pick_rate": 0.23,
-          "ban_rate": 0.27
+          "ban_rate": 0.28
         },
         "7": {
-          "win_rate": 49.89,
+          "win_rate": 49.44,
           "pick_rate": 0.15,
-          "ban_rate": 0.4
+          "ban_rate": 0.41
         },
         "6": {
-          "win_rate": 51.91,
+          "win_rate": 50.17,
           "pick_rate": 0.12,
-          "ban_rate": 0.47
+          "ban_rate": 0.48
         },
         "5": {
-          "win_rate": 52.62,
+          "win_rate": 51.03,
           "pick_rate": 0.09,
-          "ban_rate": 0.48
+          "ban_rate": 0.49
         }
       },
       "7d": {
@@ -15129,34 +15129,34 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 47.95,
-          "pick_rate": 1.38,
-          "ban_rate": 1.14
+          "win_rate": 47.92,
+          "pick_rate": 1.36,
+          "ban_rate": 1.18
         },
         "9": {
-          "win_rate": 47.68,
-          "pick_rate": 0.69,
-          "ban_rate": 0.25
+          "win_rate": 47.8,
+          "pick_rate": 0.68,
+          "ban_rate": 0.26
         },
         "8": {
-          "win_rate": 48.67,
+          "win_rate": 48.26,
           "pick_rate": 1.34,
-          "ban_rate": 0.73
+          "ban_rate": 0.72
         },
         "7": {
-          "win_rate": 47.86,
-          "pick_rate": 2.07,
-          "ban_rate": 1.59
+          "win_rate": 47.72,
+          "pick_rate": 2.04,
+          "ban_rate": 1.6
         },
         "6": {
-          "win_rate": 47.73,
-          "pick_rate": 3.45,
-          "ban_rate": 3.52
+          "win_rate": 47.75,
+          "pick_rate": 3.46,
+          "ban_rate": 3.61
         },
         "5": {
-          "win_rate": 47.85,
+          "win_rate": 48.1,
           "pick_rate": 5.5,
-          "ban_rate": 6.05
+          "ban_rate": 6.2
         }
       },
       "7d": {
@@ -15281,34 +15281,34 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 47.84,
+          "win_rate": 47.95,
           "pick_rate": 0.32,
-          "ban_rate": 1.41
+          "ban_rate": 1.43
         },
         "9": {
-          "win_rate": 47.32,
+          "win_rate": 47.43,
           "pick_rate": 0.3,
-          "ban_rate": 0.28
+          "ban_rate": 0.29
         },
         "8": {
-          "win_rate": 47.79,
+          "win_rate": 48.01,
           "pick_rate": 0.35,
-          "ban_rate": 1.28
+          "ban_rate": 1.3
         },
         "7": {
-          "win_rate": 48.93,
+          "win_rate": 48.86,
           "pick_rate": 0.34,
-          "ban_rate": 3.15
+          "ban_rate": 3.17
         },
         "6": {
-          "win_rate": 49.17,
+          "win_rate": 49.5,
           "pick_rate": 0.37,
-          "ban_rate": 3.73
+          "ban_rate": 3.68
         },
         "5": {
-          "win_rate": 49.06,
-          "pick_rate": 0.34,
-          "ban_rate": 2.89
+          "win_rate": 48.48,
+          "pick_rate": 0.33,
+          "ban_rate": 2.8
         }
       },
       "7d": {
@@ -15433,34 +15433,34 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 48.18,
-          "pick_rate": 0.42,
-          "ban_rate": 0.39
+          "win_rate": 47.96,
+          "pick_rate": 0.41,
+          "ban_rate": 0.4
         },
         "9": {
-          "win_rate": 47.88,
+          "win_rate": 47.6,
           "pick_rate": 0.34,
           "ban_rate": 0.16
         },
         "8": {
-          "win_rate": 48.45,
-          "pick_rate": 0.5,
-          "ban_rate": 0.43
+          "win_rate": 48.17,
+          "pick_rate": 0.51,
+          "ban_rate": 0.44
         },
         "7": {
-          "win_rate": 48.7,
+          "win_rate": 48.41,
           "pick_rate": 0.54,
-          "ban_rate": 0.71
+          "ban_rate": 0.73
         },
         "6": {
-          "win_rate": 48.22,
-          "pick_rate": 0.52,
+          "win_rate": 48.27,
+          "pick_rate": 0.51,
           "ban_rate": 0.83
         },
         "5": {
-          "win_rate": 48.15,
-          "pick_rate": 0.41,
-          "ban_rate": 0.75
+          "win_rate": 48.71,
+          "pick_rate": 0.4,
+          "ban_rate": 0.76
         }
       },
       "7d": {
@@ -15587,33 +15587,33 @@
       "1d": {
         "101": {
           "win_rate": 47.85,
-          "pick_rate": 0.61,
-          "ban_rate": 4.63
+          "pick_rate": 0.6,
+          "ban_rate": 2.37
         },
         "9": {
-          "win_rate": 47.85,
-          "pick_rate": 0.67,
-          "ban_rate": 2.89
+          "win_rate": 47.77,
+          "pick_rate": 0.66,
+          "ban_rate": 2.84
         },
         "8": {
-          "win_rate": 47.62,
+          "win_rate": 47.75,
           "pick_rate": 0.59,
-          "ban_rate": 2.9
+          "ban_rate": 2.88
         },
         "7": {
-          "win_rate": 47.42,
-          "pick_rate": 0.54,
-          "ban_rate": 2.72
+          "win_rate": 47.68,
+          "pick_rate": 0.55,
+          "ban_rate": 2.71
         },
         "6": {
-          "win_rate": 48.48,
-          "pick_rate": 0.45,
-          "ban_rate": 2.0
+          "win_rate": 48.53,
+          "pick_rate": 0.46,
+          "ban_rate": 2.01
         },
         "5": {
-          "win_rate": 50.07,
-          "pick_rate": 0.3,
-          "ban_rate": 1.14
+          "win_rate": 49.56,
+          "pick_rate": 0.31,
+          "ban_rate": 1.17
         }
       },
       "7d": {
@@ -15738,34 +15738,34 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 48.19,
-          "pick_rate": 1.01,
-          "ban_rate": 2.51
+          "win_rate": 48.34,
+          "pick_rate": 1.02,
+          "ban_rate": 2.53
         },
         "9": {
-          "win_rate": 48.64,
+          "win_rate": 48.7,
           "pick_rate": 1.11,
-          "ban_rate": 1.33
+          "ban_rate": 1.29
         },
         "8": {
-          "win_rate": 47.29,
-          "pick_rate": 0.97,
-          "ban_rate": 3.0
+          "win_rate": 47.63,
+          "pick_rate": 0.98,
+          "ban_rate": 2.95
         },
         "7": {
-          "win_rate": 48.11,
+          "win_rate": 48.42,
           "pick_rate": 0.91,
-          "ban_rate": 4.48
+          "ban_rate": 4.46
         },
         "6": {
-          "win_rate": 47.39,
-          "pick_rate": 0.77,
-          "ban_rate": 4.56
+          "win_rate": 47.69,
+          "pick_rate": 0.78,
+          "ban_rate": 4.62
         },
         "5": {
-          "win_rate": 47.53,
-          "pick_rate": 0.59,
-          "ban_rate": 3.87
+          "win_rate": 46.8,
+          "pick_rate": 0.62,
+          "ban_rate": 3.96
         }
       },
       "7d": {
@@ -15891,34 +15891,34 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 47.69,
-          "pick_rate": 1.17,
-          "ban_rate": 4.06
+          "win_rate": 47.65,
+          "pick_rate": 1.15,
+          "ban_rate": 4.1
         },
         "9": {
           "win_rate": 47.37,
-          "pick_rate": 1.32,
-          "ban_rate": 3.64
+          "pick_rate": 1.3,
+          "ban_rate": 3.58
         },
         "8": {
-          "win_rate": 47.22,
-          "pick_rate": 1.19,
+          "win_rate": 47.12,
+          "pick_rate": 1.17,
           "ban_rate": 5.22
         },
         "7": {
-          "win_rate": 49.27,
-          "pick_rate": 0.95,
-          "ban_rate": 5.77
+          "win_rate": 49.26,
+          "pick_rate": 0.92,
+          "ban_rate": 5.69
         },
         "6": {
-          "win_rate": 50.42,
-          "pick_rate": 0.67,
-          "ban_rate": 5.19
+          "win_rate": 50.1,
+          "pick_rate": 0.66,
+          "ban_rate": 5.16
         },
         "5": {
-          "win_rate": 51.79,
-          "pick_rate": 0.47,
-          "ban_rate": 3.62
+          "win_rate": 52.05,
+          "pick_rate": 0.45,
+          "ban_rate": 3.61
         }
       },
       "7d": {
@@ -16043,34 +16043,34 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 47.21,
+          "win_rate": 47.42,
           "pick_rate": 0.15,
-          "ban_rate": 0.11
+          "ban_rate": 0.12
         },
         "9": {
-          "win_rate": 47.79,
+          "win_rate": 47.84,
           "pick_rate": 0.17,
           "ban_rate": 0.05
         },
         "8": {
-          "win_rate": 45.91,
+          "win_rate": 46.25,
           "pick_rate": 0.14,
           "ban_rate": 0.07
         },
         "7": {
-          "win_rate": 46.33,
+          "win_rate": 48.21,
           "pick_rate": 0.13,
-          "ban_rate": 0.12
+          "ban_rate": 0.13
         },
         "6": {
-          "win_rate": 46.72,
+          "win_rate": 46.38,
           "pick_rate": 0.12,
-          "ban_rate": 0.26
+          "ban_rate": 0.28
         },
         "5": {
-          "win_rate": 47.84,
-          "pick_rate": 0.12,
-          "ban_rate": 0.81
+          "win_rate": 46.81,
+          "pick_rate": 0.11,
+          "ban_rate": 0.84
         }
       },
       "7d": {
@@ -16195,34 +16195,34 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 47.76,
+          "win_rate": 47.83,
           "pick_rate": 0.38,
-          "ban_rate": 0.27
+          "ban_rate": 0.28
         },
         "9": {
-          "win_rate": 47.26,
+          "win_rate": 47.3,
           "pick_rate": 0.23,
           "ban_rate": 0.04
         },
         "8": {
-          "win_rate": 48.48,
-          "pick_rate": 0.36,
+          "win_rate": 48.76,
+          "pick_rate": 0.37,
           "ban_rate": 0.13
         },
         "7": {
-          "win_rate": 47.85,
+          "win_rate": 47.53,
           "pick_rate": 0.5,
-          "ban_rate": 0.34
+          "ban_rate": 0.35
         },
         "6": {
-          "win_rate": 47.68,
-          "pick_rate": 0.81,
-          "ban_rate": 0.87
+          "win_rate": 47.9,
+          "pick_rate": 0.82,
+          "ban_rate": 0.86
         },
         "5": {
-          "win_rate": 47.87,
-          "pick_rate": 1.6,
-          "ban_rate": 1.95
+          "win_rate": 47.89,
+          "pick_rate": 1.59,
+          "ban_rate": 1.92
         }
       },
       "7d": {
@@ -16347,33 +16347,33 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 48.06,
+          "win_rate": 47.89,
           "pick_rate": 0.49,
-          "ban_rate": 0.17
+          "ban_rate": 0.18
         },
         "9": {
-          "win_rate": 48.3,
-          "pick_rate": 0.53,
+          "win_rate": 48.1,
+          "pick_rate": 0.52,
           "ban_rate": 0.07
         },
         "8": {
-          "win_rate": 47.86,
+          "win_rate": 47.58,
           "pick_rate": 0.5,
           "ban_rate": 0.16
         },
         "7": {
-          "win_rate": 47.53,
+          "win_rate": 47.43,
           "pick_rate": 0.44,
-          "ban_rate": 0.28
+          "ban_rate": 0.3
         },
         "6": {
-          "win_rate": 47.15,
-          "pick_rate": 0.37,
-          "ban_rate": 0.43
+          "win_rate": 47.73,
+          "pick_rate": 0.36,
+          "ban_rate": 0.44
         },
         "5": {
-          "win_rate": 48.46,
-          "pick_rate": 0.33,
+          "win_rate": 46.98,
+          "pick_rate": 0.31,
           "ban_rate": 0.51
         }
       },
@@ -16500,34 +16500,34 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 47.41,
-          "pick_rate": 0.43,
-          "ban_rate": 0.54
+          "win_rate": 47.63,
+          "pick_rate": 0.44,
+          "ban_rate": 0.56
         },
         "9": {
-          "win_rate": 47.82,
-          "pick_rate": 0.53,
-          "ban_rate": 0.51
+          "win_rate": 48.05,
+          "pick_rate": 0.54,
+          "ban_rate": 0.52
         },
         "8": {
-          "win_rate": 46.29,
+          "win_rate": 46.75,
           "pick_rate": 0.36,
           "ban_rate": 0.71
         },
         "7": {
-          "win_rate": 46.94,
+          "win_rate": 46.09,
           "pick_rate": 0.28,
-          "ban_rate": 0.71
+          "ban_rate": 0.74
         },
         "6": {
-          "win_rate": 46.53,
+          "win_rate": 46.46,
           "pick_rate": 0.21,
-          "ban_rate": 0.62
+          "ban_rate": 0.63
         },
         "5": {
-          "win_rate": 46.95,
+          "win_rate": 46.67,
           "pick_rate": 0.15,
-          "ban_rate": 0.54
+          "ban_rate": 0.55
         }
       },
       "7d": {
@@ -16652,34 +16652,34 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 47.59,
-          "pick_rate": 2.02,
-          "ban_rate": 7.0
+          "win_rate": 47.58,
+          "pick_rate": 1.99,
+          "ban_rate": 7.2
         },
         "9": {
-          "win_rate": 46.91,
-          "pick_rate": 1.82,
-          "ban_rate": 4.61
+          "win_rate": 46.93,
+          "pick_rate": 1.78,
+          "ban_rate": 4.62
         },
         "8": {
-          "win_rate": 48.05,
-          "pick_rate": 2.31,
-          "ban_rate": 9.1
+          "win_rate": 47.85,
+          "pick_rate": 2.3,
+          "ban_rate": 9.22
         },
         "7": {
-          "win_rate": 47.63,
-          "pick_rate": 2.39,
-          "ban_rate": 11.87
+          "win_rate": 47.79,
+          "pick_rate": 2.4,
+          "ban_rate": 12.05
         },
         "6": {
-          "win_rate": 48.94,
-          "pick_rate": 2.19,
-          "ban_rate": 10.49
+          "win_rate": 49.02,
+          "pick_rate": 2.21,
+          "ban_rate": 10.67
         },
         "5": {
-          "win_rate": 50.22,
-          "pick_rate": 1.92,
-          "ban_rate": 7.74
+          "win_rate": 50.57,
+          "pick_rate": 1.95,
+          "ban_rate": 7.88
         }
       },
       "7d": {
@@ -16804,34 +16804,34 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 47.02,
+          "win_rate": 47.17,
           "pick_rate": 0.25,
-          "ban_rate": 0.38
+          "ban_rate": 0.39
         },
         "9": {
-          "win_rate": 47.58,
-          "pick_rate": 0.29,
-          "ban_rate": 0.15
+          "win_rate": 47.69,
+          "pick_rate": 0.28,
+          "ban_rate": 0.14
         },
         "8": {
-          "win_rate": 46.07,
-          "pick_rate": 0.24,
-          "ban_rate": 0.41
+          "win_rate": 45.99,
+          "pick_rate": 0.23,
+          "ban_rate": 0.4
         },
         "7": {
-          "win_rate": 46.02,
+          "win_rate": 47.13,
           "pick_rate": 0.21,
           "ban_rate": 0.85
         },
         "6": {
-          "win_rate": 46.12,
+          "win_rate": 45.95,
           "pick_rate": 0.18,
-          "ban_rate": 0.72
+          "ban_rate": 0.74
         },
         "5": {
-          "win_rate": 46.19,
-          "pick_rate": 0.14,
-          "ban_rate": 0.62
+          "win_rate": 46.58,
+          "pick_rate": 0.15,
+          "ban_rate": 0.6
         }
       },
       "7d": {
@@ -16957,34 +16957,34 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 46.95,
-          "pick_rate": 0.79,
-          "ban_rate": 0.66
+          "win_rate": 46.83,
+          "pick_rate": 0.8,
+          "ban_rate": 0.69
         },
         "9": {
-          "win_rate": 47.01,
-          "pick_rate": 0.85,
-          "ban_rate": 0.48
+          "win_rate": 46.88,
+          "pick_rate": 0.87,
+          "ban_rate": 0.49
         },
         "8": {
-          "win_rate": 46.05,
-          "pick_rate": 0.8,
-          "ban_rate": 0.84
+          "win_rate": 45.96,
+          "pick_rate": 0.81,
+          "ban_rate": 0.86
         },
         "7": {
-          "win_rate": 47.53,
-          "pick_rate": 0.7,
-          "ban_rate": 1.01
-        },
-        "6": {
-          "win_rate": 48.21,
-          "pick_rate": 0.59,
+          "win_rate": 47.67,
+          "pick_rate": 0.71,
           "ban_rate": 1.03
         },
+        "6": {
+          "win_rate": 47.77,
+          "pick_rate": 0.59,
+          "ban_rate": 1.05
+        },
         "5": {
-          "win_rate": 48.99,
+          "win_rate": 48.28,
           "pick_rate": 0.46,
-          "ban_rate": 0.83
+          "ban_rate": 0.86
         }
       },
       "7d": {
@@ -17109,34 +17109,34 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 46.89,
-          "pick_rate": 0.79,
-          "ban_rate": 1.45
+          "win_rate": 46.93,
+          "pick_rate": 0.77,
+          "ban_rate": 2.87
         },
         "9": {
-          "win_rate": 46.6,
-          "pick_rate": 0.91,
-          "ban_rate": 1.46
+          "win_rate": 46.65,
+          "pick_rate": 0.88,
+          "ban_rate": 1.39
         },
         "8": {
-          "win_rate": 46.69,
-          "pick_rate": 0.81,
+          "win_rate": 46.85,
+          "pick_rate": 0.79,
           "ban_rate": 2.04
         },
         "7": {
-          "win_rate": 48.65,
-          "pick_rate": 0.6,
-          "ban_rate": 1.85
+          "win_rate": 48.58,
+          "pick_rate": 0.59,
+          "ban_rate": 1.84
         },
         "6": {
-          "win_rate": 49.04,
+          "win_rate": 48.6,
           "pick_rate": 0.4,
-          "ban_rate": 1.39
+          "ban_rate": 1.43
         },
         "5": {
-          "win_rate": 48.08,
+          "win_rate": 48.65,
           "pick_rate": 0.3,
-          "ban_rate": 0.98
+          "ban_rate": 1.03
         }
       },
       "7d": {
@@ -17261,34 +17261,34 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 47.31,
+          "win_rate": 47.3,
           "pick_rate": 0.57,
-          "ban_rate": 0.41
+          "ban_rate": 0.42
         },
         "9": {
-          "win_rate": 47.14,
-          "pick_rate": 0.5,
+          "win_rate": 46.98,
+          "pick_rate": 0.51,
           "ban_rate": 0.09
         },
         "8": {
-          "win_rate": 46.97,
+          "win_rate": 47.27,
           "pick_rate": 0.6,
-          "ban_rate": 0.27
+          "ban_rate": 0.28
         },
         "7": {
-          "win_rate": 47.52,
-          "pick_rate": 0.68,
+          "win_rate": 47.53,
+          "pick_rate": 0.67,
           "ban_rate": 0.66
         },
         "6": {
           "win_rate": 48.05,
-          "pick_rate": 0.75,
-          "ban_rate": 1.34
+          "pick_rate": 0.74,
+          "ban_rate": 1.32
         },
         "5": {
-          "win_rate": 48.48,
-          "pick_rate": 0.74,
-          "ban_rate": 1.71
+          "win_rate": 48.66,
+          "pick_rate": 0.73,
+          "ban_rate": 1.7
         }
       },
       "7d": {
@@ -17414,34 +17414,34 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 47.5,
-          "pick_rate": 0.9,
-          "ban_rate": 0.71
+          "win_rate": 47.49,
+          "pick_rate": 0.89,
+          "ban_rate": 0.75
         },
         "9": {
-          "win_rate": 46.6,
+          "win_rate": 46.46,
           "pick_rate": 0.5,
           "ban_rate": 0.31
         },
         "8": {
-          "win_rate": 47.98,
-          "pick_rate": 0.98,
+          "win_rate": 48.04,
+          "pick_rate": 1.0,
           "ban_rate": 0.54
         },
         "7": {
-          "win_rate": 47.96,
+          "win_rate": 48.0,
           "pick_rate": 1.4,
-          "ban_rate": 0.94
+          "ban_rate": 0.95
         },
         "6": {
-          "win_rate": 47.75,
-          "pick_rate": 1.93,
-          "ban_rate": 1.81
+          "win_rate": 47.78,
+          "pick_rate": 1.94,
+          "ban_rate": 1.84
         },
         "5": {
-          "win_rate": 47.94,
+          "win_rate": 48.15,
           "pick_rate": 2.69,
-          "ban_rate": 3.37
+          "ban_rate": 3.52
         }
       },
       "7d": {
@@ -17566,34 +17566,34 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 47.31,
+          "win_rate": 47.39,
           "pick_rate": 1.05,
-          "ban_rate": 0.73
+          "ban_rate": 0.77
         },
         "9": {
-          "win_rate": 45.28,
+          "win_rate": 45.4,
           "pick_rate": 0.56,
           "ban_rate": 0.1
         },
         "8": {
-          "win_rate": 47.56,
-          "pick_rate": 1.17,
-          "ban_rate": 0.34
+          "win_rate": 47.82,
+          "pick_rate": 1.19,
+          "ban_rate": 0.36
         },
         "7": {
-          "win_rate": 47.59,
-          "pick_rate": 1.72,
-          "ban_rate": 1.04
+          "win_rate": 47.58,
+          "pick_rate": 1.73,
+          "ban_rate": 1.08
         },
         "6": {
           "win_rate": 48.55,
-          "pick_rate": 2.41,
-          "ban_rate": 2.47
+          "pick_rate": 2.4,
+          "ban_rate": 2.52
         },
         "5": {
-          "win_rate": 49.59,
-          "pick_rate": 3.03,
-          "ban_rate": 4.47
+          "win_rate": 49.67,
+          "pick_rate": 3.02,
+          "ban_rate": 4.56
         }
       },
       "7d": {
@@ -17719,34 +17719,34 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 46.92,
+          "win_rate": 46.68,
           "pick_rate": 0.66,
-          "ban_rate": 0.52
+          "ban_rate": 0.54
         },
         "9": {
-          "win_rate": 45.81,
-          "pick_rate": 0.46,
+          "win_rate": 45.4,
+          "pick_rate": 0.45,
           "ban_rate": 0.14
         },
         "8": {
-          "win_rate": 46.44,
+          "win_rate": 46.32,
           "pick_rate": 0.72,
-          "ban_rate": 0.36
+          "ban_rate": 0.37
         },
         "7": {
-          "win_rate": 47.15,
-          "pick_rate": 0.97,
-          "ban_rate": 0.84
+          "win_rate": 46.93,
+          "pick_rate": 0.96,
+          "ban_rate": 0.86
         },
         "6": {
-          "win_rate": 48.72,
-          "pick_rate": 1.19,
-          "ban_rate": 1.47
+          "win_rate": 48.62,
+          "pick_rate": 1.18,
+          "ban_rate": 1.5
         },
         "5": {
-          "win_rate": 49.8,
-          "pick_rate": 1.44,
-          "ban_rate": 2.18
+          "win_rate": 49.91,
+          "pick_rate": 1.43,
+          "ban_rate": 2.23
         }
       },
       "7d": {
@@ -17871,34 +17871,34 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 46.34,
+          "win_rate": 46.55,
           "pick_rate": 0.18,
-          "ban_rate": 0.18
+          "ban_rate": 0.1
         },
         "9": {
-          "win_rate": 45.67,
+          "win_rate": 45.59,
           "pick_rate": 0.17,
           "ban_rate": 0.04
         },
         "8": {
-          "win_rate": 45.76,
+          "win_rate": 46.3,
           "pick_rate": 0.19,
           "ban_rate": 0.09
         },
         "7": {
-          "win_rate": 48.0,
+          "win_rate": 48.54,
           "pick_rate": 0.18,
-          "ban_rate": 0.15
+          "ban_rate": 0.16
         },
         "6": {
-          "win_rate": 48.55,
+          "win_rate": 49.42,
           "pick_rate": 0.2,
           "ban_rate": 0.24
         },
         "5": {
-          "win_rate": 49.28,
-          "pick_rate": 0.21,
-          "ban_rate": 0.34
+          "win_rate": 49.69,
+          "pick_rate": 0.19,
+          "ban_rate": 0.33
         }
       },
       "7d": {
@@ -18023,34 +18023,34 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 46.67,
+          "win_rate": 46.65,
           "pick_rate": 0.57,
-          "ban_rate": 0.69
+          "ban_rate": 0.7
         },
         "9": {
-          "win_rate": 46.96,
+          "win_rate": 46.94,
           "pick_rate": 0.44,
           "ban_rate": 0.22
         },
         "8": {
-          "win_rate": 46.96,
+          "win_rate": 47.06,
           "pick_rate": 0.57,
-          "ban_rate": 0.67
+          "ban_rate": 0.66
         },
         "7": {
-          "win_rate": 46.29,
-          "pick_rate": 0.65,
-          "ban_rate": 1.37
+          "win_rate": 46.3,
+          "pick_rate": 0.66,
+          "ban_rate": 1.35
         },
         "6": {
-          "win_rate": 45.79,
-          "pick_rate": 0.91,
-          "ban_rate": 1.5
+          "win_rate": 45.88,
+          "pick_rate": 0.92,
+          "ban_rate": 1.51
         },
         "5": {
-          "win_rate": 46.41,
-          "pick_rate": 1.51,
-          "ban_rate": 1.98
+          "win_rate": 45.85,
+          "pick_rate": 1.5,
+          "ban_rate": 2.03
         }
       },
       "7d": {
@@ -18175,34 +18175,34 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 46.14,
+          "win_rate": 46.2,
           "pick_rate": 1.19,
-          "ban_rate": 3.09
+          "ban_rate": 3.4
         },
         "9": {
-          "win_rate": 46.08,
-          "pick_rate": 1.13,
-          "ban_rate": 1.92
+          "win_rate": 46.12,
+          "pick_rate": 1.14,
+          "ban_rate": 1.98
         },
         "8": {
-          "win_rate": 46.01,
+          "win_rate": 46.11,
           "pick_rate": 1.23,
-          "ban_rate": 3.27
+          "ban_rate": 3.48
         },
         "7": {
-          "win_rate": 46.23,
-          "pick_rate": 1.38,
-          "ban_rate": 5.04
+          "win_rate": 46.39,
+          "pick_rate": 1.4,
+          "ban_rate": 5.41
         },
         "6": {
-          "win_rate": 46.51,
-          "pick_rate": 1.2,
-          "ban_rate": 5.49
+          "win_rate": 46.46,
+          "pick_rate": 1.23,
+          "ban_rate": 6.13
         },
         "5": {
-          "win_rate": 46.75,
-          "pick_rate": 1.28,
-          "ban_rate": 7.17
+          "win_rate": 46.62,
+          "pick_rate": 1.34,
+          "ban_rate": 8.49
         }
       },
       "7d": {
@@ -18328,34 +18328,34 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 46.52,
-          "pick_rate": 1.78,
-          "ban_rate": 8.86
+          "win_rate": 46.53,
+          "pick_rate": 1.75,
+          "ban_rate": 8.84
         },
         "9": {
           "win_rate": 46.95,
-          "pick_rate": 1.78,
-          "ban_rate": 8.07
+          "pick_rate": 1.74,
+          "ban_rate": 7.84
         },
         "8": {
-          "win_rate": 46.09,
-          "pick_rate": 1.92,
-          "ban_rate": 11.19
+          "win_rate": 46.12,
+          "pick_rate": 1.9,
+          "ban_rate": 11.05
         },
         "7": {
-          "win_rate": 45.87,
-          "pick_rate": 1.79,
-          "ban_rate": 12.81
+          "win_rate": 45.82,
+          "pick_rate": 1.77,
+          "ban_rate": 12.61
         },
         "6": {
-          "win_rate": 45.83,
-          "pick_rate": 1.56,
-          "ban_rate": 11.26
+          "win_rate": 45.75,
+          "pick_rate": 1.54,
+          "ban_rate": 11.04
         },
         "5": {
-          "win_rate": 45.91,
+          "win_rate": 45.8,
           "pick_rate": 1.39,
-          "ban_rate": 7.08
+          "ban_rate": 6.92
         }
       },
       "7d": {
@@ -18480,34 +18480,34 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 46.49,
-          "pick_rate": 0.55,
-          "ban_rate": 2.07
+          "win_rate": 46.42,
+          "pick_rate": 0.54,
+          "ban_rate": 2.08
         },
         "9": {
-          "win_rate": 45.89,
+          "win_rate": 45.85,
           "pick_rate": 0.49,
-          "ban_rate": 0.76
+          "ban_rate": 0.75
         },
         "8": {
-          "win_rate": 46.71,
+          "win_rate": 46.66,
           "pick_rate": 0.63,
-          "ban_rate": 2.04
+          "ban_rate": 2.01
         },
         "7": {
-          "win_rate": 46.51,
-          "pick_rate": 0.64,
-          "ban_rate": 3.51
+          "win_rate": 46.37,
+          "pick_rate": 0.63,
+          "ban_rate": 3.46
         },
         "6": {
-          "win_rate": 47.72,
-          "pick_rate": 0.61,
-          "ban_rate": 4.84
+          "win_rate": 47.81,
+          "pick_rate": 0.6,
+          "ban_rate": 4.85
         },
         "5": {
-          "win_rate": 49.52,
-          "pick_rate": 0.57,
-          "ban_rate": 6.22
+          "win_rate": 49.11,
+          "pick_rate": 0.56,
+          "ban_rate": 6.15
         }
       },
       "7d": {
@@ -18633,34 +18633,34 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 45.95,
-          "pick_rate": 0.3,
-          "ban_rate": 1.15
+          "win_rate": 45.84,
+          "pick_rate": 0.31,
+          "ban_rate": 1.2
         },
         "9": {
-          "win_rate": 46.05,
-          "pick_rate": 0.31,
-          "ban_rate": 0.89
+          "win_rate": 45.91,
+          "pick_rate": 0.32,
+          "ban_rate": 0.95
         },
         "8": {
-          "win_rate": 45.61,
-          "pick_rate": 0.28,
-          "ban_rate": 1.29
+          "win_rate": 45.27,
+          "pick_rate": 0.29,
+          "ban_rate": 1.34
         },
         "7": {
-          "win_rate": 45.7,
-          "pick_rate": 0.27,
-          "ban_rate": 1.56
+          "win_rate": 46.17,
+          "pick_rate": 0.28,
+          "ban_rate": 1.6
         },
         "6": {
-          "win_rate": 46.17,
-          "pick_rate": 0.26,
-          "ban_rate": 2.0
+          "win_rate": 46.02,
+          "pick_rate": 0.27,
+          "ban_rate": 1.98
         },
         "5": {
-          "win_rate": 46.49,
-          "pick_rate": 0.25,
-          "ban_rate": 1.98
+          "win_rate": 47.1,
+          "pick_rate": 0.26,
+          "ban_rate": 2.0
         }
       },
       "7d": {
@@ -18785,34 +18785,34 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 45.07,
+          "win_rate": 44.92,
           "pick_rate": 0.18,
-          "ban_rate": 0.17
+          "ban_rate": 0.18
         },
         "9": {
-          "win_rate": 44.39,
+          "win_rate": 44.19,
           "pick_rate": 0.2,
-          "ban_rate": 0.09
+          "ban_rate": 0.08
         },
         "8": {
-          "win_rate": 44.74,
+          "win_rate": 45.1,
           "pick_rate": 0.18,
           "ban_rate": 0.14
         },
         "7": {
-          "win_rate": 47.51,
+          "win_rate": 47.46,
           "pick_rate": 0.15,
-          "ban_rate": 0.21
+          "ban_rate": 0.23
         },
         "6": {
-          "win_rate": 48.56,
-          "pick_rate": 0.12,
-          "ban_rate": 0.4
+          "win_rate": 47.81,
+          "pick_rate": 0.13,
+          "ban_rate": 0.41
         },
         "5": {
-          "win_rate": 50.4,
-          "pick_rate": 0.11,
-          "ban_rate": 0.7
+          "win_rate": 47.68,
+          "pick_rate": 0.13,
+          "ban_rate": 0.71
         }
       },
       "7d": {
@@ -18938,33 +18938,33 @@
       "1d": {
         "101": {
           "win_rate": 44.29,
-          "pick_rate": 1.21,
-          "ban_rate": 6.01
+          "pick_rate": 1.19,
+          "ban_rate": 6.35
         },
         "9": {
-          "win_rate": 43.9,
-          "pick_rate": 1.0,
-          "ban_rate": 4.45
+          "win_rate": 43.95,
+          "pick_rate": 0.98,
+          "ban_rate": 4.62
         },
         "8": {
-          "win_rate": 44.28,
-          "pick_rate": 1.33,
-          "ban_rate": 6.84
+          "win_rate": 44.38,
+          "pick_rate": 1.32,
+          "ban_rate": 7.11
         },
         "7": {
-          "win_rate": 44.42,
-          "pick_rate": 1.51,
-          "ban_rate": 8.84
+          "win_rate": 44.23,
+          "pick_rate": 1.49,
+          "ban_rate": 9.22
         },
         "6": {
-          "win_rate": 44.87,
-          "pick_rate": 1.66,
-          "ban_rate": 9.7
+          "win_rate": 44.64,
+          "pick_rate": 1.64,
+          "ban_rate": 10.09
         },
         "5": {
-          "win_rate": 46.03,
-          "pick_rate": 1.91,
-          "ban_rate": 11.24
+          "win_rate": 46.12,
+          "pick_rate": 1.9,
+          "ban_rate": 11.39
         }
       },
       "7d": {
@@ -19090,34 +19090,34 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 43.52,
-          "pick_rate": 0.41,
-          "ban_rate": 0.68
+          "win_rate": 43.56,
+          "pick_rate": 0.4,
+          "ban_rate": 0.7
         },
         "9": {
           "win_rate": 42.9,
-          "pick_rate": 0.43,
-          "ban_rate": 0.28
+          "pick_rate": 0.42,
+          "ban_rate": 0.3
         },
         "8": {
-          "win_rate": 43.55,
-          "pick_rate": 0.44,
-          "ban_rate": 0.69
+          "win_rate": 43.64,
+          "pick_rate": 0.43,
+          "ban_rate": 0.71
         },
         "7": {
-          "win_rate": 45.06,
-          "pick_rate": 0.37,
-          "ban_rate": 1.17
+          "win_rate": 45.45,
+          "pick_rate": 0.36,
+          "ban_rate": 1.19
         },
         "6": {
-          "win_rate": 45.85,
-          "pick_rate": 0.34,
-          "ban_rate": 1.65
+          "win_rate": 46.03,
+          "pick_rate": 0.32,
+          "ban_rate": 1.64
         },
         "5": {
-          "win_rate": 45.78,
-          "pick_rate": 0.28,
-          "ban_rate": 1.37
+          "win_rate": 46.25,
+          "pick_rate": 0.24,
+          "ban_rate": 1.45
         }
       },
       "7d": {
@@ -19243,32 +19243,32 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 42.81,
+          "win_rate": 42.83,
           "pick_rate": 0.11,
-          "ban_rate": 0.58
+          "ban_rate": 0.47
         },
         "9": {
-          "win_rate": 42.82,
+          "win_rate": 43.07,
           "pick_rate": 0.15,
           "ban_rate": 0.14
         },
         "8": {
-          "win_rate": 41.83,
+          "win_rate": 41.08,
           "pick_rate": 0.07,
-          "ban_rate": 0.16
+          "ban_rate": 0.15
         },
         "7": {
-          "win_rate": 44.86,
+          "win_rate": 44.11,
           "pick_rate": 0.05,
           "ban_rate": 0.16
         },
         "6": {
-          "win_rate": 44.37,
+          "win_rate": 43.53,
           "pick_rate": 0.04,
           "ban_rate": 0.17
         },
         "5": {
-          "win_rate": 44.67,
+          "win_rate": 44.1,
           "pick_rate": 0.03,
           "ban_rate": 0.16
         }
@@ -19395,34 +19395,34 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 43.06,
-          "pick_rate": 0.81,
-          "ban_rate": 1.08
+          "win_rate": 43.13,
+          "pick_rate": 0.8,
+          "ban_rate": 1.11
         },
         "9": {
-          "win_rate": 42.43,
-          "pick_rate": 0.86,
+          "win_rate": 42.4,
+          "pick_rate": 0.85,
           "ban_rate": 0.38
         },
         "8": {
-          "win_rate": 42.79,
+          "win_rate": 43.11,
           "pick_rate": 0.84,
-          "ban_rate": 1.0
+          "ban_rate": 0.99
         },
         "7": {
-          "win_rate": 44.74,
+          "win_rate": 44.98,
           "pick_rate": 0.75,
-          "ban_rate": 1.78
+          "ban_rate": 1.79
         },
         "6": {
-          "win_rate": 46.07,
+          "win_rate": 46.32,
           "pick_rate": 0.58,
-          "ban_rate": 2.77
+          "ban_rate": 2.79
         },
         "5": {
-          "win_rate": 48.32,
+          "win_rate": 47.85,
           "pick_rate": 0.46,
-          "ban_rate": 3.36
+          "ban_rate": 3.39
         }
       },
       "7d": {
@@ -19547,34 +19547,34 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 43.75,
-          "pick_rate": 0.29,
-          "ban_rate": 0.26
+          "win_rate": 43.43,
+          "pick_rate": 0.28,
+          "ban_rate": 0.28
         },
         "9": {
-          "win_rate": 41.86,
+          "win_rate": 41.55,
           "pick_rate": 0.16,
-          "ban_rate": 0.15
+          "ban_rate": 0.16
         },
         "8": {
-          "win_rate": 44.27,
+          "win_rate": 43.85,
           "pick_rate": 0.3,
-          "ban_rate": 0.2
+          "ban_rate": 0.21
         },
         "7": {
-          "win_rate": 44.33,
+          "win_rate": 43.72,
           "pick_rate": 0.41,
-          "ban_rate": 0.29
+          "ban_rate": 0.3
         },
         "6": {
-          "win_rate": 44.8,
+          "win_rate": 44.72,
           "pick_rate": 0.61,
-          "ban_rate": 0.49
+          "ban_rate": 0.51
         },
         "5": {
-          "win_rate": 45.47,
-          "pick_rate": 0.96,
-          "ban_rate": 1.56
+          "win_rate": 45.38,
+          "pick_rate": 0.95,
+          "ban_rate": 1.62
         }
       },
       "7d": {
@@ -19699,34 +19699,34 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 43.15,
-          "pick_rate": 0.16,
-          "ban_rate": 0.3
+          "win_rate": 43.26,
+          "pick_rate": 0.17,
+          "ban_rate": 0.45
         },
         "9": {
-          "win_rate": 43.75,
-          "pick_rate": 0.23,
-          "ban_rate": 0.17
+          "win_rate": 43.81,
+          "pick_rate": 0.24,
+          "ban_rate": 0.18
         },
         "8": {
-          "win_rate": 40.22,
+          "win_rate": 40.29,
           "pick_rate": 0.11,
           "ban_rate": 0.17
         },
         "7": {
-          "win_rate": 42.9,
+          "win_rate": 42.83,
           "pick_rate": 0.07,
-          "ban_rate": 0.18
+          "ban_rate": 0.2
         },
         "6": {
-          "win_rate": 42.14,
+          "win_rate": 42.33,
           "pick_rate": 0.04,
           "ban_rate": 0.19
         },
         "5": {
-          "win_rate": 42.37,
+          "win_rate": 45.94,
           "pick_rate": 0.03,
-          "ban_rate": 0.18
+          "ban_rate": 0.19
         }
       },
       "7d": {
@@ -19851,34 +19851,34 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 42.68,
-          "pick_rate": 0.64,
-          "ban_rate": 3.02
+          "win_rate": 42.64,
+          "pick_rate": 0.66,
+          "ban_rate": 3.14
         },
         "9": {
-          "win_rate": 42.53,
-          "pick_rate": 0.71,
-          "ban_rate": 2.42
+          "win_rate": 42.48,
+          "pick_rate": 0.73,
+          "ban_rate": 2.54
         },
         "8": {
-          "win_rate": 41.75,
+          "win_rate": 41.86,
           "pick_rate": 0.64,
           "ban_rate": 3.01
         },
         "7": {
-          "win_rate": 43.46,
-          "pick_rate": 0.57,
-          "ban_rate": 3.88
+          "win_rate": 43.12,
+          "pick_rate": 0.58,
+          "ban_rate": 3.94
         },
         "6": {
-          "win_rate": 45.27,
-          "pick_rate": 0.44,
-          "ban_rate": 5.31
+          "win_rate": 45.16,
+          "pick_rate": 0.45,
+          "ban_rate": 5.37
         },
         "5": {
           "win_rate": 46.48,
           "pick_rate": 0.37,
-          "ban_rate": 7.52
+          "ban_rate": 7.65
         }
       },
       "7d": {
@@ -20003,34 +20003,34 @@
     "history": {
       "1d": {
         "101": {
-          "win_rate": 42.95,
-          "pick_rate": 1.43,
-          "ban_rate": 3.09
+          "win_rate": 43.0,
+          "pick_rate": 1.44,
+          "ban_rate": 3.16
         },
         "9": {
-          "win_rate": 43.74,
-          "pick_rate": 1.49,
-          "ban_rate": 1.28
+          "win_rate": 43.75,
+          "pick_rate": 1.5,
+          "ban_rate": 1.31
         },
         "8": {
-          "win_rate": 41.31,
-          "pick_rate": 1.39,
+          "win_rate": 41.41,
+          "pick_rate": 1.41,
           "ban_rate": 2.93
         },
         "7": {
-          "win_rate": 41.69,
-          "pick_rate": 1.45,
-          "ban_rate": 5.45
+          "win_rate": 41.72,
+          "pick_rate": 1.46,
+          "ban_rate": 5.49
         },
         "6": {
-          "win_rate": 42.96,
-          "pick_rate": 1.28,
-          "ban_rate": 7.64
+          "win_rate": 42.65,
+          "pick_rate": 1.29,
+          "ban_rate": 7.61
         },
         "5": {
-          "win_rate": 43.56,
+          "win_rate": 43.82,
           "pick_rate": 1.07,
-          "ban_rate": 6.89
+          "ban_rate": 6.97
         }
       },
       "7d": {
