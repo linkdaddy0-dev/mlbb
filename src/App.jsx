@@ -412,7 +412,7 @@ const getHeroSpells = (hero, moontonSpells = []) => {
 
   
 
-  return [BATTLE_SPELLS_DATABASE.flicker, BATTLE_SPELLS_DATABASE.purify];
+  return [BATTLE_SPELLS_DATABASE.flicker, BATTLE_SPELLS_DATABASE.petrify];
 
 };
 
@@ -776,6 +776,7 @@ export default function App() {
 
   // Contrast Auditor Debug Mode
   useEffect(() => {
+    if (import.meta.env.PROD) return; // Skip expensive DOM contrast scan in production builds
     const timer = setTimeout(() => {
       console.log(`[Contrast Audit] Checking page element contrasts for: ${theme}`);
       const elements = document.querySelectorAll('*');
@@ -2164,10 +2165,11 @@ export default function App() {
 
         // Try checking remote Cloudflare Worker proxy first (OTA update)
         try {
-          const isLocal = window.location.hostname === 'localhost' || 
+          const isLocal = (window.location.hostname === 'localhost' || 
                           window.location.hostname === '127.0.0.1' || 
                           window.location.hostname.startsWith('192.168.') || 
-                          window.location.hostname.endsWith('.local');
+                          window.location.hostname.endsWith('.local')) &&
+                          !window.Capacitor;
           
           if (isLocal) {
             console.log('[App] Local environment detected. Skipping remote OTA fetch to use local static assets.');
@@ -4529,7 +4531,7 @@ export default function App() {
               </div>
               
               <div className="db-patch-footer" style={{ textAlign: 'center', fontSize: '0.58rem', color: '#475569', fontWeight: 600, marginTop: '0.65rem' }}>
-                <span>Static Local Engine • Patch {patchMeta.current_patch || '1.8.84'} • App v1.0.0</span>
+                <span>Static Local Engine • Patch {patchMeta.current_patch || '1.8.84'} • App v2.2</span>
               </div>
             </div>
 
