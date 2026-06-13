@@ -3756,10 +3756,15 @@ export default function App() {
             {/* META SPOTLIGHT — Most Banned / Highest Win / Most Picked */}
             {metaSpotlightHeroes.banned && (
               <div className="meta-spotlight-section">
-                <div style={{ display: 'flex', alignItems: 'center', gap: '0.35rem', marginBottom: '0.65rem' }}>
-                  <Flame size={16} style={{ color: '#D4AF37' }} />
-                  <span className="premium-section-title" style={{ fontSize: '0.75rem', fontWeight: 900, color: 'var(--text-primary, #F8FAFC)', textTransform: 'uppercase', letterSpacing: '1px' }}>
-                    Meta Spotlight
+                <div style={{ display: 'flex', flexDirection: 'column', gap: '0.1rem', marginBottom: '0.65rem' }}>
+                  <div style={{ display: 'flex', alignItems: 'center', gap: '0.35rem' }}>
+                    <Flame size={16} style={{ color: '#D4AF37' }} />
+                    <span className="premium-section-title" style={{ fontSize: '0.75rem', fontWeight: 900, color: 'var(--text-primary, #F8FAFC)', textTransform: 'uppercase', letterSpacing: '1px' }}>
+                      Meta Spotlight
+                    </span>
+                  </div>
+                  <span style={{ fontSize: '0.58rem', color: 'var(--text-muted, #94A3B8)', fontWeight: 500, paddingLeft: '1.35rem' }}>
+                    Epic and above · 7-Day
                   </span>
                 </div>
 
@@ -3899,10 +3904,15 @@ export default function App() {
                   
                   {/* Section Header */}
                   <div className="section-title-row" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '0 0.2rem' }}>
-                    <div style={{ display: 'flex', alignItems: 'center', gap: '0.35rem' }}>
-                      <Gamepad2 size={16} style={{ color: '#D4AF37' }} />
-                      <span className="premium-section-title" style={{ fontSize: '0.75rem', fontWeight: 900, color: '#F8FAFC', textTransform: 'uppercase', letterSpacing: '1px' }}>
-                        Featured Hero Showcase
+                    <div style={{ display: 'flex', flexDirection: 'column', gap: '0.1rem' }}>
+                      <div style={{ display: 'flex', alignItems: 'center', gap: '0.35rem' }}>
+                        <Gamepad2 size={16} style={{ color: '#D4AF37' }} />
+                        <span className="premium-section-title" style={{ fontSize: '0.75rem', fontWeight: 900, color: '#F8FAFC', textTransform: 'uppercase', letterSpacing: '1px' }}>
+                          Featured Hero Showcase
+                        </span>
+                      </div>
+                      <span style={{ fontSize: '0.58rem', color: 'var(--text-muted, #94A3B8)', fontWeight: 500, paddingLeft: '1.35rem' }}>
+                        Epic and above · 7-Day
                       </span>
                     </div>
                     <span 
@@ -4178,10 +4188,15 @@ export default function App() {
 
               return (
                 <div className="role-leaders-v2-section">
-                  <div style={{ display: 'flex', alignItems: 'center', gap: '0.35rem', marginBottom: '0.65rem' }}>
-                    <Award size={16} style={{ color: '#D4AF37' }} />
-                    <span className="premium-section-title" style={{ fontSize: '0.75rem', fontWeight: 900, color: 'var(--text-primary, #F8FAFC)', textTransform: 'uppercase', letterSpacing: '1px' }}>
-                      Role Leaders
+                  <div style={{ display: 'flex', flexDirection: 'column', gap: '0.1rem', marginBottom: '0.65rem' }}>
+                    <div style={{ display: 'flex', alignItems: 'center', gap: '0.35rem' }}>
+                      <Award size={16} style={{ color: '#D4AF37' }} />
+                      <span className="premium-section-title" style={{ fontSize: '0.75rem', fontWeight: 900, color: 'var(--text-primary, #F8FAFC)', textTransform: 'uppercase', letterSpacing: '1px' }}>
+                        Role Leaders
+                      </span>
+                    </div>
+                    <span style={{ fontSize: '0.58rem', color: 'var(--text-muted, #94A3B8)', fontWeight: 500, paddingLeft: '1.35rem' }}>
+                      Epic and above · 7-Day
                     </span>
                   </div>
 
