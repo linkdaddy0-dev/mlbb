@@ -17578,262 +17578,290 @@
     "heroid": "124"
   },
   {
-    "heroid": "125",
+    "cover_picture": "https://akmweb.youngjoygame.com/web/gms/image/adaf737c13d48204dc39f4b48de91ac8.webp",
+    "gallery_picture": "https://akmweb.youngjoygame.com/web/gms/image/adaf737c13d48204dc39f4b48de91ac8.webp",
+    "junling": "",
+    "cost": "",
+    "des": "A mysterious young woman who guides the ember butterflies using her Lantern of Spirits.",
+    "mag": "80",
+    "phy": "80",
+    "alive": "40",
+    "diff": "30",
     "name": "Zhuxin",
     "type": "Mage",
-    "alive": "40",
-    "phy": "70",
-    "mag": "90",
-    "diff": "30",
-    "key": "https://static.wikia.nocookie.net/mobile-legends/images/0/05/Hero1251-icon.png",
-    "cover_picture": "https://static.wikia.nocookie.net/mobile-legends/images/0/05/Hero1251-icon.png",
     "skill": {
       "skill": [
         {
           "name": "Crimson Butterflies",
-          "icon": "https://liquipedia.net/commons/images/thumb/b/b3/Zhuxin_Crimson_Butterflies.png/60px-Zhuxin_Crimson_Butterflies.png",
-          "des": "Every time Zhuxin channels Lantern Flare, she converts the Mana spent into up to 30 Crimson Butterflies to follow her Spirit Lantern. After Zhuxin stops channeling Lantern Flare, the Crimson Butterflies will gradually disappear, each restoring 3% of her Max Mana.\nZhuxin has a naturally high base Max Mana, but it doesn't scale with her level.",
+          "icon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_92/100_43020fccd51aa7420c2c8b76a2cdb4fe.png",
+          "des": "Every time Zhuxin channels Lantern Flare, she converts the Mana spent into up to 15 Crimson Butterflies to follow her Spirit Lantern. After Zhuxin stops channeling Lantern Flare, the Crimson Butterflies will gradually disappear, each restoring 3% of her Max Mana.\nZhuxin has a naturally high base Max Mana, but it doesn't scale with her level.",
           "tips": ""
         },
         {
           "name": "Fluttering Grace",
-          "icon": "https://liquipedia.net/commons/images/thumb/e/ef/Zhuxin_Fluttering_Grace.png/60px-Zhuxin_Fluttering_Grace.png",
+          "icon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_92/100_155343c85c52dfccbf7697d353e115bd.png",
           "des": "Zhuxin deals 150 (+30% Total Magic Power) Magic Damage to all enemies in a fan-shaped area and applies 1 stack(s) of Soul Snare. Zhuxin also slows all enemy heroes hit by 20% and gains 20% of extra Movement Speed herself for 1.5s.",
-          "tips": ""
+          "tips": "CD: 12   Mana Cost: 100"
         },
         {
           "name": "Lantern Flare",
-          "icon": "https://liquipedia.net/commons/images/thumb/b/be/Zhuxin_Lantern_Flare.png/60px-Zhuxin_Lantern_Flare.png",
-          "des": "Hold: Zhuxin continously consumes Mana while the Spirit Lantern can be moved with the skill button, dealing 33 (+28% Total Magic Power) Magic Damage (28% damage to Minions) to all enemies within range every 0.25s and applying Soul Snare to enemy heroes hit. When an enemy hero has 10 stacks of Soul Snare, the Crimson Butterflies will capture them, pulling them airborne for 1s.\nRelease: Throws all captured enemies to the target location, dealing 270 (+150% Total Magic Power) Magic Damage to all enemies in the area. (If the enemy took damage several times, the subsequent damage taken is reduced by 80%.)",
-          "tips": ""
+          "icon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_92/100_0eb6ec4236fd89a8ea6041edf0868569.png",
+          "des": "Hold: Hold the skill button to move the Spirit Lantern. It deals 35 (+30% Total Magic Power) Magic Damage to all enemies in range every 0.33s (Magic Bonus increases to 60% against minions) and applies Soul Snare to enemy heroes hit. When an enemy hero reaches 10 stacks of Soul Snare, the Crimson Butterflies capture them, pulling them airborne for 1s.\n\nRelease: Throw all captured enemies to the target location, dealing 200 (+150% Total Magic Power) (+ 10% captured target's Max HP) Magic Damage to all enemies in the area. If an enemy is hit multiple times, subsequent damage decays by 80%.\n\nAfter a target is captured, Soul Snare cannot stack on them again for 4s. During this time, this skill deals 15% extra damage to that target.",
+          "tips": "CD: 0.5"
         },
         {
           "name": "Crimson Beacon",
-          "icon": "https://liquipedia.net/commons/images/thumb/e/e7/Zhuxin_Crimson_Beacon.png/60px-Zhuxin_Crimson_Beacon.png",
-          "des": "Zhuxin blinks to the target location while gaining a 400 (+100% Total Magic Power) shield. While flying, she creates a field around her for 6 seconds. The field deals 60 (+20% Total Magic Power) Magic Damage and applies 1 stack of Soul Snare to enemies every 1s.",
-          "tips": ""
+          "icon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_92/100_a6ca23dff19dee8f2f26740ce29b47a9.png",
+          "des": "Zhuxin blinks to the target location, gaining a 400 (+100% Total Magic Power) shield and creating a field for 6s. The field deals 30 (+10% Total Magic Power) Magic Damage and applies 1 stack of Soul Snare to nearby enemies every 0.5s.",
+          "tips": "CD: 60   Mana Cost: 200"
         }
-      ]
-    },
-    "item": {
-      "battle_first": {
-        "icon": "https://img.mobilelegends.com/group1/M00/00/05/rB_-LVo8_dGAFBn4AABQ7mzW4KI9082406"
-      },
-      "battle_second": {
-        "icon": "https://img.mobilelegends.com/group1/M00/00/06/rB_-LVo8_kCASzSAAAFn4q9Ntc1737750"
-      },
-      "tips": "Flameshot is great for long range secures; Flicker is key for escapes."
+      ],
+      "item": {
+        "main": {
+          "icon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_92/100_155343c85c52dfccbf7697d353e115bd.png"
+        },
+        "secondary": {
+          "icon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_92/100_0eb6ec4236fd89a8ea6041edf0868569.png"
+        },
+        "battle_first": {
+          "icon": "https://img.mobilelegends.com/group1/M00/00/05/rB_-LVo8_dGAFBn4AABQ7mzW4KI9082406"
+        },
+        "battle_second": {
+          "icon": "https://img.mobilelegends.com/group1/M00/00/06/rB_-LVo8_kCASzSAAAFn4q9Ntc1737750"
+        },
+        "tips": "Flameshot is great for long range secures; Flicker is key for escapes."
+      }
     },
     "gear": {
       "out_pack": [
         {
-          "equipment_id": "2303",
+          "equipment_id": 2303,
           "equip": {
             "name": "Arcane Boots",
-            "icon": "https://akmweb.youngjoygame.com/web/mlweb/image/res/miya/equip/7687c04512d5640eb1f66000ba50e7bc.png",
+            "icon": "https://static.wikia.nocookie.net/mobile-legends/images/0/0e/Arcane_Boots.png",
             "des": [
               "Increases Magic Penetration and Movement Speed."
             ]
           }
         },
         {
-          "equipment_id": "5002",
+          "equipment_id": 5002,
           "equip": {
             "name": "Clock of Destiny",
-            "icon": "https://akmweb.youngjoygame.com/web/gms/image/1d4439a2ab14e995b99fd8934adb34ee.svg",
+            "icon": "https://static.wikia.nocookie.net/mobile-legends/images/9/9e/Clock_of_Destiny.png",
             "des": [
               "Grants HP and Magic Power stacks over time."
             ]
           }
         },
         {
-          "equipment_id": "5003",
+          "equipment_id": 5003,
           "equip": {
             "name": "Lightning Truncheon",
-            "icon": "https://akmweb.youngjoygame.com/web/gms/image/1d4439a2ab14e995b99fd8934adb34ee.svg",
+            "icon": "https://static.wikia.nocookie.net/mobile-legends/images/a/a2/Lightning_Truncheon.png",
             "des": [
               "Deals extra magic damage echoing to nearby enemies."
             ]
           }
         },
         {
-          "equipment_id": "5001",
+          "equipment_id": 5001,
           "equip": {
             "name": "Holy Crystal",
-            "icon": "https://akmweb.youngjoygame.com/web/gms/image/1d4439a2ab14e995b99fd8934adb34ee.svg",
+            "icon": "https://static.wikia.nocookie.net/mobile-legends/images/8/8b/Holy_Crystal.png",
             "des": [
               "Massively boosts Magic Power scaling dynamically."
             ]
           }
         },
         {
-          "equipment_id": "5004",
+          "equipment_id": 5004,
           "equip": {
             "name": "Divine Glaive",
-            "icon": "https://akmweb.youngjoygame.com/web/gms/image/1d4439a2ab14e995b99fd8934adb34ee.svg",
+            "icon": "https://static.wikia.nocookie.net/mobile-legends/images/8/86/Divine_Glaive.png",
             "des": [
               "Increases Magic Penetration, especially against magic def."
             ]
           }
         },
         {
-          "equipment_id": "5005",
+          "equipment_id": 5005,
           "equip": {
             "name": "Blood Wings",
-            "icon": "https://akmweb.youngjoygame.com/web/gms/image/1d4439a2ab14e995b99fd8934adb34ee.svg",
+            "icon": "https://static.wikia.nocookie.net/mobile-legends/images/1/1b/Blood_Wings.png",
             "des": [
               "Grants massive Magic Power and a scaling shield."
             ]
           }
         }
-      ]
+      ],
+      "out_pack_tips": "Standard builds prioritize cooldown reduction, penetration, and durability for role-specific survival.",
+      "verysix": []
     },
     "counters": {
       "best": {
-        "name": "Tigreal",
-        "best_mate_tips": "Tigreal locks enemies in place, letting Mages land their full area-of-effect skill burst.",
-        "icon": "https://akmweb.youngjoygame.com/web/gms/image/1d4439a2ab14e995b99fd8934adb34ee.svg"
+        "heroid": "123",
+        "best_mate_tips": "Zhuxin can provide great damage and CC, but she can't realize her potential until later in the game, so heroes with CC can help Zhuxin get through the early period. Zhuxin also works well with sustained damage heroes like Belerick, Kimmy, and Cici to dish out a surprising amount of damage.",
+        "name": "Cici",
+        "icon": "https://akmweb.youngjoygame.com/web/madmin/image/bc77a45f649d36befd844b767a0b66e2.png?w=200-200-4675b1"
       },
       "counters": {
-        "name": "Layla",
-        "restrain_hero_tips": "Burst down low-mobility heroes with instant range spell combinations.",
-        "icon": "https://akmweb.youngjoygame.com/web/gms/image/1d4439a2ab14e995b99fd8934adb34ee.svg"
+        "heroid": "33",
+        "restrain_hero_tips": "Zhuxin is a good counter to enemies with less range and low mobility, such as Popol and Kupa and Cyclops, where she has a big advantage.",
+        "name": "Cyclops",
+        "icon": "https://akmwebstatic.yuanzhanapp.com/web/madmin/image_cef4d89fd02965d3aae272c30990dbe8.png"
       },
       "countered": {
+        "heroid": "3",
+        "by_restrain_tips": "Like most Mages, Zhuxin is countered by heroes with high mobility and burst, such as Fanny and Saber, who can quickly take her down.",
         "name": "Saber",
-        "by_restrain_tips": "Extremely vulnerable to single-target burst knockups before being able to cast defensive spells.",
-        "icon": "https://akmweb.youngjoygame.com/web/gms/image/1d4439a2ab14e995b99fd8934adb34ee.svg"
+        "icon": "https://akmweb.youngjoygame.com/web/madmin/image/35a5d68d1704e2c4c6323abd4859a622.jpg?w=100-100-4b3f67"
       }
-    }
+    },
+    "heroid": "125"
   },
   {
-    "heroid": "126",
-    "name": "Suyou",
-    "type": "Assassin/Fighter",
-    "alive": "60",
-    "phy": "60",
+    "cover_picture": "https://akmweb.youngjoygame.com/web/gms/image/cf569e7a8746535e207d1957ec2d8db9.webp",
+    "gallery_picture": "https://akmweb.youngjoygame.com/web/gms/image/cf569e7a8746535e207d1957ec2d8db9.webp",
+    "junling": "",
+    "cost": "",
+    "des": "An exorcist from Zhu'an who has inherited the power of the Immortal Nuo.",
     "mag": "50",
+    "phy": "60",
+    "alive": "60",
     "diff": "70",
-    "key": "https://static.wikia.nocookie.net/mobile-legends/images/c/c4/Hero1261-icon.png",
-    "cover_picture": "https://static.wikia.nocookie.net/mobile-legends/images/c/c4/Hero1261-icon.png",
+    "name": "Suyou",
+    "type": "Assassin",
     "skill": {
       "skill": [
         {
           "name": "Transient Immortal",
-          "icon": "https://liquipedia.net/commons/images/thumb/0/01/Suyou_Transient_Immortal.png/60px-Suyou_Transient_Immortal.png",
-          "des": "Tap-casting any skill will put Suyou in his Mortal form, grant him 40 Movement Speed and decreasing the interval between Basic Attacks.\nHold-casting any skill will put Suyou in his Immortal form, increasing the damage of Basic Attacks to 125% and granting him 20% Damage Reduction. In this form, for every 20 extra Physical Attack Suyou has, he gains 1% Damage Reduction (up to 40%.)",
+          "icon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_1_9_20/100_8b4882f70a3c4538683a2cb8739c7027.png",
+          "des": "Tap-casting any skill will put Suyou in his Mortal form, granting him 40 Movement Speed and decreasing the interval between Basic Attacks.\nHold-casting any skill will put Suyou in his Immortal form, increasing the damage of Basic Attacks to 125% and granting him 20% Physical Damage Reduction. In this form, for every 20 extra Physical Attack Suyou has, he gains 1% Physical Damage Reduction (up to 40%).",
           "tips": ""
         },
         {
           "name": "Blade Surge",
-          "icon": "https://liquipedia.net/commons/images/thumb/5/55/Suyou_Blade_Surge.png/60px-Suyou_Blade_Surge.png",
-          "des": "Tap: Suyou throws his weapon in the target direction, dealing 250 (+100% Extra Physical Attack) Physical Damage to enemies in its path. Suyou then blinks to the weapon's location, catches it, and performs a slash in the opposite direction, dealing 375 (+150% Extra Physical Attack) Physical Damage.\nHold: Suyou channels the Immortal's power and charges in the target direction, dealing 250 (+100% Extra Physical Attack) Physical Damage to enemies along the path. When hitting an enemy hero, he stops and stuns enemies in a rectangular area in front for 0.6 seconds. The charge increase distance increases with the hold time.\nSuyou can be controlled while charging, but the skill cannot be interrupted.",
+          "icon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_1_9_20/100_f19d61842474b4be077095114cb7a2bd.png",
+          "des": "Tap: Suyou throws his weapon in the target direction, dealing 250 (+100% Extra Physical Attack) Physical Damage to enemies in its path. Suyou then blinks to the weapon's location, catches it, and performs a slash in the opposite direction, dealing 375 (+150% Extra Physical Attack) Physical Damage.\nHold: Suyou channels the Immortal's power and charges in the target direction, dealing 250 (+100% Extra Physical Attack) Physical Damage to enemies along the path. When hitting an enemy hero, he stops and stuns enemies in a rectangular area in front for 0.6s. The charge distance increases with the hold time.\nSuyou can be controlled while charging, but the skill cannot be interrupted.",
           "tips": ""
         },
         {
           "name": "Soul Sever",
-          "icon": "https://liquipedia.net/commons/images/thumb/d/d0/Suyou_Soul_Sever.png/60px-Suyou_Soul_Sever.png",
-          "des": "Tap: Suyou performs a sweeping attack with his weapon, dealing Physical Damage equal to 300 (+200% Extra Physical Attack) plus 15% of Target's Lost HP to enemies in a fan-shaped area.\nHold: Suyou channels the Immortal's power to perform 3 cleaves in a fan-shaped area. The first two strikes deal 250 (+80% Extra Physical Attack) Physical Damage each, while the final strike deals 400 (+128% Extra Physical Attack) Physical Damage and recovers 150 (+50% Extra Physical Attack) HP for himself.",
+          "icon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_1_9_20/100_4a0a58432d841803b33982fe1918bfe2.png",
+          "des": "Tap: Suyou performs a sweeping attack with his weapon, dealing Physical Damage equal to 300 (+200% Extra Physical Attack) plus 15% of target's Lost HP to enemies in a fan-shaped area.\nHold: Suyou channels the power of the Immortal to perform 3 cleaves in a fan-shaped area. The first two strikes deal 250 (+80% Extra Physical Attack) Physical Damage each, while the final strike deals 400 (+128% Extra Physical Attack) Physical Damage and recovers 150 (+50% Extra Physical Attack) HP for himself.",
           "tips": ""
         },
         {
           "name": "Evil Queller",
-          "icon": "https://liquipedia.net/commons/images/thumb/f/fd/Suyou_Evil_Queller.png/60px-Suyou_Evil_Queller.png",
-          "des": "Tap: Suyou glides backward and swings his weapon in the target direction, dealing 420 (+120% Extra Physical Attack) Physical Damage to enemies in a rectangular area and on his path back ward, and reducing their Movement Speed by 30% for 1.5 seconds.\nHold: Suyou uses the Immortal's power to shoot a deadly arrow in the target direction, dealing 580 (+165% Extra Physical Attack) Physical Damage to the target hit. The range increases with the hold time.\nSuyou can be controlled while charging, but the skill cannot be interrupted.",
+          "icon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_1_9_20/100_34cdeedb104693a99738e1cad6dda2ec.png",
+          "des": "Tap: Suyou glides backward and swings his weapon in the target direction, dealing 420 (+120% Extra Physical Attack) Physical Damage to enemies in a rectangular area and on his path backward, and reducing their Movement Speed by 30% for 1.5s.\nHold: Suyou uses the Immortal's power to shoot a deadly arrow in the target direction, dealing 580 (+165% Extra Physical Attack) Physical Damage to the target hit. The range increases with the hold time. \nSuyou can be controlled while charging, but the skill cannot be interrupted.",
           "tips": ""
         }
-      ]
-    },
-    "item": {
-      "battle_first": {
-        "icon": "https://img.mobilelegends.com/group1/M00/00/06/rB_-LVo8_haATKt0AABH0pUQqEg1474122"
-      },
-      "battle_second": {
-        "icon": "https://img.mobilelegends.com/group1/M00/00/05/rB_-LVo8_dGAFBn4AABQ7mzW4KI9082406"
-      },
-      "tips": "Flicker is recommended for high mobility; Inspire is great for maximum attack speed."
+      ],
+      "item": {
+        "main": {
+          "icon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_1_9_20/100_f19d61842474b4be077095114cb7a2bd.png"
+        },
+        "secondary": {
+          "icon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_1_9_20/100_4a0a58432d841803b33982fe1918bfe2.png"
+        },
+        "battle_first": {
+          "icon": "https://img.mobilelegends.com/group1/M00/00/06/rB_-LVo8_k2ADx6dAABFn4q9Ntc1737750"
+        },
+        "battle_second": {
+          "icon": "https://img.mobilelegends.com/group1/M00/00/06/rB_-LVpAyeqAJzS_AAAFNn9p9k842600"
+        },
+        "tips": "Retribution is essential for jungle role; Execute is ideal for secure kills."
+      }
     },
     "gear": {
       "out_pack": [
         {
-          "equipment_id": "2008",
+          "equipment_id": 2301,
           "equip": {
-            "name": "Corrosion Scythe",
-            "icon": "https://akmweb.youngjoygame.com/web/mlweb/image/res/miya/equip/83ecda0156293f06380866251ca52c32.png",
+            "name": "Warrior Boots",
+            "icon": "https://static.wikia.nocookie.net/mobile-legends/images/2/23/Warrior_Boots.png",
             "des": [
-              "Basic Attacks slow targets and grant Attack Speed."
+              "Increases Physical Defense and Movement Speed."
             ]
           }
         },
         {
-          "equipment_id": "2305",
+          "equipment_id": 2002,
           "equip": {
-            "name": "Swift Boots",
-            "icon": "https://akmweb.youngjoygame.com/web/mlweb/image/res/miya/equip/7687c04512d5640eb1f66000ba50e7bc.png",
+            "name": "Bloodlust Axe",
+            "icon": "https://static.wikia.nocookie.net/mobile-legends/images/6/66/Bloodlust_Axe.png",
             "des": [
-              "Increases Attack Speed and Movement Speed."
+              "Grants physical spell lifesteal."
             ]
           }
         },
         {
-          "equipment_id": "2006",
+          "equipment_id": 2007,
           "equip": {
-            "name": "Demon Hunter Sword",
-            "icon": "https://akmweb.youngjoygame.com/web/mlweb/image/res/miya/equip/4adc2b796ec60846e0af2405e1deea41.png",
+            "name": "Hunter Strike",
+            "icon": "https://static.wikia.nocookie.net/mobile-legends/images/9/9f/Hunter_Strike.png",
             "des": [
-              "Basic Attacks deal current enemy HP as extra physical damage."
+              "Deals physical penetration and increases Movement Speed on skill hits."
             ]
           }
         },
         {
-          "equipment_id": "2009",
+          "equipment_id": 4007,
           "equip": {
-            "name": "Golden Staff",
-            "icon": "https://akmweb.youngjoygame.com/web/mlweb/image/res/miya/equip/675098b263e972d28ec23e8d04828f36.png",
+            "name": "Oracle",
+            "icon": "https://static.wikia.nocookie.net/mobile-legends/images/2/24/Oracle.png",
             "des": [
-              "Converts critical chance stats into raw attack speed."
+              "Boosts shield absorption and HP regen effects."
             ]
           }
         },
         {
-          "equipment_id": "3002",
+          "equipment_id": 2208,
           "equip": {
-            "name": "Haas' Claws",
-            "icon": "https://akmweb.youngjoygame.com/web/mlweb/image/res/miya/equip/04ad01172bbceaf396c83f07187b7849.png",
+            "name": "Queen's Wings",
+            "icon": "https://static.wikia.nocookie.net/mobile-legends/images/6/6a/Queen%27s_Wings.png",
             "des": [
-              "Grants Physical Lifesteal and attack speed on critical strikes."
+              "Reduces damage taken when HP is low and grants lifesteal."
             ]
           }
         },
         {
-          "equipment_id": "3001",
+          "equipment_id": 4005,
           "equip": {
-            "name": "Malefic Roar",
-            "icon": "https://akmweb.youngjoygame.com/web/mlweb/image/res/miya/equip/1a757f3a370c309b9ef1441521237b5c.png",
+            "name": "Immortality",
+            "icon": "https://static.wikia.nocookie.net/mobile-legends/images/8/80/Immortality.png",
             "des": [
-              "Boosts Physical Penetration to shred tanks."
+              "Resurrects hero 2.5s after dying, granting shield and HP."
             ]
           }
         }
-      ]
+      ],
+      "out_pack_tips": "Standard builds prioritize cooldown reduction, penetration, and durability for role-specific survival.",
+      "verysix": []
     },
     "counters": {
       "best": {
-        "name": "Lolita",
-        "best_mate_tips": "Lolita shields the fragile Marksman, allowing them to stay alive and reach full damage potential.",
-        "icon": "https://akmweb.youngjoygame.com/web/gms/image/1d4439a2ab14e995b99fd8934adb34ee.svg"
+        "heroid": "14",
+        "best_mate_tips": "Heroes that provide control (like Tigreal) make it easier for Suyou to deal massive damage; heroes that provide recovery and extra movement speed (like Rafaela) help Suyou kite better.",
+        "name": "Rafaela",
+        "icon": "https://akmwebstatic.yuanzhanapp.com/web/madmin/image_549ab8159821398b48e7e79ceb298396.png"
       },
       "counters": {
-        "name": "Hylos",
-        "restrain_hero_tips": "Continuous lifesteal and physical penetration completely melt high-HP tanks in the late game.",
-        "icon": "https://akmweb.youngjoygame.com/web/gms/image/1d4439a2ab14e995b99fd8934adb34ee.svg"
+        "heroid": "121",
+        "restrain_hero_tips": "Suyou's powerful long-range burst and pursuit abilities make it impossible for heroes without Blinks or Charges, such as Xavier and Ixia, to escape.",
+        "name": "Ixia",
+        "icon": "https://akmweb.youngjoygame.com/web/madmin/image/71151817eb86c12a1114508b5aaded13.jpg?w=128-128-fff3d3"
       },
       "countered": {
-        "name": "Hayabusa",
-        "by_restrain_tips": "Highly vulnerable to burst assassins who can target them instantly before they can escape.",
-        "icon": "https://akmweb.youngjoygame.com/web/gms/image/1d4439a2ab14e995b99fd8934adb34ee.svg"
+        "heroid": "114",
+        "by_restrain_tips": "Because Suyou requires hold-casting skills, heroes with control can easily interrupt his attacks, such as Badang and Melissa.",
+        "name": "Melissa",
+        "icon": "https://akmweb.youngjoygame.com/web/madmin/image/ade52e885298e4a35320d3ab5900892b.png?w=150-150-453f3b"
       }
-    }
+    },
+    "heroid": "126"
   },
   {
     "cover_picture": "https://akmweb.youngjoygame.com/web/gms/image/1bea09e43f6b02845de97af863c53da5.webp",

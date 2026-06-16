@@ -142,92 +142,6 @@ const VOCABULARY = {
 
     disclaimer: "Disclaimer: MLDraft is an independent guide and companion app. It is not affiliated with, endorsed by, or associated with Moonton or Mobile Legends: Bang Bang."
 
-  },
-
-  id: {
-
-    home: "Beranda",
-
-    heroes: "Hero",
-
-    assistant: "Asisten Draf",
-
-    about: "Info Database",
-
-    searchPlaceholder: "Cari hero berdasarkan nama atau peran...",
-
-    draftCtaTitle: "ASISTEN DRAF SIAP",
-
-    draftCtaText: "Ketuk pilihan hero musuh untuk mendapatkan rekomendasi counter instan dalam 3 detik.",
-
-    draftCtaBtn: "MULAI ASISTEN DRAF",
-
-    trendingMeta: "HERO META TERENYAH (S+ Tier)",
-
-    matchupOfWeek: "PROFIL MATCHUP COUNTER",
-
-    matchupSub: "Kenapa ini bekerja: Diambil dari panduan database resmi",
-
-    recentPatch: "METRIK GAME TERKINI",
-
-    totalHeroes: "Total Hero",
-
-    patch: "Patch Saat Ini",
-
-    allRoles: "Semua Peran",
-
-    durability: "Daya Tahan",
-
-    offense: "Serangan Fisik",
-
-    magic: "Kekuatan Magis",
-
-    difficulty: "Tingkat Kesulitan",
-
-    close: "Tutup",
-
-    overview: "Ikhtisar",
-
-    skills: "Ikhtisar Skill",
-
-    builds: "Set Build",
-
-    matchups: "Counter",
-
-    skillsUpgrade: "Rekomendasi Kombo Skill",
-
-    upgradeTips: "Tips Skill Esports:",
-
-    battleSpells: "Battle Spell Ideal:",
-
-    gearBuild: "Set Item Pro Terbaik:",
-
-    bestPartner: "Rekan Sinergi Terbaik:",
-
-    countersHero: "Kuat Melawan (Counters):",
-
-    counteredBy: "Rentan Melawan (Countered By):",
-
-    assistantTitle: "Asisten Pemilih Counter Draf",
-
-    assistantSub: "Pilih hingga 5 hero musuh di bawah ini. Kami akan secara instan menghitung rekomendasi 3 counter terkuat.",
-
-    enemyDraft: "Draft Hero Musuh Saat Ini:",
-
-    emptySlot: "Slot Kosong",
-
-    selectEnemy: "Ketuk hero di bawah untuk dimasukkan ke slot draf musuh:",
-
-    clearDraft: "Bersihkan Draft",
-
-    suggestedCounters: "REKOMENDASI COUNTER TERKUAT UNTUK TIM ANDA:",
-
-    confidenceRating: "Tingkat Kepercayaan",
-
-    suggestedLane: "Rekomendasi Jalur",
-
-    disclaimer: "Penafian: MLDraft adalah panduan independen dan aplikasi pendamping. Aplikasi ini tidak berafiliasi dengan, didukung oleh, atau terkait dengan Moonton atau Mobile Legends: Bang Bang."
-
   }
 
 };
@@ -470,49 +384,7 @@ const getHeroLore = (hero) => {
 };
 
 const validateEnglishText = (text, fallbackText = '') => {
-  if (!text || typeof text !== 'string') return fallbackText;
-  
-  const asianRegex = /[\u3000-\u303f\u3040-\u309f\u30a0-\u30ff\uff00-\uff9f\u4e00-\u9faf\u3400-\u4dbf\uac00-\ud7a3\u0e00-\u0e7f]/;
-  if (asianRegex.test(text)) {
-    return validateEnglishText(fallbackText, '');
-  }
-  
-  const idStopWords = [
-    'adalah', 'dengan', 'untuk', 'tidak', 'akan', 'umumnya', 'berhasil', 'menarik', 'lawan', 'tertarik',
-    'tersebut', 'hanya', 'saja', 'bila', 'teman', 'mengerikan', 'bisa', 'dalam', 'pada', 'juga', 'menghasilkan',
-    'mengeluarkan', 'memulihkan', 'menggunakan', 'membunuh', 'lemah', 'sangat', 'sehingga', 'apabila',
-    'serangan', 'menambah', 'kecepatan', 'sebelum', 'musuh', 'seperti', 'daripada', 'tetapi', 'karena',
-    'sebagai', 'lebih', 'sudah', 'oleh', 'melakukan', 'banyak', 'memberikan', 'kemungkinan', 'besar',
-    'pertempuran', 'terkena', 'posisi', 'terlalu', 'dekat', 'mundur', 'menyerang', 'membantu', 'secepatnya',
-    'kebanyakan', 'di-ulti', 'dapatkan', 'memanfaatkanya', 'selalu', 'bertahan'
-  ];
-  
-  const cleanText = text.toLowerCase();
-  
-  let yangCount = 0;
-  const yangMatches = cleanText.match(/\byang\b/g);
-  if (yangMatches) {
-    const yinYangPattern = /(yin\s*[\/\-&and]*\s*yang)|(yang\s*[\/\-&and]*\s*yin)/g;
-    const yinYangMatches = cleanText.match(yinYangPattern) || [];
-    if (yinYangMatches.length < yangMatches.length) {
-      yangCount = yangMatches.length - yinYangMatches.length;
-    }
-  }
-  
-  let matchCount = yangCount;
-  for (const word of idStopWords) {
-    const regex = new RegExp(`\\b${word}\\b`, 'g');
-    const matches = cleanText.match(regex);
-    if (matches) {
-      matchCount += matches.length;
-    }
-  }
-  
-  if (matchCount >= 2) {
-    return validateEnglishText(fallbackText, '');
-  }
-  
-  return text;
+  return text || fallbackText;
 };
 
 
@@ -669,7 +541,9 @@ const RANK_TIERS = [
 
 export default function App() {
 
-  const [lang, setLang] = useState('en');
+  // English-only for now (other languages coming soon)
+  const lang = 'en';
+  const setLang = () => {}; // no-op — language switching disabled
 
   // Dynamic Static Assets Database State (moved to top to avoid TDZ ReferenceErrors)
   const [heroes, setHeroes] = useState(FALLBACK_ROSTER);
@@ -839,6 +713,8 @@ export default function App() {
   const [laneFilter, setLaneFilter] = useState('All');
 
   const [showBuffedOnly, setShowBuffedOnly] = useState(false);
+
+  const [showcaseFilter, setShowcaseFilter] = useState(false);
 
   // Section Collapsing States
   const [collapsedSections, setCollapsedSections] = useState(() => {
@@ -2152,16 +2028,38 @@ export default function App() {
               if (remoteData && remoteData.current_patch) {
                 // Compare data_revision (timestamp-based build number, e.g. "20260613142019")
                 // Higher revision = fresher data. Fall back to last_updated_time if data_revision is missing.
-                const localRev = localPatchData.data_revision || localPatchData.last_updated_time || "0";
-                const remoteRev = remoteData.data_revision || remoteData.last_updated_time || "0";
-                
-                if (remoteRev > localRev) {
+                const getRevisionValue = (meta) => {
+                  if (meta.data_revision) {
+                    const r = String(meta.data_revision);
+                    if (r.length === 14 && /^\d+$/.test(r)) {
+                      const year = parseInt(r.substring(0, 4), 10);
+                      const month = parseInt(r.substring(4, 6), 10);
+                      const day = parseInt(r.substring(6, 8), 10);
+                      const hour = parseInt(r.substring(8, 10), 10);
+                      const minute = parseInt(r.substring(10, 12), 10);
+                      const second = parseInt(r.substring(12, 14), 10);
+                      return Date.UTC(year, month - 1, day, hour, minute, second);
+                    }
+                  }
+                  if (meta.last_updated_time) {
+                    const parsed = Date.parse(meta.last_updated_time);
+                    if (!isNaN(parsed)) return parsed;
+                  }
+                  return 0;
+                };
+
+                const localRevVal = getRevisionValue(localPatchData);
+                const remoteRevVal = getRevisionValue(remoteData);
+                const localRevDisplay = localPatchData.data_revision || localPatchData.last_updated_time || "0";
+                const remoteRevDisplay = remoteData.data_revision || remoteData.last_updated_time || "0";
+
+                if (remoteRevVal > localRevVal) {
                   patchData = remoteData;
                   activeBaseUrl = REMOTE_UPDATE_BASE_URL;
                   isUsingRemote = true;
-                  console.log(`[App] Remote OTA has fresher data (rev ${remoteRev} > local ${localRev}). Using remote.`);
+                  console.log(`[App] Remote OTA has fresher data (rev ${remoteRevDisplay} > local ${localRevDisplay}). Using remote.`);
                 } else {
-                  console.log(`[App] Local data is up-to-date (local rev ${localRev} >= remote ${remoteRev}). Using local.`);
+                  console.log(`[App] Local data is up-to-date (local rev ${localRevDisplay} >= remote ${remoteRevDisplay}). Using local.`);
                 }
               }
             }
@@ -2250,7 +2148,12 @@ export default function App() {
 
   const filteredHeroes = useMemo(() => {
     if (!heroes) return [];
-    return heroes.filter(hero => {
+    let baseHeroes = heroes;
+    if (showcaseFilter) {
+      const showcaseIds = new Set(showcaseHeroes.map(h => h.id));
+      baseHeroes = heroes.filter(h => showcaseIds.has(h.id));
+    }
+    return baseHeroes.filter(hero => {
       const matchesSearch = hero.name.toLowerCase().includes(debouncedQuery.toLowerCase()) || 
                             hero.role.toLowerCase().includes(debouncedQuery.toLowerCase());
       const matchesRole = roleFilter === 'All' || hero.role === roleFilter;
@@ -2258,7 +2161,7 @@ export default function App() {
       const matchesBuffed = !showBuffedOnly || [1, 2, 4, 7, 11, 12, 22, 25].includes(hero.id);
       return matchesSearch && matchesRole && matchesLane && matchesBuffed;
     });
-  }, [heroes, debouncedQuery, roleFilter, laneFilter, showBuffedOnly]);
+  }, [heroes, debouncedQuery, roleFilter, laneFilter, showBuffedOnly, showcaseFilter, showcaseHeroes]);
 
 
 
@@ -3063,11 +2966,8 @@ export default function App() {
 
 
   const LANGUAGES_LIST = [
-
     { code: 'en', label: 'English' },
-
-    { code: 'id', label: 'Indonesian' }
-
+    { code: 'id', label: 'Indonesian (Coming Soon)', disabled: true }
   ];
 
 
@@ -3130,11 +3030,14 @@ export default function App() {
 
               <div className="profile-edit-section">
 
-                <label className="profile-edit-label" style={{ marginBottom: '0.5rem', fontSize: '0.72rem' }}>Choose In-Game Username</label>
+                <label className="profile-edit-label" style={{ marginBottom: '0.5rem', fontSize: '0.72rem' }}>Choose Local Display Nickname</label>
 
                 <input 
+                  id="local-profile-nickname-input"
+                  name="nickname"
+                  autocomplete="off"
                   type="text" 
-                  placeholder="Enter username (e.g. Legend, Slayer)"
+                  placeholder="Enter nickname (e.g. Legend, Slayer)"
                   value={onboardProfile.username} 
                   onChange={(e) => setOnboardProfile({...onboardProfile, username: e.target.value})}
                   className="profile-edit-input"
@@ -3148,6 +3051,10 @@ export default function App() {
                   }}
                 />
 
+                <p style={{ fontSize: '0.55rem', color: 'var(--text-muted)', marginTop: '0.35rem', lineHeight: 1.3 }}>
+                  This display name is stored locally on your device for offline personalization. No account sign-in or online connection is required.
+                </p>
+
               </div>
 
               <button 
@@ -3156,7 +3063,7 @@ export default function App() {
 
                   if (!onboardProfile.username.trim()) {
 
-                    alert("Please enter a username to continue!");
+                    alert("Please enter a nickname to continue!");
 
                     return;
 
@@ -3917,7 +3824,14 @@ export default function App() {
                     </div>
                     <span 
                       className="view-all-link" 
-                      onClick={() => { setRoleFilter('All'); setActiveTab('heroes'); }}
+                      onClick={() => { 
+                        setRoleFilter('All'); 
+                        setLaneFilter('All');
+                        setShowBuffedOnly(false);
+                        setSearchQuery(''); 
+                        setShowcaseFilter(true);
+                        setActiveTab('heroes'); 
+                      }}
                       style={{ fontSize: '0.62rem', fontWeight: 700, color: '#D4AF37', cursor: 'pointer' }}
                     >
                       View All Heroes →
@@ -4467,7 +4381,7 @@ export default function App() {
               </div>
               
               <div className="db-patch-footer" style={{ textAlign: 'center', fontSize: '0.58rem', color: '#475569', fontWeight: 600, marginTop: '0.65rem' }}>
-                <span>Static Local Engine • Patch {patchMeta.current_patch || '1.8.84'} • App v2.2</span>
+                <span>Static Local Engine • Patch {patchMeta.current_patch || '1.8.84'} • App v2.3</span>
               </div>
             </div>
 
@@ -4535,7 +4449,20 @@ export default function App() {
 
               )}
 
-
+              {showcaseFilter && (
+                <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', background: 'rgba(212, 175, 55, 0.08)', border: '1px solid rgba(212, 175, 55, 0.15)', padding: '0.45rem 0.75rem', borderRadius: '8px' }}>
+                  <span style={{ fontSize: '0.62rem', color: '#D4AF37', fontWeight: 800, display: 'flex', alignItems: 'center', gap: '0.35rem' }}>
+                    <Sparkles size={12} />
+                    Showing Featured Showcase Heroes
+                  </span>
+                  <button 
+                    onClick={() => setShowcaseFilter(false)} 
+                    style={{ border: 'none', background: 'none', color: '#D4AF37', fontSize: '0.58rem', fontWeight: 800, cursor: 'pointer', textDecoration: 'underline', padding: 0 }}
+                  >
+                    Clear Filter
+                  </button>
+                </div>
+              )}
 
               <div style={{ display: 'flex', gap: '0.5rem', overflowX: 'auto', paddingBottom: '0.25rem', alignItems: 'center' }}>
                 {['All', 'Marksman', 'Tank', 'Assassin', 'Fighter', 'Mage', 'Support'].map(role => (
@@ -4544,6 +4471,7 @@ export default function App() {
                     onClick={() => {
                       setRoleFilter(role);
                       setLaneFilter('All');
+                      setShowcaseFilter(false);
                     }}
                     className={`btn ${roleFilter === role && laneFilter === 'All' ? 'btn-primary' : 'btn-secondary'}`}
                     style={{ borderRadius: '20px', padding: '0.35rem 0.85rem', fontSize: '0.65rem', whiteSpace: 'nowrap' }}
@@ -4555,6 +4483,7 @@ export default function App() {
                   <button 
                     onClick={() => {
                       setLaneFilter('All');
+                      setShowcaseFilter(false);
                     }}
                     className="btn btn-primary"
                     style={{ borderRadius: '20px', padding: '0.35rem 0.85rem', fontSize: '0.65rem', display: 'flex', alignItems: 'center', gap: '4px', whiteSpace: 'nowrap' }}
@@ -6642,9 +6571,15 @@ export default function App() {
 
                 <div className="profile-edit-section">
 
-                  <label className="profile-edit-label">In-Game Username</label>
+                  <label className="profile-edit-label">Local Display Nickname</label>
 
                   <input 
+
+                    id="local-display-nickname-settings"
+
+                    name="nickname"
+
+                    autocomplete="off"
 
                     type="text" 
 
@@ -6774,9 +6709,17 @@ export default function App() {
                 {LANGUAGES_LIST.map(l => (
                   <button
                     key={l.code}
-                    onClick={() => setLang(l.code)}
+                    disabled={l.disabled}
+                    onClick={() => !l.disabled && setLang(l.code)}
                     className={`btn ${lang === l.code ? 'btn-primary' : 'btn-secondary'}`}
-                    style={{ padding: '0.65rem', borderRadius: '12px', fontSize: '0.68rem', fontWeight: 700 }}
+                    style={{ 
+                      padding: '0.65rem', 
+                      borderRadius: '12px', 
+                      fontSize: '0.68rem', 
+                      fontWeight: 700,
+                      opacity: l.disabled ? 0.5 : 1,
+                      cursor: l.disabled ? 'not-allowed' : 'pointer'
+                    }}
                   >
                     {l.label}
                   </button>
@@ -9321,8 +9264,11 @@ export default function App() {
                 <div className="drawer-accordion-content-wrapper">
                   <div className="drawer-accordion-content">
                     <div className="profile-edit-section">
-                      <label className="profile-edit-label">In-Game Username</label>
+                      <label className="profile-edit-label">Local Display Nickname</label>
                       <input 
+                        id="local-display-nickname-drawer"
+                        name="nickname"
+                        autocomplete="off"
                         type="text" 
                         value={playerProfile.username} 
                         onChange={(e) => setPlayerProfile({...playerProfile, username: e.target.value})}
@@ -9985,11 +9931,20 @@ export default function App() {
 
                   key={l.code}
 
-                  onClick={() => { setLang(l.code); setShowLangMenu(false); }}
+                  disabled={l.disabled}
+
+                  onClick={() => { if (!l.disabled) { setLang(l.code); setShowLangMenu(false); } }}
 
                   className={`btn ${lang === l.code ? 'btn-primary' : 'btn-secondary'}`}
 
-                  style={{ padding: '0.75rem', borderRadius: '12px', fontSize: '0.7rem', fontWeight: 700 }}
+                  style={{ 
+                    padding: '0.75rem', 
+                    borderRadius: '12px', 
+                    fontSize: '0.7rem', 
+                    fontWeight: 700,
+                    opacity: l.disabled ? 0.5 : 1,
+                    cursor: l.disabled ? 'not-allowed' : 'pointer'
+                  }}
 
                 >
 

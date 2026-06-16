@@ -48,6 +48,34 @@ db.version(2)
     }
   });
 
+// Dexie/IndexedDB cannot change a store's primary key in place. Remove the
+// disposable language caches first, then recreate them with composite keys.
+db.version(3)
+  .stores({
+    heroes: null,
+    items: 'id, name, category, patchVersion',
+    spells: 'name, patchVersion',
+    emblems: 'name, patchVersion',
+    patch_metadata: null,
+    assets: 'url, localPath, hash, category',
+    user_preferences: 'key, value',
+    favorites: '++id, heroId, addedAt',
+    recent_history: '++id, type, data, timestamp'
+  });
+
+// v4 schema — multilingual caches use language-aware composite primary keys.
+db.version(4).stores({
+  heroes: '[id+lang], id, lang, name, role, patchVersion, [patchVersion+role]',
+  items: 'id, name, category, patchVersion',
+  spells: 'name, patchVersion',
+  emblems: 'name, patchVersion',
+  patch_metadata: '[version+lang], version, lang, is_loaded, loaded_at',
+  assets: 'url, localPath, hash, category',
+  user_preferences: 'key, value',
+  favorites: '++id, heroId, addedAt',
+  recent_history: '++id, type, data, timestamp'
+});
+
 // ─── Helper ─────────────────────────────────────────────────────────────────────
 
 /** Normalise a string for typo-tolerant search. */
@@ -58,7 +86,7 @@ const cleanStr = (s) => String(s || '').toLowerCase().trim();
 export const PatchRepository = {
   async getPatchState(version, lang) {
     try {
-      return await db.patch_metadata.get({ version, lang });
+      return await db.patch_metadata.get([version, lang]);
     } catch (e) {
       return null;
     }
@@ -84,17 +112,17 @@ export const PatchRepository = {
 };
 
 export const HeroRepository = {
-  async getAllHeroes() {
+  async getAllHeroes(lang = 'en') {
     try {
-      return await db.heroes.toArray();
+      return await db.heroes.where('lang').equals(lang).toArray();
     } catch (e) {
       return [];
     }
   },
 
-  async getHeroById(id) {
+  async getHeroById(id, lang = 'en') {
     try {
-      return await db.heroes.get(Number(id));
+      return await db.heroes.get([Number(id), lang]);
     } catch (e) {
       return null;
     }
@@ -116,7 +144,7 @@ export const HeroRepository = {
     }
   },
 
-  async searchHeroes(query, roleFilter = 'All') {
+  async searchHeroes(query, roleFilter = 'All', lang = 'en') {
     try {
       let collection = db.heroes;
       if (roleFilter !== 'All') {
@@ -125,7 +153,9 @@ export const HeroRepository = {
         collection = collection.toCollection();
       }
 
-      const all = await collection.toArray();
+      let all = await collection.toArray();
+      all = all.filter((h) => h.lang === lang);
+
       if (!query) return all;
 
       const q = cleanStr(query);
@@ -355,11 +385,12 @@ export const AssetRepository = {
 // Seeds local individual hero JSON files from the APK assets in non-blocking
 // batches into IndexedDB.
 
-let seederActive = false;
+const activeSeeders = new Set();
 
 export const BackgroundSeeder = {
-  async start(version, lang, rosterIndex, apiBaseUrl) {
-    if (seederActive) return;
+  async start(version, lang, rosterIndex, apiBaseUrl, revision) {
+    const seederKey = `${version}:${lang}`;
+    if (activeSeeders.has(seederKey)) return;
     const base = apiBaseUrl || window.location.origin;
 
     // Check if patch data is already loaded in IndexedDB
@@ -368,7 +399,7 @@ export const BackgroundSeeder = {
     // Automatic self-healing: if cache exists but contains legacy online CDN URLs, trigger a full database clean and force re-seed
     if (alreadyLoaded) {
       try {
-        const sampleHero = await db.heroes.get(1); // Miya is always ID 1
+        const sampleHero = await HeroRepository.getHeroById(1, lang); // Miya is always ID 1
         if (sampleHero && (
           !sampleHero.cover_transparent ||
           (sampleHero.avatar_url && sampleHero.avatar_url.startsWith('http')) ||
@@ -379,7 +410,7 @@ export const BackgroundSeeder = {
           console.log('[Seeder] Cache missing cover_transparent or contains legacy URLs. Triggering self-healing re-seed.');
           alreadyLoaded = false;
           await PatchRepository.setPatchLoaded(version, lang, false);
-          await db.heroes.clear();
+          await db.heroes.where('lang').equals(lang).delete();
         }
       } catch (e) {
         console.warn('[Seeder] Self-healing cache verification encountered an issue, proceeding normally:', e);
@@ -391,12 +422,13 @@ export const BackgroundSeeder = {
       return;
     }
 
-    seederActive = true;
+    activeSeeders.add(seederKey);
     console.log(`[Seeder] Initializing incremental background seeder for patch v${version} (${lang}) from base ${base}...`);
 
     // First ensure the base roster index is cached in IndexedDB (allows fast initial view)
     const normalizedRoster = rosterIndex.map((hero) => ({
       id: Number(hero.id),
+      lang: lang,
       name: hero.name,
       role: hero.role,
       avatar_url: hero.avatar_url || '',
@@ -418,7 +450,7 @@ export const BackgroundSeeder = {
       if (queue.length === 0) {
         console.log(`[Seeder] All detailed hero guide files compiled and cached in IndexedDB successfully!`);
         await PatchRepository.setPatchLoaded(version, lang, true);
-        seederActive = false;
+        activeSeeders.delete(seederKey);
         return;
       }
 
@@ -428,11 +460,13 @@ export const BackgroundSeeder = {
         await Promise.all(
           batch.map(async (hero) => {
             // Fetch the individual localized hero guide JSON from APK native assets
-            const url = `${base}/data/patches/${version}/${lang}/heroes/${hero.id}.json`;
+            const revisionQuery = revision ? `?v=${revision}` : '';
+            const url = `${base}/data/patches/${version}/${lang}/heroes/${hero.id}.json${revisionQuery}`;
             const res = await fetch(url);
             if (res.ok) {
               const data = await res.json();
               // Cache the full detailed JSON document in IndexedDB
+              data.lang = lang;
               await HeroRepository.saveHero(data);
             }
           })

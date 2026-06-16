@@ -9,11 +9,13 @@ python -m pip install requests
 echo.
 echo [2/5] Running Moonton scrapers...
 python scraper.py
-python scripts/generate_missing_heroes.py
+python scripts/scrape_gms_data.py
+python scratch/fix_suyou_zhuxin.py
 python scripts/scrape_official_matchups.py
 python scripts/scrape_official_relations.py
 echo.
 echo [3/5] Compiling and compressing patch assets...
+node scripts/mirror_assets.cjs
 python compile_data.py
 echo.
 echo [4/5] Validating output integrity...

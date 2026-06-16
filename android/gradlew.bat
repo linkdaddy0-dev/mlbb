@@ -59,6 +59,14 @@ set JAVA_EXE=%JAVA_HOME%/bin/java.exe
 
 if exist "%JAVA_EXE%" goto execute
 
+@rem Fallback to JBR if default JAVA_HOME is invalid
+if exist "C:\Program Files\Android\Android Studio\jbr\bin\java.exe" (
+    echo WARNING: JAVA_HOME is invalid. Falling back to Android Studio JBR: C:\Program Files\Android\Android Studio\jbr 1>&2
+    set "JAVA_HOME=C:\Program Files\Android\Android Studio\jbr"
+    set "JAVA_EXE=C:\Program Files\Android\Android Studio\jbr\bin\java.exe"
+    goto execute
+)
+
 echo. 1>&2
 echo ERROR: JAVA_HOME is set to an invalid directory: %JAVA_HOME% 1>&2
 echo. 1>&2

@@ -3,9 +3,9 @@ import time
 import json
 import requests
 
-LANGUAGES = ['en', 'id', 'es', 'pt', 'ru', 'tr', 'tl']
+LANGUAGES = ['en']
 RAW_DIR = os.path.join("data", "raw")
-MISSING_HERO_IDS = [127, 128, 129, 130, 131, 132]
+MISSING_HERO_IDS = [125, 126, 127, 128, 129, 130, 131, 132]
 
 # Standard spell/build configurations by role class for new heroes with empty recommendmasterplan
 SPELLS_BY_ROLE = {
@@ -117,7 +117,7 @@ def main():
         "Content-Type": "application/json"
     })
     
-    url = "https://mlbb-ota-proxy.linkdaddy0.workers.dev/gms/api/gms/source/2713644/2766683"
+    url = "https://mlbb-ota-proxy.linkdaddy0.workers.dev/official/gms/source/2713644/2766683"
     
     # We will fetch GMS records localized for each language
     localized_data = {}

@@ -93,10 +93,11 @@ export const PatchManager = {
           throw new Error(`Failed to download profile for hero ID ${hero.id}: HTTP ${res.status}`);
         }
         const heroData = await res.json();
-        // Tag with patchVersion
+        // Tag with patchVersion and lang
         return {
           ...heroData,
           id: Number(heroData.id),
+          lang: lang,
           win_rate: Number(heroData.win_rate || hero.win_rate || 50.0),
           pick_rate: Number(heroData.pick_rate || hero.pick_rate || 10.0),
           ban_rate: Number(heroData.ban_rate || hero.ban_rate || 1.0),

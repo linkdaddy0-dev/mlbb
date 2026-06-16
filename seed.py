@@ -8,7 +8,7 @@ SCHEMA_FILE = "schema.sql"
 
 # Localization compiled files
 COMPILED_DIR = os.path.join("data", "compiled")
-LOCALES = ['en', 'id']
+LOCALES = ['en']
 
 def setup_database():
     """Execute schema.sql to create database tables."""
@@ -57,12 +57,11 @@ def seed_database():
     print("\nSeeding data tables...")
     print("-" * 50)
     
-    # We will load English data as our primary key base, and Indonesian as translations
+    # We will load English data as our primary key base
     heroes_en_file = os.path.join(COMPILED_DIR, "heroes_en.json")
-    heroes_id_file = os.path.join(COMPILED_DIR, "heroes_id.json")
     
-    if not os.path.exists(heroes_en_file) or not os.path.exists(heroes_id_file):
-        print(f"Warning: Compiled JSON files not found in {COMPILED_DIR}.")
+    if not os.path.exists(heroes_en_file):
+        print(f"Warning: Compiled JSON file not found in {COMPILED_DIR}.")
         print("Please run 'python scraper.py' first to harvest the data from Moonton's servers.")
         conn.close()
         return
@@ -70,12 +69,7 @@ def seed_database():
     try:
         with open(heroes_en_file, 'r', encoding='utf-8') as f:
             heroes_en = json.load(f)
-        with open(heroes_id_file, 'r', encoding='utf-8') as f:
-            heroes_id = json.load(f)
             
-        # Map Indonesian heroes by ID for easy lookup
-        id_lookup = {hero.get("heroid"): hero for hero in heroes_id}
-        
         for index, hero_en in enumerate(heroes_en):
             hero_id = int(hero_en.get("heroid"))
             name = hero_en.get("name")
@@ -102,12 +96,8 @@ def seed_database():
                 VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
             """, (hero_id, name, role, durability, offense, magic, difficulty, avatar_url, cover_url, gallery_url))
             
-            # Get Indonesian equivalent
-            hero_id_data = id_lookup.get(str(hero_id), {})
-            
             # 2. Insert Skills & localized tips
             skills_en = hero_en.get("skill", {}).get("skill", [])
-            skills_id = hero_id_data.get("skill", {}).get("skill", [])
             
             for s_idx, skill_en in enumerate(skills_en):
                 skill_name_en = skill_en.get("name", f"Skill {s_idx}")
@@ -126,17 +116,9 @@ def seed_database():
                 insert_translation(cursor, 'en', 'skills', skill_db_id, 'name', skill_name_en)
                 insert_translation(cursor, 'en', 'skills', skill_db_id, 'description', skill_des_en)
                 insert_translation(cursor, 'en', 'skills', skill_db_id, 'tips', skill_tips_en)
-                
-                # Insert Indonesian translation if available
-                if s_idx < len(skills_id):
-                    skill_id_item = skills_id[s_idx]
-                    insert_translation(cursor, 'id', 'skills', skill_db_id, 'name', skill_id_item.get("name", ""))
-                    insert_translation(cursor, 'id', 'skills', skill_db_id, 'description', skill_id_item.get("des", ""))
-                    insert_translation(cursor, 'id', 'skills', skill_db_id, 'tips', skill_id_item.get("tips", ""))
 
             # 3. Insert Equipment & localized descriptions
             gear_en = hero_en.get("gear", {}).get("out_pack", [])
-            gear_id = hero_id_data.get("gear", {}).get("out_pack", [])
             
             item_ids = [None] * 6
             for g_idx, item_en in enumerate(gear_en[:6]):
@@ -158,22 +140,11 @@ def seed_database():
                 # Insert English translations
                 insert_translation(cursor, 'en', 'equipment', eq_id, 'name', eq_name_en)
                 insert_translation(cursor, 'en', 'equipment', eq_id, 'description', eq_des_en)
-                
-                # Insert Indonesian translation if available
-                if g_idx < len(gear_id):
-                    item_id_item = gear_id[g_idx]
-                    eq_name_id = item_id_item.get("equip", {}).get("name", "")
-                    eq_des_id_list = item_id_item.get("equip", {}).get("des", [])
-                    eq_des_id = " ".join(eq_des_id_list) if isinstance(eq_des_id_list, list) else str(eq_des_id_list)
-                    
-                    insert_translation(cursor, 'id', 'equipment', eq_id, 'name', eq_name_id)
-                    insert_translation(cursor, 'id', 'equipment', eq_id, 'description', eq_des_id)
 
             # 4. Insert Recommended Builds (Spells + Items)
             spell_1 = hero_en.get("item", {}).get("battle_first", {}).get("icon", "")
             spell_2 = hero_en.get("item", {}).get("battle_second", {}).get("icon", "")
             build_tips_en = hero_en.get("gear", {}).get("out_pack_tips", "")
-            build_tips_id = hero_id_data.get("gear", {}).get("out_pack_tips", "")
             
             cursor.execute("""
                 INSERT OR REPLACE INTO hero_builds (hero_id, spell_1_icon, spell_2_icon, item_1_id, item_2_id, item_3_id, item_4_id, item_5_id, item_6_id)
@@ -181,11 +152,9 @@ def seed_database():
             """, (hero_id, spell_1, spell_2, item_ids[0], item_ids[1], item_ids[2], item_ids[3], item_ids[4], item_ids[5]))
             
             insert_translation(cursor, 'en', 'hero_builds', hero_id, 'tips', build_tips_en)
-            insert_translation(cursor, 'id', 'hero_builds', hero_id, 'tips', build_tips_id)
 
             # 5. Insert Matchup Counter Relationships
             matchups_en = hero_en.get("counters", {})
-            matchups_id = hero_id_data.get("counters", {})
             
             matchup_types = {
                 'best': ('synergy', 'best_mate_tips'),
@@ -212,11 +181,6 @@ def seed_database():
                     
                     # Insert English translations
                     insert_translation(cursor, 'en', 'matchups', matchup_db_id, 'tips', m_tip_en)
-                    
-                    # Insert Indonesian translation if available
-                    m_item_id = matchups_id.get(m_key, {})
-                    m_tip_id = m_item_id.get(tip_field, "")
-                    insert_translation(cursor, 'id', 'matchups', matchup_db_id, 'tips', m_tip_id)
 
         conn.commit()
         print("-" * 50)

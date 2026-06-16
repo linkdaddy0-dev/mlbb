@@ -2,7 +2,7 @@ import os
 import json
 import logging
 
-LANGUAGES = ['en', 'id', 'es', 'pt', 'ru', 'tr', 'tl']
+LANGUAGES = ['en']
 PUBLIC_DATA_DIR = os.path.join("public", "data")
 META_DIR = os.path.join(PUBLIC_DATA_DIR, "meta")
 LOGS_DIR = os.path.join("logs")

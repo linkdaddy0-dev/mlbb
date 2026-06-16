@@ -5,11 +5,14 @@ import shutil
 from datetime import datetime
 
 # Build configurations
-PATCH_VERSION = "2.1.18"
+# GAME_VERSION = The official MLBB game patch (e.g. "2.1.18"). Only changes when Moonton pushes a game update.
+# DATA_REVISION = Auto-generated build number from compilation timestamp. Changes every scrape/compile run.
+GAME_VERSION = "2.1.18"
+DATA_REVISION = datetime.utcnow().strftime("%Y%m%d%H%M%S")
 LANGUAGES = ['en', 'id', 'es', 'pt', 'ru', 'tr', 'tl']
 RAW_DIR = os.path.join("data", "raw")
 PUBLIC_DATA_DIR = os.path.join("public", "data")
-PATCHES_DIR = os.path.join(PUBLIC_DATA_DIR, "patches", PATCH_VERSION)
+PATCHES_DIR = os.path.join(PUBLIC_DATA_DIR, "patches", GAME_VERSION)
 META_DIR = os.path.join(PUBLIC_DATA_DIR, "meta")
 
 def setup_directories(lang):
@@ -151,7 +154,7 @@ def get_matchup_reason(hero_name, target_name, target_role, general_desc, relati
 def compile_data():
     """Execute main compiler transformation processes."""
     print("=" * 60)
-    print(f"       MYTHICIQ STATIC COMPILER RUN (PATCH VERSION: {PATCH_VERSION})       ")
+    print(f"       MYTHICIQ STATIC COMPILER RUN (GAME: {GAME_VERSION} | DATA REV: {DATA_REVISION})       ")
     print("=" * 60)
     
     # Load avatar map generated from official Moonton API
@@ -730,16 +733,17 @@ def compile_data():
         
     # Export Patch Metadata index C:\Users\rosha\Documents\MLBB\public\data\meta\current_patch.json
     patch_meta = {
-        "current_patch": PATCH_VERSION,
+        "current_patch": GAME_VERSION,
+        "data_revision": DATA_REVISION,
         "last_updated_time": datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ"),
         "total_heroes": total_heroes_count
     }
     with open(os.path.join(META_DIR, "current_patch.json"), 'w', encoding='utf-8') as f:
         json.dump(patch_meta, f, separators=(',', ':'))
-    print(f"\n[PATCH REGISTER] Global patch metadata successfully registered: version {PATCH_VERSION} ({total_heroes_count} heroes).")
+    print(f"\n[PATCH REGISTER] Global patch metadata successfully registered: game v{GAME_VERSION}, data revision {DATA_REVISION} ({total_heroes_count} heroes).")
 
     # Mirror English draft_matrix.json to src/data/fallback_matrix.json (with lightweight slicing to prevent bundle bloat)
-    en_matrix_path = os.path.join(PUBLIC_DATA_DIR, "patches", PATCH_VERSION, "en", "draft_matrix.json")
+    en_matrix_path = os.path.join(PUBLIC_DATA_DIR, "patches", GAME_VERSION, "en", "draft_matrix.json")
     if os.path.exists(en_matrix_path):
         with open(en_matrix_path, 'r', encoding='utf-8') as f:
             en_matrix = json.load(f)

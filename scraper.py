@@ -7,7 +7,7 @@ from requests.adapters import HTTPAdapter
 from urllib3.util import Retry
 
 # 7 target languages for high-fidelity multi-language PWA support
-LANGUAGES = ['en', 'id', 'es', 'pt', 'ru', 'tr', 'tl']
+LANGUAGES = ['en']
 BASE_URL = "https://mlbb-ota-proxy.linkdaddy0.workers.dev/moonton"
 HERO_LIST_URL = f"{BASE_URL}/hero/list"
 HERO_DETAIL_URL = f"{BASE_URL}/hero/detail"
@@ -65,7 +65,7 @@ def validate_response(data, detail_mode=False):
     code = data.get("code")
     msg = data.get("message")
     
-    if code != 2000 and msg != "SUCCESS":
+    if code != 2000 or msg != "SUCCESS":
         return False
         
     payload = data.get("data")
@@ -415,6 +415,12 @@ def run_scraper():
     for index, hero in enumerate(heroes):
         hero_id = hero.get("heroid")
         hero_name = hero.get("name")
+        
+        # Skip if all raw files are already present
+        if all(os.path.exists(os.path.join(RAW_DIR, lang, f"hero_{hero_id}.json")) for lang in LANGUAGES):
+            logger.info(f"[{index + 1}/{total_heroes}] {hero_name} (ID: {hero_id}) already cached. Skipping.")
+            continue
+            
         logger.info(f"[{index + 1}/{total_heroes}] Crawling Moonton: {hero_name} (ID: {hero_id})")
         
         for lang in LANGUAGES:
