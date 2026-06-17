@@ -1,4 +1,10 @@
 {
+  "133": {
+    "name": "Esper Assassin",
+    "synergy_desc": "Hirara has high damage output in the early-to-mid game, but the delay in her skills makes landing them less consistent. Hirara works especially well with strong early-game heroes with CC, such as Angela and Minotaur, allowing her to build an early advantage more easily.",
+    "strong_desc": "Hirara's high mobility allows her to dive the enemy backline with ease, making her an excellent counter to squishy heroes who lack self-protection, like Ixia and Pharsa.The untargetable effect from Hirara's 2nd + 1st Combo Skill is great against delayed skills that deal high damage, giving her a big advantage when facing heroes like Yin and Gusion.",
+    "weak_desc": "However, while Hirara is quick and nimble, she is also quite fragile. Against burst Assassins with targeted abilities, such as Saber and Natalia, it can be difficult to predict their attacks and use her 2nd + 1st Combo Skill in time. If she gets caught, she'll be taken down instantly."
+  },
   "108": {
     "name": "Aulus",
     "synergy_desc": "Aulus is a dive Fighter and he thrives with reliable ranged Support, such as Angela and Floryn.",
