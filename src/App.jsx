@@ -2158,7 +2158,7 @@ export default function App() {
                             hero.role.toLowerCase().includes(debouncedQuery.toLowerCase());
       const matchesRole = roleFilter === 'All' || hero.role === roleFilter;
       const matchesLane = laneFilter === 'All' || (hero.lane && hero.lane.toLowerCase().includes(laneFilter.toLowerCase()));
-      const matchesBuffed = !showBuffedOnly || [1, 2, 4, 7, 11, 12, 22, 25].includes(hero.id);
+      const matchesBuffed = !showBuffedOnly || [2, 4, 9, 12, 15, 29, 43, 45, 108].includes(hero.id);
       return matchesSearch && matchesRole && matchesLane && matchesBuffed;
     });
   }, [heroes, debouncedQuery, roleFilter, laneFilter, showBuffedOnly, showcaseFilter, showcaseHeroes]);

@@ -94,6 +94,43 @@ MISSING_HEROES = {
         "best": "Hanabi",
         "counters": "Layla",
         "countered": "Ling"
+    },
+    133: {
+        "name": "Hirara",
+        "role": "Assassin",
+        "durability": 4,
+        "offense": 9,
+        "magic": 2,
+        "difficulty": 9,
+        "best": "Angela",
+        "counters": "Layla",
+        "countered": "Khufra",
+        "skills": [
+            {
+                "name": "Twin Fans: Ukifune",
+                "icon": "https://akmweb.youngjoygame.com/web/gms/image/1d4439a2ab14e995b99fd8934adb34ee.svg",
+                "des": "Hirara utilizes her twin fans to execute drag-to-merge combo skills. Casting combo skills consumes Crimson Energy charges.",
+                "tips": "Energy management is critical; always monitor your Crimson Energy count."
+            },
+            {
+                "name": "Kaerazu",
+                "icon": "https://akmweb.youngjoygame.com/web/gms/image/1d4439a2ab14e995b99fd8934adb34ee.svg",
+                "des": "Hirara strikes with her primary fan, unleashing a flame wave that deals physical damage to enemies in a fan-shaped area.",
+                "tips": "Use this skill for fast jungle clearing and poke damage."
+            },
+            {
+                "name": "Meisen-e",
+                "icon": "https://akmweb.youngjoygame.com/web/gms/image/1d4439a2ab14e995b99fd8934adb34ee.svg",
+                "des": "Hirara dashes in the target direction, dealing physical damage to enemies along the path.",
+                "tips": "This is your main mobility tool; use it to dodge key crowd control skills."
+            },
+            {
+                "name": "Infernal Torrent",
+                "icon": "https://akmweb.youngjoygame.com/web/gms/image/1d4439a2ab14e995b99fd8934adb34ee.svg",
+                "des": "Hirara merges her twin fans, dashing forward and spinning to deal heavy circular burst damage to all nearby enemies.",
+                "tips": "Initiate with this combo when the enemy team is grouped to maximize AoE burst."
+            }
+        ]
     }
 }
 
@@ -177,32 +214,34 @@ def map_to_moonton(h_id, meta):
     # Placeholder avatars
     avatar_url = "https://akmweb.youngjoygame.com/web/mlweb/image/res/miya/skill/cef8ef47912cced083381c9cf86f35cb.png"
     
-    skills = [
-        {
-            "name": f"{name} Passive",
-            "icon": "https://akmweb.youngjoygame.com/web/gms/image/1d4439a2ab14e995b99fd8934adb34ee.svg",
-            "des": f"Unique passive ability for {name} designed for competitive match viability.",
-            "tips": "Learn to manage passive triggers to dominate early game trades."
-        },
-        {
-            "name": f"{name} Skill 1",
-            "icon": "https://akmweb.youngjoygame.com/web/gms/image/1d4439a2ab14e995b99fd8934adb34ee.svg",
-            "des": f"Deals damage and applies control or mobility modifiers.",
-            "tips": "Spam this skill to farm quickly and harass enemy laners."
-        },
-        {
-            "name": f"{name} Skill 2",
-            "icon": "https://akmweb.youngjoygame.com/web/gms/image/1d4439a2ab14e995b99fd8934adb34ee.svg",
-            "des": f"Area control utility with slow/stun application.",
-            "tips": "Use this skill defensively or to setup ganks with allies."
-        },
-        {
-            "name": f"{name} Ultimate",
-            "icon": "https://akmweb.youngjoygame.com/web/gms/image/1d4439a2ab14e995b99fd8934adb34ee.svg",
-            "des": f"High impact Ultimate ability turning the tide of teamfights.",
-            "tips": "Coordinate Ultimate activation with teammate crowd control set pieces."
-        }
-    ]
+    skills = meta.get("skills")
+    if not skills:
+        skills = [
+            {
+                "name": f"{name} Passive",
+                "icon": "https://akmweb.youngjoygame.com/web/gms/image/1d4439a2ab14e995b99fd8934adb34ee.svg",
+                "des": f"Unique passive ability for {name} designed for competitive match viability.",
+                "tips": "Learn to manage passive triggers to dominate early game trades."
+            },
+            {
+                "name": f"{name} Skill 1",
+                "icon": "https://akmweb.youngjoygame.com/web/gms/image/1d4439a2ab14e995b99fd8934adb34ee.svg",
+                "des": f"Deals damage and applies control or mobility modifiers.",
+                "tips": "Spam this skill to farm quickly and harass enemy laners."
+            },
+            {
+                "name": f"{name} Skill 2",
+                "icon": "https://akmweb.youngjoygame.com/web/gms/image/1d4439a2ab14e995b99fd8934adb34ee.svg",
+                "des": f"Area control utility with slow/stun application.",
+                "tips": "Use this skill defensively or to setup ganks with allies."
+            },
+            {
+                "name": f"{name} Ultimate",
+                "icon": "https://akmweb.youngjoygame.com/web/gms/image/1d4439a2ab14e995b99fd8934adb34ee.svg",
+                "des": f"High impact Ultimate ability turning the tide of teamfights.",
+                "tips": "Coordinate Ultimate activation with teammate crowd control set pieces."
+            }
+        ]
 
     moonton_format = {
         "cover_picture": avatar_url,
@@ -265,7 +304,7 @@ def map_to_moonton(h_id, meta):
     return moonton_format
 
 def generate():
-    print(f"Generating missing heroes 125-132 in {RAW_DIR} for all languages...")
+    print(f"Generating missing heroes {min(MISSING_HEROES.keys())}-{max(MISSING_HEROES.keys())} in {RAW_DIR} for all languages...")
     for h_id, meta in MISSING_HEROES.items():
         moonton_data = map_to_moonton(h_id, meta)
         for lang in LANGUAGES:

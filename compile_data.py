@@ -7,9 +7,9 @@ from datetime import datetime
 # Build configurations
 # GAME_VERSION = The official MLBB game patch (e.g. "2.1.18"). Only changes when Moonton pushes a game update.
 # DATA_REVISION = Auto-generated build number from compilation timestamp. Changes every scrape/compile run.
-GAME_VERSION = "2.1.18"
+GAME_VERSION = "2.1.88"
 DATA_REVISION = datetime.utcnow().strftime("%Y%m%d%H%M%S")
-LANGUAGES = ['en', 'id', 'es', 'pt', 'ru', 'tr', 'tl']
+LANGUAGES = ['en']
 RAW_DIR = os.path.join("data", "raw")
 PUBLIC_DATA_DIR = os.path.join("public", "data")
 PATCHES_DIR = os.path.join(PUBLIC_DATA_DIR, "patches", GAME_VERSION)

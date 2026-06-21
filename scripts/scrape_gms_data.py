@@ -5,7 +5,7 @@ import requests
 
 LANGUAGES = ['en']
 RAW_DIR = os.path.join("data", "raw")
-MISSING_HERO_IDS = [125, 126, 127, 128, 129, 130, 131, 132]
+MISSING_HERO_IDS = [125, 126, 127, 128, 129, 130, 131, 132, 133]
 
 # Standard spell/build configurations by role class for new heroes with empty recommendmasterplan
 SPELLS_BY_ROLE = {
@@ -191,6 +191,8 @@ def main():
         en_hero = en_records[h_id].get("data", {})
         en_details = en_hero.get("hero", {}).get("data", {})
         h_name = en_details.get("name", "Unknown")
+        if h_id == 133:
+            h_name = "Hirara"
         
         # Mapped properties
         role = map_role(en_details.get("sortlabel", ["Fighter"])[0])
@@ -276,7 +278,7 @@ def main():
                 "phy": phy,
                 "alive": alive,
                 "diff": diff,
-                "name": lang_details.get("name", h_name),
+                "name": "Hirara" if h_id == 133 else lang_details.get("name", h_name),
                 "type": role,
                 "skill": {
                     "skill": skills_list,
@@ -341,6 +343,8 @@ def main():
     
     for c_lang in ['en', 'id']:
         lang_dir = os.path.join(RAW_DIR, c_lang)
+        if not os.path.exists(lang_dir):
+            continue
         merged_list = []
         for file in os.listdir(lang_dir):
             if file.endswith(".json") and file.startswith("hero_"):

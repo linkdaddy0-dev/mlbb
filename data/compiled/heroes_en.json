@@ -18720,5 +18720,148 @@
       }
     },
     "heroid": "132"
+  },
+  {
+    "cover_picture": "https://akmweb.youngjoygame.com/web/gms/image/e2c9c365b95a4de69fa98b2ce9712588.webp",
+    "gallery_picture": "https://akmweb.youngjoygame.com/web/gms/image/e2c9c365b95a4de69fa98b2ce9712588.webp",
+    "junling": "",
+    "cost": "",
+    "des": "",
+    "mag": "10",
+    "phy": "70",
+    "alive": "60",
+    "diff": "100",
+    "name": "Hirara",
+    "type": "Assassin",
+    "skill": {
+      "skill": [
+        {
+          "name": "Twin Fans: Ukifune",
+          "icon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_2_1_18/100_ae1fdb44e6ccbe768170c1200dc1bb5a.png",
+          "des": "Hirara wields Kaerazu (Skill 1) and Meisen-e (Skill 2). Drag one skill onto the other to cast a Combo Skill. Hirara has 4 stacks of Crimson / Death Energy. Casting Skill 1 or 2 consumes 1 Crimson / Death Energy, while casting a Combo Skill consumes 2. Her Energy fully recovers after 4s (casting skills interrupts the recovery).\n\nSkills cast with Kaerazu and Meisen-e apply Crimson and Death marks to non-minion enemies, respectively. Enemies marked with both are immobilized for 0.8s (Cooldown: 3s).\n\nHirara does not benefit from Cooldown Reduction. Instead, it reduces the energy recovery time of Crimson / Death.",
+          "tips": ""
+        },
+        {
+          "name": "Kaerazu",
+          "icon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_2_1_18/100_6a063238228005a9942a1eb7efa6b23a.png",
+          "des": "Hirara uses Kaerazu to sweep a fan-shaped area, dealing 275 (+85% Total Physical Attack) Physical Damage.\n\nSkills cast with Kaerazu will deal damage again at the target location after a delay, dealing 2 time(s) the original damage.",
+          "tips": "CD: 2"
+        },
+        {
+          "name": "Meisen-e",
+          "icon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_7862dada550b5e9258bbefafee78a296.png",
+          "des": "Hirara uses the power of Meisen-e to dance in the Sanzu, dashing in the target direction and dealing 275 (+85% Total Physical Attack) Physical Damage to enemies hit. She can dash again after the first dash. At the end of the dash, she unleashes a water wave forward, dealing 275 (+85% Total Physical Attack) Physical Damage.\n\nSkills cast with Meisen-e have two dashes.",
+          "tips": "CD: 4"
+        },
+        {
+          "name": "Forbidden Jutsu: Momijigari",
+          "icon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_3dbdc17e11dddcec7a3547f79de6f42c.png",
+          "des": "Hirara releases the seal on Twin Fans: Ukifune, gaining a burst of Movement Speed that decays over 1s. Her max Crimson / Death Energy increases to 6 for 10s. Each kill or assist during this period extends the duration by 4s.",
+          "tips": "CD: 24"
+        }
+      ],
+      "item": {
+        "main": {
+          "icon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_2_1_18/100_6a063238228005a9942a1eb7efa6b23a.png"
+        },
+        "secondary": {
+          "icon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_7862dada550b5e9258bbefafee78a296.png"
+        },
+        "battle_first": {
+          "icon": "https://img.mobilelegends.com/group1/M00/00/06/rB_-LVo8_k2ADx6dAABFn4q9Ntc1737750"
+        },
+        "battle_second": {
+          "icon": "https://img.mobilelegends.com/group1/M00/00/06/rB_-LVpAyeqAJzS_AAAFNn9p9k842600"
+        },
+        "tips": "Retribution is essential for jungle role; Execute is ideal for secure kills."
+      }
+    },
+    "gear": {
+      "out_pack": [
+        {
+          "equipment_id": 2301,
+          "equip": {
+            "name": "Warrior Boots",
+            "icon": "https://static.wikia.nocookie.net/mobile-legends/images/2/23/Warrior_Boots.png",
+            "des": [
+              "Increases Physical Defense and Movement Speed."
+            ]
+          }
+        },
+        {
+          "equipment_id": 2002,
+          "equip": {
+            "name": "Bloodlust Axe",
+            "icon": "https://static.wikia.nocookie.net/mobile-legends/images/6/66/Bloodlust_Axe.png",
+            "des": [
+              "Grants physical spell lifesteal."
+            ]
+          }
+        },
+        {
+          "equipment_id": 2007,
+          "equip": {
+            "name": "Hunter Strike",
+            "icon": "https://static.wikia.nocookie.net/mobile-legends/images/9/9f/Hunter_Strike.png",
+            "des": [
+              "Deals physical penetration and increases Movement Speed on skill hits."
+            ]
+          }
+        },
+        {
+          "equipment_id": 4007,
+          "equip": {
+            "name": "Oracle",
+            "icon": "https://static.wikia.nocookie.net/mobile-legends/images/2/24/Oracle.png",
+            "des": [
+              "Boosts shield absorption and HP regen effects."
+            ]
+          }
+        },
+        {
+          "equipment_id": 2208,
+          "equip": {
+            "name": "Queen's Wings",
+            "icon": "https://static.wikia.nocookie.net/mobile-legends/images/6/6a/Queen%27s_Wings.png",
+            "des": [
+              "Reduces damage taken when HP is low and grants lifesteal."
+            ]
+          }
+        },
+        {
+          "equipment_id": 4005,
+          "equip": {
+            "name": "Immortality",
+            "icon": "https://static.wikia.nocookie.net/mobile-legends/images/8/80/Immortality.png",
+            "des": [
+              "Resurrects hero 2.5s after dying, granting shield and HP."
+            ]
+          }
+        }
+      ],
+      "out_pack_tips": "Standard builds prioritize cooldown reduction, penetration, and durability for role-specific survival.",
+      "verysix": []
+    },
+    "counters": {
+      "best": {
+        "heroid": "55",
+        "best_mate_tips": "Hirara has high damage output in the early-to-mid game, but the delay in her skills makes landing them less consistent. Hirara works especially well with strong early-game heroes with CC, such as Angela and Minotaur, allowing her to build an early advantage more easily.",
+        "name": "Angela",
+        "icon": "https://akmwebstatic.yuanzhanapp.com/web/madmin/image_feffcc9c39731586e645dbef2ce70afd.png"
+      },
+      "counters": {
+        "heroid": "52",
+        "restrain_hero_tips": "Hirara's high mobility allows her to dive the enemy backline with ease, making her an excellent counter to squishy heroes who lack self-protection, like Ixia and Pharsa.The untargetable effect from Hirara's 2nd + 1st Combo Skill is great against delayed skills that deal high damage, giving her a big advantage when facing heroes like Yin and Gusion.",
+        "name": "Pharsa",
+        "icon": "https://akmwebstatic.yuanzhanapp.com/web/madmin/image_212e59ee7c8490397278ba68c8063a19.png"
+      },
+      "countered": {
+        "heroid": "3",
+        "by_restrain_tips": "However, while Hirara is quick and nimble, she is also quite fragile. Against burst Assassins with targeted abilities, such as Saber and Natalia, it can be difficult to predict their attacks and use her 2nd + 1st Combo Skill in time. If she gets caught, she'll be taken down instantly.",
+        "name": "Saber",
+        "icon": "https://akmweb.youngjoygame.com/web/madmin/image/35a5d68d1704e2c4c6323abd4859a622.jpg?w=100-100-4b3f67"
+      }
+    },
+    "heroid": "133"
   }
 ]
