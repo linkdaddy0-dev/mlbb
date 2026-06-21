@@ -3651,7 +3651,7 @@ export default function App() {
 
               <div className="profile-header-bg-art" style={{ zIndex: 3, pointerEvents: 'none' }}>
                 <img 
-                  src={bannerHero?.id ? `/assets/banners/hero_${bannerHero.id}_transparent.webp?v=3` : (bannerHero?.cover_transparent && bannerHero.cover_transparent.includes('_transparent.webp') ? `${bannerHero.cover_transparent}?v=3` : (bannerHero?.cover_transparent || bannerHero?.cover_thumb || bannerHero?.avatar_url))} 
+                  src={bannerHero?.id ? `/assets/banners/hero_${bannerHero.id}_transparent.webp?v=4` : (bannerHero?.cover_transparent && bannerHero.cover_transparent.includes('_transparent.webp') ? `${bannerHero.cover_transparent}?v=4` : (bannerHero?.cover_transparent || bannerHero?.cover_thumb || bannerHero?.avatar_url))} 
                   alt="Hero Character" 
                   onError={(e) => {
                     e.target.src = bannerHero?.avatar_url || '';
@@ -3706,7 +3706,7 @@ export default function App() {
                     : metaSpotlightTab === 'winRate' ? '#10B981' : '#3B82F6';
 
                   const bannerUrl = spotlightHero.id
-                    ? `/assets/paintings/hero_${spotlightHero.id}.webp?v=3`
+                    ? `/assets/paintings/hero_${spotlightHero.id}.webp?v=4`
                     : (spotlightHero.cover_thumb || spotlightHero.avatar_url);
 
                   const isTransparent = bannerUrl.toLowerCase().includes('transparent') || 
@@ -3804,7 +3804,7 @@ export default function App() {
 
               const isTransparent = activeHero?.cover_transparent && activeHero.cover_transparent.includes('_transparent.webp');
               const rawRenderUrl = activeHero?.transparentImage || activeHero?.renderImage || (isTransparent ? activeHero.cover_transparent : '') || (activeHero?.id ? `/assets/paintings/hero_${activeHero.id}.webp` : '') || activeHero?.cover_transparent || activeHero?.image || activeHero?.cover_thumb;
-              const heroRenderUrl = rawRenderUrl ? (rawRenderUrl.includes('?') ? `${rawRenderUrl}&v=3` : `${rawRenderUrl}?v=3`) : rawRenderUrl;
+              const heroRenderUrl = rawRenderUrl ? (rawRenderUrl.includes('?') ? `${rawRenderUrl}&v=4` : `${rawRenderUrl}?v=4`) : rawRenderUrl;
 
               return (
                 <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem', overflow: 'visible' }}>
@@ -3912,7 +3912,7 @@ export default function App() {
 
                         const isTransparent = hero?.cover_transparent && hero.cover_transparent.includes('_transparent.webp');
                         const rawRenderUrl = hero?.transparentImage || hero?.renderImage || (isTransparent ? hero.cover_transparent : '') || (hero?.id ? `/assets/paintings/hero_${hero.id}.webp` : '') || hero?.cover_transparent || hero?.image || hero?.cover_thumb;
-                        const heroRenderUrl = rawRenderUrl ? (rawRenderUrl.includes('?') ? `${rawRenderUrl}&v=3` : `${rawRenderUrl}?v=3`) : rawRenderUrl;
+                        const heroRenderUrl = rawRenderUrl ? (rawRenderUrl.includes('?') ? `${rawRenderUrl}&v=4` : `${rawRenderUrl}?v=4`) : rawRenderUrl;
 
                         let translateX = offset * 150;
                         let translateY = isActive ? 0 : 20;
@@ -4019,7 +4019,7 @@ export default function App() {
                               <>
                                 <div className="slide-hero-art-wrapper">
                                   <img 
-                                    src={hero?.id ? `/assets/paintings/hero_${hero.id}.webp?v=3` : ''}
+                                    src={hero?.id ? `/assets/paintings/hero_${hero.id}.webp?v=4` : ''}
                                     alt={hero?.name || ''}
                                     className="slide-hero-art"
                                     onError={(e) => { e.target.style.display = 'none'; }}
@@ -4092,7 +4092,7 @@ export default function App() {
               if (!leader) return null;
 
               const leaderBanner = leader.id
-                ? `/assets/paintings/hero_${leader.id}.webp?v=3`
+                ? `/assets/paintings/hero_${leader.id}.webp?v=4`
                 : (leader.cover_thumb || leader.avatar_url);
 
               const isTransparent = leaderBanner.toLowerCase().includes('transparent') || 
@@ -6122,7 +6122,7 @@ export default function App() {
                     cursor: 'pointer',
                     position: 'relative',
                     overflow: 'hidden',
-                    backgroundImage: topBanned?.id ? `var(--rankings-card-overlay), url(/assets/banners/hero_${topBanned.id}.webp?v=3)` : 'none',
+                    backgroundImage: topBanned?.id ? `var(--rankings-card-overlay), url(/assets/banners/hero_${topBanned.id}.webp?v=4)` : 'none',
                     backgroundSize: 'cover',
                     backgroundPosition: 'center'
                   }}
@@ -6157,7 +6157,7 @@ export default function App() {
                     cursor: 'pointer',
                     position: 'relative',
                     overflow: 'hidden',
-                    backgroundImage: topWinRate?.id ? `var(--rankings-card-overlay), url(/assets/banners/hero_${topWinRate.id}.webp?v=3)` : 'none',
+                    backgroundImage: topWinRate?.id ? `var(--rankings-card-overlay), url(/assets/banners/hero_${topWinRate.id}.webp?v=4)` : 'none',
                     backgroundSize: 'cover',
                     backgroundPosition: 'center'
                   }}
@@ -6192,7 +6192,7 @@ export default function App() {
                     cursor: 'pointer',
                     position: 'relative',
                     overflow: 'hidden',
-                    backgroundImage: topPicked?.id ? `var(--rankings-card-overlay), url(/assets/banners/hero_${topPicked.id}.webp?v=3)` : 'none',
+                    backgroundImage: topPicked?.id ? `var(--rankings-card-overlay), url(/assets/banners/hero_${topPicked.id}.webp?v=4)` : 'none',
                     backgroundSize: 'cover',
                     backgroundPosition: 'center'
                   }}
@@ -7066,7 +7066,7 @@ export default function App() {
 
                     <div className="profile-header-bg-art" style={{ zIndex: 2, pointerEvents: 'none', right: '-15px', top: '-40px' }}>
                       <img 
-                        src={activeHero.id ? `/assets/banners/hero_${activeHero.id}_transparent.webp?v=3` : (activeHero.cover_transparent && activeHero.cover_transparent.includes('_transparent.webp') ? `${activeHero.cover_transparent}?v=3` : (activeHero.cover_transparent || activeHero.cover_thumb || activeHero.avatar_url))} 
+                        src={activeHero.id ? `/assets/banners/hero_${activeHero.id}_transparent.webp?v=4` : (activeHero.cover_transparent && activeHero.cover_transparent.includes('_transparent.webp') ? `${activeHero.cover_transparent}?v=4` : (activeHero.cover_transparent || activeHero.cover_thumb || activeHero.avatar_url))} 
                         alt="Hero Character" 
                         onError={(e) => {
                           e.target.src = activeHero.avatar_url || '';
@@ -7506,7 +7506,7 @@ export default function App() {
           <div className="modal-content premium-gaming-modal" onClick={(e) => e.stopPropagation()} style={{ overflow: 'hidden', display: 'flex', flexDirection: 'column', position: 'relative' }}>
             {/* Fixed Hero Painting - Bottom Right Corner */}
             <img
-              src={`/assets/paintings/hero_${selectedHero.id}.webp?v=3`}
+              src={`/assets/paintings/hero_${selectedHero.id}.webp?v=4`}
               alt=""
               className="modal-fixed-hero-art"
             />
