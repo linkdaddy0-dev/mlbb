@@ -1,4 +1,4 @@
-const CACHE_NAME = 'mldraft-cache-v3';
+const CACHE_NAME = 'mldraft-cache-v4';
 
 // Base critical templates to cache on install
 const PRE_CACHE_RESOURCES = [
@@ -46,23 +46,38 @@ self.addEventListener('fetch', (event) => {
     return;
   }
 
-  event.respondWith(
-    caches.open(CACHE_NAME).then((cache) => {
-      return cache.match(event.request).then((cachedResponse) => {
-        const networkFetch = fetch(event.request).then((networkResponse) => {
-          if (networkResponse && networkResponse.status === 200) {
-            // Cache a clone of the successful fetch response
-            cache.put(event.request, networkResponse.clone());
-          }
-          return networkResponse;
-        }).catch((err) => {
-          logger_log(`Fetch failure on ${url.pathname}: ${err}`);
-          return cachedResponse; // Offline fallback
-        });
+  // Never intercept cross-origin traffic. The OTA worker serves the patch
+  // metadata and hero payloads; caching those here handed the app a stale
+  // dataset on the launch after a new patch was published.
+  if (url.origin !== self.location.origin) return;
 
-        // Stale-While-Revalidate: Return cached item immediately if present, otherwise fetch from server
-        return cachedResponse || networkFetch;
+  // Patch data must always reflect the server. Network-first with a cache
+  // fallback keeps offline launches working without ever serving a stale
+  // dataset while the device is online.
+  const isPatchData = url.pathname.startsWith('/data/');
+
+  event.respondWith(
+    caches.open(CACHE_NAME).then(async (cache) => {
+      const cachedResponse = await cache.match(event.request);
+
+      const fromNetwork = fetch(event.request).then((networkResponse) => {
+        if (networkResponse && networkResponse.status === 200 && networkResponse.type === 'basic') {
+          // cache.put can reject on storage pressure — never let that surface
+          cache.put(event.request, networkResponse.clone()).catch((err) => {
+            logger_log(`Cache write skipped for ${url.pathname}: ${err}`);
+          });
+        }
+        return networkResponse;
+      }).catch((err) => {
+        logger_log(`Fetch failure on ${url.pathname}: ${err}`);
+        return cachedResponse; // Offline fallback
       });
+
+      if (isPatchData) return fromNetwork;
+
+      // Static shell and artwork: stale-while-revalidate is fine, they are
+      // versioned by filename / ?v= query.
+      return cachedResponse || fromNetwork;
     })
   );
 });

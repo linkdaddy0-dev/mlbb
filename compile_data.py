@@ -2,11 +2,15 @@ import os
 import json
 import re
 import shutil
+import hashlib
 from datetime import datetime
 
 # Build configurations
 # GAME_VERSION = The official MLBB game patch (e.g. "2.1.18"). Only changes when Moonton pushes a game update.
-# DATA_REVISION = Auto-generated build number from compilation timestamp. Changes every scrape/compile run.
+# DATA_REVISION = Candidate build number from the compilation timestamp. It is only
+#                 published when the compiled payload differs from the last run
+#                 (see hash_compiled_payload), so identical data keeps its revision
+#                 and clients are not forced into a pointless full re-seed.
 GAME_VERSION = "2.1.88"
 DATA_REVISION = datetime.utcnow().strftime("%Y%m%d%H%M%S")
 LANGUAGES = ['en']
@@ -23,6 +27,27 @@ def setup_directories(lang):
         shutil.rmtree(lang_dir)
     os.makedirs(lang_dir, exist_ok=True)
     os.makedirs(os.path.join(lang_dir, "heroes"), exist_ok=True)
+
+def hash_compiled_payload():
+    """
+    SHA-256 over every compiled file under PATCHES_DIR, in a stable order.
+
+    Used to decide whether a compile run produced genuinely new data. The hash
+    covers file paths as well as contents so an added or removed hero counts as
+    a change even if the remaining bytes are identical.
+    """
+    digest = hashlib.sha256()
+    for root, dirs, files in os.walk(PATCHES_DIR):
+        dirs.sort()
+        for name in sorted(files):
+            full = os.path.join(root, name)
+            rel = os.path.relpath(full, PATCHES_DIR).replace(os.sep, "/")
+            digest.update(rel.encode("utf-8"))
+            with open(full, 'rb') as f:
+                for chunk in iter(lambda: f.read(65536), b""):
+                    digest.update(chunk)
+    return digest.hexdigest()
+
 
 def sanitize_url(url):
     """Normalize relative assets CDN links to absolute HTTPS links."""
@@ -731,16 +756,48 @@ def compile_data():
             
         print(f"  - Cleaned split-files compiled and minified successfully inside: {lang_dir}")
         
-    # Export Patch Metadata index C:\Users\rosha\Documents\MLBB\public\data\meta\current_patch.json
+    # Export Patch Metadata index -> public/data/meta/current_patch.json
+    #
+    # The revision is only bumped when the compiled payload actually changed.
+    # Stamping the compile timestamp unconditionally made every daily run look
+    # like a new patch, so every installed app re-downloaded all 133 hero files
+    # each day for byte-identical data — a lot of chances for a partial seed to
+    # go wrong, for no benefit.
+    meta_path = os.path.join(META_DIR, "current_patch.json")
+    content_hash = hash_compiled_payload()
+
+    previous_meta = {}
+    if os.path.exists(meta_path):
+        try:
+            with open(meta_path, 'r', encoding='utf-8') as f:
+                previous_meta = json.load(f)
+        except (json.JSONDecodeError, OSError):
+            previous_meta = {}
+
+    unchanged = (
+        previous_meta.get("content_hash") == content_hash
+        and previous_meta.get("current_patch") == GAME_VERSION
+        and previous_meta.get("total_heroes") == total_heroes_count
+    )
+
+    if unchanged:
+        data_revision = previous_meta.get("data_revision", DATA_REVISION)
+        last_updated = previous_meta.get("last_updated_time", datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ"))
+        print(f"\n[PATCH REGISTER] Compiled payload is byte-identical to the last run. Keeping data revision {data_revision} (no client re-seed triggered).")
+    else:
+        data_revision = DATA_REVISION
+        last_updated = datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
+        print(f"\n[PATCH REGISTER] Global patch metadata successfully registered: game v{GAME_VERSION}, data revision {data_revision} ({total_heroes_count} heroes).")
+
     patch_meta = {
         "current_patch": GAME_VERSION,
-        "data_revision": DATA_REVISION,
-        "last_updated_time": datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ"),
-        "total_heroes": total_heroes_count
+        "data_revision": data_revision,
+        "last_updated_time": last_updated,
+        "total_heroes": total_heroes_count,
+        "content_hash": content_hash
     }
-    with open(os.path.join(META_DIR, "current_patch.json"), 'w', encoding='utf-8') as f:
+    with open(meta_path, 'w', encoding='utf-8') as f:
         json.dump(patch_meta, f, separators=(',', ':'))
-    print(f"\n[PATCH REGISTER] Global patch metadata successfully registered: game v{GAME_VERSION}, data revision {DATA_REVISION} ({total_heroes_count} heroes).")
 
     # Mirror English draft_matrix.json to src/data/fallback_matrix.json (with lightweight slicing to prevent bundle bloat)
     en_matrix_path = os.path.join(PUBLIC_DATA_DIR, "patches", GAME_VERSION, "en", "draft_matrix.json")

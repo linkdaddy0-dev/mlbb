@@ -4,6 +4,9 @@ on:
   schedule:
     # Trigger daily at 19:00 UTC (after Moonton's data updates)
     - cron: '0 19 * * *'
+    # Retry slot. Re-running is cheap now that an unchanged payload no longer
+    # bumps the data revision, and it covers the 19:00 run being blocked upstream.
+    - cron: '0 3 * * *'
   workflow_dispatch:
     # Allow manual execution via the GitHub actions dashboard
 
@@ -28,6 +31,11 @@ jobs:
         python -m pip install --upgrade pip
         pip install requests
 
+    - name: Mark run start
+      # Every critical scrape output must be rewritten after this marker,
+      # otherwise verify_sync.py fails the run instead of publishing stale data.
+      run: touch .run_marker
+
     - name: Run Crawler Scraper
       run: python scraper.py
 
@@ -40,6 +48,9 @@ jobs:
     - name: Run Official GMS Relations Scraper
       run: python scripts/scrape_official_relations.py
 
+    - name: Verify scrape outputs are fresh
+      run: python scripts/verify_sync.py .run_marker
+
     - name: Compile Optimized Static JSON
       run: python compile_data.py
 
@@ -48,6 +59,7 @@ jobs:
 
     - name: Commit and Push static data assets
       run: |
+        rm -f .run_marker
         git config --global user.name "GitHub Action Bot"
         git config --global user.email "actions@github.com"
         git add public/data/patches/ public/data/meta/ src/data/ data/official_matchups.json data/official_relations.json

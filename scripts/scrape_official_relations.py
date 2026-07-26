@@ -1,8 +1,10 @@
 import requests
 import json
 import os
+import sys
 
 def main():
+    """Returns 0 on success, 1 on failure so CI can stop instead of publishing stale data."""
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
         "Accept": "application/json, text/plain, */*",
@@ -39,13 +41,20 @@ def main():
                 }
                 
             os.makedirs("data", exist_ok=True)
+            if not relations:
+                print("Upstream returned records but none were usable — refusing to overwrite the existing file.")
+                return 1
+
             with open("data/official_relations.json", "w", encoding="utf-8") as f:
                 json.dump(relations, f, indent=2)
             print(f"Saved {len(relations)} relations to data/official_relations.json")
+            return 0
         else:
             print(f"Failed with status: {r.status_code}")
+            return 1
     except Exception as e:
         print(f"Error: {e}")
+        return 1
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main())

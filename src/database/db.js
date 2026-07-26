@@ -92,22 +92,26 @@ export const PatchRepository = {
     }
   },
 
-  async setPatchLoaded(version, lang, isLoaded) {
+  async setPatchLoaded(version, lang, isLoaded, revision) {
     try {
       await db.patch_metadata.put({
         version,
         lang,
         is_loaded: isLoaded ? 1 : 0,
-        loaded_at: new Date().toISOString()
+        loaded_at: new Date().toISOString(),
+        revision: revision || ''
       });
     } catch (e) {
       console.error('Failed to write patch load state:', e);
     }
   },
 
-  async isPatchLoaded(version, lang) {
+  async isPatchLoaded(version, lang, revision) {
     const state = await this.getPatchState(version, lang);
-    return state ? state.is_loaded === 1 : false;
+    if (!state) return false;
+    if (state.is_loaded !== 1) return false;
+    if (revision && state.revision !== revision) return false;
+    return true;
   }
 };
 
@@ -387,6 +391,28 @@ export const AssetRepository = {
 
 const activeSeeders = new Set();
 
+/**
+ * Heroes sampled by the self-healing check. Spread across the roster so a
+ * partially-stale cache is detected — checking only ID 1 let every other hero
+ * keep serving pre-migration records forever.
+ */
+const SELF_HEAL_SAMPLE_IDS = [1, 17, 34, 51, 68, 85, 102, 119, 133];
+
+/** True when a cached hero record is unusable / from a pre-migration build. */
+export const isStaleHeroRecord = (hero, revision) => {
+  if (!hero) return true;
+  if (!hero.cover_transparent) return true;
+  // An unstamped record was written by a build older than the revision-tracking
+  // seeder — force one clean re-seed so pre-existing corrupt caches get flushed.
+  if (revision && !hero.dataRevision) return true;
+  if (revision && hero.dataRevision !== revision) return true;
+  const looksRemote = (v) => typeof v === 'string' && v.startsWith('http');
+  if (looksRemote(hero.cover_thumb)) return true;
+  if (hero.skills && hero.skills[0] && looksRemote(hero.skills[0].icon)) return true;
+  if (hero.matchups && hero.matchups.synergy && looksRemote(hero.matchups.synergy.icon)) return true;
+  return false;
+};
+
 export const BackgroundSeeder = {
   async start(version, lang, rosterIndex, apiBaseUrl, revision) {
     const seederKey = `${version}:${lang}`;
@@ -394,20 +420,33 @@ export const BackgroundSeeder = {
     const base = apiBaseUrl || window.location.origin;
 
     // Check if patch data is already loaded in IndexedDB
-    let alreadyLoaded = await PatchRepository.isPatchLoaded(version, lang);
-    
-    // Automatic self-healing: if cache exists but contains legacy online CDN URLs, trigger a full database clean and force re-seed
+    let alreadyLoaded = await PatchRepository.isPatchLoaded(version, lang, revision);
+
+    // Check if hero count in IndexedDB is less than the rosterIndex length (handles newly added heroes)
     if (alreadyLoaded) {
       try {
-        const sampleHero = await HeroRepository.getHeroById(1, lang); // Miya is always ID 1
-        if (sampleHero && (
-          !sampleHero.cover_transparent ||
-          (sampleHero.avatar_url && sampleHero.avatar_url.startsWith('http')) ||
-          (sampleHero.cover_thumb && sampleHero.cover_thumb.startsWith('http')) ||
-          (sampleHero.skills && sampleHero.skills[0] && sampleHero.skills[0].icon && sampleHero.skills[0].icon.startsWith('http')) ||
-          (sampleHero.matchups && sampleHero.matchups.synergy && sampleHero.matchups.synergy.icon && sampleHero.matchups.synergy.icon.startsWith('http'))
-        )) {
-          console.log('[Seeder] Cache missing cover_transparent or contains legacy URLs. Triggering self-healing re-seed.');
+        const dbHeroCount = await db.heroes.where('lang').equals(lang).count();
+        if (dbHeroCount < rosterIndex.length) {
+          console.log(`[Seeder] IndexedDB hero count (${dbHeroCount}) is less than roster index length (${rosterIndex.length}). Force re-seed.`);
+          alreadyLoaded = false;
+        }
+      } catch (e) {
+        console.warn('[Seeder] Hero count verification check failed, proceeding normally:', e);
+      }
+    }
+
+    // Automatic self-healing: if the cache is missing local art or still holds
+    // legacy online CDN URLs, force a re-seed. Sample several heroes — a single
+    // sample lets the rest of the roster rot unnoticed.
+    if (alreadyLoaded) {
+      try {
+        const samples = await Promise.all(
+          SELF_HEAL_SAMPLE_IDS.map((id) => HeroRepository.getHeroById(id, lang))
+        );
+        const present = samples.filter(Boolean);
+        const stale = present.filter((h) => isStaleHeroRecord(h, revision));
+        if (stale.length > 0) {
+          console.log(`[Seeder] ${stale.length}/${present.length} sampled heroes are stale (missing local art, legacy URLs, or an old revision). Triggering self-healing re-seed.`);
           alreadyLoaded = false;
           await PatchRepository.setPatchLoaded(version, lang, false);
           await db.heroes.where('lang').equals(lang).delete();
@@ -429,6 +468,8 @@ export const BackgroundSeeder = {
     const normalizedRoster = rosterIndex.map((hero) => ({
       id: Number(hero.id),
       lang: lang,
+      patchVersion: version,
+      dataRevision: revision || '',
       name: hero.name,
       role: hero.role,
       avatar_url: hero.avatar_url || '',
@@ -441,39 +482,78 @@ export const BackgroundSeeder = {
     }));
     await HeroRepository.saveHeroesBatch(normalizedRoster);
 
+    // Index rows by id so detail documents can inherit roster-only fields
+    // (cover_transparent, lane, …) instead of dropping them on write.
+    const rosterById = new Map(normalizedRoster.map((h) => [h.id, h]));
+
     // Queue up the remaining detailed hero profile assets
-    const queue = [...normalizedRoster];
+    let queue = [...normalizedRoster];
     const BATCH_SIZE = 5;
     const BATCH_INTERVAL = 300; // 300ms intervals to keep the UI perfectly thread-safe
+    const MAX_PASSES = 3;       // retry sweeps over whatever failed
+
+    let pass = 1;
+    let failed = [];
+
+    const fetchHero = async (hero) => {
+      const revisionQuery = revision ? `?v=${encodeURIComponent(revision)}` : '';
+      const url = `${base}/data/patches/${version}/${lang}/heroes/${hero.id}.json${revisionQuery}`;
+      const res = await fetch(url, { cache: 'no-store' });
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      const data = await res.json();
+      const rosterRow = rosterById.get(Number(hero.id)) || {};
+      // Roster fields first so a thin detail document can never wipe out the
+      // local transparent art paths the UI renders the hero background from.
+      await HeroRepository.saveHero({
+        ...rosterRow,
+        ...data,
+        id: Number(data.id ?? hero.id),
+        lang,
+        patchVersion: version,
+        dataRevision: revision || '',
+        cover_transparent: data.cover_transparent || rosterRow.cover_transparent || '',
+        cover_thumb: data.cover_thumb || rosterRow.cover_thumb || '',
+        avatar_url: data.avatar_url || rosterRow.avatar_url || ''
+      });
+    };
+
+    const finish = async () => {
+      activeSeeders.delete(seederKey);
+      if (failed.length === 0) {
+        console.log('[Seeder] All detailed hero guide files compiled and cached in IndexedDB successfully!');
+        await PatchRepository.setPatchLoaded(version, lang, true, revision);
+        return;
+      }
+      // Leave the patch marked NOT loaded so the next app launch retries.
+      // Marking it loaded here is what used to freeze the app on stale data.
+      console.warn(`[Seeder] ${failed.length} hero file(s) could not be retrieved after ${MAX_PASSES} passes: [${failed.slice(0, 10).join(', ')}${failed.length > 10 ? ', …' : ''}]. Patch left incomplete; it will be retried on next launch.`);
+      await PatchRepository.setPatchLoaded(version, lang, false);
+    };
 
     const processNextBatch = async () => {
       if (queue.length === 0) {
-        console.log(`[Seeder] All detailed hero guide files compiled and cached in IndexedDB successfully!`);
-        await PatchRepository.setPatchLoaded(version, lang, true);
-        activeSeeders.delete(seederKey);
+        if (failed.length > 0 && pass < MAX_PASSES) {
+          pass += 1;
+          console.log(`[Seeder] Retry pass ${pass}/${MAX_PASSES} for ${failed.length} hero file(s).`);
+          queue = failed.map((id) => rosterById.get(id)).filter(Boolean);
+          failed = [];
+          setTimeout(processNextBatch, BATCH_INTERVAL);
+          return;
+        }
+        await finish();
         return;
       }
 
       const batch = queue.splice(0, BATCH_SIZE);
 
-      try {
-        await Promise.all(
-          batch.map(async (hero) => {
-            // Fetch the individual localized hero guide JSON from APK native assets
-            const revisionQuery = revision ? `?v=${revision}` : '';
-            const url = `${base}/data/patches/${version}/${lang}/heroes/${hero.id}.json${revisionQuery}`;
-            const res = await fetch(url);
-            if (res.ok) {
-              const data = await res.json();
-              // Cache the full detailed JSON document in IndexedDB
-              data.lang = lang;
-              await HeroRepository.saveHero(data);
-            }
-          })
-        );
-      } catch (e) {
-        console.warn(`[Seeder] Dynamic seed packet retrieval failed momentarily:`, e);
-      }
+      // allSettled, not all: one bad response must not abandon the rest of the batch
+      const results = await Promise.allSettled(batch.map(fetchHero));
+      results.forEach((r, i) => {
+        if (r.status === 'rejected') {
+          failed.push(Number(batch[i].id));
+          console.warn(`[Seeder] Hero ${batch[i].id} seed failed:`, r.reason?.message || r.reason);
+        }
+      });
 
       // Schedule next batch on macro-task queue to guarantee UI stays buttery-smooth
       setTimeout(processNextBatch, BATCH_INTERVAL);
