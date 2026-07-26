@@ -2,7 +2,7 @@ import React, { useState, useMemo, useEffect, useLayoutEffect, useRef, useCallba
 
 import { 
   Search, ShieldAlert, Award, Swords, BookOpen, ChevronRight, ChevronLeft, ChevronDown, Clock,
-  Sparkles, X, Languages, Volume2, HelpCircle, AlertCircle,
+  Sparkles, X, Volume2, HelpCircle, AlertCircle,
   TrendingUp, Compass, Play, Zap, Eye, RefreshCw, Trophy,
   ArrowLeft, Heart, Share2, Menu, Bell, Shield, Crosshair, HelpCircle as HelpIcon,
   Flame, Target, Rocket, Lightbulb, Gamepad2, Star, AlertTriangle,
@@ -633,12 +633,10 @@ export default function App() {
 
   // English-only for now (other languages coming soon)
   const lang = 'en';
-  const setLang = () => {}; // no-op — language switching disabled
-
   // Dynamic Static Assets Database State (moved to top to avoid TDZ ReferenceErrors)
   const [heroes, setHeroes] = useState(FALLBACK_ROSTER);
   const [draftMatrix, setDraftMatrix] = useState(FALLBACK_MATRIX);
-  const [patchMeta, setPatchMeta] = useState({ current_patch: "1.8.84", total_heroes: 124 });
+  const [patchMeta, setPatchMeta] = useState({ current_patch: "2.1.88", total_heroes: 133 });
   const [loading, setLoading] = useState(false);
   const appMountTimeRef = useRef(Date.now());
   const activeDataBaseUrlRef = useRef(window.location.origin);
@@ -871,9 +869,6 @@ export default function App() {
   const [showAllMatchups, setShowAllMatchups] = useState(false);
 
   const [comboHeroId, setComboHeroId] = useState(1);
-
-  const [showLangMenu, setShowLangMenu] = useState(false);
-
   const [showProfileEdit, setShowProfileEdit] = useState(false);
 
   const [activeDrawerTab, setActiveDrawerTab] = useState('profile');
@@ -1660,8 +1655,6 @@ export default function App() {
 
     showSpellsModal,
 
-    showLangMenu,
-
     showMatchupModal
 
   });
@@ -1685,8 +1678,6 @@ export default function App() {
       showItemsModal,
 
       showSpellsModal,
-
-      showLangMenu,
 
       showMatchupModal
 
@@ -1720,15 +1711,13 @@ export default function App() {
 
           showSpellsModal,
 
-          showLangMenu,
-
           showMatchupModal
 
         } = backButtonStateRef.current;
 
 
 
-        const hasOverlay = selectedHero || showProfileEdit || showCombosModal || showItemsModal || showSpellsModal || showLangMenu || showMatchupModal;
+        const hasOverlay = selectedHero || showProfileEdit || showCombosModal || showItemsModal || showSpellsModal || showMatchupModal;
 
 
 
@@ -1742,7 +1731,7 @@ export default function App() {
 
         
 
-        if (showProfileEdit || showCombosModal || showItemsModal || showSpellsModal || showLangMenu || showMatchupModal) {
+        if (showProfileEdit || showCombosModal || showItemsModal || showSpellsModal || showMatchupModal) {
 
           setShowProfileEdit(false);
 
@@ -1751,9 +1740,6 @@ export default function App() {
           setShowItemsModal(false);
 
           setShowSpellsModal(false);
-
-          setShowLangMenu(false);
-
           setShowMatchupModal(false);
 
           return;
@@ -2124,7 +2110,7 @@ export default function App() {
       // 2. Fetch global patch metadata and index files (with remote OTA update check)
       try {
         // 1. Always fetch local patch configuration first
-        let localPatchData = { current_patch: "1.8.84", data_revision: "0", total_heroes: 124 };
+        let localPatchData = { current_patch: "2.1.88", data_revision: "0", total_heroes: 133 };
         try {
           const localPatchRes = await fetch(
             `${window.location.origin}/data/meta/current_patch.json?t=${Date.now()}`,
@@ -2746,7 +2732,7 @@ export default function App() {
 
 
 
-    const version = patchMeta.current_patch || "1.8.84";
+    const version = patchMeta.current_patch || "2.1.88";
 
 
 
@@ -3126,14 +3112,6 @@ export default function App() {
     return val !== undefined && val !== null ? String(val) : "";
 
   };
-
-
-
-  const LANGUAGES_LIST = [
-    { code: 'en', label: 'English' },
-    { code: 'id', label: 'Indonesian (Coming Soon)', disabled: true }
-  ];
-
 
 
   // Render Onboarding Welcome Flow if incomplete
@@ -4550,7 +4528,7 @@ export default function App() {
               <div className="db-stats-grid" style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '0.5rem', marginTop: '0.5rem' }}>
                 <div className="db-stat-card glass-card" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', padding: '0.65rem 0.5rem', borderRadius: '12px' }}>
                   <span className="db-stat-lbl" style={{ fontSize: '0.5rem', fontWeight: 700, color: '#64748B', textTransform: 'uppercase' }}>Game Patch</span>
-                  <span className="db-stat-val" style={{ fontSize: '0.85rem', fontWeight: 900, color: '#F8FAFC', marginTop: '0.15rem' }}>v{patchMeta.current_patch || '1.8.84'}</span>
+                  <span className="db-stat-val" style={{ fontSize: '0.85rem', fontWeight: 900, color: '#F8FAFC', marginTop: '0.15rem' }}>v{patchMeta.current_patch || '2.1.88'}</span>
                 </div>
                 <div className="db-stat-card glass-card" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', padding: '0.65rem 0.5rem', borderRadius: '12px' }}>
                   <span className="db-stat-lbl" style={{ fontSize: '0.5rem', fontWeight: 700, color: '#64748B', textTransform: 'uppercase' }}>Last Synced</span>
@@ -4561,7 +4539,7 @@ export default function App() {
               </div>
               
               <div className="db-patch-footer" style={{ textAlign: 'center', fontSize: '0.58rem', color: '#475569', fontWeight: 600, marginTop: '0.65rem' }}>
-                <span>Static Local Engine • Patch {patchMeta.current_patch || '1.8.84'} • App v2.4</span>
+                <span>Static Local Engine • Patch {patchMeta.current_patch || '2.1.88'} • App v2.4</span>
               </div>
             </div>
 
@@ -6880,32 +6858,6 @@ export default function App() {
             </div>
 
 
-
-            {/* Platform Language settings */}
-            <div className="guide-panel-card">
-              <h4 className="panel-card-title">Select App Language</h4>
-              
-              <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '0.65rem', marginTop: '0.85rem' }}>
-                {LANGUAGES_LIST.map(l => (
-                  <button
-                    key={l.code}
-                    disabled={l.disabled}
-                    onClick={() => !l.disabled && setLang(l.code)}
-                    className={`btn ${lang === l.code ? 'btn-primary' : 'btn-secondary'}`}
-                    style={{ 
-                      padding: '0.65rem', 
-                      borderRadius: '12px', 
-                      fontSize: '0.68rem', 
-                      fontWeight: 700,
-                      opacity: l.disabled ? 0.5 : 1,
-                      cursor: l.disabled ? 'not-allowed' : 'pointer'
-                    }}
-                  >
-                    {l.label}
-                  </button>
-                ))}
-              </div>
-            </div>
 
             {/* Platform Theme settings */}
             <div className="guide-panel-card">
@@ -9530,22 +9482,6 @@ export default function App() {
                 </div>
                 <div className="drawer-accordion-content-wrapper">
                   <div className="drawer-accordion-content" style={{ gap: '0.95rem' }}>
-                    {/* Language Selection */}
-                    <div className="profile-edit-section">
-                      <label className="profile-edit-label" style={{ display: 'flex', alignItems: 'center', gap: '0.25rem' }}>
-                        <Languages size={11} />
-                        Language Selection
-                      </label>
-                      <select
-                        value="en"
-                        disabled
-                        className="profile-edit-input"
-                        style={{ background: 'var(--bg-main)', color: 'var(--text-primary)', border: '1px solid var(--border-light)', cursor: 'not-allowed', opacity: 0.8 }}
-                      >
-                        <option value="en">English (More coming soon!)</option>
-                      </select>
-                    </div>
-
                     {/* Light/Dark/System Toggle */}
                     <div className="profile-edit-section">
                       <label className="profile-edit-label">Theme Mode</label>
@@ -10076,72 +10012,6 @@ export default function App() {
 
 
 
-      {/* Screen 10: Multilingual Selection Overlay */}
-
-      {showLangMenu && (
-
-        <div className="modal-backdrop" onClick={() => setShowLangMenu(false)}>
-
-          <div className="modal-content" onClick={(e) => e.stopPropagation()} style={{ borderRadius: '16px', padding: '1.25rem', height: 'auto' }}>
-
-            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1.25rem' }}>
-
-              <h3 className="modal-hero-name" style={{ fontSize: '0.95rem', display: 'flex', alignItems: 'center', gap: '0.35rem', marginTop: 0, color: 'var(--text-primary)' }}>
-
-                <Languages size={16} className="text-accent-blue" />
-
-                Select Platform Language
-
-              </h3>
-
-              <button onClick={() => setShowLangMenu(false)} className="modal-close-btn">
-
-                <X size={12} style={{ margin: '0 auto' }} />
-
-              </button>
-
-            </div>
-
-            
-
-            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '0.65rem' }}>
-
-              {LANGUAGES_LIST.map(l => (
-
-                <button
-
-                  key={l.code}
-
-                  disabled={l.disabled}
-
-                  onClick={() => { if (!l.disabled) { setLang(l.code); setShowLangMenu(false); } }}
-
-                  className={`btn ${lang === l.code ? 'btn-primary' : 'btn-secondary'}`}
-
-                  style={{ 
-                    padding: '0.75rem', 
-                    borderRadius: '12px', 
-                    fontSize: '0.7rem', 
-                    fontWeight: 700,
-                    opacity: l.disabled ? 0.5 : 1,
-                    cursor: l.disabled ? 'not-allowed' : 'pointer'
-                  }}
-
-                >
-
-                  {l.label}
-
-                </button>
-
-              ))}
-
-            </div>
-
-          </div>
-
-        </div>
-
-      )}
 
 
 

@@ -60,8 +60,31 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Apply the saved theme before first paint. React sets data-theme in an
+         effect, which runs after the first frame — without this a dark-mode
+         user sees a flash of the light theme on every launch. Must stay inline
+         and synchronous; an external script would defeat the purpose. -->
+    <script>
+      (function () {
+        try {
+          var saved = localStorage.getItem('mlbb_companion_theme') || 'system';
+          var resolved = saved === 'system'
+            ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light')
+            : saved;
+          document.documentElement.setAttribute('data-theme', resolved);
+        } catch (e) {
+          document.documentElement.setAttribute('data-theme', 'dark');
+        }
+      })();
+    </script>
   </head>
-  <body class="dark-theme" style="background-color: #000000;">
+  <!-- No inline background-color: it beat the stylesheet in both themes, so in
+       light mode a black page sat behind the light background image and showed
+       through wherever that image had not painted. The `dark-theme` class was
+       dead — no rule anywhere referenced it. Theme now comes solely from the
+       data-theme attribute the app sets on <html>. -->
+  <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
