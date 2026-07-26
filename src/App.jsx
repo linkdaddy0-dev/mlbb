@@ -1,4 +1,4 @@
-import React, { useState, useMemo, useEffect, useRef, useCallback } from 'react';
+import React, { useState, useMemo, useEffect, useLayoutEffect, useRef, useCallback } from 'react';
 
 import { 
   Search, ShieldAlert, Award, Swords, BookOpen, ChevronRight, ChevronLeft, ChevronDown, Clock,
@@ -97,6 +97,11 @@ const getRevisionValue = (meta) => {
 
 /** Same ordering, but for a bare revision string read back from localStorage. */
 const revisionStringValue = (rev) => (rev ? getRevisionValue({ data_revision: rev, last_updated_time: rev }) : 0);
+
+// Showcase carousel geometry. Slides share one fixed box and differ only by
+// transform: scale(), so nothing in the animation touches layout.
+const SLIDE_BASE_WIDTH = 220;
+const SLIDE_INACTIVE_SCALE = 140 / SLIDE_BASE_WIDTH; // visually matches the old 140px card
 
 const getHeroWithDefaultStats = (hero) => {
   if (!hero) return null;
@@ -955,6 +960,32 @@ export default function App() {
   const [, forceSwipeRender] = useState(0); // only to re-render cursor style
   const touchOffsetRef = useRef(0);
   const dragMoved = useRef(false);
+  const dragFrameRef = useRef(0);
+
+  // `transform` on the showcase slides is owned imperatively, never by React.
+  // Sharing it would be unsafe: React diffs the style prop against its own
+  // previous value, so after a drag wrote transforms straight to the DOM it
+  // would see an unchanged style object and skip restoring them.
+  const settleSlides = useCallback(() => {
+    const len = showcaseHeroes.length;
+    if (len === 0) return;
+    Object.keys(slideRefs.current).forEach((key) => {
+      const el = slideRefs.current[key];
+      if (!el) return;
+      let offset = Number(key) - showcaseIndex;
+      if (offset > len / 2) offset -= len;
+      if (offset < -len / 2) offset += len;
+      const isActive = offset === 0;
+      el.style.transform =
+        `translate3d(${offset * 150}px, ${isActive ? 0 : 20}px, 0) ` +
+        `scale(${isActive ? 1 : SLIDE_INACTIVE_SCALE})`;
+    });
+  }, [showcaseHeroes.length, showcaseIndex]);
+
+  // Before paint, so slides never flash at an untransformed position
+  useLayoutEffect(() => {
+    settleSlides();
+  }, [settleSlides]);
 
   const handleDragStart = useCallback((clientX) => {
     touchStartRef.current = clientX;
@@ -964,6 +995,29 @@ export default function App() {
     forceSwipeRender(v => v + 1);
   }, []);
 
+  // Paints the three visible slides at the current drag offset. Called from a
+  // rAF tick rather than straight out of touchmove: touchmove can fire well
+  // above display refresh rate, and every extra call was a wasted style write.
+  const paintDragFrame = useCallback(() => {
+    dragFrameRef.current = 0;
+    const diff = touchOffsetRef.current;
+    const len = showcaseHeroes.length;
+    if (len === 0) return;
+
+    const activeIdx = showcaseIndex;
+    const leftIdx = (activeIdx - 1 + len) % len;
+    const rightIdx = (activeIdx + 1) % len;
+
+    const place = (el, baseX, baseY, scale) => {
+      if (!el) return;
+      el.style.transform = `translate3d(${baseX + diff}px, ${baseY}px, 0) scale(${scale})`;
+    };
+
+    place(slideRefs.current[activeIdx], 0, 0, 1);
+    place(slideRefs.current[leftIdx], -150, 20, SLIDE_INACTIVE_SCALE);
+    place(slideRefs.current[rightIdx], 150, 20, SLIDE_INACTIVE_SCALE);
+  }, [showcaseHeroes.length, showcaseIndex]);
+
   const handleDragMove = useCallback((clientX) => {
     if (touchStartRef.current === null) return;
     const diff = clientX - touchStartRef.current;
@@ -971,57 +1025,49 @@ export default function App() {
     if (Math.abs(diff) > 8) {
       dragMoved.current = true;
     }
-
-    // Direct DOM manipulation for buttery smooth 60fps tracking during swiping
-    const len = showcaseHeroes.length;
-    if (len === 0) return;
-    
-    const activeIdx = showcaseIndex;
-    const leftIdx = (activeIdx - 1 + len) % len;
-    const rightIdx = (activeIdx + 1) % len;
-
-    const activeEl = slideRefs.current[activeIdx];
-    const leftEl = slideRefs.current[leftIdx];
-    const rightEl = slideRefs.current[rightIdx];
-
-    if (activeEl) {
-      activeEl.style.transition = 'none';
-      activeEl.style.transform = `translate(${diff}px, 0px) scale(1)`;
+    // Coalesce to one write per frame
+    if (!dragFrameRef.current) {
+      dragFrameRef.current = requestAnimationFrame(paintDragFrame);
     }
-    if (leftEl) {
-      leftEl.style.transition = 'none';
-      leftEl.style.transform = `translate(${-150 + diff}px, 20px) scale(0.75)`;
-    }
-    if (rightEl) {
-      rightEl.style.transition = 'none';
-      rightEl.style.transform = `translate(${150 + diff}px, 20px) scale(0.75)`;
-    }
-  }, [showcaseHeroes.length, showcaseIndex]);
+  }, [paintDragFrame]);
 
   const handleDragEnd = useCallback(() => {
     if (!isSwipingRef.current) return;
     isSwipingRef.current = false;
-    forceSwipeRender(v => v + 1);
-    
-    // Restore CSS transitions on all slides for the snap-back animation
+
+    if (dragFrameRef.current) {
+      cancelAnimationFrame(dragFrameRef.current);
+      dragFrameRef.current = 0;
+    }
+
+    // Restore the CSS transition so the snap animates
     Object.values(slideRefs.current).forEach(el => {
       if (el) el.style.transition = '';
     });
 
     const finalOffset = touchOffsetRef.current;
     const threshold = 40; // 40px minimum swipe distance for snappy feel
-    if (finalOffset > threshold) {
-      setShowcaseIndex(prev => (prev - 1 + showcaseHeroes.length) % showcaseHeroes.length);
-    } else if (finalOffset < -threshold) {
-      setShowcaseIndex(prev => (prev + 1) % showcaseHeroes.length);
+    const committed = Math.abs(finalOffset) > threshold;
+
+    if (committed) {
+      const step = finalOffset > 0 ? -1 : 1;
+      setShowcaseIndex(prev => (prev + step + showcaseHeroes.length) % showcaseHeroes.length);
     }
-    
+
     touchStartRef.current = null;
     touchOffsetRef.current = 0;
+
+    // Only settle here when the index is NOT changing. On a committed swipe the
+    // index update re-runs the layout effect, which owns the new transforms;
+    // calling settleSlides() as well would write this render's (already stale)
+    // index over them and leave classes and transforms one step out of sync.
+    if (!committed) settleSlides();
+
+    forceSwipeRender(v => v + 1);
     setTimeout(() => {
       dragMoved.current = false;
     }, 50);
-  }, [showcaseHeroes.length]);
+  }, [showcaseHeroes.length, settleSlides]);
 
   // Meta Spotlight tabs state
   const [metaSpotlightTab, setMetaSpotlightTab] = useState('banned');
@@ -4039,24 +4085,30 @@ export default function App() {
                         const rawRenderUrl = hero?.transparentImage || hero?.renderImage || (hero?.id ? `/assets/banners/hero_${hero.id}_transparent.webp` : '') || hero?.cover_transparent || hero?.image || hero?.cover_thumb;
                         const heroRenderUrl = rawRenderUrl ? (rawRenderUrl.includes('?') ? `${rawRenderUrl}&v=4` : `${rawRenderUrl}?v=4`) : rawRenderUrl;
 
-                        let translateX = offset * 150;
-                        let translateY = isActive ? 0 : 20;
-                        let scale = isActive ? 1 : 0.75;
                         let opacity = isActive ? 1 : (Math.abs(offset) === 1 ? 0.7 : 0);
                         let zIndex = isActive ? 10 : (Math.abs(offset) === 1 ? 5 : 1);
 
+                        // Every slide keeps the SAME box (SLIDE_BASE_WIDTH, centered by
+                        // a constant margin) and is sized purely by transform: scale().
+                        // Animating width/margin-left instead forced a layout pass on
+                        // every frame of the 400ms transition — the main reason the
+                        // carousel felt stuttery on device.
+                        // `transform` is intentionally absent: settleSlides owns it.
                         const slideStyle = {
                           position: 'absolute',
                           left: '50%',
                           bottom: '0',
-                          width: isActive ? '220px' : '140px',
-                          marginLeft: isActive ? '-110px' : '-70px',
-                          transform: `translate(${translateX}px, ${translateY}px) scale(${scale})`,
+                          width: `${SLIDE_BASE_WIDTH}px`,
+                          marginLeft: `${-SLIDE_BASE_WIDTH / 2}px`,
                           opacity: opacity,
                           zIndex: zIndex,
                           pointerEvents: (isActive || isLeft || isRight) ? 'auto' : 'none',
-                          willChange: 'transform, opacity',
-                          transition: isSwipingRef.current ? 'none' : 'transform 0.4s cubic-bezier(0.22, 1, 0.36, 1), opacity 0.35s ease, width 0.4s ease, margin-left 0.4s ease',
+                          // Only promote the slides that are actually visible; a permanent
+                          // will-change on every slide keeps dead compositor layers alive.
+                          willChange: Math.abs(offset) <= 1 ? 'transform, opacity' : 'auto',
+                          transition: isSwipingRef.current
+                            ? 'none'
+                            : 'transform 0.4s cubic-bezier(0.22, 1, 0.36, 1), opacity 0.35s ease',
                         };
 
                         return (
