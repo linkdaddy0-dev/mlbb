@@ -15,6 +15,11 @@ logs/
 *.log
 __pycache__/
 
+# Playwright/Chromium profile written by the asset crawler. It was committed by
+# accident: ~1000 cache files, and paths long enough that `git clone` fails on
+# Windows without core.longpaths.
+scripts/crawler_profile/
+
 # IDEs & System
 .idea/
 .vscode/

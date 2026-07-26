@@ -24,7 +24,14 @@ flowchart TD
 
 ### A. Core Details Crawler: `scraper.py`
 - **Location:** [scraper.py](file:///c:/Users/rosha/Documents/MLBB/scraper.py)
-- **API Target:** `mapi.mobilelegends.com` (legacy portal, routed via Cloudflare Workers to avoid geoblocking).
+- **API Target:** `mapi.mobilelegends.com` (legacy portal).
+- **Note on geoblocking:** the scrapers call Moonton **directly**, not through the
+  Cloudflare Worker. This works because GitHub Actions runners are outside the
+  blocked region — the Worker proxy exists for the *app*, not for CI, and the
+  maintainer's local VPN only matters when running these scripts by hand. If
+  Moonton ever blocks GitHub's IP ranges, point the scrapers at the Worker's
+  `/official/gms/source/<project>/<source>` route, which already forwards with
+  the correct `Origin`/`Referer` headers.
 - **Output:** Dumps raw profiles (`hero_<id>.json`) into `data/raw/{lang}/` for 7 locales: `en`, `id`, `es`, `pt`, `ru`, `tr`, `tl`.
 - **Fallback:** If Moonton's server is down, it uses a fallback scraping crawler targeting the community wiki API (`mlbb-wiki-api.vercel.app/api/heroes`).
 
