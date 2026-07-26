@@ -31,6 +31,15 @@ export default function SmartImage({ src, alt, className, style, imgStyle, fallb
   };
 
   const handleError = () => {
+    const remoteBase = "https://mlbb-ota-proxy.linkdaddy0.workers.dev";
+    if (imgSrc && !imgSrc.includes(remoteBase)) {
+      const assetsIndex = imgSrc.indexOf('/assets/');
+      if (assetsIndex !== -1) {
+        setImgSrc(`${remoteBase}${imgSrc.substring(assetsIndex)}`);
+        return;
+      }
+    }
+
     if (retryCount < 2) {
       setRetryCount(prev => prev + 1);
       const delay = (retryCount + 1) * 1000;

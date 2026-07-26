@@ -11,7 +11,7 @@ import {
 
 import SmartImage from './components/SmartImage';
 
-import { HeroRepository, BackgroundSeeder, PatchRepository } from './database/db';
+import { HeroRepository, BackgroundSeeder, PatchRepository, isStaleHeroRecord } from './database/db';
 
 import { RecoveryModeService } from './services/RecoveryModeService';
 import { TelemetryService } from './services/TelemetryService';
@@ -23,6 +23,91 @@ import { App as CapApp } from '@capacitor/app';
 // Over-The-Air (OTA) remote update configuration proxy (e.g. Cloudflare Worker wrap)
 // Replace this with your actual deployed Cloudflare Worker domain when active
 const REMOTE_UPDATE_BASE_URL = "https://mlbb-ota-proxy.linkdaddy0.workers.dev";
+
+/**
+ * Walks an <img> down a fallback chain when a source fails to load.
+ *
+ * Steps are attempted once each and recorded on the element, so a source that
+ * fails twice (e.g. offline, where both the bundled path and the worker mirror
+ * fail) can never bounce the element between candidates forever.
+ *
+ * For hero art the chain deliberately prefers another piece of *artwork*
+ * (worker mirror → local painting) before the square avatar icon: dropping
+ * straight to the avatar is what made hero backgrounds look broken.
+ */
+const handleAssetLoadError = (e, fallbackUrl, heroId) => {
+  const img = e.target;
+  const currentSrc = img.src || '';
+
+  const tried = img.dataset.assetFallbackStep ? Number(img.dataset.assetFallbackStep) : 0;
+  const advance = (step, url) => {
+    img.dataset.assetFallbackStep = String(step);
+    img.src = url;
+  };
+
+  // Step 1 — mirror the same /assets/ path through the OTA worker
+  if (tried < 1 && currentSrc && !currentSrc.includes(REMOTE_UPDATE_BASE_URL)) {
+    const assetsIndex = currentSrc.indexOf('/assets/');
+    if (assetsIndex !== -1) {
+      advance(1, `${REMOTE_UPDATE_BASE_URL}${currentSrc.substring(assetsIndex)}`);
+      return;
+    }
+  }
+
+  // Step 2 — local full-body painting, still artwork rather than an icon
+  if (tried < 2 && heroId && !currentSrc.includes('/assets/paintings/')) {
+    advance(2, `/assets/paintings/hero_${heroId}.webp`);
+    return;
+  }
+
+  // Step 3 — caller-supplied fallback (usually cover_thumb or the avatar)
+  if (tried < 3 && fallbackUrl) {
+    advance(3, fallbackUrl);
+    return;
+  }
+
+  // Nothing left: hide rather than render a broken-image placeholder
+  img.dataset.assetFallbackStep = '4';
+  img.style.visibility = 'hidden';
+};
+
+// Turns a patch meta document into a comparable number so revisions can be
+// ordered instead of merely compared for inequality. Kept at module scope so
+// the boot sequence can also compare against the last revision we seeded.
+const getRevisionValue = (meta) => {
+  if (!meta) return 0;
+  if (meta.data_revision) {
+    const r = String(meta.data_revision);
+    if (r.length === 14 && /^\d+$/.test(r)) {
+      const year = parseInt(r.substring(0, 4), 10);
+      const month = parseInt(r.substring(4, 6), 10);
+      const day = parseInt(r.substring(6, 8), 10);
+      const hour = parseInt(r.substring(8, 10), 10);
+      const minute = parseInt(r.substring(10, 12), 10);
+      const second = parseInt(r.substring(12, 14), 10);
+      return Date.UTC(year, month - 1, day, hour, minute, second);
+    }
+  }
+  if (meta.last_updated_time) {
+    const parsed = Date.parse(meta.last_updated_time);
+    if (!isNaN(parsed)) return parsed;
+  }
+  return 0;
+};
+
+/** Same ordering, but for a bare revision string read back from localStorage. */
+const revisionStringValue = (rev) => (rev ? getRevisionValue({ data_revision: rev, last_updated_time: rev }) : 0);
+
+const getHeroWithDefaultStats = (hero) => {
+  if (!hero) return null;
+  const stats = hero.history?.['7d']?.['101'] || hero.rank_stats?.['101'] || {};
+  return {
+    ...hero,
+    win_rate: stats.win_rate !== undefined ? stats.win_rate : (hero.win_rate || 50.0),
+    pick_rate: stats.pick_rate !== undefined ? stats.pick_rate : (hero.pick_rate || 0.0),
+    ban_rate: stats.ban_rate !== undefined ? stats.ban_rate : (hero.ban_rate || 0.0)
+  };
+};
 
 // Fallback PWA dataset if network fetches are offline or scraper is unrun
 
@@ -553,6 +638,8 @@ export default function App() {
   const appMountTimeRef = useRef(Date.now());
   const activeDataBaseUrlRef = useRef(window.location.origin);
   const activeDataRevisionRef = useRef('');
+  // Bare revision string (no query prefix) — used to detect stale IndexedDB records
+  const activeDataRevisionValueRef = useRef('');
   const [showSplash, setShowSplash] = useState(true);
   const [fadeOutSplash, setFadeOutSplash] = useState(false);
   const [videoFinished, setVideoFinished] = useState(false);
@@ -942,7 +1029,8 @@ export default function App() {
   const metaSpotlightHeroes = useMemo(() => {
     if (!heroes || heroes.length === 0) return { banned: null, winRate: null, picked: null };
     
-    const sorted = heroes.filter(h => h.ban_rate != null && h.win_rate != null && h.pick_rate != null);
+    const processed = heroes.map(getHeroWithDefaultStats);
+    const sorted = processed.filter(h => h.ban_rate != null && h.win_rate != null && h.pick_rate != null);
     const banned = [...sorted].sort((a, b) => b.ban_rate - a.ban_rate)[0] || null;
     const winRate = [...sorted].sort((a, b) => b.win_rate - a.win_rate)[0] || null;
     const picked = [...sorted].sort((a, b) => b.pick_rate - a.pick_rate)[0] || null;
@@ -2028,26 +2116,6 @@ export default function App() {
               if (remoteData && remoteData.current_patch) {
                 // Compare data_revision (timestamp-based build number, e.g. "20260613142019")
                 // Higher revision = fresher data. Fall back to last_updated_time if data_revision is missing.
-                const getRevisionValue = (meta) => {
-                  if (meta.data_revision) {
-                    const r = String(meta.data_revision);
-                    if (r.length === 14 && /^\d+$/.test(r)) {
-                      const year = parseInt(r.substring(0, 4), 10);
-                      const month = parseInt(r.substring(4, 6), 10);
-                      const day = parseInt(r.substring(6, 8), 10);
-                      const hour = parseInt(r.substring(8, 10), 10);
-                      const minute = parseInt(r.substring(10, 12), 10);
-                      const second = parseInt(r.substring(12, 14), 10);
-                      return Date.UTC(year, month - 1, day, hour, minute, second);
-                    }
-                  }
-                  if (meta.last_updated_time) {
-                    const parsed = Date.parse(meta.last_updated_time);
-                    if (!isNaN(parsed)) return parsed;
-                  }
-                  return 0;
-                };
-
                 const localRevVal = getRevisionValue(localPatchData);
                 const remoteRevVal = getRevisionValue(remoteData);
                 const localRevDisplay = localPatchData.data_revision || localPatchData.last_updated_time || "0";
@@ -2075,15 +2143,26 @@ export default function App() {
         const revisionQuery = dataRevision ? `?rev=${encodeURIComponent(dataRevision)}` : '';
         activeDataBaseUrlRef.current = activeBaseUrl;
         activeDataRevisionRef.current = revisionQuery;
+        activeDataRevisionValueRef.current = dataRevision;
 
-        // Track data_revision to detect when a new compilation has been published
+        // Track data_revision to detect when a new compilation has been published.
+        // Compare by ORDER, not inequality: when the remote check fails (offline,
+        // worker down) we fall back to the revision baked into the APK, which is
+        // older than what we already seeded. Treating that as "changed" used to
+        // overwrite fresh OTA data with build-time data and reset the tracker.
         const localKey = `mlbb_data_revision_${version}_${lang}`;
         const prevRevision = localStorage.getItem(localKey);
-        
+        const prevRevVal = revisionStringValue(prevRevision);
+        const thisRevVal = revisionStringValue(dataRevision);
+
         if (dataRevision && prevRevision !== dataRevision) {
-          console.log(`[App] Detected new data revision (${dataRevision} vs prev ${prevRevision}). Resetting load state to force re-seed.`);
-          await PatchRepository.setPatchLoaded(version, lang, false);
-          localStorage.setItem(localKey, dataRevision);
+          if (thisRevVal >= prevRevVal) {
+            console.log(`[App] Detected new data revision (${dataRevision} vs prev ${prevRevision}). Resetting load state to force re-seed.`);
+            await PatchRepository.setPatchLoaded(version, lang, false);
+            localStorage.setItem(localKey, dataRevision);
+          } else {
+            console.log(`[App] Ignoring older data revision (${dataRevision} < seeded ${prevRevision}) — keeping the newer cached dataset.`);
+          }
         }
 
         // Fetch index.json and draft_matrix.json concurrently from active base URL
@@ -2378,10 +2457,11 @@ export default function App() {
   const roleLeaders = useMemo(() => {
     if (!heroes || heroes.length === 0) return {};
     
+    const processed = heroes.map(getHeroWithDefaultStats);
     const roles = ['Marksman', 'Mage', 'Fighter', 'Assassin', 'Tank', 'Support'];
     const leaders = {};
     roles.forEach(role => {
-      const roleHeroes = heroes.filter(h => h.role === role);
+      const roleHeroes = processed.filter(h => h.role === role);
       if (roleHeroes.length > 0) {
         leaders[role] = [...roleHeroes].sort((a, b) => b.win_rate - a.win_rate)[0];
       } else {
@@ -2624,13 +2704,24 @@ export default function App() {
 
 
 
-    HeroRepository.getHeroById(hero.id)
+    const activeRevision = activeDataRevisionValueRef.current;
+
+    HeroRepository.getHeroById(hero.id, lang)
 
       .then(dbHero => {
 
-        // If the hero has full details loaded (e.g. contains skills list and is not just a base index entity)
+        // Use the cached copy only when it is complete AND belongs to the
+        // revision we are currently serving. Without the revision check a hero
+        // the seeder failed to refresh stayed frozen on old stats and old
+        // (or missing) transparent art for as long as the record survived.
 
-        if (dbHero && dbHero.skills && dbHero.skills.length > 0) {
+        const cacheUsable =
+          dbHero &&
+          dbHero.skills &&
+          dbHero.skills.length > 0 &&
+          !isStaleHeroRecord(dbHero, activeRevision);
+
+        if (cacheUsable) {
 
           setDetailHeroData(dbHero);
 
@@ -2638,7 +2729,7 @@ export default function App() {
 
         } else {
 
-          // Fallback read-through local assets path if background seeder has not finished yet
+          // Read-through: seeder has not reached this hero yet, or its record is stale
 
           fetch(
             `${activeDataBaseUrlRef.current}/data/patches/${version}/${lang}/heroes/${hero.id}.json${activeDataRevisionRef.current}`
@@ -2654,17 +2745,44 @@ export default function App() {
 
             .then(data => {
 
-              setDetailHeroData(data);
+              const merged = {
+                ...(dbHero || {}),
+                ...data,
+                id: Number(data.id ?? hero.id),
+                lang,
+                patchVersion: version,
+                dataRevision: activeRevision,
+                cover_transparent: data.cover_transparent || hero.cover_transparent || (dbHero && dbHero.cover_transparent) || '',
+                cover_thumb: data.cover_thumb || hero.cover_thumb || '',
+                avatar_url: data.avatar_url || hero.avatar_url || ''
+              };
+
+              setDetailHeroData(merged);
 
               setHeroDetailsLoading(false);
 
               // Asynchronously cache it back to IndexedDB for subsequent instant lookups
 
-              HeroRepository.saveHero(data);
+              HeroRepository.saveHero(merged);
 
             })
 
             .catch(err => {
+
+              // Nothing fresh available — fall back to whatever is cached before
+              // giving up entirely, so an offline launch still shows the guide.
+
+              if (dbHero && dbHero.skills && dbHero.skills.length > 0) {
+
+                console.warn('[App] Fresh hero fetch failed, serving cached (possibly stale) record:', err.message);
+
+                setDetailHeroData(dbHero);
+
+                setHeroDetailsLoading(false);
+
+                return;
+
+              }
 
               throw err;
 
@@ -3650,11 +3768,12 @@ export default function App() {
               </div>
 
               <div className="profile-header-bg-art" style={{ zIndex: 3, pointerEvents: 'none' }}>
-                <img 
-                  src={bannerHero?.id ? `/assets/banners/hero_${bannerHero.id}_transparent.webp?v=4` : (bannerHero?.cover_transparent && bannerHero.cover_transparent.includes('_transparent.webp') ? `${bannerHero.cover_transparent}?v=4` : (bannerHero?.cover_transparent || bannerHero?.cover_thumb || bannerHero?.avatar_url))} 
-                  alt="Hero Character" 
+                <img
+                  key={`banner-art-${bannerHero?.id || 'none'}`}
+                  src={bannerHero?.id ? `/assets/banners/hero_${bannerHero.id}_transparent.webp?v=4` : (bannerHero?.cover_transparent && bannerHero.cover_transparent.includes('_transparent.webp') ? `${bannerHero.cover_transparent}?v=4` : (bannerHero?.cover_transparent || bannerHero?.cover_thumb || bannerHero?.avatar_url))}
+                  alt="Hero Character"
                   onError={(e) => {
-                    e.target.src = bannerHero?.avatar_url || '';
+                    handleAssetLoadError(e, bannerHero?.cover_thumb || bannerHero?.avatar_url || '', bannerHero?.id);
                   }}
                 />
               </div>
@@ -3705,14 +3824,19 @@ export default function App() {
                   const statColor = metaSpotlightTab === 'banned' ? '#EF4444'
                     : metaSpotlightTab === 'winRate' ? '#10B981' : '#3B82F6';
 
-                  const bannerUrl = spotlightHero.id
-                    ? `/assets/paintings/hero_${spotlightHero.id}.webp?v=4`
-                    : (spotlightHero.cover_thumb || spotlightHero.avatar_url);
+                  // A transparent banner ships in the bundle for every hero id, so
+                  // address it by id rather than trusting cover_transparent to be
+                  // present on the record — a stale/partial cache entry without
+                  // that field used to silently fall back to the opaque painting.
+                  const hasTransparent = Boolean(spotlightHero.id);
+                  const bannerUrl = hasTransparent
+                    ? `/assets/banners/hero_${spotlightHero.id}_transparent.webp?v=4`
+                    : (spotlightHero.cover_transparent || spotlightHero.cover_thumb || spotlightHero.avatar_url);
 
-                  const isTransparent = bannerUrl.toLowerCase().includes('transparent') || 
-                                        bannerUrl.toLowerCase().includes('avatar') || 
+                  const isTransparent = bannerUrl.toLowerCase().includes('transparent') ||
+                                        bannerUrl.toLowerCase().includes('avatar') ||
                                         bannerUrl.toLowerCase().includes('thumb') ||
-                                        (spotlightHero.cover_transparent && spotlightHero.cover_transparent.includes('_transparent.webp'));
+                                        hasTransparent;
 
                   return (
                     <div className="meta-spotlight-bento" key={metaSpotlightTab}>
@@ -3724,11 +3848,12 @@ export default function App() {
                       >
                         <div className="meta-bento-main-img-wrapper">
                           <img
+                            key={`spotlight-art-${spotlightHero.id}`}
                             src={bannerUrl}
                             alt={spotlightHero.name}
                             className={`meta-bento-main-img ${isTransparent ? 'is-transparent' : ''}`}
                             onError={(e) => {
-                              e.target.src = spotlightHero.cover_thumb || spotlightHero.avatar_url || '';
+                              handleAssetLoadError(e, spotlightHero.cover_thumb || spotlightHero.avatar_url || '', spotlightHero.id);
                             }}
                           />
                           <div className="meta-bento-main-overlay" />
@@ -3802,8 +3927,8 @@ export default function App() {
               const leftHero = showcaseHeroes[leftIndex] || activeHero;
               const rightHero = showcaseHeroes[rightIndex] || activeHero;
 
-              const isTransparent = activeHero?.cover_transparent && activeHero.cover_transparent.includes('_transparent.webp');
-              const rawRenderUrl = activeHero?.transparentImage || activeHero?.renderImage || (isTransparent ? activeHero.cover_transparent : '') || (activeHero?.id ? `/assets/paintings/hero_${activeHero.id}.webp` : '') || activeHero?.cover_transparent || activeHero?.image || activeHero?.cover_thumb;
+              const isTransparent = Boolean(activeHero?.id);
+              const rawRenderUrl = activeHero?.transparentImage || activeHero?.renderImage || (activeHero?.id ? `/assets/banners/hero_${activeHero.id}_transparent.webp` : '') || activeHero?.cover_transparent || activeHero?.image || activeHero?.cover_thumb;
               const heroRenderUrl = rawRenderUrl ? (rawRenderUrl.includes('?') ? `${rawRenderUrl}&v=4` : `${rawRenderUrl}?v=4`) : rawRenderUrl;
 
               return (
@@ -3910,8 +4035,8 @@ export default function App() {
                         else if (isRight) slideClass += " right";
                         else slideClass += " hidden";
 
-                        const isTransparent = hero?.cover_transparent && hero.cover_transparent.includes('_transparent.webp');
-                        const rawRenderUrl = hero?.transparentImage || hero?.renderImage || (isTransparent ? hero.cover_transparent : '') || (hero?.id ? `/assets/paintings/hero_${hero.id}.webp` : '') || hero?.cover_transparent || hero?.image || hero?.cover_thumb;
+                        const isTransparent = Boolean(hero?.id);
+                        const rawRenderUrl = hero?.transparentImage || hero?.renderImage || (hero?.id ? `/assets/banners/hero_${hero.id}_transparent.webp` : '') || hero?.cover_transparent || hero?.image || hero?.cover_thumb;
                         const heroRenderUrl = rawRenderUrl ? (rawRenderUrl.includes('?') ? `${rawRenderUrl}&v=4` : `${rawRenderUrl}?v=4`) : rawRenderUrl;
 
                         let translateX = offset * 150;
@@ -3952,15 +4077,13 @@ export default function App() {
                             {isActive ? (
                               <>
                                 <div className="slide-hero-art-wrapper center">
-                                  <img 
+                                  <img
+                                    key={`showcase-art-${hero?.id}`}
                                     src={heroRenderUrl}
                                     alt={hero?.name || ''}
                                     className="slide-hero-art active-art animate-float"
                                     onError={(e) => {
-                                      e.target.src = hero?.avatar_url || '';
-                                      e.target.style.width = '100px';
-                                      e.target.style.height = '100px';
-                                      e.target.style.borderRadius = '50%';
+                                      handleAssetLoadError(e, hero?.cover_thumb || hero?.avatar_url || '', hero?.id);
                                     }}
                                   />
                                 </div>
@@ -4091,14 +4214,18 @@ export default function App() {
               const leader = roleLeaders[activeRoleTab.key];
               if (!leader) return null;
 
-              const leaderBanner = leader.id
-                ? `/assets/paintings/hero_${leader.id}.webp?v=4`
-                : (leader.cover_thumb || leader.avatar_url);
+              // Address the bundled transparent banner by id — see the Meta
+              // Spotlight note above; cover_transparent may be absent on a
+              // partially-seeded record even though the asset ships in the APK.
+              const hasTransparent = Boolean(leader.id);
+              const leaderBanner = hasTransparent
+                ? `/assets/banners/hero_${leader.id}_transparent.webp?v=4`
+                : (leader.cover_transparent || leader.cover_thumb || leader.avatar_url);
 
-              const isTransparent = leaderBanner.toLowerCase().includes('transparent') || 
-                                    leaderBanner.toLowerCase().includes('avatar') || 
+              const isTransparent = leaderBanner.toLowerCase().includes('transparent') ||
+                                    leaderBanner.toLowerCase().includes('avatar') ||
                                     leaderBanner.toLowerCase().includes('thumb') ||
-                                    (leader.cover_transparent && leader.cover_transparent.includes('_transparent.webp'));
+                                    hasTransparent;
 
               return (
                 <div className="role-leaders-v2-section">
@@ -4140,11 +4267,12 @@ export default function App() {
                     >
                       <div className="role-leaders-v2-banner-img-wrap">
                         <img
+                          key={`role-leader-art-${leader.id}`}
                           src={leaderBanner}
                           alt={leader.name}
                           className={`role-leaders-v2-banner-img ${isTransparent ? 'is-transparent' : ''}`}
                           onError={(e) => {
-                            e.target.src = leader.cover_thumb || leader.avatar_url || '';
+                            handleAssetLoadError(e, leader.cover_thumb || leader.avatar_url || '', leader.id);
                           }}
                         />
                         <div className="role-leaders-v2-banner-overlay" />
@@ -4381,7 +4509,7 @@ export default function App() {
               </div>
               
               <div className="db-patch-footer" style={{ textAlign: 'center', fontSize: '0.58rem', color: '#475569', fontWeight: 600, marginTop: '0.65rem' }}>
-                <span>Static Local Engine • Patch {patchMeta.current_patch || '1.8.84'} • App v2.3</span>
+                <span>Static Local Engine • Patch {patchMeta.current_patch || '1.8.84'} • App v2.4</span>
               </div>
             </div>
 
@@ -7065,11 +7193,12 @@ export default function App() {
 
 
                     <div className="profile-header-bg-art" style={{ zIndex: 2, pointerEvents: 'none', right: '-15px', top: '-40px' }}>
-                      <img 
-                        src={activeHero.id ? `/assets/banners/hero_${activeHero.id}_transparent.webp?v=4` : (activeHero.cover_transparent && activeHero.cover_transparent.includes('_transparent.webp') ? `${activeHero.cover_transparent}?v=4` : (activeHero.cover_transparent || activeHero.cover_thumb || activeHero.avatar_url))} 
-                        alt="Hero Character" 
+                      <img
+                        key={`profile-art-${activeHero.id}`}
+                        src={activeHero.id ? `/assets/banners/hero_${activeHero.id}_transparent.webp?v=4` : (activeHero.cover_transparent && activeHero.cover_transparent.includes('_transparent.webp') ? `${activeHero.cover_transparent}?v=4` : (activeHero.cover_transparent || activeHero.cover_thumb || activeHero.avatar_url))}
+                        alt="Hero Character"
                         onError={(e) => {
-                          e.target.src = activeHero.avatar_url || '';
+                          handleAssetLoadError(e, activeHero.cover_thumb || activeHero.avatar_url || '', activeHero.id);
                         }}
                       />
                     </div>
