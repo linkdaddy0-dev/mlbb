@@ -5856,31 +5856,25 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  transition: all 0.4s cubic-bezier(0.22, 1, 0.36, 1);
+  /* Compositor-only. `transition: all` also animated width, margin-left and
+     bottom, forcing layout on every frame of the swipe. */
+  transition: transform 0.4s cubic-bezier(0.22, 1, 0.36, 1), opacity 0.35s ease;
   pointer-events: none;
-  will-change: transform, opacity;
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
+  transform-origin: center bottom;
 }
 
+/* Width is uniform across states now — scale() differentiates them, so these
+   rules must not reintroduce a layout-animating property. */
 .showcase-slide.active {
-  width: 220px;
   z-index: 10;
   pointer-events: auto;
   bottom: 0;
 }
 
-.showcase-slide.left {
-  width: 140px;
-  bottom: 0;
-  opacity: 0.7;
-  z-index: 5;
-  cursor: pointer;
-  pointer-events: auto;
-}
-
+.showcase-slide.left,
 .showcase-slide.right {
-  width: 140px;
   bottom: 0;
   opacity: 0.7;
   z-index: 5;
@@ -5913,7 +5907,9 @@ body {
   max-width: none;
   object-fit: contain;
   filter: drop-shadow(0 8px 20px rgba(0, 0, 0, 0.6));
-  transition: transform 0.4s ease;
+  /* No transform transition here: the float keyframes below animate transform
+     too, and a transition on the same property fights the animation and makes
+     the art visibly stutter. */
 }
 
 .slide-hero-art.active-art {
@@ -5922,18 +5918,31 @@ body {
 
 .slide-hero-art.animate-float {
   animation: floatHero 6s ease-in-out infinite;
+  will-change: transform;
 }
 
 @keyframes floatHero {
-  0%, 100% { transform: translateY(0px) scale(1); }
-  50% { transform: translateY(-6px) scale(1.015); }
+  0%, 100% { transform: translate3d(0, 0, 0) scale(1); }
+  50% { transform: translate3d(0, -6px, 0) scale(1.015); }
+}
+
+/* Respect the OS reduce-motion preference across the showcase */
+@media (prefers-reduced-motion: reduce) {
+  .slide-hero-art.animate-float {
+    animation: none;
+  }
+  .showcase-slide {
+    transition: opacity 0.2s ease;
+  }
 }
 
 /* Glass Card Base */
 .slide-card {
-  background: rgba(12, 18, 35, 0.7);
-  backdrop-filter: blur(24px);
-  -webkit-backdrop-filter: blur(24px);
+  /* Side cards use an opaque fill instead of a live backdrop blur. Blurring
+     three cards while they are being transformed is one of the most expensive
+     things an Android WebView can be asked to do per frame, and at 0.64 scale
+     behind 0.7 opacity the blur is not perceptible anyway. */
+  background: rgb(14, 20, 38);
   border: 1px solid rgba(255, 255, 255, 0.08);
   border-radius: 16px;
   padding: 1rem 0.75rem 0.75rem;
@@ -5947,6 +5956,9 @@ body {
 }
 
 .slide-card.active-card {
+  background: rgba(12, 18, 35, 0.7);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
   border: 1px solid rgba(212, 175, 55, 0.15);
   box-shadow: 0 18px 40px rgba(0, 0, 0, 0.5), 0 0 15px rgba(212, 175, 55, 0.05);
   padding: 1.2rem 1rem 0.8rem;
@@ -7017,13 +7029,17 @@ html {
   scroll-behavior: smooth;
 }
 
-/* 12. GPU Performance Hints — force compositing layers for frequently animated elements */
-.showcase-carousel-wrapper,
-.showcase-carousel-track,
-.slide-hero-art-wrapper,
-.slide-hero-art,
+/* 12. GPU Performance Hints — promote only what actually animates.
+   The carousel wrapper and track never move; the slides and the floating art
+   do. A blanket `will-change: transform` here held a compositor layer open for
+   every hero image on the page at once, which costs real GPU memory on a phone
+   and gives nothing back. `transform: translateZ(0)` on .slide-hero-art was
+   also redundant with the float keyframes that animate the same property. */
 .avatar-selector-track {
-  will-change: transform;
+  will-change: scroll-position;
+}
+
+.slide-hero-art-wrapper {
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
   transform: translateZ(0);
