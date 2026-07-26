@@ -1,5 +1,23 @@
 apply plugin: 'com.android.application'
 
+// Release signing is configured from android/keystore.properties, which is
+// gitignored and must never be committed. Copy keystore.properties.example to
+// keystore.properties and fill it in. When the file is absent (CI, a fresh
+// clone, anyone doing a debug build) the release type simply stays unsigned
+// instead of failing the build.
+def keystorePropertiesFile = rootProject.file("keystore.properties")
+def keystoreProperties = new Properties()
+def hasReleaseSigning = false
+if (keystorePropertiesFile.exists()) {
+    keystorePropertiesFile.withInputStream { keystoreProperties.load(it) }
+    def storePath = keystoreProperties['storeFile']
+    if (storePath && rootProject.file(storePath).exists()) {
+        hasReleaseSigning = true
+    } else {
+        logger.warn("keystore.properties found but storeFile '${storePath}' does not exist — release will be unsigned.")
+    }
+}
+
 android {
     namespace = "com.mythiciq.app"
     compileSdk = rootProject.ext.compileSdkVersion
@@ -7,8 +25,8 @@ android {
         applicationId "com.mythiciq.app"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
-        versionCode 6
-        versionName "2.3"
+        versionCode 8
+        versionName "2.5"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         aaptOptions {
              // Files and dirs to omit from the packaged assets dir, modified to accommodate modern web apps.
@@ -16,8 +34,21 @@ android {
             ignoreAssetsPattern = '!.svn:!.git:!.ds_store:!*.scc:.*:!CVS:!thumbs.db:!picasa.ini:!*~'
         }
     }
+    signingConfigs {
+        if (hasReleaseSigning) {
+            release {
+                storeFile rootProject.file(keystoreProperties['storeFile'])
+                storePassword keystoreProperties['storePassword']
+                keyAlias keystoreProperties['keyAlias']
+                keyPassword keystoreProperties['keyPassword']
+            }
+        }
+    }
     buildTypes {
         release {
+            if (hasReleaseSigning) {
+                signingConfig signingConfigs.release
+            }
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }

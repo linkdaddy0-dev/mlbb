@@ -25,3 +25,11 @@ scripts/crawler_profile/
 .vscode/
 .DS_Store
 Thumbs.db
+
+# Release signing — the keystore and its credentials must never be committed.
+# Copy android/keystore.properties.example to android/keystore.properties and
+# fill it in locally.
+*.jks
+*.keystore
+android/keystore.properties
+android/local.properties
