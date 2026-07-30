@@ -188,12 +188,6 @@
     ],
     "synergy": [
       {
-        "id": 33,
-        "name": "Cyclops",
-        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Cyclops.",
-        "score": 1.34
-      },
-      {
         "id": 16,
         "name": "Zilong",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Zilong.",
@@ -454,12 +448,6 @@
         "score": 1.85
       },
       {
-        "id": 78,
-        "name": "Khufra",
-        "reason": "Excels against Khufra in early game lane trades and isolates them effectively in teamfights.",
-        "score": 1.82
-      },
-      {
         "id": 39,
         "name": "Roger",
         "reason": "Excels against Roger in early game lane trades and isolates them effectively in teamfights.",
@@ -476,6 +464,12 @@
         "name": "Eudora",
         "reason": "Excels against Eudora in early game lane trades and isolates them effectively in teamfights.",
         "score": 1.6
+      },
+      {
+        "id": 104,
+        "name": "Gloo",
+        "reason": "Excels against Gloo in early game lane trades and isolates them effectively in teamfights.",
+        "score": 1.58
       }
     ],
     "weak_against": [
@@ -1438,12 +1432,6 @@
         "score": 2.54
       },
       {
-        "id": 33,
-        "name": "Cyclops",
-        "reason": "Excels against Cyclops in early game lane trades and isolates them effectively in teamfights.",
-        "score": 2.22
-      },
-      {
         "id": 8,
         "name": "Karina",
         "reason": "Excels against Karina in early game lane trades and isolates them effectively in teamfights.",
@@ -1466,6 +1454,12 @@
         "name": "Popol and Kupa",
         "reason": "Excels against Popol and Kupa in early game lane trades and isolates them effectively in teamfights.",
         "score": 1.91
+      },
+      {
+        "id": 114,
+        "name": "Melissa",
+        "reason": "Excels against Melissa in early game lane trades and isolates them effectively in teamfights.",
+        "score": 1.81
       }
     ],
     "weak_against": [
@@ -1682,10 +1676,10 @@
         "score": 2.53
       },
       {
-        "id": 33,
-        "name": "Cyclops",
-        "reason": "Excels against Cyclops in early game lane trades and isolates them effectively in teamfights.",
-        "score": 2.24
+        "id": 87,
+        "name": "Baxia",
+        "reason": "Excels against Baxia in early game lane trades and isolates them effectively in teamfights.",
+        "score": 1.97
       }
     ],
     "weak_against": [
@@ -1988,12 +1982,6 @@
         "score": 3.15
       },
       {
-        "id": 78,
-        "name": "Khufra",
-        "reason": "Excels against Khufra in early game lane trades and isolates them effectively in teamfights.",
-        "score": 2.3
-      },
-      {
         "id": 88,
         "name": "Masha",
         "reason": "Excels against Masha in early game lane trades and isolates them effectively in teamfights.",
@@ -2016,6 +2004,12 @@
         "name": "Saber",
         "reason": "Excels against Saber in early game lane trades and isolates them effectively in teamfights.",
         "score": 1.82
+      },
+      {
+        "id": 133,
+        "name": "Hirara",
+        "reason": "Excels against Hirara in early game lane trades and isolates them effectively in teamfights.",
+        "score": 1.8
       }
     ],
     "weak_against": [
@@ -2104,12 +2098,6 @@
         "score": 3.13
       },
       {
-        "id": 33,
-        "name": "Cyclops",
-        "reason": "Excels against Cyclops in early game lane trades and isolates them effectively in teamfights.",
-        "score": 2.48
-      },
-      {
         "id": 106,
         "name": "Phoveus",
         "reason": "Excels against Phoveus in early game lane trades and isolates them effectively in teamfights.",
@@ -2126,6 +2114,12 @@
         "name": "Layla",
         "reason": "Excels against Layla in early game lane trades and isolates them effectively in teamfights.",
         "score": 1.97
+      },
+      {
+        "id": 114,
+        "name": "Melissa",
+        "reason": "Excels against Melissa in early game lane trades and isolates them effectively in teamfights.",
+        "score": 1.93
       }
     ],
     "weak_against": [
@@ -3150,10 +3144,10 @@
         "score": 2.28
       },
       {
-        "id": 33,
-        "name": "Cyclops",
-        "reason": "Highly vulnerable to Cyclops's gap closers, target locks, and early game burst potential.",
-        "score": 2.09
+        "id": 54,
+        "name": "Jawhead",
+        "reason": "Highly vulnerable to Jawhead's gap closers, target locks, and early game burst potential.",
+        "score": 1.99
       }
     ],
     "synergy": [
@@ -3584,16 +3578,16 @@
         "score": 1.45
       },
       {
-        "id": 78,
-        "name": "Khufra",
-        "reason": "Highly vulnerable to Khufra's gap closers, target locks, and early game burst potential.",
-        "score": 1.25
+        "id": 49,
+        "name": "Hylos",
+        "reason": "Highly vulnerable to Hylos's gap closers, target locks, and early game burst potential.",
+        "score": 1.17
       },
       {
-        "id": 33,
-        "name": "Cyclops",
-        "reason": "Highly vulnerable to Cyclops's gap closers, target locks, and early game burst potential.",
-        "score": 1.2
+        "id": 117,
+        "name": "Fredrinn",
+        "reason": "Highly vulnerable to Fredrinn's gap closers, target locks, and early game burst potential.",
+        "score": 1.16
       }
     ],
     "synergy": [
@@ -3748,12 +3742,6 @@
         "score": 3.94
       },
       {
-        "id": 33,
-        "name": "Cyclops",
-        "reason": "Excels against Cyclops in early game lane trades and isolates them effectively in teamfights.",
-        "score": 3.25
-      },
-      {
         "id": 114,
         "name": "Melissa",
         "reason": "Excels against Melissa in early game lane trades and isolates them effectively in teamfights.",
@@ -3775,6 +3763,12 @@
         "id": 100,
         "name": "Brody",
         "reason": "Excels against Brody in early game lane trades and isolates them effectively in teamfights.",
+        "score": 2.44
+      },
+      {
+        "id": 46,
+        "name": "Odette",
+        "reason": "Excels against Odette in early game lane trades and isolates them effectively in teamfights.",
         "score": 2.44
       }
     ],
@@ -3864,12 +3858,6 @@
         "score": 2.33
       },
       {
-        "id": 78,
-        "name": "Khufra",
-        "reason": "Excels against Khufra in early game lane trades and isolates them effectively in teamfights.",
-        "score": 2.05
-      },
-      {
         "id": 4,
         "name": "Alice",
         "reason": "Excels against Alice in early game lane trades and isolates them effectively in teamfights.",
@@ -3886,6 +3874,12 @@
         "name": "Martis",
         "reason": "Excels against Martis in early game lane trades and isolates them effectively in teamfights.",
         "score": 1.65
+      },
+      {
+        "id": 22,
+        "name": "Freya",
+        "reason": "Excels against Freya in early game lane trades and isolates them effectively in teamfights.",
+        "score": 1.41
       }
     ],
     "weak_against": [
@@ -3962,12 +3956,6 @@
   "17": {
     "strong_against": [
       {
-        "id": 78,
-        "name": "Khufra",
-        "reason": "Excels against Khufra in early game lane trades and isolates them effectively in teamfights.",
-        "score": 5.9
-      },
-      {
         "id": 72,
         "name": "Thamuz",
         "reason": "Excels against Thamuz in early game lane trades and isolates them effectively in teamfights.",
@@ -3996,15 +3984,15 @@
         "name": "Saber",
         "reason": "Excels against Saber in early game lane trades and isolates them effectively in teamfights.",
         "score": 3.5
+      },
+      {
+        "id": 31,
+        "name": "Moskov",
+        "reason": "Excels against Moskov in early game lane trades and isolates them effectively in teamfights.",
+        "score": 3.16
       }
     ],
     "weak_against": [
-      {
-        "id": 78,
-        "name": "Khufra",
-        "reason": "Fanny is countered by heroes that can restrict mobility, such as Kaja and Khufra, since they can easily shutdown her main advantage.",
-        "score": -5.9
-      },
       {
         "id": 72,
         "name": "Thamuz",
@@ -4034,6 +4022,12 @@
         "name": "Saber",
         "reason": "Highly vulnerable to Saber's gap closers, target locks, and early game burst potential.",
         "score": -3.5
+      },
+      {
+        "id": 104,
+        "name": "Gloo",
+        "reason": "Highly vulnerable to Gloo's gap closers, target locks, and early game burst potential.",
+        "score": 3.6
       }
     ],
     "synergy": [
@@ -4060,12 +4054,6 @@
         "name": "Miya",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Miya.",
         "score": 1.56
-      },
-      {
-        "id": 78,
-        "name": "Khufra",
-        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Khufra.",
-        "score": 1.43
       }
     ]
   },
@@ -4116,12 +4104,6 @@
         "score": 1.77
       },
       {
-        "id": 78,
-        "name": "Khufra",
-        "reason": "Highly vulnerable to Khufra's gap closers, target locks, and early game burst potential.",
-        "score": 1.61
-      },
-      {
         "id": 72,
         "name": "Thamuz",
         "reason": "Highly vulnerable to Thamuz's gap closers, target locks, and early game burst potential.",
@@ -4144,6 +4126,12 @@
         "name": "Nana",
         "reason": "Highly vulnerable to Nana's gap closers, target locks, and early game burst potential.",
         "score": 1.35
+      },
+      {
+        "id": 113,
+        "name": "Yin",
+        "reason": "Highly vulnerable to Yin's gap closers, target locks, and early game burst potential.",
+        "score": 1.32
       }
     ],
     "synergy": [
@@ -4782,28 +4770,28 @@
         "score": 2.39
       },
       {
-        "id": 78,
-        "name": "Khufra",
-        "reason": "Highly vulnerable to Khufra's gap closers, target locks, and early game burst potential.",
-        "score": 2.36
-      },
-      {
         "id": 107,
         "name": "Natan",
         "reason": "Highly vulnerable to Natan's gap closers, target locks, and early game burst potential.",
         "score": 2.33
       },
       {
-        "id": 29,
-        "name": "Ruby",
-        "reason": "Arlott is countered by tanky Fighters that can withstand lots of damage, like Thamuz and Fredrinn, because he lacks the burst to take them out quickly and will lose in a prolonged battle.",
-        "score": 1.93
-      },
-      {
         "id": 84,
         "name": "Ling",
         "reason": "Highly vulnerable to Ling's gap closers, target locks, and early game burst potential.",
         "score": 1.87
+      },
+      {
+        "id": 122,
+        "name": "Nolan",
+        "reason": "Highly vulnerable to Nolan's gap closers, target locks, and early game burst potential.",
+        "score": 1.79
+      },
+      {
+        "id": 81,
+        "name": "Esmeralda",
+        "reason": "Highly vulnerable to Esmeralda's gap closers, target locks, and early game burst potential.",
+        "score": 1.79
       }
     ],
     "synergy": [
@@ -4886,18 +4874,6 @@
         "score": 3.68
       },
       {
-        "id": 33,
-        "name": "Cyclops",
-        "reason": "Highly vulnerable to Cyclops's gap closers, target locks, and early game burst potential.",
-        "score": 2.66
-      },
-      {
-        "id": 78,
-        "name": "Khufra",
-        "reason": "Highly vulnerable to Khufra's gap closers, target locks, and early game burst potential.",
-        "score": 2.46
-      },
-      {
         "id": 32,
         "name": "Johnson",
         "reason": "Highly vulnerable to Johnson's gap closers, target locks, and early game burst potential.",
@@ -4914,6 +4890,18 @@
         "name": "Lesley",
         "reason": "Minotaur is countered by long-range Marksmen like Layla and Lesley since his lack of speed makes him an easy target.",
         "score": 1.97
+      },
+      {
+        "id": 88,
+        "name": "Masha",
+        "reason": "Highly vulnerable to Masha's gap closers, target locks, and early game burst potential.",
+        "score": 1.95
+      },
+      {
+        "id": 8,
+        "name": "Karina",
+        "reason": "Highly vulnerable to Karina's gap closers, target locks, and early game burst potential.",
+        "score": 1.84
       }
     ],
     "synergy": [
@@ -4982,10 +4970,10 @@
         "score": 2.18
       },
       {
-        "id": 33,
-        "name": "Cyclops",
-        "reason": "Excels against Cyclops in early game lane trades and isolates them effectively in teamfights.",
-        "score": 2.07
+        "id": 8,
+        "name": "Karina",
+        "reason": "Excels against Karina in early game lane trades and isolates them effectively in teamfights.",
+        "score": 1.96
       }
     ],
     "weak_against": [
@@ -5380,12 +5368,6 @@
         "name": "Chang'e",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Chang'e.",
         "score": 1.83
-      },
-      {
-        "id": 33,
-        "name": "Cyclops",
-        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Cyclops.",
-        "score": 1.81
       }
     ]
   },
@@ -5526,16 +5508,16 @@
         "score": 3.5
       },
       {
-        "id": 33,
-        "name": "Cyclops",
-        "reason": "Excels against Cyclops in early game lane trades and isolates them effectively in teamfights.",
-        "score": 2.5
-      },
-      {
         "id": 28,
         "name": "Alpha",
         "reason": "Moskov's 1st Skill provides a blink effect, making him a threat to fighters with poor mobility like Thamuz and Balmond.",
         "score": 2.18
+      },
+      {
+        "id": 85,
+        "name": "Dyrroth",
+        "reason": "Moskov's 1st Skill provides a blink effect, making him a threat to fighters with poor mobility like Thamuz and Balmond.",
+        "score": 2.0
       }
     ],
     "weak_against": [
@@ -5680,10 +5662,10 @@
         "score": 2.58
       },
       {
-        "id": 33,
-        "name": "Cyclops",
-        "reason": "Highly vulnerable to Cyclops's gap closers, target locks, and early game burst potential.",
-        "score": 2.39
+        "id": 19,
+        "name": "Minotaur",
+        "reason": "Highly vulnerable to Minotaur's gap closers, target locks, and early game burst potential.",
+        "score": 2.29
       }
     ],
     "synergy": [
@@ -6140,12 +6122,6 @@
         "score": 1.03
       },
       {
-        "id": 78,
-        "name": "Khufra",
-        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Khufra.",
-        "score": 0.95
-      },
-      {
         "id": 104,
         "name": "Gloo",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Gloo.",
@@ -6256,12 +6232,6 @@
         "score": 1.56
       },
       {
-        "id": 78,
-        "name": "Khufra",
-        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Khufra.",
-        "score": 1.27
-      },
-      {
         "id": 73,
         "name": "Harith",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Harith.",
@@ -6276,12 +6246,6 @@
         "name": "Thamuz",
         "reason": "Excels against Thamuz in early game lane trades and isolates them effectively in teamfights.",
         "score": 5.8
-      },
-      {
-        "id": 78,
-        "name": "Khufra",
-        "reason": "Excels against Khufra in early game lane trades and isolates them effectively in teamfights.",
-        "score": 4.5
       },
       {
         "id": 127,
@@ -6306,6 +6270,12 @@
         "name": "Masha",
         "reason": "Excels against Masha in early game lane trades and isolates them effectively in teamfights.",
         "score": 3.38
+      },
+      {
+        "id": 114,
+        "name": "Melissa",
+        "reason": "Excels against Melissa in early game lane trades and isolates them effectively in teamfights.",
+        "score": 3.31
       }
     ],
     "weak_against": [
@@ -6314,12 +6284,6 @@
         "name": "Thamuz",
         "reason": "Highly vulnerable to Thamuz's gap closers, target locks, and early game burst potential.",
         "score": -5.8
-      },
-      {
-        "id": 78,
-        "name": "Khufra",
-        "reason": "Highly vulnerable to Khufra's gap closers, target locks, and early game burst potential.",
-        "score": -4.5
       },
       {
         "id": 24,
@@ -6344,6 +6308,12 @@
         "name": "Hanzo",
         "reason": "Highly vulnerable to Hanzo's gap closers, target locks, and early game burst potential.",
         "score": 3.98
+      },
+      {
+        "id": 83,
+        "name": "X.Borg",
+        "reason": "Highly vulnerable to X.Borg's gap closers, target locks, and early game burst potential.",
+        "score": 3.97
       }
     ],
     "synergy": [
@@ -6400,12 +6370,6 @@
         "score": 2.73
       },
       {
-        "id": 78,
-        "name": "Khufra",
-        "reason": "Excels against Khufra in early game lane trades and isolates them effectively in teamfights.",
-        "score": 2.66
-      },
-      {
         "id": 9,
         "name": "Akai",
         "reason": "Excels against Akai in early game lane trades and isolates them effectively in teamfights.",
@@ -6416,6 +6380,12 @@
         "name": "Thamuz",
         "reason": "Excels against Thamuz in early game lane trades and isolates them effectively in teamfights.",
         "score": 2.37
+      },
+      {
+        "id": 74,
+        "name": "Minsitthar",
+        "reason": "Excels against Minsitthar in early game lane trades and isolates them effectively in teamfights.",
+        "score": 2.25
       }
     ],
     "weak_against": [
@@ -6632,10 +6602,10 @@
         "score": 2.1
       },
       {
-        "id": 78,
-        "name": "Khufra",
-        "reason": "Excels against Khufra in early game lane trades and isolates them effectively in teamfights.",
-        "score": 1.91
+        "id": 74,
+        "name": "Minsitthar",
+        "reason": "Excels against Minsitthar in early game lane trades and isolates them effectively in teamfights.",
+        "score": 1.74
       }
     ],
     "weak_against": [
@@ -6792,12 +6762,6 @@
         "name": "Marcel",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Marcel.",
         "score": 4.13
-      },
-      {
-        "id": 78,
-        "name": "Khufra",
-        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Khufra.",
-        "score": 3.25
       },
       {
         "id": 19,
@@ -6988,12 +6952,6 @@
         "score": 3.64
       },
       {
-        "id": 78,
-        "name": "Khufra",
-        "reason": "Highly vulnerable to Khufra's gap closers, target locks, and early game burst potential.",
-        "score": 3.39
-      },
-      {
         "id": 94,
         "name": "Popol and Kupa",
         "reason": "Highly vulnerable to Popol and Kupa's gap closers, target locks, and early game burst potential.",
@@ -7004,6 +6962,12 @@
         "name": "Akai",
         "reason": "Highly vulnerable to Akai's gap closers, target locks, and early game burst potential.",
         "score": 3.27
+      },
+      {
+        "id": 32,
+        "name": "Johnson",
+        "reason": "Highly vulnerable to Johnson's gap closers, target locks, and early game burst potential.",
+        "score": 3.25
       }
     ],
     "synergy": [
@@ -7036,116 +7000,6 @@
         "name": "Helcurt",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Helcurt.",
         "score": 1.43
-      }
-    ]
-  },
-  "78": {
-    "strong_against": [
-      {
-        "id": 4,
-        "name": "Alice",
-        "reason": "Excels against Alice in early game lane trades and isolates them effectively in teamfights.",
-        "score": 3.39
-      },
-      {
-        "id": 132,
-        "name": "Marcel",
-        "reason": "Excels against Marcel in early game lane trades and isolates them effectively in teamfights.",
-        "score": 3.21
-      },
-      {
-        "id": 125,
-        "name": "Zhuxin",
-        "reason": "Excels against Zhuxin in early game lane trades and isolates them effectively in teamfights.",
-        "score": 2.69
-      },
-      {
-        "id": 19,
-        "name": "Minotaur",
-        "reason": "Excels against Minotaur in early game lane trades and isolates them effectively in teamfights.",
-        "score": 2.46
-      },
-      {
-        "id": 120,
-        "name": "Arlott",
-        "reason": "Excels against Arlott in early game lane trades and isolates them effectively in teamfights.",
-        "score": 2.36
-      },
-      {
-        "id": 99,
-        "name": "Barats",
-        "reason": "Excels against Barats in early game lane trades and isolates them effectively in teamfights.",
-        "score": 2.27
-      }
-    ],
-    "weak_against": [
-      {
-        "id": 105,
-        "name": "Beatrix",
-        "reason": "Highly vulnerable to Beatrix's gap closers, target locks, and early game burst potential.",
-        "score": 2.72
-      },
-      {
-        "id": 89,
-        "name": "Wanwan",
-        "reason": "Highly vulnerable to Wanwan's gap closers, target locks, and early game burst potential.",
-        "score": 2.68
-      },
-      {
-        "id": 7,
-        "name": "Alucard",
-        "reason": "Highly vulnerable to Alucard's gap closers, target locks, and early game burst potential.",
-        "score": 2.66
-      },
-      {
-        "id": 90,
-        "name": "Silvanna",
-        "reason": "Highly vulnerable to Silvanna's gap closers, target locks, and early game burst potential.",
-        "score": 2.48
-      },
-      {
-        "id": 24,
-        "name": "Natalia",
-        "reason": "Highly vulnerable to Natalia's gap closers, target locks, and early game burst potential.",
-        "score": 2.47
-      },
-      {
-        "id": 80,
-        "name": "Guinevere",
-        "reason": "Highly vulnerable to Guinevere's gap closers, target locks, and early game burst potential.",
-        "score": 2.33
-      }
-    ],
-    "synergy": [
-      {
-        "id": 3,
-        "name": "Saber",
-        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Saber.",
-        "score": 3.25
-      },
-      {
-        "id": 24,
-        "name": "Natalia",
-        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Natalia.",
-        "score": 3.09
-      },
-      {
-        "id": 51,
-        "name": "Helcurt",
-        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Helcurt.",
-        "score": 1.6
-      },
-      {
-        "id": 14,
-        "name": "Rafaela",
-        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Rafaela.",
-        "score": 1.59
-      },
-      {
-        "id": 85,
-        "name": "Dyrroth",
-        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Dyrroth.",
-        "score": 1.55
       }
     ]
   },
@@ -7538,12 +7392,6 @@
         "score": 2.72
       },
       {
-        "id": 78,
-        "name": "Khufra",
-        "reason": "Highly vulnerable to Khufra's gap closers, target locks, and early game burst potential.",
-        "score": 2.69
-      },
-      {
         "id": 32,
         "name": "Johnson",
         "reason": "Highly vulnerable to Johnson's gap closers, target locks, and early game burst potential.",
@@ -7554,6 +7402,12 @@
         "name": "Leomord",
         "reason": "Highly vulnerable to Leomord's gap closers, target locks, and early game burst potential.",
         "score": 2.31
+      },
+      {
+        "id": 24,
+        "name": "Natalia",
+        "reason": "Highly vulnerable to Natalia's gap closers, target locks, and early game burst potential.",
+        "score": 2.12
       }
     ],
     "synergy": [
@@ -7746,12 +7600,6 @@
         "score": 4.22
       },
       {
-        "id": 33,
-        "name": "Cyclops",
-        "reason": "Highly vulnerable to Cyclops's gap closers, target locks, and early game burst potential.",
-        "score": 4.17
-      },
-      {
         "id": 76,
         "name": "Faramis",
         "reason": "Highly vulnerable to Faramis's gap closers, target locks, and early game burst potential.",
@@ -7774,6 +7622,12 @@
         "name": "Cici",
         "reason": "Highly vulnerable to Cici's gap closers, target locks, and early game burst potential.",
         "score": 3.21
+      },
+      {
+        "id": 88,
+        "name": "Masha",
+        "reason": "Highly vulnerable to Masha's gap closers, target locks, and early game burst potential.",
+        "score": 3.06
       }
     ],
     "synergy": [
@@ -8112,12 +7966,6 @@
         "name": "Thamuz",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Thamuz.",
         "score": 1.42
-      },
-      {
-        "id": 33,
-        "name": "Cyclops",
-        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Cyclops.",
-        "score": 1.22
       },
       {
         "id": 3,
@@ -8460,12 +8308,6 @@
         "name": "Selena",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Selena.",
         "score": 1.42
-      },
-      {
-        "id": 33,
-        "name": "Cyclops",
-        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Cyclops.",
-        "score": 1.25
       }
     ]
   },
@@ -8612,10 +8454,10 @@
         "score": 2.18
       },
       {
-        "id": 78,
-        "name": "Khufra",
-        "reason": "Excels against Khufra in early game lane trades and isolates them effectively in teamfights.",
-        "score": 2.15
+        "id": 20,
+        "name": "Lolita",
+        "reason": "Excels against Lolita in early game lane trades and isolates them effectively in teamfights.",
+        "score": 1.85
       }
     ],
     "weak_against": [
@@ -8680,12 +8522,6 @@
         "name": "Floryn",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Floryn.",
         "score": 1.09
-      },
-      {
-        "id": 33,
-        "name": "Cyclops",
-        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Cyclops.",
-        "score": 0.92
       }
     ]
   },
@@ -8730,12 +8566,6 @@
     ],
     "weak_against": [
       {
-        "id": 78,
-        "name": "Khufra",
-        "reason": "Highly vulnerable to Khufra's gap closers, target locks, and early game burst potential.",
-        "score": 2.18
-      },
-      {
         "id": 127,
         "name": "Lukas",
         "reason": "Martis is countered by Fighters with high combat sustainability, such as Thamuz and Fredrinn, because they can survive Martis' burst damage and defeat him in prolonged battles.",
@@ -8764,6 +8594,12 @@
         "name": "Melissa",
         "reason": "Highly vulnerable to Melissa's gap closers, target locks, and early game burst potential.",
         "score": 1.73
+      },
+      {
+        "id": 88,
+        "name": "Masha",
+        "reason": "Martis is countered by Fighters with high combat sustainability, such as Thamuz and Fredrinn, because they can survive Martis' burst damage and defeat him in prolonged battles.",
+        "score": 1.68
       }
     ],
     "synergy": [
@@ -8870,10 +8706,10 @@
         "score": 3.17
       },
       {
-        "id": 29,
-        "name": "Ruby",
-        "reason": "Highly vulnerable to Ruby's gap closers, target locks, and early game burst potential.",
-        "score": 3.1
+        "id": 45,
+        "name": "Argus",
+        "reason": "Highly vulnerable to Argus's gap closers, target locks, and early game burst potential.",
+        "score": 2.92
       }
     ],
     "synergy": [
@@ -8936,16 +8772,16 @@
         "score": 2.69
       },
       {
-        "id": 78,
-        "name": "Khufra",
-        "reason": "Excels against Khufra in early game lane trades and isolates them effectively in teamfights.",
-        "score": 2.48
-      },
-      {
         "id": 93,
         "name": "Atlas",
         "reason": "Excels against Atlas in early game lane trades and isolates them effectively in teamfights.",
         "score": 2.27
+      },
+      {
+        "id": 37,
+        "name": "Lapu-Lapu",
+        "reason": "Excels against Lapu-Lapu in early game lane trades and isolates them effectively in teamfights.",
+        "score": 2.26
       }
     ],
     "weak_against": [
@@ -9446,12 +9282,6 @@
         "score": 1.07
       },
       {
-        "id": 33,
-        "name": "Cyclops",
-        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Cyclops.",
-        "score": 1.06
-      },
-      {
         "id": 27,
         "name": "Sun",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Sun.",
@@ -9666,12 +9496,6 @@
         "score": 1.99
       },
       {
-        "id": 29,
-        "name": "Ruby",
-        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Ruby.",
-        "score": 1.98
-      },
-      {
         "id": 4,
         "name": "Alice",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Alice.",
@@ -9789,116 +9613,6 @@
       }
     ]
   },
-  "33": {
-    "strong_against": [
-      {
-        "id": 20,
-        "name": "Lolita",
-        "reason": "Excels against Lolita in early game lane trades and isolates them effectively in teamfights.",
-        "score": 9.42
-      },
-      {
-        "id": 34,
-        "name": "Estes",
-        "reason": "Excels against Estes in early game lane trades and isolates them effectively in teamfights.",
-        "score": 4.17
-      },
-      {
-        "id": 93,
-        "name": "Atlas",
-        "reason": "Excels against Atlas in early game lane trades and isolates them effectively in teamfights.",
-        "score": 2.75
-      },
-      {
-        "id": 19,
-        "name": "Minotaur",
-        "reason": "Excels against Minotaur in early game lane trades and isolates them effectively in teamfights.",
-        "score": 2.66
-      },
-      {
-        "id": 121,
-        "name": "Ixia",
-        "reason": "Excels against Ixia in early game lane trades and isolates them effectively in teamfights.",
-        "score": 2.39
-      },
-      {
-        "id": 94,
-        "name": "Popol and Kupa",
-        "reason": "Excels against Popol and Kupa in early game lane trades and isolates them effectively in teamfights.",
-        "score": 2.09
-      }
-    ],
-    "weak_against": [
-      {
-        "id": 24,
-        "name": "Natalia",
-        "reason": "Highly vulnerable to Natalia's gap closers, target locks, and early game burst potential.",
-        "score": 4.99
-      },
-      {
-        "id": 132,
-        "name": "Marcel",
-        "reason": "Highly vulnerable to Marcel's gap closers, target locks, and early game burst potential.",
-        "score": 3.72
-      },
-      {
-        "id": 89,
-        "name": "Wanwan",
-        "reason": "Highly vulnerable to Wanwan's gap closers, target locks, and early game burst potential.",
-        "score": 3.5
-      },
-      {
-        "id": 118,
-        "name": "Joy",
-        "reason": "Highly vulnerable to Joy's gap closers, target locks, and early game burst potential.",
-        "score": 3.25
-      },
-      {
-        "id": 84,
-        "name": "Ling",
-        "reason": "Highly vulnerable to Ling's gap closers, target locks, and early game burst potential.",
-        "score": 2.77
-      },
-      {
-        "id": 31,
-        "name": "Moskov",
-        "reason": "Highly vulnerable to Moskov's gap closers, target locks, and early game burst potential.",
-        "score": 2.5
-      }
-    ],
-    "synergy": [
-      {
-        "id": 42,
-        "name": "Harley",
-        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Harley.",
-        "score": 1.81
-      },
-      {
-        "id": 121,
-        "name": "Ixia",
-        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Ixia.",
-        "score": 1.66
-      },
-      {
-        "id": 9,
-        "name": "Akai",
-        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Akai.",
-        "score": 1.63
-      },
-      {
-        "id": 132,
-        "name": "Marcel",
-        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Marcel.",
-        "score": 1.61
-      },
-      {
-        "id": 25,
-        "name": "Kagura",
-        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Kagura.",
-        "score": 1.46
-      }
-    ]
-  },
   "26": {
     "strong_against": [
       {
@@ -9908,22 +9622,10 @@
         "score": 2.46
       },
       {
-        "id": 33,
-        "name": "Cyclops",
-        "reason": "Excels against Cyclops in early game lane trades and isolates them effectively in teamfights.",
-        "score": 2.17
-      },
-      {
         "id": 81,
         "name": "Esmeralda",
         "reason": "Excels against Esmeralda in early game lane trades and isolates them effectively in teamfights.",
         "score": 2.13
-      },
-      {
-        "id": 78,
-        "name": "Khufra",
-        "reason": "Excels against Khufra in early game lane trades and isolates them effectively in teamfights.",
-        "score": 1.69
       },
       {
         "id": 27,
@@ -9936,6 +9638,18 @@
         "name": "Lukas",
         "reason": "Chou counters slower Fighters like Terizla and Alpha that have a hard time dealing with his quick hit and run tactics.",
         "score": 1.42
+      },
+      {
+        "id": 94,
+        "name": "Popol and Kupa",
+        "reason": "Excels against Popol and Kupa in early game lane trades and isolates them effectively in teamfights.",
+        "score": 1.41
+      },
+      {
+        "id": 130,
+        "name": "Obsidia",
+        "reason": "Excels against Obsidia in early game lane trades and isolates them effectively in teamfights.",
+        "score": 1.33
       }
     ],
     "weak_against": [
@@ -10094,12 +9808,6 @@
         "score": 3.1
       },
       {
-        "id": 33,
-        "name": "Cyclops",
-        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Cyclops.",
-        "score": 1.46
-      },
-      {
         "id": 110,
         "name": "Valentina",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Valentina.",
@@ -10244,12 +9952,6 @@
         "score": 2.35
       },
       {
-        "id": 29,
-        "name": "Ruby",
-        "reason": "Excels against Ruby in early game lane trades and isolates them effectively in teamfights.",
-        "score": 2.2
-      },
-      {
         "id": 114,
         "name": "Melissa",
         "reason": "Excels against Melissa in early game lane trades and isolates them effectively in teamfights.",
@@ -10266,6 +9968,12 @@
         "name": "Guinevere",
         "reason": "Excels against Guinevere in early game lane trades and isolates them effectively in teamfights.",
         "score": 1.95
+      },
+      {
+        "id": 34,
+        "name": "Estes",
+        "reason": "Excels against Estes in early game lane trades and isolates them effectively in teamfights.",
+        "score": 1.9
       }
     ],
     "weak_against": [
@@ -10806,16 +10514,16 @@
         "score": 4.2
       },
       {
-        "id": 29,
-        "name": "Ruby",
-        "reason": "Excels against Ruby in early game lane trades and isolates them effectively in teamfights.",
-        "score": 4.15
-      },
-      {
         "id": 7,
         "name": "Alucard",
         "reason": "Excels against Alucard in early game lane trades and isolates them effectively in teamfights.",
         "score": 3.59
+      },
+      {
+        "id": 108,
+        "name": "Aulus",
+        "reason": "Excels against Aulus in early game lane trades and isolates them effectively in teamfights.",
+        "score": 3.06
       }
     ],
     "weak_against": [
@@ -11162,12 +10870,6 @@
         "score": 2.24
       },
       {
-        "id": 78,
-        "name": "Khufra",
-        "reason": "Highly vulnerable to Khufra's gap closers, target locks, and early game burst potential.",
-        "score": 2.2
-      },
-      {
         "id": 46,
         "name": "Odette",
         "reason": "Bane is countered by Mages that deal heavy damage from afar, such as Vale and Xavier who can deal significant damage to him before he can get in range.",
@@ -11184,6 +10886,12 @@
         "name": "Belerick",
         "reason": "Highly vulnerable to Belerick's gap closers, target locks, and early game burst potential.",
         "score": 1.61
+      },
+      {
+        "id": 17,
+        "name": "Fanny",
+        "reason": "Highly vulnerable to Fanny's gap closers, target locks, and early game burst potential.",
+        "score": 1.57
       }
     ],
     "synergy": [
@@ -11442,12 +11150,6 @@
   "24": {
     "strong_against": [
       {
-        "id": 33,
-        "name": "Cyclops",
-        "reason": "Excels against Cyclops in early game lane trades and isolates them effectively in teamfights.",
-        "score": 4.99
-      },
-      {
         "id": 8,
         "name": "Karina",
         "reason": "Excels against Karina in early game lane trades and isolates them effectively in teamfights.",
@@ -11476,6 +11178,12 @@
         "name": "Brody",
         "reason": "Excels against Brody in early game lane trades and isolates them effectively in teamfights.",
         "score": 3.49
+      },
+      {
+        "id": 103,
+        "name": "Paquito",
+        "reason": "Excels against Paquito in early game lane trades and isolates them effectively in teamfights.",
+        "score": 3.19
       }
     ],
     "weak_against": [
@@ -11522,12 +11230,6 @@
         "name": "Akai",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Akai.",
         "score": 3.42
-      },
-      {
-        "id": 78,
-        "name": "Khufra",
-        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Khufra.",
-        "score": 3.09
       },
       {
         "id": 49,
@@ -11659,116 +11361,6 @@
       }
     ]
   },
-  "29": {
-    "strong_against": [
-      {
-        "id": 83,
-        "name": "X.Borg",
-        "reason": "Ruby is strong against Fighter heroes with high burst damage. She can easily survive their burst with her excellent Regen and Lifesteal abilities. Such as Aldous and Guinevere.",
-        "score": 3.29
-      },
-      {
-        "id": 106,
-        "name": "Phoveus",
-        "reason": "Ruby is strong against Fighter heroes with high burst damage. She can easily survive their burst with her excellent Regen and Lifesteal abilities. Such as Aldous and Guinevere.",
-        "score": 3.1
-      },
-      {
-        "id": 23,
-        "name": "Gord",
-        "reason": "Excels against Gord in early game lane trades and isolates them effectively in teamfights.",
-        "score": 2.07
-      },
-      {
-        "id": 20,
-        "name": "Lolita",
-        "reason": "Excels against Lolita in early game lane trades and isolates them effectively in teamfights.",
-        "score": 2.03
-      },
-      {
-        "id": 120,
-        "name": "Arlott",
-        "reason": "Ruby is strong against Fighter heroes with high burst damage. She can easily survive their burst with her excellent Regen and Lifesteal abilities. Such as Aldous and Guinevere.",
-        "score": 1.93
-      },
-      {
-        "id": 2,
-        "name": "Balmond",
-        "reason": "Ruby is strong against Fighter heroes with high burst damage. She can easily survive their burst with her excellent Regen and Lifesteal abilities. Such as Aldous and Guinevere.",
-        "score": 1.82
-      }
-    ],
-    "weak_against": [
-      {
-        "id": 27,
-        "name": "Sun",
-        "reason": "Highly vulnerable to Sun's gap closers, target locks, and early game burst potential.",
-        "score": 4.15
-      },
-      {
-        "id": 104,
-        "name": "Gloo",
-        "reason": "Highly vulnerable to Gloo's gap closers, target locks, and early game burst potential.",
-        "score": 3.6
-      },
-      {
-        "id": 45,
-        "name": "Argus",
-        "reason": "Highly vulnerable to Argus's gap closers, target locks, and early game burst potential.",
-        "score": 2.89
-      },
-      {
-        "id": 88,
-        "name": "Masha",
-        "reason": "Highly vulnerable to Masha's gap closers, target locks, and early game burst potential.",
-        "score": 2.3
-      },
-      {
-        "id": 68,
-        "name": "Lunox",
-        "reason": "Highly vulnerable to Lunox's gap closers, target locks, and early game burst potential.",
-        "score": 2.2
-      },
-      {
-        "id": 8,
-        "name": "Karina",
-        "reason": "Highly vulnerable to Karina's gap closers, target locks, and early game burst potential.",
-        "score": 1.87
-      }
-    ],
-    "synergy": [
-      {
-        "id": 76,
-        "name": "Faramis",
-        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Faramis.",
-        "score": 1.98
-      },
-      {
-        "id": 11,
-        "name": "Bane",
-        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Bane.",
-        "score": 1.38
-      },
-      {
-        "id": 34,
-        "name": "Estes",
-        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Estes.",
-        "score": 1.37
-      },
-      {
-        "id": 127,
-        "name": "Lukas",
-        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Lukas.",
-        "score": 1.24
-      },
-      {
-        "id": 14,
-        "name": "Rafaela",
-        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Rafaela.",
-        "score": 1.12
-      }
-    ]
-  },
   "132": {
     "strong_against": [
       {
@@ -11796,16 +11388,16 @@
         "score": 3.94
       },
       {
-        "id": 33,
-        "name": "Cyclops",
-        "reason": "Excels against Cyclops in early game lane trades and isolates them effectively in teamfights.",
-        "score": 3.72
-      },
-      {
         "id": 109,
         "name": "Aamon",
         "reason": "Excels against Aamon in early game lane trades and isolates them effectively in teamfights.",
         "score": 3.31
+      },
+      {
+        "id": 81,
+        "name": "Esmeralda",
+        "reason": "Excels against Esmeralda in early game lane trades and isolates them effectively in teamfights.",
+        "score": 3.09
       }
     ],
     "weak_against": [
@@ -11820,12 +11412,6 @@
         "name": "Akai",
         "reason": "Highly vulnerable to Akai's gap closers, target locks, and early game burst potential.",
         "score": 3.41
-      },
-      {
-        "id": 78,
-        "name": "Khufra",
-        "reason": "Highly vulnerable to Khufra's gap closers, target locks, and early game burst potential.",
-        "score": 3.21
       },
       {
         "id": 124,
@@ -11844,6 +11430,12 @@
         "name": "Sun",
         "reason": "Highly vulnerable to Sun's gap closers, target locks, and early game burst potential.",
         "score": 2.79
+      },
+      {
+        "id": 94,
+        "name": "Popol and Kupa",
+        "reason": "Highly vulnerable to Popol and Kupa's gap closers, target locks, and early game burst potential.",
+        "score": 2.72
       }
     ],
     "synergy": [
@@ -12500,10 +12092,10 @@
         "score": 1.08
       },
       {
-        "id": 33,
-        "name": "Cyclops",
-        "reason": "Highly vulnerable to Cyclops's gap closers, target locks, and early game burst potential.",
-        "score": 0.97
+        "id": 101,
+        "name": "Yve",
+        "reason": "Highly vulnerable to Yve's gap closers, target locks, and early game burst potential.",
+        "score": 0.94
       }
     ],
     "synergy": [
@@ -13122,10 +12714,10 @@
         "score": 2.34
       },
       {
-        "id": 78,
-        "name": "Khufra",
-        "reason": "Excels against Khufra in early game lane trades and isolates them effectively in teamfights.",
-        "score": 2.33
+        "id": 1,
+        "name": "Miya",
+        "reason": "Excels against Miya in early game lane trades and isolates them effectively in teamfights.",
+        "score": 1.87
       }
     ],
     "weak_against": [
@@ -13214,12 +12806,6 @@
         "score": 2.61
       },
       {
-        "id": 78,
-        "name": "Khufra",
-        "reason": "Excels against Khufra in early game lane trades and isolates them effectively in teamfights.",
-        "score": 2.09
-      },
-      {
         "id": 114,
         "name": "Melissa",
         "reason": "Excels against Melissa in early game lane trades and isolates them effectively in teamfights.",
@@ -13236,6 +12822,12 @@
         "name": "Phoveus",
         "reason": "Excels against Phoveus in early game lane trades and isolates them effectively in teamfights.",
         "score": 1.61
+      },
+      {
+        "id": 99,
+        "name": "Barats",
+        "reason": "Excels against Barats in early game lane trades and isolates them effectively in teamfights.",
+        "score": 1.59
       }
     ],
     "weak_against": [
@@ -13570,12 +13162,6 @@
     ],
     "weak_against": [
       {
-        "id": 33,
-        "name": "Cyclops",
-        "reason": "Highly vulnerable to Cyclops's gap closers, target locks, and early game burst potential.",
-        "score": 9.42
-      },
-      {
         "id": 61,
         "name": "Chang'e",
         "reason": "Highly vulnerable to Chang'e's gap closers, target locks, and early game burst potential.",
@@ -13604,6 +13190,12 @@
         "name": "Harley",
         "reason": "Highly vulnerable to Harley's gap closers, target locks, and early game burst potential.",
         "score": 3.97
+      },
+      {
+        "id": 71,
+        "name": "Kimmy",
+        "reason": "Highly vulnerable to Kimmy's gap closers, target locks, and early game burst potential.",
+        "score": 3.8
       }
     ],
     "synergy": [
@@ -13654,12 +13246,6 @@
         "score": 3.75
       },
       {
-        "id": 33,
-        "name": "Cyclops",
-        "reason": "Excels against Cyclops in early game lane trades and isolates them effectively in teamfights.",
-        "score": 3.5
-      },
-      {
         "id": 43,
         "name": "Irithel",
         "reason": "Excels against Irithel in early game lane trades and isolates them effectively in teamfights.",
@@ -13676,6 +13262,12 @@
         "name": "Faramis",
         "reason": "Excels against Faramis in early game lane trades and isolates them effectively in teamfights.",
         "score": 3.38
+      },
+      {
+        "id": 62,
+        "name": "Kaja",
+        "reason": "Excels against Kaja in early game lane trades and isolates them effectively in teamfights.",
+        "score": 3.27
       }
     ],
     "weak_against": [
@@ -13776,16 +13368,16 @@
         "score": 2.76
       },
       {
-        "id": 33,
-        "name": "Cyclops",
-        "reason": "Excels against Cyclops in early game lane trades and isolates them effectively in teamfights.",
-        "score": 2.46
+        "id": 34,
+        "name": "Estes",
+        "reason": "Excels against Estes in early game lane trades and isolates them effectively in teamfights.",
+        "score": 2.14
       },
       {
-        "id": 78,
-        "name": "Khufra",
-        "reason": "Excels against Khufra in early game lane trades and isolates them effectively in teamfights.",
-        "score": 2.27
+        "id": 76,
+        "name": "Faramis",
+        "reason": "Excels against Faramis in early game lane trades and isolates them effectively in teamfights.",
+        "score": 2.11
       }
     ],
     "weak_against": [
@@ -13868,12 +13460,6 @@
         "score": 2.78
       },
       {
-        "id": 78,
-        "name": "Khufra",
-        "reason": "Excels against Khufra in early game lane trades and isolates them effectively in teamfights.",
-        "score": 2.72
-      },
-      {
         "id": 79,
         "name": "Granger",
         "reason": "Excels against Granger in early game lane trades and isolates them effectively in teamfights.",
@@ -13896,6 +13482,12 @@
         "name": "Joy",
         "reason": "Excels against Joy in early game lane trades and isolates them effectively in teamfights.",
         "score": 2.3
+      },
+      {
+        "id": 132,
+        "name": "Marcel",
+        "reason": "Excels against Marcel in early game lane trades and isolates them effectively in teamfights.",
+        "score": 2.26
       }
     ],
     "weak_against": [
@@ -14260,10 +13852,10 @@
         "score": 2.91
       },
       {
-        "id": 33,
-        "name": "Cyclops",
-        "reason": "Highly vulnerable to Cyclops's gap closers, target locks, and early game burst potential.",
-        "score": 2.75
+        "id": 81,
+        "name": "Esmeralda",
+        "reason": "Highly vulnerable to Esmeralda's gap closers, target locks, and early game burst potential.",
+        "score": 2.6
       }
     ],
     "synergy": [
@@ -14608,12 +14200,6 @@
         "name": "Lesley",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Lesley.",
         "score": 1.48
-      },
-      {
-        "id": 78,
-        "name": "Khufra",
-        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Khufra.",
-        "score": 1.18
       },
       {
         "id": 13,
