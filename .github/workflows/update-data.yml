@@ -69,6 +69,7 @@ jobs:
         # and the worker serves them from this repo.
         git add public/data/patches/ public/data/meta/ \
                 public/assets/skills/ public/assets/banners/ public/assets/heroes/ \
+                public/assets/items/ \
                 src/data/ data/official_matchups.json data/official_relations.json
         # Check what is STAGED, not the whole tree. git diff-index compares the
         # working tree too, so an untracked-by-design file like

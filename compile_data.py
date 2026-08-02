@@ -240,13 +240,29 @@ def compile_data():
         url = sanitize_url(url)
         if url.startswith("/"):
             return url
+        # The manifest is a URL -> local-path map, but it lists files that were
+        # never committed: 491 skill icons and 64 item icons mapped to paths
+        # that do not exist in this repo. Returning one produced a permanently
+        # broken image, because the client's remote fallback reads from here
+        # too. Only trust a mapping when the file is really present; otherwise
+        # fall through and ultimately keep the upstream URL, which still loads.
+        def mapped(local_path):
+            if not local_path:
+                return None
+            on_disk = os.path.join("public", local_path.lstrip("/"))
+            return local_path if os.path.exists(on_disk) else None
+
         # 1. Exact match in manifest
         if url in manifest:
-            return manifest[url]
+            hit = mapped(manifest[url])
+            if hit:
+                return hit
         # 2. Check without query parameters
         clean_url = url.split("?")[0]
         if clean_url in manifest:
-            return manifest[clean_url]
+            hit = mapped(manifest[clean_url])
+            if hit:
+                return hit
         # 3. Domain-agnostic match: compare filename in manifest keys
         filename = clean_url.split("/")[-1]
         if filename:
@@ -254,7 +270,10 @@ def compile_data():
                 m_clean = m_key.split("?")[0]
                 m_filename = m_clean.split("/")[-1]
                 if m_filename and m_filename == filename:
-                    return m_val
+                    hit = mapped(m_val)
+                    if hit:
+                        return hit
+                    break
         # 4. Physical file search on disk fallback.
         #    "skills" holds icons the scraper mirrors from the current GMS API,
         #    and those keep their upstream extension (CI has no image encoder),

@@ -429,6 +429,50 @@ def fetch_hero_detail_gms(session, hero_id):
     return None
 
 
+def mirror_profile_icons(session, detail):
+    """
+    Mirror a legacy profile's skill and equipment icons into public/assets/items/.
+
+    compile_data resolves these through public/assets/manifest.json, which maps
+    them to /assets/items/<name>.webp — but hundreds of those files were never
+    committed, so the paths 404 for anyone building from the repo. Pulling them
+    down here makes the mapping true instead of aspirational.
+
+    Best effort: a failure just leaves the upstream URL in place, which still
+    loads over the network.
+    """
+    items_dir = os.path.join("public", "assets", "items")
+    urls = []
+
+    for skill in ((detail.get("skill") or {}).get("skill") or []):
+        if isinstance(skill, dict) and skill.get("icon"):
+            urls.append(skill["icon"])
+
+    gear = (detail.get("gear") or {})
+    for bucket in ("out_pack", "verysix"):
+        for entry in (gear.get(bucket) or []):
+            if not isinstance(entry, dict):
+                continue
+            equip = entry.get("equip") or {}
+            for key in ("icon", "equipicon", "image"):
+                if equip.get(key):
+                    urls.append(equip[key])
+            if entry.get("icon"):
+                urls.append(entry["icon"])
+
+    for url in urls:
+        if not isinstance(url, str) or not url.startswith("http"):
+            continue
+        filename = url.split("?")[0].split("/")[-1]
+        if not filename:
+            continue
+        # The manifest points at .webp regardless of the upstream extension.
+        stem = os.path.splitext(filename)[0]
+        if os.path.exists(os.path.join(items_dir, f"{stem}.webp")):
+            continue
+        mirror_asset(session, url, items_dir, filename)
+
+
 def save_raw_file(data, hero_id, lang):
     """Save raw localized profile in individual JSON."""
     file_path = os.path.join(RAW_DIR, lang, f"hero_{hero_id}.json")
@@ -743,6 +787,7 @@ def run_scraper():
             if detail:
                 detail['heroid'] = str(hero_id)
                 detail['name'] = hero_name
+                mirror_profile_icons(session, detail)
                 save_raw_file(detail, hero_id, lang)
                 success += 1
             else:
