@@ -103,8 +103,8 @@
       },
       {
         "id": 133,
-        "name": "Hirara",
-        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Hirara.",
+        "name": "Esper Assassin",
+        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Esper Assassin.",
         "score": 2.45
       }
     ]
@@ -1076,7 +1076,7 @@
       {
         "id": 127,
         "name": "Lukas",
-        "reason": "Floryn works well with tanky Fighters, such as Terizla and Thamuz, because they are easier to keep alive with heals and can peel enemies off of her.",
+        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Lukas.",
         "score": 3.48
       },
       {
@@ -2007,8 +2007,8 @@
       },
       {
         "id": 133,
-        "name": "Hirara",
-        "reason": "Excels against Hirara in early game lane trades and isolates them effectively in teamfights.",
+        "name": "Esper Assassin",
+        "reason": "Excels against Esper Assassin in early game lane trades and isolates them effectively in teamfights.",
         "score": 1.8
       },
       {
@@ -2389,8 +2389,8 @@
     "synergy": [
       {
         "id": 133,
-        "name": "Hirara",
-        "reason": "Angela works best with highly mobile Assassins such as Lancelot and Aamon since she can provide CC and heals while increasing their mobility even further.",
+        "name": "Esper Assassin",
+        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Esper Assassin.",
         "score": 5.22
       },
       {
@@ -2712,7 +2712,7 @@
       {
         "id": 125,
         "name": "Zhuxin",
-        "reason": "Long range Mages such as Xavier and Nana.",
+        "reason": "Highly vulnerable to Zhuxin's gap closers, target locks, and early game burst potential.",
         "score": 3.01
       }
     ],
@@ -4503,8 +4503,8 @@
       },
       {
         "id": 133,
-        "name": "Hirara",
-        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Hirara.",
+        "name": "Esper Assassin",
+        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Esper Assassin.",
         "score": 1.1
       }
     ]
@@ -4758,7 +4758,7 @@
       {
         "id": 127,
         "name": "Lukas",
-        "reason": "Arlott counters Fighters with relatively lower HP, such as Sun and Zilong. Arlott can deal high burst damage and has excellent chasing and control abilities, allowing him to quickly eliminate more fragile Fighters.",
+        "reason": "Excels against Lukas in early game lane trades and isolates them effectively in teamfights.",
         "score": 1.87
       },
       {
@@ -5053,8 +5053,8 @@
       },
       {
         "id": 133,
-        "name": "Hirara",
-        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Hirara.",
+        "name": "Esper Assassin",
+        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Esper Assassin.",
         "score": 0.77
       }
     ]
@@ -6193,8 +6193,8 @@
       },
       {
         "id": 133,
-        "name": "Hirara",
-        "reason": "Excels against Hirara in early game lane trades and isolates them effectively in teamfights.",
+        "name": "Esper Assassin",
+        "reason": "Excels against Esper Assassin in early game lane trades and isolates them effectively in teamfights.",
         "score": 1.74
       }
     ],
@@ -6439,8 +6439,8 @@
       },
       {
         "id": 133,
-        "name": "Hirara",
-        "reason": "Highly vulnerable to Hirara's gap closers, target locks, and early game burst potential.",
+        "name": "Esper Assassin",
+        "reason": "Highly vulnerable to Esper Assassin's gap closers, target locks, and early game burst potential.",
         "score": 2.32
       },
       {
@@ -6511,8 +6511,8 @@
       },
       {
         "id": 133,
-        "name": "Hirara",
-        "reason": "Excels against Hirara in early game lane trades and isolates them effectively in teamfights.",
+        "name": "Esper Assassin",
+        "reason": "Excels against Esper Assassin in early game lane trades and isolates them effectively in teamfights.",
         "score": 3.09
       },
       {
@@ -6622,7 +6622,7 @@
       {
         "id": 125,
         "name": "Zhuxin",
-        "reason": "Mages without mobility such as Odette, Pharsa, Yve and Cecilion will fall to Leomord's high movement speed and burst damage.",
+        "reason": "Excels against Zhuxin in early game lane trades and isolates them effectively in teamfights.",
         "score": 2.45
       },
       {
@@ -6763,8 +6763,8 @@
       },
       {
         "id": 133,
-        "name": "Hirara",
-        "reason": "Highly vulnerable to Hirara's gap closers, target locks, and early game burst potential.",
+        "name": "Esper Assassin",
+        "reason": "Highly vulnerable to Esper Assassin's gap closers, target locks, and early game burst potential.",
         "score": 3.39
       },
       {
@@ -7495,8 +7495,8 @@
       },
       {
         "id": 133,
-        "name": "Hirara",
-        "reason": "Excels against Hirara in early game lane trades and isolates them effectively in teamfights.",
+        "name": "Esper Assassin",
+        "reason": "Excels against Esper Assassin in early game lane trades and isolates them effectively in teamfights.",
         "score": 2.44
       },
       {
@@ -8738,7 +8738,7 @@
       {
         "id": 127,
         "name": "Lukas",
-        "reason": "Martis is countered by Fighters with high combat sustainability, such as Thamuz and Fredrinn, because they can survive Martis' burst damage and defeat him in prolonged battles.",
+        "reason": "Highly vulnerable to Lukas's gap closers, target locks, and early game burst potential.",
         "score": 2.01
       },
       {
@@ -8762,7 +8762,7 @@
       {
         "id": 131,
         "name": "Sora",
-        "reason": "Martis is countered by Fighters with high combat sustainability, such as Thamuz and Fredrinn, because they can survive Martis' burst damage and defeat him in prolonged battles.",
+        "reason": "Highly vulnerable to Sora's gap closers, target locks, and early game burst potential.",
         "score": 1.64
       }
     ],
@@ -9861,8 +9861,8 @@
       },
       {
         "id": 133,
-        "name": "Hirara",
-        "reason": "Highly vulnerable to Hirara's gap closers, target locks, and early game burst potential.",
+        "name": "Esper Assassin",
+        "reason": "Highly vulnerable to Esper Assassin's gap closers, target locks, and early game burst potential.",
         "score": 2.55
       }
     ],
@@ -10608,7 +10608,7 @@
       {
         "id": 130,
         "name": "Obsidia",
-        "reason": "Baxia is countered by agile Marksmen who deal True Damage like Karrie and Lesley because they can easily stay out of Baxia's range while dealing massive damage to him.",
+        "reason": "Highly vulnerable to Obsidia's gap closers, target locks, and early game burst potential.",
         "score": 2.64
       },
       {
@@ -12263,8 +12263,8 @@
       },
       {
         "id": 133,
-        "name": "Hirara",
-        "reason": "Highly vulnerable to Hirara's gap closers, target locks, and early game burst potential.",
+        "name": "Esper Assassin",
+        "reason": "Highly vulnerable to Esper Assassin's gap closers, target locks, and early game burst potential.",
         "score": 3.05
       },
       {
