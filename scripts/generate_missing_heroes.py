@@ -319,6 +319,26 @@ def has_real_skills(file_path):
     return len(named) >= 2 and len(set(named)) >= 2
 
 
+def repair_scraped_name(file_path, correct_name):
+    """Force the curated hero name onto a scraped profile. True if it changed."""
+    try:
+        with open(file_path, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+    except (json.JSONDecodeError, OSError):
+        return False
+
+    if data.get("name") == correct_name:
+        return False
+
+    data["name"] = correct_name
+    try:
+        with open(file_path, 'w', encoding='utf-8') as f:
+            json.dump(data, f, indent=2, ensure_ascii=False)
+        return True
+    except OSError:
+        return False
+
+
 def generate():
     print(f"Generating missing heroes {min(MISSING_HEROES.keys())}-{max(MISSING_HEROES.keys())} in {RAW_DIR} for all languages...")
     for h_id, meta in MISSING_HEROES.items():
@@ -333,7 +353,14 @@ def generate():
             # overwrite a file that already has genuine named skills — doing so
             # would put the placeholder icons straight back.
             if has_real_skills(file_path):
-                print(f"Keeping scraped profile for {meta['name']} (ID {h_id}) — real skills present.")
+                # The current GMS API's `name` field is the hero name for most
+                # entries but the epithet for some of the newest ones — 133
+                # comes back as "Esper Assassin", not "Hirara". Keep the scraped
+                # skills, but restore the name from the table below, which is
+                # the curated source for exactly these heroes.
+                repaired = repair_scraped_name(file_path, meta["name"])
+                note = " (name corrected)" if repaired else ""
+                print(f"Keeping scraped profile for {meta['name']} (ID {h_id}) — real skills present{note}.")
                 continue
 
             with open(file_path, 'w', encoding='utf-8') as f:
