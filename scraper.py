@@ -12,6 +12,20 @@ BASE_URL = "https://mlbb-ota-proxy.linkdaddy0.workers.dev/moonton"
 HERO_LIST_URL = f"{BASE_URL}/hero/list"
 HERO_DETAIL_URL = f"{BASE_URL}/hero/detail"
 
+# Moonton runs two hero APIs and they do not agree.
+#
+#   legacy   mapi.mobilelegends.com (via /moonton above)
+#            heroes 1-124 only. For 125+ it answers HTTP 200 with a payload of
+#            nulls, so nothing errors and the gap is invisible.
+#   current  api.gms.moontontech.com source 2713644/2766683
+#            all 133 heroes, with real skill names, descriptions and icon URLs.
+#
+# Heroes 125-133 therefore had no skills at all and fell back to a placeholder
+# icon repeated across the kit. Anything the legacy API cannot serve is now
+# filled in from the current API.
+GMS_HERO_URL = "https://api.gms.moontontech.com/api/gms/source/2713644/2766683"
+SKILL_ASSET_DIR = os.path.join("public", "assets", "skills")
+
 # Private raw data directories (outside public assets to prevent source leak)
 RAW_DIR = os.path.join("data", "raw")
 LOGS_DIR = os.path.join("logs")
@@ -108,12 +122,137 @@ def fetch_hero_detail(session, hero_id, lang):
         
         if validate_response(data, detail_mode=True):
             return data.get("data")
-        else:
-            logger.warning(f"  - [{lang.upper()}] Detail profile failed validation for ID {hero_id}.")
-            return None
+
+        # The legacy API returns 200-with-nulls for heroes it does not know
+        # about, which is why this used to look like a validation blip rather
+        # than a whole missing hero. Try the current API before giving up.
+        logger.warning(f"  - [{lang.upper()}] Detail profile failed validation for ID {hero_id}.")
+        recovered = fetch_hero_detail_gms(session, hero_id)
+        if recovered:
+            return recovered
+        return None
     except Exception as e:
         logger.warning(f"  - [{lang.upper()}] Details request timed out or failed for ID {hero_id}: {e}")
+        recovered = fetch_hero_detail_gms(session, hero_id)
+        if recovered:
+            return recovered
         return None
+
+# Cache of the current-API roster. It arrives as one ~1MB document covering
+# every hero, so it is fetched at most once per run.
+_gms_records = None
+
+
+def fetch_gms_records(session):
+    """Whole hero roster from the current GMS API. Returns [] on any failure."""
+    global _gms_records
+    if _gms_records is not None:
+        return _gms_records
+
+    try:
+        response = session.post(
+            GMS_HERO_URL,
+            json={"pageSize": 500, "pageIndex": 1},
+            headers={
+                "Content-Type": "application/json",
+                "Origin": "https://www.mobilelegends.com",
+                "Referer": "https://www.mobilelegends.com/",
+            },
+            timeout=30,
+        )
+        response.raise_for_status()
+        _gms_records = response.json().get("data", {}).get("records", []) or []
+        logger.info(f"Current GMS API roster fetched: {len(_gms_records)} heroes.")
+    except Exception as e:
+        logger.warning(f"Current GMS API roster fetch failed: {e}")
+        _gms_records = []
+    return _gms_records
+
+
+def mirror_skill_icon(session, url):
+    """
+    Download a GMS skill icon into public/assets/skills/ and return the local
+    path, so the app keeps working offline. Falls back to the remote URL.
+
+    The bytes are stored as-is; nothing here re-encodes, because CI only
+    installs `requests`. compile_data.resolve_local matches on basename.
+    """
+    if not url or not url.startswith("http"):
+        return url
+
+    filename = url.split("?")[0].split("/")[-1]
+    if not filename or "." not in filename:
+        return url
+
+    os.makedirs(SKILL_ASSET_DIR, exist_ok=True)
+    target = os.path.join(SKILL_ASSET_DIR, filename)
+    if os.path.exists(target):
+        return f"/assets/skills/{filename}"
+
+    try:
+        response = session.get(url, timeout=20)
+        response.raise_for_status()
+        with open(target, "wb") as f:
+            f.write(response.content)
+        logger.info(f"    mirrored skill icon {filename}")
+        return f"/assets/skills/{filename}"
+    except Exception as e:
+        logger.warning(f"    could not mirror skill icon {filename}: {e}")
+        return url
+
+
+def gms_to_moonton(session, record):
+    """
+    Reshape one current-API record into the legacy payload compile_data expects,
+    so the compiler needs no knowledge of which API a hero came from.
+    """
+    d = record.get("data", {}) or {}
+    hero = (d.get("hero") or {}).get("data", {}) or {}
+
+    skills = []
+    for group in hero.get("heroskilllist", []) or []:
+        for s in group.get("skilllist", []) or []:
+            name = (s.get("skillname") or "").strip()
+            if not name:
+                continue
+            skills.append({
+                "name": name,
+                "icon": mirror_skill_icon(session, s.get("skillicon") or ""),
+                "des": s.get("skilldesc") or "",
+                "tips": s.get("skilltag") or "",
+            })
+
+    # Heroes with a dual form list the same kit twice; keep the first four so
+    # the shape matches every other hero.
+    if len(skills) > 4:
+        skills = skills[:4]
+
+    return {
+        "name": hero.get("name") or "",
+        "cover_picture": d.get("painting") or "",
+        "head": d.get("head") or "",
+        "head_big": d.get("head_big") or "",
+        "skill": {"skill": skills},
+        "gear": {"out_pack": [], "verysix": []},
+        "counters": {},
+        "_source": "gms",
+    }
+
+
+def fetch_hero_detail_gms(session, hero_id):
+    """Legacy-shaped detail for a hero the legacy API cannot serve."""
+    for record in fetch_gms_records(session):
+        if str((record.get("data") or {}).get("hero_id")) == str(hero_id):
+            payload = gms_to_moonton(session, record)
+            if payload["skill"]["skill"]:
+                logger.info(
+                    f"  - ID {hero_id}: legacy API empty, recovered "
+                    f"{len(payload['skill']['skill'])} skills from the current GMS API."
+                )
+                return payload
+            return None
+    return None
+
 
 def save_raw_file(data, hero_id, lang):
     """Save raw localized profile in individual JSON."""
