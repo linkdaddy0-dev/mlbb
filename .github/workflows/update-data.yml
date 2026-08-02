@@ -62,5 +62,8 @@ jobs:
         rm -f .run_marker
         git config --global user.name "GitHub Action Bot"
         git config --global user.email "actions@github.com"
-        git add public/data/patches/ public/data/meta/ src/data/ data/official_matchups.json data/official_relations.json
+        # public/assets/skills/ carries skill icons the scraper mirrors from the
+        # current GMS API for heroes the legacy API cannot serve. Without it the
+        # compiled data would point at files that were never committed.
+        git add public/data/patches/ public/data/meta/ public/assets/skills/ src/data/ data/official_matchups.json data/official_relations.json
         git diff-index --quiet HEAD || (git commit -m "chore: auto-sync localized hero datasets [skip ci]" && git pull --rebase --autostash origin main && git push)

@@ -255,13 +255,20 @@ def compile_data():
                 m_filename = m_clean.split("/")[-1]
                 if m_filename and m_filename == filename:
                     return m_val
-        # 4. Physical file search on disk fallback
+        # 4. Physical file search on disk fallback.
+        #    "skills" holds icons the scraper mirrors from the current GMS API,
+        #    and those keep their upstream extension (CI has no image encoder),
+        #    so try the original extension alongside .webp.
         if filename:
-            basename_no_ext = os.path.splitext(filename)[0]
-            for root_dir in ["heroes", "misc", "items", "spells", "talents", "emblems", "banners"]:
-                local_candidate = os.path.join("public", "assets", root_dir, f"{basename_no_ext}.webp")
-                if os.path.exists(local_candidate):
-                    return f"/assets/{root_dir}/{basename_no_ext}.webp"
+            basename_no_ext, original_ext = os.path.splitext(filename)
+            extensions = [".webp"]
+            if original_ext and original_ext.lower() != ".webp":
+                extensions.append(original_ext)
+            for root_dir in ["heroes", "misc", "items", "spells", "talents", "emblems", "banners", "skills"]:
+                for ext in extensions:
+                    local_candidate = os.path.join("public", "assets", root_dir, f"{basename_no_ext}{ext}")
+                    if os.path.exists(local_candidate):
+                        return f"/assets/{root_dir}/{basename_no_ext}{ext}"
         return url
 
     total_heroes_count = 0
