@@ -366,12 +366,19 @@ def compile_data():
             else:
                 cover_transparent_url = cover_url
 
-            # Esport winrates / pickrates / banrates (meta stats > mathematical fallback)
-            win_rate = 50.0 + (h_id % 5) * 0.9
-            pick_rate = 5.0 + (h_id % 8) * 1.5
-            ban_rate = 1.0 + (h_id % 12) * 2.2
-            tier = 'A'
-            
+            # Rates come from the official meta stats. A hero with no entry yet
+            # — which now happens the day a new hero ships, before the matchups
+            # scrape catches up — gets null rather than a number.
+            #
+            # These used to be synthesised from the hero id:
+            #     win_rate = 50.0 + (h_id % 5) * 0.9
+            # which produced plausible-looking rates that were entirely invented.
+            # The UI renders null as a dash instead.
+            win_rate = None
+            pick_rate = None
+            ban_rate = None
+            tier = None
+
             if meta:
                 win_rate = meta.get("win_rate", win_rate)
                 pick_rate = meta.get("pick_rate", pick_rate)
@@ -391,8 +398,8 @@ def compile_data():
                 "name": name,
                 "role": role,
                 "roles": meta.get("roles", [role]),
-                "lane": meta.get("lane", "Unknown"),
-                "specialties": meta.get("specialties", []),
+                "lane": meta.get("lane") or raw.get("lane") or "Unknown",
+                "specialties": meta.get("specialties") or raw.get("speciality") or [],
                 "avatar_url": avatar_url,
                 "cover_thumb": cover_url,
                 "cover_transparent": cover_transparent_url,
@@ -500,9 +507,9 @@ def compile_data():
                 "ban_rate": ban_rate,
                 "rank_stats": meta.get("rank_stats", {}),
                 "history": meta.get("history", {}),
-                "lane": meta.get("lane", "Unknown"),
+                "lane": meta.get("lane") or raw.get("lane") or "Unknown",
                 "roles": meta.get("roles", [role]),
-                "specialties": meta.get("specialties", []),
+                "specialties": meta.get("specialties") or raw.get("speciality") or [],
                 "stats_rank": meta.get("stats_rank"),
                 "stats_updated_at": meta.get("stats_updated_at"),
                 "avatar_url": avatar_url,

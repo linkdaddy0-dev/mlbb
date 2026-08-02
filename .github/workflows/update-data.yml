@@ -62,10 +62,14 @@ jobs:
         rm -f .run_marker
         git config --global user.name "GitHub Action Bot"
         git config --global user.email "actions@github.com"
-        # public/assets/skills/ carries skill icons the scraper mirrors from the
-        # current GMS API for heroes the legacy API cannot serve. Without it the
-        # compiled data would point at files that were never committed.
-        git add public/data/patches/ public/data/meta/ public/assets/skills/ src/data/ data/official_matchups.json data/official_relations.json
+        # public/assets/{skills,banners,heroes}/ carry artwork the scraper mirrors
+        # from the current GMS API for heroes the legacy API cannot serve. These
+        # are what let a brand-new hero appear in the app with no release: the
+        # client falls back to the OTA worker for any asset missing from the APK,
+        # and the worker serves them from this repo.
+        git add public/data/patches/ public/data/meta/ \
+                public/assets/skills/ public/assets/banners/ public/assets/heroes/ \
+                src/data/ data/official_matchups.json data/official_relations.json
         # Check what is STAGED, not the whole tree. git diff-index compares the
         # working tree too, so an untracked-by-design file like
         # data/official_matchups_raw.json being modified would send us into the

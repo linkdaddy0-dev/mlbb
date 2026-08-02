@@ -117,16 +117,38 @@ const skillSlotLabel = (index, total) => {
 const SLIDE_BASE_WIDTH = 220;
 const SLIDE_INACTIVE_SCALE = 140 / SLIDE_BASE_WIDTH; // visually matches the old 140px card
 
+/**
+ * A hero's rates can legitimately be absent — a brand-new hero exists in the
+ * roster before the meta scrape has any matches for it. The compiler emits null
+ * for those rather than inventing a number, so null has to survive to the UI
+ * instead of being defaulted into a plausible-looking 50.0.
+ */
 const getHeroWithDefaultStats = (hero) => {
   if (!hero) return null;
   const stats = hero.history?.['7d']?.['101'] || hero.rank_stats?.['101'] || {};
+  const pick = (fromStats, fromHero) =>
+    fromStats !== undefined && fromStats !== null
+      ? fromStats
+      : (fromHero !== undefined && fromHero !== null ? fromHero : null);
   return {
     ...hero,
-    win_rate: stats.win_rate !== undefined ? stats.win_rate : (hero.win_rate || 50.0),
-    pick_rate: stats.pick_rate !== undefined ? stats.pick_rate : (hero.pick_rate || 0.0),
-    ban_rate: stats.ban_rate !== undefined ? stats.ban_rate : (hero.ban_rate || 0.0)
+    win_rate: pick(stats.win_rate, hero.win_rate),
+    pick_rate: pick(stats.pick_rate, hero.pick_rate),
+    ban_rate: pick(stats.ban_rate, hero.ban_rate)
   };
 };
+
+/** Sort comparator that pushes heroes with no rate to the bottom instead of
+ *  producing NaN, which leaves Array.sort order undefined. */
+const byRateDesc = (field) => (a, b) => {
+  const av = typeof a?.[field] === 'number' ? a[field] : -Infinity;
+  const bv = typeof b?.[field] === 'number' ? b[field] : -Infinity;
+  return bv - av;
+};
+
+/** Renders a rate, or an em dash when the hero has no data yet. */
+const formatRate = (value, digits = 1) =>
+  typeof value === 'number' ? `${value.toFixed(digits)}%` : '—';
 
 // Fallback PWA dataset if network fetches are offline or scraper is unrun
 
@@ -1086,9 +1108,9 @@ export default function App() {
     
     const processed = heroes.map(getHeroWithDefaultStats);
     const sorted = processed.filter(h => h.ban_rate != null && h.win_rate != null && h.pick_rate != null);
-    const banned = [...sorted].sort((a, b) => b.ban_rate - a.ban_rate)[0] || null;
-    const winRate = [...sorted].sort((a, b) => b.win_rate - a.win_rate)[0] || null;
-    const picked = [...sorted].sort((a, b) => b.pick_rate - a.pick_rate)[0] || null;
+    const banned = [...sorted].sort(byRateDesc('ban_rate'))[0] || null;
+    const winRate = [...sorted].sort(byRateDesc('win_rate'))[0] || null;
+    const picked = [...sorted].sort(byRateDesc('pick_rate'))[0] || null;
     return { banned, winRate, picked };
   }, [heroes]);
 
@@ -2314,7 +2336,7 @@ export default function App() {
 
     if (!heroes || heroes.length === 0) return null;
 
-    return [...heroes].sort((a, b) => b.win_rate - a.win_rate)[0];
+    return [...heroes].sort(byRateDesc('win_rate'))[0];
 
   }, [heroes]);
 
@@ -2324,7 +2346,7 @@ export default function App() {
 
     if (!heroes || heroes.length === 0) return null;
 
-    return [...heroes].sort((a, b) => b.ban_rate - a.ban_rate)[0];
+    return [...heroes].sort(byRateDesc('ban_rate'))[0];
 
   }, [heroes]);
 
@@ -2493,9 +2515,9 @@ export default function App() {
     if (!heroes || heroes.length === 0) {
       return { highestWR: null, mostBanned: null, mostPicked: null, mostContested: null };
     }
-    const highestWR = [...heroes].sort((a, b) => b.win_rate - a.win_rate)[0] || null;
-    const mostBanned = [...heroes].sort((a, b) => b.ban_rate - a.ban_rate)[0] || null;
-    const mostPicked = [...heroes].sort((a, b) => b.pick_rate - a.pick_rate)[0] || null;
+    const highestWR = [...heroes].sort(byRateDesc('win_rate'))[0] || null;
+    const mostBanned = [...heroes].sort(byRateDesc('ban_rate'))[0] || null;
+    const mostPicked = [...heroes].sort(byRateDesc('pick_rate'))[0] || null;
     const mostContested = [...heroes].sort((a, b) => (b.pick_rate + b.ban_rate) - (a.pick_rate + a.ban_rate))[0] || null;
     return { highestWR, mostBanned, mostPicked, mostContested };
   }, [heroes]);
@@ -2509,7 +2531,7 @@ export default function App() {
     roles.forEach(role => {
       const roleHeroes = processed.filter(h => h.role === role);
       if (roleHeroes.length > 0) {
-        leaders[role] = [...roleHeroes].sort((a, b) => b.win_rate - a.win_rate)[0];
+        leaders[role] = [...roleHeroes].sort(byRateDesc('win_rate'))[0];
       } else {
         leaders[role] = null;
       }
@@ -4151,15 +4173,15 @@ export default function App() {
 
                                     <div className="showcase-metrics">
                                       <div className="showcase-metric-box">
-                                        <span className="showcase-metric-val wr">{hero?.win_rate?.toFixed(1) || '0.0'}%</span>
+                                        <span className="showcase-metric-val wr">{formatRate(hero?.win_rate)}</span>
                                         <span className="showcase-metric-lbl">Win Rate</span>
                                       </div>
                                       <div className="showcase-metric-box">
-                                        <span className="showcase-metric-val">{hero?.pick_rate?.toFixed(1) || '0.0'}%</span>
+                                        <span className="showcase-metric-val">{formatRate(hero?.pick_rate)}</span>
                                         <span className="showcase-metric-lbl">Pick Rate</span>
                                       </div>
                                       <div className="showcase-metric-box">
-                                        <span className="showcase-metric-val">{hero?.ban_rate?.toFixed(1) || '0.0'}%</span>
+                                        <span className="showcase-metric-val">{formatRate(hero?.ban_rate)}</span>
                                         <span className="showcase-metric-lbl">Ban Rate</span>
                                       </div>
                                     </div>
@@ -6188,11 +6210,11 @@ export default function App() {
 
           // Top stat heroes
 
-          const topBanned = [...mergedHeroes].sort((a, b) => b.ban_rate - a.ban_rate)[0];
+          const topBanned = [...mergedHeroes].sort(byRateDesc('ban_rate'))[0];
 
-          const topWinRate = [...mergedHeroes].sort((a, b) => b.win_rate - a.win_rate)[0];
+          const topWinRate = [...mergedHeroes].sort(byRateDesc('win_rate'))[0];
 
-          const topPicked = [...mergedHeroes].sort((a, b) => b.pick_rate - a.pick_rate)[0];
+          const topPicked = [...mergedHeroes].sort(byRateDesc('pick_rate'))[0];
 
 
 

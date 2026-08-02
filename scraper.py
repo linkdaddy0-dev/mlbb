@@ -223,6 +223,57 @@ def fetch_gms_records(session):
     return _gms_records
 
 
+def mirror_asset(session, url, target_dir, filename, overwrite=False):
+    """
+    Download an upstream image to public/assets/<dir>/<filename>.
+
+    Returns True when the file is present afterwards. Existing files are left
+    alone unless overwrite is set, so hand-tuned art is never clobbered by the
+    automatic mirror.
+    """
+    if not url or not url.startswith("http"):
+        return False
+
+    os.makedirs(target_dir, exist_ok=True)
+    target = os.path.join(target_dir, filename)
+    if os.path.exists(target) and not overwrite:
+        return True
+
+    try:
+        response = session.get(url, timeout=30)
+        response.raise_for_status()
+        with open(target, "wb") as f:
+            f.write(response.content)
+        logger.info(f"    mirrored {filename} ({len(response.content) // 1024}KB)")
+        return True
+    except Exception as e:
+        logger.warning(f"    could not mirror {filename}: {e}")
+        return False
+
+
+def mirror_hero_art(session, hero_id, record_data):
+    """
+    Pull a hero's artwork from the current API into the local asset tree.
+
+    Moonton's `painting` is already a transparent cut-out, so it can serve as
+    both the banner and the transparent variant with no image processing — which
+    matters because CI has no image library. This is what lets a brand-new hero
+    appear with correct art and no app release.
+    """
+    painting = record_data.get("painting") or ""
+    head = record_data.get("head_big") or record_data.get("head") or ""
+
+    banners_dir = os.path.join("public", "assets", "banners")
+    heroes_dir = os.path.join("public", "assets", "heroes")
+
+    if painting:
+        mirror_asset(session, painting, banners_dir, f"hero_{hero_id}.webp")
+        mirror_asset(session, painting, banners_dir, f"hero_{hero_id}_transparent.webp")
+    if head:
+        # compile_data looks for this exact name before falling back to a URL.
+        mirror_asset(session, head, heroes_dir, f"Hero{int(hero_id):02d}1-icon.webp")
+
+
 def mirror_skill_icon(session, url):
     """
     Download a GMS skill icon into public/assets/skills/ and return the local
@@ -253,6 +304,30 @@ def mirror_skill_icon(session, url):
     except Exception as e:
         logger.warning(f"    could not mirror skill icon {filename}: {e}")
         return url
+
+
+def first_label(value):
+    """
+    First non-empty entry of a GMS label array.
+
+    These fields arrive as ["Assassin", ""] — a list with trailing blanks for
+    heroes with a single role or lane.
+    """
+    if isinstance(value, str):
+        return value.strip()
+    if isinstance(value, (list, tuple)):
+        for item in value:
+            if isinstance(item, str) and item.strip():
+                return item.strip()
+    return ""
+
+
+def as_int(value, default=0):
+    """GMS sends numbers as strings ("60"), and occasionally as null."""
+    try:
+        return int(float(value))
+    except (TypeError, ValueError):
+        return default
 
 
 def as_text(value):
@@ -302,19 +377,33 @@ def gms_to_moonton(session, record):
     if len(skills) > 4:
         skills = skills[:4]
 
-    # compile_data reads role and the four stat bars from type/alive/phy/mag/diff.
-    # The GMS record does not carry them in that shape, so take them from the
-    # curated table — without this the hero compiles with role "Unknown" and
-    # zeroed stats.
-    meta = curated_hero_meta().get(str(d.get("hero_id")), {})
+    hero_id = d.get("hero_id")
+    meta = curated_hero_meta().get(str(hero_id), {})
+
+    # Role, lane, specialties and the four stat bars all come straight from the
+    # current API, so a hero nobody has hand-listed still compiles correctly.
+    # `abilityshow` is verified to be the same quartet and the same 0-100 scale
+    # as the legacy alive/phy/mag/diff (Miya reads 10/70/40/10 in both).
+    role = first_label(hero.get("sortlabel")) or meta.get("role") or "Unknown"
+    lane = first_label(hero.get("roadsortlabel")) or meta.get("lane") or ""
+    specialities = [s for s in (hero.get("speciality") or []) if s]
+    bars = [as_int(v) for v in (hero.get("abilityshow") or [])][:4]
+    while len(bars) < 4:
+        bars.append(0)
+
+    mirror_hero_art(session, hero_id, d)
 
     return {
+        # Only the name still prefers the curated table: the GMS `name` field is
+        # the epithet for a few heroes (133 answers "Esper Assassin").
         "name": meta.get("name") or hero.get("name") or "",
-        "type": meta.get("role", "Unknown"),
-        "alive": meta.get("durability", 0),
-        "phy": meta.get("offense", 0),
-        "mag": meta.get("magic", 0),
-        "diff": meta.get("difficulty", 0),
+        "type": role,
+        "lane": lane,
+        "speciality": specialities,
+        "alive": bars[0],
+        "phy": bars[1],
+        "mag": bars[2],
+        "diff": bars[3],
         "cover_picture": d.get("painting") or "",
         "head": d.get("head") or "",
         "head_big": d.get("head_big") or "",
