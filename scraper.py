@@ -225,6 +225,25 @@ def mirror_skill_icon(session, url):
         return url
 
 
+def as_text(value):
+    """
+    Coerce a GMS field to a plain string.
+
+    The current API is loosely typed: some fields come back as a list (skilltag),
+    some as a dict, some as null. compile_data pushes every one of these through
+    a regex, so anything that is not a string has to be flattened here.
+    """
+    if value is None:
+        return ""
+    if isinstance(value, str):
+        return value
+    if isinstance(value, (list, tuple)):
+        return ", ".join(as_text(v) for v in value if v not in (None, ""))
+    if isinstance(value, dict):
+        return ", ".join(as_text(v) for v in value.values() if v not in (None, ""))
+    return str(value)
+
+
 def gms_to_moonton(session, record):
     """
     Reshape one current-API record into the legacy payload compile_data expects,
@@ -242,8 +261,10 @@ def gms_to_moonton(session, record):
             skills.append({
                 "name": name,
                 "icon": mirror_skill_icon(session, s.get("skillicon") or ""),
-                "des": s.get("skilldesc") or "",
-                "tips": s.get("skilltag") or "",
+                "des": as_text(s.get("skilldesc")),
+                # skilltag arrives as a list of tags ("Blink", "AoE", …), and
+                # compile_data runs every field through a regex.
+                "tips": as_text(s.get("skilltag")),
             })
 
     # Heroes with a dual form list the same kit twice; keep the first four so
