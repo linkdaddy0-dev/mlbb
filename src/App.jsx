@@ -3881,8 +3881,8 @@ export default function App() {
                     : metaSpotlightTab === 'winRate' ? 'Win Rate' : 'Pick Rate';
                   const statValue = metaSpotlightTab === 'banned' ? spotlightHero.ban_rate
                     : metaSpotlightTab === 'winRate' ? spotlightHero.win_rate : spotlightHero.pick_rate;
-                  const statColor = metaSpotlightTab === 'banned' ? '#EF4444'
-                    : metaSpotlightTab === 'winRate' ? '#10B981' : '#3B82F6';
+                  const statColor = metaSpotlightTab === 'banned' ? 'var(--stat-ban)'
+                    : metaSpotlightTab === 'winRate' ? 'var(--stat-win)' : 'var(--stat-pick)';
 
                   // A transparent banner ships in the bundle for every hero id, so
                   // address it by id rather than trusting cover_transparent to be
@@ -3951,17 +3951,17 @@ export default function App() {
                         <div className="meta-bento-extra-card">
                           <div className="meta-bento-extra-stats">
                             <div className="meta-bento-extra-stat-item">
-                              <span className="meta-bento-extra-val" style={{ color: '#10B981' }}>{spotlightHero.win_rate?.toFixed(1)}%</span>
+                              <span className="meta-bento-extra-val" style={{ color: 'var(--stat-win)' }}>{spotlightHero.win_rate?.toFixed(1)}%</span>
                               <span className="meta-bento-extra-lbl">Win</span>
                             </div>
                             <div className="meta-bento-extra-divider" />
                             <div className="meta-bento-extra-stat-item">
-                              <span className="meta-bento-extra-val" style={{ color: '#3B82F6' }}>{spotlightHero.pick_rate?.toFixed(1)}%</span>
+                              <span className="meta-bento-extra-val" style={{ color: 'var(--stat-pick)' }}>{spotlightHero.pick_rate?.toFixed(1)}%</span>
                               <span className="meta-bento-extra-lbl">Pick</span>
                             </div>
                             <div className="meta-bento-extra-divider" />
                             <div className="meta-bento-extra-stat-item">
-                              <span className="meta-bento-extra-val" style={{ color: '#EF4444' }}>{spotlightHero.ban_rate?.toFixed(1)}%</span>
+                              <span className="meta-bento-extra-val" style={{ color: 'var(--stat-ban)' }}>{spotlightHero.ban_rate?.toFixed(1)}%</span>
                               <span className="meta-bento-extra-lbl">Ban</span>
                             </div>
                           </div>
@@ -4278,10 +4278,10 @@ export default function App() {
               const roleTabList = [
                 { key: 'Marksman', icon: <MarksmanIcon />, color: '#D4AF37', banner: '/assets/banners/hero_1.webp' },
                 { key: 'Mage', icon: <MageIcon />, color: '#EC4899', banner: '/assets/banners/hero_15.webp' },
-                { key: 'Fighter', icon: <FighterIcon />, color: '#EF4444', banner: '/assets/banners/hero_16.webp' },
+                { key: 'Fighter', icon: <FighterIcon />, color: 'var(--stat-ban)', banner: '/assets/banners/hero_16.webp' },
                 { key: 'Assassin', icon: <AssassinIcon />, color: '#8B5CF6', banner: '/assets/banners/hero_3.webp' },
-                { key: 'Tank', icon: <TankIcon />, color: '#3B82F6', banner: '/assets/banners/hero_6.webp' },
-                { key: 'Support', icon: <SupportIcon />, color: '#10B981', banner: '/assets/banners/hero_132.webp' },
+                { key: 'Tank', icon: <TankIcon />, color: 'var(--stat-pick)', banner: '/assets/banners/hero_6.webp' },
+                { key: 'Support', icon: <SupportIcon />, color: 'var(--stat-win)', banner: '/assets/banners/hero_132.webp' },
               ];
               const activeRoleTab = roleTabList.find(r => r.key === (collapsedSections.roleTab || 'Marksman')) || roleTabList[0];
               const leader = roleLeaders[activeRoleTab.key];
@@ -4367,19 +4367,19 @@ export default function App() {
                       <div className="role-leaders-v2-stat-pill">
                         <SmartImage src={leader.avatar_url} alt={leader.name} className="role-leaders-v2-stat-ava" fallbackType="hero" />
                         <div className="role-leaders-v2-stat-info">
-                          <span className="role-leaders-v2-stat-val" style={{ color: '#10B981' }}>{leader.win_rate?.toFixed(1)}%</span>
+                          <span className="role-leaders-v2-stat-val" style={{ color: 'var(--stat-win)' }}>{leader.win_rate?.toFixed(1)}%</span>
                           <span className="role-leaders-v2-stat-lbl">Win Rate</span>
                         </div>
                       </div>
                       <div className="role-leaders-v2-stat-pill">
                         <div className="role-leaders-v2-stat-info" style={{ alignItems: 'center' }}>
-                          <span className="role-leaders-v2-stat-val" style={{ color: '#3B82F6' }}>{leader.pick_rate?.toFixed(1)}%</span>
+                          <span className="role-leaders-v2-stat-val" style={{ color: 'var(--stat-pick)' }}>{leader.pick_rate?.toFixed(1)}%</span>
                           <span className="role-leaders-v2-stat-lbl">Pick Rate</span>
                         </div>
                       </div>
                       <div className="role-leaders-v2-stat-pill">
                         <div className="role-leaders-v2-stat-info" style={{ alignItems: 'center' }}>
-                          <span className="role-leaders-v2-stat-val" style={{ color: '#EF4444' }}>{leader.ban_rate?.toFixed(1)}%</span>
+                          <span className="role-leaders-v2-stat-val" style={{ color: 'var(--stat-ban)' }}>{leader.ban_rate?.toFixed(1)}%</span>
                           <span className="role-leaders-v2-stat-lbl">Ban Rate</span>
                         </div>
                       </div>
@@ -4400,12 +4400,12 @@ export default function App() {
               
               <div className="explore-roles-grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '0.65rem' }}>
                 {[
-                  { name: 'Tank', icon: <TankIcon />, color: '#3B82F6' },
-                  { name: 'Fighter', icon: <FighterIcon />, color: '#EF4444' },
+                  { name: 'Tank', icon: <TankIcon />, color: 'var(--stat-pick)' },
+                  { name: 'Fighter', icon: <FighterIcon />, color: 'var(--stat-ban)' },
                   { name: 'Assassin', icon: <AssassinIcon />, color: '#8B5CF6' },
                   { name: 'Marksman', icon: <MarksmanIcon />, color: '#D4AF37' },
                   { name: 'Mage', icon: <MageIcon />, color: '#EC4899' },
-                  { name: 'Support', icon: <SupportIcon />, color: '#10B981' }
+                  { name: 'Support', icon: <SupportIcon />, color: 'var(--stat-win)' }
                 ].map(roleItem => (
                   <button 
                     key={roleItem.name}
@@ -4479,10 +4479,10 @@ export default function App() {
               <div className="explore-roles-grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(5, 1fr)', gap: '0.45rem' }}>
                 {[
                   { name: 'Gold', label: 'Gold Lane', color: '#D4AF37' },
-                  { name: 'EXP', label: 'EXP Lane', color: '#3B82F6' },
+                  { name: 'EXP', label: 'EXP Lane', color: 'var(--stat-pick)' },
                   { name: 'Mid', label: 'Mid Lane', color: '#EC4899' },
-                  { name: 'Jungle', label: 'Jungle', color: '#EF4444' },
-                  { name: 'Roam', label: 'Roam', color: '#10B981' }
+                  { name: 'Jungle', label: 'Jungle', color: 'var(--stat-ban)' },
+                  { name: 'Roam', label: 'Roam', color: 'var(--stat-win)' }
                 ].map(laneItem => (
                   <button 
                     key={laneItem.name}
@@ -4581,7 +4581,7 @@ export default function App() {
                 </div>
               </div>
               
-              <div className="db-patch-footer" style={{ textAlign: 'center', fontSize: '0.58rem', color: '#475569', fontWeight: 600, marginTop: '0.65rem' }}>
+              <div className="db-patch-footer" style={{ textAlign: 'center', fontSize: '0.58rem', color: 'var(--text-muted)', fontWeight: 600, marginTop: '0.65rem' }}>
                 <span>Static Local Engine • Patch {patchMeta.current_patch || '2.1.88'} • App v2.4</span>
               </div>
             </div>
@@ -5156,7 +5156,7 @@ export default function App() {
                               padding: '1px 3.5px',
                               borderRadius: '4px',
                               color: 'white',
-                              background: tierLabel === 'S' ? '#EF4444' : tierLabel === 'A' ? '#F59E0B' : '#3B82F6',
+                              background: tierLabel === 'S' ? 'var(--stat-ban)' : tierLabel === 'A' ? '#F59E0B' : 'var(--stat-pick)',
                               boxShadow: '0 1px 2px rgba(0,0,0,0.15)',
                               zIndex: 2
                             }}>
@@ -5883,13 +5883,13 @@ export default function App() {
 
                           const cat = item.category;
 
-                          let color = '#ef4444';
+                          let color = 'var(--stat-ban)';
 
                           let bg = 'rgba(239, 68, 68, 0.08)';
 
-                          if (cat === 'Magic') { color = '#3b82f6'; bg = 'rgba(37, 99, 235, 0.08)'; }
+                          if (cat === 'Magic') { color = 'var(--stat-pick)'; bg = 'rgba(37, 99, 235, 0.08)'; }
 
-                          if (cat === 'Defense') { color = '#10b981'; bg = 'rgba(16, 185, 129, 0.08)'; }
+                          if (cat === 'Defense') { color = 'var(--stat-win)'; bg = 'rgba(16, 185, 129, 0.08)'; }
 
                           if (cat === 'Movement') { color = '#a855f7'; bg = 'rgba(168, 85, 247, 0.08)'; }
 
@@ -6226,9 +6226,9 @@ export default function App() {
 
             const colors = {
 
-              'Marksman': '#ef4444', 'Assassin': '#8b5cf6', 'Fighter': '#f59e0b',
+              'Marksman': 'var(--stat-ban)', 'Assassin': '#8b5cf6', 'Fighter': '#f59e0b',
 
-              'Mage': '#3b82f6', 'Tank': '#10b981', 'Support': '#ec4899'
+              'Mage': 'var(--stat-pick)', 'Tank': 'var(--stat-win)', 'Support': '#ec4899'
 
             };
 
@@ -7219,7 +7219,7 @@ export default function App() {
 
                         <span style={{ fontSize: '0.5rem', color: 'rgba(255, 255, 255, 0.6)', fontWeight: 700, textTransform: 'uppercase' }}>Win Rate</span>
 
-                        <strong style={{ fontSize: '0.72rem', color: '#10b981', fontWeight: 900 }}>{activeHero.win_rate || activeHeroMeta.win_rate || 50.0}%</strong>
+                        <strong style={{ fontSize: '0.72rem', color: 'var(--stat-win)', fontWeight: 900 }}>{activeHero.win_rate || activeHeroMeta.win_rate || 50.0}%</strong>
 
                       </div>
 
@@ -7227,7 +7227,7 @@ export default function App() {
 
                         <span style={{ fontSize: '0.5rem', color: 'rgba(255, 255, 255, 0.6)', fontWeight: 700, textTransform: 'uppercase' }}>Pick Rate</span>
 
-                        <strong style={{ fontSize: '0.72rem', color: '#3b82f6', fontWeight: 900 }}>{activeHero.pick_rate || activeHeroMeta.pick_rate || 1.2}%</strong>
+                        <strong style={{ fontSize: '0.72rem', color: 'var(--stat-pick)', fontWeight: 900 }}>{activeHero.pick_rate || activeHeroMeta.pick_rate || 1.2}%</strong>
 
                       </div>
 
@@ -7235,7 +7235,7 @@ export default function App() {
 
                         <span style={{ fontSize: '0.5rem', color: 'rgba(255, 255, 255, 0.6)', fontWeight: 700, textTransform: 'uppercase' }}>Ban Rate</span>
 
-                        <strong style={{ fontSize: '0.72rem', color: '#ef4444', fontWeight: 900 }}>{activeHero.ban_rate || activeHeroMeta.ban_rate || 5.0}%</strong>
+                        <strong style={{ fontSize: '0.72rem', color: 'var(--stat-ban)', fontWeight: 900 }}>{activeHero.ban_rate || activeHeroMeta.ban_rate || 5.0}%</strong>
 
                       </div>
 
@@ -7469,13 +7469,13 @@ export default function App() {
 
                       <div style={{ display: 'flex', justifyContent: 'space-between', padding: '0 0.5rem', flexShrink: 0 }}>
 
-                        <span style={{ fontSize: '0.62rem', fontWeight: 900, color: '#ef4444', textTransform: 'uppercase' }}>
+                        <span style={{ fontSize: '0.62rem', fontWeight: 900, color: 'var(--stat-ban)', textTransform: 'uppercase' }}>
 
                           {battleStatusSubTab === 'teammates' ? "Least Synergy" : "Strong Against"}
 
                         </span>
 
-                        <span style={{ fontSize: '0.62rem', fontWeight: 900, color: '#10b981', textTransform: 'uppercase' }}>
+                        <span style={{ fontSize: '0.62rem', fontWeight: 900, color: 'var(--stat-win)', textTransform: 'uppercase' }}>
 
                           {battleStatusSubTab === 'teammates' ? "Best Teammate" : "Weak Against"}
 
@@ -7558,9 +7558,9 @@ export default function App() {
 
                             const barColor = isPositive 
 
-                              ? (battleStatusSubTab === 'teammates' ? 'linear-gradient(90deg, #3b82f6, #2563eb)' : 'linear-gradient(90deg, #10b981, #059669)')
+                              ? (battleStatusSubTab === 'teammates' ? 'linear-gradient(90deg, var(--stat-pick), #2563eb)' : 'linear-gradient(90deg, var(--stat-win), #059669)')
 
-                              : 'linear-gradient(90deg, #ef4444, #dc2626)';
+                              : 'linear-gradient(90deg, var(--stat-ban), #dc2626)';
 
 
 
@@ -7620,7 +7620,7 @@ export default function App() {
 
                                 <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-end', gap: '0.2rem', minWidth: '70px' }}>
 
-                                  <strong style={{ fontSize: '0.68rem', color: isPositive ? (battleStatusSubTab === 'teammates' ? '#3b82f6' : '#10b981') : '#ef4444', fontWeight: 800 }}>
+                                  <strong style={{ fontSize: '0.68rem', color: isPositive ? (battleStatusSubTab === 'teammates' ? 'var(--stat-pick)' : 'var(--stat-win)') : 'var(--stat-ban)', fontWeight: 800 }}>
 
                                     {displayScore}
 
@@ -9206,13 +9206,13 @@ export default function App() {
 
                       const cat = selectedEquipment.category;
 
-                      let color = '#ef4444';
+                      let color = 'var(--stat-ban)';
 
                       let bg = 'rgba(239, 68, 68, 0.08)';
 
-                      if (cat === 'Magic') { color = '#3b82f6'; bg = 'rgba(37, 99, 235, 0.08)'; }
+                      if (cat === 'Magic') { color = 'var(--stat-pick)'; bg = 'rgba(37, 99, 235, 0.08)'; }
 
-                      if (cat === 'Defense') { color = '#10b981'; bg = 'rgba(16, 185, 129, 0.08)'; }
+                      if (cat === 'Defense') { color = 'var(--stat-win)'; bg = 'rgba(16, 185, 129, 0.08)'; }
 
                       if (cat === 'Movement') { color = '#a855f7'; bg = 'rgba(168, 85, 247, 0.08)'; }
 
@@ -9539,7 +9539,7 @@ export default function App() {
                   onClick={() => handleDrawerTabClick('settings')}
                 >
                   <span style={{ display: 'flex', alignItems: 'center', gap: '0.35rem' }}>
-                    <Settings size={13} style={{ color: '#3B82F6' }} />
+                    <Settings size={13} style={{ color: 'var(--stat-pick)' }} />
                     Settings & Preferences
                   </span>
                 </div>
@@ -9591,14 +9591,14 @@ export default function App() {
                   onClick={() => handleDrawerTabClick('support')}
                 >
                   <span style={{ display: 'flex', alignItems: 'center', gap: '0.35rem' }}>
-                    <HelpCircle size={13} style={{ color: '#10B981' }} />
+                    <HelpCircle size={13} style={{ color: 'var(--stat-win)' }} />
                     Customer Support
                   </span>
                 </div>
                 <div className="drawer-accordion-content-wrapper">
                   <div className="drawer-accordion-content" style={{ gap: '0.75rem' }}>
                     <div style={{ padding: '0.5rem', background: 'rgba(16,185,129,0.08)', border: '1px solid rgba(16,185,129,0.2)', borderRadius: '8px', fontSize: '0.58rem', color: 'var(--text-secondary)', lineHeight: 1.4 }}>
-                      <strong>Help Center:</strong> Need assistance? Reach our support team at <a href="mailto:roshjam121@gmail.com" style={{ color: '#10B981', fontWeight: 700 }}>roshjam121@gmail.com</a> or check our website help desk.
+                      <strong>Help Center:</strong> Need assistance? Reach our support team at <a href="mailto:roshjam121@gmail.com" style={{ color: 'var(--stat-win)', fontWeight: 700 }}>roshjam121@gmail.com</a> or check our website help desk.
                     </div>
 
                     <div className="faq-list" style={{ display: 'flex', flexDirection: 'column', gap: '0.50rem' }}>
@@ -9625,7 +9625,7 @@ export default function App() {
                   onClick={() => handleDrawerTabClick('legal')}
                 >
                   <span style={{ display: 'flex', alignItems: 'center', gap: '0.35rem' }}>
-                    <AlertCircle size={13} style={{ color: '#EF4444' }} />
+                    <AlertCircle size={13} style={{ color: 'var(--stat-ban)' }} />
                     Legal & Company Info
                   </span>
                 </div>

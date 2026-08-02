@@ -9,6 +9,15 @@
   --color-accent: #F59E0B;
   --color-danger: #EF4444;
 
+  /* Stat readouts (win / pick / ban).
+     These sit on light card backgrounds in the light theme, where the vivid
+     dark-theme greens and reds drop to ~2.3:1 contrast — unreadable for small
+     numbers. Darkened here and restored to the vivid values under
+     [data-theme="dark"] below. */
+  --stat-win: #047857;
+  --stat-pick: #1D4ED8;
+  --stat-ban: #B91C1C;
+
   /* Theme Custom Variables - Light Mode */
   --bg-primary: #F8FAFC;
   --bg-secondary: #F1F5F9;
@@ -81,10 +90,15 @@
   --bg-secondary: #0c1223;
   --bg-card: rgba(12, 18, 35, 0.65);
   --bg-card-hover: rgba(21, 30, 52, 0.8);
-  
+
   --text-primary: #F8FAFC;
   --text-secondary: #94A3B8;
   --text-muted: #64748B;
+
+  /* Vivid stat colours read well on the dark cards */
+  --stat-win: #10B981;
+  --stat-pick: #3B82F6;
+  --stat-ban: #EF4444;
   
   --border-light: rgba(255, 255, 255, 0.08);
   --border-medium: rgba(255, 255, 255, 0.16);
