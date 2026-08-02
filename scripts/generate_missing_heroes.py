@@ -319,6 +319,48 @@ def has_real_skills(file_path):
     return len(named) >= 2 and len(set(named)) >= 2
 
 
+def merge_with_scraped(file_path, synthetic, meta):
+    """
+    Combine a scraped profile with the curated synthetic one.
+
+    Neither source is complete: the GMS API has the real skills, role, lane and
+    stat bars but no recommended equipment, while this file has curated builds
+    and battle spells but placeholder skills. Curated data is the base, and
+    anything genuine from the scrape is layered over it.
+
+    Returns the synthetic profile unchanged when there is nothing scraped worth
+    keeping.
+    """
+    if not has_real_skills(file_path):
+        return synthetic
+
+    try:
+        with open(file_path, 'r', encoding='utf-8') as f:
+            scraped = json.load(f)
+    except (json.JSONDecodeError, OSError):
+        return synthetic
+
+    merged = dict(synthetic)
+    merged["skill"] = scraped.get("skill") or merged.get("skill")
+
+    # Real role / lane / specialities / stat bars from the official API.
+    for field in ("type", "lane", "speciality", "alive", "phy", "mag", "diff"):
+        if scraped.get(field) not in (None, "", [], 0):
+            merged[field] = scraped[field]
+
+    # Artwork the scraper mirrored.
+    for field in ("cover_picture", "head", "head_big"):
+        if scraped.get(field):
+            merged[field] = scraped[field]
+
+    # The GMS `name` field is the epithet for some heroes (133 answers
+    # "Esper Assassin"), so the curated name always wins.
+    merged["name"] = meta["name"]
+    merged["heroid"] = scraped.get("heroid") or merged.get("heroid")
+    merged["_merged"] = True
+    return merged
+
+
 def repair_scraped_name(file_path, correct_name):
     """Force the curated hero name onto a scraped profile. True if it changed."""
     try:
@@ -348,24 +390,20 @@ def generate():
             os.makedirs(lang_dir, exist_ok=True)
             file_path = os.path.join(lang_dir, f"hero_{h_id}.json")
 
-            # These profiles are synthetic placeholders. scraper.py can now pull
-            # the real thing for these heroes from the current GMS API, so never
-            # overwrite a file that already has genuine named skills — doing so
-            # would put the placeholder icons straight back.
-            if has_real_skills(file_path):
-                # The current GMS API's `name` field is the hero name for most
-                # entries but the epithet for some of the newest ones — 133
-                # comes back as "Esper Assassin", not "Hirara". Keep the scraped
-                # skills, but restore the name from the table below, which is
-                # the curated source for exactly these heroes.
-                repaired = repair_scraped_name(file_path, meta["name"])
-                note = " (name corrected)" if repaired else ""
-                print(f"Keeping scraped profile for {meta['name']} (ID {h_id}) — real skills present{note}.")
-                continue
+            # These profiles are synthetic. scraper.py can now pull the real
+            # skills, role, lane and stat bars for these heroes from the current
+            # GMS API — but that source carries no recommended equipment, so
+            # neither file is complete on its own. Merge them rather than
+            # picking a winner: curated build/spell data as the base, real
+            # scraped content layered on top.
+            merged = merge_with_scraped(file_path, moonton_data, meta)
 
             with open(file_path, 'w', encoding='utf-8') as f:
-                json.dump(moonton_data, f, indent=2, ensure_ascii=False)
-            print(f"Generated hero profile for {meta['name']} (ID {h_id})")
+                json.dump(merged, f, indent=2, ensure_ascii=False)
+            print(
+                f"{'Merged scraped + curated' if merged.get('_merged') else 'Generated'} "
+                f"profile for {meta['name']} (ID {h_id})"
+            )
 
     # Add them to avatar_map.json if they are missing
     avatar_map_path = os.path.join("data", "avatar_map.json")
