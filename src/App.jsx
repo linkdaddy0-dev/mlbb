@@ -54,20 +54,19 @@ const handleAssetLoadError = (e, fallbackUrl, heroId) => {
     }
   }
 
-  // Step 2 — local full-body painting, still artwork rather than an icon
-  if (tried < 2 && heroId && !currentSrc.includes('/assets/paintings/')) {
-    advance(2, `/assets/paintings/hero_${heroId}.webp`);
-    return;
-  }
+  // Deliberately no /assets/paintings/ step: those are full rectangular
+  // artwork, and dropping to one turns a cut-out hero into a visible photo
+  // panel. Every hero has a transparent banner both in the bundle and on the
+  // CDN, so reaching past step 1 means something is badly wrong anyway.
 
-  // Step 3 — caller-supplied fallback (usually cover_thumb or the avatar)
-  if (tried < 3 && fallbackUrl) {
-    advance(3, fallbackUrl);
+  // Step 2 — caller-supplied fallback, if it opted into one
+  if (tried < 2 && fallbackUrl) {
+    advance(2, fallbackUrl);
     return;
   }
 
   // Nothing left: hide rather than render a broken-image placeholder
-  img.dataset.assetFallbackStep = '4';
+  img.dataset.assetFallbackStep = '3';
   img.style.visibility = 'hidden';
 };
 
@@ -97,6 +96,21 @@ const getRevisionValue = (meta) => {
 
 /** Same ordering, but for a bare revision string read back from localStorage. */
 const revisionStringValue = (rev) => (rev ? getRevisionValue({ data_revision: rev, last_updated_time: rev }) : 0);
+
+// Heroes 125-133 are synthesised by scripts/generate_missing_heroes.py because
+// the legacy Moonton API returns an empty payload for them. Their skills all
+// carry the same generic MLBB logo, so the four slots render identically and
+// read as broken. Detect it and label the slot instead.
+const PLACEHOLDER_SKILL_ICON = '1d4439a2ab14e995b99fd8934adb34ee';
+const isPlaceholderSkillIcon = (icon) =>
+  typeof icon === 'string' && icon.includes(PLACEHOLDER_SKILL_ICON);
+
+/** Passive / 1 / 2 / Ultimate, matching how MLBB numbers a hero's kit. */
+const skillSlotLabel = (index, total) => {
+  if (index === 0) return 'P';
+  if (total > 1 && index === total - 1) return 'ULT';
+  return String(index);
+};
 
 // Showcase carousel geometry. Slides share one fixed box and differ only by
 // transform: scale(), so nothing in the animation touches layout.
@@ -4171,11 +4185,18 @@ export default function App() {
                             ) : (
                               <>
                                 <div className="slide-hero-art-wrapper">
-                                  <img 
-                                    src={hero?.id ? `/assets/paintings/hero_${hero.id}.webp?v=4` : ''}
+                                  {/* Same cut-out art as the centre slide. Using
+                                      /assets/paintings/ here is what made the
+                                      neighbouring heroes appear as rectangular
+                                      photos until they were swiped into focus. */}
+                                  <img
+                                    key={`slide-art-${hero?.id}`}
+                                    src={hero?.id ? `/assets/banners/hero_${hero.id}_transparent.webp?v=4` : ''}
                                     alt={hero?.name || ''}
                                     className="slide-hero-art"
-                                    onError={(e) => { e.target.style.display = 'none'; }}
+                                    onError={(e) => {
+                                      handleAssetLoadError(e, '', hero?.id);
+                                    }}
                                   />
                                 </div>
                                 <div className="slide-card">
@@ -4406,7 +4427,7 @@ export default function App() {
                       .map(hero => (
                         <button 
                           key={hero.id} 
-                          onClick={() => setSelectedHero(hero)} 
+                          onClick={() => handleHeroClick(hero)} 
                           className="explore-hero-avatar-btn"
                           title={hero.name}
                         >
@@ -4494,7 +4515,7 @@ export default function App() {
                       .map(hero => (
                         <button 
                           key={hero.id} 
-                          onClick={() => setSelectedHero(hero)} 
+                          onClick={() => handleHeroClick(hero)} 
                           className="explore-hero-avatar-btn"
                           title={hero.name}
                         >
@@ -7637,11 +7658,17 @@ export default function App() {
       {selectedHero && (
         <div className="modal-backdrop" onClick={closeHeroDetails}>
           <div className="modal-content premium-gaming-modal" onClick={(e) => e.stopPropagation()} style={{ overflow: 'hidden', display: 'flex', flexDirection: 'column', position: 'relative' }}>
-            {/* Fixed Hero Painting - Bottom Right Corner */}
+            {/* Fixed hero art, bottom right. Must be the cut-out banner, not the
+                /assets/paintings/ file — those are full rectangular artwork and
+                showed up as a visible photo panel behind the guide content. */}
             <img
-              src={`/assets/paintings/hero_${selectedHero.id}.webp?v=4`}
+              key={`modal-art-${selectedHero.id}`}
+              src={`/assets/banners/hero_${selectedHero.id}_transparent.webp?v=4`}
               alt=""
               className="modal-fixed-hero-art"
+              onError={(e) => {
+                handleAssetLoadError(e, '', selectedHero.id);
+              }}
             />
             
 
@@ -8596,13 +8623,23 @@ export default function App() {
                                         onClick={() => setActiveSkillIndex(sIdx)}
                                         className={`skills-badge-btn ${activeSkillIndex === sIdx ? 'active' : ''}`}
                                       >
-                                        <SmartImage 
-                                          src={skill.icon} 
-                                          alt={skill.name} 
-                                          className="skills-badge-img"
-                                          style={{ width: '40px', height: '40px' }}
-                                          fallbackType="skill"
-                                        />
+                                        {isPlaceholderSkillIcon(skill.icon) ? (
+                                          <span
+                                            className="skills-badge-slot"
+                                            aria-label={skill.name}
+                                            title={skill.name}
+                                          >
+                                            {skillSlotLabel(sIdx, detailHeroData.skills.length)}
+                                          </span>
+                                        ) : (
+                                          <SmartImage
+                                            src={skill.icon}
+                                            alt={skill.name}
+                                            className="skills-badge-img"
+                                            style={{ width: '40px', height: '40px' }}
+                                            fallbackType="skill"
+                                          />
+                                        )}
                                       </button>
                                     </React.Fragment>
                                   ))}
