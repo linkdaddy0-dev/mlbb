@@ -6186,25 +6186,29 @@ export default function App() {
 
           // Sort based on active sub-tab
 
-          const sorted = [...filtered].sort((a, b) => {
-
-            if (rankingsSubTab === 'ban') return b.ban_rate - a.ban_rate;
-
-            if (rankingsSubTab === 'win') return b.win_rate - a.win_rate;
-
-            return b.pick_rate - a.pick_rate;
-
-          });
+          const sorted = [...filtered].sort(
+            byRateDesc(
+              rankingsSubTab === 'ban' ? 'ban_rate'
+                : rankingsSubTab === 'win' ? 'win_rate'
+                : 'pick_rate'
+            )
+          );
 
 
 
           // Compute max values for bar scaling
 
-          const maxBan = Math.max(...mergedHeroes.map(h => h.ban_rate), 1);
+          // Ignore heroes with no rate yet — a single null would make Math.max
+          // return NaN and every bar on the page would collapse to NaN% width.
+          const maxOf = (field) => Math.max(
+            ...mergedHeroes.map(h => h[field]).filter(v => typeof v === 'number'),
+            1
+          );
+          const maxBan = maxOf('ban_rate');
 
-          const maxWin = Math.max(...mergedHeroes.map(h => h.win_rate), 1);
+          const maxWin = maxOf('win_rate');
 
-          const maxPick = Math.max(...mergedHeroes.map(h => h.pick_rate), 1);
+          const maxPick = maxOf('pick_rate');
 
 
 
