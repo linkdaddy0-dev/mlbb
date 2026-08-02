@@ -332,11 +332,33 @@ export default class DraftEngine {
       const denominator = 1.0 + (enemyCounterRisk / 100.0);
       const rawDraftScore = numerator / denominator;
 
-      // Normalize Draft Score cleanly into user-friendly 30 to 99 range for esports aesthetics
-      let finalDraftScore = Math.round(rawDraftScore);
+      // Normalise into the user-facing 30-99 band.
+      //
+      // Measured against live data on a 3v2 draft, rawDraftScore spans roughly
+      // -16 to 59. The previous mapping (65 + raw * 0.22) squeezed that into
+      // 62-78 — a 16 point spread with only 17 distinct values across 133
+      // heroes, so the number could not tell a strong pick from a weak one.
+      // 45 + raw * 0.54 covers the same input range across 36-77: a 41 point
+      // spread and 36 distinct values.
+      //
+      // Deliberately an absolute mapping rather than normalising across the
+      // candidate set. Relative normalisation spreads wider still, but always
+      // awards the best remaining hero 99 even when every option is poor,
+      // which overstates confidence exactly when the user needs honesty.
+      let finalDraftScore;
       if (draftedEnemies.length > 0 || draftedAllies.length > 0) {
-        // Boost scaling so that top GMS picks align beautifully in 30-99 range
-        finalDraftScore = Math.round(65 + (rawDraftScore * 0.22));
+        finalDraftScore = Math.round(45 + (rawDraftScore * 0.54));
+      } else {
+        // Nothing drafted yet: there is no counter or synergy signal at all, so
+        // rawDraftScore collapses and every hero used to clamp to a flat 30 —
+        // the Draft tab opened looking broken. Fall back to meta strength so
+        // the opening list is a useful "best picks right now" ordering.
+        const winRate = typeof candidate.win_rate === 'number' ? candidate.win_rate : 50;
+        const banRate = typeof candidate.ban_rate === 'number' ? candidate.ban_rate : 0;
+        const tierBonus = { 'S+': 10, S: 8, A: 4, B: 0, C: -4, D: -8 }[candidate.tier] ?? 0;
+        finalDraftScore = Math.round(
+          40 + (winRate - 50) * 2.2 + Math.min(banRate, 60) * 0.15 + tierBonus
+        );
       }
       finalDraftScore = Math.min(99, Math.max(30, finalDraftScore));
 
