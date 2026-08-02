@@ -1,4 +1,5 @@
 import os
+import sys
 import time
 import json
 import logging
@@ -113,6 +114,31 @@ def fetch_hero_list(session):
         return merge_gms_roster(session, [])
 
 
+def curated_hero_names():
+    """
+    Curated id -> name map for the heroes the legacy API does not carry.
+
+    The current GMS API's `name` field is the hero name for most entries but the
+    epithet for some of the newest ones — 133 answers "Esper Assassin" rather
+    than "Hirara". scripts/generate_missing_heroes.py already maintains correct
+    names for exactly this set, so that table is the single source of truth
+    rather than a second hardcoded list here.
+    """
+    try:
+        scripts_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "scripts")
+        if scripts_dir not in sys.path:
+            sys.path.insert(0, scripts_dir)
+        from generate_missing_heroes import MISSING_HEROES
+        return {
+            str(h_id): meta["name"]
+            for h_id, meta in MISSING_HEROES.items()
+            if isinstance(meta, dict) and meta.get("name")
+        }
+    except Exception as e:
+        logger.warning(f"Curated hero names unavailable, falling back to GMS names: {e}")
+        return {}
+
+
 def merge_gms_roster(session, legacy_heroes):
     """
     Union the legacy roster with the current GMS API's.
@@ -122,6 +148,7 @@ def merge_gms_roster(session, legacy_heroes):
     list is missing is appended here in the same {heroid, name} shape.
     """
     known = {str(h.get("heroid")) for h in legacy_heroes if h.get("heroid") is not None}
+    curated = curated_hero_names()
     added = 0
     for record in fetch_gms_records(session):
         d = record.get("data", {}) or {}
@@ -129,7 +156,10 @@ def merge_gms_roster(session, legacy_heroes):
         if hero_id is None or str(hero_id) in known:
             continue
         hero = (d.get("hero") or {}).get("data", {}) or {}
-        legacy_heroes.append({"heroid": hero_id, "name": hero.get("name") or f"Hero {hero_id}"})
+        # run_scraper stamps this name onto the saved profile, so getting it
+        # right here is what decides the hero's display name everywhere.
+        name = curated.get(str(hero_id)) or hero.get("name") or f"Hero {hero_id}"
+        legacy_heroes.append({"heroid": hero_id, "name": name})
         known.add(str(hero_id))
         added += 1
     if added:
