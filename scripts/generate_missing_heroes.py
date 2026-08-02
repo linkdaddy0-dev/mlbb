@@ -303,6 +303,22 @@ def map_to_moonton(h_id, meta):
     }
     return moonton_format
 
+def has_real_skills(file_path):
+    """True when a raw profile already carries genuine, individually named skills."""
+    if not os.path.exists(file_path):
+        return False
+    try:
+        with open(file_path, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+    except (json.JSONDecodeError, OSError):
+        return False
+
+    skills = (data.get("skill") or {}).get("skill") or []
+    named = [s.get("name") for s in skills if isinstance(s, dict) and s.get("name")]
+    # Placeholder profiles repeat one generic name; real kits have distinct ones.
+    return len(named) >= 2 and len(set(named)) >= 2
+
+
 def generate():
     print(f"Generating missing heroes {min(MISSING_HEROES.keys())}-{max(MISSING_HEROES.keys())} in {RAW_DIR} for all languages...")
     for h_id, meta in MISSING_HEROES.items():
@@ -311,9 +327,18 @@ def generate():
             lang_dir = os.path.join(RAW_DIR, lang)
             os.makedirs(lang_dir, exist_ok=True)
             file_path = os.path.join(lang_dir, f"hero_{h_id}.json")
+
+            # These profiles are synthetic placeholders. scraper.py can now pull
+            # the real thing for these heroes from the current GMS API, so never
+            # overwrite a file that already has genuine named skills — doing so
+            # would put the placeholder icons straight back.
+            if has_real_skills(file_path):
+                print(f"Keeping scraped profile for {meta['name']} (ID {h_id}) — real skills present.")
+                continue
+
             with open(file_path, 'w', encoding='utf-8') as f:
                 json.dump(moonton_data, f, indent=2, ensure_ascii=False)
-        print(f"Generated hero profile for {meta['name']} (ID {h_id})")
+            print(f"Generated hero profile for {meta['name']} (ID {h_id})")
 
     # Add them to avatar_map.json if they are missing
     avatar_map_path = os.path.join("data", "avatar_map.json")

@@ -104,13 +104,37 @@ def fetch_hero_list(session):
         if validate_response(data):
             heroes = data.get("data", [])
             logger.info(f"Master roster successfully fetched. Count: {len(heroes)} heroes.")
-            return heroes
+            return merge_gms_roster(session, heroes)
         else:
             logger.error(f"Moonton API error message: {data.get('message')}")
-            return []
+            return merge_gms_roster(session, [])
     except Exception as e:
         logger.error(f"Roster list network fetch failure: {e}")
-        return []
+        return merge_gms_roster(session, [])
+
+
+def merge_gms_roster(session, legacy_heroes):
+    """
+    Union the legacy roster with the current GMS API's.
+
+    The legacy list stops at 124, so heroes 125+ were never even iterated and
+    the per-hero GMS fallback never got a chance to fire. Anything the legacy
+    list is missing is appended here in the same {heroid, name} shape.
+    """
+    known = {str(h.get("heroid")) for h in legacy_heroes if h.get("heroid") is not None}
+    added = 0
+    for record in fetch_gms_records(session):
+        d = record.get("data", {}) or {}
+        hero_id = d.get("hero_id")
+        if hero_id is None or str(hero_id) in known:
+            continue
+        hero = (d.get("hero") or {}).get("data", {}) or {}
+        legacy_heroes.append({"heroid": hero_id, "name": hero.get("name") or f"Hero {hero_id}"})
+        known.add(str(hero_id))
+        added += 1
+    if added:
+        logger.info(f"Roster extended with {added} hero(es) the legacy list does not carry.")
+    return legacy_heroes
 
 def fetch_hero_detail(session, hero_id, lang):
     """Fetch detailed profile in active language."""
