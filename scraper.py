@@ -114,9 +114,9 @@ def fetch_hero_list(session):
         return merge_gms_roster(session, [])
 
 
-def curated_hero_names():
+def curated_hero_meta():
     """
-    Curated id -> name map for the heroes the legacy API does not carry.
+    Curated id -> metadata map for the heroes the legacy API does not carry.
 
     The current GMS API's `name` field is the hero name for most entries but the
     epithet for some of the newest ones — 133 answers "Esper Assassin" rather
@@ -130,12 +130,12 @@ def curated_hero_names():
             sys.path.insert(0, scripts_dir)
         from generate_missing_heroes import MISSING_HEROES
         return {
-            str(h_id): meta["name"]
+            str(h_id): meta
             for h_id, meta in MISSING_HEROES.items()
             if isinstance(meta, dict) and meta.get("name")
         }
     except Exception as e:
-        logger.warning(f"Curated hero names unavailable, falling back to GMS names: {e}")
+        logger.warning(f"Curated hero metadata unavailable, falling back to GMS values: {e}")
         return {}
 
 
@@ -148,7 +148,7 @@ def merge_gms_roster(session, legacy_heroes):
     list is missing is appended here in the same {heroid, name} shape.
     """
     known = {str(h.get("heroid")) for h in legacy_heroes if h.get("heroid") is not None}
-    curated = curated_hero_names()
+    curated = {k: v.get("name") for k, v in curated_hero_meta().items()}
     added = 0
     for record in fetch_gms_records(session):
         d = record.get("data", {}) or {}
@@ -302,8 +302,19 @@ def gms_to_moonton(session, record):
     if len(skills) > 4:
         skills = skills[:4]
 
+    # compile_data reads role and the four stat bars from type/alive/phy/mag/diff.
+    # The GMS record does not carry them in that shape, so take them from the
+    # curated table — without this the hero compiles with role "Unknown" and
+    # zeroed stats.
+    meta = curated_hero_meta().get(str(d.get("hero_id")), {})
+
     return {
-        "name": hero.get("name") or "",
+        "name": meta.get("name") or hero.get("name") or "",
+        "type": meta.get("role", "Unknown"),
+        "alive": meta.get("durability", 0),
+        "phy": meta.get("offense", 0),
+        "mag": meta.get("magic", 0),
+        "diff": meta.get("difficulty", 0),
         "cover_picture": d.get("painting") or "",
         "head": d.get("head") or "",
         "head_big": d.get("head_big") or "",
