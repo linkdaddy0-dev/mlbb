@@ -1477,6 +1477,30 @@ body {
   box-shadow: 0 0 10px var(--accent-blue-glow);
 }
 
+/* Slot badge used when a hero has no real skill art (IDs 125-133, which the
+   legacy Moonton API returns empty). Without it all four slots render the same
+   generic logo and the kit looks broken. */
+.skills-badge-slot {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: 2px solid var(--border-light);
+  background-color: var(--bg-main);
+  color: var(--text-muted);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.62rem;
+  font-weight: 900;
+  letter-spacing: 0.5px;
+}
+
+.skills-badge-btn.active .skills-badge-slot {
+  border-color: var(--accent-blue);
+  color: var(--accent-blue);
+  box-shadow: 0 0 10px var(--accent-blue-glow);
+}
+
 /* Active Skill Desc card */
 .skills-active-detail-card {
   background: var(--bg-main);
