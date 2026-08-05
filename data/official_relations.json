@@ -433,9 +433,9 @@
   },
   "62": {
     "name": "Kaja",
-    "synergy_desc": "Kaja works best with high burst damage heroes like Eudora and Aamon that can quickly kill a target suppressed by his Ultimate.",
-    "strong_desc": "Kaja counters Assassins that rely on constant movement, such as Fanny and Lancelot, as his Ultimate will instantly shutdown their mobility.",
-    "weak_desc": "Kaja is countered by Marksmen or Mages with long range like Layla and Pharsa because the short range of his Ultimate will put him at the mercy of their attacks."
+    "synergy_desc": "He also pairs well with allies with AoE, like Odette, Pharsa, and Ixia. Kaja can hold enemies in place while they pile on the damage. The perfect set!",
+    "strong_desc": "Kaja does well against carries with no mobility skills, such as Layla, Ixia, and Vexana. Once he flies in and lassoes them, there's no hope of escape. ",
+    "weak_desc": "Now, if you're up against Kaja, remember that while his Ultimate can't be Purified, heroes with mobility like Kagura, Yi Sun-shin, and Suyou can still dodge it with a dash."
   },
   "61": {
     "name": "Chang'e",
