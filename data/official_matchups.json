@@ -534,23 +534,23 @@
     "teammates": [
       {
         "heroid": 55,
-        "score": 4.77
+        "score": 4.65
       },
       {
         "heroid": 99,
-        "score": 2.27
-      },
-      {
-        "heroid": 110,
-        "score": 1.87
+        "score": 2.23
       },
       {
         "heroid": 112,
-        "score": 1.8
+        "score": 1.81
+      },
+      {
+        "heroid": 110,
+        "score": 1.76
       },
       {
         "heroid": 85,
-        "score": 1.6
+        "score": 1.63
       }
     ]
   },
@@ -1093,11 +1093,7 @@
       },
       {
         "heroid": 110,
-        "score": 2.54
-      },
-      {
-        "heroid": 24,
-        "score": 1.98
+        "score": 2.62
       },
       {
         "heroid": 76,
@@ -1105,7 +1101,11 @@
       },
       {
         "heroid": 115,
-        "score": 1.83
+        "score": 1.85
+      },
+      {
+        "heroid": 24,
+        "score": 1.82
       }
     ]
   },
@@ -1643,24 +1643,24 @@
     ],
     "teammates": [
       {
-        "heroid": 127,
-        "score": 1.98
+        "heroid": 11,
+        "score": 2.0
       },
       {
-        "heroid": 11,
-        "score": 1.96
+        "heroid": 127,
+        "score": 1.92
       },
       {
         "heroid": 14,
-        "score": 1.5
-      },
-      {
-        "heroid": 112,
-        "score": 1.34
+        "score": 1.51
       },
       {
         "heroid": 114,
-        "score": 1.34
+        "score": 1.33
+      },
+      {
+        "heroid": 112,
+        "score": 1.32
       }
     ]
   },
@@ -2199,23 +2199,23 @@
     "teammates": [
       {
         "heroid": 73,
-        "score": 2.91
+        "score": 2.9
       },
       {
         "heroid": 94,
-        "score": 1.85
+        "score": 1.88
       },
       {
         "heroid": 55,
-        "score": 0.91
+        "score": 0.92
       },
       {
         "heroid": 133,
-        "score": 0.75
+        "score": 0.77
       },
       {
         "heroid": 69,
-        "score": 0.75
+        "score": 0.74
       }
     ]
   },
@@ -2754,23 +2754,23 @@
     "teammates": [
       {
         "heroid": 42,
-        "score": 1.61
+        "score": 1.6
       },
       {
         "heroid": 24,
-        "score": 1.48
+        "score": 1.49
       },
       {
         "heroid": 109,
-        "score": 1.14
+        "score": 1.15
       },
       {
         "heroid": 8,
-        "score": 1.13
+        "score": 1.15
       },
       {
-        "heroid": 53,
-        "score": 1.08
+        "heroid": 88,
+        "score": 1.12
       }
     ]
   },
@@ -3309,23 +3309,23 @@
     "teammates": [
       {
         "heroid": 74,
-        "score": 1.81
+        "score": 1.8
       },
       {
         "heroid": 3,
-        "score": 1.61
+        "score": 1.51
       },
       {
         "heroid": 24,
-        "score": 1.35
+        "score": 1.45
       },
       {
         "heroid": 90,
-        "score": 1.28
+        "score": 1.25
       },
       {
         "heroid": 60,
-        "score": 1.19
+        "score": 1.18
       }
     ]
   },
@@ -3864,23 +3864,23 @@
     "teammates": [
       {
         "heroid": 124,
-        "score": 4.93
+        "score": 5.08
       },
       {
         "heroid": 112,
-        "score": 3.38
+        "score": 3.4
       },
       {
         "heroid": 106,
-        "score": 3.12
+        "score": 3.18
       },
       {
         "heroid": 88,
-        "score": 2.98
+        "score": 3.06
       },
       {
         "heroid": 79,
-        "score": 2.34
+        "score": 2.33
       }
     ]
   },
@@ -4419,23 +4419,23 @@
     "teammates": [
       {
         "heroid": 85,
-        "score": 1.29
+        "score": 1.27
       },
       {
         "heroid": 99,
-        "score": 1.22
+        "score": 1.12
       },
       {
         "heroid": 59,
-        "score": 1.07
+        "score": 1.03
       },
       {
         "heroid": 22,
-        "score": 1.02
+        "score": 0.97
       },
       {
         "heroid": 46,
-        "score": 0.85
+        "score": 0.82
       }
     ]
   },
@@ -4974,11 +4974,11 @@
     "teammates": [
       {
         "heroid": 48,
-        "score": 2.68
+        "score": 2.69
       },
       {
         "heroid": 17,
-        "score": 1.89
+        "score": 1.9
       },
       {
         "heroid": 87,
@@ -4986,11 +4986,11 @@
       },
       {
         "heroid": 127,
-        "score": 1.61
+        "score": 1.64
       },
       {
-        "heroid": 131,
-        "score": 1.34
+        "heroid": 124,
+        "score": 1.49
       }
     ]
   },
@@ -5529,23 +5529,23 @@
     "teammates": [
       {
         "heroid": 110,
-        "score": 2.84
+        "score": 2.83
       },
       {
         "heroid": 125,
-        "score": 2.36
+        "score": 2.32
       },
       {
         "heroid": 17,
-        "score": 2.21
+        "score": 2.18
+      },
+      {
+        "heroid": 73,
+        "score": 1.96
       },
       {
         "heroid": 118,
-        "score": 2.02
-      },
-      {
-        "heroid": 76,
-        "score": 2.0
+        "score": 1.96
       }
     ]
   },
@@ -6084,23 +6084,23 @@
     "teammates": [
       {
         "heroid": 14,
-        "score": 1.96
+        "score": 1.93
       },
       {
         "heroid": 112,
-        "score": 1.69
+        "score": 1.67
       },
       {
         "heroid": 102,
-        "score": 1.38
+        "score": 1.36
       },
       {
         "heroid": 132,
-        "score": 1.31
+        "score": 1.33
       },
       {
         "heroid": 4,
-        "score": 1.31
+        "score": 1.3
       }
     ]
   },
@@ -6638,24 +6638,24 @@
     ],
     "teammates": [
       {
-        "heroid": 34,
-        "score": 1.86
+        "heroid": 27,
+        "score": 1.87
       },
       {
-        "heroid": 27,
-        "score": 1.82
+        "heroid": 34,
+        "score": 1.81
       },
       {
         "heroid": 14,
-        "score": 1.54
+        "score": 1.48
       },
       {
         "heroid": 20,
-        "score": 1.42
+        "score": 1.46
       },
       {
         "heroid": 19,
-        "score": 1.32
+        "score": 1.34
       }
     ]
   },
@@ -7194,23 +7194,23 @@
     "teammates": [
       {
         "heroid": 55,
-        "score": 1.93
+        "score": 1.91
       },
       {
         "heroid": 112,
-        "score": 1.54
+        "score": 1.56
       },
       {
         "heroid": 124,
-        "score": 1.25
+        "score": 1.22
       },
       {
         "heroid": 14,
-        "score": 1.18
+        "score": 1.17
       },
       {
         "heroid": 1,
-        "score": 1.1
+        "score": 1.08
       }
     ]
   },
@@ -7749,23 +7749,23 @@
     "teammates": [
       {
         "heroid": 105,
-        "score": 4.58
+        "score": 4.64
       },
       {
         "heroid": 121,
-        "score": 3.97
-      },
-      {
-        "heroid": 100,
-        "score": 3.7
+        "score": 3.92
       },
       {
         "heroid": 13,
-        "score": 3.64
+        "score": 3.66
       },
       {
-        "heroid": 79,
-        "score": 3.21
+        "heroid": 100,
+        "score": 3.66
+      },
+      {
+        "heroid": 89,
+        "score": 3.46
       }
     ]
   },
@@ -8304,23 +8304,23 @@
     "teammates": [
       {
         "heroid": 11,
-        "score": 1.34
-      },
-      {
-        "heroid": 87,
-        "score": 1.13
+        "score": 1.3
       },
       {
         "heroid": 93,
-        "score": 1.07
-      },
-      {
-        "heroid": 4,
         "score": 1.05
       },
       {
-        "heroid": 83,
-        "score": 0.84
+        "heroid": 4,
+        "score": 1.04
+      },
+      {
+        "heroid": 87,
+        "score": 1.0
+      },
+      {
+        "heroid": 127,
+        "score": 0.83
       }
     ]
   },
@@ -8859,23 +8859,23 @@
     "teammates": [
       {
         "heroid": 99,
-        "score": 1.5
+        "score": 1.49
       },
       {
         "heroid": 20,
-        "score": 1.24
-      },
-      {
-        "heroid": 129,
-        "score": 1.14
+        "score": 1.43
       },
       {
         "heroid": 9,
-        "score": 1.13
+        "score": 1.16
       },
       {
-        "heroid": 97,
-        "score": 1.13
+        "heroid": 129,
+        "score": 1.15
+      },
+      {
+        "heroid": 44,
+        "score": 1.14
       }
     ]
   },
@@ -9417,20 +9417,20 @@
         "score": 3.91
       },
       {
-        "heroid": 127,
-        "score": 2.27
-      },
-      {
         "heroid": 11,
-        "score": 2.21
+        "score": 2.32
       },
       {
-        "heroid": 77,
-        "score": 1.47
+        "heroid": 127,
+        "score": 2.24
       },
       {
         "heroid": 114,
         "score": 1.45
+      },
+      {
+        "heroid": 77,
+        "score": 1.44
       }
     ]
   },
@@ -9973,19 +9973,19 @@
       },
       {
         "heroid": 27,
-        "score": 0.81
+        "score": 0.83
       },
       {
-        "heroid": 94,
-        "score": 0.79
+        "heroid": 20,
+        "score": 0.76
+      },
+      {
+        "heroid": 73,
+        "score": 0.72
       },
       {
         "heroid": 4,
-        "score": 0.79
-      },
-      {
-        "heroid": 116,
-        "score": 0.74
+        "score": 0.71
       }
     ]
   },
@@ -10524,7 +10524,7 @@
     "teammates": [
       {
         "heroid": 85,
-        "score": 1.57
+        "score": 1.58
       },
       {
         "heroid": 112,
@@ -10532,15 +10532,15 @@
       },
       {
         "heroid": 48,
-        "score": 0.99
-      },
-      {
-        "heroid": 43,
-        "score": 0.92
+        "score": 0.98
       },
       {
         "heroid": 55,
         "score": 0.9
+      },
+      {
+        "heroid": 53,
+        "score": 0.89
       }
     ]
   },
@@ -11079,23 +11079,23 @@
     "teammates": [
       {
         "heroid": 114,
-        "score": 2.02
+        "score": 1.96
       },
       {
         "heroid": 62,
-        "score": 1.82
+        "score": 1.71
       },
       {
         "heroid": 125,
-        "score": 1.53
+        "score": 1.49
       },
       {
         "heroid": 31,
-        "score": 1.29
+        "score": 1.25
       },
       {
         "heroid": 99,
-        "score": 1.24
+        "score": 1.16
       }
     ]
   },
@@ -11634,23 +11634,23 @@
     "teammates": [
       {
         "heroid": 104,
-        "score": 2.22
+        "score": 2.32
       },
       {
         "heroid": 35,
-        "score": 1.69
+        "score": 1.72
       },
       {
         "heroid": 32,
-        "score": 1.64
-      },
-      {
-        "heroid": 98,
-        "score": 1.47
+        "score": 1.66
       },
       {
         "heroid": 2,
-        "score": 1.47
+        "score": 1.55
+      },
+      {
+        "heroid": 98,
+        "score": 1.41
       }
     ]
   },
@@ -12189,23 +12189,23 @@
     "teammates": [
       {
         "heroid": 121,
-        "score": 1.65
-      },
-      {
-        "heroid": 9,
         "score": 1.64
       },
       {
+        "heroid": 9,
+        "score": 1.61
+      },
+      {
         "heroid": 42,
-        "score": 1.56
+        "score": 1.53
       },
       {
         "heroid": 132,
-        "score": 1.5
+        "score": 1.52
       },
       {
         "heroid": 5,
-        "score": 1.32
+        "score": 1.36
       }
     ]
   },
@@ -12744,7 +12744,7 @@
     "teammates": [
       {
         "heroid": 24,
-        "score": 1.19
+        "score": 1.24
       },
       {
         "heroid": 42,
@@ -12752,15 +12752,15 @@
       },
       {
         "heroid": 69,
-        "score": 1.11
+        "score": 1.07
       },
       {
         "heroid": 64,
-        "score": 0.96
+        "score": 0.97
       },
       {
         "heroid": 40,
-        "score": 0.91
+        "score": 0.92
       }
     ]
   },
@@ -13299,15 +13299,11 @@
     "teammates": [
       {
         "heroid": 55,
-        "score": 3.5
+        "score": 3.51
       },
       {
         "heroid": 112,
-        "score": 2.13
-      },
-      {
-        "heroid": 34,
-        "score": 1.72
+        "score": 2.17
       },
       {
         "heroid": 24,
@@ -13315,7 +13311,11 @@
       },
       {
         "heroid": 27,
-        "score": 1.67
+        "score": 1.69
+      },
+      {
+        "heroid": 34,
+        "score": 1.66
       }
     ]
   },
@@ -13854,23 +13854,23 @@
     "teammates": [
       {
         "heroid": 24,
-        "score": 2.57
+        "score": 2.58
       },
       {
         "heroid": 3,
-        "score": 2.14
+        "score": 2.21
       },
       {
         "heroid": 51,
-        "score": 1.85
-      },
-      {
-        "heroid": 14,
-        "score": 1.7
+        "score": 1.79
       },
       {
         "heroid": 90,
-        "score": 1.66
+        "score": 1.64
+      },
+      {
+        "heroid": 74,
+        "score": 1.61
       }
     ]
   },
@@ -14409,23 +14409,23 @@
     "teammates": [
       {
         "heroid": 55,
-        "score": 3.57
+        "score": 3.53
       },
       {
         "heroid": 11,
         "score": 1.61
       },
       {
-        "heroid": 48,
-        "score": 1.28
+        "heroid": 51,
+        "score": 1.26
       },
       {
-        "heroid": 51,
-        "score": 1.25
+        "heroid": 48,
+        "score": 1.24
       },
       {
         "heroid": 126,
-        "score": 1.07
+        "score": 1.03
       }
     ]
   },
@@ -14968,19 +14968,19 @@
       },
       {
         "heroid": 39,
-        "score": 1.92
+        "score": 1.94
       },
       {
         "heroid": 73,
-        "score": 1.78
+        "score": 1.8
       },
       {
         "heroid": 27,
-        "score": 1.13
+        "score": 1.16
       },
       {
         "heroid": 10,
-        "score": 1.1
+        "score": 1.14
       }
     ]
   },
@@ -15519,7 +15519,7 @@
     "teammates": [
       {
         "heroid": 99,
-        "score": 1.2
+        "score": 1.25
       },
       {
         "heroid": 81,
@@ -15527,15 +15527,15 @@
       },
       {
         "heroid": 78,
-        "score": 1.01
-      },
-      {
-        "heroid": 58,
-        "score": 0.94
+        "score": 1.03
       },
       {
         "heroid": 101,
-        "score": 0.93
+        "score": 1.0
+      },
+      {
+        "heroid": 58,
+        "score": 0.97
       }
     ]
   },
@@ -16074,7 +16074,7 @@
     "teammates": [
       {
         "heroid": 55,
-        "score": 2.18
+        "score": 2.2
       },
       {
         "heroid": 34,
@@ -16082,15 +16082,15 @@
       },
       {
         "heroid": 133,
-        "score": 1.29
-      },
-      {
-        "heroid": 60,
-        "score": 1.17
+        "score": 1.28
       },
       {
         "heroid": 112,
-        "score": 1.16
+        "score": 1.19
+      },
+      {
+        "heroid": 60,
+        "score": 1.18
       }
     ]
   },
@@ -16629,7 +16629,7 @@
     "teammates": [
       {
         "heroid": 121,
-        "score": 2.42
+        "score": 2.36
       },
       {
         "heroid": 34,
@@ -16637,15 +16637,15 @@
       },
       {
         "heroid": 79,
-        "score": 1.66
-      },
-      {
-        "heroid": 53,
-        "score": 1.65
+        "score": 1.63
       },
       {
         "heroid": 13,
-        "score": 1.54
+        "score": 1.61
+      },
+      {
+        "heroid": 53,
+        "score": 1.59
       }
     ]
   },
@@ -17184,23 +17184,23 @@
     "teammates": [
       {
         "heroid": 3,
-        "score": 3.1
+        "score": 3.11
       },
       {
         "heroid": 87,
-        "score": 2.92
+        "score": 2.94
       },
       {
         "heroid": 111,
         "score": 2.75
       },
       {
-        "heroid": 99,
-        "score": 2.25
+        "heroid": 92,
+        "score": 2.39
       },
       {
-        "heroid": 74,
-        "score": 2.12
+        "heroid": 99,
+        "score": 2.24
       }
     ]
   },
@@ -17739,23 +17739,23 @@
     "teammates": [
       {
         "heroid": 84,
-        "score": 2.14
+        "score": 2.13
       },
       {
         "heroid": 127,
-        "score": 1.99
+        "score": 1.96
+      },
+      {
+        "heroid": 98,
+        "score": 1.8
       },
       {
         "heroid": 19,
-        "score": 1.75
+        "score": 1.78
       },
       {
         "heroid": 78,
-        "score": 1.74
-      },
-      {
-        "heroid": 93,
-        "score": 1.71
+        "score": 1.76
       }
     ]
   },
@@ -18294,23 +18294,23 @@
     "teammates": [
       {
         "heroid": 76,
-        "score": 1.8
+        "score": 1.69
       },
       {
         "heroid": 11,
-        "score": 1.68
+        "score": 1.64
       },
       {
         "heroid": 34,
-        "score": 1.35
+        "score": 1.39
       },
       {
         "heroid": 127,
-        "score": 1.05
+        "score": 0.96
       },
       {
-        "heroid": 7,
-        "score": 0.95
+        "heroid": 112,
+        "score": 0.92
       }
     ]
   },
@@ -18849,15 +18849,15 @@
     "teammates": [
       {
         "heroid": 85,
-        "score": 2.14
+        "score": 2.13
       },
       {
         "heroid": 99,
-        "score": 1.98
+        "score": 1.86
       },
       {
         "heroid": 79,
-        "score": 1.51
+        "score": 1.49
       },
       {
         "heroid": 46,
@@ -18865,7 +18865,7 @@
       },
       {
         "heroid": 114,
-        "score": 1.14
+        "score": 1.12
       }
     ]
   },
@@ -19404,23 +19404,23 @@
     "teammates": [
       {
         "heroid": 121,
-        "score": 2.38
+        "score": 2.41
       },
       {
         "heroid": 53,
-        "score": 1.95
+        "score": 1.97
       },
       {
         "heroid": 18,
-        "score": 1.92
+        "score": 1.94
       },
       {
         "heroid": 79,
-        "score": 1.86
+        "score": 1.77
       },
       {
-        "heroid": 13,
-        "score": 1.67
+        "heroid": 60,
+        "score": 1.63
       }
     ]
   },
@@ -19959,23 +19959,23 @@
     "teammates": [
       {
         "heroid": 48,
-        "score": 7.23
+        "score": 7.33
       },
       {
         "heroid": 73,
-        "score": 3.97
+        "score": 3.92
       },
       {
         "heroid": 94,
-        "score": 3.3
+        "score": 3.33
       },
       {
         "heroid": 87,
-        "score": 2.9
+        "score": 2.74
       },
       {
-        "heroid": 71,
-        "score": 2.42
+        "heroid": 39,
+        "score": 2.41
       }
     ]
   },
@@ -20514,23 +20514,23 @@
     "teammates": [
       {
         "heroid": 101,
-        "score": 6.82
+        "score": 6.65
       },
       {
         "heroid": 125,
-        "score": 5.06
-      },
-      {
-        "heroid": 79,
-        "score": 2.84
+        "score": 4.9
       },
       {
         "heroid": 114,
-        "score": 2.84
+        "score": 2.83
+      },
+      {
+        "heroid": 79,
+        "score": 2.82
       },
       {
         "heroid": 132,
-        "score": 2.54
+        "score": 2.62
       }
     ]
   },
@@ -21069,11 +21069,11 @@
     "teammates": [
       {
         "heroid": 37,
-        "score": 2.15
+        "score": 2.21
       },
       {
         "heroid": 97,
-        "score": 1.78
+        "score": 1.8
       },
       {
         "heroid": 119,
@@ -21081,10 +21081,10 @@
       },
       {
         "heroid": 63,
-        "score": 1.48
+        "score": 1.47
       },
       {
-        "heroid": 102,
+        "heroid": 80,
         "score": 1.39
       }
     ]
@@ -21624,23 +21624,23 @@
     "teammates": [
       {
         "heroid": 35,
-        "score": 1.3
+        "score": 1.29
       },
       {
         "heroid": 39,
-        "score": 1.28
+        "score": 1.27
       },
       {
         "heroid": 33,
-        "score": 1.22
+        "score": 1.23
       },
       {
         "heroid": 27,
-        "score": 1.21
+        "score": 1.22
       },
       {
         "heroid": 16,
-        "score": 1.15
+        "score": 1.18
       }
     ]
   },
@@ -22179,7 +22179,7 @@
     "teammates": [
       {
         "heroid": 124,
-        "score": 6.24
+        "score": 6.45
       },
       {
         "heroid": 4,
@@ -22187,15 +22187,15 @@
       },
       {
         "heroid": 127,
-        "score": 2.98
+        "score": 3.06
       },
       {
         "heroid": 73,
-        "score": 2.05
+        "score": 2.17
       },
       {
         "heroid": 62,
-        "score": 1.89
+        "score": 1.81
       }
     ]
   },
@@ -22734,23 +22734,23 @@
     "teammates": [
       {
         "heroid": 124,
-        "score": 2.33
+        "score": 2.42
       },
       {
         "heroid": 101,
-        "score": 2.33
+        "score": 2.19
       },
       {
         "heroid": 73,
-        "score": 1.68
+        "score": 1.78
       },
       {
         "heroid": 125,
-        "score": 1.59
+        "score": 1.53
       },
       {
-        "heroid": 127,
-        "score": 1.42
+        "heroid": 122,
+        "score": 1.43
       }
     ]
   },
@@ -23289,23 +23289,23 @@
     "teammates": [
       {
         "heroid": 92,
-        "score": 5.92
+        "score": 5.91
       },
       {
         "heroid": 127,
-        "score": 3.38
+        "score": 3.4
       },
       {
         "heroid": 79,
-        "score": 3.36
-      },
-      {
-        "heroid": 3,
-        "score": 2.24
+        "score": 3.38
       },
       {
         "heroid": 24,
-        "score": 2.24
+        "score": 2.29
+      },
+      {
+        "heroid": 3,
+        "score": 2.22
       }
     ]
   },
@@ -23844,23 +23844,23 @@
     "teammates": [
       {
         "heroid": 102,
-        "score": 8.14
+        "score": 8.17
       },
       {
         "heroid": 14,
-        "score": 5.99
+        "score": 5.97
       },
       {
         "heroid": 112,
-        "score": 5.92
+        "score": 5.91
       },
       {
         "heroid": 48,
-        "score": 5.62
+        "score": 5.82
       },
       {
-        "heroid": 124,
-        "score": 4.34
+        "heroid": 55,
+        "score": 4.28
       }
     ]
   },
@@ -24399,15 +24399,15 @@
     "teammates": [
       {
         "heroid": 127,
-        "score": 1.6
+        "score": 1.59
       },
       {
         "heroid": 108,
-        "score": 1.43
+        "score": 1.52
       },
       {
         "heroid": 72,
-        "score": 1.37
+        "score": 1.39
       },
       {
         "heroid": 132,
@@ -24415,7 +24415,7 @@
       },
       {
         "heroid": 11,
-        "score": 1.2
+        "score": 1.17
       }
     ]
   },
@@ -24954,23 +24954,23 @@
     "teammates": [
       {
         "heroid": 3,
-        "score": 2.36
+        "score": 2.31
       },
       {
         "heroid": 90,
-        "score": 1.29
+        "score": 1.3
       },
       {
         "heroid": 26,
-        "score": 1.18
-      },
-      {
-        "heroid": 16,
-        "score": 1.11
+        "score": 1.15
       },
       {
         "heroid": 109,
-        "score": 1.11
+        "score": 1.14
+      },
+      {
+        "heroid": 16,
+        "score": 1.1
       }
     ]
   },
@@ -25509,19 +25509,19 @@
     "teammates": [
       {
         "heroid": 53,
-        "score": 4.12
+        "score": 4.11
       },
       {
         "heroid": 79,
-        "score": 4.04
+        "score": 3.96
       },
       {
         "heroid": 121,
-        "score": 3.3
+        "score": 3.33
       },
       {
         "heroid": 13,
-        "score": 3.24
+        "score": 3.22
       },
       {
         "heroid": 18,
@@ -26064,7 +26064,7 @@
     "teammates": [
       {
         "heroid": 3,
-        "score": 3.49
+        "score": 3.37
       },
       {
         "heroid": 16,
@@ -26072,15 +26072,15 @@
       },
       {
         "heroid": 90,
-        "score": 1.98
+        "score": 1.91
       },
       {
         "heroid": 74,
-        "score": 1.81
+        "score": 1.75
       },
       {
         "heroid": 85,
-        "score": 1.54
+        "score": 1.56
       }
     ]
   },
@@ -26623,19 +26623,19 @@
       },
       {
         "heroid": 114,
-        "score": 2.0
-      },
-      {
-        "heroid": 4,
-        "score": 1.96
+        "score": 1.95
       },
       {
         "heroid": 132,
         "score": 1.86
       },
       {
-        "heroid": 29,
-        "score": 1.8
+        "heroid": 4,
+        "score": 1.83
+      },
+      {
+        "heroid": 55,
+        "score": 1.72
       }
     ]
   },
@@ -27174,23 +27174,23 @@
     "teammates": [
       {
         "heroid": 110,
-        "score": 5.06
+        "score": 4.9
       },
       {
         "heroid": 101,
-        "score": 4.84
+        "score": 4.67
       },
       {
         "heroid": 114,
-        "score": 2.36
+        "score": 2.32
       },
       {
         "heroid": 42,
-        "score": 2.03
+        "score": 2.08
       },
       {
         "heroid": 79,
-        "score": 1.94
+        "score": 1.88
       }
     ]
   },
@@ -27729,23 +27729,23 @@
     "teammates": [
       {
         "heroid": 87,
-        "score": 8.39
+        "score": 8.46
       },
       {
         "heroid": 121,
-        "score": 7.23
+        "score": 7.33
       },
       {
         "heroid": 92,
-        "score": 5.62
+        "score": 5.82
       },
       {
         "heroid": 105,
-        "score": 3.06
+        "score": 3.09
       },
       {
         "heroid": 107,
-        "score": 2.68
+        "score": 2.69
       }
     ]
   },
@@ -28284,19 +28284,19 @@
     "teammates": [
       {
         "heroid": 122,
-        "score": 1.66
+        "score": 1.7
       },
       {
         "heroid": 48,
-        "score": 1.56
+        "score": 1.54
       },
       {
         "heroid": 114,
-        "score": 1.51
+        "score": 1.53
       },
       {
         "heroid": 11,
-        "score": 1.24
+        "score": 1.29
       },
       {
         "heroid": 21,
@@ -28839,7 +28839,7 @@
     "teammates": [
       {
         "heroid": 27,
-        "score": 1.32
+        "score": 1.34
       },
       {
         "heroid": 32,
@@ -28847,11 +28847,11 @@
       },
       {
         "heroid": 64,
-        "score": 1.11
+        "score": 1.1
       },
       {
         "heroid": 42,
-        "score": 1.08
+        "score": 1.07
       },
       {
         "heroid": 39,
@@ -29394,23 +29394,23 @@
     "teammates": [
       {
         "heroid": 120,
-        "score": 1.47
+        "score": 1.44
       },
       {
         "heroid": 3,
-        "score": 1.37
+        "score": 1.34
       },
       {
         "heroid": 24,
-        "score": 1.26
+        "score": 1.28
       },
       {
         "heroid": 64,
-        "score": 1.22
+        "score": 1.26
       },
       {
-        "heroid": 106,
-        "score": 1.21
+        "heroid": 45,
+        "score": 1.2
       }
     ]
   },
@@ -29953,19 +29953,19 @@
       },
       {
         "heroid": 33,
-        "score": 1.14
+        "score": 1.1
       },
       {
         "heroid": 3,
         "score": 1.06
       },
       {
-        "heroid": 1,
-        "score": 1.02
+        "heroid": 42,
+        "score": 1.04
       },
       {
-        "heroid": 42,
-        "score": 1.0
+        "heroid": 1,
+        "score": 1.02
       }
     ]
   },
@@ -30504,23 +30504,23 @@
     "teammates": [
       {
         "heroid": 27,
-        "score": 2.03
+        "score": 2.0
       },
       {
         "heroid": 64,
-        "score": 1.76
-      },
-      {
-        "heroid": 35,
-        "score": 1.64
+        "score": 1.7
       },
       {
         "heroid": 123,
-        "score": 1.61
+        "score": 1.65
       },
       {
-        "heroid": 24,
-        "score": 1.51
+        "heroid": 35,
+        "score": 1.63
+      },
+      {
+        "heroid": 40,
+        "score": 1.49
       }
     ]
   },
@@ -31063,19 +31063,19 @@
       },
       {
         "heroid": 34,
-        "score": 2.12
+        "score": 2.15
       },
       {
         "heroid": 98,
-        "score": 1.95
+        "score": 1.92
       },
       {
         "heroid": 32,
-        "score": 1.84
+        "score": 1.85
       },
       {
         "heroid": 128,
-        "score": 1.81
+        "score": 1.8
       }
     ]
   },
@@ -31614,23 +31614,23 @@
     "teammates": [
       {
         "heroid": 104,
-        "score": 2.73
+        "score": 2.72
       },
       {
         "heroid": 87,
-        "score": 1.96
+        "score": 2.1
       },
       {
         "heroid": 6,
-        "score": 1.94
+        "score": 1.98
       },
       {
         "heroid": 9,
-        "score": 1.85
+        "score": 1.97
       },
       {
-        "heroid": 83,
-        "score": 1.76
+        "heroid": 70,
+        "score": 1.74
       }
     ]
   },
@@ -32168,24 +32168,24 @@
     ],
     "teammates": [
       {
+        "heroid": 41,
+        "score": 1.43
+      },
+      {
         "heroid": 32,
         "score": 1.42
       },
       {
-        "heroid": 41,
-        "score": 1.38
-      },
-      {
         "heroid": 5,
-        "score": 1.29
+        "score": 1.32
       },
       {
         "heroid": 6,
-        "score": 1.28
+        "score": 1.31
       },
       {
         "heroid": 97,
-        "score": 1.18
+        "score": 1.21
       }
     ]
   },
@@ -32724,23 +32724,23 @@
     "teammates": [
       {
         "heroid": 16,
-        "score": 1.47
+        "score": 1.51
       },
       {
         "heroid": 33,
+        "score": 1.36
+      },
+      {
+        "heroid": 28,
         "score": 1.32
       },
       {
         "heroid": 27,
-        "score": 1.29
-      },
-      {
-        "heroid": 28,
-        "score": 1.29
+        "score": 1.31
       },
       {
         "heroid": 116,
-        "score": 1.23
+        "score": 1.25
       }
     ]
   },
@@ -33279,23 +33279,23 @@
     "teammates": [
       {
         "heroid": 55,
-        "score": 2.69
+        "score": 2.73
       },
       {
         "heroid": 85,
-        "score": 1.14
-      },
-      {
-        "heroid": 16,
-        "score": 1.08
+        "score": 1.2
       },
       {
         "heroid": 45,
-        "score": 1.07
+        "score": 1.12
+      },
+      {
+        "heroid": 16,
+        "score": 1.06
       },
       {
         "heroid": 114,
-        "score": 0.8
+        "score": 0.81
       }
     ]
   },
@@ -33834,23 +33834,23 @@
     "teammates": [
       {
         "heroid": 72,
-        "score": 1.48
+        "score": 1.47
       },
       {
         "heroid": 112,
-        "score": 1.08
+        "score": 1.13
       },
       {
         "heroid": 1,
-        "score": 1.05
-      },
-      {
-        "heroid": 50,
-        "score": 0.93
+        "score": 1.04
       },
       {
         "heroid": 114,
         "score": 0.91
+      },
+      {
+        "heroid": 14,
+        "score": 0.86
       }
     ]
   },
@@ -34389,23 +34389,23 @@
     "teammates": [
       {
         "heroid": 9,
-        "score": 3.31
+        "score": 3.44
       },
       {
         "heroid": 78,
-        "score": 3.0
+        "score": 2.91
       },
       {
         "heroid": 92,
-        "score": 2.64
-      },
-      {
-        "heroid": 49,
-        "score": 2.57
+        "score": 2.65
       },
       {
         "heroid": 111,
-        "score": 2.48
+        "score": 2.61
+      },
+      {
+        "heroid": 49,
+        "score": 2.58
       }
     ]
   },
@@ -34943,24 +34943,24 @@
     ],
     "teammates": [
       {
-        "heroid": 11,
-        "score": 1.43
+        "heroid": 72,
+        "score": 1.34
       },
       {
-        "heroid": 27,
+        "heroid": 11,
         "score": 1.33
       },
       {
-        "heroid": 72,
+        "heroid": 27,
         "score": 1.32
       },
       {
         "heroid": 127,
-        "score": 1.2
+        "score": 1.13
       },
       {
-        "heroid": 62,
-        "score": 1.14
+        "heroid": 71,
+        "score": 1.07
       }
     ]
   },
@@ -35499,23 +35499,23 @@
     "teammates": [
       {
         "heroid": 120,
-        "score": 2.21
+        "score": 2.32
       },
       {
         "heroid": 131,
-        "score": 1.96
-      },
-      {
-        "heroid": 26,
-        "score": 1.69
-      },
-      {
-        "heroid": 29,
-        "score": 1.68
+        "score": 2.0
       },
       {
         "heroid": 98,
-        "score": 1.66
+        "score": 1.78
+      },
+      {
+        "heroid": 26,
+        "score": 1.67
+      },
+      {
+        "heroid": 29,
+        "score": 1.64
       }
     ]
   },
@@ -36054,23 +36054,23 @@
     "teammates": [
       {
         "heroid": 124,
-        "score": 4.03
+        "score": 3.98
       },
       {
         "heroid": 102,
-        "score": 2.66
+        "score": 2.7
       },
       {
         "heroid": 112,
-        "score": 1.96
+        "score": 1.99
       },
       {
         "heroid": 110,
-        "score": 1.68
+        "score": 1.43
       },
       {
         "heroid": 88,
-        "score": 1.45
+        "score": 1.38
       }
     ]
   },
@@ -36617,15 +36617,15 @@
       },
       {
         "heroid": 76,
-        "score": 1.96
+        "score": 1.83
       },
       {
         "heroid": 110,
-        "score": 1.47
+        "score": 1.42
       },
       {
         "heroid": 15,
-        "score": 1.31
+        "score": 1.3
       }
     ]
   },
@@ -37164,23 +37164,23 @@
     "teammates": [
       {
         "heroid": 124,
-        "score": 2.18
-      },
-      {
-        "heroid": 73,
-        "score": 2.08
+        "score": 2.12
       },
       {
         "heroid": 92,
-        "score": 2.0
+        "score": 2.05
+      },
+      {
+        "heroid": 73,
+        "score": 1.7
       },
       {
         "heroid": 100,
-        "score": 1.66
+        "score": 1.48
       },
       {
         "heroid": 101,
-        "score": 1.64
+        "score": 1.47
       }
     ]
   },
@@ -37719,23 +37719,23 @@
     "teammates": [
       {
         "heroid": 112,
-        "score": 2.11
+        "score": 2.05
       },
       {
         "heroid": 99,
-        "score": 1.81
+        "score": 1.69
       },
       {
         "heroid": 79,
-        "score": 1.56
+        "score": 1.58
       },
       {
         "heroid": 85,
-        "score": 1.41
+        "score": 1.44
       },
       {
         "heroid": 73,
-        "score": 1.38
+        "score": 1.36
       }
     ]
   },
@@ -38274,23 +38274,23 @@
     "teammates": [
       {
         "heroid": 42,
-        "score": 1.73
+        "score": 1.72
       },
       {
         "heroid": 32,
-        "score": 1.42
+        "score": 1.49
       },
       {
         "heroid": 113,
         "score": 1.33
       },
       {
-        "heroid": 56,
-        "score": 1.25
+        "heroid": 54,
+        "score": 1.28
       },
       {
-        "heroid": 54,
-        "score": 1.22
+        "heroid": 56,
+        "score": 1.23
       }
     ]
   },
@@ -38829,7 +38829,7 @@
     "teammates": [
       {
         "heroid": 90,
-        "score": 2.23
+        "score": 2.26
       },
       {
         "heroid": 74,
@@ -38837,15 +38837,15 @@
       },
       {
         "heroid": 3,
-        "score": 1.83
+        "score": 1.88
       },
       {
         "heroid": 16,
-        "score": 1.79
+        "score": 1.83
       },
       {
         "heroid": 45,
-        "score": 1.69
+        "score": 1.72
       }
     ]
   },
@@ -39384,19 +39384,19 @@
     "teammates": [
       {
         "heroid": 88,
-        "score": 6.24
+        "score": 6.45
       },
       {
         "heroid": 127,
-        "score": 4.93
+        "score": 5.08
       },
       {
         "heroid": 92,
-        "score": 4.34
+        "score": 4.22
       },
       {
         "heroid": 46,
-        "score": 4.03
+        "score": 3.98
       },
       {
         "heroid": 120,
@@ -39939,23 +39939,23 @@
     "teammates": [
       {
         "heroid": 7,
-        "score": 2.17
+        "score": 2.18
       },
       {
         "heroid": 3,
-        "score": 2.09
+        "score": 2.13
       },
       {
         "heroid": 16,
-        "score": 2.03
+        "score": 2.06
       },
       {
         "heroid": 64,
-        "score": 1.94
+        "score": 1.98
       },
       {
         "heroid": 116,
-        "score": 1.69
+        "score": 1.7
       }
     ]
   },
@@ -40494,23 +40494,23 @@
     "teammates": [
       {
         "heroid": 64,
-        "score": 2.73
-      },
-      {
-        "heroid": 3,
-        "score": 2.31
-      },
-      {
-        "heroid": 51,
-        "score": 2.26
+        "score": 2.72
       },
       {
         "heroid": 16,
-        "score": 2.24
+        "score": 2.35
       },
       {
         "heroid": 45,
-        "score": 2.22
+        "score": 2.32
+      },
+      {
+        "heroid": 51,
+        "score": 2.29
+      },
+      {
+        "heroid": 3,
+        "score": 2.28
       }
     ]
   },
@@ -41049,23 +41049,23 @@
     "teammates": [
       {
         "heroid": 42,
-        "score": 1.93
+        "score": 1.99
       },
       {
         "heroid": 32,
-        "score": 1.19
+        "score": 1.16
       },
       {
         "heroid": 24,
-        "score": 1.03
+        "score": 1.08
       },
       {
-        "heroid": 3,
+        "heroid": 16,
         "score": 1.01
       },
       {
-        "heroid": 10,
-        "score": 1.0
+        "heroid": 89,
+        "score": 0.99
       }
     ]
   },
@@ -41604,23 +41604,23 @@
     "teammates": [
       {
         "heroid": 9,
-        "score": 2.71
-      },
-      {
-        "heroid": 87,
-        "score": 2.3
+        "score": 2.73
       },
       {
         "heroid": 104,
-        "score": 2.26
+        "score": 2.29
       },
       {
-        "heroid": 49,
-        "score": 1.85
+        "heroid": 87,
+        "score": 2.14
       },
       {
         "heroid": 111,
-        "score": 1.78
+        "score": 1.83
+      },
+      {
+        "heroid": 49,
+        "score": 1.79
       }
     ]
   },
@@ -42159,23 +42159,23 @@
     "teammates": [
       {
         "heroid": 72,
-        "score": 1.78
+        "score": 1.8
       },
       {
         "heroid": 117,
-        "score": 1.59
+        "score": 1.63
       },
       {
         "heroid": 108,
-        "score": 1.57
-      },
-      {
-        "heroid": 7,
         "score": 1.48
       },
       {
         "heroid": 8,
-        "score": 1.44
+        "score": 1.48
+      },
+      {
+        "heroid": 7,
+        "score": 1.47
       }
     ]
   },
@@ -42714,23 +42714,23 @@
     "teammates": [
       {
         "heroid": 94,
-        "score": 4.12
+        "score": 4.11
       },
       {
         "heroid": 73,
-        "score": 2.79
+        "score": 2.8
       },
       {
         "heroid": 39,
-        "score": 1.95
-      },
-      {
-        "heroid": 71,
-        "score": 1.65
+        "score": 1.97
       },
       {
         "heroid": 111,
-        "score": 1.64
+        "score": 1.62
+      },
+      {
+        "heroid": 71,
+        "score": 1.59
       }
     ]
   },
@@ -43269,23 +43269,23 @@
     "teammates": [
       {
         "heroid": 55,
-        "score": 2.16
+        "score": 2.11
       },
       {
         "heroid": 27,
-        "score": 1.55
+        "score": 1.56
+      },
+      {
+        "heroid": 34,
+        "score": 1.5
       },
       {
         "heroid": 112,
         "score": 1.45
       },
       {
-        "heroid": 34,
-        "score": 1.44
-      },
-      {
         "heroid": 11,
-        "score": 1.33
+        "score": 1.19
       }
     ]
   },
@@ -43824,19 +43824,19 @@
     "teammates": [
       {
         "heroid": 60,
-        "score": 1.65
+        "score": 1.68
       },
       {
         "heroid": 27,
-        "score": 1.63
+        "score": 1.62
       },
       {
         "heroid": 90,
-        "score": 1.56
+        "score": 1.55
       },
       {
         "heroid": 3,
-        "score": 1.48
+        "score": 1.51
       },
       {
         "heroid": 11,
@@ -44379,23 +44379,23 @@
     "teammates": [
       {
         "heroid": 73,
-        "score": 4.58
+        "score": 4.64
       },
       {
         "heroid": 48,
-        "score": 3.06
+        "score": 3.09
       },
       {
         "heroid": 94,
-        "score": 2.66
-      },
-      {
-        "heroid": 117,
-        "score": 1.58
+        "score": 2.64
       },
       {
         "heroid": 87,
-        "score": 1.54
+        "score": 1.59
+      },
+      {
+        "heroid": 117,
+        "score": 1.57
       }
     ]
   },
@@ -44934,23 +44934,23 @@
     "teammates": [
       {
         "heroid": 34,
-        "score": 1.28
+        "score": 1.24
       },
       {
         "heroid": 7,
-        "score": 1.16
-      },
-      {
-        "heroid": 72,
-        "score": 1.07
+        "score": 1.22
       },
       {
         "heroid": 16,
-        "score": 1.03
+        "score": 0.97
+      },
+      {
+        "heroid": 72,
+        "score": 0.96
       },
       {
         "heroid": 1,
-        "score": 0.84
+        "score": 0.81
       }
     ]
   },
@@ -45489,23 +45489,23 @@
     "teammates": [
       {
         "heroid": 24,
-        "score": 3.0
+        "score": 2.91
       },
       {
         "heroid": 3,
-        "score": 2.85
+        "score": 2.82
       },
       {
         "heroid": 14,
-        "score": 2.36
+        "score": 2.3
       },
       {
         "heroid": 85,
-        "score": 1.74
+        "score": 1.76
       },
       {
         "heroid": 51,
-        "score": 1.72
+        "score": 1.74
       }
     ]
   },
@@ -46048,11 +46048,11 @@
       },
       {
         "heroid": 16,
-        "score": 2.18
+        "score": 2.2
       },
       {
         "heroid": 24,
-        "score": 1.97
+        "score": 2.0
       },
       {
         "heroid": 51,
@@ -46060,7 +46060,7 @@
       },
       {
         "heroid": 64,
-        "score": 1.73
+        "score": 1.74
       }
     ]
   },
@@ -46599,23 +46599,23 @@
     "teammates": [
       {
         "heroid": 74,
-        "score": 1.84
+        "score": 1.85
       },
       {
         "heroid": 68,
-        "score": 1.8
+        "score": 1.73
       },
       {
         "heroid": 64,
-        "score": 1.66
+        "score": 1.68
       },
       {
         "heroid": 45,
-        "score": 1.64
+        "score": 1.66
       },
       {
         "heroid": 16,
-        "score": 1.62
+        "score": 1.63
       }
     ]
   },
@@ -47154,23 +47154,23 @@
     "teammates": [
       {
         "heroid": 3,
-        "score": 3.35
-      },
-      {
-        "heroid": 26,
-        "score": 1.78
-      },
-      {
-        "heroid": 85,
-        "score": 1.75
+        "score": 3.32
       },
       {
         "heroid": 24,
-        "score": 1.65
+        "score": 1.84
+      },
+      {
+        "heroid": 85,
+        "score": 1.78
+      },
+      {
+        "heroid": 26,
+        "score": 1.76
       },
       {
         "heroid": 120,
-        "score": 1.37
+        "score": 1.42
       }
     ]
   },
@@ -47709,23 +47709,23 @@
     "teammates": [
       {
         "heroid": 24,
-        "score": 3.31
+        "score": 3.44
       },
       {
         "heroid": 55,
-        "score": 2.91
-      },
-      {
-        "heroid": 14,
-        "score": 2.76
+        "score": 2.85
       },
       {
         "heroid": 51,
-        "score": 2.71
+        "score": 2.73
+      },
+      {
+        "heroid": 14,
+        "score": 2.7
       },
       {
         "heroid": 16,
-        "score": 2.07
+        "score": 2.11
       }
     ]
   },
@@ -48268,19 +48268,19 @@
       },
       {
         "heroid": 24,
-        "score": 2.48
-      },
-      {
-        "heroid": 3,
-        "score": 1.79
+        "score": 2.61
       },
       {
         "heroid": 51,
-        "score": 1.78
+        "score": 1.83
       },
       {
-        "heroid": 112,
-        "score": 1.65
+        "heroid": 48,
+        "score": 1.79
+      },
+      {
+        "heroid": 3,
+        "score": 1.75
       }
     ]
   },
@@ -48819,19 +48819,19 @@
     "teammates": [
       {
         "heroid": 104,
-        "score": 2.24
+        "score": 2.35
       },
       {
         "heroid": 70,
-        "score": 2.18
+        "score": 2.2
       },
       {
         "heroid": 9,
-        "score": 2.07
+        "score": 2.11
       },
       {
         "heroid": 6,
-        "score": 2.03
+        "score": 2.06
       },
       {
         "heroid": 20,
@@ -49374,23 +49374,23 @@
     "teammates": [
       {
         "heroid": 123,
-        "score": 2.14
+        "score": 2.3
       },
       {
         "heroid": 83,
-        "score": 2.03
+        "score": 2.0
       },
       {
         "heroid": 54,
-        "score": 1.82
-      },
-      {
-        "heroid": 41,
-        "score": 1.67
+        "score": 1.87
       },
       {
         "heroid": 113,
-        "score": 1.67
+        "score": 1.69
+      },
+      {
+        "heroid": 41,
+        "score": 1.69
       }
     ]
   },
@@ -49929,23 +49929,23 @@
     "teammates": [
       {
         "heroid": 55,
-        "score": 3.24
+        "score": 3.21
       },
       {
         "heroid": 48,
-        "score": 2.16
+        "score": 2.02
       },
       {
         "heroid": 79,
         "score": 1.73
       },
       {
-        "heroid": 88,
-        "score": 1.68
+        "heroid": 97,
+        "score": 1.63
       },
       {
-        "heroid": 97,
-        "score": 1.59
+        "heroid": 105,
+        "score": 1.57
       }
     ]
   },
@@ -50484,23 +50484,23 @@
     "teammates": [
       {
         "heroid": 110,
-        "score": 1.95
+        "score": 1.66
       },
       {
         "heroid": 40,
-        "score": 1.5
+        "score": 1.49
       },
       {
         "heroid": 117,
-        "score": 1.48
+        "score": 1.46
       },
       {
         "heroid": 78,
-        "score": 1.17
+        "score": 1.12
       },
       {
-        "heroid": 73,
-        "score": 0.94
+        "heroid": 88,
+        "score": 0.91
       }
     ]
   },
@@ -51039,23 +51039,23 @@
     "teammates": [
       {
         "heroid": 92,
-        "score": 8.14
+        "score": 8.17
       },
       {
         "heroid": 3,
-        "score": 2.96
+        "score": 3.05
       },
       {
         "heroid": 46,
-        "score": 2.66
+        "score": 2.7
       },
       {
         "heroid": 110,
-        "score": 2.34
+        "score": 2.24
       },
       {
         "heroid": 127,
-        "score": 1.63
+        "score": 1.69
       }
     ]
   },
@@ -51593,24 +51593,24 @@
     ],
     "teammates": [
       {
-        "heroid": 32,
-        "score": 1.8
-      },
-      {
-        "heroid": 124,
-        "score": 1.78
-      },
-      {
         "heroid": 121,
         "score": 1.75
       },
       {
-        "heroid": 42,
-        "score": 1.72
+        "heroid": 32,
+        "score": 1.73
       },
       {
-        "heroid": 79,
-        "score": 1.35
+        "heroid": 42,
+        "score": 1.67
+      },
+      {
+        "heroid": 124,
+        "score": 1.47
+      },
+      {
+        "heroid": 114,
+        "score": 1.34
       }
     ]
   },
@@ -52149,23 +52149,23 @@
     "teammates": [
       {
         "heroid": 35,
-        "score": 2.23
+        "score": 2.26
       },
       {
         "heroid": 34,
         "score": 2.1
       },
       {
-        "heroid": 20,
-        "score": 1.98
+        "heroid": 98,
+        "score": 1.93
       },
       {
-        "heroid": 98,
-        "score": 1.88
+        "heroid": 20,
+        "score": 1.91
       },
       {
         "heroid": 49,
-        "score": 1.66
+        "score": 1.64
       }
     ]
   },
@@ -52704,23 +52704,23 @@
     "teammates": [
       {
         "heroid": 48,
-        "score": 8.39
+        "score": 8.46
       },
       {
         "heroid": 79,
-        "score": 3.54
+        "score": 3.61
       },
       {
         "heroid": 34,
-        "score": 2.92
+        "score": 2.94
       },
       {
         "heroid": 121,
-        "score": 2.9
+        "score": 2.74
       },
       {
         "heroid": 14,
-        "score": 2.69
+        "score": 2.68
       }
     ]
   },
@@ -53259,23 +53259,23 @@
     "teammates": [
       {
         "heroid": 114,
-        "score": 2.21
+        "score": 2.18
       },
       {
         "heroid": 107,
-        "score": 1.89
-      },
-      {
-        "heroid": 99,
-        "score": 1.61
+        "score": 1.9
       },
       {
         "heroid": 1,
-        "score": 1.58
+        "score": 1.59
+      },
+      {
+        "heroid": 99,
+        "score": 1.56
       },
       {
         "heroid": 85,
-        "score": 1.27
+        "score": 1.31
       }
     ]
   },
@@ -53814,23 +53814,23 @@
     "teammates": [
       {
         "heroid": 92,
-        "score": 5.99
-      },
-      {
-        "heroid": 93,
-        "score": 3.79
+        "score": 5.97
       },
       {
         "heroid": 124,
-        "score": 3.73
+        "score": 3.86
+      },
+      {
+        "heroid": 93,
+        "score": 3.64
       },
       {
         "heroid": 3,
-        "score": 2.94
+        "score": 2.95
       },
       {
         "heroid": 9,
-        "score": 2.76
+        "score": 2.7
       }
     ]
   },
@@ -54369,23 +54369,23 @@
     "teammates": [
       {
         "heroid": 42,
-        "score": 1.97
+        "score": 1.94
       },
       {
         "heroid": 24,
-        "score": 1.74
+        "score": 1.78
       },
       {
         "heroid": 32,
-        "score": 1.48
+        "score": 1.49
       },
       {
         "heroid": 33,
-        "score": 1.24
+        "score": 1.29
       },
       {
         "heroid": 56,
-        "score": 1.04
+        "score": 1.05
       }
     ]
   },
@@ -54924,23 +54924,23 @@
     "teammates": [
       {
         "heroid": 27,
-        "score": 2.14
+        "score": 2.3
       },
       {
         "heroid": 83,
-        "score": 1.61
+        "score": 1.65
       },
       {
         "heroid": 41,
-        "score": 1.27
+        "score": 1.26
       },
       {
         "heroid": 32,
-        "score": 1.23
+        "score": 1.2
       },
       {
-        "heroid": 11,
-        "score": 1.22
+        "heroid": 28,
+        "score": 1.19
       }
     ]
   },
@@ -55479,7 +55479,7 @@
     "teammates": [
       {
         "heroid": 73,
-        "score": 3.7
+        "score": 3.66
       },
       {
         "heroid": 94,
@@ -55487,15 +55487,15 @@
       },
       {
         "heroid": 112,
-        "score": 1.93
-      },
-      {
-        "heroid": 12,
-        "score": 1.66
+        "score": 1.92
       },
       {
         "heroid": 34,
-        "score": 1.51
+        "score": 1.5
+      },
+      {
+        "heroid": 12,
+        "score": 1.48
       }
     ]
   },
@@ -56034,19 +56034,19 @@
     "teammates": [
       {
         "heroid": 73,
-        "score": 3.64
+        "score": 3.66
       },
       {
         "heroid": 94,
-        "score": 3.24
-      },
-      {
-        "heroid": 39,
-        "score": 1.67
+        "score": 3.22
       },
       {
         "heroid": 71,
-        "score": 1.54
+        "score": 1.61
+      },
+      {
+        "heroid": 39,
+        "score": 1.6
       },
       {
         "heroid": 62,
@@ -56589,23 +56589,23 @@
     "teammates": [
       {
         "heroid": 73,
-        "score": 2.63
+        "score": 2.68
       },
       {
         "heroid": 94,
-        "score": 2.09
+        "score": 1.99
       },
       {
         "heroid": 85,
-        "score": 1.16
+        "score": 1.19
       },
       {
         "heroid": 52,
         "score": 0.92
       },
       {
-        "heroid": 23,
-        "score": 0.9
+        "heroid": 124,
+        "score": 0.88
       }
     ]
   },
@@ -57144,23 +57144,23 @@
     "teammates": [
       {
         "heroid": 61,
-        "score": 1.25
-      },
-      {
-        "heroid": 19,
-        "score": 1.07
-      },
-      {
-        "heroid": 129,
-        "score": 1.06
+        "score": 1.23
       },
       {
         "heroid": 50,
-        "score": 1.04
+        "score": 1.05
+      },
+      {
+        "heroid": 19,
+        "score": 1.02
+      },
+      {
+        "heroid": 129,
+        "score": 1.02
       },
       {
         "heroid": 1,
-        "score": 1.02
+        "score": 0.99
       }
     ]
   },
@@ -57699,22 +57699,22 @@
     "teammates": [
       {
         "heroid": 99,
-        "score": 1.94
+        "score": 1.98
       },
       {
         "heroid": 81,
-        "score": 1.66
+        "score": 1.7
       },
       {
         "heroid": 22,
-        "score": 1.41
-      },
-      {
-        "heroid": 112,
-        "score": 1.28
+        "score": 1.43
       },
       {
         "heroid": 31,
+        "score": 1.29
+      },
+      {
+        "heroid": 112,
         "score": 1.27
       }
     ]
@@ -58254,23 +58254,23 @@
     "teammates": [
       {
         "heroid": 42,
-        "score": 1.25
+        "score": 1.21
       },
       {
         "heroid": 27,
-        "score": 1.19
-      },
-      {
-        "heroid": 116,
-        "score": 0.99
+        "score": 1.16
       },
       {
         "heroid": 55,
-        "score": 0.98
+        "score": 1.01
+      },
+      {
+        "heroid": 116,
+        "score": 0.95
       },
       {
         "heroid": 39,
-        "score": 0.96
+        "score": 0.91
       }
     ]
   },
@@ -58813,19 +58813,19 @@
       },
       {
         "heroid": 73,
-        "score": 1.95
+        "score": 1.93
       },
       {
         "heroid": 94,
-        "score": 1.54
-      },
-      {
-        "heroid": 132,
-        "score": 1.45
+        "score": 1.51
       },
       {
         "heroid": 106,
-        "score": 1.41
+        "score": 1.37
+      },
+      {
+        "heroid": 132,
+        "score": 1.35
       }
     ]
   },
@@ -59364,23 +59364,23 @@
     "teammates": [
       {
         "heroid": 73,
-        "score": 2.65
+        "score": 2.43
       },
       {
         "heroid": 94,
-        "score": 1.83
+        "score": 1.84
       },
       {
         "heroid": 55,
-        "score": 1.29
+        "score": 1.27
       },
       {
         "heroid": 39,
-        "score": 1.2
+        "score": 1.23
       },
       {
         "heroid": 67,
-        "score": 0.92
+        "score": 0.86
       }
     ]
   },
@@ -59919,23 +59919,23 @@
     "teammates": [
       {
         "heroid": 73,
-        "score": 2.9
+        "score": 3.46
       },
       {
         "heroid": 94,
-        "score": 2.66
+        "score": 2.56
       },
       {
         "heroid": 55,
-        "score": 2.17
+        "score": 2.19
       },
       {
         "heroid": 112,
-        "score": 1.8
+        "score": 1.79
       },
       {
         "heroid": 118,
-        "score": 1.04
+        "score": 1.01
       }
     ]
   },
@@ -60474,15 +60474,15 @@
     "teammates": [
       {
         "heroid": 27,
-        "score": 1.67
+        "score": 1.69
       },
       {
         "heroid": 35,
-        "score": 1.43
+        "score": 1.53
       },
       {
         "heroid": 98,
-        "score": 1.38
+        "score": 1.44
       },
       {
         "heroid": 32,
@@ -61029,23 +61029,23 @@
     "teammates": [
       {
         "heroid": 132,
-        "score": 1.83
-      },
-      {
-        "heroid": 53,
-        "score": 1.39
+        "score": 1.85
       },
       {
         "heroid": 78,
-        "score": 1.37
+        "score": 1.4
+      },
+      {
+        "heroid": 53,
+        "score": 1.34
       },
       {
         "heroid": 88,
-        "score": 1.16
+        "score": 1.12
       },
       {
-        "heroid": 62,
-        "score": 0.99
+        "heroid": 110,
+        "score": 0.91
       }
     ]
   },
@@ -61584,23 +61584,23 @@
     "teammates": [
       {
         "heroid": 94,
-        "score": 4.04
+        "score": 3.96
       },
       {
         "heroid": 87,
-        "score": 3.54
+        "score": 3.61
       },
       {
         "heroid": 112,
-        "score": 3.36
+        "score": 3.38
       },
       {
         "heroid": 73,
-        "score": 3.21
+        "score": 3.18
       },
       {
         "heroid": 101,
-        "score": 2.94
+        "score": 2.93
       }
     ]
   },
@@ -62139,23 +62139,23 @@
     "teammates": [
       {
         "heroid": 19,
-        "score": 1.78
+        "score": 1.76
       },
       {
         "heroid": 11,
-        "score": 1.69
+        "score": 1.67
       },
       {
         "heroid": 6,
-        "score": 1.31
+        "score": 1.32
       },
       {
         "heroid": 70,
-        "score": 1.24
+        "score": 1.25
       },
       {
-        "heroid": 9,
-        "score": 1.23
+        "heroid": 20,
+        "score": 1.22
       }
     ]
   },
@@ -62694,23 +62694,23 @@
     "teammates": [
       {
         "heroid": 133,
-        "score": 4.77
+        "score": 4.65
       },
       {
         "heroid": 92,
-        "score": 4.18
+        "score": 4.28
       },
       {
         "heroid": 59,
-        "score": 3.57
+        "score": 3.53
       },
       {
         "heroid": 41,
-        "score": 3.5
+        "score": 3.51
       },
       {
         "heroid": 117,
-        "score": 3.24
+        "score": 3.21
       }
     ]
   },
@@ -63249,15 +63249,15 @@
     "teammates": [
       {
         "heroid": 55,
-        "score": 2.02
+        "score": 2.03
       },
       {
         "heroid": 27,
-        "score": 1.59
+        "score": 1.61
       },
       {
         "heroid": 45,
-        "score": 1.47
+        "score": 1.55
       },
       {
         "heroid": 64,
@@ -63265,7 +63265,7 @@
       },
       {
         "heroid": 97,
-        "score": 1.16
+        "score": 1.2
       }
     ]
   },
@@ -63804,15 +63804,15 @@
     "teammates": [
       {
         "heroid": 6,
-        "score": 1.69
+        "score": 1.7
       },
       {
         "heroid": 32,
-        "score": 1.48
+        "score": 1.47
       },
       {
         "heroid": 93,
-        "score": 1.45
+        "score": 1.46
       },
       {
         "heroid": 104,
@@ -63820,7 +63820,7 @@
       },
       {
         "heroid": 5,
-        "score": 1.23
+        "score": 1.25
       }
     ]
   },
@@ -64359,7 +64359,7 @@
     "teammates": [
       {
         "heroid": 97,
-        "score": 1.44
+        "score": 1.48
       },
       {
         "heroid": 37,
@@ -64367,15 +64367,15 @@
       },
       {
         "heroid": 129,
-        "score": 1.13
+        "score": 1.15
       },
       {
         "heroid": 72,
-        "score": 1.13
+        "score": 1.15
       },
       {
         "heroid": 74,
-        "score": 1.01
+        "score": 0.98
       }
     ]
   },
@@ -64913,24 +64913,24 @@
     ],
     "teammates": [
       {
-        "heroid": 97,
-        "score": 1.57
+        "heroid": 80,
+        "score": 1.52
       },
       {
         "heroid": 55,
-        "score": 1.43
+        "score": 1.48
       },
       {
-        "heroid": 80,
-        "score": 1.43
+        "heroid": 97,
+        "score": 1.48
       },
       {
         "heroid": 53,
         "score": 1.38
       },
       {
-        "heroid": 120,
-        "score": 0.97
+        "heroid": 95,
+        "score": 0.93
       }
     ]
   },
@@ -65469,19 +65469,19 @@
     "teammates": [
       {
         "heroid": 14,
-        "score": 3.79
+        "score": 3.64
       },
       {
         "heroid": 3,
-        "score": 1.88
+        "score": 1.9
       },
       {
         "heroid": 24,
-        "score": 1.75
+        "score": 1.76
       },
       {
         "heroid": 85,
-        "score": 1.71
+        "score": 1.72
       },
       {
         "heroid": 11,
@@ -66024,23 +66024,23 @@
     "teammates": [
       {
         "heroid": 14,
-        "score": 2.6
-      },
-      {
-        "heroid": 133,
-        "score": 2.27
+        "score": 2.53
       },
       {
         "heroid": 34,
-        "score": 2.25
+        "score": 2.24
       },
       {
-        "heroid": 84,
-        "score": 1.98
+        "heroid": 133,
+        "score": 2.23
       },
       {
         "heroid": 122,
-        "score": 1.94
+        "score": 1.98
+      },
+      {
+        "heroid": 114,
+        "score": 1.89
       }
     ]
   },
@@ -66579,23 +66579,23 @@
     "teammates": [
       {
         "heroid": 72,
-        "score": 2.15
+        "score": 2.21
       },
       {
         "heroid": 27,
-        "score": 1.39
+        "score": 1.4
       },
       {
         "heroid": 7,
-        "score": 1.26
+        "score": 1.28
       },
       {
         "heroid": 8,
         "score": 1.23
       },
       {
-        "heroid": 1,
-        "score": 0.97
+        "heroid": 3,
+        "score": 0.96
       }
     ]
   },
@@ -67134,23 +67134,23 @@
     "teammates": [
       {
         "heroid": 88,
-        "score": 1.89
-      },
-      {
-        "heroid": 118,
-        "score": 1.82
+        "score": 1.81
       },
       {
         "heroid": 3,
-        "score": 1.79
+        "score": 1.71
+      },
+      {
+        "heroid": 118,
+        "score": 1.71
       },
       {
         "heroid": 40,
-        "score": 1.77
+        "score": 1.61
       },
       {
         "heroid": 46,
-        "score": 1.33
+        "score": 1.32
       }
     ]
   },
@@ -67693,19 +67693,19 @@
       },
       {
         "heroid": 20,
-        "score": 3.49
+        "score": 3.37
       },
       {
         "heroid": 19,
-        "score": 3.35
+        "score": 3.32
       },
       {
         "heroid": 34,
-        "score": 3.1
+        "score": 3.11
       },
       {
         "heroid": 102,
-        "score": 2.96
+        "score": 3.05
       }
     ]
   },
@@ -68244,23 +68244,23 @@
     "teammates": [
       {
         "heroid": 104,
-        "score": 2.05
+        "score": 2.08
       },
       {
         "heroid": 73,
-        "score": 1.96
+        "score": 2.04
       },
       {
         "heroid": 17,
-        "score": 1.58
+        "score": 1.59
       },
       {
         "heroid": 97,
-        "score": 1.4
+        "score": 1.37
       },
       {
         "heroid": 9,
-        "score": 1.3
+        "score": 1.33
       }
     ]
   },
@@ -68799,23 +68799,23 @@
     "teammates": [
       {
         "heroid": 110,
-        "score": 6.82
+        "score": 6.65
       },
       {
         "heroid": 125,
-        "score": 4.84
+        "score": 4.67
       },
       {
         "heroid": 79,
-        "score": 2.94
-      },
-      {
-        "heroid": 22,
-        "score": 2.33
+        "score": 2.93
       },
       {
         "heroid": 48,
-        "score": 2.21
+        "score": 2.32
+      },
+      {
+        "heroid": 22,
+        "score": 2.19
       }
     ]
   },
@@ -69354,23 +69354,23 @@
     "teammates": [
       {
         "heroid": 94,
-        "score": 2.21
+        "score": 2.22
       },
       {
         "heroid": 10,
-        "score": 1.65
+        "score": 1.68
       },
       {
         "heroid": 39,
-        "score": 1.6
-      },
-      {
-        "heroid": 128,
-        "score": 1.19
+        "score": 1.63
       },
       {
         "heroid": 73,
         "score": 1.19
+      },
+      {
+        "heroid": 58,
+        "score": 1.18
       }
     ]
   },
@@ -69909,23 +69909,23 @@
     "teammates": [
       {
         "heroid": 127,
-        "score": 3.12
+        "score": 3.18
       },
       {
         "heroid": 102,
-        "score": 1.61
+        "score": 1.43
       },
       {
         "heroid": 31,
-        "score": 1.41
+        "score": 1.37
+      },
+      {
+        "heroid": 48,
+        "score": 1.29
       },
       {
         "heroid": 112,
-        "score": 1.31
-      },
-      {
-        "heroid": 11,
-        "score": 1.25
+        "score": 1.22
       }
     ]
   },
@@ -70464,23 +70464,23 @@
     "teammates": [
       {
         "heroid": 73,
-        "score": 2.34
+        "score": 2.47
       },
       {
         "heroid": 62,
-        "score": 1.77
-      },
-      {
-        "heroid": 23,
-        "score": 1.5
+        "score": 1.61
       },
       {
         "heroid": 83,
-        "score": 1.44
+        "score": 1.49
+      },
+      {
+        "heroid": 23,
+        "score": 1.49
       },
       {
         "heroid": 4,
-        "score": 1.16
+        "score": 1.17
       }
     ]
   },
@@ -71019,19 +71019,19 @@
     "teammates": [
       {
         "heroid": 125,
-        "score": 1.82
+        "score": 1.46
+      },
+      {
+        "heroid": 110,
+        "score": 1.46
       },
       {
         "heroid": 33,
-        "score": 1.25
-      },
-      {
-        "heroid": 1,
-        "score": 1.12
+        "score": 1.27
       },
       {
         "heroid": 72,
-        "score": 1.12
+        "score": 1.13
       },
       {
         "heroid": 42,
@@ -71574,23 +71574,23 @@
     "teammates": [
       {
         "heroid": 6,
-        "score": 2.17
+        "score": 2.18
       },
       {
         "heroid": 97,
-        "score": 1.48
+        "score": 1.47
       },
       {
         "heroid": 37,
-        "score": 1.26
+        "score": 1.28
+      },
+      {
+        "heroid": 96,
+        "score": 1.22
       },
       {
         "heroid": 112,
-        "score": 1.24
-      },
-      {
-        "heroid": 76,
-        "score": 1.17
+        "score": 1.2
       }
     ]
   },
@@ -72129,23 +72129,23 @@
     "teammates": [
       {
         "heroid": 3,
-        "score": 2.38
-      },
-      {
-        "heroid": 74,
-        "score": 1.95
+        "score": 2.43
       },
       {
         "heroid": 90,
-        "score": 1.88
+        "score": 1.93
+      },
+      {
+        "heroid": 74,
+        "score": 1.92
       },
       {
         "heroid": 85,
-        "score": 1.71
+        "score": 1.8
       },
       {
         "heroid": 11,
-        "score": 1.66
+        "score": 1.78
       }
     ]
   },
@@ -72684,23 +72684,23 @@
     "teammates": [
       {
         "heroid": 92,
-        "score": 1.41
+        "score": 1.42
       },
       {
         "heroid": 88,
-        "score": 1.18
+        "score": 1.2
       },
       {
         "heroid": 48,
-        "score": 1.1
+        "score": 1.05
       },
       {
         "heroid": 20,
-        "score": 1.04
+        "score": 0.92
       },
       {
         "heroid": 42,
-        "score": 0.95
+        "score": 0.9
       }
     ]
   },
@@ -73239,23 +73239,23 @@
     "teammates": [
       {
         "heroid": 85,
-        "score": 1.65
+        "score": 1.66
       },
       {
         "heroid": 35,
-        "score": 1.61
+        "score": 1.62
       },
       {
         "heroid": 111,
-        "score": 1.52
+        "score": 1.46
       },
       {
         "heroid": 64,
-        "score": 1.4
+        "score": 1.44
       },
       {
         "heroid": 55,
-        "score": 1.27
+        "score": 1.44
       }
     ]
   },
@@ -73794,23 +73794,23 @@
     "teammates": [
       {
         "heroid": 110,
-        "score": 2.33
+        "score": 2.36
       },
       {
         "heroid": 125,
-        "score": 2.03
-      },
-      {
-        "heroid": 50,
-        "score": 1.97
+        "score": 2.08
       },
       {
         "heroid": 86,
-        "score": 1.93
+        "score": 1.99
+      },
+      {
+        "heroid": 50,
+        "score": 1.94
       },
       {
         "heroid": 61,
-        "score": 1.73
+        "score": 1.72
       }
     ]
   }
