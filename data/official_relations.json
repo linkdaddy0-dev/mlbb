@@ -277,9 +277,9 @@
   },
   "88": {
     "name": "Masha",
-    "synergy_desc": "Masha can maximize her effectiveness and damage when paired with utility Supports that provide extra Movement Speed and CC, such as Angela and Rafaela.",
-    "strong_desc": "Masha works well against Marksmen with low mobility, such as Ixia and Layla, as she can easily chase them down using her Ultimate.",
-    "weak_desc": "Masha is countered by Fighters with strong Regen capabilities like Cici and Thamuz, because they can outlast Masha in a prolonged fight due to her comparatively lower Regen."
+    "synergy_desc": "Masha also pairs well with CC heroes like Atlas and Minotaur. Once they pull the enemies together, she can tear them to shreds with her savage claws!",
+    "strong_desc": "Burst Mages like Eudora and Kadita are ideal prey for Masha. With three HP bars and CC removal plus damage negation when losing a bar, Masha has built-in anti-burst against them.",
+    "weak_desc": "Choose highly mobile heroes with multiple dashes, such as Fanny or Claude. Thwart her initiation, then focus her down before she goes Feral."
   },
   "87": {
     "name": "Baxia",
