@@ -81,31 +81,31 @@
         "id": 27,
         "name": "Sun",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Sun.",
-        "score": 1.99
+        "score": 2.0
       },
       {
         "id": 19,
         "name": "Minotaur",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Minotaur.",
-        "score": 1.71
+        "score": 1.7
       },
       {
         "id": 20,
         "name": "Lolita",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Lolita.",
-        "score": 1.68
-      },
-      {
-        "id": 69,
-        "name": "Hanzo",
-        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Hanzo.",
-        "score": 1.53
+        "score": 1.67
       },
       {
         "id": 98,
         "name": "Khaleed",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Khaleed.",
-        "score": 1.52
+        "score": 1.63
+      },
+      {
+        "id": 127,
+        "name": "Lukas",
+        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Lukas.",
+        "score": 1.56
       }
     ]
   },
@@ -191,19 +191,19 @@
         "id": 125,
         "name": "Zhuxin",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Zhuxin.",
-        "score": 2.59
-      },
-      {
-        "id": 110,
-        "name": "Valentina",
-        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Valentina.",
-        "score": 2.04
+        "score": 2.61
       },
       {
         "id": 101,
         "name": "Yve",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Yve.",
-        "score": 2.02
+        "score": 2.09
+      },
+      {
+        "id": 110,
+        "name": "Valentina",
+        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Valentina.",
+        "score": 2.07
       },
       {
         "id": 22,
@@ -215,7 +215,7 @@
         "id": 88,
         "name": "Masha",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Masha.",
-        "score": 1.4
+        "score": 1.41
       }
     ]
   },
@@ -301,31 +301,31 @@
         "id": 125,
         "name": "Zhuxin",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Zhuxin.",
-        "score": 5.01
+        "score": 4.59
       },
       {
         "id": 42,
         "name": "Harley",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Harley.",
-        "score": 2.46
+        "score": 2.52
       },
       {
         "id": 24,
         "name": "Natalia",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Natalia.",
-        "score": 1.22
+        "score": 1.17
       },
       {
         "id": 93,
         "name": "Atlas",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Atlas.",
-        "score": 1.11
+        "score": 1.13
       },
       {
         "id": 32,
         "name": "Johnson",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Johnson.",
-        "score": 1.0
+        "score": 1.09
       }
     ]
   },
@@ -411,31 +411,31 @@
         "id": 42,
         "name": "Harley",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Harley.",
-        "score": 1.56
+        "score": 1.59
       },
       {
         "id": 27,
         "name": "Sun",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Sun.",
-        "score": 1.35
-      },
-      {
-        "id": 35,
-        "name": "Hilda",
-        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Hilda.",
-        "score": 1.24
+        "score": 1.34
       },
       {
         "id": 32,
         "name": "Johnson",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Johnson.",
-        "score": 1.24
+        "score": 1.25
       },
       {
-        "id": 93,
-        "name": "Atlas",
-        "reason": "Heroes with powerful CC such as Atlas or\nhigh damage output like Beatrix to burst down enemies.",
-        "score": 1.16
+        "id": 35,
+        "name": "Hilda",
+        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Hilda.",
+        "score": 1.23
+      },
+      {
+        "id": 33,
+        "name": "Cyclops",
+        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Cyclops.",
+        "score": 1.15
       }
     ]
   },
@@ -521,31 +521,31 @@
         "id": 48,
         "name": "Diggie",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Diggie.",
-        "score": 4.21
+        "score": 4.25
       },
       {
         "id": 87,
         "name": "Baxia",
         "reason": "Beatrix works best with tank heroes with good CC abilities, as they can help improve the accuracy of Beatrix's skills. Like Khufra and Atlas.",
-        "score": 3.63
+        "score": 3.72
       },
       {
         "id": 73,
         "name": "Harith",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Harith.",
-        "score": 3.25
+        "score": 3.17
       },
       {
         "id": 94,
         "name": "Popol and Kupa",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Popol and Kupa.",
-        "score": 2.16
+        "score": 2.07
       },
       {
         "id": 117,
         "name": "Fredrinn",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Fredrinn.",
-        "score": 1.85
+        "score": 1.84
       }
     ]
   },
@@ -631,25 +631,25 @@
         "id": 132,
         "name": "Marcel",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Marcel.",
-        "score": 4.39
+        "score": 4.35
       },
       {
         "id": 34,
         "name": "Estes",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Estes.",
-        "score": 3.73
-      },
-      {
-        "id": 20,
-        "name": "Lolita",
-        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Lolita.",
-        "score": 3.51
+        "score": 3.67
       },
       {
         "id": 19,
         "name": "Minotaur",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Minotaur.",
         "score": 3.49
+      },
+      {
+        "id": 20,
+        "name": "Lolita",
+        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Lolita.",
+        "score": 3.46
       },
       {
         "id": 70,
@@ -741,31 +741,31 @@
         "id": 73,
         "name": "Harith",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Harith.",
-        "score": 3.13
+        "score": 3.08
       },
       {
         "id": 94,
         "name": "Popol and Kupa",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Popol and Kupa.",
-        "score": 2.72
+        "score": 2.79
       },
       {
         "id": 112,
         "name": "Floryn",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Floryn.",
-        "score": 1.54
+        "score": 1.56
       },
       {
         "id": 34,
         "name": "Estes",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Estes.",
-        "score": 1.27
+        "score": 1.28
       },
       {
         "id": 39,
         "name": "Roger",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Roger.",
-        "score": 1.11
+        "score": 1.17
       }
     ]
   },
@@ -848,34 +848,34 @@
     ],
     "synergy": [
       {
-        "id": 36,
-        "name": "Aurora",
-        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Aurora.",
-        "score": 3.66
-      },
-      {
         "id": 128,
         "name": "Kalea",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Kalea.",
-        "score": 3.52
+        "score": 3.91
+      },
+      {
+        "id": 36,
+        "name": "Aurora",
+        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Aurora.",
+        "score": 3.65
       },
       {
         "id": 14,
         "name": "Rafaela",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Rafaela.",
-        "score": 3.5
+        "score": 3.46
       },
       {
         "id": 46,
         "name": "Odette",
         "reason": "He also pairs well with allies with AoE, like Odette, Pharsa, and Ixia. Kaja can hold enemies in place while they pile on the damage. The perfect set!",
-        "score": 3.07
+        "score": 3.12
       },
       {
-        "id": 76,
-        "name": "Faramis",
-        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Faramis.",
-        "score": 2.45
+        "id": 92,
+        "name": "Carmilla",
+        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Carmilla.",
+        "score": 2.32
       }
     ]
   },
@@ -961,31 +961,31 @@
         "id": 93,
         "name": "Atlas",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Atlas.",
-        "score": 1.11
+        "score": 1.15
       },
       {
-        "id": 42,
-        "name": "Harley",
-        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Harley.",
-        "score": 0.95
-      },
-      {
-        "id": 34,
-        "name": "Estes",
-        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Estes.",
+        "id": 7,
+        "name": "Alucard",
+        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Alucard.",
         "score": 0.95
       },
       {
         "id": 72,
         "name": "Thamuz",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Thamuz.",
-        "score": 0.92
+        "score": 0.94
       },
       {
-        "id": 7,
-        "name": "Alucard",
-        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Alucard.",
-        "score": 0.91
+        "id": 34,
+        "name": "Estes",
+        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Estes.",
+        "score": 0.94
+      },
+      {
+        "id": 42,
+        "name": "Harley",
+        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Harley.",
+        "score": 0.86
       }
     ]
   },
@@ -1077,25 +1077,25 @@
         "id": 113,
         "name": "Yin",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Yin.",
-        "score": 2.08
-      },
-      {
-        "id": 85,
-        "name": "Dyrroth",
-        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Dyrroth.",
-        "score": 1.99
+        "score": 2.06
       },
       {
         "id": 54,
         "name": "Jawhead",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Jawhead.",
-        "score": 1.97
+        "score": 2.01
+      },
+      {
+        "id": 85,
+        "name": "Dyrroth",
+        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Dyrroth.",
+        "score": 2.0
       },
       {
         "id": 35,
         "name": "Hilda",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Hilda.",
-        "score": 1.88
+        "score": 1.86
       }
     ]
   },
@@ -1181,7 +1181,7 @@
         "id": 11,
         "name": "Bane",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Bane.",
-        "score": 1.94
+        "score": 1.91
       },
       {
         "id": 127,
@@ -1190,22 +1190,22 @@
         "score": 1.76
       },
       {
+        "id": 28,
+        "name": "Alpha",
+        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Alpha.",
+        "score": 1.21
+      },
+      {
         "id": 48,
         "name": "Diggie",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Diggie.",
-        "score": 1.24
+        "score": 1.21
       },
       {
         "id": 108,
         "name": "Aulus",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Aulus.",
-        "score": 1.22
-      },
-      {
-        "id": 55,
-        "name": "Angela",
-        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Angela.",
-        "score": 1.19
+        "score": 1.2
       }
     ]
   },
@@ -1291,13 +1291,13 @@
         "id": 4,
         "name": "Alice",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Alice.",
-        "score": 1.27
+        "score": 1.25
       },
       {
         "id": 73,
         "name": "Harith",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Harith.",
-        "score": 1.01
+        "score": 0.93
       },
       {
         "id": 108,
@@ -1306,16 +1306,16 @@
         "score": 0.78
       },
       {
-        "id": 71,
-        "name": "Kimmy",
-        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Kimmy.",
-        "score": 0.72
-      },
-      {
         "id": 11,
         "name": "Bane",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Bane.",
-        "score": 0.7
+        "score": 0.69
+      },
+      {
+        "id": 71,
+        "name": "Kimmy",
+        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Kimmy.",
+        "score": 0.69
       }
     ]
   },
@@ -1401,31 +1401,31 @@
         "id": 125,
         "name": "Zhuxin",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Zhuxin.",
-        "score": 7.97
+        "score": 7.99
       },
       {
         "id": 124,
         "name": "Chip",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Chip.",
-        "score": 4.74
-      },
-      {
-        "id": 62,
-        "name": "Kaja",
-        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Kaja.",
-        "score": 3.07
+        "score": 4.76
       },
       {
         "id": 102,
         "name": "Mathilda",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Mathilda.",
-        "score": 3.06
+        "score": 3.13
+      },
+      {
+        "id": 62,
+        "name": "Kaja",
+        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Kaja.",
+        "score": 3.12
       },
       {
         "id": 112,
         "name": "Floryn",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Floryn.",
-        "score": 2.03
+        "score": 2.02
       }
     ]
   },
@@ -1511,31 +1511,31 @@
         "id": 42,
         "name": "Harley",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Harley.",
-        "score": 1.97
+        "score": 2.04
       },
       {
         "id": 25,
         "name": "Kagura",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Kagura.",
-        "score": 1.96
+        "score": 1.93
       },
       {
         "id": 5,
         "name": "Nana",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Nana.",
-        "score": 1.9
+        "score": 1.93
       },
       {
         "id": 50,
         "name": "Zhask",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Zhask.",
-        "score": 1.87
+        "score": 1.86
       },
       {
         "id": 66,
         "name": "Vale",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Vale.",
-        "score": 1.84
+        "score": 1.79
       }
     ]
   },
@@ -1621,31 +1621,31 @@
         "id": 70,
         "name": "Belerick",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Belerick.",
-        "score": 3.17
+        "score": 3.15
       },
       {
         "id": 6,
         "name": "Tigreal",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Tigreal.",
-        "score": 2.66
+        "score": 2.58
       },
       {
         "id": 35,
         "name": "Hilda",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Hilda.",
-        "score": 2.46
+        "score": 2.5
       },
       {
         "id": 104,
         "name": "Gloo",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Gloo.",
-        "score": 2.23
+        "score": 2.26
       },
       {
         "id": 20,
         "name": "Lolita",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Lolita.",
-        "score": 2.04
+        "score": 2.21
       }
     ]
   },
@@ -1731,13 +1731,13 @@
         "id": 120,
         "name": "Arlott",
         "reason": "Aulus is a dive Fighter and he thrives with reliable ranged Support, such as Angela and Floryn.",
-        "score": 2.28
+        "score": 2.25
       },
       {
         "id": 131,
         "name": "Sora",
         "reason": "Aulus is a dive Fighter and he thrives with reliable ranged Support, such as Angela and Floryn.",
-        "score": 2.0
+        "score": 1.99
       },
       {
         "id": 80,
@@ -1749,13 +1749,13 @@
         "id": 97,
         "name": "Benedetta",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Benedetta.",
-        "score": 1.81
+        "score": 1.77
       },
       {
         "id": 29,
         "name": "Ruby",
         "reason": "Aulus is a dive Fighter and he thrives with reliable ranged Support, such as Angela and Floryn.",
-        "score": 1.75
+        "score": 1.62
       }
     ]
   },
@@ -1841,31 +1841,31 @@
         "id": 73,
         "name": "Harith",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Harith.",
-        "score": 1.78
+        "score": 1.96
       },
       {
         "id": 118,
         "name": "Joy",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Joy.",
-        "score": 1.15
+        "score": 1.19
       },
       {
         "id": 94,
         "name": "Popol and Kupa",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Popol and Kupa.",
-        "score": 1.0
+        "score": 1.13
       },
       {
-        "id": 25,
-        "name": "Kagura",
-        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Kagura.",
-        "score": 0.97
+        "id": 20,
+        "name": "Lolita",
+        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Lolita.",
+        "score": 1.06
       },
       {
-        "id": 104,
-        "name": "Gloo",
-        "reason": "Tanks that can chain CC such as Tigreal and Minotaur,\nallowing her to keep enemies linked.",
-        "score": 0.96
+        "id": 97,
+        "name": "Benedetta",
+        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Benedetta.",
+        "score": 1.03
       }
     ]
   },
@@ -1951,7 +1951,7 @@
         "id": 112,
         "name": "Floryn",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Floryn.",
-        "score": 1.96
+        "score": 1.92
       },
       {
         "id": 106,
@@ -1966,16 +1966,16 @@
         "score": 1.68
       },
       {
-        "id": 120,
-        "name": "Arlott",
-        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Arlott.",
-        "score": 1.54
-      },
-      {
         "id": 85,
         "name": "Dyrroth",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Dyrroth.",
-        "score": 1.51
+        "score": 1.56
+      },
+      {
+        "id": 124,
+        "name": "Chip",
+        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Chip.",
+        "score": 1.49
       }
     ]
   },
@@ -2061,31 +2061,31 @@
         "id": 4,
         "name": "Alice",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Alice.",
-        "score": 2.46
+        "score": 2.43
       },
       {
         "id": 83,
         "name": "X.Borg",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with X.Borg.",
-        "score": 1.89
+        "score": 1.9
       },
       {
         "id": 11,
         "name": "Bane",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Bane.",
-        "score": 1.78
+        "score": 1.77
       },
       {
         "id": 27,
         "name": "Sun",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Sun.",
-        "score": 1.56
+        "score": 1.55
       },
       {
-        "id": 108,
-        "name": "Aulus",
-        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Aulus.",
-        "score": 1.45
+        "id": 28,
+        "name": "Alpha",
+        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Alpha.",
+        "score": 1.42
       }
     ]
   },
@@ -2171,31 +2171,31 @@
         "id": 94,
         "name": "Popol and Kupa",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Popol and Kupa.",
-        "score": 2.8
+        "score": 2.79
       },
       {
         "id": 39,
         "name": "Roger",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Roger.",
-        "score": 2.13
+        "score": 2.08
       },
       {
         "id": 10,
         "name": "Franco",
         "reason": "Layla works best with Tanks that can protect backline heroes, such as Minsitthar and Belerick, since their protection gives Layla more opportunities to deal damage.",
-        "score": 1.67
+        "score": 1.65
       },
       {
         "id": 35,
         "name": "Hilda",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Hilda.",
-        "score": 1.42
+        "score": 1.4
       },
       {
         "id": 73,
         "name": "Harith",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Harith.",
-        "score": 1.16
+        "score": 1.34
       }
     ]
   },
@@ -2281,31 +2281,31 @@
         "id": 33,
         "name": "Cyclops",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Cyclops.",
-        "score": 1.9
+        "score": 1.93
       },
       {
         "id": 42,
         "name": "Harley",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Harley.",
-        "score": 1.65
+        "score": 1.66
       },
       {
         "id": 16,
         "name": "Zilong",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Zilong.",
-        "score": 1.62
+        "score": 1.61
       },
       {
         "id": 35,
         "name": "Hilda",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Hilda.",
-        "score": 1.51
+        "score": 1.49
       },
       {
         "id": 27,
         "name": "Sun",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Sun.",
-        "score": 1.26
+        "score": 1.27
       }
     ]
   },
@@ -2391,31 +2391,31 @@
         "id": 104,
         "name": "Gloo",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Gloo.",
-        "score": 2.77
+        "score": 2.69
       },
       {
         "id": 70,
         "name": "Belerick",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Belerick.",
-        "score": 2.56
+        "score": 2.53
       },
       {
         "id": 49,
         "name": "Hylos",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Hylos.",
-        "score": 2.42
-      },
-      {
-        "id": 78,
-        "name": "Khufra",
-        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Khufra.",
-        "score": 2.36
+        "score": 2.39
       },
       {
         "id": 9,
         "name": "Akai",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Akai.",
-        "score": 2.31
+        "score": 2.35
+      },
+      {
+        "id": 78,
+        "name": "Khufra",
+        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Khufra.",
+        "score": 2.3
       }
     ]
   },
@@ -2501,31 +2501,31 @@
         "id": 3,
         "name": "Saber",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Saber.",
-        "score": 2.37
+        "score": 2.4
       },
       {
         "id": 11,
         "name": "Bane",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Bane.",
-        "score": 2.02
+        "score": 2.07
       },
       {
         "id": 74,
         "name": "Minsitthar",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Minsitthar.",
-        "score": 1.95
+        "score": 2.03
       },
       {
         "id": 90,
         "name": "Silvanna",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Silvanna.",
-        "score": 1.9
+        "score": 1.88
       },
       {
         "id": 85,
         "name": "Dyrroth",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Dyrroth.",
-        "score": 1.52
+        "score": 1.63
       }
     ]
   },
@@ -2608,34 +2608,34 @@
     ],
     "synergy": [
       {
-        "id": 64,
-        "name": "Aldous",
-        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Aldous.",
-        "score": 1.52
+        "id": 97,
+        "name": "Benedetta",
+        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Benedetta.",
+        "score": 1.54
       },
       {
         "id": 41,
         "name": "Gatotkaca",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Gatotkaca.",
-        "score": 1.51
-      },
-      {
-        "id": 97,
-        "name": "Benedetta",
-        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Benedetta.",
-        "score": 1.48
+        "score": 1.52
       },
       {
         "id": 82,
         "name": "Terizla",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Terizla.",
+        "score": 1.47
+      },
+      {
+        "id": 64,
+        "name": "Aldous",
+        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Aldous.",
         "score": 1.45
       },
       {
         "id": 98,
         "name": "Khaleed",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Khaleed.",
-        "score": 1.43
+        "score": 1.45
       }
     ]
   },
@@ -2727,25 +2727,25 @@
         "id": 97,
         "name": "Benedetta",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Benedetta.",
-        "score": 1.43
-      },
-      {
-        "id": 74,
-        "name": "Minsitthar",
-        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Minsitthar.",
-        "score": 1.08
+        "score": 1.44
       },
       {
         "id": 6,
         "name": "Tigreal",
         "reason": "Karina works well with heroes who can pull enemies together, such as Tigreal and Faramis, since her Ultimate and 2nd Skill also hits anyone near her main target, setting them up to be chain killed by her Ultimate.",
-        "score": 1.06
+        "score": 1.04
+      },
+      {
+        "id": 74,
+        "name": "Minsitthar",
+        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Minsitthar.",
+        "score": 1.03
       },
       {
         "id": 72,
         "name": "Thamuz",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Thamuz.",
-        "score": 0.95
+        "score": 0.94
       }
     ]
   },
@@ -2828,34 +2828,34 @@
     ],
     "synergy": [
       {
-        "id": 74,
-        "name": "Minsitthar",
-        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Minsitthar.",
-        "score": 1.95
-      },
-      {
         "id": 90,
         "name": "Silvanna",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Silvanna.",
-        "score": 1.9
+        "score": 1.88
       },
       {
-        "id": 61,
-        "name": "Chang'e",
-        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Chang'e.",
-        "score": 1.76
-      },
-      {
-        "id": 50,
-        "name": "Zhask",
-        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Zhask.",
-        "score": 1.73
+        "id": 74,
+        "name": "Minsitthar",
+        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Minsitthar.",
+        "score": 1.88
       },
       {
         "id": 3,
         "name": "Saber",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Saber.",
         "score": 1.73
+      },
+      {
+        "id": 61,
+        "name": "Chang'e",
+        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Chang'e.",
+        "score": 1.72
+      },
+      {
+        "id": 16,
+        "name": "Zilong",
+        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Zilong.",
+        "score": 1.7
       }
     ]
   },
@@ -2938,34 +2938,34 @@
     ],
     "synergy": [
       {
-        "id": 78,
-        "name": "Khufra",
-        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Khufra.",
-        "score": 1.2
-      },
-      {
         "id": 117,
         "name": "Fredrinn",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Fredrinn.",
-        "score": 1.19
-      },
-      {
-        "id": 42,
-        "name": "Harley",
-        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Harley.",
         "score": 1.18
       },
       {
         "id": 20,
         "name": "Lolita",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Lolita.",
-        "score": 1.05
+        "score": 1.16
+      },
+      {
+        "id": 78,
+        "name": "Khufra",
+        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Khufra.",
+        "score": 1.15
+      },
+      {
+        "id": 42,
+        "name": "Harley",
+        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Harley.",
+        "score": 1.15
       },
       {
         "id": 35,
         "name": "Hilda",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Hilda.",
-        "score": 1.03
+        "score": 1.01
       }
     ]
   },
@@ -3048,22 +3048,22 @@
     ],
     "synergy": [
       {
-        "id": 18,
-        "name": "Layla",
-        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Layla.",
-        "score": 2.13
-      },
-      {
         "id": 121,
         "name": "Ixia",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Ixia.",
-        "score": 2.13
+        "score": 2.28
+      },
+      {
+        "id": 18,
+        "name": "Layla",
+        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Layla.",
+        "score": 2.08
       },
       {
         "id": 53,
         "name": "Lesley",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Lesley.",
-        "score": 2.08
+        "score": 2.07
       },
       {
         "id": 79,
@@ -3075,7 +3075,7 @@
         "id": 13,
         "name": "Clint",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Clint.",
-        "score": 1.87
+        "score": 1.86
       }
     ]
   },
@@ -3161,31 +3161,31 @@
         "id": 118,
         "name": "Joy",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Joy.",
-        "score": 1.27
+        "score": 1.28
       },
       {
         "id": 122,
         "name": "Nolan",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Nolan.",
-        "score": 1.18
+        "score": 1.23
       },
       {
         "id": 17,
         "name": "Fanny",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Fanny.",
-        "score": 1.12
-      },
-      {
-        "id": 73,
-        "name": "Harith",
-        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Harith.",
-        "score": 1.09
+        "score": 1.17
       },
       {
         "id": 125,
         "name": "Zhuxin",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Zhuxin.",
-        "score": 1.08
+        "score": 1.09
+      },
+      {
+        "id": 120,
+        "name": "Arlott",
+        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Arlott.",
+        "score": 1.07
       }
     ]
   },
@@ -3271,7 +3271,7 @@
         "id": 34,
         "name": "Estes",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Estes.",
-        "score": 1.7
+        "score": 1.68
       },
       {
         "id": 121,
@@ -3283,19 +3283,19 @@
         "id": 117,
         "name": "Fredrinn",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Fredrinn.",
-        "score": 1.45
+        "score": 1.4
       },
       {
         "id": 87,
         "name": "Baxia",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Baxia.",
-        "score": 1.36
+        "score": 1.35
       },
       {
         "id": 22,
         "name": "Freya",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Freya.",
-        "score": 1.07
+        "score": 1.09
       }
     ]
   },
@@ -3381,31 +3381,31 @@
         "id": 120,
         "name": "Arlott",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Arlott.",
-        "score": 5.59
+        "score": 5.67
       },
       {
         "id": 128,
         "name": "Kalea",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Kalea.",
-        "score": 5.09
+        "score": 5.54
       },
       {
         "id": 46,
         "name": "Odette",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Odette.",
-        "score": 4.74
+        "score": 4.76
       },
       {
         "id": 112,
         "name": "Floryn",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Floryn.",
-        "score": 3.66
+        "score": 3.68
       },
       {
-        "id": 92,
-        "name": "Carmilla",
-        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Carmilla.",
-        "score": 2.72
+        "id": 78,
+        "name": "Khufra",
+        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Khufra.",
+        "score": 2.6
       }
     ]
   },
@@ -3491,31 +3491,31 @@
         "id": 112,
         "name": "Floryn",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Floryn.",
-        "score": 6.0
+        "score": 5.98
       },
       {
         "id": 34,
         "name": "Estes",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Estes.",
-        "score": 4.34
-      },
-      {
-        "id": 55,
-        "name": "Angela",
-        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Angela.",
-        "score": 3.6
+        "score": 4.27
       },
       {
         "id": 14,
         "name": "Rafaela",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Rafaela.",
-        "score": 3.55
+        "score": 3.54
+      },
+      {
+        "id": 55,
+        "name": "Angela",
+        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Angela.",
+        "score": 3.5
       },
       {
         "id": 102,
         "name": "Mathilda",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Mathilda.",
-        "score": 3.16
+        "score": 3.09
       }
     ]
   },
@@ -3601,31 +3601,31 @@
         "id": 11,
         "name": "Bane",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Bane.",
-        "score": 1.91
+        "score": 1.92
       },
       {
         "id": 122,
         "name": "Nolan",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Nolan.",
-        "score": 1.25
+        "score": 1.28
       },
       {
         "id": 24,
         "name": "Natalia",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Natalia.",
-        "score": 1.16
-      },
-      {
-        "id": 116,
-        "name": "Julian",
-        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Julian.",
-        "score": 1.14
+        "score": 1.24
       },
       {
         "id": 48,
         "name": "Diggie",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Diggie.",
-        "score": 1.12
+        "score": 1.14
+      },
+      {
+        "id": 51,
+        "name": "Helcurt",
+        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Helcurt.",
+        "score": 1.11
       }
     ]
   },
@@ -3711,31 +3711,31 @@
         "id": 27,
         "name": "Sun",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Sun.",
-        "score": 2.08
+        "score": 2.06
       },
       {
         "id": 35,
         "name": "Hilda",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Hilda.",
-        "score": 1.65
+        "score": 1.64
       },
       {
         "id": 61,
         "name": "Chang'e",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Chang'e.",
-        "score": 1.47
+        "score": 1.49
       },
       {
         "id": 32,
         "name": "Johnson",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Johnson.",
-        "score": 1.31
+        "score": 1.34
       },
       {
-        "id": 118,
-        "name": "Joy",
-        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Joy.",
-        "score": 1.3
+        "id": 10,
+        "name": "Franco",
+        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Franco.",
+        "score": 1.26
       }
     ]
   },
@@ -3821,7 +3821,7 @@
         "id": 16,
         "name": "Zilong",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Zilong.",
-        "score": 3.17
+        "score": 3.15
       },
       {
         "id": 3,
@@ -3833,7 +3833,7 @@
         "id": 51,
         "name": "Helcurt",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Helcurt.",
-        "score": 2.56
+        "score": 2.53
       },
       {
         "id": 90,
@@ -3845,7 +3845,7 @@
         "id": 64,
         "name": "Aldous",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Aldous.",
-        "score": 2.02
+        "score": 2.04
       }
     ]
   },
@@ -3928,34 +3928,34 @@
     ],
     "synergy": [
       {
-        "id": 98,
-        "name": "Khaleed",
-        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Khaleed.",
-        "score": 1.27
-      },
-      {
         "id": 9,
         "name": "Akai",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Akai.",
-        "score": 1.18
+        "score": 1.26
       },
       {
-        "id": 6,
-        "name": "Tigreal",
-        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Tigreal.",
-        "score": 1.12
+        "id": 98,
+        "name": "Khaleed",
+        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Khaleed.",
+        "score": 1.19
       },
       {
         "id": 104,
         "name": "Gloo",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Gloo.",
-        "score": 1.06
+        "score": 1.12
       },
       {
-        "id": 20,
-        "name": "Lolita",
-        "reason": "Support heroes that can provide buffs such as Rafaela and Floryn.",
-        "score": 1.02
+        "id": 82,
+        "name": "Terizla",
+        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Terizla.",
+        "score": 1.12
+      },
+      {
+        "id": 6,
+        "name": "Tigreal",
+        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Tigreal.",
+        "score": 1.09
       }
     ]
   },
@@ -4047,25 +4047,25 @@
         "id": 34,
         "name": "Estes",
         "reason": "Barats works best with Supports who can give him Movement Speed to make up for his lack of mobility, such as Mathilda and Angela.",
-        "score": 1.56
-      },
-      {
-        "id": 14,
-        "name": "Rafaela",
-        "reason": "Barats works best with Supports who can give him Movement Speed to make up for his lack of mobility, such as Mathilda and Angela.",
-        "score": 1.41
+        "score": 1.57
       },
       {
         "id": 55,
         "name": "Angela",
         "reason": "Barats works best with Supports who can give him Movement Speed to make up for his lack of mobility, such as Mathilda and Angela.",
-        "score": 1.38
+        "score": 1.43
+      },
+      {
+        "id": 14,
+        "name": "Rafaela",
+        "reason": "Barats works best with Supports who can give him Movement Speed to make up for his lack of mobility, such as Mathilda and Angela.",
+        "score": 1.42
       },
       {
         "id": 108,
         "name": "Aulus",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Aulus.",
-        "score": 1.25
+        "score": 1.18
       }
     ]
   },
@@ -4151,19 +4151,19 @@
         "id": 55,
         "name": "Angela",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Angela.",
-        "score": 2.75
+        "score": 2.79
       },
       {
         "id": 85,
         "name": "Dyrroth",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Dyrroth.",
-        "score": 0.87
+        "score": 0.92
       },
       {
         "id": 16,
         "name": "Zilong",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Zilong.",
-        "score": 0.84
+        "score": 0.8
       },
       {
         "id": 60,
@@ -4172,10 +4172,10 @@
         "score": 0.78
       },
       {
-        "id": 32,
-        "name": "Johnson",
-        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Johnson.",
-        "score": 0.66
+        "id": 64,
+        "name": "Aldous",
+        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Aldous.",
+        "score": 0.68
       }
     ]
   },
@@ -4267,25 +4267,25 @@
         "id": 9,
         "name": "Akai",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Akai.",
+        "score": 1.33
+      },
+      {
+        "id": 61,
+        "name": "Chang'e",
+        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Chang'e.",
         "score": 1.32
       },
       {
         "id": 33,
         "name": "Cyclops",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Cyclops.",
-        "score": 1.3
+        "score": 1.26
       },
       {
-        "id": 61,
-        "name": "Chang'e",
-        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Chang'e.",
-        "score": 1.3
-      },
-      {
-        "id": 32,
-        "name": "Johnson",
-        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Johnson.",
-        "score": 1.18
+        "id": 19,
+        "name": "Minotaur",
+        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Minotaur.",
+        "score": 1.14
       }
     ]
   },
@@ -4371,31 +4371,31 @@
         "id": 128,
         "name": "Kalea",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Kalea.",
-        "score": 4.94
+        "score": 4.71
       },
       {
         "id": 92,
         "name": "Carmilla",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Carmilla.",
-        "score": 3.7
-      },
-      {
-        "id": 93,
-        "name": "Atlas",
-        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Atlas.",
-        "score": 3.16
+        "score": 3.69
       },
       {
         "id": 46,
         "name": "Odette",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Odette.",
-        "score": 3.06
+        "score": 3.13
+      },
+      {
+        "id": 93,
+        "name": "Atlas",
+        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Atlas.",
+        "score": 3.09
       },
       {
         "id": 3,
         "name": "Saber",
         "reason": "Mathilda works well with high burst damage heroes who can use Guiding Wind and follow up her Ultimate to secure kills, such as Saber and Eudora.",
-        "score": 2.25
+        "score": 2.24
       }
     ]
   },
@@ -4481,7 +4481,7 @@
         "id": 55,
         "name": "Angela",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Angela.",
-        "score": 1.89
+        "score": 1.9
       },
       {
         "id": 34,
@@ -4493,13 +4493,13 @@
         "id": 60,
         "name": "Hanabi",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Hanabi.",
-        "score": 1.32
+        "score": 1.31
       },
       {
         "id": 67,
         "name": "Leomord",
         "reason": "Martis works best with Fighters that initiate teamfights like Alpha and Khaleed who he can follow up to secure a kill and chain more kills with his Ultimate.",
-        "score": 1.11
+        "score": 1.2
       },
       {
         "id": 27,
@@ -4591,31 +4591,31 @@
         "id": 125,
         "name": "Zhuxin",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Zhuxin.",
-        "score": 8.37
+        "score": 8.34
       },
       {
         "id": 42,
         "name": "Harley",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Harley.",
-        "score": 2.89
+        "score": 2.8
       },
       {
         "id": 22,
         "name": "Freya",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Freya.",
-        "score": 2.15
+        "score": 2.19
       },
       {
-        "id": 110,
-        "name": "Valentina",
-        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Valentina.",
+        "id": 122,
+        "name": "Nolan",
+        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Nolan.",
         "score": 2.09
       },
       {
         "id": 79,
         "name": "Granger",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Granger.",
-        "score": 2.06
+        "score": 1.99
       }
     ]
   },
@@ -4701,19 +4701,19 @@
         "id": 6,
         "name": "Tigreal",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Tigreal.",
-        "score": 1.92
+        "score": 1.91
       },
       {
         "id": 124,
         "name": "Chip",
         "reason": "Julian works best with powerful support heroes who can buff him, like Angela and Diggie.",
-        "score": 1.74
+        "score": 1.73
       },
       {
         "id": 32,
         "name": "Johnson",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Johnson.",
-        "score": 1.7
+        "score": 1.69
       },
       {
         "id": 131,
@@ -4811,31 +4811,31 @@
         "id": 76,
         "name": "Faramis",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Faramis.",
-        "score": 2.44
+        "score": 2.39
       },
       {
         "id": 73,
         "name": "Harith",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Harith.",
-        "score": 1.88
+        "score": 1.78
       },
       {
         "id": 88,
         "name": "Masha",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Masha.",
-        "score": 1.34
-      },
-      {
-        "id": 94,
-        "name": "Popol and Kupa",
-        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Popol and Kupa.",
-        "score": 1.3
+        "score": 1.35
       },
       {
         "id": 132,
         "name": "Marcel",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Marcel.",
-        "score": 1.21
+        "score": 1.24
+      },
+      {
+        "id": 94,
+        "name": "Popol and Kupa",
+        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Popol and Kupa.",
+        "score": 1.23
       }
     ]
   },
@@ -4921,25 +4921,25 @@
         "id": 94,
         "name": "Popol and Kupa",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Popol and Kupa.",
-        "score": 3.73
+        "score": 3.68
       },
       {
         "id": 73,
         "name": "Harith",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Harith.",
-        "score": 2.56
+        "score": 2.67
       },
       {
         "id": 39,
         "name": "Roger",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Roger.",
-        "score": 2.08
+        "score": 2.07
       },
       {
         "id": 11,
         "name": "Bane",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Bane.",
-        "score": 1.31
+        "score": 1.34
       },
       {
         "id": 108,
@@ -5031,13 +5031,13 @@
         "id": 42,
         "name": "Harley",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Harley.",
-        "score": 1.31
+        "score": 1.33
       },
       {
         "id": 92,
         "name": "Carmilla",
         "reason": "Cecilion works well with Tanks with sustained CC abilities, such as Carmilla and Minotaur, since their CC can help Cecilion land his skills.",
-        "score": 1.07
+        "score": 1.08
       },
       {
         "id": 132,
@@ -5046,16 +5046,16 @@
         "score": 0.98
       },
       {
-        "id": 87,
-        "name": "Baxia",
-        "reason": "Cecilion works well with Tanks with sustained CC abilities, such as Carmilla and Minotaur, since their CC can help Cecilion land his skills.",
-        "score": 0.93
+        "id": 73,
+        "name": "Harith",
+        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Harith.",
+        "score": 0.85
       },
       {
         "id": 88,
         "name": "Masha",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Masha.",
-        "score": 0.85
+        "score": 0.82
       }
     ]
   },
@@ -5141,31 +5141,31 @@
         "id": 88,
         "name": "Masha",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Masha.",
-        "score": 1.54
+        "score": 1.63
       },
       {
         "id": 132,
         "name": "Marcel",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Marcel.",
-        "score": 1.4
+        "score": 1.38
       },
       {
         "id": 42,
         "name": "Harley",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Harley.",
-        "score": 1.31
+        "score": 1.29
       },
       {
         "id": 78,
         "name": "Khufra",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Khufra.",
-        "score": 1.25
+        "score": 1.22
       },
       {
-        "id": 53,
-        "name": "Lesley",
-        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Lesley.",
-        "score": 1.02
+        "id": 125,
+        "name": "Zhuxin",
+        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Zhuxin.",
+        "score": 1.1
       }
     ]
   },
@@ -5251,31 +5251,31 @@
         "id": 35,
         "name": "Hilda",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Hilda.",
-        "score": 2.74
+        "score": 2.76
       },
       {
         "id": 34,
         "name": "Estes",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Estes.",
-        "score": 2.37
+        "score": 2.3
       },
       {
         "id": 20,
         "name": "Lolita",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Lolita.",
-        "score": 2.18
-      },
-      {
-        "id": 10,
-        "name": "Franco",
-        "reason": "Pairing Silvanna with Tanks gives her sufficient space to dish out damage.\nFor example, Atlas and Tigreal.",
-        "score": 2.13
+        "score": 2.14
       },
       {
         "id": 70,
         "name": "Belerick",
         "reason": "Pairing Silvanna with Tanks gives her sufficient space to dish out damage.\nFor example, Atlas and Tigreal.",
         "score": 2.12
+      },
+      {
+        "id": 10,
+        "name": "Franco",
+        "reason": "Pairing Silvanna with Tanks gives her sufficient space to dish out damage.\nFor example, Atlas and Tigreal.",
+        "score": 2.11
       }
     ]
   },
@@ -5361,31 +5361,31 @@
         "id": 55,
         "name": "Angela",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Angela.",
-        "score": 4.15
+        "score": 4.13
       },
       {
         "id": 112,
         "name": "Floryn",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Floryn.",
-        "score": 2.7
+        "score": 2.68
       },
       {
         "id": 24,
         "name": "Natalia",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Natalia.",
-        "score": 2.55
+        "score": 2.5
       },
       {
         "id": 34,
         "name": "Estes",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Estes.",
-        "score": 2.04
+        "score": 2.07
       },
       {
         "id": 27,
         "name": "Sun",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Sun.",
-        "score": 1.76
+        "score": 1.73
       }
     ]
   },
@@ -5471,31 +5471,31 @@
         "id": 112,
         "name": "Floryn",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Floryn.",
-        "score": 1.66
+        "score": 1.67
       },
       {
         "id": 42,
         "name": "Harley",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Harley.",
-        "score": 1.5
+        "score": 1.51
       },
       {
         "id": 14,
         "name": "Rafaela",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Rafaela.",
-        "score": 1.37
+        "score": 1.38
       },
       {
         "id": 34,
         "name": "Estes",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Estes.",
-        "score": 1.33
+        "score": 1.32
       },
       {
-        "id": 132,
-        "name": "Marcel",
-        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Marcel.",
-        "score": 1.24
+        "id": 125,
+        "name": "Zhuxin",
+        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Zhuxin.",
+        "score": 1.28
       }
     ]
   },
@@ -5581,31 +5581,31 @@
         "id": 19,
         "name": "Minotaur",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Minotaur.",
-        "score": 1.9
+        "score": 1.89
       },
       {
         "id": 11,
         "name": "Bane",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Bane.",
-        "score": 1.75
-      },
-      {
-        "id": 108,
-        "name": "Aulus",
-        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Aulus.",
-        "score": 1.6
+        "score": 1.78
       },
       {
         "id": 78,
         "name": "Khufra",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Khufra.",
-        "score": 1.54
+        "score": 1.65
+      },
+      {
+        "id": 108,
+        "name": "Aulus",
+        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Aulus.",
+        "score": 1.59
       },
       {
         "id": 6,
         "name": "Tigreal",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Tigreal.",
-        "score": 1.48
+        "score": 1.51
       }
     ]
   },
@@ -5691,31 +5691,31 @@
         "id": 4,
         "name": "Alice",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Alice.",
-        "score": 2.31
+        "score": 2.28
       },
       {
         "id": 104,
         "name": "Gloo",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Gloo.",
-        "score": 1.76
-      },
-      {
-        "id": 98,
-        "name": "Khaleed",
-        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Khaleed.",
-        "score": 1.49
+        "score": 1.75
       },
       {
         "id": 2,
         "name": "Balmond",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Balmond.",
-        "score": 1.49
+        "score": 1.46
+      },
+      {
+        "id": 98,
+        "name": "Khaleed",
+        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Khaleed.",
+        "score": 1.35
       },
       {
         "id": 83,
         "name": "X.Borg",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with X.Borg.",
-        "score": 1.28
+        "score": 1.24
       }
     ]
   },
@@ -5801,31 +5801,31 @@
         "id": 11,
         "name": "Bane",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Bane.",
-        "score": 1.82
+        "score": 1.89
       },
       {
         "id": 4,
         "name": "Alice",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Alice.",
-        "score": 1.75
+        "score": 1.72
       },
       {
         "id": 73,
         "name": "Harith",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Harith.",
-        "score": 1.68
+        "score": 1.66
       },
       {
         "id": 115,
         "name": "Xavier",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Xavier.",
-        "score": 1.54
+        "score": 1.63
       },
       {
         "id": 118,
         "name": "Joy",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Joy.",
-        "score": 1.51
+        "score": 1.6
       }
     ]
   },
@@ -5911,31 +5911,31 @@
         "id": 124,
         "name": "Chip",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Chip.",
-        "score": 5.09
+        "score": 5.54
       },
       {
         "id": 102,
         "name": "Mathilda",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Mathilda.",
-        "score": 4.94
+        "score": 4.71
       },
       {
         "id": 132,
         "name": "Marcel",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Marcel.",
-        "score": 4.76
+        "score": 4.71
       },
       {
         "id": 112,
         "name": "Floryn",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Floryn.",
-        "score": 4.16
+        "score": 4.63
       },
       {
         "id": 62,
         "name": "Kaja",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Kaja.",
-        "score": 3.52
+        "score": 3.91
       }
     ]
   },
@@ -6021,31 +6021,31 @@
         "id": 125,
         "name": "Zhuxin",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Zhuxin.",
-        "score": 7.22
+        "score": 7.25
       },
       {
         "id": 79,
         "name": "Granger",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Granger.",
-        "score": 2.46
+        "score": 2.47
       },
       {
         "id": 22,
         "name": "Freya",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Freya.",
-        "score": 2.15
-      },
-      {
-        "id": 101,
-        "name": "Yve",
-        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Yve.",
-        "score": 2.09
+        "score": 2.19
       },
       {
         "id": 122,
         "name": "Nolan",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Nolan.",
-        "score": 2.04
+        "score": 2.07
+      },
+      {
+        "id": 4,
+        "name": "Alice",
+        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Alice.",
+        "score": 1.97
       }
     ]
   },
@@ -6143,19 +6143,19 @@
         "id": 60,
         "name": "Hanabi",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Hanabi.",
-        "score": 1.63
+        "score": 1.61
       },
       {
         "id": 64,
         "name": "Aldous",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Aldous.",
-        "score": 1.55
+        "score": 1.53
       },
       {
         "id": 32,
         "name": "Johnson",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Johnson.",
-        "score": 1.51
+        "score": 1.48
       }
     ]
   },
@@ -6241,31 +6241,31 @@
         "id": 72,
         "name": "Thamuz",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Thamuz.",
-        "score": 2.06
+        "score": 2.21
       },
       {
         "id": 108,
         "name": "Aulus",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Aulus.",
-        "score": 1.43
+        "score": 1.35
       },
       {
         "id": 7,
         "name": "Alucard",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Alucard.",
-        "score": 1.07
+        "score": 1.13
       },
       {
         "id": 94,
         "name": "Popol and Kupa",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Popol and Kupa.",
-        "score": 1.03
+        "score": 1.06
       },
       {
-        "id": 116,
-        "name": "Julian",
-        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Julian.",
-        "score": 0.95
+        "id": 27,
+        "name": "Sun",
+        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Sun.",
+        "score": 0.99
       }
     ]
   },
@@ -6348,34 +6348,34 @@
     ],
     "synergy": [
       {
-        "id": 62,
-        "name": "Kaja",
-        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Kaja.",
-        "score": 2.15
-      },
-      {
         "id": 120,
         "name": "Arlott",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Arlott.",
-        "score": 2.09
+        "score": 2.1
+      },
+      {
+        "id": 62,
+        "name": "Kaja",
+        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Kaja.",
+        "score": 2.08
       },
       {
         "id": 98,
         "name": "Khaleed",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Khaleed.",
-        "score": 2.02
+        "score": 2.07
       },
       {
-        "id": 106,
-        "name": "Phoveus",
-        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Phoveus.",
-        "score": 1.94
+        "id": 95,
+        "name": "Yu Zhong",
+        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Yu Zhong.",
+        "score": 1.95
       },
       {
         "id": 81,
         "name": "Esmeralda",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Esmeralda.",
-        "score": 1.91
+        "score": 1.92
       }
     ]
   },
@@ -6461,31 +6461,31 @@
         "id": 3,
         "name": "Saber",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Saber.",
-        "score": 3.51
-      },
-      {
-        "id": 90,
-        "name": "Silvanna",
-        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Silvanna.",
-        "score": 2.18
-      },
-      {
-        "id": 74,
-        "name": "Minsitthar",
-        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Minsitthar.",
-        "score": 2.17
+        "score": 3.46
       },
       {
         "id": 128,
         "name": "Kalea",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Kalea.",
-        "score": 2.05
+        "score": 2.33
       },
       {
         "id": 16,
         "name": "Zilong",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Zilong.",
-        "score": 2.04
+        "score": 2.21
+      },
+      {
+        "id": 90,
+        "name": "Silvanna",
+        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Silvanna.",
+        "score": 2.14
+      },
+      {
+        "id": 74,
+        "name": "Minsitthar",
+        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Minsitthar.",
+        "score": 1.95
       }
     ]
   },
@@ -6571,31 +6571,31 @@
         "id": 125,
         "name": "Zhuxin",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Zhuxin.",
-        "score": 3.35
+        "score": 3.76
       },
       {
         "id": 124,
         "name": "Chip",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Chip.",
-        "score": 1.95
+        "score": 2.08
       },
       {
         "id": 42,
         "name": "Harley",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Harley.",
-        "score": 1.72
+        "score": 1.69
       },
       {
         "id": 121,
         "name": "Ixia",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Ixia.",
-        "score": 1.67
+        "score": 1.68
       },
       {
         "id": 32,
         "name": "Johnson",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Johnson.",
-        "score": 1.13
+        "score": 1.17
       }
     ]
   },
@@ -6681,31 +6681,31 @@
         "id": 24,
         "name": "Natalia",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Natalia.",
-        "score": 3.51
+        "score": 3.46
       },
       {
         "id": 3,
         "name": "Saber",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Saber.",
-        "score": 2.59
+        "score": 2.55
       },
       {
         "id": 51,
         "name": "Helcurt",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Helcurt.",
-        "score": 2.42
+        "score": 2.39
       },
       {
         "id": 90,
         "name": "Silvanna",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Silvanna.",
-        "score": 2.05
+        "score": 2.09
       },
       {
         "id": 74,
         "name": "Minsitthar",
         "reason": "Hylos works best with heroes that need faster Movement Speed to engage,\nsuch as Terizla and Minsitthar.",
-        "score": 1.76
+        "score": 1.79
       }
     ]
   },
@@ -6791,31 +6791,31 @@
         "id": 87,
         "name": "Baxia",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Baxia.",
-        "score": 11.58
+        "score": 11.39
       },
       {
         "id": 121,
         "name": "Ixia",
         "reason": "Diggie works best with Marksmen that lack mobility or survivability like Layla and Miya because his skills can protect them very well.",
-        "score": 7.25
+        "score": 7.23
       },
       {
         "id": 105,
         "name": "Beatrix",
         "reason": "Diggie works best with Marksmen that lack mobility or survivability like Layla and Miya because his skills can protect them very well.",
-        "score": 4.21
+        "score": 4.25
       },
       {
         "id": 92,
         "name": "Carmilla",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Carmilla.",
-        "score": 4.19
+        "score": 4.0
       },
       {
         "id": 107,
         "name": "Natan",
         "reason": "Diggie works best with Marksmen that lack mobility or survivability like Layla and Miya because his skills can protect them very well.",
-        "score": 3.87
+        "score": 3.85
       }
     ]
   },
@@ -6901,7 +6901,7 @@
         "id": 90,
         "name": "Silvanna",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Silvanna.",
-        "score": 2.13
+        "score": 2.11
       },
       {
         "id": 60,
@@ -6910,22 +6910,22 @@
         "score": 2.06
       },
       {
-        "id": 3,
-        "name": "Saber",
-        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Saber.",
-        "score": 1.85
-      },
-      {
         "id": 74,
         "name": "Minsitthar",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Minsitthar.",
-        "score": 1.79
+        "score": 1.76
       },
       {
         "id": 27,
         "name": "Sun",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Sun.",
-        "score": 1.77
+        "score": 1.74
+      },
+      {
+        "id": 3,
+        "name": "Saber",
+        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Saber.",
+        "score": 1.73
       }
     ]
   },
@@ -7011,25 +7011,25 @@
         "id": 33,
         "name": "Cyclops",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Cyclops.",
-        "score": 1.84
+        "score": 1.79
       },
       {
         "id": 35,
         "name": "Hilda",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Hilda.",
-        "score": 1.68
+        "score": 1.74
       },
       {
         "id": 16,
         "name": "Zilong",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Zilong.",
-        "score": 1.39
+        "score": 1.4
       },
       {
         "id": 2,
         "name": "Balmond",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Balmond.",
-        "score": 1.35
+        "score": 1.34
       },
       {
         "id": 32,
@@ -7121,31 +7121,31 @@
         "id": 78,
         "name": "Khufra",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Khufra.",
-        "score": 1.6
+        "score": 1.64
       },
       {
         "id": 33,
         "name": "Cyclops",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Cyclops.",
-        "score": 1.44
-      },
-      {
-        "id": 87,
-        "name": "Baxia",
-        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Baxia.",
-        "score": 1.31
+        "score": 1.5
       },
       {
         "id": 42,
         "name": "Harley",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Harley.",
-        "score": 1.28
+        "score": 1.3
+      },
+      {
+        "id": 87,
+        "name": "Baxia",
+        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Baxia.",
+        "score": 1.29
       },
       {
         "id": 99,
         "name": "Barats",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Barats.",
-        "score": 0.93
+        "score": 0.9
       }
     ]
   },
@@ -7231,31 +7231,31 @@
         "id": 41,
         "name": "Gatotkaca",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Gatotkaca.",
-        "score": 4.15
+        "score": 4.13
       },
       {
         "id": 133,
         "name": "Hirara",
         "reason": "Angela works best with highly mobile Assassins such as Lancelot and Aamon since she can provide CC and heals while increasing their mobility even further.",
-        "score": 3.88
+        "score": 3.82
       },
       {
         "id": 59,
         "name": "Uranus",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Uranus.",
-        "score": 3.62
+        "score": 3.67
       },
       {
         "id": 93,
         "name": "Atlas",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Atlas.",
-        "score": 3.6
+        "score": 3.5
       },
       {
         "id": 92,
         "name": "Carmilla",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Carmilla.",
-        "score": 3.57
+        "score": 3.46
       }
     ]
   },
@@ -7347,25 +7347,25 @@
         "id": 24,
         "name": "Natalia",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Natalia.",
-        "score": 1.67
+        "score": 1.59
       },
       {
         "id": 3,
         "name": "Saber",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Saber.",
-        "score": 1.13
+        "score": 1.14
       },
       {
         "id": 33,
         "name": "Cyclops",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Cyclops.",
-        "score": 1.05
+        "score": 1.13
       },
       {
         "id": 56,
         "name": "Gusion",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Gusion.",
-        "score": 0.94
+        "score": 0.98
       }
     ]
   },
@@ -7451,7 +7451,7 @@
         "id": 118,
         "name": "Joy",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Joy.",
-        "score": 1.68
+        "score": 1.71
       },
       {
         "id": 85,
@@ -7460,22 +7460,22 @@
         "score": 1.28
       },
       {
-        "id": 58,
-        "name": "Martis",
-        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Martis.",
-        "score": 1.11
-      },
-      {
         "id": 48,
         "name": "Diggie",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Diggie.",
-        "score": 1.07
+        "score": 1.2
       },
       {
-        "id": 113,
-        "name": "Yin",
-        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Yin.",
-        "score": 1.06
+        "id": 58,
+        "name": "Martis",
+        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Martis.",
+        "score": 1.2
+      },
+      {
+        "id": 112,
+        "name": "Floryn",
+        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Floryn.",
+        "score": 1.05
       }
     ]
   },
@@ -7561,19 +7561,19 @@
         "id": 90,
         "name": "Silvanna",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Silvanna.",
-        "score": 2.74
-      },
-      {
-        "id": 74,
-        "name": "Minsitthar",
-        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Minsitthar.",
-        "score": 2.51
+        "score": 2.76
       },
       {
         "id": 16,
         "name": "Zilong",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Zilong.",
-        "score": 2.46
+        "score": 2.5
+      },
+      {
+        "id": 74,
+        "name": "Minsitthar",
+        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Minsitthar.",
+        "score": 2.47
       },
       {
         "id": 3,
@@ -7585,7 +7585,7 @@
         "id": 27,
         "name": "Sun",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Sun.",
-        "score": 1.88
+        "score": 1.86
       }
     ]
   },
@@ -7671,31 +7671,31 @@
         "id": 24,
         "name": "Natalia",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Natalia.",
-        "score": 3.55
+        "score": 3.49
       },
       {
         "id": 3,
         "name": "Saber",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Saber.",
-        "score": 2.92
+        "score": 2.93
       },
       {
         "id": 124,
         "name": "Chip",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Chip.",
-        "score": 2.51
+        "score": 2.6
+      },
+      {
+        "id": 14,
+        "name": "Rafaela",
+        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Rafaela.",
+        "score": 2.31
       },
       {
         "id": 51,
         "name": "Helcurt",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Helcurt.",
-        "score": 2.36
-      },
-      {
-        "id": 128,
-        "name": "Kalea",
-        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Kalea.",
-        "score": 2.32
+        "score": 2.3
       }
     ]
   },
@@ -7781,13 +7781,13 @@
         "id": 3,
         "name": "Saber",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Saber.",
-        "score": 1.63
+        "score": 1.61
       },
       {
         "id": 24,
         "name": "Natalia",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Natalia.",
-        "score": 1.36
+        "score": 1.38
       },
       {
         "id": 27,
@@ -7796,16 +7796,16 @@
         "score": 1.18
       },
       {
-        "id": 2,
-        "name": "Balmond",
-        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Balmond.",
-        "score": 1.11
-      },
-      {
         "id": 106,
         "name": "Phoveus",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Phoveus.",
-        "score": 1.1
+        "score": 1.11
+      },
+      {
+        "id": 2,
+        "name": "Balmond",
+        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Balmond.",
+        "score": 1.08
       }
     ]
   },
@@ -7897,25 +7897,25 @@
         "id": 94,
         "name": "Popol and Kupa",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Popol and Kupa.",
-        "score": 1.84
+        "score": 1.85
       },
       {
         "id": 39,
         "name": "Roger",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Roger.",
-        "score": 1.77
+        "score": 1.78
       },
       {
         "id": 35,
         "name": "Hilda",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Hilda.",
-        "score": 1.74
+        "score": 1.73
       },
       {
         "id": 2,
         "name": "Balmond",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Balmond.",
-        "score": 1.63
+        "score": 1.61
       }
     ]
   },
@@ -8001,31 +8001,31 @@
         "id": 4,
         "name": "Alice",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Alice.",
-        "score": 1.92
+        "score": 1.91
       },
       {
         "id": 117,
         "name": "Fredrinn",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Fredrinn.",
-        "score": 1.88
+        "score": 1.9
       },
       {
         "id": 108,
         "name": "Aulus",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Aulus.",
-        "score": 1.81
+        "score": 1.77
       },
       {
         "id": 72,
         "name": "Thamuz",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Thamuz.",
-        "score": 1.73
+        "score": 1.71
       },
       {
         "id": 28,
         "name": "Alpha",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Alpha.",
-        "score": 1.48
+        "score": 1.54
       }
     ]
   },
@@ -8111,19 +8111,19 @@
         "id": 93,
         "name": "Atlas",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Atlas.",
-        "score": 4.34
+        "score": 4.27
       },
       {
         "id": 3,
         "name": "Saber",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Saber.",
-        "score": 3.73
+        "score": 3.67
       },
       {
         "id": 128,
         "name": "Kalea",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Kalea.",
-        "score": 2.92
+        "score": 2.91
       },
       {
         "id": 111,
@@ -8221,31 +8221,31 @@
         "id": 112,
         "name": "Floryn",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Floryn.",
-        "score": 2.03
+        "score": 2.02
       },
       {
         "id": 48,
         "name": "Diggie",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Diggie.",
-        "score": 1.38
+        "score": 1.36
       },
       {
         "id": 14,
         "name": "Rafaela",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Rafaela.",
-        "score": 1.23
+        "score": 1.26
       },
       {
         "id": 42,
         "name": "Harley",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Harley.",
-        "score": 0.88
+        "score": 0.87
       },
       {
         "id": 105,
         "name": "Beatrix",
         "reason": "Selena works well with ranged heroes that can deal high burst damage, such as Xavier and Beatrix.",
-        "score": 0.85
+        "score": 0.84
       }
     ]
   },
@@ -8331,7 +8331,7 @@
         "id": 94,
         "name": "Popol and Kupa",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Popol and Kupa.",
-        "score": 2.57
+        "score": 2.53
       },
       {
         "id": 55,
@@ -8343,19 +8343,19 @@
         "id": 112,
         "name": "Floryn",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Floryn.",
-        "score": 1.61
+        "score": 1.62
       },
       {
         "id": 56,
         "name": "Gusion",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Gusion.",
-        "score": 1.01
+        "score": 0.98
       },
       {
-        "id": 73,
-        "name": "Harith",
-        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Harith.",
-        "score": 0.91
+        "id": 52,
+        "name": "Pharsa",
+        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Pharsa.",
+        "score": 0.79
       }
     ]
   },
@@ -8441,31 +8441,31 @@
         "id": 132,
         "name": "Marcel",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Marcel.",
-        "score": 1.26
+        "score": 1.2
       },
       {
         "id": 42,
         "name": "Harley",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Harley.",
-        "score": 1.21
-      },
-      {
-        "id": 89,
-        "name": "Wanwan",
-        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Wanwan.",
-        "score": 0.88
+        "score": 1.18
       },
       {
         "id": 84,
         "name": "Ling",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Ling.",
-        "score": 0.76
+        "score": 0.83
+      },
+      {
+        "id": 89,
+        "name": "Wanwan",
+        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Wanwan.",
+        "score": 0.79
       },
       {
         "id": 27,
         "name": "Sun",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Sun.",
-        "score": 0.74
+        "score": 0.76
       }
     ]
   },
@@ -8551,13 +8551,13 @@
         "id": 104,
         "name": "Gloo",
         "reason": "Miya works well with Tanks who have powerful CC abilities like Belerick and Tigreal since their CCs give her more opportunities to dish out damage.",
-        "score": 1.95
+        "score": 1.97
       },
       {
         "id": 39,
         "name": "Roger",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Roger.",
-        "score": 1.3
+        "score": 1.29
       },
       {
         "id": 94,
@@ -8569,7 +8569,7 @@
         "id": 93,
         "name": "Atlas",
         "reason": "Miya works well with Tanks who have powerful CC abilities like Belerick and Tigreal since their CCs give her more opportunities to dish out damage.",
-        "score": 1.25
+        "score": 1.26
       },
       {
         "id": 70,
@@ -8673,19 +8673,19 @@
         "id": 102,
         "name": "Mathilda",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Mathilda.",
-        "score": 1.84
+        "score": 1.82
       },
       {
         "id": 124,
         "name": "Chip",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Chip.",
-        "score": 1.72
+        "score": 1.74
       },
       {
         "id": 14,
         "name": "Rafaela",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Rafaela.",
-        "score": 1.39
+        "score": 1.37
       }
     ]
   },
@@ -8771,31 +8771,31 @@
         "id": 112,
         "name": "Floryn",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Floryn.",
-        "score": 5.06
+        "score": 5.04
       },
       {
         "id": 48,
         "name": "Diggie",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Diggie.",
-        "score": 4.19
+        "score": 4.0
       },
       {
         "id": 14,
         "name": "Rafaela",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Rafaela.",
-        "score": 3.74
+        "score": 3.77
       },
       {
         "id": 102,
         "name": "Mathilda",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Mathilda.",
-        "score": 3.7
+        "score": 3.69
       },
       {
         "id": 55,
         "name": "Angela",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Angela.",
-        "score": 3.57
+        "score": 3.46
       }
     ]
   },
@@ -8893,19 +8893,19 @@
         "id": 72,
         "name": "Thamuz",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Thamuz.",
-        "score": 1.5
+        "score": 1.48
       },
       {
         "id": 132,
         "name": "Marcel",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Marcel.",
-        "score": 1.44
+        "score": 1.42
       },
       {
-        "id": 11,
-        "name": "Bane",
-        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Bane.",
-        "score": 1.38
+        "id": 4,
+        "name": "Alice",
+        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Alice.",
+        "score": 1.4
       }
     ]
   },
@@ -8991,7 +8991,7 @@
         "id": 6,
         "name": "Tigreal",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Tigreal.",
-        "score": 2.14
+        "score": 2.13
       },
       {
         "id": 70,
@@ -9003,19 +9003,19 @@
         "id": 97,
         "name": "Benedetta",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Benedetta.",
-        "score": 1.18
+        "score": 1.19
+      },
+      {
+        "id": 124,
+        "name": "Chip",
+        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Chip.",
+        "score": 1.14
       },
       {
         "id": 20,
         "name": "Lolita",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Lolita.",
-        "score": 1.1
-      },
-      {
-        "id": 66,
-        "name": "Vale",
-        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Vale.",
-        "score": 1.09
+        "score": 1.14
       }
     ]
   },
@@ -9101,31 +9101,31 @@
         "id": 35,
         "name": "Hilda",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Hilda.",
-        "score": 2.51
+        "score": 2.47
       },
       {
         "id": 34,
         "name": "Estes",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Estes.",
-        "score": 2.19
-      },
-      {
-        "id": 20,
-        "name": "Lolita",
-        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Lolita.",
-        "score": 2.17
+        "score": 2.18
       },
       {
         "id": 98,
         "name": "Khaleed",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Khaleed.",
+        "score": 2.03
+      },
+      {
+        "id": 20,
+        "name": "Lolita",
+        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Lolita.",
         "score": 1.95
       },
       {
         "id": 32,
         "name": "Johnson",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Johnson.",
-        "score": 1.95
+        "score": 1.88
       }
     ]
   },
@@ -9217,25 +9217,25 @@
         "id": 4,
         "name": "Alice",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Alice.",
-        "score": 2.29
+        "score": 2.28
       },
       {
         "id": 104,
         "name": "Gloo",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Gloo.",
-        "score": 2.27
+        "score": 2.24
       },
       {
         "id": 83,
         "name": "X.Borg",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with X.Borg.",
-        "score": 2.14
+        "score": 2.11
       },
       {
         "id": 70,
         "name": "Belerick",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Belerick.",
-        "score": 2.02
+        "score": 2.04
       }
     ]
   },
@@ -9321,31 +9321,31 @@
         "id": 73,
         "name": "Harith",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Harith.",
-        "score": 2.41
+        "score": 2.49
       },
       {
         "id": 94,
         "name": "Popol and Kupa",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Popol and Kupa.",
-        "score": 1.46
+        "score": 1.45
       },
       {
         "id": 55,
         "name": "Angela",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Angela.",
-        "score": 1.15
+        "score": 1.17
       },
       {
         "id": 39,
         "name": "Roger",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Roger.",
-        "score": 0.93
+        "score": 0.98
       },
       {
-        "id": 6,
-        "name": "Tigreal",
-        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Tigreal.",
-        "score": 0.64
+        "id": 124,
+        "name": "Chip",
+        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Chip.",
+        "score": 0.67
       }
     ]
   },
@@ -9428,34 +9428,34 @@
     ],
     "synergy": [
       {
-        "id": 83,
-        "name": "X.Borg",
-        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with X.Borg.",
-        "score": 1.64
-      },
-      {
         "id": 73,
         "name": "Harith",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Harith.",
-        "score": 1.39
+        "score": 1.72
+      },
+      {
+        "id": 83,
+        "name": "X.Borg",
+        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with X.Borg.",
+        "score": 1.61
       },
       {
         "id": 57,
         "name": "Valir",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Valir.",
-        "score": 1.04
-      },
-      {
-        "id": 4,
-        "name": "Alice",
-        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Alice.",
-        "score": 1.0
+        "score": 1.03
       },
       {
         "id": 23,
         "name": "Gord",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Gord.",
-        "score": 0.97
+        "score": 0.99
+      },
+      {
+        "id": 4,
+        "name": "Alice",
+        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Alice.",
+        "score": 0.98
       }
     ]
   },
@@ -9541,31 +9541,31 @@
         "id": 73,
         "name": "Harith",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Harith.",
-        "score": 2.58
-      },
-      {
-        "id": 46,
-        "name": "Odette",
-        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Odette.",
-        "score": 1.01
+        "score": 2.52
       },
       {
         "id": 94,
         "name": "Popol and Kupa",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Popol and Kupa.",
-        "score": 0.99
+        "score": 1.0
       },
       {
         "id": 17,
         "name": "Fanny",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Fanny.",
-        "score": 0.98
+        "score": 1.0
+      },
+      {
+        "id": 46,
+        "name": "Odette",
+        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Odette.",
+        "score": 0.99
       },
       {
         "id": 133,
         "name": "Hirara",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Hirara.",
-        "score": 0.74
+        "score": 0.76
       }
     ]
   },
@@ -9651,7 +9651,7 @@
         "id": 46,
         "name": "Odette",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Odette.",
-        "score": 1.55
+        "score": 1.53
       },
       {
         "id": 85,
@@ -9663,19 +9663,19 @@
         "id": 88,
         "name": "Masha",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Masha.",
-        "score": 0.94
-      },
-      {
-        "id": 79,
-        "name": "Granger",
-        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Granger.",
-        "score": 0.82
+        "score": 0.97
       },
       {
         "id": 52,
         "name": "Pharsa",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Pharsa.",
-        "score": 0.76
+        "score": 0.83
+      },
+      {
+        "id": 79,
+        "name": "Granger",
+        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Granger.",
+        "score": 0.81
       }
     ]
   },
@@ -9761,31 +9761,31 @@
         "id": 125,
         "name": "Zhuxin",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Zhuxin.",
-        "score": 5.24
+        "score": 5.18
       },
       {
         "id": 33,
         "name": "Cyclops",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Cyclops.",
-        "score": 1.96
+        "score": 1.93
       },
       {
         "id": 42,
         "name": "Harley",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Harley.",
-        "score": 1.88
+        "score": 1.92
       },
       {
         "id": 73,
         "name": "Harith",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Harith.",
-        "score": 1.24
+        "score": 1.2
       },
       {
         "id": 79,
         "name": "Granger",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Granger.",
-        "score": 1.07
+        "score": 1.06
       }
     ]
   },
@@ -9874,28 +9874,28 @@
         "score": 3.49
       },
       {
-        "id": 62,
-        "name": "Kaja",
-        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Kaja.",
-        "score": 2.1
-      },
-      {
         "id": 24,
         "name": "Natalia",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Natalia.",
-        "score": 2.08
+        "score": 2.04
+      },
+      {
+        "id": 62,
+        "name": "Kaja",
+        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Kaja.",
+        "score": 2.0
       },
       {
         "id": 46,
         "name": "Odette",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Odette.",
-        "score": 1.93
+        "score": 1.9
       },
       {
         "id": 26,
         "name": "Chou",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Chou.",
-        "score": 1.9
+        "score": 1.89
       }
     ]
   },
@@ -9981,31 +9981,31 @@
         "id": 95,
         "name": "Yu Zhong",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Yu Zhong.",
-        "score": 2.44
+        "score": 2.4
       },
       {
         "id": 37,
         "name": "Lapu-Lapu",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Lapu-Lapu.",
-        "score": 2.06
+        "score": 2.21
       },
       {
         "id": 97,
         "name": "Benedetta",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Benedetta.",
-        "score": 1.73
+        "score": 1.71
       },
       {
         "id": 20,
         "name": "Lolita",
         "reason": "Thamuz can play to his strength when working with Supports who provide Movement Speed or CC, such as Angela and Rafaela, because they enable him to stay on his targets.",
-        "score": 1.65
+        "score": 1.61
       },
       {
         "id": 27,
         "name": "Sun",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Sun.",
-        "score": 1.53
+        "score": 1.58
       }
     ]
   },
@@ -10097,13 +10097,13 @@
         "id": 24,
         "name": "Natalia",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Natalia.",
-        "score": 2.4
+        "score": 2.34
       },
       {
         "id": 3,
         "name": "Saber",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Saber.",
-        "score": 1.98
+        "score": 1.97
       },
       {
         "id": 51,
@@ -10112,10 +10112,10 @@
         "score": 1.88
       },
       {
-        "id": 32,
-        "name": "Johnson",
-        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Johnson.",
-        "score": 1.58
+        "id": 124,
+        "name": "Chip",
+        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Chip.",
+        "score": 1.63
       }
     ]
   },
@@ -10201,7 +10201,7 @@
         "id": 73,
         "name": "Harith",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Harith.",
-        "score": 1.8
+        "score": 1.84
       },
       {
         "id": 94,
@@ -10213,19 +10213,19 @@
         "id": 24,
         "name": "Natalia",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Natalia.",
-        "score": 1.08
-      },
-      {
-        "id": 46,
-        "name": "Odette",
-        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Odette.",
-        "score": 0.94
+        "score": 1.11
       },
       {
         "id": 85,
         "name": "Dyrroth",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Dyrroth.",
-        "score": 0.94
+        "score": 0.96
+      },
+      {
+        "id": 46,
+        "name": "Odette",
+        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Odette.",
+        "score": 0.93
       }
     ]
   },
@@ -10311,19 +10311,19 @@
         "id": 112,
         "name": "Floryn",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Floryn.",
-        "score": 3.92
+        "score": 3.83
       },
       {
         "id": 16,
         "name": "Zilong",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Zilong.",
-        "score": 2.66
+        "score": 2.58
       },
       {
         "id": 3,
         "name": "Saber",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Saber.",
-        "score": 2.49
+        "score": 2.45
       },
       {
         "id": 64,
@@ -10335,7 +10335,7 @@
         "id": 55,
         "name": "Angela",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Angela.",
-        "score": 2.35
+        "score": 2.36
       }
     ]
   },
@@ -10421,31 +10421,31 @@
         "id": 128,
         "name": "Kalea",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Kalea.",
-        "score": 4.76
+        "score": 4.71
       },
       {
         "id": 3,
         "name": "Saber",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Saber.",
-        "score": 4.39
-      },
-      {
-        "id": 24,
-        "name": "Natalia",
-        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Natalia.",
-        "score": 2.65
+        "score": 4.35
       },
       {
         "id": 92,
         "name": "Carmilla",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Carmilla.",
-        "score": 2.56
+        "score": 2.47
       },
       {
         "id": 93,
         "name": "Atlas",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Atlas.",
-        "score": 2.37
+        "score": 2.41
+      },
+      {
+        "id": 24,
+        "name": "Natalia",
+        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Natalia.",
+        "score": 2.35
       }
     ]
   },
@@ -10531,31 +10531,31 @@
         "id": 48,
         "name": "Diggie",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Diggie.",
-        "score": 11.58
+        "score": 11.39
       },
       {
         "id": 79,
         "name": "Granger",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Granger.",
-        "score": 8.77
+        "score": 8.79
       },
       {
         "id": 112,
         "name": "Floryn",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Floryn.",
-        "score": 6.66
+        "score": 6.65
       },
       {
         "id": 121,
         "name": "Ixia",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Ixia.",
-        "score": 5.75
+        "score": 5.78
       },
       {
         "id": 105,
         "name": "Beatrix",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Beatrix.",
-        "score": 3.63
+        "score": 3.72
       }
     ]
   },
@@ -10641,31 +10641,31 @@
         "id": 42,
         "name": "Harley",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Harley.",
-        "score": 1.63
+        "score": 1.66
       },
       {
         "id": 69,
         "name": "Hanzo",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Hanzo.",
-        "score": 1.38
+        "score": 1.39
       },
       {
         "id": 24,
         "name": "Natalia",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Natalia.",
-        "score": 1.29
+        "score": 1.25
       },
       {
         "id": 64,
         "name": "Aldous",
         "reason": "Teaming up with Fighters with strong initiation like Khaleed and Yu Zhong can simultaneously enhance the entire team's combat potential.",
-        "score": 1.1
+        "score": 1.08
       },
       {
         "id": 40,
         "name": "Karrie",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Karrie.",
-        "score": 1.04
+        "score": 1.03
       }
     ]
   },
@@ -10751,25 +10751,25 @@
         "id": 125,
         "name": "Zhuxin",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Zhuxin.",
-        "score": 3.32
+        "score": 3.46
       },
       {
         "id": 124,
         "name": "Chip",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Chip.",
-        "score": 2.42
+        "score": 2.39
       },
       {
         "id": 110,
         "name": "Valentina",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Valentina.",
-        "score": 2.15
+        "score": 2.19
       },
       {
         "id": 101,
         "name": "Yve",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Yve.",
-        "score": 2.15
+        "score": 2.19
       },
       {
         "id": 122,
@@ -10858,34 +10858,34 @@
     ],
     "synergy": [
       {
-        "id": 62,
-        "name": "Kaja",
-        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Kaja.",
-        "score": 2.45
-      },
-      {
         "id": 31,
         "name": "Moskov",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Moskov.",
-        "score": 2.44
+        "score": 2.39
       },
       {
-        "id": 112,
-        "name": "Floryn",
-        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Floryn.",
-        "score": 2.14
+        "id": 62,
+        "name": "Kaja",
+        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Kaja.",
+        "score": 2.2
       },
       {
         "id": 128,
         "name": "Kalea",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Kalea.",
-        "score": 2.11
+        "score": 2.19
       },
       {
         "id": 14,
         "name": "Rafaela",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Rafaela.",
-        "score": 2.09
+        "score": 2.04
+      },
+      {
+        "id": 112,
+        "name": "Floryn",
+        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Floryn.",
+        "score": 2.03
       }
     ]
   },
@@ -10971,13 +10971,13 @@
         "id": 64,
         "name": "Aldous",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Aldous.",
-        "score": 2.14
+        "score": 2.11
       },
       {
         "id": 123,
         "name": "Cici",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Cici.",
-        "score": 1.89
+        "score": 1.9
       },
       {
         "id": 27,
@@ -10989,13 +10989,13 @@
         "id": 40,
         "name": "Karrie",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Karrie.",
-        "score": 1.64
+        "score": 1.61
       },
       {
         "id": 35,
         "name": "Hilda",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Hilda.",
-        "score": 1.57
+        "score": 1.55
       }
     ]
   },
@@ -11081,31 +11081,31 @@
         "id": 42,
         "name": "Harley",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Harley.",
-        "score": 2.19
+        "score": 2.2
       },
       {
         "id": 54,
         "name": "Jawhead",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Jawhead.",
-        "score": 1.78
-      },
-      {
-        "id": 32,
-        "name": "Johnson",
-        "reason": "Chang'e works well with Tanks who can pull enemies together, like Gatotkaca and Tigreal, because Chang'e can follow them into teamfights to deal massive damage.",
-        "score": 1.76
+        "score": 1.82
       },
       {
         "id": 9,
         "name": "Akai",
         "reason": "Chang'e works well with Tanks who can pull enemies together, like Gatotkaca and Tigreal, because Chang'e can follow them into teamfights to deal massive damage.",
-        "score": 1.76
+        "score": 1.8
+      },
+      {
+        "id": 32,
+        "name": "Johnson",
+        "reason": "Chang'e works well with Tanks who can pull enemies together, like Gatotkaca and Tigreal, because Chang'e can follow them into teamfights to deal massive damage.",
+        "score": 1.72
       },
       {
         "id": 6,
         "name": "Tigreal",
         "reason": "Chang'e works well with Tanks who can pull enemies together, like Gatotkaca and Tigreal, because Chang'e can follow them into teamfights to deal massive damage.",
-        "score": 1.55
+        "score": 1.54
       }
     ]
   },
@@ -11191,31 +11191,31 @@
         "id": 34,
         "name": "Estes",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Estes.",
-        "score": 2.01
+        "score": 2.03
       },
       {
         "id": 27,
         "name": "Sun",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Sun.",
-        "score": 1.97
+        "score": 2.01
       },
       {
         "id": 61,
         "name": "Chang'e",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Chang'e.",
-        "score": 1.78
+        "score": 1.82
       },
       {
         "id": 32,
         "name": "Johnson",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Johnson.",
-        "score": 1.69
+        "score": 1.68
       },
       {
         "id": 70,
         "name": "Belerick",
         "reason": "Jawhead works best with heroes that benefit from a quick engage like Odette and Belerick because he can throw them into the enemy for a surprise attack.",
-        "score": 1.53
+        "score": 1.54
       }
     ]
   },
@@ -11301,13 +11301,13 @@
         "id": 55,
         "name": "Angela",
         "reason": "Hirara has high damage output in the early-to-mid game, but the delay in her skills makes landing them less consistent. Hirara works especially well with strong early-game heroes with CC, such as Angela and Minotaur, allowing her to build an early advantage more easily.",
-        "score": 3.88
+        "score": 3.82
       },
       {
         "id": 112,
         "name": "Floryn",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Floryn.",
-        "score": 1.45
+        "score": 1.43
       },
       {
         "id": 99,
@@ -11319,13 +11319,13 @@
         "id": 13,
         "name": "Clint",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Clint.",
-        "score": 0.81
+        "score": 0.77
       },
       {
         "id": 81,
         "name": "Esmeralda",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Esmeralda.",
-        "score": 0.78
+        "score": 0.76
       }
     ]
   },
@@ -11411,31 +11411,31 @@
         "id": 78,
         "name": "Khufra",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Khufra.",
-        "score": 3.55
+        "score": 3.49
       },
       {
         "id": 49,
         "name": "Hylos",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Hylos.",
-        "score": 3.51
+        "score": 3.46
       },
       {
         "id": 9,
         "name": "Akai",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Akai.",
-        "score": 2.88
+        "score": 2.8
       },
       {
         "id": 112,
         "name": "Floryn",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Floryn.",
-        "score": 2.82
+        "score": 2.76
       },
       {
-        "id": 132,
-        "name": "Marcel",
-        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Marcel.",
-        "score": 2.65
+        "id": 41,
+        "name": "Gatotkaca",
+        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Gatotkaca.",
+        "score": 2.5
       }
     ]
   },
@@ -11521,31 +11521,31 @@
         "id": 123,
         "name": "Cici",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Cici.",
-        "score": 2.46
+        "score": 2.43
       },
       {
         "id": 45,
         "name": "Argus",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Argus.",
-        "score": 2.31
+        "score": 2.28
       },
       {
         "id": 64,
         "name": "Aldous",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Aldous.",
-        "score": 2.29
-      },
-      {
-        "id": 120,
-        "name": "Arlott",
-        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Arlott.",
-        "score": 2.18
+        "score": 2.28
       },
       {
         "id": 55,
         "name": "Angela",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Angela.",
-        "score": 2.13
+        "score": 2.15
+      },
+      {
+        "id": 120,
+        "name": "Arlott",
+        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Arlott.",
+        "score": 2.12
       }
     ]
   },
@@ -11628,34 +11628,34 @@
     ],
     "synergy": [
       {
-        "id": 78,
-        "name": "Khufra",
-        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Khufra.",
-        "score": 1.13
-      },
-      {
         "id": 99,
         "name": "Barats",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Barats.",
-        "score": 1.07
+        "score": 1.08
       },
       {
-        "id": 81,
-        "name": "Esmeralda",
-        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Esmeralda.",
-        "score": 0.75
+        "id": 78,
+        "name": "Khufra",
+        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Khufra.",
+        "score": 1.07
       },
       {
         "id": 111,
         "name": "Edith",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Edith.",
-        "score": 0.69
+        "score": 0.73
+      },
+      {
+        "id": 81,
+        "name": "Esmeralda",
+        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Esmeralda.",
+        "score": 0.71
       },
       {
         "id": 88,
         "name": "Masha",
         "reason": "Hayabusa works best with Fighters like Lapu-Lapu and Alpha who can initiate with him to quickly focus down key targets.",
-        "score": 0.66
+        "score": 0.68
       }
     ]
   },
@@ -11744,28 +11744,28 @@
         "score": 2.65
       },
       {
+        "id": 24,
+        "name": "Natalia",
+        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Natalia.",
+        "score": 1.82
+      },
+      {
         "id": 90,
         "name": "Silvanna",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Silvanna.",
-        "score": 1.86
+        "score": 1.82
       },
       {
         "id": 16,
         "name": "Zilong",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Zilong.",
-        "score": 1.73
-      },
-      {
-        "id": 24,
-        "name": "Natalia",
-        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Natalia.",
-        "score": 1.68
+        "score": 1.71
       },
       {
         "id": 64,
         "name": "Aldous",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Aldous.",
-        "score": 1.46
+        "score": 1.51
       }
     ]
   },
@@ -11851,31 +11851,31 @@
         "id": 87,
         "name": "Baxia",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Baxia.",
-        "score": 8.77
+        "score": 8.79
       },
       {
         "id": 112,
         "name": "Floryn",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Floryn.",
-        "score": 4.3
+        "score": 4.32
       },
       {
         "id": 94,
         "name": "Popol and Kupa",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Popol and Kupa.",
-        "score": 3.88
+        "score": 3.93
       },
       {
         "id": 110,
         "name": "Valentina",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Valentina.",
-        "score": 2.46
+        "score": 2.47
       },
       {
         "id": 117,
         "name": "Fredrinn",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Fredrinn.",
-        "score": 2.09
+        "score": 2.16
       }
     ]
   },
@@ -11961,31 +11961,31 @@
         "id": 101,
         "name": "Yve",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Yve.",
-        "score": 8.37
+        "score": 8.34
       },
       {
         "id": 46,
         "name": "Odette",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Odette.",
-        "score": 7.97
+        "score": 7.99
       },
       {
         "id": 110,
         "name": "Valentina",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Valentina.",
-        "score": 7.22
+        "score": 7.25
       },
       {
         "id": 25,
         "name": "Kagura",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Kagura.",
-        "score": 5.24
+        "score": 5.18
       },
       {
         "id": 86,
         "name": "Lylia",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Lylia.",
-        "score": 5.01
+        "score": 4.59
       }
     ]
   },
@@ -12071,31 +12071,31 @@
         "id": 42,
         "name": "Harley",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Harley.",
-        "score": 2.35
+        "score": 2.37
       },
       {
         "id": 24,
         "name": "Natalia",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Natalia.",
-        "score": 2.07
+        "score": 2.01
       },
       {
         "id": 33,
         "name": "Cyclops",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Cyclops.",
-        "score": 1.87
+        "score": 1.86
       },
       {
         "id": 32,
         "name": "Johnson",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Johnson.",
-        "score": 1.73
+        "score": 1.69
       },
       {
         "id": 51,
         "name": "Helcurt",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Helcurt.",
-        "score": 1.23
+        "score": 1.3
       }
     ]
   },
@@ -12181,31 +12181,31 @@
         "id": 121,
         "name": "Ixia",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Ixia.",
-        "score": 4.0
+        "score": 4.2
       },
       {
         "id": 13,
         "name": "Clint",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Clint.",
-        "score": 3.54
+        "score": 3.76
       },
       {
         "id": 105,
         "name": "Beatrix",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Beatrix.",
-        "score": 3.25
+        "score": 3.17
       },
       {
         "id": 100,
         "name": "Brody",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Brody.",
-        "score": 3.13
+        "score": 3.08
       },
       {
         "id": 94,
         "name": "Popol and Kupa",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Popol and Kupa.",
-        "score": 2.85
+        "score": 2.76
       }
     ]
   },
@@ -12291,31 +12291,31 @@
         "id": 72,
         "name": "Thamuz",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Thamuz.",
-        "score": 2.44
+        "score": 2.4
       },
       {
         "id": 11,
         "name": "Bane",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Bane.",
-        "score": 1.87
+        "score": 1.95
       },
       {
         "id": 108,
         "name": "Aulus",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Aulus.",
-        "score": 1.57
+        "score": 1.54
       },
       {
         "id": 116,
         "name": "Julian",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Julian.",
-        "score": 1.41
+        "score": 1.43
       },
       {
         "id": 73,
         "name": "Harith",
         "reason": "Yu Zhong works well with Mages that can initiate with CC such as Vexana and Xavier. Their control effects allow Yu Zhong to land his skills more easily.",
-        "score": 1.33
+        "score": 1.32
       }
     ]
   },
@@ -12401,13 +12401,7 @@
         "id": 55,
         "name": "Angela",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Angela.",
-        "score": 2.36
-      },
-      {
-        "id": 34,
-        "name": "Estes",
-        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Estes.",
-        "score": 1.71
+        "score": 2.39
       },
       {
         "id": 27,
@@ -12416,16 +12410,22 @@
         "score": 1.71
       },
       {
+        "id": 34,
+        "name": "Estes",
+        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Estes.",
+        "score": 1.68
+      },
+      {
+        "id": 112,
+        "name": "Floryn",
+        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Floryn.",
+        "score": 1.51
+      },
+      {
         "id": 11,
         "name": "Bane",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Bane.",
         "score": 1.48
-      },
-      {
-        "id": 24,
-        "name": "Natalia",
-        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Natalia.",
-        "score": 1.46
       }
     ]
   },
@@ -12511,31 +12511,31 @@
         "id": 48,
         "name": "Diggie",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Diggie.",
-        "score": 3.87
+        "score": 3.85
       },
       {
         "id": 17,
         "name": "Fanny",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Fanny.",
-        "score": 1.97
+        "score": 1.98
       },
       {
         "id": 87,
         "name": "Baxia",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Baxia.",
-        "score": 1.66
+        "score": 1.82
       },
       {
         "id": 76,
         "name": "Faramis",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Faramis.",
-        "score": 1.49
+        "score": 1.43
       },
       {
         "id": 120,
         "name": "Arlott",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Arlott.",
-        "score": 1.27
+        "score": 1.36
       }
     ]
   },
@@ -12621,31 +12621,31 @@
         "id": 92,
         "name": "Carmilla",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Carmilla.",
-        "score": 3.74
+        "score": 3.77
       },
       {
         "id": 93,
         "name": "Atlas",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Atlas.",
-        "score": 3.55
+        "score": 3.54
       },
       {
         "id": 62,
         "name": "Kaja",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Kaja.",
-        "score": 3.5
+        "score": 3.46
       },
       {
         "id": 3,
         "name": "Saber",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Saber.",
-        "score": 2.77
+        "score": 2.72
       },
       {
-        "id": 128,
-        "name": "Kalea",
-        "reason": "When teamed up with Fighters like Freya and Lapu-Lapu, Rafaela can boost their offensive power and survivability.",
-        "score": 2.1
+        "id": 78,
+        "name": "Khufra",
+        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Khufra.",
+        "score": 2.31
       }
     ]
   },
@@ -12731,13 +12731,13 @@
         "id": 55,
         "name": "Angela",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Angela.",
-        "score": 3.62
+        "score": 3.67
       },
       {
         "id": 11,
         "name": "Bane",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Bane.",
-        "score": 1.45
+        "score": 1.39
       },
       {
         "id": 51,
@@ -12749,13 +12749,13 @@
         "id": 28,
         "name": "Alpha",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Alpha.",
-        "score": 1.28
+        "score": 1.29
       },
       {
-        "id": 24,
-        "name": "Natalia",
-        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Natalia.",
-        "score": 1.05
+        "id": 116,
+        "name": "Julian",
+        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Julian.",
+        "score": 1.0
       }
     ]
   },
@@ -12841,7 +12841,7 @@
         "id": 112,
         "name": "Floryn",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Floryn.",
-        "score": 1.93
+        "score": 1.96
       },
       {
         "id": 73,
@@ -12853,19 +12853,19 @@
         "id": 46,
         "name": "Odette",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Odette.",
-        "score": 1.33
+        "score": 1.31
       },
       {
         "id": 22,
         "name": "Freya",
         "reason": "Yi Sun-shin works best with Fighters who can initiate, such as Alpha and Khaleed, so he can follow up and unleash his full damage after they have CC'd the enemy.",
-        "score": 1.17
+        "score": 1.15
       },
       {
         "id": 79,
         "name": "Granger",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Granger.",
-        "score": 1.09
+        "score": 1.1
       }
     ]
   },
@@ -12948,34 +12948,34 @@
     ],
     "synergy": [
       {
-        "id": 117,
-        "name": "Fredrinn",
-        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Fredrinn.",
-        "score": 1.89
-      },
-      {
         "id": 67,
         "name": "Leomord",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Leomord.",
-        "score": 1.68
+        "score": 1.71
+      },
+      {
+        "id": 117,
+        "name": "Fredrinn",
+        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Fredrinn.",
+        "score": 1.65
       },
       {
         "id": 88,
         "name": "Masha",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Masha.",
-        "score": 1.51
-      },
-      {
-        "id": 113,
-        "name": "Yin",
-        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Yin.",
-        "score": 1.3
+        "score": 1.6
       },
       {
         "id": 12,
         "name": "Bruno",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Bruno.",
-        "score": 1.27
+        "score": 1.28
+      },
+      {
+        "id": 114,
+        "name": "Melissa",
+        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Melissa.",
+        "score": 1.19
       }
     ]
   },
@@ -13061,31 +13061,31 @@
         "id": 79,
         "name": "Granger",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Granger.",
-        "score": 3.88
+        "score": 3.93
       },
       {
         "id": 53,
         "name": "Lesley",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Lesley.",
-        "score": 3.73
-      },
-      {
-        "id": 73,
-        "name": "Harith",
-        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Harith.",
-        "score": 2.85
-      },
-      {
-        "id": 18,
-        "name": "Layla",
-        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Layla.",
-        "score": 2.8
+        "score": 3.68
       },
       {
         "id": 100,
         "name": "Brody",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Brody.",
-        "score": 2.72
+        "score": 2.79
+      },
+      {
+        "id": 18,
+        "name": "Layla",
+        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Layla.",
+        "score": 2.79
+      },
+      {
+        "id": 73,
+        "name": "Harith",
+        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Harith.",
+        "score": 2.76
       }
     ]
   },
@@ -13171,31 +13171,31 @@
         "id": 87,
         "name": "Baxia",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Baxia.",
-        "score": 6.66
+        "score": 6.65
       },
       {
         "id": 93,
         "name": "Atlas",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Atlas.",
-        "score": 6.0
+        "score": 5.98
       },
       {
         "id": 92,
         "name": "Carmilla",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Carmilla.",
-        "score": 5.06
-      },
-      {
-        "id": 79,
-        "name": "Granger",
-        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Granger.",
-        "score": 4.3
+        "score": 5.04
       },
       {
         "id": 128,
         "name": "Kalea",
         "reason": "Floryn works well with tanky Fighters, such as Terizla and Thamuz, because they are easier to keep alive with heals and can peel enemies off of her.",
-        "score": 4.16
+        "score": 4.63
+      },
+      {
+        "id": 79,
+        "name": "Granger",
+        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Granger.",
+        "score": 4.32
       }
     ]
   },
@@ -13281,31 +13281,31 @@
         "id": 62,
         "name": "Kaja",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Kaja.",
-        "score": 3.66
+        "score": 3.65
       },
       {
         "id": 42,
         "name": "Harley",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Harley.",
-        "score": 1.34
-      },
-      {
-        "id": 27,
-        "name": "Sun",
-        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Sun.",
-        "score": 1.06
+        "score": 1.41
       },
       {
         "id": 39,
         "name": "Roger",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Roger.",
-        "score": 0.98
+        "score": 1.07
+      },
+      {
+        "id": 27,
+        "name": "Sun",
+        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Sun.",
+        "score": 1.07
       },
       {
         "id": 33,
         "name": "Cyclops",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Cyclops.",
-        "score": 0.94
+        "score": 0.91
       }
     ]
   },
@@ -13391,31 +13391,31 @@
         "id": 48,
         "name": "Diggie",
         "reason": "Fredrinn works best with support heroes, who can further improve his survivability, like Angela and Floryn.",
-        "score": 3.04
+        "score": 3.1
       },
       {
         "id": 55,
         "name": "Angela",
         "reason": "Fredrinn works best with support heroes, who can further improve his survivability, like Angela and Floryn.",
-        "score": 3.04
+        "score": 3.1
       },
       {
         "id": 79,
         "name": "Granger",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Granger.",
-        "score": 2.09
-      },
-      {
-        "id": 118,
-        "name": "Joy",
-        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Joy.",
-        "score": 1.89
+        "score": 2.16
       },
       {
         "id": 97,
         "name": "Benedetta",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Benedetta.",
-        "score": 1.88
+        "score": 1.9
+      },
+      {
+        "id": 105,
+        "name": "Beatrix",
+        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Beatrix.",
+        "score": 1.84
       }
     ]
   },
@@ -13501,31 +13501,31 @@
         "id": 51,
         "name": "Helcurt",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Helcurt.",
-        "score": 2.77
+        "score": 2.69
       },
       {
         "id": 24,
         "name": "Natalia",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Natalia.",
-        "score": 2.5
+        "score": 2.48
       },
       {
         "id": 3,
         "name": "Saber",
         "reason": "Gloo works best with high burst damage heroes, as they can quickly take down the enemy hero that he brings back with his Ultimate. Like Eudora and Saber.",
-        "score": 2.37
-      },
-      {
-        "id": 64,
-        "name": "Aldous",
-        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Aldous.",
-        "score": 2.27
+        "score": 2.36
       },
       {
         "id": 16,
         "name": "Zilong",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Zilong.",
-        "score": 2.23
+        "score": 2.26
+      },
+      {
+        "id": 64,
+        "name": "Aldous",
+        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Aldous.",
+        "score": 2.24
       }
     ]
   },
@@ -13611,7 +13611,7 @@
         "id": 35,
         "name": "Hilda",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Hilda.",
-        "score": 1.73
+        "score": 1.76
       },
       {
         "id": 85,
@@ -13623,19 +13623,19 @@
         "id": 55,
         "name": "Angela",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Angela.",
-        "score": 1.47
-      },
-      {
-        "id": 33,
-        "name": "Cyclops",
-        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Cyclops.",
-        "score": 1.38
+        "score": 1.46
       },
       {
         "id": 57,
         "name": "Valir",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Valir.",
-        "score": 1.38
+        "score": 1.39
+      },
+      {
+        "id": 33,
+        "name": "Cyclops",
+        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Cyclops.",
+        "score": 1.37
       }
     ]
   },
@@ -13721,31 +13721,31 @@
         "id": 55,
         "name": "Angela",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Angela.",
-        "score": 2.95
+        "score": 3.0
       },
       {
         "id": 24,
         "name": "Natalia",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Natalia.",
-        "score": 2.88
+        "score": 2.8
       },
       {
         "id": 51,
         "name": "Helcurt",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Helcurt.",
-        "score": 2.31
+        "score": 2.35
       },
       {
         "id": 3,
         "name": "Saber",
         "reason": "Akai works best with heroes who can deal high burst damage as they can help him take down enemies caught in his Ultimate, such as Saber and Eudora.",
-        "score": 1.98
+        "score": 1.96
       },
       {
-        "id": 16,
-        "name": "Zilong",
-        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Zilong.",
-        "score": 1.78
+        "id": 61,
+        "name": "Chang'e",
+        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Chang'e.",
+        "score": 1.8
       }
     ]
   },
@@ -13831,7 +13831,7 @@
         "id": 108,
         "name": "Aulus",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Aulus.",
-        "score": 1.75
+        "score": 1.62
       },
       {
         "id": 11,
@@ -13843,19 +13843,19 @@
         "id": 4,
         "name": "Alice",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Alice.",
-        "score": 1.19
+        "score": 1.17
       },
       {
         "id": 76,
         "name": "Faramis",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Faramis.",
-        "score": 1.17
+        "score": 1.14
       },
       {
         "id": 34,
         "name": "Estes",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Estes.",
-        "score": 1.04
+        "score": 1.12
       }
     ]
   },
@@ -13953,19 +13953,19 @@
         "id": 46,
         "name": "Odette",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Odette.",
-        "score": 0.84
+        "score": 0.86
       },
       {
         "id": 85,
         "name": "Dyrroth",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Dyrroth.",
-        "score": 0.84
+        "score": 0.85
       },
       {
-        "id": 22,
-        "name": "Freya",
-        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Freya.",
-        "score": 0.81
+        "id": 99,
+        "name": "Barats",
+        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Barats.",
+        "score": 0.8
       }
     ]
   },
@@ -14051,31 +14051,31 @@
         "id": 107,
         "name": "Natan",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Natan.",
-        "score": 1.97
-      },
-      {
-        "id": 88,
-        "name": "Masha",
-        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Masha.",
-        "score": 1.32
+        "score": 1.98
       },
       {
         "id": 101,
         "name": "Yve",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Yve.",
-        "score": 1.31
+        "score": 1.42
+      },
+      {
+        "id": 88,
+        "name": "Masha",
+        "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Masha.",
+        "score": 1.29
       },
       {
         "id": 76,
         "name": "Faramis",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Faramis.",
-        "score": 1.3
+        "score": 1.22
       },
       {
         "id": 78,
         "name": "Khufra",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Khufra.",
-        "score": 1.24
+        "score": 1.21
       }
     ]
   },
@@ -14161,19 +14161,19 @@
         "id": 73,
         "name": "Harith",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Harith.",
-        "score": 3.54
+        "score": 3.76
       },
       {
         "id": 94,
         "name": "Popol and Kupa",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Popol and Kupa.",
-        "score": 2.66
+        "score": 2.67
       },
       {
         "id": 39,
         "name": "Roger",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Roger.",
-        "score": 1.87
+        "score": 1.86
       },
       {
         "id": 78,
@@ -14185,7 +14185,7 @@
         "id": 108,
         "name": "Aulus",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Aulus.",
-        "score": 1.52
+        "score": 1.45
       }
     ]
   },
@@ -14271,25 +14271,25 @@
         "id": 124,
         "name": "Chip",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Chip.",
-        "score": 5.59
+        "score": 5.67
       },
       {
         "id": 108,
         "name": "Aulus",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Aulus.",
-        "score": 2.28
+        "score": 2.25
       },
       {
         "id": 4,
         "name": "Alice",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Alice.",
-        "score": 2.18
+        "score": 2.12
       },
       {
         "id": 11,
         "name": "Bane",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Bane.",
-        "score": 2.09
+        "score": 2.1
       },
       {
         "id": 117,
@@ -14381,25 +14381,25 @@
         "id": 101,
         "name": "Yve",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Yve.",
-        "score": 2.89
+        "score": 2.8
       },
       {
         "id": 86,
         "name": "Lylia",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Lylia.",
-        "score": 2.46
+        "score": 2.52
       },
       {
         "id": 50,
         "name": "Zhask",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Zhask.",
-        "score": 2.35
+        "score": 2.37
       },
       {
         "id": 61,
         "name": "Chang'e",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Chang'e.",
-        "score": 2.19
+        "score": 2.2
       },
       {
         "id": 129,
@@ -14491,19 +14491,19 @@
         "id": 48,
         "name": "Diggie",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Diggie.",
-        "score": 7.25
+        "score": 7.23
       },
       {
         "id": 87,
         "name": "Baxia",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Baxia.",
-        "score": 5.75
+        "score": 5.78
       },
       {
         "id": 73,
         "name": "Harith",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Harith.",
-        "score": 4.0
+        "score": 4.2
       },
       {
         "id": 34,
@@ -14515,7 +14515,7 @@
         "id": 94,
         "name": "Popol and Kupa",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Popol and Kupa.",
-        "score": 2.37
+        "score": 2.39
       }
     ]
   },
@@ -14601,13 +14601,13 @@
         "id": 108,
         "name": "Aulus",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Aulus.",
-        "score": 2.0
+        "score": 1.99
       },
       {
         "id": 11,
         "name": "Bane",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Bane.",
-        "score": 1.82
+        "score": 1.9
       },
       {
         "id": 116,
@@ -14619,13 +14619,13 @@
         "id": 112,
         "name": "Floryn",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Floryn.",
-        "score": 1.42
+        "score": 1.39
       },
       {
         "id": 4,
         "name": "Alice",
         "reason": "Combines high utility, excellent lane pressure, and perfect teamfight synergy with Alice.",
-        "score": 1.27
+        "score": 1.3
       }
     ]
   }
