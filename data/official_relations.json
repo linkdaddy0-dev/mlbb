@@ -241,9 +241,9 @@
   },
   "94": {
     "name": "Popol and Kupa",
-    "synergy_desc": "Popol and Kupa are best with Fighters that can charge into enemies' midst and ensure the survival of Popol and Kupa after controlling and killing enemies. For example, Alpha and Khaleed.",
-    "strong_desc": "Kupa is powerful in combat, especially against Marksmen with lower sustainability such as Lesley and Brody.",
-    "weak_desc": "But since Popol and Kupa don't have any Blink skills\nand Popol is quite squishy, they are at the mercy of more agile Assassins like Gusion and Karina."
+    "synergy_desc": "Strong initiators like Marcel, Tigreal, and Atlas make ideal hunting companions. They can easily follow up on Popol's CC, diving the enemy formation to focus the main prey.",
+    "strong_desc": "Squishies with low mobility like Brody, Gord, and Yve are Popol and Kupa's favorite prey. Combo their Skill 1 and Skill 3 for an inescapable CC chain.",
+    "weak_desc": "But against bursty Assassins like Gusion, Karina, or Hirara, Popol and Kupa need to tread carefully. One misstep and they'll close in, putting an end to your hunt."
   },
   "93": {
     "name": "Atlas",
